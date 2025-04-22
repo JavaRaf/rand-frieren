@@ -1,0 +1,67 @@
+name: init banner
+
+on:
+  workflow_dispatch:
+  schedule:
+    # You can change this CRON syntax to customize execute interval
+    - cron: "0 */2 * * *"
+
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  init:
+    runs-on: ubuntu-latest
+
+    env:
+
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}             # GitHub Token for CLI
+      FB_TOKEN: ${{ secrets.FB_TOKEN }}                 # Facebook Token
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.4.0
+        with:
+          python-version: "3.13"
+    
+    # checa se o workflow já está rodando, atribui o valor para a variável IS_RUNNING
+      - name: Is it already running?
+        run: |
+          WORKFLOW_NAME="${{ github.workflow }}"
+          RUN_COUNT=$(gh run list --status=in_progress --json name |
+            jq "[.[] | select(.name == \"$WORKFLOW_NAME\")] | length")
+        
+          if [ "$RUN_COUNT" -gt 1 ]; then
+            echo "The workflow init banner is already running"
+            echo "IS_RUNNING=true" >> $GITHUB_ENV
+          else
+            echo "IS_RUNNING=false" >> $GITHUB_ENV
+          fi
+        
+      # cache de dependencias
+      - name: Cache dependencies
+        uses: actions/cache@v4.2.0
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+            ${{ runner.os }}-
+
+      # instala dependencias
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip 
+          pip install -r requirements.txt
+
+      # So roda o main.py se o workflow não estiver rodando
+      - name: Main
+        run: |
+          if [[ "$IS_RUNNING" != "true" ]]; then 
+            python main.py
+          fi

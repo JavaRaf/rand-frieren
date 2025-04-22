@@ -1,0 +1,114 @@
+github:
+  username: alefouau                         # Your GitHub username (format: string)
+  repo: ehtfio                               # The name of the repo where the frames are stored (format: string)
+
+# Season of your anime (format: integer)
+season: 1  
+
+# provide an img_fps for each episode, this is used for timestamping and subtitles
+# img_fps is the frames per second for the images in the episode (integer | float)
+# number_of_frames is the number of frames in the episode (integer | float)
+episodes:
+  1:
+    img_fps: 2
+    number_of_frames: 2830
+    branch: ep1
+    frames_dir: frames
+  2:
+    img_fps: 2
+    number_of_frames: 2830
+    branch: ep2
+    frames_dir: frames
+  3:
+    img_fps: 2
+    number_of_frames: 2830
+    branch: ep3
+    frames_dir: frames
+  4:
+    img_fps: 2
+    number_of_frames: 2830
+    branch: ep4
+    frames_dir: frames
+  5:
+    img_fps: 2
+    number_of_frames: 2830
+    branch: ep5
+    frames_dir: frames
+  6:
+    img_fps: 2
+    number_of_frames: 2830
+    branch: ep6
+    frames_dir: frames
+  7:
+    img_fps: 2
+    number_of_frames: 2830
+    branch: ep7
+    frames_dir: frames
+  8:
+    img_fps: 2
+    number_of_frames: 2830
+    branch: ep8
+    frames_dir: frames
+  9:
+    img_fps: 2
+    number_of_frames: 2830
+    branch: ep9
+    frames_dir: frames
+  10:
+    img_fps: 2
+    number_of_frames: 2830
+    branch: ep10
+    frames_dir: frames
+  11:
+    img_fps: 2
+    number_of_frames: 2830
+    branch: ep11
+    frames_dir: frames
+  12:
+    img_fps: 2
+    number_of_frames: 2830
+    branch: ep12
+    frames_dir: frames
+   
+posting:
+  fph: 15                                 # Frames posted per cicle (format: integer)                            
+  posting_interval: 2                     # Interval between posts in minutes (recomended: 2 or more)(format: integer)
+  posting_subtitles: true                 # true or false (format: boolean)
+  multi_language_subtitles: true          # true or false (format: boolean)
+
+  random_crop:                             # Random crop settings
+    enabled: true                          # true or false
+    min_x: 200                             # Minimum crop width (format: integer)
+    min_y: 600                             # Minimum crop height (format: integer)
+
+  # Filters settings
+  # Filters que são aplicados as imagens antes de postar no facebook
+  # Se enabled for false, o filtro não será aplicado
+filters:
+  none_filter:                        # No filter applied ( the name of the filter can be 'lambda' in terminal)
+    enabled: true
+    percent: 0.5
+
+  two_panels:
+    enabled: false
+    percent: 0.5
+
+  mirror:
+    enabled: false
+    percent: 0.5
+
+  negative:
+    enabled: false
+    percent: 0.5
+
+  # warp_in:
+  #   enabled: false
+  #   percent: 0.5
+  
+  # warp_out:
+  #   enabled: false
+  #   percent: 0.5
+
+  brightness_contrast:
+    enabled: false
+    percent: 0.5
