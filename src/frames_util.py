@@ -1,11 +1,10 @@
-import random
-from dataclasses import dataclass
 from pathlib import Path
-from tenacity import retry, stop_after_attempt, wait_fixed
+import random
 from typing import Optional
-from typing import Optional
-import httpx
+
 from PIL import Image
+import httpx
+from tenacity import retry, stop_after_attempt, wait_fixed
 
 # Initialize the HTTP client with a timeout and headers
 # The timeout is set to 30 seconds for the entire request and 10 seconds for the connection

@@ -1,9 +1,10 @@
 from datetime import datetime, timedelta
-import re
-import httpx
-from tenacity import retry, stop_after_attempt, wait_fixed
 from pathlib import Path
+import re
+
+import httpx
 from langdetect import detect
+from tenacity import retry, stop_after_attempt, wait_fixed
 
 client = httpx.Client(
     timeout=httpx.Timeout(30, connect=10),
@@ -12,35 +13,46 @@ client = httpx.Client(
         'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36'})
 
 
-#  baixa as legendas se necessário ( as legendas precisam estar na pasta fb)
+# Download subtitles from GitHub if they don't exist locally
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(2))
-def download_subtitles_if_needed(frame_number: int, episode: int, configs: dict) -> None:
-    """Download subtitles from GitHub if they don't exist locally."""
+def download_subtitles_if_needed(episode: int, configs: dict) -> None:
+    """
+    Download subtitles from GitHub if they don't exist locally.
+
+    Args:
+        episode (int): The episode number to download subtitles for.
+        configs (dict): Configuration dictionary containing episode data.
+
+    Returns:
+        None: This function does not return anything.
+    """
     subtitles_dir = Path.cwd() / "subtitles"
     episode_folder_subtitles = subtitles_dir / f"{episode:02d}"
 
     if not subtitles_dir.exists():
         subtitles_dir.mkdir(parents=True, exist_ok=True)
-    
+
     if not episode_folder_subtitles.exists():
         episode_folder_subtitles.mkdir(parents=True, exist_ok=True)
 
     files = [f for f in episode_folder_subtitles.iterdir() if f.is_file() and f.suffix == ".ass"]
 
     if not files:
-        username = configs.get("github", {}).get("username")
-        repo = configs.get("github", {}).get("repo")
-        branch = configs.get("episodes", {}).get(episode, {}).get("branch")
-        origin_subtitle = 'fb'
+        github_data = configs.get("github", {})
+        episode_data = configs.get("episodes", {}).get(episode, {})
 
-        if not all([username, repo, branch, origin_subtitle]):
+        if not all([github_data.get("username"), github_data.get("repo"), episode_data.get("branch"), episode_data.get("origin_subtitle")]):
             print("Error: Missing required configuration values.")
             return None
 
-        frame_url = f'https://raw.githubusercontent.com/{username}/{repo}/{branch}/{origin_subtitle}/subtitle_en.ass'
+        subtitle_url = (
+            f'https://raw.githubusercontent.com/'
+            f'{github_data["username"]}/{github_data["repo"]}/'
+            f'{episode_data["branch"]}/{episode_data["origin_subtitle"]}/subtitle_en.ass'
+        )
 
         try:
-            response = client.get(frame_url)
+            response = client.get(subtitle_url)
             response.raise_for_status()
             subtitle_file = episode_folder_subtitles / 'subtitle_en.ass'
             subtitle_file.write_bytes(response.content)

@@ -1,15 +1,18 @@
-import os
-
+from pathlib import Path
 from time import sleep
 from typing import Optional
-from pathlib import Path
 
-from src.facebook import FacebookAPI; fb = FacebookAPI()
-from src.load_configs import load_configs
+from src.facebook import FacebookAPI
 from src.filters import select_filter
-from src.frames_util import get_random_frame, download_frame, random_crop
-from src.subtitle import frame_to_timestamp, get_subtitle_message, download_subtitles_if_needed
+from src.frames_util import download_frame, get_random_frame, random_crop
+from src.load_configs import load_configs
+from src.subtitle import (
+    download_subtitles_if_needed,
+    frame_to_timestamp,
+    get_subtitle_message,
+)
 
+fb = FacebookAPI()
 
 
 def post_frame(message: str, frame_path: Path) -> Optional[str]:
@@ -189,7 +192,7 @@ def process_frame(CONFIGS, filter_func) -> Optional[dict]:
         print(f"Error: Frame {frame_number} from episode {episode_number} not found.")
         return None
 
-    download_subtitles_if_needed(frame_number, episode_number, CONFIGS)
+    download_subtitles_if_needed(episode_number, CONFIGS)
     subtitle = get_subtitle_message(frame_number, episode_number, CONFIGS)
     timestamp = frame_to_timestamp(CONFIGS.get("episodes").get(episode_number).get("img_fps"), frame_number)
 

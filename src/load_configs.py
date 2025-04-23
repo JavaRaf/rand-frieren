@@ -1,5 +1,6 @@
-from ruamel.yaml import YAML
 from pathlib import Path
+
+from ruamel.yaml import YAML
 
 
 

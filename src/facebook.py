@@ -1,12 +1,13 @@
-import httpx
 import os
-from tenacity import retry
 from pathlib import Path
+
+import httpx
+from tenacity import retry
 from tenacity import (
+    RetryError,
+    retry_if_exception_type,
     stop_after_attempt,
     wait_exponential,
-    retry_if_exception_type,
-    RetryError,
 )
 
 # Carrega as variáveis de ambiente do arquivo .env

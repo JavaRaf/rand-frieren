@@ -1,5 +1,6 @@
-import random
 from pathlib import Path
+import random
+
 from PIL import Image, ImageEnhance
 
 OUTPUT_DIR = Path.cwd() / "images"
