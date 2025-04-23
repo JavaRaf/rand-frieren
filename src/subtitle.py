@@ -41,14 +41,14 @@ def download_subtitles_if_needed(episode: int, configs: dict) -> None:
         github_data = configs.get("github", {})
         episode_data = configs.get("episodes", {}).get(episode, {})
 
-        if not all([github_data.get("username"), github_data.get("repo"), episode_data.get("branch"), episode_data.get("origin_subtitle")]):
+        if not all([github_data.get("username"), github_data.get("repo"), episode_data.get("branch")]):
             print("Error: Missing required configuration values.")
             return None
 
         subtitle_url = (
             f'https://raw.githubusercontent.com/'
             f'{github_data["username"]}/{github_data["repo"]}/'
-            f'{episode_data["branch"]}/{episode_data["origin_subtitle"]}/subtitle_en.ass'
+            f'{episode_data["branch"]}/fb/subtitle_en.ass'
         )
 
         try:
@@ -244,6 +244,7 @@ def get_subtitle_message(current_frame: int, current_episode: int, configs: dict
     subtitle_dir = subtitles_dir / f"{current_episode:02d}"
 
     if not subtitle_dir.exists():
+        subtitle_dir.mkdir(parents=True, exist_ok=True)
         return None
 
     files = [f for f in subtitle_dir.iterdir() if f.is_file() and f.suffix == ".ass"]
@@ -251,7 +252,7 @@ def get_subtitle_message(current_frame: int, current_episode: int, configs: dict
         files = [files[0]]
 
     if not files:
-        print(f"Error: No subtitle files found in {subtitle_dir}")
+        print(f"Error: subtitles active, but not found in {subtitle_dir}")
         return None
 
     message = ""
