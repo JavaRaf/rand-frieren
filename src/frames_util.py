@@ -6,6 +6,10 @@ from PIL import Image
 import httpx
 from tenacity import retry, stop_after_attempt, wait_fixed
 
+from src.logger import get_logger
+
+logger = get_logger(__name__)
+
 # Initialize the HTTP client with a timeout and headers
 # The timeout is set to 30 seconds for the entire request and 10 seconds for the connection
 client = httpx.Client(
@@ -35,7 +39,7 @@ def download_frame(configs: dict, frame_number: int, episode_number: int) -> Opt
         frames_dir = configs.get("episodes", {}).get(episode_number, {}).get("frames_dir")
 
         if not all([username, repo, branch, frames_dir]):
-            print("Error: Missing required configuration values.")
+            logger.error("Error: Missing required configuration values for download subtitle", exc_info=True)
             return None
 
         frame_url = f'https://raw.githubusercontent.com/{username}/{repo}/{branch}/{frames_dir}/frame_{frame_number}.jpg'
@@ -49,16 +53,16 @@ def download_frame(configs: dict, frame_number: int, episode_number: int) -> Opt
         frame_path.write_bytes(response.content)
 
         return frame_path
-
     except httpx.RequestError as e:
-        print(f"Request error while downloading frame {frame_number} from episode {episode_number}: {e}")
+        logger.error(f"Request error while downloading frame {frame_number} from episode {episode_number}: {e}", exc_info=True)
+        return None
     except httpx.HTTPStatusError as e:
-        print(f"HTTP error while downloading frame {frame_number} from episode {episode_number}: "
-              f"{e.response.status_code} - {e.response.text}")
+        logger.error(f"HTTP error while downloading frame {frame_number} from episode {episode_number}: "
+                     f"{e.response.status_code} - {e.response.text}", exc_info=True)
+        return None
     except Exception as e:
-        print(f"Unexpected error: {e}")
-
-    return None
+        logger.error(f"Unexpected error: {e}", exc_info=True)
+        return None
 
 
 def get_random_frame(configs: dict) -> tuple[int, int] | None:
@@ -82,9 +86,9 @@ def get_random_frame(configs: dict) -> tuple[int, int] | None:
     number_of_frames = episode_data.get("number_of_frames", 0)
 
     if number_of_frames <= 0:
-        print(f"No frames available in episode {random_episode_key}.")
+        logger.error(f"No frames available in episode {random_episode_key}.", exc_info=True)
         return None
-
+    
     return random.randint(1, number_of_frames), int(random_episode_key)
 
    
@@ -99,11 +103,11 @@ def random_crop(frame_path: Path, configs: dict) -> tuple[Path, str] | None:
         tuple[Path, str]: Tuple containing the path to the cropped image and the crop coordinates.
     """
     if not isinstance(frame_path, Path):
-        print("frame_path must be a Path object")
+        logger.error("frame_path must be a Path object", exc_info=True)
         return None, None
 
     if not frame_path.is_file():
-        print("frame_path must be a file")
+        logger.error("frame_path must be a file", exc_info=True)
         return None, None
 
     try:
@@ -145,5 +149,5 @@ def random_crop(frame_path: Path, configs: dict) -> tuple[Path, str] | None:
             return cropped_path, message
 
     except Exception as e:
-        print(f"Failed to crop image: {str(e)}", exc_info=True)
+        logger.error(f"Failed to crop image: {str(e)}", exc_info=True)
         return None, None

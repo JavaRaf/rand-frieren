@@ -10,6 +10,10 @@ from tenacity import (
     wait_exponential,
 )
 
+from src.logger import get_logger
+
+logger = get_logger(__name__)
+
 # Carrega as variáveis de ambiente do arquivo .env
 # O parâmetro override=False garante que as variáveis de ambiente não sejam sobrescritas
 #  se já estiverem definidas no ambiente do sistema operacional
@@ -24,14 +28,11 @@ class FacebookAPI:
         self.access_token = os.getenv("FB_TOKEN", None)
         self.client = httpx.Client(base_url=self.base_url, timeout=httpx.Timeout(30, connect=10))
 
-        # Verifica se o token de acesso foi definido
-        # Se não estiver definido, levanta um erro
-        if not os.getenv("FB_TOKEN"):
-                raise ValueError(
-                    "The access token was not found \n"
-                    "in the environment variables. Please set FB_TOKEN correctly in the GitHub secrets."
-                )
-
+    # Verifica se o token de acesso foi definido
+    # Se não estiver definido, levanta um erro
+    if not os.getenv("FB_TOKEN"):
+        logger.error("FB_TOKEN not defined")
+        raise ValueError("FB_TOKEN not defined")
 
     @retry(
         stop=stop_after_attempt(3),  # Máximo de 3 tentativas
@@ -50,19 +51,16 @@ class FacebookAPI:
             try:
                 return response.json().get("id")
             except ValueError:
-                print("Resposta não contém JSON válido")
+                logger.error('Error: Response does not contain valid JSON', exc_info=True)
                 return None
-
-        print(f"Falha ao postar: {response.status_code} {response.text}")
+        
         response.raise_for_status()  # Levanta exceção para ativar retry
         return None
 
-    def post(
-        self, message: str = "", frame_path: Path = None, parent_id: str = None
-    ) -> str | None:
+    def post(self, message: str = "", frame_path: Path = None, parent_id: str = None) -> str | None:
         """
-        Posta uma mensagem no Facebook.
-        Se todas as tentativas falharem, apenas loga o erro e retorna None.
+        Posts a message to Facebook.
+        If all attempts fail, only logs the error and returns None.
         """
         endpoint = (
             f"{self.base_url}/{parent_id}/comments"
@@ -78,16 +76,11 @@ class FacebookAPI:
                 try:
                     return self._try_post(endpoint, params, files)
                 except RetryError:
-                   print("Falha ao postar após múltiplas tentativas.")
-                   return None
+                    logger.error("Failed to post after multiple attempts", exc_info=True)
+                    return None
         else:
             try:
                 return self._try_post(endpoint, params)
             except RetryError:
-                print("Falha ao postar após múltiplas tentativas.")
+                logger.error("Failed to post after multiple attempts", exc_info=True)
                 return None
-
-
-        
-        
-        

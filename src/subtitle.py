@@ -6,6 +6,10 @@ import httpx
 from langdetect import detect
 from tenacity import retry, stop_after_attempt, wait_fixed
 
+from src.logger import get_logger
+
+logger = get_logger(__name__)
+
 client = httpx.Client(
     timeout=httpx.Timeout(30, connect=10),
     headers={
@@ -42,7 +46,7 @@ def download_subtitles_if_needed(episode: int, configs: dict) -> None:
         episode_data = configs.get("episodes", {}).get(episode, {})
 
         if not all([github_data.get("username"), github_data.get("repo"), episode_data.get("branch")]):
-            print("Error: Missing required configuration values.")
+            logger.error("Error: Missing required configuration values.", exc_info=True)
             return None
 
         subtitle_url = (
@@ -58,12 +62,13 @@ def download_subtitles_if_needed(episode: int, configs: dict) -> None:
             subtitle_file.write_bytes(response.content)
             return subtitle_file
         except httpx.RequestError as e:
-            print(f"Request error while downloading subtitles for episode {episode}: {e}")
+            logger.error(f"Request error while downloading subtitles for episode {episode}: {e}", exc_info=True)
         except httpx.HTTPStatusError as e:
-            print(f"HTTP error while downloading subtitles for episode {episode}: "
-                  f"{e.response.status_code} - {e.response.text}")
+            logger.error(f"HTTP error while downloading subtitles for episode {episode}: "
+                  f"{e.response.status_code} - {e.response.text}", exc_info=True)
         except Exception as e:
-            print(f"Unexpected error: {e}")
+            logger.error(f"Unexpected error: {e}", exc_info=True)
+            return None
 
     return None
 
@@ -122,7 +127,7 @@ def frame_to_timestamp(img_fps: int | float, current_frame: int) -> str | None:
     """
 
     if not isinstance(img_fps, (int, float)) or not isinstance(current_frame, int):
-        print("Error, img_fps or frame_number must be a number", exc_info=True)
+        logger.error("Error, img_fps or frame_number must be a number", exc_info=True)
         return None
 
     frame_timestamp = datetime(1900, 1, 1) + timedelta(seconds=current_frame / img_fps)
@@ -139,7 +144,7 @@ def frame_to_timestamp(img_fps: int | float, current_frame: int) -> str | None:
 def language_detect(file_path: Path, dialogues: list[str]) -> str:
     """Detects the language based on the dialogue content and renames the file."""
     if not file_path.exists():
-        print(f"Error: File not found: {file_path}")
+        logger.error(f"Error: File not found: {file_path}", exc_info=True)
         return "Unknown"
 
     # Divide the file name into parts
@@ -159,7 +164,7 @@ def language_detect(file_path: Path, dialogues: list[str]) -> str:
     language = LANGUAGE_CODES.get(lang_code, "Unknown")
 
     if language == "Unknown":
-        print("Language detection failed. Keeping original filename.")
+        logger.error("Language detection failed. Keeping original filename.", exc_info=True)
         return language
 
     # Generates a new file path with the detected language
@@ -174,7 +179,7 @@ def language_detect(file_path: Path, dialogues: list[str]) -> str:
         file_path.rename(new_file_path)
         return language
     except Exception as e:
-        print(f"Error renaming file subtitle: {e}")
+        logger.error(f"Error renaming file subtitle: {e}", exc_info=True)
         return "Unknown"
 
 def subtitle_ass(subtitle_file: str, current_frame: int, current_episode: int, configs: dict) -> str | None:
@@ -185,10 +190,7 @@ def subtitle_ass(subtitle_file: str, current_frame: int, current_episode: int, c
     img_fps = configs.get("episodes", {}).get(current_episode, {}).get("img_fps", 0)
 
     if not img_fps:
-        print(
-            "Error, img_fps not set, please define img_fps in the configs.yml file",
-            exc_info=True,
-        )
+        logger.error("Error, img_fps not set, please define img_fps in the configs.yml file", exc_info=True)
         return None
 
     frame_in_seconds = timestamp_to_seconds(frame_to_timestamp(img_fps, current_frame))
@@ -233,11 +235,9 @@ def get_subtitle_message(current_frame: int, current_episode: int, configs: dict
     """
     Returns the subtitle message for the current frame.
     """
-
+    
     if not isinstance(current_frame, int) or not isinstance(current_episode, int):
-        print(
-            "Error, current_frame and current_episode must be integers", exc_info=True
-        )
+        logger.error("Error, current_frame and current_episode must be integers", exc_info=True)
         return None
 
     subtitles_dir = Path.cwd() / "subtitles"
@@ -252,7 +252,7 @@ def get_subtitle_message(current_frame: int, current_episode: int, configs: dict
         files = [files[0]]
 
     if not files:
-        print(f"Error: subtitles active, but not found in {subtitle_dir}")
+        logger.error(f"Error: subtitles active, but not found in {subtitle_dir}", exc_info=True)
         return None
 
     message = ""

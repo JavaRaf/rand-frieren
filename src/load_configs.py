@@ -15,12 +15,12 @@ CONFIGS_PATH = Path.cwd() / "configs.yml"
 
 def load_configs() -> dict:
     if not CONFIGS_PATH.exists():
-        print(f"Config file not found: {CONFIGS_PATH}", flush=True)
+        logger.error(f"Config file not found: {CONFIGS_PATH}", exc_info=True)
         return {}
 
     try:
         with open(CONFIGS_PATH, "r") as file:
             return yaml.load(file)
     except Exception as e:
-        print(f"Error while loading configs: {e}", flush=True)
+        logger.error(f"Error while loading configs: {e}", exc_info=True)
         return {}
