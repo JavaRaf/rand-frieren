@@ -90,15 +90,15 @@ filters:
     percent: 0.5
 
   two_panels:
-    enabled: false
+    enabled: true
     percent: 0.5
 
   mirror:
-    enabled: false
+    enabled: true
     percent: 0.5
 
   negative:
-    enabled: false
+    enabled: true
     percent: 0.5
 
   # warp_in:
@@ -110,5 +110,5 @@ filters:
   #   percent: 0.5
 
   brightness_contrast:
-    enabled: false
+    enabled: true
     percent: 0.5
