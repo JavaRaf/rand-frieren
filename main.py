@@ -239,7 +239,7 @@ def main():
 
             post_frame_data(season, single_frame_data, configs)
 
-
+        print('\n' + '-' * 50 + '\n' + '-' * 50,  flush=True) # deixa a vizualizacao melhor em ambientes de CI/CD
         sleep(posting_interval * 60) # 2 minutes
 
         
