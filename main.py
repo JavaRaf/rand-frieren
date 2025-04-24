@@ -83,8 +83,10 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
             season=season,
             episode1=frame_data[0]["episode"],
             episode2=frame_data[1]["episode"],
+
             timestamp1=frame_data[0]["timestamp"],
             timestamp2=frame_data[1]["timestamp"],
+
             filter_func=frame_data[0]["filter_func"]
         )
 
@@ -113,7 +115,7 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
             season=season,
             episode=frame_data["episode"],
             frame=frame_data["frame"],
-            timestamp=frame_data["timestamp"],
+            timestamp=frame_data["timestamp"],           
             filter_func=frame_data["filter_func"]
         )
 
