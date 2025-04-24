@@ -78,22 +78,18 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
     """Posta os dados do frame."""
 
     if isinstance(frame_data, list) and len(frame_data) == 2: # frame pode ser um uma lista ou um dicionário por isso essa checagem
-        message = (
-            '[Random] Frames'
-            '\n\n'
-            f'Season: {season}, Episodes: ( {frame_data[0]["episode"]}, {frame_data[1]["episode"]} )'
-            '\n'
-            f'Frames: ( {frame_data[0]["frame"]}, {frame_data[1]["frame"]} )'
-            '\n'
-            f'timestamps: ( {frame_data[0]["timestamp"]}, {frame_data[1]["timestamp"]} )'
-            '\n'
-            '-'
-            '\n'
-            f'Filter: {frame_data[0]["filter_func"]}'
+        message: str = configs.get("msg_two_panels")
+        message = message.format(
+            season=season,
+            episode1=frame_data[0]["episode"],
+            episode2=frame_data[1]["episode"],
+            timestamp1=frame_data[0]["timestamp"],
+            timestamp2=frame_data[1]["timestamp"],
+            filter_func=frame_data[0]["filter_func"]
         )
 
-        print('\n\n')
         print(
+            "\n\n"
             "├── Posting two panels, Episodes:",
             f'( {frame_data[0]["episode"]}, {frame_data[1]["episode"]} )',
             "Frames:",
@@ -112,22 +108,17 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
         return post_id
 
     else:
-        message = (
-            '[Random] Frame'
-            '\n\n'
-            f'Season: {season}, Episode: {frame_data["episode"]}'
-            '\n'
-            f'Frame: {frame_data["frame"]}'
-            '\n'
-            f'timestamp: {frame_data["timestamp"]}'
-            '\n'
-            '-'
-            '\n'
-            f'Filter: {frame_data["filter_func"]}'
+        message: str = configs.get("msg_single_frame")
+        message = message.format(
+            season=season,
+            episode=frame_data["episode"],
+            frame=frame_data["frame"],
+            timestamp=frame_data["timestamp"],
+            filter_func=frame_data["filter_func"]
         )
 
-        print('\n\n')
         print(
+            "\n\n"
             f"├── Posting {frame_data['filter_func']}, Episode:",
             f'{frame_data["episode"]}',
             "Frame:",

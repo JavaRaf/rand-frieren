@@ -112,3 +112,33 @@ filters:
   brightness_contrast:
     enabled: true
     percent: 0.5
+
+
+
+# title message for two panels
+# supported variables:
+# {season}, {episode1}, {episode2}, {timestamp1}, {timestamp2}, {filter_func}
+msg_two_panels: |
+  [Random] Frames
+   
+  Season: {season}, Episodes: ( {episode1}, {episode2} )
+  Timestamp: ( {timestamp1}, {timestamp2} )
+
+  .
+  .
+
+  Filter: {filter_func}
+  
+# title message for single frame
+# supported variables:
+# {season}, {episode}, {frame}, {timestamp}, {filter_func}
+msg_single_frame: |
+  [Random] Frame
+  
+  Season: {season}, Episode: {episode}, Frame: {frame}
+  Timestamp: {timestamp}
+
+  .
+  .
+
+  Filter: {filter_func}
