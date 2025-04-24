@@ -28,8 +28,26 @@ jobs:
         uses: actions/setup-python@v5.4.0
         with:
           python-version: "3.13"
-    
-    # checa se o workflow já está rodando, atribui o valor para a variável IS_RUNNING
+          
+      # Check if FB_TOKEN is valid
+      - name: Check if FB_TOKEN is valid
+        run: |
+          if [ -z "$FB_TOKEN" ]; then
+            echo "\$\fbox{{\color{{#82061E}}\textsf{{❌  FB_TOKEN is not defined in GitHub Secrets}}}}\$" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          fi
+        
+          response=$(curl -s -w "%{http_code}" -o /tmp/fb_response.json "https://graph.facebook.com/v21.0/me?fields=id,name&access_token=$FB_TOKEN")
+          status_code=$(tail -c 3 <<< "$response")
+        
+          if [ "$status_code" -ne 200 ]; then
+              echo "\$\fbox{{\color{{#82061E}}\textsf{{❌  Invalid or expired Facebook token}}}}\$" >> $GITHUB_STEP_SUMMARY
+              exit 1
+          fi  
+          name=$(jq -r .name /tmp/fb_response.json)
+          echo "\$\fbox{{\color{{#007E33}}\textsf{{✅  Valid token for page: $name}}}}\$" >> $GITHUB_STEP_SUMMARY
+        
+      # checa se o workflow já está rodando, atribui o valor para a variável IS_RUNNING
       - name: Is it already running?
         run: |
           WORKFLOW_NAME="${{ github.workflow }}"
