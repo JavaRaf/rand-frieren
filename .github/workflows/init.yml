@@ -41,10 +41,7 @@ jobs:
             echo "> ❌ **Invalid or expired Facebook token**" >> $GITHUB_STEP_SUMMARY
             exit 1
           fi
-      
-          name=$(jq -r .name <<< "$response")
-          echo "> ✅ **Valid token for:** \`$name\`" >> $GITHUB_STEP_SUMMARY
-          
+
       # checa se o workflow já está rodando, atribui o valor para a variável IS_RUNNING
       - name: Is it already running?
         run: |
