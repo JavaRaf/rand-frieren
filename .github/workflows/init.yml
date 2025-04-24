@@ -36,17 +36,15 @@ jobs:
             exit 1
           fi
       
-          response=$(curl -s -w "%{http_code}" -o /tmp/fb_response.json "https://graph.facebook.com/v21.0/me?fields=id,name&access_token=${{ secrets.FB_TOKEN }}")
-          status_code=$(tail -c 3 <<< "$response")
-      
-          if [ "$status_code" -ne 200 ]; then
+          response=$(curl -X GET -s https://graph.facebook.com/v21.0/me?fields=id,name\&access_token=$FB_TOKEN)
+          if [ $? -ne 0 ] || [ -z "$response" ]; then
             echo "> ❌ **Invalid or expired Facebook token**" >> $GITHUB_STEP_SUMMARY
             exit 1
-          fi  
+          fi
       
-          name=$(jq -r .name /tmp/fb_response.json)
+          name=$(jq -r .name <<< "$response")
           echo "> ✅ **Valid token for:** \`$name\`" >> $GITHUB_STEP_SUMMARY
-        
+          
       # checa se o workflow já está rodando, atribui o valor para a variável IS_RUNNING
       - name: Is it already running?
         run: |
