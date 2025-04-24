@@ -57,7 +57,12 @@ def download_subtitles_if_needed(episode: int, configs: dict) -> None:
 
         try:
             response = client.get(subtitle_url)
-            response.raise_for_status()
+            
+            if not response.status_code == 200:
+                logger.error(f"HTTP error while downloading subtitles for episode {episode}: "
+                            f"{response.status_code} - {response.text}", exc_info=True)
+                return None
+
             subtitle_file = episode_folder_subtitles / 'subtitle_en.ass'
             subtitle_file.write_bytes(response.content)
             return subtitle_file
@@ -252,7 +257,7 @@ def get_subtitle_message(current_frame: int, current_episode: int, configs: dict
         files = [files[0]]
 
     if not files:
-        logger.error(f"Error: subtitles active, but not found in {subtitle_dir}", exc_info=True)
+        logger.error(f"Subtitles active, but not found in directory {subtitle_dir}", exc_info=True)
         return None
 
     message = ""

@@ -42,9 +42,13 @@ def download_frame(configs: dict, frame_number: int, episode_number: int) -> Opt
             logger.error("Error: Missing required configuration values for download subtitle", exc_info=True)
             return None
 
-        frame_url = f'https://raw.githubusercontent.com/{username}/{repo}/{branch}/{frames_dir}/frame_{frame_number}.jpg'
+        frame_url = f'https://raw.githubusercontent.com/{username}/{repo}/{branch}/{frames_dir:02d}/{frame_number:04d}.jpg'
         response = client.get(frame_url)
-        response.raise_for_status()
+        
+        if not response.status_code == 200:
+            logger.error(f"HTTP error while downloading frame {frame_number} from episode {episode_number}: "
+                        f"{response.status_code} - {response.text}", exc_info=True)
+            return None
 
         images_dir = Path.cwd() / "images"
         images_dir.mkdir(parents=True, exist_ok=True)
