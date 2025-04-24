@@ -16,7 +16,6 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}             # GitHub Token for CLI
       FB_TOKEN: ${{ secrets.FB_TOKEN }}                 # Facebook Token
 
@@ -37,7 +36,7 @@ jobs:
             exit 1
           fi
       
-          response=$(curl -s -w "%{http_code}" -o /tmp/fb_response.json "https://graph.facebook.com/v21.0/me?fields=id,name&access_token=$FB_TOKEN")
+          response=$(curl -s -w "%{http_code}" -o /tmp/fb_response.json "https://graph.facebook.com/v21.0/me?fields=id,name&access_token=${{ secrets.FB_TOKEN }}")
           status_code=$(tail -c 3 <<< "$response")
       
           if [ "$status_code" -ne 200 ]; then
@@ -47,7 +46,6 @@ jobs:
       
           name=$(jq -r .name /tmp/fb_response.json)
           echo "> ✅ **Valid token for:** \`$name\`" >> $GITHUB_STEP_SUMMARY
-        
         
       # checa se o workflow já está rodando, atribui o valor para a variável IS_RUNNING
       - name: Is it already running?
