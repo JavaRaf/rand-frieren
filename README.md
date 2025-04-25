@@ -1,5 +1,8 @@
 # anime_frames
 
-post random frames from anime
+post random frames from Frieren´s anime
+
+
+
 
 
