@@ -78,3 +78,11 @@ jobs:
           if [[ "$IS_RUNNING" != "true" ]]; then 
             python main.py
           fi
+        
+      - name: "commit changes"
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "save changes"
+          branch: main
+          file_pattern: "subtitles/* logs/*"
+          

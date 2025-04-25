@@ -10,143 +10,143 @@ season: 1
 # number_of_frames is the number of frames in the episode (integer | float)
 episodes:
   1:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5460
     branch: main
     frames_dir: 01
   2:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5460
     branch: main
     frames_dir: 02
   3:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 03
   4:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5459
     branch: main
     frames_dir: 04
   5:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 05
   6:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 06
   7:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 07
   8:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 08
   9:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 09
   10:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 10
   11:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 11
   12:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 12
    
   13:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 13
   14:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 14
   15:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 15
   16:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 16
   17:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 17
   18:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 18
   19:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 19
   20:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 20
   21:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 21
   22:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 22
   23:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 23
   24:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 24
   25:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 25
   26:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5061
     branch: main
     frames_dir: 26
   27:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5145
     branch: main
     frames_dir: 27
   28:
-    img_fps: 2
+    img_fps: 3.5
     number_of_frames: 5121
     branch: main
     frames_dir: 28
