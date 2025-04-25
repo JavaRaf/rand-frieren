@@ -1,0 +1,269 @@
+﻿[Script Info]
+Title: [Erai-raws] Español (América Latina)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Gen_Main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Main_Up,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00090909,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Gen_Italics_top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Cart_A_Tre,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tre,Trebuchet MS,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Tim,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tim,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Verd,Verdana,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,110,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EpiTitle,Times New Roman,20,&H00FFFFFF,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,6,0020,0020,0020,1
+Style: Cart_Serieslogo,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,10,0,1,0,0,8,0005,0005,0000,1
+Style: Cart_C_Verd,Verdana,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EndCards,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0020,1
+Style: Cart_NextTitle,Times New Roman,20,&H00000000,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,5,0020,0020,0020,1
+Style: Cart_Opening,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00494949,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_Ending,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.78,0:00:08.58,Gen_Main,Wirbel,0000,0000,0000,,Ahora entiendo por qué la Tumba Real\Nen Ruinas era imposible de pasar.
+Dialogue: 0,0:00:10.61,0:00:14.71,Gen_Main,Wirbel,0000,0000,0000,,Nunca me imaginé que habría algo así.
+Dialogue: 0,0:00:23.39,0:00:26.88,Gen_Main,Richter,0000,0000,0000,,Denken, ¿también vamos\Na ser capaces de lidiar con esa?
+Dialogue: 0,0:00:32.70,0:00:34.87,Gen_Main,Denken,0000,0000,0000,,Lo único que puedo decir es que,
+Dialogue: 0,0:00:35.57,0:00:40.60,Gen_Main,Denken,0000,0000,0000,,si esto no fuera un examen, ya habría\Nroto el frasco desde hace mucho.
+Dialogue: 0,0:01:17.58,0:01:22.84,Cart_Serieslogo,CARTEL,0000,0000,0000,,{\fsp1\fs25\fad(800,0)\fsp4\c&HFFFFFF&\pos(320,273.8)\iclip(523.733,177.6,550.933,345.067)\t(4017,5117,\iclip(123.733,177.6,550.933,345.067))}{\1c&HCEFF61&}M{\1c&HD8FF60&}á{\1c&HDFFF5F&}s{\1c&HE5FF5E&} {\1c&HECFF5D&}a{\1c&HF2FF5D&}l{\1c&HF8FF5C&}l{\1c&HFFFF5B&}á {\1c&HCEFF61&}d{\1c&HD5FF60&}e{\1c&HDBFF5F&}l{\1c&HE1FF5F&} {\1c&HE6FF5E&}f{\1c&HECFF5D&}i{\1c&HF3FF5D&}n{\1c&HFAFF5C&}a{\1c&HFFFF5B&}l {\1c&HCEFF61&}d{\1c&HD5FF60&}e{\1c&HDBFF5F&}l{\1c&HE0FF5F&} {\1c&HE6FF5E&}v{\1c&HEDFF5D&}i{\1c&HF3FF5C&}a{\1c&HF9FF5C&}j{\1c&HFFFF5B&}e
+Dialogue: 0,0:02:23.99,0:02:27.00,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an3\pos(562,285)\b0\fad(0,0)}Episodio 24\NCopias perfectas
+Dialogue: 0,0:02:27.95,0:02:32.42,Gen_Main,Genau,0000,0000,0000,,Al amo de ese calabozo\Nnosotros lo llamamos Spigel,
+Dialogue: 0,0:02:32.94,0:02:34.86,Gen_Main,Genau,0000,0000,0000,,el demonio de espejo de agua.
+Dialogue: 0,0:02:36.34,0:02:41.55,Gen_Main,Genau,0000,0000,0000,,Un monstruo de la era mítica que aparece\Nen {\i1}La Epopeya del Héroe{\i0} del sabio Ewig.
+Dialogue: 0,0:02:43.64,0:02:48.53,Gen_Main,Genau,0000,0000,0000,,Se cree que Spigel le lee la mente\Na todo el que se infiltre en el calabozo
+Dialogue: 0,0:02:48.84,0:02:52.87,Gen_Main,Genau,0000,0000,0000,,y crea una copia perfecta del mismo\Na partir de ahí.
+Dialogue: 0,0:02:54.85,0:03:00.32,Gen_Main,Genau,0000,0000,0000,,En la actualidad existe un monstruo\Nmuy parecido llamado Einsam,
+Dialogue: 0,0:03:00.67,0:03:06.06,Gen_Main,Genau,0000,0000,0000,,pero Spigel crea un cuerpo sólido\Nque es una copia perfecta,
+Dialogue: 0,0:03:06.26,0:03:09.74,Gen_Main,Genau,0000,0000,0000,,y posee habilidades, poder mágico\Ny técnicas prácticamente iguales.
+Dialogue: 0,0:03:11.34,0:03:14.81,Gen_Main,Genau,0000,0000,0000,,Por esa razón, la Tumba Real en Ruinas\Nno ha sido conquistada aún.
+Dialogue: 0,0:03:15.50,0:03:19.30,Gen_Main,Falsch,0000,0000,0000,,¿Por qué Sense escogió esta mazmorra\Ncomo lugar del examen?
+Dialogue: 0,0:03:19.50,0:03:22.67,Gen_Main,Genau,0000,0000,0000,,Las copias son enemigos\Nde un nivel igual al tuyo.
+Dialogue: 0,0:03:22.87,0:03:25.42,Gen_Main,Genau,0000,0000,0000,,Para derrotarlas sin que haya víctimas,
+Dialogue: 0,0:03:25.62,0:03:29.31,Gen_Main,Genau,0000,0000,0000,,es necesario analizarse a uno mismo\Nfríamente y trabajar en equipo.
+Dialogue: 0,0:03:33.29,0:03:37.60,Gen_Main,Genau,0000,0000,0000,,De veras que es un examen\Nmuy acorde con sus ideales pacifistas.
+Dialogue: 0,0:03:46.02,0:03:47.70,Gen_Main,Denken,0000,0000,0000,,Oh, no.
+Dialogue: 0,0:03:47.98,0:03:49.41,Gen_Main,Denken,0000,0000,0000,,Retirémonos por un momento.
+Dialogue: 0,0:03:58.18,0:03:59.76,Gen_Main,Richter,0000,0000,0000,,¡Denken!
+Dialogue: 0,0:04:00.97,0:04:02.76,Gen_Main,Denken,0000,0000,0000,,Ahora bien,
+Dialogue: 0,0:04:03.07,0:04:05.30,Gen_Main,Denken,0000,0000,0000,,¿qué vamos a hacer aquí?
+Dialogue: 0,0:04:13.14,0:04:15.23,Gen_Main,Übel,0000,0000,0000,,Llegamos a un callejón sin salida.
+Dialogue: 0,0:04:15.54,0:04:17.70,Gen_Main,Übel,0000,0000,0000,,Quedamos entre\Nla espada y la pared, ¿eh?
+Dialogue: 0,0:04:28.36,0:04:29.79,Gen_Main,Übel,0000,0000,0000,,Cuatro ojos,
+Dialogue: 0,0:04:29.99,0:04:35.17,Gen_Main,Übel,0000,0000,0000,,¿te importaría darme tu opinión\Ncomo especialista de la magia de copias?
+Dialogue: 0,0:04:35.94,0:04:39.58,Gen_Main,Land,0000,0000,0000,,Te he dicho que me llamo Land.
+Dialogue: 0,0:04:39.78,0:04:42.42,Gen_Main,Land,0000,0000,0000,,Bueno, no importa. Pregunta.
+Dialogue: 0,0:04:46.63,0:04:51.82,Gen_Main,Übel,0000,0000,0000,,¿A qué grado de perfección\Ncrees que llegue esa copia mía?
+Dialogue: 0,0:04:52.50,0:04:58.44,Gen_Main,Land,0000,0000,0000,,Übel, eres de las que no para de hablar\Nincluso durante el combate, ¿verdad?
+Dialogue: 0,0:04:59.91,0:05:02.44,Gen_Main,Land,0000,0000,0000,,De las que se mueren\Nsi se quedan calladas.
+Dialogue: 0,0:05:03.13,0:05:05.68,Gen_Main,Übel,0000,0000,0000,,Veo que te has fijado\Nmuy bien en mí, ¿eh?
+Dialogue: 0,0:05:06.42,0:05:09.02,Gen_Main,Übel,0000,0000,0000,,Pero, sí, tienes razón.\NTal vez me moriría.
+Dialogue: 0,0:05:12.82,0:05:14.69,Gen_Main,Übel,0000,0000,0000,,Pero ella es muy callada.
+Dialogue: 0,0:05:16.79,0:05:20.81,Gen_Main,Übel,0000,0000,0000,,¿Querrá decir que no la copiaron\Ncon todo y recuerdos y personalidad?
+Dialogue: 0,0:05:21.33,0:05:24.97,Gen_Main,Land,0000,0000,0000,,No, quizá sea solo que no puede hablar.
+Dialogue: 0,0:05:25.48,0:05:27.47,Gen_Main,Land,0000,0000,0000,,En el primer ataque,
+Dialogue: 0,0:05:28.22,0:05:33.70,Gen_Main,Land,0000,0000,0000,,me arrebató el frasco del gólem\Npara escapar de entre mis demás cosas.
+Dialogue: 0,0:05:38.57,0:05:42.77,Gen_Main,Übel,0000,0000,0000,,Ya veo. Admito que es algo que yo haría.
+Dialogue: 0,0:05:42.97,0:05:45.74,Gen_Main,Land,0000,0000,0000,,También posee información nuestra.
+Dialogue: 0,0:05:46.45,0:05:50.28,Gen_Main,Land,0000,0000,0000,,La razón por la que no sigue atacándonos\Na pesar de que nos arrinconó
+Dialogue: 0,0:05:50.75,0:05:53.66,Gen_Main,Land,0000,0000,0000,,es porque se está cuidando\Nde tu {\i1}Sorganeil{\i0}.
+Dialogue: 0,0:05:55.22,0:05:59.25,Gen_Main,Übel,0000,0000,0000,,O porque le está divirtiendo\Ntorturarnos poco a poco.
+Dialogue: 0,0:06:01.47,0:06:03.00,Gen_Main,Land,0000,0000,0000,,A mí no me causa gracia.
+Dialogue: 0,0:06:05.75,0:06:07.65,Gen_Main,Übel,0000,0000,0000,,Te estás desangrando mucho.
+Dialogue: 0,0:06:09.62,0:06:12.97,Gen_Main,Übel,0000,0000,0000,,Cuatro ojos, no vas a durar mucho\Nsi no haces algo, ¿eh?
+Dialogue: 0,0:06:13.89,0:06:15.68,Gen_Main,Land,0000,0000,0000,,Sí, es verdad.
+Dialogue: 0,0:06:16.37,0:06:18.78,Gen_Main,Übel,0000,0000,0000,,¿Te puedo hacer una última pregunta?
+Dialogue: 0,0:06:20.44,0:06:23.19,Gen_Main,Übel,0000,0000,0000,,¿Ahora eres el verdadero?
+Dialogue: 0,0:06:25.05,0:06:28.20,Gen_Main,Land,0000,0000,0000,,Quién sabe. ¿Tú qué crees?
+Dialogue: 0,0:06:35.78,0:06:37.70,Gen_Main,Übel,0000,0000,0000,,Usa mi frasco.
+Dialogue: 0,0:06:40.09,0:06:43.21,Gen_Main,Land,0000,0000,0000,,El objetivo de ese artefacto\Nes asegurar tu supervivencia.
+Dialogue: 0,0:06:45.67,0:06:47.05,Gen_Main,Übel,0000,0000,0000,,Ah, ¿sí?
+Dialogue: 0,0:06:47.88,0:06:51.04,Gen_Main,Übel,0000,0000,0000,,Bueno, cuatro ojos,\Nespérame aquí un momento, ¿sí?
+Dialogue: 0,0:06:52.83,0:06:54.95,Gen_Main,Übel,0000,0000,0000,,Iré a recuperar tu frasco.
+Dialogue: 0,0:06:55.42,0:06:57.14,Gen_Main,Land,0000,0000,0000,,Oye, espera…
+Dialogue: 0,0:07:02.86,0:07:06.23,Gen_Italics,Übel,0000,0000,0000,,Sí, procura acortar la distancia.
+Dialogue: 0,0:07:06.64,0:07:11.66,Gen_Italics,Übel,0000,0000,0000,,La condición para activar {\i0}Sorganeil{\i1}\Nes tener a la vista todo el cuerpo.
+Dialogue: 0,0:07:14.83,0:07:18.45,Gen_Italics,Übel,0000,0000,0000,,La que erre primero la distancia\Nes la que perderá este combate.
+Dialogue: 0,0:07:23.64,0:07:27.46,Gen_Italics,Übel,0000,0000,0000,,Si la habilidad es igual,\Nel duelo es casi como lanzar una moneda.
+Dialogue: 0,0:07:28.06,0:07:30.88,Gen_Italics,Übel,0000,0000,0000,,Como siempre he tenido mala suerte,
+Dialogue: 0,0:07:31.35,0:07:34.13,Gen_Italics,Übel,0000,0000,0000,,odio los duelos\Nque se determinan al azar.
+Dialogue: 0,0:07:37.38,0:07:41.35,Gen_Italics,Übel,0000,0000,0000,,Por eso nunca se me ha ocurrido\Nquerer luchar contra mí misma.
+Dialogue: 0,0:07:41.77,0:07:45.85,Gen_Main,Übel,0000,0000,0000,,Demonios. ¿Cuándo se me van a quitar\Nestas ganas de morir?
+Dialogue: 0,0:07:55.13,0:07:59.26,Gen_Italics,Übel,0000,0000,0000,,Sí, lo sabía. Tengo mala suerte.\NPor eso me desagrada tanto.
+Dialogue: 0,0:08:01.60,0:08:02.62,Gen_Main,Übel,0000,0000,0000,,Pero…
+Dialogue: 0,0:08:03.77,0:08:07.38,Gen_Main,Übel,0000,0000,0000,,parece que tuviste aún peor suerte.
+Dialogue: 0,0:08:08.34,0:08:11.51,Gen_Main,Übel,0000,0000,0000,,Llegaste más pronto de lo que esperaba,\Ncuatro ojos.
+Dialogue: 0,0:08:23.33,0:08:26.21,Gen_Main,Übel,0000,0000,0000,,Sabía que el frasco\Ntambién resultaría ser falso.
+Dialogue: 0,0:08:35.03,0:08:36.53,Gen_Main,Land,0000,0000,0000,,Übel,
+Dialogue: 0,0:08:37.08,0:08:40.09,Gen_Main,Land,0000,0000,0000,,sabías que el que estaba moribundo\Nera mi copia, ¿verdad?
+Dialogue: 0,0:08:40.47,0:08:42.83,Gen_Main,Land,0000,0000,0000,,¿Por qué arriesgaste la vida tan pronto?
+Dialogue: 0,0:08:43.13,0:08:46.62,Gen_Main,Übel,0000,0000,0000,,Creo que porque estaba segura\Nde que vendrías a mi rescate.
+Dialogue: 0,0:08:47.86,0:08:50.71,Gen_Main,Land,0000,0000,0000,,¿Me veo tan buena gente?
+Dialogue: 0,0:08:51.10,0:08:52.95,Gen_Main,Übel,0000,0000,0000,,No, para nada.
+Dialogue: 0,0:08:53.15,0:08:56.23,Gen_Main,Übel,0000,0000,0000,,De hecho,\Nme vale un comino si lo eres o no.
+Dialogue: 0,0:08:57.39,0:08:58.97,Gen_Main,Übel,0000,0000,0000,,Cuatro ojos,
+Dialogue: 0,0:08:59.24,0:09:02.41,Gen_Main,Übel,0000,0000,0000,,tú no quisiste quedarte con mi frasco.
+Dialogue: 0,0:09:05.88,0:09:09.48,Gen_Main,Übel,0000,0000,0000,,No te agrada que alguien muera\Npor tu culpa, ¿o me equivoco?
+Dialogue: 0,0:09:10.02,0:09:15.62,Gen_Main,Übel,0000,0000,0000,,Por eso creé una situación\Nen la que podría morir por tu culpa.
+Dialogue: 0,0:09:17.88,0:09:20.09,Gen_Main,Übel,0000,0000,0000,,Muchas gracias, cuatro ojos.
+Dialogue: 0,0:09:20.29,0:09:23.62,Gen_Main,Übel,0000,0000,0000,,Algo me dice\Nque te he conocido un poco mejor.
+Dialogue: 0,0:09:23.97,0:09:26.75,Gen_Main,Land,0000,0000,0000,,Ah, ¿sí? Pues me alegro.
+Dialogue: 0,0:09:27.02,0:09:29.27,Gen_Main,Land,0000,0000,0000,,¿Crees que ya podrás\Nidentificarte conmigo?
+Dialogue: 0,0:09:30.36,0:09:32.96,Gen_Main,Übel,0000,0000,0000,,Supongo que me tomará\Nun poco más de tiempo.
+Dialogue: 0,0:09:38.26,0:09:42.26,Gen_Main,Frieren,0000,0000,0000,,Estoy segura de que ya estamos\Nbastante cerca del nivel más profundo.
+Dialogue: 0,0:09:44.10,0:09:47.14,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren,\Nahí hay unas escaleras.
+Dialogue: 0,0:09:50.23,0:09:51.65,Gen_Main,Frieren,0000,0000,0000,,Fern,
+Dialogue: 0,0:09:51.94,0:09:53.53,Gen_Main,Frieren,0000,0000,0000,,muéstrame el mapa un segundo.
+Dialogue: 0,0:09:55.53,0:09:58.85,Gen_Main,Fern,0000,0000,0000,,Estoy segura de que ya exploramos\Neste nivel de cabo a rabo.
+Dialogue: 0,0:10:10.54,0:10:13.54,Gen_Main,Frieren,0000,0000,0000,,Hay una cámara secreta\Ndetrás de esta pared.
+Dialogue: 0,0:10:14.41,0:10:16.44,Gen_Main,Frieren,0000,0000,0000,,Debe ser un gran tesoro.
+Dialogue: 0,0:10:17.72,0:10:23.96,Gen_Main,Frieren,0000,0000,0000,,Todo me indica que hay posibilidades\Nde encontrar un grimorio muy raro.
+Dialogue: 0,0:10:24.38,0:10:28.96,Gen_Main,Fern,0000,0000,0000,,Pero no había en ningún lado\Nalgo parecido a una entrada.
+Dialogue: 0,0:10:29.74,0:10:31.45,Gen_Main,Frieren,0000,0000,0000,,Sí, es verdad.
+Dialogue: 0,0:10:34.58,0:10:39.50,Gen_Main,Frieren,0000,0000,0000,,Pero la estructura arquitectónica\Nme dice que debe haber una cámara aquí.
+Dialogue: 0,0:11:31.78,0:11:35.06,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren, es asombroso.
+Dialogue: 0,0:11:42.61,0:11:46.30,Gen_Main,Sense,0000,0000,0000,,Se muestran los logros y hazañas\Ndel rey sepultado aquí.
+Dialogue: 0,0:11:47.97,0:11:53.02,Gen_Main,Sense,0000,0000,0000,,Es la primera vez que veo un mural\Nde esta dinastía tan bien conservado.
+Dialogue: 0,0:11:54.14,0:11:56.07,Gen_Main,Sense,0000,0000,0000,,Es un descubrimiento de gran valor.
+Dialogue: 0,0:11:59.35,0:12:01.52,Gen_Main,Fern,0000,0000,0000,,Me he quedado sin palabras.
+Dialogue: 0,0:12:15.71,0:12:19.31,Gen_Main,Fern,0000,0000,0000,,De verdad estamos avanzando\Nsin ningún problema que me da miedo.
+Dialogue: 0,0:12:19.51,0:12:23.34,Gen_Main,Fern,0000,0000,0000,,Es posible que vayamos a aprobar\Nen cualquier momento.
+Dialogue: 0,0:12:23.64,0:12:25.43,Gen_Main,Frieren,0000,0000,0000,,Sí, cabe esa posibilidad.
+Dialogue: 0,0:12:30.73,0:12:33.73,Gen_Main,Frieren,0000,0000,0000,,¿Qué sucede? ¿Qué hacen aquí reunidos?
+Dialogue: 0,0:12:34.87,0:12:40.12,Gen_Main,Denken,0000,0000,0000,,Todo indica que la parte más profunda\Ndel laberinto está atrás de esta cámara.
+Dialogue: 0,0:12:40.49,0:12:41.73,Gen_Main,Frieren,0000,0000,0000,,¿Qué los detiene?
+Dialogue: 0,0:12:43.13,0:12:46.36,Gen_Main,Denken,0000,0000,0000,,Esa cosa ya lleva\Ncasi medio día apostada ahí.
+Dialogue: 0,0:12:54.57,0:12:56.50,Gen_Main,Frieren,0000,0000,0000,,La cosa ya se puso interesante.
+Dialogue: 0,0:12:57.09,0:12:59.98,Gen_Main,Frieren,0000,0000,0000,,Así tiene que conquistarse un calabozo.
+Dialogue: 0,0:13:04.51,0:13:07.26,Gen_Main,Frieren,0000,0000,0000,,Una copia perfecta, ¿eh?
+Dialogue: 0,0:13:08.09,0:13:12.52,Gen_Main,Frieren,0000,0000,0000,,Es verdad. Parece que esa cosa\Nposee un poder igual al mío.
+Dialogue: 0,0:13:13.05,0:13:18.17,Gen_Main,Denken,0000,0000,0000,,Mientras no hagamos algo con esa copia,\Nno podremos llegar a lo más profundo.
+Dialogue: 0,0:13:18.69,0:13:20.69,Gen_Main,Denken,0000,0000,0000,,¿Cuentas con alguna forma de lograrlo?
+Dialogue: 0,0:13:21.44,0:13:27.40,Gen_Main,Frieren,0000,0000,0000,,Veamos, suponiendo que de verdad\Nhayan logrado recrearme perfectamente,
+Dialogue: 0,0:13:28.17,0:13:31.23,Gen_Main,Frieren,0000,0000,0000,,tendrá el mismo punto débil\Nque el de una maga humana.
+Dialogue: 0,0:13:31.71,0:13:34.35,Gen_Main,Richter,0000,0000,0000,,Para vencer a un hechicero\Nde un rango superior,
+Dialogue: 0,0:13:34.55,0:13:37.96,Gen_Main,Richter,0000,0000,0000,,se necesita magia de ataduras\No magia de control mental.
+Dialogue: 0,0:13:38.51,0:13:41.09,Gen_Main,Frieren,0000,0000,0000,,Aunque cuento con resistencia a ambas.
+Dialogue: 0,0:13:41.53,0:13:45.22,Gen_Main,Denken,0000,0000,0000,,Sin embargo, quizá eso produzca\Nuna pequeña apertura para vencerla.
+Dialogue: 0,0:13:45.48,0:13:49.68,Gen_Main,Denken,0000,0000,0000,,Si podemos hacerte algo parecido,\Ndeberíamos ser capaz de vencerla.
+Dialogue: 0,0:13:50.44,0:13:51.72,Gen_Main,Denken,0000,0000,0000,,Methode,
+Dialogue: 0,0:13:52.36,0:13:54.85,Gen_Main,Denken,0000,0000,0000,,tú eres buena\Ncon ese tipo de trucos, ¿no?
+Dialogue: 0,0:13:55.05,0:13:58.35,Gen_Main,Methode,0000,0000,0000,,No soy lo que podría llamarse buena.
+Dialogue: 0,0:14:00.42,0:14:02.21,Gen_Main,Methode,0000,0000,0000,,Con su permiso.
+Dialogue: 0,0:14:09.09,0:14:11.49,Gen_Main,Methode,0000,0000,0000,,Qué fascinante es.
+Dialogue: 0,0:14:11.90,0:14:15.28,Gen_Main,Methode/Frieren,0000,0000,0000,,-Veo que la magia de atadura no servirá.\N-Qué bien hueles.
+Dialogue: 0,0:14:15.48,0:14:19.50,Gen_Main,Methode,0000,0000,0000,,Por lo general da resultado si no hay\Nuna diferencia enorme de poder mágico.
+Dialogue: 0,0:14:20.61,0:14:22.11,Gen_Main,Methode,0000,0000,0000,,Señorita Frieren,
+Dialogue: 0,0:14:22.31,0:14:25.01,Gen_Main,Methode,0000,0000,0000,,ahora míreme a los ojos, por favor.
+Dialogue: 0,0:14:29.03,0:14:32.07,Gen_Main,Methode,0000,0000,0000,,La magia de control mental\Ntampoco será de utilidad.
+Dialogue: 0,0:14:33.37,0:14:37.13,Gen_Main,Methode,0000,0000,0000,,Yo no soy capaz de romper\Nsus defensas mentales.
+Dialogue: 0,0:14:37.64,0:14:38.88,Gen_Main,Methode,0000,0000,0000,,Santo cielo.
+Dialogue: 0,0:14:39.25,0:14:42.77,Gen_Main,Denken,0000,0000,0000,,Parece ser cierto\Nque eres inmune a ambos tipos de magia.
+Dialogue: 0,0:14:43.16,0:14:47.52,Gen_Main,Methode,0000,0000,0000,,Sin embargo, sus defensas mentales están\Nhechas de manera fuerte y complicada,
+Dialogue: 0,0:14:47.75,0:14:50.56,Gen_Main,Methode,0000,0000,0000,,pero me pareció que son\Nun hechizo muy viejo.
+Dialogue: 0,0:14:50.89,0:14:55.58,Gen_Main,Methode,0000,0000,0000,,Quizá una especialista en magia mental\Npodría penetrar la parte más débil.
+Dialogue: 0,0:14:55.78,0:14:58.79,Gen_Main,Denken,0000,0000,0000,,¿Te viene a la mente alguien\Nentre los participantes?
+Dialogue: 0,0:15:02.98,0:15:06.13,Gen_Main,Methode,0000,0000,0000,,La hechicera de segundo grado Edel\Npodría ser capaz.
+Dialogue: 0,0:15:06.35,0:15:10.58,Gen_Main,Methode,0000,0000,0000,,Sin embargo, a diferencia de mí,\Nsu habilidad de combate es casi nula.
+Dialogue: 0,0:15:10.78,0:15:13.89,Gen_Main,Methode,0000,0000,0000,,Por lo que es dudoso\Nque pueda llegar hasta aquí.
+Dialogue: 0,0:15:16.29,0:15:22.26,Gen_Main,Methode,0000,0000,0000,,Además, para la magia mental, el enemigo\Nnecesita un corazón para hacer efecto.
+Dialogue: 0,0:15:22.60,0:15:27.35,Gen_Main,Methode,0000,0000,0000,,No puedo confirmar si las copias\Nestén recreadas a tal perfección.
+Dialogue: 0,0:15:29.07,0:15:32.20,Gen_Main,Denken,0000,0000,0000,,Todavía nos hace falta\Nmucha información, ¿no es cierto?
+Dialogue: 0,0:15:35.19,0:15:38.16,Gen_Main,Blei,0000,0000,0000,,Edel, ¿qué crees que sea eso?
+Dialogue: 0,0:15:43.64,0:15:45.14,Gen_Main,Edel,0000,0000,0000,,Quién sabe,
+Dialogue: 0,0:15:45.45,0:15:51.95,Gen_Main,Edel,0000,0000,0000,,pero sin duda posee el mismo poder\Nque la hechicera de primer grado Sense.
+Dialogue: 0,0:15:52.89,0:15:56.21,Gen_Main,Blei,0000,0000,0000,,No podremos esconder\Nnuestro poder mágico todo el día.
+Dialogue: 0,0:15:56.41,0:15:58.06,Gen_Main,Blei,0000,0000,0000,,Solo nos queda ir a vencerla.
+Dialogue: 0,0:15:58.62,0:16:01.03,Gen_Main,Edel,0000,0000,0000,,¿Crees ser capaz de derrotarla, Blei?
+Dialogue: 0,0:16:01.36,0:16:07.34,Gen_Main,Edel,0000,0000,0000,,Ni tú ni Dünste pueden pelear con todo\Nsu poder en este calabozo. Yo no cuento.
+Dialogue: 0,0:16:07.73,0:16:12.20,Gen_Main,Dünste,0000,0000,0000,,En primer lugar, la magia actual\Nno es adecuada para luchar en mazmorras.
+Dialogue: 0,0:16:12.83,0:16:18.24,Gen_Main,Edel,0000,0000,0000,,Es que casi todos los calabozos fueron\Nconquistados en la era del Rey Demonio.
+Dialogue: 0,0:16:20.35,0:16:24.08,Gen_Main,Edel,0000,0000,0000,,Además, la poderosa magia defensiva\Nnos quita demasiados recursos
+Dialogue: 0,0:16:24.76,0:16:29.59,Gen_Main,Edel,0000,0000,0000,,y la mayoría de los tipos de magia\Nde ataque ahora usa elementos naturales.
+Dialogue: 0,0:16:30.05,0:16:33.22,Gen_Main,Edel,0000,0000,0000,,Controlar y transformar materia\Nya existente en el lugar
+Dialogue: 0,0:16:33.66,0:16:36.35,Gen_Main,Edel,0000,0000,0000,,gasta mucho menos poder mágico
+Dialogue: 0,0:16:36.55,0:16:41.06,Gen_Main,Edel,0000,0000,0000,,que crear materia de la nada, ¿verdad?
+Dialogue: 0,0:16:41.41,0:16:45.81,Gen_Main,Edel,0000,0000,0000,,Pero eso no quita que es bastante buena\Nen esa clase de magia.
+Dialogue: 0,0:16:46.47,0:16:50.44,Gen_Main,Edel,0000,0000,0000,,Su cabello está encantado\Ncon muchísimas capas de magia.
+Dialogue: 0,0:16:50.92,0:16:56.33,Gen_Main,Edel,0000,0000,0000,,Debemos asumir que puede luchar\Nde varios modos aquí, en el calabozo.
+Dialogue: 0,0:17:00.27,0:17:02.97,Gen_Main,Edel,0000,0000,0000,,Mi conclusión es\Nque no podremos ganarle a esa cosa.
+Dialogue: 0,0:17:03.61,0:17:06.17,Gen_Main,Edel,0000,0000,0000,,La magia existe\Nen el mundo de la imaginación.
+Dialogue: 0,0:17:06.59,0:17:10.43,Gen_Main,Edel,0000,0000,0000,,Puede controlar y cambiar de forma\Na su antojo su cabello,
+Dialogue: 0,0:17:10.63,0:17:13.77,Gen_Main,Edel,0000,0000,0000,,compuesto\Nde un número incontable de hebras.
+Dialogue: 0,0:17:13.97,0:17:18.22,Gen_Main,Edel,0000,0000,0000,,Desde que posee una imaginación\Nque va más allá de la de alguien normal,
+Dialogue: 0,0:17:18.55,0:17:22.43,Gen_Main,Edel,0000,0000,0000,,se ha convertido en una hechicera\Nde un nivel muy superior a nosotros.
+Dialogue: 0,0:17:23.35,0:17:27.38,Gen_Main,Edel,0000,0000,0000,,Admito que es un milagro que hayamos\Npodido escapar de ella hasta este punto.
+Dialogue: 0,0:17:29.02,0:17:31.20,Gen_Main,Edel,0000,0000,0000,,Nos hemos esforzado mucho, camaradas.
+Dialogue: 0,0:17:32.14,0:17:37.06,Gen_Main,Edel,0000,0000,0000,,Además, no somos magos marciales.\NEs el momento de retirarnos, ¿no creen?
+Dialogue: 0,0:17:38.68,0:17:42.23,Gen_Main,Edel,0000,0000,0000,,Confieso que estoy aterrada\Ny ya quiero irme a casa.
+Dialogue: 0,0:17:43.03,0:17:46.83,Gen_Main,Blei,0000,0000,0000,,Edel, ¿tu voz no puede alcanzarla?
+Dialogue: 0,0:17:47.19,0:17:51.36,Gen_Main,Edel,0000,0000,0000,,Es cierto que la magia de control mental\Nes la especialidad de mi clan,
+Dialogue: 0,0:17:51.56,0:17:56.84,Gen_Main,Edel,0000,0000,0000,,pero es imposible reunir las condiciones\Npara darle una orden significativa.
+Dialogue: 0,0:17:57.40,0:18:02.35,Gen_Main,Edel,0000,0000,0000,,Lo máximo que podría lograr sería hacer\Nque se arrodillara y bajara la guardia.
+Dialogue: 0,0:18:02.81,0:18:06.16,Gen_Main,Edel,0000,0000,0000,,De todas maneras,\Ndebo mirarla a los ojos y ordenárselo.
+Dialogue: 0,0:18:06.92,0:18:09.10,Gen_Main,Blei,0000,0000,0000,,O sea, que no es imposible, ¿verdad?
+Dialogue: 0,0:18:09.66,0:18:12.36,Gen_Main,Edel,0000,0000,0000,,Eso suponiendo que cuenta con corazón.
+Dialogue: 0,0:18:12.69,0:18:14.98,Gen_Main,Dünste,0000,0000,0000,,¿Cuánto tiempo necesitas que te demos?
+Dialogue: 0,0:18:15.32,0:18:17.02,Gen_Main,Edel,0000,0000,0000,,Quince segundos.
+Dialogue: 0,0:18:17.45,0:18:19.86,Gen_Main,Edel,0000,0000,0000,,Más bien, ese debe ser el límite.
+Dialogue: 0,0:18:20.81,0:18:22.37,Gen_Main,Blei,0000,0000,0000,,¿Qué quieres decir?
+Dialogue: 0,0:18:27.39,0:18:28.97,Gen_Main,Edel,0000,0000,0000,,Ya lo verás.
+Dialogue: 0,0:18:42.71,0:18:44.89,Gen_Main,Edel,0000,0000,0000,,Cúbrannos con la magia defensiva.
+Dialogue: 0,0:18:46.84,0:18:51.77,Gen_Main,Edel,0000,0000,0000,,En los duelos mágicos actuales, hay dos\Nmaneras de destruir la magia defensiva.
+Dialogue: 0,0:18:51.97,0:18:54.15,Gen_Main,Edel,0000,0000,0000,,Hacerla añicos con una gran masa.
+Dialogue: 0,0:18:54.86,0:18:57.28,Gen_Main,Edel,0000,0000,0000,,O evadirla con técnica.
+Dialogue: 0,0:18:57.95,0:19:01.16,Gen_Main,Edel,0000,0000,0000,,Los vándalos que atacan en grupo\Nnormalmente hacen lo segundo.
+Dialogue: 0,0:19:03.71,0:19:07.15,Gen_Main,Edel,0000,0000,0000,,Qué sorpresa.\NNo pensé que podría hacer las dos cosas.
+Dialogue: 0,0:19:07.35,0:19:10.29,Gen_Main,Edel,0000,0000,0000,,Su cabello pesa como un peñasco.
+Dialogue: 0,0:19:12.02,0:19:16.92,Gen_Main,Edel,0000,0000,0000,,Creí que la magia defensiva podría\Ndurar desplegada por quince segundos.
+Dialogue: 0,0:19:17.35,0:19:20.17,Gen_Main,Edel,0000,0000,0000,,No me imaginé\Nque la destruiría mucho antes.
+Dialogue: 0,0:19:22.55,0:19:24.50,Gen_Main,Edel,0000,0000,0000,,Pero nuestras miradas se encontraron.
+Dialogue: 0,0:19:25.42,0:19:29.12,Gen_Main,Edel,0000,0000,0000,,Cuanto mejor sea el hechicero,\Nmejor observa al enemigo.
+Dialogue: 0,0:19:29.88,0:19:31.69,Gen_Main,Edel,0000,0000,0000,,¡Arrodíllate!
+Dialogue: 0,0:19:38.58,0:19:42.03,Gen_Main,Edel,0000,0000,0000,,Claro. Ya lo comprendí perfectamente.
+Dialogue: 0,0:19:42.61,0:19:44.29,Gen_Main,Edel,0000,0000,0000,,No cuenta con un corazón.
+Dialogue: 0,0:19:45.13,0:19:49.29,Gen_Main,Edel,0000,0000,0000,,Simplemente está copiando con\Ngran precisión el funcionamiento de uno.
+Dialogue: 0,0:19:50.18,0:19:53.79,Gen_Main,Edel,0000,0000,0000,,Nosotros no podremos vencerla\Nde ningún modo.
+Dialogue: 0,0:19:55.56,0:19:58.41,Gen_Main,Edel,0000,0000,0000,,Solo les resta\Npedirles ayuda a los más fuertes.
+Dialogue: 0,0:19:58.60,0:20:02.08,Gen_Main,Edel,0000,0000,0000,,Corran con todas sus fuerzas\Nhasta donde están los magos marciales.
+Dialogue: 0,0:20:02.25,0:20:05.04,Gen_Main,Edel,0000,0000,0000,,Dije que era hora de retirarse, ¿no?\NMe voy a casa.
+Dialogue: 0,0:20:05.47,0:20:07.76,Gen_Main,Edel,0000,0000,0000,,No puedo soportar más dolor.
+Dialogue: 0,0:20:12.76,0:20:17.05,Gen_Main,Edel,0000,0000,0000,,Qué útil es esta cosa.\NIncluso se asegura de mantenerte segura.
+Dialogue: 0,0:20:20.94,0:20:22.78,Gen_Main,Blei,0000,0000,0000,,Huyamos de aquí.
+Dialogue: 0,0:20:24.75,0:20:29.66,Gen_Main,Dünste,0000,0000,0000,,¿Habrá alguien que pueda llegar a salvo\Nhasta el fondo del laberinto?
+Dialogue: 0,0:20:29.90,0:20:31.26,Gen_Main,Blei,0000,0000,0000,,¿Recuerdas que mencioné
+Dialogue: 0,0:20:31.66,0:20:35.58,Gen_Main,Blei,0000,0000,0000,,que no tenía intenciones\Nde aprobar a nadie desde un principio?
+Dialogue: 0,0:20:52.49,0:20:55.38,Gen_Main,Frieren,0000,0000,0000,,Contamos con muy poca información.
+Dialogue: 0,0:20:55.79,0:20:58.82,Gen_Main,Frieren,0000,0000,0000,,Tomemos en cuenta la posibilidad\Nde que no tenga corazón.
+Dialogue: 0,0:20:59.16,0:21:02.37,Gen_Main,Frieren,0000,0000,0000,,En ese caso,\Nserá un duelo de fuerza bruta.
+Dialogue: 0,0:21:03.45,0:21:04.94,Gen_Main,Denken,0000,0000,0000,,¿Podrás vencerla?
+Dialogue: 0,0:21:05.14,0:21:06.95,Gen_Main,Frieren,0000,0000,0000,,No estoy segura.
+Dialogue: 0,0:21:23.95,0:21:28.30,Gen_Main,Wirbel,0000,0000,0000,,Demonios. No sé qué diablos\Ntienen estos en la cabeza.
+Dialogue: 0,0:21:38.02,0:21:41.94,Gen_Main,Wirbel,0000,0000,0000,,Pero, como lo pensaba, no parecemos\Nestar en demasiada desventaja.
+Dialogue: 0,0:21:48.50,0:21:54.33,Gen_Italics,Wirbel,0000,0000,0000,,Ehre puede aplastarnos a Scharf y a mí\Nen un simple duelo de poder mágico.
+Dialogue: 0,0:22:04.88,0:22:05.89,Gen_Italics,Wirbel,0000,0000,0000,,Pero…
+Dialogue: 0,0:22:07.57,0:22:09.80,Gen_Italics,Wirbel,0000,0000,0000,,yo sé cómo ganarle.
+Dialogue: 0,0:22:18.58,0:22:20.34,Gen_Main,Wirbel,0000,0000,0000,,Sin importar quién sea el enemigo
+Dialogue: 0,0:22:22.06,0:22:24.37,Gen_Main,Wirbel,0000,0000,0000,,o en qué situación estemos.
+Dialogue: 0,0:22:27.03,0:22:29.72,Gen_Main,Denken,0000,0000,0000,,Poder puro y duro, ¿eh?
+Dialogue: 0,0:22:31.96,0:22:34.54,Gen_Main,Fern,0000,0000,0000,,Oigan, en ese caso,
+Dialogue: 0,0:22:35.29,0:22:40.04,Gen_Main,Fern,0000,0000,0000,,quizá yo pueda matar\Na la señorita Frieren.
+Dialogue: 0,0:22:41.85,0:22:44.41,Gen_Main,Frieren/Fern,0000,0000,0000,,-Ah, ¿sí?\N-Sí.
+Dialogue: 0,0:22:44.93,0:22:46.30,Gen_Main,Frieren,0000,0000,0000,,Entonces,
+Dialogue: 0,0:22:46.94,0:22:49.04,Gen_Main,Frieren,0000,0000,0000,,formulemos un plan.
+Dialogue: 0,0:24:16.89,0:24:20.02,Cart_C_Tim,CARTEL,0000,0000,0000,,{\b0\fad(800,0)\bord1\blur0.6\fs18\pos(320,231)}Traducción: Antonio Valdez\NPautado: Thomas Benaissa\NEdición: Álvaro Jimeno\NControl de calidad: Nicolás Sepúlveda{\b1\b0}
+Dialogue: 0,0:24:20.27,0:24:24.07,Gen_Main,Wirbel/Blei,0000,0000,0000,,-Ya tenemos casi todo listo.\N-Había información, ¿eh?
+Dialogue: 0,0:24:20.81,0:24:24.43,Gen_Main_Up,Frieren/Dünste,0000,0000,0000,,-Formulemos un plan.\N-¿No quieren cooperar?
+Dialogue: 0,0:24:24.27,0:24:27.38,Gen_Main,Serie/Fern,0000,0000,0000,,-Qué desagradable.\N-Se ve un tanto divertida.
+Dialogue: 0,0:24:24.63,0:24:27.00,Gen_Main_Up,Lawine,0000,0000,0000,,Esa no tiene puntos débiles.
+Dialogue: 0,0:24:27.57,0:24:30.03,Cart_A_Tim,CARTEL,0000,0000,0000,,{\fsp1\b0\fad(500,0)\pos(320,80)\bord0\c&H201B1C&\blur5\t(0,271,\blur0)\t(312,1188,\c&HFFFFFF&)\t(\fsp0)}Episodio 25\N{\fs30}Un punto débil fatal
+Dialogue: 0,0:24:27.58,0:24:30.03,Gen_Main,Denken,0000,0000,0000,,Frieren tiene un punto débil fatal.

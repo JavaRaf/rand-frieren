@@ -1,0 +1,343 @@
+﻿[Script Info]
+Title: [Erai-raws] Español (América Latina)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Gen_Main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Main_Up,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00090909,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Gen_Italics_top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Cart_A_Tre,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tre,Trebuchet MS,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Tim,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tim,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Verd,Verdana,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,110,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EpiTitle,Times New Roman,20,&H00FFFFFF,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,6,0020,0020,0020,1
+Style: Cart_Serieslogo,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,10,0,1,0,0,8,0005,0005,0000,1
+Style: Cart_C_Verd,Verdana,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EndCards,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0020,1
+Style: Cart_NextTitle,Times New Roman,20,&H00000000,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,5,0020,0020,0020,1
+Style: Cart_Opening,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00494949,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_Ending,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.39,0:00:09.36,Gen_Main,Genau,0000,0000,0000,,En este momento doy por terminada\Nla primera parte del examen.
+Dialogue: 0,0:00:09.36,0:00:11.36,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs20\bord1\blur2\3a&HAA&\pos(330,266)}1.er grupo
+Dialogue: 0,0:00:09.36,0:00:11.36,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(188,325)}Ton
+Dialogue: 0,0:00:09.36,0:00:11.36,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(332,325)}Methode
+Dialogue: 0,0:00:09.36,0:00:11.36,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(462,325)}Länge
+Dialogue: 0,0:00:10.14,0:00:14.52,Gen_Main_Up,Genau,0000,0000,0000,,Seis grupos, 18 hechiceros en total,\Nhan aprobado el examen.
+Dialogue: 0,0:00:11.36,0:00:13.36,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs20\bord1\blur2\3a&HAA&\pos(323,266)}2.º grupo
+Dialogue: 0,0:00:11.36,0:00:13.36,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(160,325)}Lawine
+Dialogue: 0,0:00:11.36,0:00:13.36,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(323,325)}Frieren
+Dialogue: 0,0:00:11.36,0:00:13.36,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(476,325)}Kanne
+Dialogue: 0,0:00:13.36,0:00:15.36,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs20\bord1\blur2\3a&HAA&\pos(325,265)}4.º grupo
+Dialogue: 0,0:00:13.36,0:00:15.36,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(178,325)}Land
+Dialogue: 0,0:00:13.36,0:00:15.36,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(324,325)}Fern
+Dialogue: 0,0:00:13.36,0:00:15.36,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(475,325)}Übel
+Dialogue: 0,0:00:15.36,0:00:17.37,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs20\bord1\blur2\3a&HAA&\pos(340,266)}8.º grupo
+Dialogue: 0,0:00:15.36,0:00:17.37,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(157,325)}Scharf
+Dialogue: 0,0:00:15.36,0:00:17.37,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(340,325)}Wirbel
+Dialogue: 0,0:00:15.36,0:00:17.37,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(500,325)}Ehre
+Dialogue: 0,0:00:15.36,0:00:17.37,Gen_Main_Up,Genau,0000,0000,0000,,La segunda parte será en tres días.
+Dialogue: 0,0:00:17.37,0:00:19.37,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs20\bord1\blur2\3a&HAA&\pos(318,266)}13.er grupo
+Dialogue: 0,0:00:17.37,0:00:19.37,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(167,325)}Richter
+Dialogue: 0,0:00:17.37,0:00:19.37,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(317,325)}Denken
+Dialogue: 0,0:00:17.37,0:00:19.37,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(479,325)}Laufen
+Dialogue: 0,0:00:18.11,0:00:20.79,Gen_Main_Up,Genau,0000,0000,0000,,Les comunicaremos después los detalles.
+Dialogue: 0,0:00:19.37,0:00:21.37,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs20\bord1\blur2\3a&HAA&\pos(309,266)}17.º grupo
+Dialogue: 0,0:00:19.37,0:00:21.37,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(142,325)}Blei
+Dialogue: 0,0:00:19.37,0:00:21.37,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(305,325)}Edel
+Dialogue: 0,0:00:19.37,0:00:21.37,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an8\fs18\bord1\blur2\3a&HAA&\pos(494,325)}Dünste
+Dialogue: 0,0:00:22.05,0:00:24.28,Gen_Main,Genau,0000,0000,0000,,Eso es todo. Pueden irse.
+Dialogue: 0,0:00:48.55,0:00:53.81,Cart_Serieslogo,CARTEL,0000,0000,0000,,{\fsp1\fs25\fad(800,0)\fsp4\c&HFFFFFF&\pos(320,273.8)\iclip(523.733,177.6,550.933,345.067)\t(4017,5117,\iclip(123.733,177.6,550.933,345.067))}{\1c&HCEFF61&}M{\1c&HD8FF60&}á{\1c&HDFFF5F&}s{\1c&HE5FF5E&} {\1c&HECFF5D&}a{\1c&HF2FF5D&}l{\1c&HF8FF5C&}l{\1c&HFFFF5B&}á {\1c&HCEFF61&}d{\1c&HD5FF60&}e{\1c&HDBFF5F&}l{\1c&HE1FF5F&} {\1c&HE6FF5E&}f{\1c&HECFF5D&}i{\1c&HF3FF5D&}n{\1c&HFAFF5C&}a{\1c&HFFFF5B&}l {\1c&HCEFF61&}d{\1c&HD5FF60&}e{\1c&HDBFF5F&}l{\1c&HE0FF5F&} {\1c&HE6FF5E&}v{\1c&HEDFF5D&}i{\1c&HF3FF5C&}a{\1c&HF9FF5C&}j{\1c&HFFFF5B&}e
+Dialogue: 0,0:01:55.01,0:01:58.01,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an3\pos(562,285)\b0\fad(0,0)}Episodio 22\NLa próxima vez seremos enemigos
+Dialogue: 0,0:02:11.38,0:02:13.19,Gen_Main,Stark,0000,0000,0000,,Pronto será el ocaso.
+Dialogue: 0,0:02:13.39,0:02:16.49,Gen_Main,Stark,0000,0000,0000,,No está mal\Ndarse de lleno a la pereza, ¿verdad?
+Dialogue: 0,0:02:25.10,0:02:26.66,Gen_Main,Stark,0000,0000,0000,,¿Quién será?
+Dialogue: 0,0:02:29.88,0:02:31.58,Gen_Main,Stark,0000,0000,0000,,Sí, ya voy.
+Dialogue: 0,0:02:43.47,0:02:47.81,Gen_Main,Stark,0000,0000,0000,,¿Fern? ¿No habían ido al examen\Nde hechiceros de primer grado?
+Dialogue: 0,0:02:48.47,0:02:52.39,Gen_Main,Fern,0000,0000,0000,,La primera parte del examen acabó ayer.\NVolvimos anoche a la posada.
+Dialogue: 0,0:02:52.92,0:02:56.78,Gen_Main,Fern,0000,0000,0000,,Señor Stark,\Nya casi va a anochecer, ¿verdad?
+Dialogue: 0,0:02:59.82,0:03:01.41,Gen_Main,Fern,0000,0000,0000,,Estaba dormido, ¿no es cierto?
+Dialogue: 0,0:03:03.95,0:03:05.53,Gen_Main,Fern,0000,0000,0000,,¿Se desveló hasta muy tarde?
+Dialogue: 0,0:03:07.65,0:03:09.91,Gen_Main,Stark/Fern,0000,0000,0000,,-Sí.\N-¿Y qué más?
+Dialogue: 0,0:03:10.61,0:03:13.29,Gen_Main,Stark,0000,0000,0000,,También estuve tomando jugo en la noche.
+Dialogue: 0,0:03:14.86,0:03:17.52,Gen_Main,Stark,0000,0000,0000,,Lo siento. ¡Te digo que lo siento!
+Dialogue: 0,0:03:17.72,0:03:20.33,Gen_Main,Frieren,0000,0000,0000,,Ay, no. Ya la hiciste enojar.
+Dialogue: 0,0:03:20.82,0:03:23.99,Gen_Main,Fern,0000,0000,0000,,Usted no hable,\Nque apenas se acaba de despertar.
+Dialogue: 0,0:03:24.19,0:03:26.06,Gen_Main,Frieren,0000,0000,0000,,Me cayeron hasta acá las chispas.
+Dialogue: 0,0:03:29.43,0:03:32.40,Gen_Main,Frieren,0000,0000,0000,,Tal parece que hoy será día\Nde contentar a Fern.
+Dialogue: 0,0:03:32.60,0:03:34.62,Gen_Main,Stark,0000,0000,0000,,¿Qué piensas hacer?
+Dialogue: 0,0:03:35.03,0:03:37.14,Gen_Main,Frieren,0000,0000,0000,,¿Qué tal si vamos a comer algo rico?
+Dialogue: 0,0:03:37.34,0:03:38.82,Gen_Main,Stark,0000,0000,0000,,¿Algo rico?
+Dialogue: 0,0:03:39.26,0:03:44.57,Gen_Main,Frieren,0000,0000,0000,,Cuando vine con Himmel y los demás,\Nencontré un lugar rico, pero algo caro.
+Dialogue: 0,0:03:44.99,0:03:47.80,Gen_Main,Stark,0000,0000,0000,,Hablas de algo que pasó\Nhace más de 80 años, ¿no?
+Dialogue: 0,0:03:48.00,0:03:49.72,Gen_Main,Stark,0000,0000,0000,,Dudo que todavía exista.
+Dialogue: 0,0:04:06.91,0:04:10.09,Gen_Main,Anciana,0000,0000,0000,,Santo cielo. Otra vez prendió la luz.
+Dialogue: 0,0:04:10.29,0:04:12.43,Gen_Main,Richter,0000,0000,0000,,Dije que la arreglaría enseguida, ¿no?
+Dialogue: 0,0:04:13.33,0:04:17.19,Gen_Main,Anciana/Richter,0000,0000,0000,,-Muchas gracias por tu ayuda, Richter.\N-De nada.
+Dialogue: 0,0:04:17.45,0:04:20.48,Gen_Main,Anciana,0000,0000,0000,,Si gustas, también acéptame estos.
+Dialogue: 0,0:04:21.74,0:04:23.34,Gen_Main,Anciana,0000,0000,0000,,Hasta luego.
+Dialogue: 0,0:04:30.38,0:04:33.23,Gen_Main,Richter,0000,0000,0000,,Oye, anciana, ya no soy un chiquillo.
+Dialogue: 0,0:04:33.43,0:04:35.54,Gen_Main,Richter,0000,0000,0000,,Ya soy un viejo entrado en años.
+Dialogue: 0,0:04:35.99,0:04:39.76,Gen_Main,Anciana,0000,0000,0000,,Sigues siendo un niño\Npara una viejecita como yo.
+Dialogue: 0,0:04:39.96,0:04:41.96,Gen_Main,Anciana,0000,0000,0000,,Esos dulces te gustaban, ¿no?
+Dialogue: 0,0:04:53.88,0:04:56.49,Gen_Main,Richter,0000,0000,0000,,Perdón, pero la tienda ya cerró.
+Dialogue: 0,0:04:56.93,0:05:00.73,Gen_Main,Richter,0000,0000,0000,,Como un viejo chiflado me obligó\Na participar en una pelea a golpes,
+Dialogue: 0,0:05:01.11,0:05:03.59,Gen_Main,Richter,0000,0000,0000,,tengo que regresar temprano a casa\Na descansar.
+Dialogue: 0,0:05:04.01,0:05:07.15,Gen_Main,Denken,0000,0000,0000,,Qué mala suerte tuviste, Richter.
+Dialogue: 0,0:05:07.35,0:05:09.77,Gen_Main,Denken,0000,0000,0000,,Entonces, ¿no te apetece\Ncenar con nosotros?
+Dialogue: 0,0:05:09.97,0:05:11.99,Gen_Main,Denken,0000,0000,0000,,Estoy buscando un restaurante,
+Dialogue: 0,0:05:12.19,0:05:15.12,Gen_Main,Denken,0000,0000,0000,,pero Laufen y yo no sabemos\Nandar por esta ciudad.
+Dialogue: 0,0:05:16.63,0:05:20.00,Gen_Main,Richter,0000,0000,0000,,En primer lugar, Laufen,\N¿por qué estás con Denken?
+Dialogue: 0,0:05:21.11,0:05:22.97,Gen_Main,Richter,0000,0000,0000,,¿Y eso que estás comiendo?
+Dialogue: 0,0:05:23.17,0:05:26.51,Gen_Main,Laufen,0000,0000,0000,,El viejito me las compró.\NNo te voy a dar, ¿eh?
+Dialogue: 0,0:05:26.71,0:05:29.37,Gen_Main,Richter,0000,0000,0000,,Oigan, pero si ya son abuelo y nieta.
+Dialogue: 0,0:05:30.01,0:05:33.02,Gen_Main,Richter,0000,0000,0000,,Lárguense de ahí.\NYa no estamos en el mismo grupo.
+Dialogue: 0,0:05:34.36,0:05:37.31,Gen_Main,Denken,0000,0000,0000,,Así no triunfarás en la vida, Richter.
+Dialogue: 0,0:05:37.71,0:05:40.57,Gen_Main,Denken,0000,0000,0000,,Si piensas dedicarte a ser hechicero,
+Dialogue: 0,0:05:40.77,0:05:44.69,Gen_Main,Denken,0000,0000,0000,,te convendrá mucho\Nmantenerme contento, ¿eh?
+Dialogue: 0,0:05:45.05,0:05:48.77,Gen_Main,Richter,0000,0000,0000,,Hay un montón de lugares donde comer.\NEntren en el primero que vean.
+Dialogue: 0,0:05:49.35,0:05:51.08,Gen_Main,Denken,0000,0000,0000,,Vine con mi esposa…
+Dialogue: 0,0:05:51.83,0:05:55.46,Gen_Main,Denken,0000,0000,0000,,Vine con mi esposa cuando aún vivía.
+Dialogue: 0,0:05:55.66,0:05:58.16,Gen_Main,Denken,0000,0000,0000,,No puedo olvidar ese delicioso sabor.
+Dialogue: 0,0:06:00.98,0:06:02.96,Gen_Main,Richter,0000,0000,0000,,Supongo que vas a invitar.
+Dialogue: 0,0:06:03.23,0:06:04.86,Gen_Main,Denken,0000,0000,0000,,Desde luego que sí.
+Dialogue: 0,0:06:05.06,0:06:07.92,Gen_Main,Denken,0000,0000,0000,,Te dije que te convenía\Njuntarte conmigo, ¿no?
+Dialogue: 0,0:06:37.64,0:06:39.25,Gen_Main,Übel,0000,0000,0000,,Amigo cuatro ojos…
+Dialogue: 0,0:06:40.36,0:06:41.60,Gen_Main,Land,0000,0000,0000,,Übel…
+Dialogue: 0,0:06:41.80,0:06:43.82,Gen_Main,Übel,0000,0000,0000,,Mucho gusto. Al fin te veo en persona.
+Dialogue: 0,0:06:44.02,0:06:47.13,Gen_Main,Übel,0000,0000,0000,,Qué sorpresa que en la ciudad\Nya no seas una copia.
+Dialogue: 0,0:06:47.45,0:06:50.53,Gen_Main,Land,0000,0000,0000,,Si quieres charlar,\N¿podemos hacerlo mientras caminamos?
+Dialogue: 0,0:06:50.73,0:06:55.25,Gen_Main,Übel,0000,0000,0000,,Sí, está bien, pero te podría asesinar\Npor la espalda si intentas huir de mí.
+Dialogue: 0,0:06:57.33,0:07:00.14,Gen_Main,Land,0000,0000,0000,,¿Te puedo hacer una pregunta?
+Dialogue: 0,0:07:02.21,0:07:03.74,Gen_Main,Land,0000,0000,0000,,He notado que a ti
+Dialogue: 0,0:07:04.49,0:07:07.15,Gen_Main,Land,0000,0000,0000,,te da igual matar gente, ¿verdad?
+Dialogue: 0,0:07:09.56,0:07:12.07,Gen_Main,Land,0000,0000,0000,,¿Por qué no acabaste con Wirbel?
+Dialogue: 0,0:07:12.27,0:07:14.41,Gen_Main,Land,0000,0000,0000,,Tuviste la oportunidad de matarlo, ¿no?
+Dialogue: 0,0:07:14.81,0:07:18.54,Gen_Main,Übel,0000,0000,0000,,Me estabas viendo, ¿eh?\NEstás atento a todo, ¿no es cierto?
+Dialogue: 0,0:07:22.65,0:07:25.54,Gen_Main,Übel,0000,0000,0000,,Es un tanto difícil expresarlo, ¿sabes?
+Dialogue: 0,0:07:25.83,0:07:29.67,Gen_Italics,Übel,0000,0000,0000,,Vaya, a pesar de que tienes\Nlas manos manchadas de sangre,
+Dialogue: 0,0:07:29.87,0:07:32.55,Gen_Italics,Übel,0000,0000,0000,,quieres seguir\Nconservando tu humanidad, ¿eh?
+Dialogue: 0,0:07:33.95,0:07:35.36,Gen_Italics,Wirbel,0000,0000,0000,,Así es.
+Dialogue: 0,0:07:35.56,0:07:38.42,Gen_Italics,Wirbel,0000,0000,0000,,Este tiempo me sirve\Npara hacerme a la idea de matar.
+Dialogue: 0,0:07:39.95,0:07:42.56,Gen_Main,Übel,0000,0000,0000,,Tal vez será\Nporque me identifiqué con él.
+Dialogue: 0,0:07:43.27,0:07:46.76,Gen_Main,Übel,0000,0000,0000,,También quise\Nhacerme con un tiempo antes de matar.
+Dialogue: 0,0:07:50.03,0:07:51.78,Gen_Italics,Land,0000,0000,0000,,No me puedo mover.
+Dialogue: 0,0:07:52.10,0:07:53.49,Gen_Italics,Land,0000,0000,0000,,¿Y esta magia?
+Dialogue: 0,0:07:53.69,0:07:58.08,Gen_Main,Übel,0000,0000,0000,,{\i1}Sorganeil{\i0},\Nuna magia que atrapa lo que veo.
+Dialogue: 0,0:07:59.01,0:08:04.58,Gen_Main,Übel,0000,0000,0000,,La magia en la que cada mago es bueno\Nse relaciona con su vida y humanidad.
+Dialogue: 0,0:08:06.83,0:08:09.43,Gen_Main,Übel,0000,0000,0000,,Yo siempre he sido así.
+Dialogue: 0,0:08:09.94,0:08:13.58,Gen_Main,Übel,0000,0000,0000,,Al identificarme con un hechicero,\Nsoy capaz de usar su magia,
+Dialogue: 0,0:08:13.78,0:08:16.80,Gen_Main,Übel,0000,0000,0000,,pero no puedo emplear magia\Ncon la que no me identifique.
+Dialogue: 0,0:08:17.35,0:08:19.74,Gen_Main,Übel,0000,0000,0000,,Cuatro ojos, tu copia
+Dialogue: 0,0:08:19.94,0:08:24.48,Gen_Main,Übel,0000,0000,0000,,es una reproducción perfecta que posee\Nlas mismas funciones del original.
+Dialogue: 0,0:08:24.73,0:08:28.82,Gen_Main,Übel,0000,0000,0000,,¿Qué tipo de vida has llevado?\N¿Cuáles son tus ideales?
+Dialogue: 0,0:08:29.02,0:08:30.73,Gen_Main,Übel,0000,0000,0000,,Vamos, dímelo.
+Dialogue: 0,0:08:31.93,0:08:33.58,Gen_Main,Land,0000,0000,0000,,Ya veo.
+Dialogue: 0,0:08:34.07,0:08:37.16,Gen_Main,Land,0000,0000,0000,,Eres de las que utilizan magia\Npor reflejo e instinto.
+Dialogue: 0,0:08:37.59,0:08:42.62,Gen_Main,Land,0000,0000,0000,,Eres del tipo que no sabe qué principio\Nactiva esa magia, pero puedes usarla.
+Dialogue: 0,0:08:45.25,0:08:49.38,Gen_Main,Land,0000,0000,0000,,Yo odio a ese tipo de chicas\Na las que les faltan sesos.
+Dialogue: 0,0:08:50.03,0:08:52.26,Gen_Main,Übel,0000,0000,0000,,Eso no responde a mi pregunta.
+Dialogue: 0,0:08:52.55,0:08:56.01,Gen_Main,Land,0000,0000,0000,,Lo que quiero decir es que no te diré\Nporque no me agradas.
+Dialogue: 0,0:08:59.02,0:09:01.45,Gen_Main,Land,0000,0000,0000,,Puedes matarme si quieres.
+Dialogue: 0,0:09:02.07,0:09:06.02,Gen_Main,Land,0000,0000,0000,,Aunque no creo que puedas identificarte\Nde nuevo conmigo si lo haces.
+Dialogue: 0,0:09:12.53,0:09:14.50,Gen_Main,Übel,0000,0000,0000,,No, está bien.
+Dialogue: 0,0:09:14.99,0:09:18.09,Gen_Main,Übel,0000,0000,0000,,He comprendido un poco\Nqué clase de persona eres.
+Dialogue: 0,0:09:18.29,0:09:19.47,Gen_Main,Land,0000,0000,0000,,Ah, ¿sí?
+Dialogue: 0,0:09:19.67,0:09:21.79,Gen_Main,Übel,0000,0000,0000,,Creo que tengo ganas de saber más de ti.
+Dialogue: 0,0:09:25.30,0:09:27.82,Gen_Main,Übel,0000,0000,0000,,¿Adónde planeabas ir ahora?
+Dialogue: 0,0:09:28.02,0:09:31.30,Gen_Main,Land,0000,0000,0000,,Quién sabe. No me sigas.
+Dialogue: 0,0:09:32.43,0:09:33.80,Gen_Main,Denken,0000,0000,0000,,Es aquí.
+Dialogue: 0,0:09:34.35,0:09:37.14,Gen_Main,Richter,0000,0000,0000,,Sí que tienes buen ojo, Denken.
+Dialogue: 0,0:09:37.64,0:09:41.31,Gen_Main,Richter,0000,0000,0000,,Es el mejor restaurante de la ciudad.\NYo también vengo a menudo.
+Dialogue: 0,0:09:42.41,0:09:46.66,Gen_Main,Denken,0000,0000,0000,,Visité este lugar con mi esposa\Nhace 50 años.
+Dialogue: 0,0:09:46.86,0:09:49.52,Gen_Main,Denken,0000,0000,0000,,Todo se ve igual que entonces.
+Dialogue: 0,0:09:51.15,0:09:53.56,Gen_Main,Denken,0000,0000,0000,,Qué cosa tan curiosa.
+Dialogue: 0,0:09:58.34,0:10:00.20,Gen_Main,Fern,0000,0000,0000,,¿Lo dice en serio?
+Dialogue: 0,0:10:00.60,0:10:03.71,Gen_Main,Fern,0000,0000,0000,,¿En serio puedo pedir\Ntodos los postres que quiera?
+Dialogue: 0,0:10:03.91,0:10:04.96,Gen_Main,Frieren,0000,0000,0000,,Sí, está bien.
+Dialogue: 0,0:10:05.37,0:10:07.46,Gen_Main,Richter,0000,0000,0000,,Denken, ahí está Frieren.
+Dialogue: 0,0:10:07.66,0:10:09.52,Gen_Main,Stark,0000,0000,0000,,No sé cuál pedir.
+Dialogue: 0,0:10:09.72,0:10:11.42,Gen_Main,Frieren,0000,0000,0000,,Verás, te recomiendo…
+Dialogue: 0,0:10:11.78,0:10:15.42,Gen_Main,Fern,0000,0000,0000,,¿Podemos darnos este lujo\Ncuando ni siquiera es mi cumpleaños?
+Dialogue: 0,0:10:15.83,0:10:19.04,Gen_Main,Denken,0000,0000,0000,,Ignórala. Se ve que se está divirtiendo.
+Dialogue: 0,0:10:19.43,0:10:22.10,Gen_Main,Denken,0000,0000,0000,,Uno debe disfrutar la comida.
+Dialogue: 0,0:10:22.44,0:10:24.84,Gen_Main,Denken,0000,0000,0000,,Nosotros también vinimos con ese fin.
+Dialogue: 0,0:10:35.97,0:10:37.87,Gen_Main,Frieren,0000,0000,0000,,Muy bien. A comer se ha dicho.
+Dialogue: 0,0:10:38.07,0:10:39.86,Gen_Main,Stark,0000,0000,0000,,¿Todo eso te vas a comer?
+Dialogue: 0,0:10:40.06,0:10:43.37,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren, a veces hace\Nese tipo de cosas, ¿verdad?
+Dialogue: 0,0:10:48.91,0:10:53.38,Gen_Main,Lecker,0000,0000,0000,,Gracias por haber recobrado el cuchillo,\Ntesoro de mi familia, de los demonios.
+Dialogue: 0,0:10:54.13,0:10:56.94,Gen_Main,Lecker,0000,0000,0000,,Yo, Lecker, el talentoso chef del siglo,
+Dialogue: 0,0:10:57.14,0:11:02.02,Gen_Main,Lecker,0000,0000,0000,,les daré mi más grande hospitalidad\Ny la recompensa que esté a mi alcance.
+Dialogue: 0,0:11:02.89,0:11:04.59,Gen_Main,Heiter,0000,0000,0000,,¿Todo eso te vas a comer?
+Dialogue: 0,0:11:04.79,0:11:09.16,Gen_Main,Frieren,0000,0000,0000,,Es que la comida de aquí es riquísima.\NTengo que saborearla lo más posible.
+Dialogue: 0,0:11:09.34,0:11:13.03,Gen_Main,Himmel,0000,0000,0000,,No tienes que comerte todo eso\Nde una vez. Puedes volver otro día, ¿no?
+Dialogue: 0,0:11:13.86,0:11:18.03,Gen_Main,Frieren,0000,0000,0000,,Hay muchos sabores que no pude volver\Na disfrutar por pensar de esa manera.
+Dialogue: 0,0:11:20.42,0:11:22.78,Gen_Main,Lecker,0000,0000,0000,,Quédese tranquila, señorita Frieren.
+Dialogue: 0,0:11:24.99,0:11:28.27,Gen_Main,Lecker,0000,0000,0000,,Pienso conservar esta sazón\Naun después de mi muerte.
+Dialogue: 0,0:11:28.47,0:11:31.29,Gen_Main,Lecker,0000,0000,0000,,Tendrá el mismo sabor en 100 o 200 años.
+Dialogue: 0,0:11:33.85,0:11:38.83,Gen_Main,Frieren,0000,0000,0000,,Ah, ¿sí? Qué interesante\Nque todos los cocineros digan eso.
+Dialogue: 0,0:11:39.03,0:11:43.68,Gen_Main,Frieren,0000,0000,0000,,Eso dicen y cambian la sazón de platos\Nantiguos para dejar su propia marca.
+Dialogue: 0,0:11:46.02,0:11:50.06,Gen_Main,Himmel,0000,0000,0000,,Si eso pasa, puedes ir a buscar\Nun sabor todavía más delicioso.
+Dialogue: 0,0:11:50.44,0:11:52.59,Gen_Main,Lecker,0000,0000,0000,,Perdone mi atrevimiento, señor Himmel,
+Dialogue: 0,0:11:52.79,0:11:56.44,Gen_Main,Lecker,0000,0000,0000,,no existe un sabor en este mundo\Nque supere el mío.
+Dialogue: 0,0:11:56.69,0:11:59.57,Gen_Main,Himmel,0000,0000,0000,,Entonces,\Ndebes hacer que llegue al futuro.
+Dialogue: 0,0:11:59.89,0:12:03.78,Gen_Main,Himmel,0000,0000,0000,,Esa es la recompensa\Nque te pido en esta ocasión.
+Dialogue: 0,0:12:06.78,0:12:08.90,Gen_Main,Lecker,0000,0000,0000,,Si se trata de una petición del Héroe,
+Dialogue: 0,0:12:09.10,0:12:14.09,Gen_Main,Lecker,0000,0000,0000,,realizaré esa gran hazaña que ningún\Notro chef ha logrado hasta el momento.
+Dialogue: 0,0:12:20.31,0:12:23.59,Gen_Main,Stark,0000,0000,0000,,Frieren, esto está riquísimo.
+Dialogue: 0,0:12:23.79,0:12:26.45,Gen_Main,Fern,0000,0000,0000,,No sé si me merezco tanta felicidad.
+Dialogue: 0,0:12:33.29,0:12:37.96,Gen_Main,Frieren,0000,0000,0000,,No lo puedo creer. Después de todo\Nlo que presumió, el sabor ha cambiado.
+Dialogue: 0,0:12:39.98,0:12:44.68,Gen_Main,Frieren,0000,0000,0000,,Pero me ahorró el trabajo\Nde ir a buscar un mejor sabor.
+Dialogue: 0,0:12:45.56,0:12:48.07,Gen_Main,Frieren,0000,0000,0000,,Es mucho más delicioso que aquel día.
+Dialogue: 0,0:12:53.51,0:12:55.79,Gen_Main,Stark,0000,0000,0000,,De verdad que está riquísimo.
+Dialogue: 0,0:12:55.99,0:12:58.92,Gen_Main,Fern,0000,0000,0000,,Tiene algo en la mejilla, señor Stark.
+Dialogue: 0,0:12:59.63,0:13:01.86,Gen_Main,Denken,0000,0000,0000,,También tienes que comerte las verduras.
+Dialogue: 0,0:13:02.06,0:13:04.42,Gen_Main,Richter,0000,0000,0000,,Te has vuelto por completo su abuelo.
+Dialogue: 0,0:13:05.99,0:13:08.30,Gen_Main,Übel,0000,0000,0000,,No creí que comieras tan poco.
+Dialogue: 0,0:13:08.50,0:13:10.43,Gen_Main,Land,0000,0000,0000,,¿Qué importa lo que coma?
+Dialogue: 0,0:13:11.89,0:13:14.85,Gen_Main,Fern,0000,0000,0000,,Estuvo delicioso, señorita Frieren.
+Dialogue: 0,0:13:17.65,0:13:20.09,Gen_Main,Frieren,0000,0000,0000,,Qué alivio que se haya contentado.
+Dialogue: 0,0:13:21.03,0:13:24.06,Gen_Main,Stark,0000,0000,0000,,A propósito,\N¿sí podíamos gastar tanto dinero?
+Dialogue: 0,0:13:24.26,0:13:26.70,Gen_Main,Frieren,0000,0000,0000,,Se me acabó mi guardadito.
+Dialogue: 0,0:13:29.40,0:13:32.18,Gen_Main,Anciano,0000,0000,0000,,A esto le llamo\Nla esencia de las artes marciales.
+Dialogue: 0,0:13:33.29,0:13:37.53,Gen_Main,Anciano,0000,0000,0000,,Te felicito por haber llegado\Na la cúspide de las artes marciales.
+Dialogue: 0,0:13:38.30,0:13:42.66,Gen_Main,Anciano,0000,0000,0000,,Ya no tengo nada que enseñarte.
+Dialogue: 0,0:13:53.13,0:13:55.12,Gen_Main,Frieren,0000,0000,0000,,¿Quién era ese anciano?
+Dialogue: 0,0:13:55.32,0:13:56.94,Gen_Main,Stark,0000,0000,0000,,No lo conozco.
+Dialogue: 0,0:13:57.14,0:13:59.77,Gen_Main,Stark,0000,0000,0000,,Me dirige la palabra\Ncuando estoy entrenando.
+Dialogue: 0,0:14:00.28,0:14:03.44,Gen_Main,Frieren,0000,0000,0000,,Siempre les caes bien\Na personajes muy peculiares, ¿verdad?
+Dialogue: 0,0:14:03.81,0:14:06.07,Gen_Main,Frieren,0000,0000,0000,,Bueno, eso no importa.\N¿Tienes un momento?
+Dialogue: 0,0:14:06.69,0:14:08.94,Gen_Main,Frieren,0000,0000,0000,,Necesito de tu ayuda.
+Dialogue: 0,0:14:09.14,0:14:10.82,Gen_Main,Stark,0000,0000,0000,,¿Qué pasó?
+Dialogue: 0,0:14:13.17,0:14:16.14,Gen_Main,Stark,0000,0000,0000,,Vaya, otra vez está muy enojada.
+Dialogue: 0,0:14:16.34,0:14:19.18,Gen_Main,Stark/Frieren,0000,0000,0000,,-Está de peor humor que ayer.\N-Ya sé.
+Dialogue: 0,0:14:19.50,0:14:21.44,Gen_Main,Stark,0000,0000,0000,,¿Ahora qué le hiciste?
+Dialogue: 0,0:14:21.64,0:14:25.70,Gen_Main,Frieren,0000,0000,0000,,Hoy era mi turno de ir de compras,\Npero me quedé dormida.
+Dialogue: 0,0:14:25.90,0:14:29.71,Gen_Main,Stark,0000,0000,0000,,Pero eso lo haces siempre.\N¿Por qué se enojó precisamente hoy?
+Dialogue: 0,0:14:29.91,0:14:33.63,Gen_Main,Frieren,0000,0000,0000,,Fern es de las que lo van acumulando\Nhasta que explotan.
+Dialogue: 0,0:14:33.83,0:14:35.96,Gen_Main,Stark,0000,0000,0000,,¿Qué sucede si explota?
+Dialogue: 0,0:14:36.78,0:14:39.05,Gen_Main,Frieren,0000,0000,0000,,Deja de dirigirme la palabra.
+Dialogue: 0,0:14:39.25,0:14:41.35,Gen_Main,Stark,0000,0000,0000,,Parece pelea de niñas.
+Dialogue: 0,0:14:41.87,0:14:44.75,Gen_Main,Frieren,0000,0000,0000,,Te lo pido por favor, Stark.\NSé nuestro mediador.
+Dialogue: 0,0:14:44.95,0:14:47.47,Gen_Main,Frieren,0000,0000,0000,,A mí ya no me habla.
+Dialogue: 0,0:14:47.67,0:14:51.56,Gen_Main,Stark,0000,0000,0000,,¿Qué? No, gracias. Me da mucho miedo.
+Dialogue: 0,0:14:52.15,0:14:55.74,Gen_Main,Frieren,0000,0000,0000,,Tienes razón. Perdón.\NSé que pido demasiado.
+Dialogue: 0,0:15:02.89,0:15:05.43,Gen_Main,Stark,0000,0000,0000,,Este… Disculpe, señorita Fern.
+Dialogue: 0,0:15:05.63,0:15:09.33,Gen_Main,Stark,0000,0000,0000,,Mírela, por favor.\NYa está muy arrepentida.
+Dialogue: 0,0:15:10.79,0:15:12.68,Gen_Main,Fern/Stark,0000,0000,0000,,-Tengo hambre.\N-¿Qué?
+Dialogue: 0,0:15:14.09,0:15:15.93,Gen_Main,Fern,0000,0000,0000,,Quiero comer un bocadillo.
+Dialogue: 0,0:15:20.85,0:15:23.10,Gen_Italics,Stark,0000,0000,0000,,Esta chica es todo un fastidio.
+Dialogue: 0,0:15:23.55,0:15:26.30,Gen_Main,Stark,0000,0000,0000,,En ese caso,\Nvayamos todos a comprar algo.
+Dialogue: 0,0:15:26.50,0:15:29.11,Gen_Main,Frieren,0000,0000,0000,,Me pregunto\Nsi aún me queda algo de mi guardadito.
+Dialogue: 0,0:15:36.58,0:15:38.87,Gen_Main,Kanne,0000,0000,0000,,¿Eh? Ese es…
+Dialogue: 0,0:15:39.13,0:15:42.96,Gen_Main,Kanne,0000,0000,0000,,Si mal no recuerdo, es Wirbel,\Nde la compañía de magos del norte, ¿no?
+Dialogue: 0,0:15:45.08,0:15:49.26,Gen_Main,Wirbel/Joven,0000,0000,0000,,-Eres un guerrero, ¿o me equivoco?\N-Oiga, ¿qué es lo que quiere?
+Dialogue: 0,0:15:49.46,0:15:50.66,Gen_Main,Scharf,0000,0000,0000,,¿Qué te parece?
+Dialogue: 0,0:15:52.06,0:15:53.76,Gen_Main,Joven,0000,0000,0000,,Oigan, ¿qué quieren?
+Dialogue: 0,0:15:55.24,0:15:57.47,Gen_Main,Wirbel,0000,0000,0000,,No, este no nos sirve.
+Dialogue: 0,0:16:00.92,0:16:02.60,Gen_Main,Kanne,0000,0000,0000,,¿Qué estarán haciendo?
+Dialogue: 0,0:16:03.77,0:16:05.58,Gen_Main,Lawine,0000,0000,0000,,Perdón por llegar tarde, Kanne.
+Dialogue: 0,0:16:07.54,0:16:11.06,Gen_Main,Kanne,0000,0000,0000,,Hoy llevas un atuendo\Nmucho más lindo que otros días, Lawine.
+Dialogue: 0,0:16:11.64,0:16:14.86,Gen_Main,Lawine,0000,0000,0000,,Mis hermanos están de regreso\Nde la Capital Imperial.
+Dialogue: 0,0:16:17.46,0:16:21.38,Gen_Main,Lawine,0000,0000,0000,,Siempre me traen cosas\Nque nunca les pedí.
+Dialogue: 0,0:16:21.58,0:16:24.00,Gen_Main,Lawine,0000,0000,0000,,No soy una muñeca\Npara vestir a su antojo.
+Dialogue: 0,0:16:24.36,0:16:28.38,Gen_Main,Lawine,0000,0000,0000,,Y a mi madre le encanta el asunto.\NNo mueve un dedo para detenerlos.
+Dialogue: 0,0:16:30.94,0:16:33.13,Gen_Main,Kanne,0000,0000,0000,,Veo que eres mucho más mimada que yo.
+Dialogue: 0,0:16:33.33,0:16:35.77,Gen_Main,Lawine,0000,0000,0000,,Si eso piensas, te cambio de lugar.
+Dialogue: 0,0:16:35.97,0:16:39.39,Gen_Main,Lawine,0000,0000,0000,,Es un infierno que me comparen\Ncon mis brillantes hermanos.
+Dialogue: 0,0:16:39.79,0:16:42.92,Gen_Main,Lawine,0000,0000,0000,,Bueno, ya vámonos.\NSiento que me voy a asfixiar.
+Dialogue: 0,0:16:47.18,0:16:51.84,Gen_Main,Kanne,0000,0000,0000,,El día de hoy yo seré su acompañante,\Nseñorita Lawine.
+Dialogue: 0,0:16:57.28,0:17:01.03,Gen_Main,Kanne,0000,0000,0000,,¡Me duele mucho! ¡Me las vas a arrancar!
+Dialogue: 0,0:17:21.89,0:17:26.37,Gen_Main,Stark,0000,0000,0000,,Disculpe, señorita Fern,\N¿cuál le gustaría que le comprásemos?
+Dialogue: 0,0:17:26.57,0:17:30.80,Gen_Main,Fern,0000,0000,0000,,Cualquiera está bien.\NUsted puede elegirlo, señor Stark.
+Dialogue: 0,0:17:32.59,0:17:35.43,Gen_Italics,Stark,0000,0000,0000,,Es lo que dice\Ncuando cualquiera no está bien.
+Dialogue: 0,0:17:37.03,0:17:38.55,Gen_Main,Stark,0000,0000,0000,,¿Ahora qué voy a hacer?
+Dialogue: 0,0:17:38.75,0:17:41.04,Gen_Main,Frieren,0000,0000,0000,,No me preguntes. Me pones en un aprieto.
+Dialogue: 0,0:17:44.75,0:17:48.46,Gen_Main,Lawine/Kanne,0000,0000,0000,,-Mira, esa es Frieren, ¿no?\N-Sí.
+Dialogue: 0,0:17:51.86,0:17:56.34,Gen_Main,Kanne,0000,0000,0000,,Qué suerte que te encontráramos.\NJusto íbamos a buscarte a tu posada.
+Dialogue: 0,0:17:56.91,0:17:58.39,Gen_Main,Stark,0000,0000,0000,,¿Quiénes son estas?
+Dialogue: 0,0:17:58.59,0:18:01.62,Gen_Main,Frieren,0000,0000,0000,,Me tocó estar con ellas\Nen el mismo grupo del examen.
+Dialogue: 0,0:18:01.82,0:18:05.83,Gen_Main,Kanne,0000,0000,0000,,Escucha,\NFrieren nos salvó la vida muchas veces.
+Dialogue: 0,0:18:06.03,0:18:08.73,Gen_Main,Kanne,0000,0000,0000,,Y además era como nuestra maestra.
+Dialogue: 0,0:18:10.61,0:18:12.59,Gen_Main,Frieren,0000,0000,0000,,Es porque pelean todo el tiempo.
+Dialogue: 0,0:18:12.79,0:18:14.58,Gen_Main,Kanne,0000,0000,0000,,¡Eso es por culpa de Lawine!
+Dialogue: 0,0:18:15.01,0:18:18.39,Gen_Italics,Stark,0000,0000,0000,,Me siento incómodo entre puras chicas.
+Dialogue: 0,0:18:15.01,0:18:18.39,Gen_Main_Up,Kanne/Frieren,0000,0000,0000,,-¡Eso me dolió mucho!\N-Tranquilas, chicas.
+Dialogue: 0,0:18:18.59,0:18:19.85,Gen_Main,Wirbel/Stark,0000,0000,0000,,-¡Oye, tú!\N-¿Eh?
+Dialogue: 0,0:18:20.05,0:18:21.99,Gen_Main,Wirbel,0000,0000,0000,,Tú eres un guerrero, ¿no es cierto?
+Dialogue: 0,0:18:24.35,0:18:28.25,Gen_Main,Stark,0000,0000,0000,,Oigan, no me hagan eso. ¿Qué quieren?
+Dialogue: 0,0:18:29.56,0:18:31.74,Gen_Main,Wirbel,0000,0000,0000,,Tú me agradas sobremanera.
+Dialogue: 0,0:18:31.94,0:18:33.80,Gen_Main,Stark,0000,0000,0000,,¡¿Qué diablos está pasando?!
+Dialogue: 0,0:18:34.35,0:18:40.21,Gen_Main,Wirbel,0000,0000,0000,,La Asociación Mágica nos pidió eliminar\Nunos fresser que arrasan con cosechas.
+Dialogue: 0,0:18:40.41,0:18:42.20,Gen_Main,Wirbel,0000,0000,0000,,Buscamos un guardaespaldas.
+Dialogue: 0,0:18:43.02,0:18:47.27,Gen_Main,Wirbel,0000,0000,0000,,Nos conocimos en el examen.\N¿Viene contigo? ¿Me lo puedes prestar?
+Dialogue: 0,0:18:47.50,0:18:49.39,Gen_Main,Fern/Stark,0000,0000,0000,,-Sí, adelante.\N-¡Qué mala!
+Dialogue: 0,0:18:51.42,0:18:54.25,Gen_Main,Stark/Kanne,0000,0000,0000,,-Qué mala.\N-Se lo llevaron. ¿No hay problema?
+Dialogue: 0,0:18:54.45,0:18:57.95,Gen_Main,Fern,0000,0000,0000,,Sí, debe estar bien. No tiene\Nninguna intención de hacerle daño.
+Dialogue: 0,0:18:58.15,0:19:00.33,Gen_Main,Fern,0000,0000,0000,,Al grado de que no parece el mismo.
+Dialogue: 0,0:19:00.53,0:19:03.62,Gen_Main,Lawine,0000,0000,0000,,Debe comportarse diferente\Nen el trabajo y en privado.
+Dialogue: 0,0:19:03.82,0:19:05.61,Gen_Main,Lawine,0000,0000,0000,,Mis hermanos son iguales.
+Dialogue: 0,0:19:07.88,0:19:09.29,Gen_Main,Kanne,0000,0000,0000,,Toma, Frieren.
+Dialogue: 0,0:19:09.82,0:19:11.45,Gen_Main,Kanne,0000,0000,0000,,Con esto te damos las gracias.
+Dialogue: 0,0:19:13.03,0:19:15.98,Gen_Main,Frieren,0000,0000,0000,,No hice nada como para que\Nme lo agradezcas con regalos.
+Dialogue: 0,0:19:16.65,0:19:17.77,Gen_Main,Lawine,0000,0000,0000,,Claro que sí.
+Dialogue: 0,0:19:18.36,0:19:22.56,Gen_Main,Lawine,0000,0000,0000,,Sin tu ayuda, no hubiéramos podido pasar\Na la segunda parte del examen.
+Dialogue: 0,0:19:22.76,0:19:24.14,Gen_Main,Kanne,0000,0000,0000,,Gracias.
+Dialogue: 0,0:19:26.35,0:19:29.93,Gen_Main,Niña,0000,0000,0000,,¡Gracias, señor Himmel!
+Dialogue: 0,0:19:30.83,0:19:33.67,Gen_Main,Himmel/Niña,0000,0000,0000,,-Ya no tienes nada de qué preocuparte.\N-Ajá.
+Dialogue: 0,0:19:33.87,0:19:36.45,Gen_Main,Himmel,0000,0000,0000,,Anda, mamá y papá te están esperando.
+Dialogue: 0,0:19:36.65,0:19:37.82,Gen_Main,Niña,0000,0000,0000,,¡Sí!
+Dialogue: 0,0:19:44.05,0:19:46.84,Gen_Main,Frieren,0000,0000,0000,,Himmel,\N¿con qué fin ayudas a las personas?
+Dialogue: 0,0:19:47.69,0:19:51.04,Gen_Main,Himmel/Frieren,0000,0000,0000,,-Es porque soy un héroe.\N-No me refería a eso.
+Dialogue: 0,0:19:53.19,0:19:54.92,Gen_Main,Himmel,0000,0000,0000,,Sí, ya sé.
+Dialogue: 0,0:19:55.19,0:19:58.10,Gen_Main,Himmel,0000,0000,0000,,Tal vez lo haga por mí.
+Dialogue: 0,0:19:58.98,0:20:04.05,Gen_Main,Himmel,0000,0000,0000,,Quizá quiera que la mayor cantidad\Nde personas me recuerden.
+Dialogue: 0,0:20:07.32,0:20:13.06,Gen_Main,Himmel,0000,0000,0000,,Vivir es que alguien\Nte conozca y te recuerde.
+Dialogue: 0,0:20:14.69,0:20:18.07,Gen_Main,Frieren,0000,0000,0000,,¿Qué debo hacer para que me recuerden?
+Dialogue: 0,0:20:19.83,0:20:24.41,Gen_Main,Himmel,0000,0000,0000,,Es suficiente con que le cambies la vida\Na alguien, aunque sea solo un poco.
+Dialogue: 0,0:20:25.13,0:20:27.42,Gen_Main,Himmel,0000,0000,0000,,Estoy seguro\Nde que con eso es suficiente.
+Dialogue: 0,0:20:36.89,0:20:40.05,Gen_Main,Kanne,0000,0000,0000,,Entonces, en ese momento,\Nlo que hizo Lawine fue…
+Dialogue: 0,0:20:40.25,0:20:43.35,Gen_Main,Lawine,0000,0000,0000,,No, claro que no. Esa fuiste tú, Kanne.
+Dialogue: 0,0:20:43.55,0:20:47.33,Gen_Main,Kanne/Lawine,0000,0000,0000,,-¿Eh? ¿Estás segura?\N-Sí, recuerda lo que pasó esa vez.
+Dialogue: 0,0:20:49.40,0:20:53.71,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren, los dulces\Nque le dieron están riquísimos.
+Dialogue: 0,0:20:53.91,0:20:55.85,Gen_Main,Frieren,0000,0000,0000,,Al fin te contentaste.
+Dialogue: 0,0:20:56.50,0:21:00.37,Gen_Main,Lawine,0000,0000,0000,,Por cierto, te costó despertarte\Nla mañana del segundo día, ¿verdad?
+Dialogue: 0,0:21:00.57,0:21:04.53,Gen_Main,Frieren,0000,0000,0000,,Olvídate de ese tema.\NSe va a poner de mal humor de nuevo.
+Dialogue: 0,0:21:06.60,0:21:07.88,Gen_Main,Lawine,0000,0000,0000,,Frieren.
+Dialogue: 0,0:21:09.08,0:21:12.87,Gen_Main,Lawine,0000,0000,0000,,El examen de primer grado por lo general\Nestá dividido en tres partes.
+Dialogue: 0,0:21:13.07,0:21:15.20,Gen_Main,Lawine,0000,0000,0000,,La próxima vez seremos enemigas.
+Dialogue: 0,0:21:15.40,0:21:16.79,Gen_Main,Frieren,0000,0000,0000,,Tienes razón.
+Dialogue: 0,0:21:26.03,0:21:27.44,Gen_Main,Frieren,0000,0000,0000,,¿Qué es eso?
+Dialogue: 0,0:21:27.90,0:21:29.93,Gen_Main,Fern,0000,0000,0000,,Un aviso sobre la siguiente prueba.
+Dialogue: 0,0:21:30.34,0:21:35.85,Gen_Main,Fern,0000,0000,0000,,Viene la fecha y el lugar del examen,\Nasí como el nombre de la encargada.
+Dialogue: 0,0:21:36.05,0:21:39.74,Gen_Main,Lawine,0000,0000,0000,,De modo que la encargada es Sense.\NQué mala suerte.
+Dialogue: 0,0:21:39.94,0:21:42.85,Gen_Main,Kanne,0000,0000,0000,,Justo cuando habíamos pasado\Nla primera parte.
+Dialogue: 0,0:21:43.16,0:21:44.82,Gen_Main,Fern,0000,0000,0000,,¿Qué quieren decir?
+Dialogue: 0,0:21:46.77,0:21:49.85,Gen_Main,Lawine,0000,0000,0000,,Sense ha estado a cargo del examen\Ncuatro veces en total.
+Dialogue: 0,0:21:50.51,0:21:52.95,Gen_Main,Lawine,0000,0000,0000,,Nadie lo ha aprobado\Nninguna de esas veces.
+Dialogue: 0,0:22:23.25,0:22:25.09,Gen_Main,Stark,0000,0000,0000,,Qué rica está esta carne.
+Dialogue: 0,0:22:25.29,0:22:29.11,Gen_Main,Wirbel,0000,0000,0000,,Eres extraordinario. Fui testigo\Nde la cúspide de las artes marciales.
+Dialogue: 0,0:22:33.85,0:22:36.88,Gen_Main,Genau,0000,0000,0000,,Qué prueba tan horrible has preparado.
+Dialogue: 0,0:22:38.76,0:22:40.09,Gen_Main,Sense,0000,0000,0000,,¿Tú crees?
+Dialogue: 0,0:22:40.79,0:22:43.27,Gen_Main,Sense,0000,0000,0000,,Mira, yo soy una pacifista,
+Dialogue: 0,0:22:45.63,0:22:47.74,Gen_Main,Sense,0000,0000,0000,,a diferencia de ti, Genau.
+Dialogue: 0,0:24:16.85,0:24:19.98,Cart_C_Tim,CARTEL,0000,0000,0000,,{\b0\fad(800,0)\bord1\blur0.6\fs18\pos(320,231)}Traducción: Antonio Valdez\NPautado: Thomas Benaissa\NEdición: Álvaro Jimeno\NControl de calidad: Nicolás Sepúlveda{\b1\b0}
+Dialogue: 0,0:24:20.18,0:24:22.50,Gen_Main,Wirbel/Richter,0000,0000,0000,,-Qué sorpresa que haya algo así.\N-Qué horrible.
+Dialogue: 0,0:24:20.73,0:24:23.06,Gen_Main_Up,Kanne/Fern,0000,0000,0000,,-¡Es una gárgola!\N-Es un mimic.
+Dialogue: 0,0:24:22.70,0:24:25.25,Gen_Main,Mago A/Mago B,0000,0000,0000,,-Es imposible.\N-Debe ser obra de los demonios.
+Dialogue: 0,0:24:24.29,0:24:27.32,Gen_Main_Up,Lawine,0000,0000,0000,,Tracemos un mapa mientras avanzamos.
+Dialogue: 0,0:24:25.45,0:24:27.32,Gen_Main,Methode,0000,0000,0000,,Es una amenaza espantosa.
+Dialogue: 0,0:24:27.52,0:24:29.98,Cart_A_Tim,CARTEL,0000,0000,0000,,{\fsp1\b0\fad(500,0)\pos(320,60)\bord0\c&H201B1C&\blur5\t(0,271,\blur0)\t(312,1188,\c&HFFFFFF&)\t(\fsp0)}Episodio 23\N{\fs30}La conquista del laberinto
+Dialogue: 0,0:24:27.52,0:24:29.98,Gen_Main,Sense,0000,0000,0000,,La segunda prueba\Nes conquistar el laberinto.

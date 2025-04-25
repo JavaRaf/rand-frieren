@@ -1,0 +1,286 @@
+﻿[Script Info]
+Title: [Erai-raws] Español (América Latina)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Gen_Main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Main_Up,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00090909,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Gen_Italics_top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Cart_A_Tre,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tre,Trebuchet MS,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Tim,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tim,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Verd,Verdana,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,110,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EpiTitle,Times New Roman,20,&H00FFFFFF,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,6,0020,0020,0020,1
+Style: Cart_Serieslogo,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,10,0,1,0,0,8,0005,0005,0000,1
+Style: Cart_C_Verd,Verdana,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EndCards,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0020,1
+Style: Cart_NextTitle,Times New Roman,20,&H00000000,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,5,0020,0020,0020,1
+Style: Cart_Opening,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00494949,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_Ending,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.90,0:00:04.66,Gen_Main,Frieren,0000,0000,0000,,Contamos con muy poca información.
+Dialogue: 0,0:00:05.17,0:00:08.23,Gen_Main,Frieren,0000,0000,0000,,Tomemos en cuenta\Nla posibilidad de que no tenga corazón.
+Dialogue: 0,0:00:08.57,0:00:11.73,Gen_Main,Frieren,0000,0000,0000,,En ese caso,\Nserá un duelo de fuerza bruta.
+Dialogue: 0,0:00:12.82,0:00:14.29,Gen_Main,Denken,0000,0000,0000,,¿Podrás vencerla?
+Dialogue: 0,0:00:14.49,0:00:16.37,Gen_Main,Frieren,0000,0000,0000,,No estoy segura.
+Dialogue: 0,0:00:20.81,0:00:23.00,Gen_Main,Fern,0000,0000,0000,,Oigan, en ese caso,
+Dialogue: 0,0:00:24.06,0:00:28.50,Gen_Main,Fern,0000,0000,0000,,quizá yo pueda matar\Na la señorita Frieren.
+Dialogue: 0,0:00:30.53,0:00:33.13,Gen_Main,Frieren/Fern,0000,0000,0000,,-Ah, ¿sí?\N-Sí.
+Dialogue: 0,0:00:41.74,0:00:45.02,Gen_Main,Frieren,0000,0000,0000,,Entonces, formulemos un plan.
+Dialogue: 0,0:01:08.58,0:01:13.84,Cart_Serieslogo,CARTEL,0000,0000,0000,,{\fsp1\fs25\fad(800,0)\fsp4\c&HFFFFFF&\pos(320,273.8)\iclip(523.733,177.6,550.933,345.067)\t(4017,5117,\iclip(123.733,177.6,550.933,345.067))}{\1c&HCEFF61&}M{\1c&HD8FF60&}á{\1c&HDFFF5F&}s{\1c&HE5FF5E&} {\1c&HECFF5D&}a{\1c&HF2FF5D&}l{\1c&HF8FF5C&}l{\1c&HFFFF5B&}á {\1c&HCEFF61&}d{\1c&HD5FF60&}e{\1c&HDBFF5F&}l{\1c&HE1FF5F&} {\1c&HE6FF5E&}f{\1c&HECFF5D&}i{\1c&HF3FF5D&}n{\1c&HFAFF5C&}a{\1c&HFFFF5B&}l {\1c&HCEFF61&}d{\1c&HD5FF60&}e{\1c&HDBFF5F&}l{\1c&HE0FF5F&} {\1c&HE6FF5E&}v{\1c&HEDFF5D&}i{\1c&HF3FF5C&}a{\1c&HF9FF5C&}j{\1c&HFFFF5B&}e
+Dialogue: 0,0:02:14.98,0:02:17.99,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an3\pos(562,285)\b0\fad(0,0)}Episodio 25\NUn punto débil fatal
+Dialogue: 0,0:02:21.18,0:02:23.22,Gen_Main,Frieren,0000,0000,0000,,Primero repasemos para confirmar.
+Dialogue: 0,0:02:23.42,0:02:25.82,Gen_Main,Frieren,0000,0000,0000,,En caso de que la copia tenga corazón,
+Dialogue: 0,0:02:26.02,0:02:30.49,Gen_Main,Frieren,0000,0000,0000,,usaremos la magia mental de Edel\Npara romper sus defensas cerebrales
+Dialogue: 0,0:02:30.69,0:02:33.49,Gen_Main,Frieren/Fern,0000,0000,0000,,-y que Fern la mate al final, ¿no?\N-Sí.
+Dialogue: 0,0:02:33.85,0:02:35.70,Gen_Main,Laufen,0000,0000,0000,,Qué casual eres al respecto.
+Dialogue: 0,0:02:39.11,0:02:40.63,Gen_Main,Methode,0000,0000,0000,,Señor Dünste…
+Dialogue: 0,0:02:48.73,0:02:50.28,Gen_Main,Methode,0000,0000,0000,,¿Qué fue de la señorita Edel?
+Dialogue: 0,0:02:51.58,0:02:55.93,Gen_Main,Dünste,0000,0000,0000,,La copia de Sense nos atacó,\Ny ella se dio por vencida.
+Dialogue: 0,0:02:57.45,0:03:00.32,Gen_Main,Methode,0000,0000,0000,,Entiendo. ¿Qué hay del señor Blei?
+Dialogue: 0,0:03:03.07,0:03:07.08,Gen_Main,Dünste,0000,0000,0000,,Fui capaz de escapar gracias a que él\Nme hizo el favor de distraerla.
+Dialogue: 0,0:03:07.94,0:03:11.04,Gen_Main,Dünste,0000,0000,0000,,Espero que haya podido\Nescapar del laberinto con vida.
+Dialogue: 0,0:03:19.83,0:03:22.14,Gen_Main,Blei,0000,0000,0000,,¡No te preocupes por mí! ¡Vete!
+Dialogue: 0,0:03:26.57,0:03:27.89,Gen_Main,Dünste,0000,0000,0000,,¡Pero…!
+Dialogue: 0,0:03:28.18,0:03:30.77,Gen_Main,Blei,0000,0000,0000,,Es mejor a que nadie apruebe\Nel maldito examen.
+Dialogue: 0,0:03:37.43,0:03:39.40,Gen_Main,Dünste,0000,0000,0000,,Cuento con información.
+Dialogue: 0,0:03:39.86,0:03:41.86,Gen_Main,Dünste,0000,0000,0000,,¿No les interesaría cooperar conmigo?
+Dialogue: 0,0:03:43.07,0:03:46.33,Gen_Main,Denken,0000,0000,0000,,Esa era mi intención desde un principio.
+Dialogue: 0,0:03:47.97,0:03:50.45,Gen_Main,Denken,0000,0000,0000,,¿Hay alguien que pueda tratarlo?
+Dialogue: 0,0:03:51.23,0:03:55.69,Gen_Main,Methode,0000,0000,0000,,Llevo conmigo las santas escrituras.\NPuedo lanzar magia de curación simple.
+Dialogue: 0,0:03:56.03,0:03:57.54,Gen_Main,Denken,0000,0000,0000,,Por favor.
+Dialogue: 0,0:04:04.03,0:04:05.30,Gen_Main,Frieren,0000,0000,0000,,Comprendo.
+Dialogue: 0,0:04:05.85,0:04:08.31,Gen_Main,Frieren,0000,0000,0000,,Las copias no cuentan con un corazón.
+Dialogue: 0,0:04:08.69,0:04:11.58,Gen_Main,Dünste,0000,0000,0000,,No. Según el análisis\Nde la señorita Edel,
+Dialogue: 0,0:04:11.78,0:04:15.07,Gen_Main,Dünste,0000,0000,0000,,solo están replicando con precisión\Nel funcionamiento,
+Dialogue: 0,0:04:15.27,0:04:17.94,Gen_Main,Dünste,0000,0000,0000,,pero carecen de un corazón como tal.
+Dialogue: 0,0:04:18.69,0:04:21.69,Gen_Main,Frieren,0000,0000,0000,,Ahora ya no hay ningún medio\Npara derrotarla fácilmente.
+Dialogue: 0,0:04:22.65,0:04:25.95,Gen_Main,Frieren,0000,0000,0000,,Debemos tomar en cuenta esto\Npara formular el plan.
+Dialogue: 0,0:04:26.31,0:04:28.56,Gen_Main,Denken,0000,0000,0000,,Sí, en eso estoy de acuerdo, Frieren,
+Dialogue: 0,0:04:28.76,0:04:31.58,Gen_Main,Denken,0000,0000,0000,,pero aún hay\Ndemasiados factores inciertos.
+Dialogue: 0,0:04:32.36,0:04:37.84,Gen_Main,Denken,0000,0000,0000,,El mayor problema es la identidad\Nde la copia y del conjurador.
+Dialogue: 0,0:04:38.44,0:04:42.09,Gen_Main,Denken,0000,0000,0000,,No podemos meternos con ella\Nhasta que sepamos quién está detrás.
+Dialogue: 0,0:04:42.46,0:04:46.97,Gen_Main,Richter,0000,0000,0000,,En especial, debemos saber si las copias\Ntienen un punto débil inherente o no.
+Dialogue: 0,0:04:47.50,0:04:52.53,Gen_Main,Richter,0000,0000,0000,,Si la copia tiene el poder de Frieren,\Nseguramente alguien morirá.
+Dialogue: 0,0:04:54.53,0:04:56.45,Gen_Main,Sense,0000,0000,0000,,No puedo responder a eso.
+Dialogue: 0,0:04:56.65,0:04:58.05,Gen_Main,Richter,0000,0000,0000,,Me lo imaginaba.
+Dialogue: 0,0:04:58.72,0:05:00.90,Gen_Main,Lawine,0000,0000,0000,,Esas cosas no tienen punto débil.
+Dialogue: 0,0:05:01.42,0:05:03.64,Gen_Main,Lawine,0000,0000,0000,,El que controla a las copias
+Dialogue: 0,0:05:04.12,0:05:07.27,Gen_Main,Lawine,0000,0000,0000,,es un monstruo de la era mitológica\Nllamado Spigel.
+Dialogue: 0,0:05:07.72,0:05:10.78,Gen_Main,Frieren/Denken,0000,0000,0000,,-Lawine…\N-¿Cómo lo sabes?
+Dialogue: 0,0:05:11.10,0:05:12.88,Gen_Main,Lawine,0000,0000,0000,,Mi hermano mayor era miembro
+Dialogue: 0,0:05:13.08,0:05:18.60,Gen_Main,Lawine,0000,0000,0000,,de la expedición que la Asociación\NMágica mandó a la Tumba Real en Ruinas.
+Dialogue: 0,0:05:19.79,0:05:22.08,Gen_Main,Richter,0000,0000,0000,,O sea, que poseían información, ¿eh?
+Dialogue: 0,0:05:22.58,0:05:24.88,Gen_Main,Richter,0000,0000,0000,,Con razón pudieron llegar hasta aquí.
+Dialogue: 0,0:05:26.89,0:05:29.93,Gen_Main,Richter,0000,0000,0000,,Pero no me parece\Nun comportamiento muy razonable.
+Dialogue: 0,0:05:30.47,0:05:35.78,Gen_Main,Richter,0000,0000,0000,,Debieron compartir la información\Ny cooperar con nosotros desde un inicio.
+Dialogue: 0,0:05:35.98,0:05:39.09,Gen_Main,Lawine,0000,0000,0000,,El ambiente no estaba\Ncomo para ofrecerse a cooperar.
+Dialogue: 0,0:05:39.40,0:05:43.15,Gen_Main,Kanne,0000,0000,0000,,Y, cuando nos dimos cuenta,\NFrieren y Fern ya se habían adelantado.
+Dialogue: 0,0:05:43.35,0:05:48.56,Gen_Main,Lawine,0000,0000,0000,,Eres de los que abandonan sin clemencia\Na los demás si te conviene, ¿no, viejo?
+Dialogue: 0,0:05:50.58,0:05:52.53,Gen_Main,Lawine,0000,0000,0000,,No te íbamos a ayudar tan fácilmente.
+Dialogue: 0,0:05:53.83,0:05:55.85,Gen_Main,Denken,0000,0000,0000,,Creo que te ganaste su odio.
+Dialogue: 0,0:05:56.05,0:05:58.57,Gen_Main,Richter,0000,0000,0000,,Es cierto que ya soy un viejo,
+Dialogue: 0,0:05:58.77,0:06:01.79,Gen_Main,Richter,0000,0000,0000,,pero me afecta bastante\Nsi me lo dicen en mi cara, sí.
+Dialogue: 0,0:06:02.30,0:06:04.27,Gen_Main,Kanne,0000,0000,0000,,¿No sería mejor que te disculparas?
+Dialogue: 0,0:06:04.47,0:06:06.17,Gen_Main,Lawine,0000,0000,0000,,Perdóname, viejo.
+Dialogue: 0,0:06:09.06,0:06:11.80,Gen_Main,Lawine,0000,0000,0000,,Según las observaciones\Nde la expedición,
+Dialogue: 0,0:06:12.00,0:06:17.17,Gen_Main,Lawine,0000,0000,0000,,Spigel se encuentra en la bóveda\Ndel tesoro, detrás de esa puerta.
+Dialogue: 0,0:06:17.86,0:06:22.56,Gen_Main,Lawine,0000,0000,0000,,Se supone que es un monstruo muy débil\Nque no cuenta con medios para atacar.
+Dialogue: 0,0:06:23.37,0:06:26.76,Gen_Main,Lawine,0000,0000,0000,,Si lo aniquilamos,\Ntodas las copias desaparecerán.
+Dialogue: 0,0:06:27.77,0:06:31.25,Gen_Main,Denken,0000,0000,0000,,Eso concuerda con los resultados\Nde nuestra detección mágica.
+Dialogue: 0,0:06:32.86,0:06:35.47,Gen_Main,Denken,0000,0000,0000,,El que los controla\Nestá detrás de la puerta.
+Dialogue: 0,0:06:35.67,0:06:39.98,Gen_Main,Denken,0000,0000,0000,,Sin embargo, la puerta está encantada\Ncon sellos muy poderosos.
+Dialogue: 0,0:06:40.55,0:06:43.06,Gen_Main,Frieren,0000,0000,0000,,Sí, yo también ya lo he comprobado.
+Dialogue: 0,0:06:43.41,0:06:45.84,Gen_Main,Frieren,0000,0000,0000,,Estoy segura de que es obra de mi copia.
+Dialogue: 0,0:06:47.05,0:06:50.84,Gen_Main,Frieren,0000,0000,0000,,Magia que cierra la puerta de la bóveda\Ndel tesoro a costa de tu vida.
+Dialogue: 0,0:06:51.33,0:06:55.22,Gen_Main,Frieren,0000,0000,0000,,Es una magia para sellar\Nde máximo nivel en las magias civiles.
+Dialogue: 0,0:06:55.67,0:06:59.05,Gen_Main,Frieren,0000,0000,0000,,La puerta no se abrirá nunca\Na menos que muera quien la encantó.
+Dialogue: 0,0:07:00.54,0:07:04.10,Gen_Main,Frieren,0000,0000,0000,,Se me ocurre hacerle\Nun hoyo a la pared evitando la puerta,
+Dialogue: 0,0:07:04.30,0:07:06.61,Gen_Main,Frieren,0000,0000,0000,,pero de seguro\Ntambién lo habrá anticipado.
+Dialogue: 0,0:07:09.00,0:07:12.00,Gen_Main,Denken,0000,0000,0000,,Sea como sea, para acabar con Spigel,
+Dialogue: 0,0:07:12.20,0:07:16.16,Gen_Main,Denken,0000,0000,0000,,es claro que debemos vencer\Na esa copia a toda costa.
+Dialogue: 0,0:07:17.14,0:07:19.52,Gen_Main,Lawine,0000,0000,0000,,Si piensan vencerla,\Ntenemos que apresurarnos.
+Dialogue: 0,0:07:20.14,0:07:21.71,Gen_Main,Denken,0000,0000,0000,,¿Qué quieres decir?
+Dialogue: 0,0:07:21.98,0:07:27.37,Gen_Main,Lawine,0000,0000,0000,,Spigel crea una copia mágica\Nde todos los presentes en el laberinto.
+Dialogue: 0,0:07:27.94,0:07:33.47,Gen_Main,Lawine,0000,0000,0000,,Esas copias, con el tiempo, tienden\Na reunirse en la parte más profunda.
+Dialogue: 0,0:07:35.89,0:07:41.44,Gen_Main,Lawine,0000,0000,0000,,En la última expedición, casi todos\Ncayeron, excepto el grupo de mi hermano.
+Dialogue: 0,0:07:43.90,0:07:48.14,Gen_Main,Lawine,0000,0000,0000,,En el salón justo antes de la parte más\Nprofunda, o sea, en este mismo lugar.
+Dialogue: 0,0:07:54.07,0:07:56.06,Gen_Main,Denken,0000,0000,0000,,Tiene sentido.
+Dialogue: 0,0:07:56.43,0:07:57.65,Gen_Main,Fern,0000,0000,0000,,Oiga,
+Dialogue: 0,0:07:58.07,0:08:02.33,Gen_Main,Fern,0000,0000,0000,,las copias imitan con precisión\Ncómo funciona la mente humana, ¿no?
+Dialogue: 0,0:08:02.73,0:08:07.84,Gen_Main,Fern,0000,0000,0000,,Por ende, tendrán el mismo punto débil\Ndel comportamiento del original, ¿no?
+Dialogue: 0,0:08:08.13,0:08:09.59,Gen_Main,Dünste,0000,0000,0000,,Es lo más probable.
+Dialogue: 0,0:08:11.55,0:08:14.97,Gen_Main,Fern,0000,0000,0000,,En ese caso,\Ncreo que efectivamente podré vencerla.
+Dialogue: 0,0:08:15.39,0:08:17.72,Gen_Main,Frieren,0000,0000,0000,,¿De qué punto débil hablas?
+Dialogue: 0,0:08:21.03,0:08:22.49,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren,
+Dialogue: 0,0:08:22.95,0:08:26.72,Gen_Main,Fern/Frieren,0000,0000,0000,,-¿podría pararse allá cerca de la pared?\N-Está bien.
+Dialogue: 0,0:08:46.41,0:08:47.86,Gen_Main,Methode,0000,0000,0000,,Qué sorpresa.
+Dialogue: 0,0:08:48.37,0:08:52.17,Gen_Main,Denken,0000,0000,0000,,No me imaginaba que tendría algo así.
+Dialogue: 0,0:08:52.37,0:08:54.13,Gen_Main,Fern,0000,0000,0000,,¿Se percataron de ello?
+Dialogue: 0,0:08:54.84,0:08:57.43,Gen_Main,Kanne/Lawine,0000,0000,0000,,-¿Tú te diste cuenta de algo?\N-No, para nada.
+Dialogue: 0,0:08:57.72,0:09:01.91,Gen_Main,Denken,0000,0000,0000,,De verdad que este debe ser\Nun punto débil fatal para Frieren.
+Dialogue: 0,0:09:02.11,0:09:05.64,Gen_Main,Denken,0000,0000,0000,,¿Cómo no me di cuenta\Ncuando luché contra ella?
+Dialogue: 0,0:09:07.02,0:09:12.07,Gen_Main,Denken,0000,0000,0000,,No, estaba predispuesto a enfrentar\Na una gran maga. Por eso no lo noté.
+Dialogue: 0,0:09:13.88,0:09:19.32,Gen_Main,Denken,0000,0000,0000,,Su detección mágica se interrumpe\Npor un breve instante cuando usa magia.
+Dialogue: 0,0:09:19.78,0:09:23.18,Gen_Main,Kanne,0000,0000,0000,,Es un error que los aprendices de mago\Ncometen a menudo, ¿no?
+Dialogue: 0,0:09:23.38,0:09:25.83,Gen_Main,Frieren,0000,0000,0000,,Siempre he tenido ese defecto.
+Dialogue: 0,0:09:26.14,0:09:29.59,Gen_Main,Fern,0000,0000,0000,,Si era consciente de ello,\N¿por qué no nos lo dijo antes?
+Dialogue: 0,0:09:30.06,0:09:31.92,Gen_Main,Frieren,0000,0000,0000,,Porque me da vergüenza.
+Dialogue: 0,0:09:32.12,0:09:34.55,Gen_Main,Fern,0000,0000,0000,,No es momento\Nde preocuparse por nimiedades.
+Dialogue: 0,0:09:35.57,0:09:39.72,Gen_Main,Richter,0000,0000,0000,,Sin embargo, sus demás habilidades\Ntienen un nivel por encima de las nubes.
+Dialogue: 0,0:09:40.75,0:09:44.94,Gen_Main,Richter,0000,0000,0000,,No debe haber muchos hechiceros que\Npuedan sacar provecho de tal punto débil
+Dialogue: 0,0:09:45.14,0:09:48.05,Gen_Main,Fern,0000,0000,0000,,Por lo pronto, formulemos\Nuna estrategia entre todos.
+Dialogue: 0,0:10:10.75,0:10:13.27,Gen_Main,Richter,0000,0000,0000,,Aunque podamos vencer\Nla copia de Frieren…
+Dialogue: 0,0:10:13.63,0:10:16.92,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren,\Nparece que se está divirtiendo.
+Dialogue: 0,0:10:17.83,0:10:18.95,Gen_Main,Frieren,0000,0000,0000,,Lo estoy.
+Dialogue: 0,0:10:27.45,0:10:29.65,Gen_Main,Himmel,0000,0000,0000,,Creo que el plan queda bien así.
+Dialogue: 0,0:10:29.89,0:10:34.05,Gen_Main,Himmel,0000,0000,0000,,Entonces, Eisen llamará su atención\Ny nosotros lo atacaremos por un flanco.
+Dialogue: 0,0:10:35.10,0:10:38.28,Gen_Main,Himmel/Frieren,0000,0000,0000,,-Frieren, tú serás fuego de apoyo.\N-¿Y Heiter?
+Dialogue: 0,0:10:38.50,0:10:40.77,Gen_Main,Himmel,0000,0000,0000,,Hoy la resaca no le permite hacer nada.
+Dialogue: 0,0:10:42.28,0:10:43.89,Gen_Main,Eisen,0000,0000,0000,,Perdió la vida.
+Dialogue: 0,0:11:03.49,0:11:09.06,Gen_Main,Frieren,0000,0000,0000,,Recordé que también teníamos juntas\Nantes de vencer al jefe del calabozo.
+Dialogue: 0,0:11:31.88,0:11:35.32,Gen_Main,Frieren,0000,0000,0000,,Muy bien. Comencemos con el plan\Npara conquistar el laberinto.
+Dialogue: 0,0:11:36.52,0:11:38.21,Gen_Main,Denken,0000,0000,0000,,¿Podrán derrotarla?
+Dialogue: 0,0:11:38.52,0:11:43.22,Gen_Main,Frieren,0000,0000,0000,,No te preocupes. No existe\Nningún calabozo que no se pueda pasar.
+Dialogue: 0,0:11:44.03,0:11:49.84,Gen_Main,Frieren,0000,0000,0000,,Y yo soy la hechicera del grupo que\Nconquistó más calabozos en la historia.
+Dialogue: 0,0:11:53.10,0:11:56.45,Gen_Main,Denken,0000,0000,0000,,¿En serio lograrán vencerla
+Dialogue: 0,0:11:56.65,0:11:59.59,Gen_Main,Denken,0000,0000,0000,,si luchan las dos solas contra la copia?
+Dialogue: 0,0:12:00.38,0:12:04.29,Gen_Main,Frieren,0000,0000,0000,,Es más fácil predecir las acciones\Ndel enemigo con pocas personas.
+Dialogue: 0,0:12:05.94,0:12:09.95,Gen_Main,Frieren,0000,0000,0000,,Es cierto que es casi seguro\Nque la podremos vencer entre todos,
+Dialogue: 0,0:12:10.15,0:12:12.87,Gen_Main,Frieren,0000,0000,0000,,pero, en ese caso,\Ncobraría demasiadas víctimas.
+Dialogue: 0,0:12:13.48,0:12:16.98,Gen_Main,Frieren,0000,0000,0000,,Me imagino que no les daría tiempo\Npara usar el gólem para escapar.
+Dialogue: 0,0:12:17.38,0:12:18.63,Gen_Main,Richter,0000,0000,0000,,Además, tenemos
+Dialogue: 0,0:12:19.33,0:12:24.38,Gen_Main,Richter,0000,0000,0000,,el importante papel de detener\Na las demás copias que vienen hacia acá.
+Dialogue: 0,0:12:29.15,0:12:33.02,Gen_Main,Frieren,0000,0000,0000,,Sí, nos aniquilarán\Nsi logran atacarnos por ambos lados.
+Dialogue: 0,0:12:34.09,0:12:36.09,Gen_Main,Frieren,0000,0000,0000,,Bueno, pongamos en marcha el plan.
+Dialogue: 0,0:12:36.29,0:12:39.02,Gen_Main,Denken,0000,0000,0000,,Sí. Les deseo mucha suerte.
+Dialogue: 0,0:12:42.25,0:12:43.78,Gen_Main,Frieren,0000,0000,0000,,Muy bien. Ábranla.
+Dialogue: 0,0:13:03.39,0:13:04.54,Gen_Main,Denken,0000,0000,0000,,Ahora bien,
+Dialogue: 0,0:13:05.70,0:13:09.90,Gen_Main,Denken,0000,0000,0000,,que cada uno mencione el hechicero\Nque más trabajo le costaría, ¿sí?
+Dialogue: 0,0:13:35.29,0:13:36.82,Gen_Main,Frieren,0000,0000,0000,,{\i1}Judradjim{\i0}, Trueno Destructor.
+Dialogue: 0,0:13:41.35,0:13:44.29,Gen_Italics,Fern,0000,0000,0000,,Es el patrón de acción\Nque la señorita Frieren predijo.
+Dialogue: 0,0:14:01.06,0:14:02.52,Gen_Main,Frieren,0000,0000,0000,,{\i1}Vollzanbel{\i0}, Fuego Infernal.
+Dialogue: 0,0:14:04.46,0:14:06.71,Gen_Italics,Frieren,0000,0000,0000,,Se cortó su detección de magia.
+Dialogue: 0,0:14:07.07,0:14:10.86,Gen_Italics,Frieren,0000,0000,0000,,Mi copia en ese momento estará alerta\Npara que Fern no la sorprenda.
+Dialogue: 0,0:14:12.28,0:14:15.70,Gen_Italics,Frieren,0000,0000,0000,,Pero tiene las manos ocupadas\Ncon una enemiga de su mismo nivel.
+Dialogue: 0,0:14:16.55,0:14:19.52,Gen_Italics,Frieren,0000,0000,0000,,No debe tener tiempo para buscar a Fern.
+Dialogue: 0,0:14:20.83,0:14:26.05,Gen_Italics,Frieren,0000,0000,0000,,Ya que yo soy la que mejor sabe\Nlo aterradora que puedo llegar a ser.
+Dialogue: 0,0:14:30.67,0:14:32.22,Gen_Main,Frieren,0000,0000,0000,,No te preocupes.
+Dialogue: 0,0:14:32.50,0:14:37.40,Gen_Main,Frieren,0000,0000,0000,,Cuando te escondes por completo,\Nni yo puedo detectarte fácilmente.
+Dialogue: 0,0:14:38.04,0:14:42.69,Gen_Main,Fern,0000,0000,0000,,Pero ¿de veras estará bien\Nutilizar Zoltraak para atacarla?
+Dialogue: 0,0:14:43.15,0:14:46.07,Gen_Main,Frieren,0000,0000,0000,,Es que es la magia\Ncon mayor rapidez de disparo.
+Dialogue: 0,0:14:47.37,0:14:52.45,Gen_Main,Frieren,0000,0000,0000,,Además, Zoltraak es una magia\Nrelativamente nueva para los elfos.
+Dialogue: 0,0:14:52.83,0:14:57.30,Gen_Main,Frieren,0000,0000,0000,,No han pasado tantos años\Ncomo para cubrirse de ella por reflejo.
+Dialogue: 0,0:14:58.12,0:15:03.46,Gen_Main,Frieren,0000,0000,0000,,Se reducirá a una fracción de segundo,\Na una distracción muy breve,
+Dialogue: 0,0:15:03.97,0:15:06.96,Gen_Main,Frieren,0000,0000,0000,,pero será lo suficiente\Npara retrasar su reacción.
+Dialogue: 0,0:15:07.64,0:15:09.51,Gen_Main,Frieren,0000,0000,0000,,Pero para ti representa otra cosa.
+Dialogue: 0,0:15:10.68,0:15:15.11,Gen_Main,Frieren,0000,0000,0000,,Zoltraak ya existía al nacer tú,\Ny siempre has contado con ella.
+Dialogue: 0,0:15:16.01,0:15:19.60,Gen_Main,Frieren,0000,0000,0000,,Es una magia de las más básicas,\Ny te la sabes al derecho y al revés.
+Dialogue: 0,0:15:22.04,0:15:25.36,Gen_Main,Frieren,0000,0000,0000,,Tu Zoltraak es capaz de asesinarme.
+Dialogue: 0,0:15:25.98,0:15:28.62,Gen_Main,Frieren,0000,0000,0000,,Imbúyele todo el poder mágico\Nque puedas.
+Dialogue: 0,0:15:45.88,0:15:47.30,Gen_Main,Serie,0000,0000,0000,,Frieren,
+Dialogue: 0,0:15:47.93,0:15:50.63,Gen_Main,Serie,0000,0000,0000,,estaba segura de que te caía mal.
+Dialogue: 0,0:15:50.95,0:15:53.26,Gen_Main,Serie,0000,0000,0000,,¿Para qué has venido a verme?
+Dialogue: 0,0:15:53.51,0:15:57.60,Gen_Main,Serie,0000,0000,0000,,Para ser sincera,\Ncreía que nunca nos volveríamos a ver.
+Dialogue: 0,0:15:58.76,0:16:01.64,Gen_Main,Frieren,0000,0000,0000,,Vine a traerte\Nel testamento de mi maestra.
+Dialogue: 0,0:16:03.46,0:16:05.52,Gen_Main,Serie,0000,0000,0000,,Han pasado 50 años desde la última vez.
+Dialogue: 0,0:16:06.17,0:16:09.53,Gen_Main,Serie,0000,0000,0000,,Claro. Flamme ha muerto, ¿cierto?
+Dialogue: 0,0:16:10.65,0:16:12.53,Gen_Main,Frieren,0000,0000,0000,,¿No te da tristeza?
+Dialogue: 0,0:16:12.93,0:16:15.20,Gen_Main,Serie,0000,0000,0000,,Era una aprendiz\Nque instruí por capricho.
+Dialogue: 0,0:16:21.53,0:16:23.57,Gen_Main,Serie,0000,0000,0000,,Esto está redactado como un informe.
+Dialogue: 0,0:16:24.07,0:16:26.04,Gen_Main,Frieren,0000,0000,0000,,¿Qué es lo que dice?
+Dialogue: 0,0:16:26.58,0:16:31.67,Gen_Main,Serie,0000,0000,0000,,Que el emperador aprobó la investigación\Nmágica que los consejeros propusieron.
+Dialogue: 0,0:16:32.71,0:16:37.93,Gen_Main,Serie,0000,0000,0000,,Hasta el momento, la magia era un arte\Ndemoníaco para la cultura humana
+Dialogue: 0,0:16:38.13,0:16:41.52,Gen_Main,Serie,0000,0000,0000,,y se había prohibido\Nel estudio oficial que estaba en curso.
+Dialogue: 0,0:16:42.10,0:16:44.21,Gen_Main,Serie,0000,0000,0000,,Ella se movió para conseguir el permiso.
+Dialogue: 0,0:16:44.47,0:16:49.76,Gen_Main,Serie,0000,0000,0000,,Se dedicaba a entrenar a los hechiceros\Nde la corte, una nueva posición.
+Dialogue: 0,0:16:51.10,0:16:55.07,Gen_Main,Serie,0000,0000,0000,,Lo que me solicita aquí\Nes que continúe con dicha actividad.
+Dialogue: 0,0:16:57.15,0:16:59.37,Gen_Main,Serie,0000,0000,0000,,¿Quién se cree para pedirme eso?
+Dialogue: 0,0:17:00.38,0:17:04.23,Gen_Main,Serie,0000,0000,0000,,Es suficiente con haber conseguido\Nel permiso para investigar la magia.
+Dialogue: 0,0:17:04.54,0:17:06.58,Gen_Main,Serie,0000,0000,0000,,Se atreve a desear aún más, ¿eh?
+Dialogue: 0,0:17:07.26,0:17:09.46,Gen_Main,Frieren,0000,0000,0000,,¿Es algo extraordinario?
+Dialogue: 0,0:17:10.12,0:17:14.20,Gen_Main,Serie,0000,0000,0000,,Significa que el Imperio Unificador,\Nel mayor país del continente,
+Dialogue: 0,0:17:14.40,0:17:16.84,Gen_Main,Serie,0000,0000,0000,,comenzará a estudiar magia\Npara fines bélicos.
+Dialogue: 0,0:17:17.78,0:17:20.23,Gen_Main,Serie,0000,0000,0000,,Los países vecinos\Nno se cruzarán de brazos.
+Dialogue: 0,0:17:20.43,0:17:24.85,Gen_Main,Serie,0000,0000,0000,,En unas cuantas décadas, la magia\Nse extenderá por todo el continente.
+Dialogue: 0,0:17:25.95,0:17:29.75,Gen_Main,Serie,0000,0000,0000,,Se avecinará una era en la que cualquier\Nhumano será capaz de usar magia.
+Dialogue: 0,0:17:31.09,0:17:37.07,Gen_Main,Serie,0000,0000,0000,,Significa que, en el futuro, tendrán\Nel poder para enfrentar al Rey Demonio.
+Dialogue: 0,0:17:37.45,0:17:41.24,Gen_Main,Frieren,0000,0000,0000,,Ya veo. Es algo bastante extraordinario.
+Dialogue: 0,0:17:41.44,0:17:42.80,Gen_Main,Serie,0000,0000,0000,,Sí, sin duda.
+Dialogue: 0,0:17:45.61,0:17:49.75,Gen_Main,Serie,0000,0000,0000,,Sin embargo, no es lo que yo deseo.
+Dialogue: 0,0:17:50.97,0:17:52.92,Gen_Main,Serie,0000,0000,0000,,Desaparécete de mi vista, Frieren.
+Dialogue: 0,0:17:53.48,0:17:56.32,Gen_Main,Serie,0000,0000,0000,,No puedo acceder\Na lo que dice este testamento.
+Dialogue: 0,0:17:56.56,0:17:58.04,Gen_Main,Serie,0000,0000,0000,,Me es muy desagradable.
+Dialogue: 0,0:18:00.06,0:18:02.95,Gen_Main,Serie,0000,0000,0000,,¿Una era en la que cualquiera\Npueda emplear la magia?
+Dialogue: 0,0:18:03.57,0:18:06.01,Gen_Main,Serie,0000,0000,0000,,La magia debe tener un trato especial.
+Dialogue: 0,0:18:06.94,0:18:09.77,Gen_Main,Serie,0000,0000,0000,,No pienso instruir a nadie\Nque no tenga talento.
+Dialogue: 0,0:18:10.76,0:18:16.15,Gen_Main,Serie,0000,0000,0000,,¿Cómo se atrevió a enviarme esto?\NAl final, no nos pudimos entender.
+Dialogue: 0,0:18:17.08,0:18:20.41,Gen_Main,Serie,0000,0000,0000,,Al fin y al cabo solo era una aprendiz\Nque instruí por capricho.
+Dialogue: 0,0:18:20.61,0:18:21.91,Gen_Main,Frieren,0000,0000,0000,,Mi maestra
+Dialogue: 0,0:18:22.51,0:18:26.91,Gen_Main,Frieren,0000,0000,0000,,estaba segura de que te enfadarías\Ny romperías en pedazos su testamento.
+Dialogue: 0,0:18:29.32,0:18:34.67,Gen_Main,Frieren,0000,0000,0000,,Pero, aun así, quería decirte\Nque se había cumplido su sueño.
+Dialogue: 0,0:18:34.98,0:18:37.17,Gen_Main,Frieren,0000,0000,0000,,Incomprensible, ¿verdad?
+Dialogue: 0,0:18:41.11,0:18:43.06,Gen_Main,Frieren,0000,0000,0000,,Bueno, yo ya me voy, ¿eh?
+Dialogue: 0,0:18:43.64,0:18:46.01,Gen_Main,Frieren,0000,0000,0000,,Supongo que\Nno nos volveremos a ver nunca más.
+Dialogue: 0,0:18:46.21,0:18:47.49,Gen_Main,Serie,0000,0000,0000,,Frieren.
+Dialogue: 0,0:18:49.54,0:18:51.84,Gen_Main,Serie,0000,0000,0000,,Da un paseo conmigo\Nantes de irte, ¿quieres?
+Dialogue: 0,0:18:52.25,0:18:55.70,Gen_Main,Serie,0000,0000,0000,,Al fin de cuentas,\Ncontamos con todo el tiempo del mundo.
+Dialogue: 0,0:18:59.77,0:19:04.34,Gen_Main,Serie,0000,0000,0000,,El sueño de Flamme era que todo el mundo\Npudiera emplear la magia.
+Dialogue: 0,0:19:06.02,0:19:09.71,Gen_Main,Serie,0000,0000,0000,,Estoy segura de que al principio\Nlo deseaba por el bien de la humanidad
+Dialogue: 0,0:19:09.88,0:19:12.25,Gen_Main,Serie,0000,0000,0000,,o por el poder\Npara resistirse al Rey Demonio.
+Dialogue: 0,0:19:12.98,0:19:15.43,Gen_Main,Serie,0000,0000,0000,,Pero al final todo eso le daba igual.
+Dialogue: 0,0:19:20.36,0:19:23.26,Gen_Main,Serie,0000,0000,0000,,¿Sabes cuál era su magia favorita?
+Dialogue: 0,0:19:24.30,0:19:26.49,Gen_Main,Serie,0000,0000,0000,,La magia para crear campos de flores.
+Dialogue: 0,0:19:27.69,0:19:31.21,Gen_Main,Serie,0000,0000,0000,,Un hechizo ridículo\Nque no tiene ninguna utilidad.
+Dialogue: 0,0:19:36.37,0:19:39.16,Gen_Main,Serie,0000,0000,0000,,A esa chica en verdad\Nle gustaba la magia.
+Dialogue: 0,0:19:39.58,0:19:45.57,Gen_Main,Serie,0000,0000,0000,,Deseaba en serio que todo el mundo\Nfuera capaz de utilizar magia similar.
+Dialogue: 0,0:19:46.95,0:19:49.29,Gen_Main,Serie,0000,0000,0000,,Me dio escalofríos cuando lo supe.
+Dialogue: 0,0:19:49.74,0:19:52.72,Gen_Main,Serie,0000,0000,0000,,Era el sueño de una linda niña.
+Dialogue: 0,0:19:53.10,0:19:56.04,Gen_Main,Serie,0000,0000,0000,,Pero en realidad así lo anhelaba.
+Dialogue: 0,0:19:57.51,0:20:04.12,Gen_Main,Serie,0000,0000,0000,,Eso fue lo que me contó sobre sus sueños\Ncuando era una niña pequeña.
+Dialogue: 0,0:20:05.67,0:20:10.09,Gen_Main,Serie,0000,0000,0000,,Confieso que yo pensaba\Nque una época así estaba aún muy lejana
+Dialogue: 0,0:20:10.29,0:20:13.56,Gen_Main,Serie,0000,0000,0000,,y que esa niña sería incapaz\Nde lograr que se cumpliera.
+Dialogue: 0,0:20:16.75,0:20:21.78,Gen_Main,Serie,0000,0000,0000,,Su vida fue tan corta\Nque casi no significó nada para mí,
+Dialogue: 0,0:20:21.98,0:20:25.07,Gen_Main,Serie,0000,0000,0000,,pero logró convertirse\Nen la fundadora de la magia humana.
+Dialogue: 0,0:20:25.85,0:20:29.18,Gen_Main,Frieren,0000,0000,0000,,Ella siempre\Ntomaba muy rápido las decisiones,
+Dialogue: 0,0:20:29.69,0:20:32.41,Gen_Main,Frieren,0000,0000,0000,,como si algo estuviera apresurándola.
+Dialogue: 0,0:20:34.45,0:20:36.72,Gen_Main,Serie,0000,0000,0000,,Los humanos tienen los días contados.
+Dialogue: 0,0:20:36.92,0:20:40.09,Gen_Main,Serie,0000,0000,0000,,Están mucho más cerca\Nde la muerte que nosotras.
+Dialogue: 0,0:20:41.19,0:20:46.42,Gen_Main,Serie,0000,0000,0000,,En su vida habrá varias ocasiones en que\Ndeberán tomar decisiones cruciales.
+Dialogue: 0,0:20:46.73,0:20:50.30,Gen_Main,Serie,0000,0000,0000,,Los humanos\Nno pueden postergar tanto las cosas.
+Dialogue: 0,0:20:52.27,0:20:56.25,Gen_Main,Serie,0000,0000,0000,,Nosotras podemos dejarlas\Npara dentro de cien o doscientos años.
+Dialogue: 0,0:20:56.94,0:21:00.71,Gen_Main,Serie,0000,0000,0000,,No nos afectará para nada,\Naunque las ignoremos por mil años.
+Dialogue: 0,0:21:02.34,0:21:06.05,Gen_Main,Serie,0000,0000,0000,,Disponemos de un tiempo casi infinito.
+Dialogue: 0,0:21:08.31,0:21:09.59,Gen_Main,Serie,0000,0000,0000,,Frieren,
+Dialogue: 0,0:21:10.02,0:21:15.50,Gen_Main,Serie,0000,0000,0000,,han pasado siglos desde que\Nla humanidad desarrolló su civilización.
+Dialogue: 0,0:21:16.42,0:21:19.62,Gen_Main,Serie,0000,0000,0000,,A partir de ahora,\Nel progreso comenzará a acelerarse.
+Dialogue: 0,0:21:22.93,0:21:24.61,Gen_Main,Serie,0000,0000,0000,,En solo mil años…
+Dialogue: 0,0:21:26.08,0:21:29.04,Gen_Main,Serie,0000,0000,0000,,En solo mil años,\Nllegará la era de los humanos
+Dialogue: 0,0:21:34.50,0:21:37.02,Gen_Main,Serie,0000,0000,0000,,y nos dejarán atrás.
+Dialogue: 0,0:21:43.48,0:21:46.78,Gen_Main,Serie,0000,0000,0000,,No descuides tu entrenamiento, Frieren.
+Dialogue: 0,0:21:58.11,0:22:00.54,Gen_Main,Serie,0000,0000,0000,,Si alguien algún día\Nfuera capaz de asesinarte,
+Dialogue: 0,0:22:01.03,0:22:02.55,Gen_Main,Serie,0000,0000,0000,,sería el Rey Demonio
+Dialogue: 0,0:22:05.15,0:22:07.55,Gen_Main,Serie,0000,0000,0000,,o un hechicero humano.
+Dialogue: 0,0:22:11.89,0:22:14.69,Gen_Main,Frieren,0000,0000,0000,,Qué emoción, Serie.
+Dialogue: 0,0:22:16.50,0:22:20.38,Gen_Main,Frieren,0000,0000,0000,,A partir de ahora,\Npodré conocer a muchos hechiceros
+Dialogue: 0,0:22:20.74,0:22:23.29,Gen_Main,Frieren,0000,0000,0000,,y ver distintas magias en acción.
+Dialogue: 0,0:24:16.85,0:24:19.97,Cart_C_Tim,CARTEL,0000,0000,0000,,{\b0\fad(800,0)\bord1\blur0.6\fs18\pos(320,231)}Traducción: Antonio Valdez\NPautado: Thomas Benaissa\NEdición: Álvaro Jimeno\NControl de calidad: Nicolás Sepúlveda{\b1\b0}
+Dialogue: 0,0:24:20.17,0:24:23.19,Gen_Main,Fern/Frieren,0000,0000,0000,,-Terminemos con esto de una vez.\N-Quizá las dos moriremos.
+Dialogue: 0,0:24:22.50,0:24:23.62,Gen_Main_Up,Fern,0000,0000,0000,,Qué impresionante.
+Dialogue: 0,0:24:23.39,0:24:25.32,Gen_Main,Frieren/Fern,0000,0000,0000,,-Te lo dejo a ti.\N-Señorita Frieren…
+Dialogue: 0,0:24:23.82,0:24:27.57,Gen_Main_Up,Frieren,0000,0000,0000,,Esta apertura tampoco sirvió.\NSolo queda pelear.
+Dialogue: 0,0:24:25.52,0:24:27.57,Gen_Main,Frieren,0000,0000,0000,,Está dentro del rango esperado.
+Dialogue: 0,0:24:27.52,0:24:29.98,Cart_A_Tim,CARTEL,0000,0000,0000,,{\fsp1\b0\fad(500,0)\pos(320,80)\bord0\c&H201B1C&\blur5\t(0,271,\blur0)\t(312,1188,\c&HFFFFFF&)\t(\fsp0)}Episodio 26\N{\fs30}La cúspide de la magia
+Dialogue: 0,0:24:27.77,0:24:29.98,Gen_Main,Fern,0000,0000,0000,,Esta es la cúspide de la magia, ¿cierto?

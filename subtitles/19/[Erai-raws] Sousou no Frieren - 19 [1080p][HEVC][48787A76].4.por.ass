@@ -1,0 +1,354 @@
+﻿[Script Info]
+Title: [Erai-raws] Português (Brasil)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,1
+Style: DefaultItalics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DefaultTop,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0015,0
+Style: DefaultOverlap,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Flashback,Trebuchet MS,22,&H00FBFBFE,&H000000FF,&H005C0718,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,0
+Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Signs_WText,Times New Roman,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,0030,0030,0010,0
+Style: Signs_EpTitle,Times New Roman,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0030,0030,0010,0
+Style: Signs_NextEp,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Jikai,Times New Roman,20,&H001F221F,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0000,0000,0080,1
+Style: Songs_OP2,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A5B23B,&H00A5B23B,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Songs_ED2,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00291665,&H00291665,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.86,0:00:07.35,Default,GENAU,0000,0000,0000,,Daremos início ao exame de seleção\Ndo primeiro nível de magos.
+Dialogue: 0,0:00:08.40,0:00:09.79,Default,GENAU,0000,0000,0000,,Vocês serão testados como grupos.
+Dialogue: 0,0:00:09.79,0:00:15.89,Default,GENAU,0000,0000,0000,,Os 57 examinandos serão divididos\Nem trios para o primeiro teste.
+Dialogue: 0,0:00:26.09,0:00:30.01,Songs_OP2,OP LYRICS,0000,0000,0000,,Você é como o vento
+Dialogue: 0,0:00:30.01,0:00:34.63,Songs_OP2,OP LYRICS,0000,0000,0000,,Fechando seus olhos durante o pôr do sol
+Dialogue: 0,0:00:34.63,0:00:40.28,Songs_OP2,OP LYRICS,0000,0000,0000,,Eu me pergunto no que você estará pensando
+Dialogue: 0,0:00:40.57,0:00:45.62,Signs,SIGN,0000,0000,0000,,{\fad(857,1)\blur0.25\fs30\fnGeorgia\fsp3.9\c&HFFFE65&\pos(328,254)\clip(109,253,547,294)\t(3943,4986,\clip(109,253,110,294))}e a Jornada para o Além
+Dialogue: 0,0:00:45.00,0:00:48.98,Songs_OP2,OP LYRICS,0000,0000,0000,,Com as pálpebras abertas
+Dialogue: 0,0:00:48.98,0:00:53.56,Songs_OP2,OP LYRICS,0000,0000,0000,,Seus olhos brilharam como vidro
+Dialogue: 0,0:00:53.56,0:01:00.33,Songs_OP2,OP LYRICS,0000,0000,0000,,O cheiro lembrava levemente o de um dia ensolarado
+Dialogue: 0,0:01:06.26,0:01:11.46,Songs_OP2,OP LYRICS,0000,0000,0000,,Que faça sol! Que as flores desabrochem!
+Dialogue: 0,0:01:11.46,0:01:15.66,Songs_OP2,OP LYRICS,0000,0000,0000,,Floresça e diga que foi culpa do sol
+Dialogue: 0,0:01:15.66,0:01:20.05,Songs_OP2,OP LYRICS,0000,0000,0000,,Se estiver chovendo, quando ela parar
+Dialogue: 0,0:01:20.05,0:01:25.05,Songs_OP2,OP LYRICS,0000,0000,0000,,Ela te fará brilhar ao sol
+Dialogue: 0,0:01:25.05,0:01:30.45,Songs_OP2,OP LYRICS,0000,0000,0000,,Acalme os sons agitados no meu coração
+Dialogue: 0,0:01:30.45,0:01:34.49,Songs_OP2,OP LYRICS,0000,0000,0000,,Nós somos uma brisa da primavera
+Dialogue: 0,0:01:34.49,0:01:38.90,Songs_OP2,OP LYRICS,0000,0000,0000,,Voaremos até aquela nuvem
+Dialogue: 0,0:01:38.90,0:01:43.73,Songs_OP2,OP LYRICS,0000,0000,0000,,E iremos cada vez mais longe
+Dialogue: 0,0:01:47.00,0:01:50.00,Signs_EpTitle,EPTITLE,0000,0000,0000,,{\blur0.2\c&HFAFFF7&\pos(402,269.5)}Episódio 19: Plano elaborado
+Dialogue: 0,0:01:57.00,0:01:59.66,Default,LAWINE,0000,0000,0000,,Viu só? Eu sabia que você era capaz.
+Dialogue: 0,0:02:00.74,0:02:02.55,Default,KANNE,0000,0000,0000,,Você acha?
+Dialogue: 0,0:02:03.41,0:02:08.01,Flashback,KANNE,0000,0000,0000,,A Lawine é ríspida, mas ela\Nme guia, me puxando consigo.
+Dialogue: 0,0:02:10.99,0:02:14.45,Flashback,HIMMEL,0000,0000,0000,,Amanhã é a nossa primeira\Nbatalha contra um dragão.
+Dialogue: 0,0:02:15.96,0:02:17.32,Flashback,HIMMEL,0000,0000,0000,,Está com medo, Eisen?
+Dialogue: 0,0:02:17.72,0:02:18.89,Flashback,HIMMEL,0000,0000,0000,,Você está tremendo.
+Dialogue: 0,0:02:19.71,0:02:20.91,Flashback,EISEN,0000,0000,0000,,Estou.
+Dialogue: 0,0:02:20.91,0:02:22.92,Flashback,HIMMEL,0000,0000,0000,,É mesmo. Sendo assim...
+Dialogue: 0,0:02:23.55,0:02:25.28,Flashback,HIMMEL,0000,0000,0000,,O quê?! Você está com medo?
+Dialogue: 0,0:02:25.73,0:02:26.73,Flashback,EISEN,0000,0000,0000,,Sim.
+Dialogue: 0,0:02:29.99,0:02:33.36,Flashback,HIMMEL,0000,0000,0000,,Entendo. Eu também estou com medo.
+Dialogue: 0,0:02:34.43,0:02:36.01,Flashback,FRIEREN,0000,0000,0000,,Que conversa é essa?
+Dialogue: 0,0:02:37.59,0:02:41.54,Flashback,HIMMEL,0000,0000,0000,,Achei que pudesse te encorajar\Nimitando outro aventureiro, mas...
+Dialogue: 0,0:02:41.54,0:02:44.67,Flashback,HIMMEL,0000,0000,0000,,Desculpa. Parece que não deu certo.
+Dialogue: 0,0:02:45.06,0:02:48.32,Flashback,EISEN,0000,0000,0000,,Não. Graças a você, não estou mais com medo.
+Dialogue: 0,0:02:48.32,0:02:51.27,Flashback,HEITER,0000,0000,0000,,Himmel, só aja naturalmente.
+Dialogue: 0,0:02:51.27,0:02:55.20,Flashback,HEITER,0000,0000,0000,,Tenho certeza de que essas coisas\Nvariam de companheiro para companheiro.
+Dialogue: 0,0:02:57.58,0:02:58.81,Flashback,HIMMEL,0000,0000,0000,,Você tem razão.
+Dialogue: 0,0:03:04.09,0:03:07.95,Default,FRIEREN,0000,0000,0000,,Entendi. Realmente, varia\Nde companheiro para companheiro.
+Dialogue: 0,0:03:15.20,0:03:18.47,Default,FERN,0000,0000,0000,,Finalmente pegamos um Stille.
+Dialogue: 0,0:03:18.85,0:03:20.66,Default,FERN,0000,0000,0000,,Agora, podemos nos acalmar.
+Dialogue: 0,0:03:21.66,0:03:23.73,Default,LAND,0000,0000,0000,,Por que está tão despreocupada?
+Dialogue: 0,0:03:24.12,0:03:27.00,Default,ÜBEL,0000,0000,0000,,Agora que vem a parte difícil.
+Dialogue: 0,0:03:27.72,0:03:32.61,Default,LAND,0000,0000,0000,,Temos que proteger o nosso Stille\Nde ser roubado por outros grupos.
+Dialogue: 0,0:03:33.29,0:03:35.59,Default,ÜBEL,0000,0000,0000,,É hora de lutar contra outros magos.
+Dialogue: 0,0:03:40.98,0:03:45.37,Default,FRIEREN,0000,0000,0000,,Vamos recapitular o que\Naprendemos observando o Stille.
+Dialogue: 0,0:03:45.79,0:03:50.52,Default,KANNE,0000,0000,0000,,Primeiro, como a Frieren disse, esses\Npássaros voam mais rápido que o som.
+Dialogue: 0,0:03:55.53,0:03:58.58,Default,KANNE,0000,0000,0000,,É impossível alcançar aquela velocidade.
+Dialogue: 0,0:03:59.30,0:04:01.43,Default,KANNE,0000,0000,0000,,Além disso, eles são durões feito dragões.
+Dialogue: 0,0:04:01.43,0:04:05.99,Default,KANNE,0000,0000,0000,,Magias de ataque comum não surtem efeito,\Ne eles quebram qualquer contenção.
+Dialogue: 0,0:04:06.94,0:04:10.00,Default,LAWINE,0000,0000,0000,,Além disso, eles são sensíveis à mana.
+Dialogue: 0,0:04:10.00,0:04:13.69,Default,LAWINE,0000,0000,0000,,Mesmo suprimindo nossa mana para\Nnos aproximarmos, eles logo voam para longe.
+Dialogue: 0,0:04:22.59,0:04:27.41,Default,LAWINE,0000,0000,0000,,O maior problema é que os Stilles\Npraticamente não possuem mana,
+Dialogue: 0,0:04:27.41,0:04:29.77,Default,LAWINE,0000,0000,0000,,e não podemos encontrá-los\Ncom detecção de mana.
+Dialogue: 0,0:04:30.12,0:04:33.14,Default,LAWINE,0000,0000,0000,,Por conta disso, não fazemos\Nideia de onde eles estão agora.
+Dialogue: 0,0:04:33.14,0:04:34.78,Default,LAWINE,0000,0000,0000,,Também não sabemos quantos são.
+Dialogue: 0,0:04:35.22,0:04:39.91,Default,KANNE,0000,0000,0000,,Nunca mais encontramos um depois\Ndaquelas três tentativas de ontem de manhã.
+Dialogue: 0,0:04:40.23,0:04:44.29,Default,KANNE,0000,0000,0000,,Eles provavelmente estão sendo cautelosos,\Nporque os examinandos estão à procura.
+Dialogue: 0,0:04:44.29,0:04:47.63,Default,KANNE,0000,0000,0000,,No pior dos casos, eles\Npodem não aparecer mais.
+Dialogue: 0,0:04:47.93,0:04:52.69,Default,LAWINE,0000,0000,0000,,E, mesmo se encontrarmos um,\Nnão fazemos ideia de como capturá-lo.
+Dialogue: 0,0:04:52.69,0:04:54.40,Default,FRIEREN,0000,0000,0000,,Não se preocupem com isso.
+Dialogue: 0,0:04:55.10,0:05:01.78,Default,FRIEREN,0000,0000,0000,,Ontem à noite, eu experimentei uma magia\Nque pode ser útil para capturar um Stille.
+Dialogue: 0,0:05:01.78,0:05:04.08,Default,KANNE,0000,0000,0000,,Lembro de você ter saído.
+Dialogue: 0,0:05:04.08,0:05:05.53,Default,KANNE,0000,0000,0000,,Que tipo de magia é?
+Dialogue: 0,0:05:05.53,0:05:07.55,Default,FRIEREN,0000,0000,0000,,Eu já mostrei a você, Kanne.
+Dialogue: 0,0:05:09.30,0:05:11.55,Default,FRIEREN,0000,0000,0000,,A magia que pode apanhar pássaros.
+Dialogue: 0,0:05:12.35,0:05:17.62,Default,FRIEREN,0000,0000,0000,,É uma magia popular desenvolvida\Npor uma tribo de caçadores durante uma era
+Dialogue: 0,0:05:17.62,0:05:21.71,Default,FRIEREN,0000,0000,0000,,em que os magos e a magia\Neram muito mais comuns.
+Dialogue: 0,0:05:22.13,0:05:25.54,Default,KANNE,0000,0000,0000,,Falando nisso, você usou uma magia\Npara conter aquela criatura.
+Dialogue: 0,0:05:25.84,0:05:28.77,Default,KANNE,0000,0000,0000,,Mas era um monstro, e não um pássaro, certo?
+Dialogue: 0,0:05:28.77,0:05:30.99,Default,FRIEREN,0000,0000,0000,,É uma magia popular.
+Dialogue: 0,0:05:30.99,0:05:34.89,Default,FRIEREN,0000,0000,0000,,Aparentemente, ela pode ser usada\Nem qualquer coisa que lembre um pássaro.
+Dialogue: 0,0:05:34.89,0:05:37.03,Default,FRIEREN,0000,0000,0000,,É uma poderosa magia de contenção,
+Dialogue: 0,0:05:37.03,0:05:39.14,Default,FRIEREN,0000,0000,0000,,e eu acho que funcionará no Stille.
+Dialogue: 0,0:05:39.43,0:05:42.06,Default,LAWINE,0000,0000,0000,,Por que não disse isso antes?
+Dialogue: 0,0:05:42.06,0:05:45.54,Default,LAWINE,0000,0000,0000,,Podíamos ter apanhado um ontem\Nse a tivéssemos usado.
+Dialogue: 0,0:05:45.86,0:05:47.90,Default,FRIEREN,0000,0000,0000,,Na verdade, não.
+Dialogue: 0,0:05:49.52,0:05:52.24,Default,FRIEREN,0000,0000,0000,,O alcance da magia é de 50 centímetros.
+Dialogue: 0,0:05:52.24,0:05:54.52,Default,FRIEREN,0000,0000,0000,,Só podemos usá-la a essa distância.
+Dialogue: 0,0:05:55.02,0:05:57.14,Default,LAWINE,0000,0000,0000,,50 centímetros?
+Dialogue: 0,0:05:57.14,0:05:59.78,Default,LAWINE,0000,0000,0000,,O quão perto chegamos?
+Dialogue: 0,0:05:59.78,0:06:02.18,Default,KANNE,0000,0000,0000,,Acho que o mais perto foram três metros.
+Dialogue: 0,0:06:02.18,0:06:07.30,Default,KANNE,0000,0000,0000,,Além disso, eles nos perceberam\Nquando estávamos a 20 metros deles.
+Dialogue: 0,0:06:07.30,0:06:10.38,Default,FRIEREN,0000,0000,0000,,Estamos a um pequeno passo deles.
+Dialogue: 0,0:06:10.38,0:06:12.64,Default,LAWINE,0000,0000,0000,,É um {\i1}grande{\i0} passo.
+Dialogue: 0,0:06:13.29,0:06:18.79,Default,FRIEREN,0000,0000,0000,,Só para confirmar: é difícil para vocês duas\Npararem o Stille com a sua magia, não é?
+Dialogue: 0,0:06:18.79,0:06:21.45,Default,LAWINE,0000,0000,0000,,Provavelmente consigamos\Nse congelarmos um,
+Dialogue: 0,0:06:21.45,0:06:25.03,Default,LAWINE,0000,0000,0000,,mas eles são sensíveis à mana,\Ne resistentes a congelamento.
+Dialogue: 0,0:06:25.03,0:06:28.21,Default,LAWINE,0000,0000,0000,,Provavelmente, escapariam antes\Nde pararmos seus movimentos.
+Dialogue: 0,0:06:28.78,0:06:33.41,Default,KANNE,0000,0000,0000,,Com certeza eu poderia prender um deles com\Nminha magia, se tivéssemos acesso à muita água.
+Dialogue: 0,0:06:35.15,0:06:39.15,Default,KANNE,0000,0000,0000,,Mas a minha magia\Nsó me permite controlar água.
+Dialogue: 0,0:06:39.15,0:06:42.16,Default,KANNE,0000,0000,0000,,Eu não consigo criá-la do zero.
+Dialogue: 0,0:06:43.06,0:06:46.53,Default,KANNE,0000,0000,0000,,Por isso, não posso usá-la\Nse não tivermos água,
+Dialogue: 0,0:06:46.53,0:06:49.06,Default,KANNE,0000,0000,0000,,e é difícil para mim transferir a mana\Npara grandes volumes de água.
+Dialogue: 0,0:06:49.06,0:06:52.95,Default,KANNE,0000,0000,0000,,Eu, provavelmente, teria que infundi-lo\Ncom minha mana previamente.
+Dialogue: 0,0:06:52.95,0:06:58.09,Default,KANNE,0000,0000,0000,,Conseguiria controlar até grandes volumes\Nde água se estivesse disperso, como na chuva.
+Dialogue: 0,0:06:58.09,0:07:04.06,Default,KANNE,0000,0000,0000,,Mas, se eu infundisse a água com mana, o Stille,\Nque é sensível à mana, manteria distância.
+Dialogue: 0,0:07:05.40,0:07:06.85,Default,FRIEREN,0000,0000,0000,,Manteria distância?
+Dialogue: 0,0:07:07.58,0:07:10.05,Default,FRIEREN,0000,0000,0000,,Entendi. Eles ficariam longe.
+Dialogue: 0,0:07:11.88,0:07:14.34,Default,FRIEREN,0000,0000,0000,,Talvez esse plano dê certo.
+Dialogue: 0,0:07:33.68,0:07:37.04,Default,LAWINE,0000,0000,0000,,Não é ruim, mas é arriscado.
+Dialogue: 0,0:07:37.04,0:07:39.85,Default,LAWINE,0000,0000,0000,,Estaríamos comprando briga\Ncom os outros grupos.
+Dialogue: 0,0:07:40.40,0:07:43.73,Default,KANNE,0000,0000,0000,,Mas duvido que consigamos\Npegar um de outra forma.
+Dialogue: 0,0:07:46.56,0:07:48.60,Default,KANNE,0000,0000,0000,,Está com medo, Lawine?
+Dialogue: 0,0:07:52.17,0:07:54.91,Default,KANNE,0000,0000,0000,,Ai, ai, ai! Vai arrancar o meu cabelo!
+Dialogue: 0,0:07:57.74,0:07:58.91,Default,LAWINE,0000,0000,0000,,Tá bom.
+Dialogue: 0,0:07:58.91,0:08:00.76,Default,LAWINE,0000,0000,0000,,Vamos lá, então.
+Dialogue: 0,0:08:04.17,0:08:09.13,Signs_WText,SIGN,0000,0000,0000,,{\an8\fs18\pos(320,245)\bord1\blur2\3a&HAA&}4º Grupo\N{\fs22}Land, Mago de Nível Dois
+Dialogue: 0,0:08:04.49,0:08:09.12,DefaultTop,LAND,0000,0000,0000,,Por ora, vamos nos esconder\Naté o teste acabar.
+Dialogue: 0,0:08:09.13,0:08:14.64,Signs_WText,SIGN,0000,0000,0000,,{\an8\fs18\pos(320,245)\bord1\blur2\3a&HAA&}4º Grupo\N{\fs22}Übel, Maga de Nível Três
+Dialogue: 0,0:08:09.40,0:08:11.76,DefaultTop,ÜBEL,0000,0000,0000,,O quê? Aí não tem graça.
+Dialogue: 0,0:08:11.76,0:08:14.65,DefaultTop,ÜBEL,0000,0000,0000,,Somos magos. Precisamos dar a cara a tapa.
+Dialogue: 0,0:08:14.64,0:08:18.01,Signs_WText,SIGN,0000,0000,0000,,{\an8\fs18\pos(320,245)\bord1\blur2\3a&HAA&}4º Grupo\N{\fs22}Fern, Maga de Nível Três
+Dialogue: 0,0:08:14.89,0:08:18.00,DefaultTop,LAND,0000,0000,0000,,Magos também evitam\Nbatalhas desnecessárias.
+Dialogue: 0,0:08:22.87,0:08:25.13,Default,LAND,0000,0000,0000,,Mas, antes, precisamos arranjar água.
+Dialogue: 0,0:08:25.80,0:08:29.37,Default,LAND,0000,0000,0000,,Acho que há um lago no centro desta área.
+Dialogue: 0,0:08:32.46,0:08:36.63,Default,LAND,0000,0000,0000,,Mas estou feliz que conseguimos\Ncapturar um Stille tão rápido.
+Dialogue: 0,0:08:37.15,0:08:41.33,Default,LAND,0000,0000,0000,,Se conseguirmos ficar escondidos até\No pôr do sol, passaremos no primeiro teste.
+Dialogue: 0,0:08:43.30,0:08:44.34,Default,LAND,0000,0000,0000,,O que foi?
+Dialogue: 0,0:08:44.34,0:08:47.33,Default,ÜBEL,0000,0000,0000,,Parece que não será tão fácil.
+Dialogue: 0,0:08:47.66,0:08:52.59,Default,ÜBEL,0000,0000,0000,,Achei que fosse um caminho, mas,\Nna verdade, é o leito seco de um rio.
+Dialogue: 0,0:08:53.14,0:08:55.98,Default,ÜBEL,0000,0000,0000,,Além disso, eu vi um terreno\Nsimilar a este em outros lugares.
+Dialogue: 0,0:08:57.00,0:09:01.57,Default,FERN,0000,0000,0000,,Mas não há uma barreira\Nem torno da área de teste?
+Dialogue: 0,0:09:01.88,0:09:04.43,Default,LAND,0000,0000,0000,,Sim. Isso é padrão para testes.
+Dialogue: 0,0:09:05.09,0:09:08.82,Default,LAND,0000,0000,0000,,São poderosas barreiras físicas\Nque não deixam nem poeira passar.
+Dialogue: 0,0:09:09.09,0:09:11.81,Default,FERN,0000,0000,0000,,Elas também bloqueiam água?
+Dialogue: 0,0:09:12.23,0:09:13.01,Default,LAND,0000,0000,0000,,Ah.
+Dialogue: 0,0:09:13.68,0:09:18.21,Default,ÜBEL,0000,0000,0000,,A julgar pela seca, a barreira foi\Nerguida há mais de uma semana.
+Dialogue: 0,0:09:18.86,0:09:23.93,Default,FERN,0000,0000,0000,,Sendo assim, a maior parte da água terá\Nse acumulado no lago no centro do vale.
+Dialogue: 0,0:09:24.49,0:09:27.18,Default,FERN,0000,0000,0000,,Como nós, examinandos, somos seres vivos,
+Dialogue: 0,0:09:27.18,0:09:29.83,Default,FERN,0000,0000,0000,,precisamos de certa quantidade\Nde água para nos mantermos ativos.
+Dialogue: 0,0:09:30.17,0:09:35.03,Default,LAND,0000,0000,0000,,Isso não garantiria que todos os examinandos\Nse reuniriam ao redor do lago.
+Dialogue: 0,0:09:35.80,0:09:37.08,Default,FERN,0000,0000,0000,,Você tem razão.
+Dialogue: 0,0:09:37.37,0:09:39.59,Default,FERN,0000,0000,0000,,Podemos levar a água conosco.
+Dialogue: 0,0:09:39.94,0:09:43.84,Default,FERN,0000,0000,0000,,Mas o Stille, que também é um ser vivo, não.
+Dialogue: 0,0:09:43.84,0:09:47.66,Default,LAND,0000,0000,0000,,Entendi. E aqueles que perceberam isso
+Dialogue: 0,0:09:47.66,0:09:51.40,Default,LAND,0000,0000,0000,,estarão esperando ao redor do lago, onde\Nhá a maior quantidade de água da área.
+Dialogue: 0,0:09:53.86,0:09:56.83,Default,LAND,0000,0000,0000,,Tomei minha decisão.\NVamos desistir de encontrar água.
+Dialogue: 0,0:09:56.83,0:10:01.55,Default,ÜBEL,0000,0000,0000,,Difícil, isso. Eu já tô morrendo de sede.
+Dialogue: 0,0:10:01.55,0:10:04.24,Default,LAND,0000,0000,0000,,Tenho certeza de que podemos\Nencontrar uma lagoa.
+Dialogue: 0,0:10:04.24,0:10:06.70,Default,ÜBEL,0000,0000,0000,,E isso é higiênico?
+Dialogue: 0,0:10:06.70,0:10:08.54,Default,FERN,0000,0000,0000,,Talvez, se fervermos a água.
+Dialogue: 0,0:10:30.06,0:10:33.57,Signs_WText,SIGN,0000,0000,0000,,{\an8\fs18\pos(320,245)\bord1\blur2\3a&HAA&}8º Grupo\N{\fs22}Scharf, Mago de Nível Três
+Dialogue: 0,0:10:33.57,0:10:37.07,Signs_WText,SIGN,0000,0000,0000,,{\an8\fs18\pos(320,245)\bord1\blur2\3a&HAA&}8º Grupo\N{\fs22}Ehre, Maga de Nível Dois
+Dialogue: 0,0:10:41.78,0:10:45.33,Signs_WText,SIGN,0000,0000,0000,,{\an8\fs18\pos(320,245)\bord1\blur2\3a&HAA&}8º Grupo\N{\fs22}Wirbel, Mago de Nível Dois
+Dialogue: 0,0:10:41.80,0:10:45.32,DefaultTop,WIRBEL,0000,0000,0000,,Que saco. Eu atirei pra matar.
+Dialogue: 0,0:10:46.18,0:10:48.20,Default,WIRBEL,0000,0000,0000,,Você conseguiu reagir a isso...
+Dialogue: 0,0:10:50.57,0:10:54.09,Default,WIRBEL,0000,0000,0000,,Bem, tanto faz. Deixem\Na gaiola com o Stille aí.
+Dialogue: 0,0:10:54.09,0:10:55.85,Default,ÜBEL,0000,0000,0000,,E se nos recusarmos?
+Dialogue: 0,0:10:56.17,0:10:58.33,Default,WIRBEL,0000,0000,0000,,Então não há mais nada a ser dito.
+Dialogue: 0,0:11:08.74,0:11:10.35,DefaultItalics,FERN,0000,0000,0000,,O lago é para lá.
+Dialogue: 0,0:11:34.04,0:11:36.46,Default,TEST-TAKER A,0000,0000,0000,,Ela congelou o lago!
+Dialogue: 0,0:11:36.46,0:11:38.47,Default,BLEI,0000,0000,0000,,Ei, o que elas pretendem com isso?
+Dialogue: 0,0:11:38.47,0:11:40.08,Default,EDEL,0000,0000,0000,,Isso não tem graça!
+Dialogue: 0,0:11:40.39,0:11:43.48,Default,WIRBEL,0000,0000,0000,,Essa mana é de uma\Ndos membros do 2º grupo.
+Dialogue: 0,0:11:43.94,0:11:45.49,Default,WIRBEL,0000,0000,0000,,Qual é a delas?
+Dialogue: 0,0:11:46.06,0:11:48.99,Default,WIRBEL,0000,0000,0000,,Querem comprar briga\Ncom todos os outros grupos?
+Dialogue: 0,0:11:56.98,0:11:58.60,Default,EDEL,0000,0000,0000,,O que vocês estão fazendo?!
+Dialogue: 0,0:11:58.60,0:12:00.65,Default,EDEL,0000,0000,0000,,Derretam isso logo!
+Dialogue: 0,0:12:02.99,0:12:04.88,Default,RICHTER,0000,0000,0000,,Denken, o que a gente faz?
+Dialogue: 0,0:12:05.36,0:12:08.33,DefaultTop,DENKEN,0000,0000,0000,,É perda de tempo e esforço.
+Dialogue: 0,0:12:05.37,0:12:10.37,Signs_WText,SIGN,0000,0000,0000,,{\an8\fs18\pos(320,245)\bord1\blur2\3a&HAA&}13º Grupo\N{\fs22}Denken, Mago de Nível Dois
+Dialogue: 0,0:12:08.33,0:12:10.88,DefaultTop,DENKEN,0000,0000,0000,,Não adianta derretê-lo agora.
+Dialogue: 0,0:12:10.37,0:12:13.87,Signs_WText,SIGN,0000,0000,0000,,{\an8\fs18\pos(320,245)\bord1\blur2\3a&HAA&}13º Grupo\N{\fs22}Richter, Mago de Nível Dois
+Dialogue: 0,0:12:11.35,0:12:17.39,DefaultTop,DENKEN,0000,0000,0000,,Depois de tamanha exibição de magia,\No Stille não voltará a se aproximar desse lago.
+Dialogue: 0,0:12:13.87,0:12:17.38,Signs_WText,SIGN,0000,0000,0000,,{\an8\fs18\pos(320,245)\bord1\blur2\3a&HAA&}13º Grupo\N{\fs22}Laufen, Maga de Nível Três
+Dialogue: 0,0:12:17.60,0:12:20.77,Default,DENKEN,0000,0000,0000,,Roubaremos o nosso Stille do 2º grupo.
+Dialogue: 0,0:12:21.12,0:12:26.86,Default,DENKEN,0000,0000,0000,,Se elas foram a esse extremo, então\Ndevem ter um plano para capturá-lo.
+Dialogue: 0,0:12:48.58,0:12:52.03,DefaultItalics,FERN,0000,0000,0000,,Srta. Frieren, o que você está fazendo?
+Dialogue: 0,0:13:00.49,0:13:02.20,Default,LAND,0000,0000,0000,,Vamos nos separar, por agora.
+Dialogue: 0,0:13:07.77,0:13:10.47,Default,EDEL,0000,0000,0000,,Precisamos derreter\Nesse lago congelado logo!
+Dialogue: 0,0:13:10.78,0:13:12.47,Default,DENKEN,0000,0000,0000,,Aqueles idiotas.
+Dialogue: 0,0:13:12.81,0:13:20.46,Default,DENKEN,0000,0000,0000,,Usar esse tanto de magia para derreter\No gelo deixará este lago sem serventia.
+Dialogue: 0,0:13:21.30,0:13:23.95,Default,DENKEN,0000,0000,0000,,O Stille não virá mais aqui.
+Dialogue: 0,0:13:24.25,0:13:25.08,Default,PARTY B,0000,0000,0000,,Vamos!
+Dialogue: 0,0:13:25.08,0:13:25.60,Default,MOB 2,0000,0000,0000,,Sim.
+Dialogue: 0,0:13:25.60,0:13:26.39,Default,MOB 3,0000,0000,0000,,Por ali!
+Dialogue: 0,0:13:26.39,0:13:31.46,Default,DENKEN,0000,0000,0000,,Aqueles que perceberam isso\Njá estão procurando por outros poços,
+Dialogue: 0,0:13:31.46,0:13:33.67,Default,DENKEN,0000,0000,0000,,mas sua detecção de mana é inadequada.
+Dialogue: 0,0:13:33.67,0:13:36.85,Default,DENKEN,0000,0000,0000,,Eles não serão capazes\Nde lidar com ameaças aéreas.
+Dialogue: 0,0:13:36.85,0:13:37.96,Default,RICHTER,0000,0000,0000,,Eles são inexperientes.
+Dialogue: 0,0:13:38.25,0:13:41.17,Default,TEST-TAKER B,0000,0000,0000,,Parece que foi o 2º grupo\Nque congelou o lago!
+Dialogue: 0,0:13:41.17,0:13:43.25,Default,TEST-TAKER C,0000,0000,0000,,Eles estão tentando estragar o teste?
+Dialogue: 0,0:13:43.25,0:13:46.56,Default,DENKEN,0000,0000,0000,,"Estragar"? Não.
+Dialogue: 0,0:13:46.56,0:13:50.72,Default,DENKEN,0000,0000,0000,,É um plano elaborado do 2º grupo.
+Dialogue: 0,0:13:50.72,0:13:54.22,Default,DENKEN,0000,0000,0000,,Não chegaremos a lugar algum\Nse não o decifrarmos.
+Dialogue: 0,0:14:18.73,0:14:21.07,Default,DENKEN,0000,0000,0000,,Os monstros os pegaram.
+Dialogue: 0,0:14:29.56,0:14:31.34,Default,DENKEN,0000,0000,0000,,Eles já estão mortos.
+Dialogue: 0,0:14:33.52,0:14:34.92,Default,DENKEN,0000,0000,0000,,Vamos embora.
+Dialogue: 0,0:14:34.92,0:14:38.02,Default,LAUFEN,0000,0000,0000,,Senhor, vamos, ao menos, tirá-los de lá.
+Dialogue: 0,0:14:38.61,0:14:41.36,Default,DENKEN,0000,0000,0000,,Você pode vê-los, não?
+Dialogue: 0,0:14:41.36,0:14:43.40,Default,DENKEN,0000,0000,0000,,Eles estão circulando acima.
+Dialogue: 0,0:14:44.65,0:14:46.91,Default,DENKEN,0000,0000,0000,,E não só um ou dois deles.
+Dialogue: 0,0:14:47.20,0:14:50.00,Default,DENKEN,0000,0000,0000,,Há magia nos cadáveres.
+Dialogue: 0,0:14:50.00,0:14:53.52,Default,DENKEN,0000,0000,0000,,Eles te detectarão\Nse tentar tirá-los de lá.
+Dialogue: 0,0:14:53.81,0:14:59.15,Default,DENKEN,0000,0000,0000,,Geisel. É assim que eles atraem\Ne caçam sua próxima presa.
+Dialogue: 0,0:14:59.51,0:15:04.53,Default,DENKEN,0000,0000,0000,,Este grupo caiu na armadilha e foi morto.
+Dialogue: 0,0:15:05.08,0:15:06.68,Default,LAUFEN,0000,0000,0000,,Que estranho terem escolhido
+Dialogue: 0,0:15:06.68,0:15:10.11,Default,LAUFEN,0000,0000,0000,,realizar o teste em uma área\Nhabitada por monstros como esses.
+Dialogue: 0,0:15:10.11,0:15:13.26,Default,LAUFEN,0000,0000,0000,,Parece que eles não ligam\Nse os examinandos morrerem.
+Dialogue: 0,0:15:13.60,0:15:17.34,Default,RICHTER,0000,0000,0000,,Laufen, é a primeira vez que você\Npresta o exame de primeiro nível, não é?
+Dialogue: 0,0:15:17.34,0:15:19.35,Default,RICHTER,0000,0000,0000,,O motivo é bem simples.
+Dialogue: 0,0:15:20.15,0:15:24.89,Default,RICHTER,0000,0000,0000,,Eles não precisam de magos de nível um\Nque morreriam para esse tipo de coisa.
+Dialogue: 0,0:15:25.35,0:15:29.90,Default,RICHTER,0000,0000,0000,,A Associação Mágica do Continente se preocupa\Nbastante com a qualidade dos magos de nível um.
+Dialogue: 0,0:15:30.63,0:15:33.22,Default,RICHTER,0000,0000,0000,,Aqueles que ainda sonham
+Dialogue: 0,0:15:33.22,0:15:37.59,Default,RICHTER,0000,0000,0000,,com os nobres e poderosos magos que\Nlutaram contra o exército do Rei Demônio.
+Dialogue: 0,0:15:37.91,0:15:41.00,Default,DENKEN,0000,0000,0000,,Eles estão presos ao tempo.
+Dialogue: 0,0:15:41.00,0:15:42.91,Default,RICHTER,0000,0000,0000,,Não esperava ouvir isso de você, Denken.
+Dialogue: 0,0:15:42.91,0:15:46.28,Default,RICHTER,0000,0000,0000,,Achei que estaria do lado deles.
+Dialogue: 0,0:15:46.28,0:15:49.02,Default,DENKEN,0000,0000,0000,,A qualidade do mago é irrelevante.
+Dialogue: 0,0:15:49.56,0:15:54.63,Default,DENKEN,0000,0000,0000,,Magos de nível um só precisam\Nser símbolos de poder.
+Dialogue: 0,0:15:54.63,0:15:57.93,Default,DENKEN,0000,0000,0000,,Não importa o quão poderoso você seja,
+Dialogue: 0,0:15:57.93,0:16:01.66,Default,DENKEN,0000,0000,0000,,a menos que consiga mandar no coração\Ndas pessoas, você será praticamente impotente.
+Dialogue: 0,0:16:02.08,0:16:06.91,Default,DENKEN,0000,0000,0000,,Eu vi inúmeros magos\Nmuito mais habilidosos que eu
+Dialogue: 0,0:16:06.91,0:16:09.94,Default,DENKEN,0000,0000,0000,,perecendo e sendo perseguidos.
+Dialogue: 0,0:16:10.59,0:16:15.70,Default,DENKEN,0000,0000,0000,,Grandes poderes são temidos, e domínio\Natravés do medo não dura por muito tempo.
+Dialogue: 0,0:16:15.94,0:16:20.32,Default,DENKEN,0000,0000,0000,,Além disso, a magia não é algo nobre.
+Dialogue: 0,0:16:20.32,0:16:24.58,Default,RICHTER,0000,0000,0000,,Entendo. Então, alguém fraco\Ncomo você é perfeito para o trabalho.
+Dialogue: 0,0:16:25.05,0:16:27.74,Default,DENKEN,0000,0000,0000,,Cuidado com o que diz, garoto.
+Dialogue: 0,0:16:27.74,0:16:31.26,Default,DENKEN,0000,0000,0000,,Posso acabar com você de olhos fechados.
+Dialogue: 0,0:17:03.36,0:17:06.67,Default,LAUFEN,0000,0000,0000,,Não conseguimos detectar o 2º grupo.
+Dialogue: 0,0:17:07.20,0:17:09.83,Default,RICHTER,0000,0000,0000,,Estão reprimindo\Nsua mana e se escondendo.
+Dialogue: 0,0:17:11.38,0:17:15.50,Default,DENKEN,0000,0000,0000,,Aqui também... Todos os poços\Nque vimos são iguais.
+Dialogue: 0,0:17:17.49,0:17:21.26,Default,DENKEN,0000,0000,0000,,Embora seja pouca,\Nhá mana circulando na água.
+Dialogue: 0,0:17:22.85,0:17:24.56,Default,LAUFEN,0000,0000,0000,,Eu não sinto nada.
+Dialogue: 0,0:17:25.53,0:17:26.52,Default,LAUREN,0000,0000,0000,,Você consegue?
+Dialogue: 0,0:17:26.79,0:17:30.39,Default,RICHTER,0000,0000,0000,,Não. Foi o 2º grupo?
+Dialogue: 0,0:17:30.73,0:17:34.23,Default,DENKEN,0000,0000,0000,,Tenho certeza de que só a pessoa\Nque lançou a magia pode detectar.
+Dialogue: 0,0:17:34.23,0:17:36.49,Default,DENKEN,0000,0000,0000,,É minúsculo.
+Dialogue: 0,0:17:36.49,0:17:39.02,Default,DENKEN,0000,0000,0000,,Mas o Stille consegue sentir.
+Dialogue: 0,0:17:39.62,0:17:42.52,Default,DENKEN,0000,0000,0000,,Eles não se aproximarão\Nmais destas águas.
+Dialogue: 0,0:17:42.85,0:17:44.91,Default,LAUFEN,0000,0000,0000,,Qual é o sentido em fazer isso?
+Dialogue: 0,0:17:45.43,0:17:49.03,Default,LAUFEN,0000,0000,0000,,Entendi. Deve haver um bebedouro\Nque não possui mana em algum lugar.
+Dialogue: 0,0:17:49.97,0:17:53.65,Default,DENKEN,0000,0000,0000,,E o 2º grupo deve estar próximo dele.
+Dialogue: 0,0:17:54.19,0:17:55.70,Default,LAUFEN,0000,0000,0000,,Como encontraremos?
+Dialogue: 0,0:17:57.79,0:17:59.68,Default,DENKEN,0000,0000,0000,,Vou descansar um pouco.
+Dialogue: 0,0:17:59.68,0:18:01.05,Default,RICHTER,0000,0000,0000,,Denken.
+Dialogue: 0,0:18:01.05,0:18:03.52,Default,DENKEN,0000,0000,0000,,A área de teste é enorme.
+Dialogue: 0,0:18:03.52,0:18:07.81,Default,DENKEN,0000,0000,0000,,Será impossível encontrar um mago\Nque não deseja ser encontrado.
+Dialogue: 0,0:18:08.14,0:18:09.39,Default,DENKEN,0000,0000,0000,,Vamos esperar.
+Dialogue: 0,0:18:09.39,0:18:12.53,Default,DENKEN,0000,0000,0000,,Em algum momento,\Neles nos mostrarão onde estão.
+Dialogue: 0,0:18:14.86,0:18:18.58,Default,KANNE,0000,0000,0000,,Eu infundi mana em todos os lagos\Ne lagoas que pude encontrar.
+Dialogue: 0,0:18:19.15,0:18:22.82,Default,KANNE,0000,0000,0000,,Mas talvez haja corpos d'água\Nque não sei onde estão.
+Dialogue: 0,0:18:23.59,0:18:27.58,Default,FRIEREN,0000,0000,0000,,Limitar os bebedouros\Npara o Stille já é o suficiente.
+Dialogue: 0,0:18:28.42,0:18:31.80,Default,FRIEREN,0000,0000,0000,,Ficarei esperando pelo Stille aqui.
+Dialogue: 0,0:18:41.21,0:18:45.09,Default,LAWINE,0000,0000,0000,,Sério? É possível suprimir\Na sua mana por completo?
+Dialogue: 0,0:18:45.38,0:18:47.12,Default,FRIEREN,0000,0000,0000,,Por completo, não.
+Dialogue: 0,0:18:47.12,0:18:51.09,Default,FRIEREN,0000,0000,0000,,Sempre que eu me mexo, libero\Num pouco de mana. Viram?
+Dialogue: 0,0:18:51.75,0:18:53.48,Default,LAWINE,0000,0000,0000,,Não consigo sentir.
+Dialogue: 0,0:18:54.27,0:18:55.98,Default,LAWINE,0000,0000,0000,,Ficaremos de guarda.
+Dialogue: 0,0:18:59.09,0:19:00.91,Default,LAWINE,0000,0000,0000,,Não me atrase.
+Dialogue: 0,0:19:00.91,0:19:02.28,Default,KANNE,0000,0000,0000,,Cala a boca.
+Dialogue: 0,0:19:02.74,0:19:05.88,Default,KANNE,0000,0000,0000,,Eu seria útil em uma batalha,\Nse caísse uma chuva.
+Dialogue: 0,0:19:05.88,0:19:08.42,Default,LAWINE,0000,0000,0000,,Mas a barreira desviaria a chuva.
+Dialogue: 0,0:20:14.75,0:20:16.70,Default,LAWINE,0000,0000,0000,,Frieren, você conseguiu?
+Dialogue: 0,0:20:17.59,0:20:20.69,Default,LAWINE,0000,0000,0000,,Valeu a pena comprar briga\Ncom os outros grupos!
+Dialogue: 0,0:20:21.09,0:20:23.45,Default,KANNE,0000,0000,0000,,Seremos aprovadas\Nno primeiro teste, agora!
+Dialogue: 0,0:20:26.05,0:20:26.94,Default,FRIEREN,0000,0000,0000,,Não.
+Dialogue: 0,0:20:27.84,0:20:29.20,Default,DENKEN,0000,0000,0000,,Encontrei elas.
+Dialogue: 0,0:20:29.20,0:20:32.01,Default,DENKEN,0000,0000,0000,,Então, elas usaram mesmo magia.
+Dialogue: 0,0:20:32.01,0:20:37.09,Default,DENKEN,0000,0000,0000,,Nem o mais habilidoso dos magos\Nconseguiria se esconder nesse momento.
+Dialogue: 0,0:20:37.72,0:20:40.97,Default,FRIEREN,0000,0000,0000,,Alguém sentiu a nossa presença.\NPrecisamos sair daqui.
+Dialogue: 0,0:20:46.72,0:20:50.25,Default,FRIEREN,0000,0000,0000,,Parece que é tarde demais para fugir.
+Dialogue: 0,0:20:51.00,0:20:52.15,Default,SCHARF,0000,0000,0000,,Jubelade.
+Dialogue: 0,0:21:01.18,0:21:02.28,Default,EHRE,0000,0000,0000,,Doragate.
+Dialogue: 0,0:21:04.74,0:21:05.89,DefaultItalics,FERN,0000,0000,0000,,É como um canhão.
+Dialogue: 0,0:21:08.54,0:21:10.02,DefaultItalics,EHRE,0000,0000,0000,,Ela recuou novamente.
+Dialogue: 0,0:21:17.30,0:21:21.95,DefaultItalics,EHRE,0000,0000,0000,,Sua técnica é refinada\Ne não tem aberturas, mas é arcaica.
+Dialogue: 0,0:21:21.95,0:21:24.43,DefaultItalics,EHRE,0000,0000,0000,,É como lutar com o meu avô.
+Dialogue: 0,0:21:24.88,0:21:27.72,Default,EHRE,0000,0000,0000,,Magia de ataque e defesa comuns.
+Dialogue: 0,0:21:27.72,0:21:30.35,Default,EHRE,0000,0000,0000,,Você só usa magias básicas.
+Dialogue: 0,0:21:30.35,0:21:32.42,Default,EHRE,0000,0000,0000,,Está guardando algum truque na manga?
+Dialogue: 0,0:21:32.73,0:21:36.94,Default,FERN,0000,0000,0000,,Eu só fui ensinada a usar\Nmagias básicas em combate.
+Dialogue: 0,0:21:36.94,0:21:39.82,Default,EHRE,0000,0000,0000,,Essa é a filosofia de seu mestre?
+Dialogue: 0,0:21:39.82,0:21:44.56,Default,FERN,0000,0000,0000,,Sim. Ela disse que é o suficiente\Npara derrotar magos desta era.
+Dialogue: 0,0:21:45.07,0:21:46.10,Default,EHRE,0000,0000,0000,,É mesmo?
+Dialogue: 0,0:21:55.31,0:21:59.78,DefaultItalics,EHRE,0000,0000,0000,,De novo... Que sentimento\Nde algo estar errado é esse?
+Dialogue: 0,0:21:59.78,0:22:03.25,DefaultItalics,EHRE,0000,0000,0000,,Sinto que estou lutando\Ncontra uma maga experiente.
+Dialogue: 0,0:22:04.08,0:22:05.81,Default,EHRE,0000,0000,0000,,Você também está com problemas.
+Dialogue: 0,0:22:05.81,0:22:10.92,Default,EHRE,0000,0000,0000,,Se lutasse contra Wirbel\Ncom essa técnica, já estaria morta.
+Dialogue: 0,0:22:10.92,0:22:12.85,Default,FERN,0000,0000,0000,,Isso não faz sentido.
+Dialogue: 0,0:22:12.85,0:22:16.22,Default,FERN,0000,0000,0000,,Você é a mais forte entre nós, não?
+Dialogue: 0,0:22:26.88,0:22:30.27,Default,EHRE,0000,0000,0000,,Wirbel é o capitão Tropa Mágica\Ndo Norte, que lutou contra
+Dialogue: 0,0:22:30.27,0:22:32.63,Default,EHRE,0000,0000,0000,,os remanescentes\Ndo exército do Rei Demônio.
+Dialogue: 0,0:22:33.14,0:22:35.49,Default,EHRE,0000,0000,0000,,Ele é muito mais experiente em batalha.
+Dialogue: 0,0:22:36.19,0:22:39.04,Default,EHRE,0000,0000,0000,,Sua magia é desprovida de caráter.
+Dialogue: 0,0:22:39.04,0:22:41.50,Default,EHRE,0000,0000,0000,,Ele é covarde, e seu único\Npropósito é vencer.
+Dialogue: 0,0:22:42.00,0:22:47.10,Default,EHRE,0000,0000,0000,,A garota lutando contra o Wirbel\Nagora provavelmente será morta.
+Dialogue: 0,0:22:48.13,0:22:49.41,Default,FERN,0000,0000,0000,,É mesmo?
+Dialogue: 0,0:22:50.04,0:22:53.18,Songs_ED2,ED LYRICS,0000,0000,0000,,E eu estou bem (Ficarei bem)
+Dialogue: 0,0:22:53.18,0:22:56.10,Songs_ED2,ED LYRICS,0000,0000,0000,,Sim, consigo te ouvir (Me importo com você)
+Dialogue: 0,0:22:56.10,0:23:01.68,Songs_ED2,ED LYRICS,0000,0000,0000,,O vento brinca com esse cabelo,\Nque está mais longo agora
+Dialogue: 0,0:23:01.68,0:23:04.12,Songs_ED2,ED LYRICS,0000,0000,0000,,Há sentido em tudo
+Dialogue: 0,0:23:04.62,0:23:07.10,Songs_ED2,ED LYRICS,0000,0000,0000,,Mesmo nos dias parados
+Dialogue: 0,0:23:07.70,0:23:13.74,Songs_ED2,ED LYRICS,0000,0000,0000,,Agora que finalmente entendo,\Neu alcancei você
+Dialogue: 0,0:23:13.74,0:23:17.53,Songs_ED2,ED LYRICS,0000,0000,0000,,Sabe, coisas que não poderiam ser vistas
+Dialogue: 0,0:23:17.53,0:23:20.43,Songs_ED2,ED LYRICS,0000,0000,0000,,Se não fossem por estes olhos
+Dialogue: 0,0:23:20.43,0:23:25.10,Songs_ED2,ED LYRICS,0000,0000,0000,,Por quê? E começam a transbordar
+Dialogue: 0,0:23:25.10,0:23:31.33,Songs_ED2,ED LYRICS,0000,0000,0000,,Não vou pedir para te ver,\Nentão, pelo menos
+Dialogue: 0,0:23:31.33,0:23:37.12,Songs_ED2,ED LYRICS,0000,0000,0000,,Deixe-me lembrar do passado, só por hoje
+Dialogue: 0,0:23:37.12,0:23:43.13,Songs_ED2,ED LYRICS,0000,0000,0000,,Então, se nos encontrássemos novamente
+Dialogue: 0,0:23:43.13,0:23:49.01,Songs_ED2,ED LYRICS,0000,0000,0000,,Não irei hesitar, eu escolho o presente
+Dialogue: 0,0:23:50.07,0:23:53.03,Songs_ED2,ED LYRICS,0000,0000,0000,,A qualquer hora, em qualquer lugar...\N(Onde quer que você esteja)
+Dialogue: 0,0:23:53.03,0:23:57.68,Songs_ED2,ED LYRICS,0000,0000,0000,,A qualquer hora, em qualquer lugar...\N(Sorria para mim)
+Dialogue: 0,0:23:57.68,0:24:00.66,Songs_ED2,ED LYRICS,0000,0000,0000,,Eu estarei aqui\N(Feche seus olhos, eu sempre estarei aqui)
+Dialogue: 0,0:24:00.66,0:24:03.41,Songs_ED2,ED LYRICS,0000,0000,0000,,Mesmo que não haja certeza de nada
+Dialogue: 0,0:24:03.41,0:24:06.48,Songs_ED2,ED LYRICS,0000,0000,0000,,Eu sempre estarei ciente\Nde seus sentimentos
+Dialogue: 0,0:24:06.48,0:24:12.51,Songs_ED2,ED LYRICS,0000,0000,0000,,Essas lágrimas ficarão em paz,\No amanhecer certamente virá
+Dialogue: 0,0:24:12.96,0:24:19.42,Songs_ED2,ED LYRICS,0000,0000,0000,,Estou sussurrando nossa canção\Nde ninar para você voltar para casa
+Dialogue: 0,0:24:20.23,0:24:22.73,Default,ÜBEL,0000,0000,0000,,Que inferno você viu?
+Dialogue: 0,0:24:20.50,0:24:23.17,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)\pos(429.429,185.571)}Que\Ninferno\Nvocê\Nviu?
+Dialogue: 0,0:24:20.85,0:24:22.73,DefaultOverlap,SCHARF,0000,0000,0000,,Arrancarei a sua cabeça.
+Dialogue: 0,0:24:21.16,0:24:23.75,Jikai,SIGN,0000,0000,0000,,{\fs21\fad(300,300)\pos(71.857,101.857)}Arrancarei\Na sua\Ncabeça.
+Dialogue: 0,0:24:22.03,0:24:24.73,DefaultTop,DENKEN,0000,0000,0000,,Eu mesmo acabarei com ela.
+Dialogue: 0,0:24:22.06,0:24:24.50,Jikai,SIGN,0000,0000,0000,,{\fs20\fad(300,300)\pos(595,274)}Eu\Nmesmo\Nacabarei\Ncom\Nela
+Dialogue: 0,0:24:22.73,0:24:24.10,Default,KANNE,0000,0000,0000,,Ele é forte.
+Dialogue: 0,0:24:23.08,0:24:24.96,Jikai,SIGN,0000,0000,0000,,{\fscvx\fs22\fad(300,300)\pos(208.429,266)}Ele\Né\Nforte.
+Dialogue: 0,0:24:23.75,0:24:26.23,DefaultOverlap,LAWINE,0000,0000,0000,,Interessante. Manda ver.
+Dialogue: 0,0:24:24.00,0:24:26.92,Jikai,SIGN,0000,0000,0000,,{\fscx87\fs25\fad(300,300)\pos(398.286,109.143)}Interessante.\NManda ver.
+Dialogue: 0,0:24:24.10,0:24:26.23,Default,LAND,0000,0000,0000,,Impressionante.
+Dialogue: 0,0:24:24.58,0:24:26.67,Jikai,SIGN,0000,0000,0000,,{\fscx80\fs20\fad(300,300)\pos(549.429,210)}Impressionante.
+Dialogue: 0,0:24:24.67,0:24:27.59,Jikai,SIGN,0000,0000,0000,,{\fs18\fad(300,300)\pos(108.286,134.143)} Que\Nsom é\Nesse?
+Dialogue: 0,0:24:24.72,0:24:26.23,DefaultTop,EHRE,0000,0000,0000,,Que som é esse?
+Dialogue: 0,0:24:26.21,0:24:27.85,Jikai,SIGN,0000,0000,0000,,{\fs20\fad(300,300)\pos(372,221)}Seu\Nvelho\Nmaldito.
+Dialogue: 0,0:24:26.23,0:24:27.56,Default,RICHTER,0000,0000,0000,,Seu velho maldito.
+Dialogue: 0,0:24:27.56,0:24:30.08,Default,WIRBEL,0000,0000,0000,,Sempre matei todos que precisava matar.
+Dialogue: 0,0:24:27.57,0:24:30.03,Signs_NextEp,SIGN,0000,0000,0000,,{\fad(229,1)\blur3\t(20,312,\blur0.2)\pos(320,113.5)\c&H000000&\t(312,646,\c&HF6F6F6&)\fsp1.6\t(\fsp1)}Episódio 20\N\N\N\N\N\N\N\NPrecisar matar

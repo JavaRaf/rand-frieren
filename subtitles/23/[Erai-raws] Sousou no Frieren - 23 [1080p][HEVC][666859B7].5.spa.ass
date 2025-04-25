@@ -1,0 +1,273 @@
+﻿[Script Info]
+Title: [Erai-raws] Español (América Latina)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Gen_Main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Main_Up,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00090909,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Gen_Italics_top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Cart_A_Tre,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tre,Trebuchet MS,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Tim,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tim,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Verd,Verdana,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,110,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EpiTitle,Times New Roman,20,&H00FFFFFF,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,6,0020,0020,0020,1
+Style: Cart_Serieslogo,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,10,0,1,0,0,8,0005,0005,0000,1
+Style: Cart_C_Verd,Verdana,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EndCards,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0020,1
+Style: Cart_NextTitle,Times New Roman,20,&H00000000,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,5,0020,0020,0020,1
+Style: Cart_Opening,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00494949,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_Ending,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.85,Cart_A_Tim,CARTEL,0000,0000,0000,,{\blur.3\an7\bord0\fs17\pos(26,39)}Países del Norte,\NTumba Real en Ruinas
+Dialogue: 0,0:00:06.64,0:00:09.69,Gen_Main,Sense,0000,0000,0000,,Ustedes 18 pasaron\Nla primera parte del examen.
+Dialogue: 0,0:00:09.69,0:00:13.20,Cart_A_Tim,CARTEL,0000,0000,0000,,{\blur.3\an5\bord0\fs20\pos(110,315)}Sense,\Nhechicera\Nde primer grado
+Dialogue: 0,0:00:09.69,0:00:13.20,Cart_A_Tim,CARTEL,0000,0000,0000,,{\blur.3\an5\bord0\fs20\pos(530,315)}Encargada\Nde la segunda parte\Ndel examen
+Dialogue: 0,0:00:10.27,0:00:13.20,Gen_Main_Up,Sense,0000,0000,0000,,Quiero empezar felicitándolos\Npor aprobarlo.
+Dialogue: 0,0:00:14.13,0:00:17.05,Gen_Main,Sense,0000,0000,0000,,En cuanto a la prueba\Nde la que estoy a cargo,
+Dialogue: 0,0:00:17.25,0:00:21.95,Gen_Main,Sense,0000,0000,0000,,sé que vuelan muchas suposiciones\Na la vista de resultados pasados.
+Dialogue: 0,0:00:23.89,0:00:27.39,Gen_Main,Sense,0000,0000,0000,,Supongo que entre ustedes\Nhay quienes han oído los rumores.
+Dialogue: 0,0:00:27.78,0:00:30.16,Gen_Main,Sense,0000,0000,0000,,Pero no es necesario ponerse tan tensos.
+Dialogue: 0,0:00:31.15,0:00:33.26,Gen_Main,Sense,0000,0000,0000,,La prueba es bastante simple.
+Dialogue: 0,0:00:33.90,0:00:38.30,Gen_Main,Sense,0000,0000,0000,,Quien quiera ser mago de primer grado\Npuede pasarla sin dificultades.
+Dialogue: 0,0:00:40.04,0:00:44.05,Gen_Main,Sense,0000,0000,0000,,Muy bien. Les explicaré los detalles\Nde la segunda parte del examen.
+Dialogue: 0,0:01:08.58,0:01:13.84,Cart_Serieslogo,CARTEL,0000,0000,0000,,{\fsp1\fs25\fad(800,0)\fsp4\c&HFFFFFF&\pos(320,273.8)\iclip(523.733,177.6,550.933,345.067)\t(4017,5117,\iclip(123.733,177.6,550.933,345.067))}{\1c&HCEFF61&}M{\1c&HD8FF60&}á{\1c&HDFFF5F&}s{\1c&HE5FF5E&} {\1c&HECFF5D&}a{\1c&HF2FF5D&}l{\1c&HF8FF5C&}l{\1c&HFFFF5B&}á {\1c&HCEFF61&}d{\1c&HD5FF60&}e{\1c&HDBFF5F&}l{\1c&HE1FF5F&} {\1c&HE6FF5E&}f{\1c&HECFF5D&}i{\1c&HF3FF5D&}n{\1c&HFAFF5C&}a{\1c&HFFFF5B&}l {\1c&HCEFF61&}d{\1c&HD5FF60&}e{\1c&HDBFF5F&}l{\1c&HE0FF5F&} {\1c&HE6FF5E&}v{\1c&HEDFF5D&}i{\1c&HF3FF5C&}a{\1c&HF9FF5C&}j{\1c&HFFFF5B&}e
+Dialogue: 0,0:02:14.98,0:02:17.99,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an3\pos(562,285)\b0\fad(0,0)}Episodio 23\NLa conquista del laberinto
+Dialogue: 0,0:02:19.17,0:02:21.87,Gen_Main,Sense,0000,0000,0000,,La segunda prueba\Nes conquistar el laberinto.
+Dialogue: 0,0:02:22.49,0:02:26.28,Gen_Main,Sense,0000,0000,0000,,Lo que harán ustedes es conquistar\Neste lugar de la Tumba Real en Ruinas.
+Dialogue: 0,0:02:27.79,0:02:30.07,Gen_Main,Sense,0000,0000,0000,,Solo hay un requisito para aprobar.
+Dialogue: 0,0:02:30.70,0:02:33.98,Gen_Main,Sense,0000,0000,0000,,Deben llegar al nivel más profundo\Nde la Tumba Real en Ruinas.
+Dialogue: 0,0:02:35.32,0:02:37.53,Gen_Main,Sense,0000,0000,0000,,Miren, yo soy pacifista
+Dialogue: 0,0:02:37.73,0:02:39.50,Gen_Main,Sense,0000,0000,0000,,y no me agradan los conflictos.
+Dialogue: 0,0:02:39.70,0:02:43.51,Gen_Main,Sense,0000,0000,0000,,Por lo tanto, aprobaré a todos\Nlos que lleguen a ese lugar.
+Dialogue: 0,0:02:43.75,0:02:44.87,Gen_Main,Blei,0000,0000,0000,,Un momento.
+Dialogue: 0,0:02:45.78,0:02:50.27,Gen_Main,Blei,0000,0000,0000,,Es un calabozo inexplorado\Ndonde muchos aventureros han muerto.
+Dialogue: 0,0:02:50.62,0:02:52.90,Gen_Main,Blei,0000,0000,0000,,¿Otra vez no piensas no aprobar a nadie?
+Dialogue: 0,0:02:53.10,0:02:54.52,Gen_Main,Sense,0000,0000,0000,,¿Qué tonterías dices?
+Dialogue: 0,0:02:55.81,0:02:59.40,Gen_Main,Sense,0000,0000,0000,,A lo que ustedes aspiran\Nes a la cúspide de los hechiceros.
+Dialogue: 0,0:03:00.45,0:03:03.82,Gen_Main,Sense,0000,0000,0000,,Los que hacen posible lo imposible\Nson los magos de primer grado.
+Dialogue: 0,0:03:04.25,0:03:07.05,Gen_Main,Sense,0000,0000,0000,,Da igual si nadie lo ha conquistado\No sea inexplorado.
+Dialogue: 0,0:03:07.22,0:03:09.02,Gen_Main,Sense,0000,0000,0000,,Solo les queda avanzar.
+Dialogue: 0,0:03:10.51,0:03:15.03,Gen_Main,Methode,0000,0000,0000,,¿Cómo podemos probar\Nque hemos llegado al nivel más profundo?
+Dialogue: 0,0:03:15.44,0:03:18.03,Gen_Main,Methode,0000,0000,0000,,¿Hay que traer de vuelta\Nalguna moneda del tesoro?
+Dialogue: 0,0:03:18.51,0:03:20.60,Gen_Main,Sense,0000,0000,0000,,No hay necesidad de ninguna evidencia,
+Dialogue: 0,0:03:20.94,0:03:23.64,Gen_Main,Sense,0000,0000,0000,,pues yo me adentraré\Ncon ustedes a lo más profundo.
+Dialogue: 0,0:03:24.01,0:03:27.54,Gen_Main,Sense,0000,0000,0000,,Desde luego que no le prestaré ayuda\Na ninguno de los participantes.
+Dialogue: 0,0:03:28.11,0:03:32.24,Gen_Main,Sense,0000,0000,0000,,Además, le daré uno de estos frascos\Na cada uno de ustedes.
+Dialogue: 0,0:03:34.19,0:03:39.22,Gen_Main,Sense,0000,0000,0000,,Es un gólem de escape que el hechicero\Nde primer grado Lernen desarrolló.
+Dialogue: 0,0:03:40.31,0:03:42.71,Gen_Main,Sense,0000,0000,0000,,Si rompen el frasco,\Nel gólem se manifestará.
+Dialogue: 0,0:03:42.91,0:03:45.52,Gen_Main,Sense,0000,0000,0000,,Y los traerá de vuelta\Nal exterior del laberinto.
+Dialogue: 0,0:03:46.37,0:03:49.58,Gen_Main,Sense,0000,0000,0000,,Aún está en fase prototipo,\Npero es suficientemente seguro.
+Dialogue: 0,0:03:49.88,0:03:52.03,Gen_Main,Sense,0000,0000,0000,,Aunque los que lo usen serán reprobados,
+Dialogue: 0,0:03:52.23,0:03:56.58,Gen_Main,Sense,0000,0000,0000,,úsenlo cuando heridas o el riesgo\Nno les deje seguir con la prueba.
+Dialogue: 0,0:03:57.13,0:04:00.77,Gen_Main,Sense,0000,0000,0000,,No puedo permitir que personal\Nprometedor para el futuro perezca aquí.
+Dialogue: 0,0:04:01.93,0:04:06.61,Gen_Main,Sense,0000,0000,0000,,Además, el frasco está programado para\Nromperse automáticamente al amanecer.
+Dialogue: 0,0:04:07.55,0:04:10.01,Gen_Main,Sense,0000,0000,0000,,Ese es el tiempo límite\Nde la segunda parte.
+Dialogue: 0,0:04:12.45,0:04:14.54,Gen_Main,Sense,0000,0000,0000,,Muy bien. Comencemos el examen.
+Dialogue: 0,0:04:36.05,0:04:38.07,Gen_Main,Richter,0000,0000,0000,,Veo que hay varias entradas.
+Dialogue: 0,0:04:38.27,0:04:41.51,Gen_Main,Denken,0000,0000,0000,,Es el laberinto de la tumba\Nde la dinastía unificadora.
+Dialogue: 0,0:04:41.98,0:04:45.55,Gen_Main,Denken,0000,0000,0000,,Los calabozos de esa era\Ncuentan con varias entradas,
+Dialogue: 0,0:04:45.75,0:04:48.35,Gen_Main,Denken,0000,0000,0000,,pero todas llevan\Na la sección más profunda.
+Dialogue: 0,0:04:48.55,0:04:53.77,Gen_Main,Denken,0000,0000,0000,,Si investigamos cada entrada,\Nsabremos algo de la estructura interior.
+Dialogue: 0,0:04:54.42,0:04:56.27,Gen_Main,Denken,0000,0000,0000,,Si nos las dividimos entre todos…
+Dialogue: 0,0:04:56.50,0:04:59.02,Gen_Main,Ton,0000,0000,0000,,¿Por qué lo dices\Ncomo si debiéramos cooperar?
+Dialogue: 0,0:05:04.68,0:05:08.03,Gen_Main,Denken,0000,0000,0000,,En esta prueba no hay nada\Nque nos obligue a competir.
+Dialogue: 0,0:05:08.27,0:05:11.29,Gen_Main,Denken,0000,0000,0000,,Es mejor que cooperemos entre todos.
+Dialogue: 0,0:05:11.75,0:05:13.54,Gen_Main,Ton,0000,0000,0000,,No creo que sea posible.
+Dialogue: 0,0:05:15.66,0:05:17.53,Gen_Main,Ton,0000,0000,0000,,A diferencia de la primera prueba,
+Dialogue: 0,0:05:17.70,0:05:20.07,Gen_Main,Ton,0000,0000,0000,,no es requisito\Nque los compañeros sobrevivan.
+Dialogue: 0,0:05:20.54,0:05:23.57,Gen_Main,Ton,0000,0000,0000,,Aunque formemos grupos,\Nnada nos obliga a salvar a nadie.
+Dialogue: 0,0:05:24.21,0:05:27.48,Gen_Main,Ton,0000,0000,0000,,Incluso hay riesgo de que\Nnos sacrifiquen cuando haya peligro.
+Dialogue: 0,0:05:29.02,0:05:32.43,Gen_Main,Ton,0000,0000,0000,,En especial tú, que pareces\Nsaber mucho sobre el calabozo.
+Dialogue: 0,0:05:33.46,0:05:35.35,Gen_Main,Ton,0000,0000,0000,,Yo iré solo.
+Dialogue: 0,0:05:48.61,0:05:51.98,Gen_Main,Wirbel,0000,0000,0000,,Bueno, unos ya tenemos lazos\Ny obligaciones de la primera prueba.
+Dialogue: 0,0:05:52.37,0:05:55.89,Gen_Main,Wirbel,0000,0000,0000,,Por lo menos, es mejor que cooperar\Ncon alguien que no conozco.
+Dialogue: 0,0:05:59.09,0:06:00.46,Gen_Main,Wirbel,0000,0000,0000,,En marcha.
+Dialogue: 0,0:06:01.82,0:06:04.56,Gen_Main,Ehre,0000,0000,0000,,Oye, espéranos, ¿quieres?
+Dialogue: 0,0:06:08.01,0:06:09.54,Gen_Main,Denken,0000,0000,0000,,Imbéciles.
+Dialogue: 0,0:06:10.09,0:06:13.68,Gen_Main,Denken,0000,0000,0000,,No se dan cuenta\Nde la superioridad de la cooperación.
+Dialogue: 0,0:06:14.45,0:06:16.04,Gen_Main,Frieren,0000,0000,0000,,Vámonos, Fern.
+Dialogue: 0,0:06:16.62,0:06:18.56,Gen_Main,Fern,0000,0000,0000,,¿Está bien que vayamos solas?
+Dialogue: 0,0:06:19.10,0:06:23.19,Gen_Main,Frieren,0000,0000,0000,,Cooperar no servirá de nada.\NNadie tiene intención de hacerlo.
+Dialogue: 0,0:06:31.17,0:06:34.01,Gen_Main,Sense,0000,0000,0000,,Bueno, creo que\Nlas acompañaré a ustedes.
+Dialogue: 0,0:06:35.09,0:06:38.97,Gen_Main,Sense,0000,0000,0000,,Se ven con mayores posibilidades\Nde llegar a la meta de manera segura.
+Dialogue: 0,0:06:40.14,0:06:41.99,Gen_Main,Frieren,0000,0000,0000,,No nos vayas a estorbar, ¿eh?
+Dialogue: 0,0:06:42.78,0:06:46.01,Gen_Main,Sense,0000,0000,0000,,Claro que no.\NNo les estorbaré ni ayudaré.
+Dialogue: 0,0:06:53.57,0:06:56.18,Gen_Main,Frieren,0000,0000,0000,,Esta es la ruta más segura.
+Dialogue: 0,0:06:58.60,0:07:01.52,Gen_Main,Frieren,0000,0000,0000,,Avancemos con cuidado\Nmientras vamos levantando un mapa.
+Dialogue: 0,0:07:13.95,0:07:17.54,Gen_Main,Frieren,0000,0000,0000,,Esa piedra del suelo\Nactiva una trampa. Ten cuidado.
+Dialogue: 0,0:07:23.96,0:07:26.81,Gen_Main,Fern,0000,0000,0000,,Siempre me sorprende\Nlo mucho que sabe sobre calabozos.
+Dialogue: 0,0:07:27.35,0:07:30.21,Gen_Main,Frieren,0000,0000,0000,,Antes no era tan experta.
+Dialogue: 0,0:07:31.53,0:07:33.97,Gen_Main,Frieren,0000,0000,0000,,Pero a Himmel le gustaban los calabozos.
+Dialogue: 0,0:07:34.71,0:07:38.21,Gen_Main,Frieren,0000,0000,0000,,Nos metimos en calabozos\Npara eliminar monstruos que nos pedían.
+Dialogue: 0,0:07:39.32,0:07:42.56,Gen_Main,Fern,0000,0000,0000,,¿Qué significa eso\Nde que le gustaban los calabozos?
+Dialogue: 0,0:07:43.13,0:07:45.06,Gen_Main,Frieren,0000,0000,0000,,Así como lo oyes.
+Dialogue: 0,0:07:45.50,0:07:47.40,Gen_Main,Frieren,0000,0000,0000,,Decía que le emocionaban mucho.
+Dialogue: 0,0:07:48.15,0:07:50.15,Gen_Main,Frieren,0000,0000,0000,,Resulta incomprensible, ¿verdad?
+Dialogue: 0,0:07:53.71,0:07:56.80,Gen_Main,Eisen,0000,0000,0000,,Son las escaleras\Nque llevan al siguiente nivel.
+Dialogue: 0,0:07:58.45,0:08:01.61,Gen_Main,Himmel,0000,0000,0000,,Ya veo que tuvimos mala suerte\Nal seguir esta ruta.
+Dialogue: 0,0:08:02.29,0:08:04.42,Gen_Main,Himmel,0000,0000,0000,,Volvamos a la bifurcación de hace rato.
+Dialogue: 0,0:08:04.62,0:08:06.20,Gen_Main,Heiter,0000,0000,0000,,Sí, estoy de acuerdo.
+Dialogue: 0,0:08:07.33,0:08:11.97,Gen_Main,Eisen,0000,0000,0000,,¿Para qué? Nuestro objetivo\Nes el monstruo que está al fondo.
+Dialogue: 0,0:08:12.70,0:08:15.22,Gen_Main,Himmel,0000,0000,0000,,¿Cuándo vas a aprender, Eisen?
+Dialogue: 0,0:08:16.70,0:08:21.44,Gen_Main,Himmel,0000,0000,0000,,Se avanza en un calabozo después\Nde haber recorrido el nivel completo.
+Dialogue: 0,0:08:21.64,0:08:23.47,Gen_Main,Himmel,0000,0000,0000,,Es sentido común de aventurero.
+Dialogue: 0,0:08:23.67,0:08:25.31,Gen_Main,Eisen,0000,0000,0000,,Eso te lo acabas de inventar.
+Dialogue: 0,0:08:26.90,0:08:29.28,Gen_Main,Himmel,0000,0000,0000,,Piensas que es una tontería,\N¿no es cierto?
+Dialogue: 0,0:08:31.62,0:08:35.62,Gen_Main,Himmel,0000,0000,0000,,Si puedes divertirte mientras ayudas\Na las personas, qué cosa mejor hay, ¿no?
+Dialogue: 0,0:08:35.87,0:08:38.08,Gen_Main,Frieren,0000,0000,0000,,Pero no siempre va a resultar tan bien.
+Dialogue: 0,0:08:38.28,0:08:41.14,Gen_Main,Frieren,0000,0000,0000,,En el viaje habrá calabozos\Ncada vez más letales.
+Dialogue: 0,0:08:41.31,0:08:42.49,Gen_Main,Eisen,0000,0000,0000,,Sí, ella tiene razón.
+Dialogue: 0,0:08:43.30,0:08:45.16,Gen_Main,Himmel,0000,0000,0000,,Los disfrutaré hasta el final.
+Dialogue: 0,0:08:46.03,0:08:48.77,Gen_Main,Himmel,0000,0000,0000,,Tendré aventuras,\Nme adentraré en los calabozos,
+Dialogue: 0,0:08:48.94,0:08:51.76,Gen_Main,Himmel,0000,0000,0000,,derrotaré a los monstruos\Ny buscaré tesoros.
+Dialogue: 0,0:08:52.19,0:08:54.76,Gen_Main,Himmel,0000,0000,0000,,Y así de repente habré salvado al mundo.
+Dialogue: 0,0:08:56.69,0:08:58.64,Gen_Main,Himmel,0000,0000,0000,,Así es como quiero que sea mi viaje.
+Dialogue: 0,0:09:00.10,0:09:01.32,Gen_Main,Himmel,0000,0000,0000,,Además,
+Dialogue: 0,0:09:02.13,0:09:06.52,Gen_Main,Himmel,0000,0000,0000,,quizá, al final de la bifurcación,\Nhabrá un grimorio muy raro.
+Dialogue: 0,0:09:07.01,0:09:09.49,Gen_Main,Frieren,0000,0000,0000,,¿Qué esperan? Regresemos pronto.
+Dialogue: 0,0:09:11.75,0:09:14.70,Gen_Main,Frieren,0000,0000,0000,,Sí, de veras que era incomprensible.
+Dialogue: 0,0:09:28.10,0:09:30.18,Gen_Main,Lawine,0000,0000,0000,,Kanne, ya vámonos.
+Dialogue: 0,0:09:43.55,0:09:46.64,Gen_Main,Richter,0000,0000,0000,,Al fin de cuentas,\Nsolo quedamos cinco, ¿eh?
+Dialogue: 0,0:09:46.99,0:09:50.38,Gen_Main,Denken,0000,0000,0000,,Si hubiéramos cooperado todos\Ny dividido los papeles,
+Dialogue: 0,0:09:50.58,0:09:53.48,Gen_Main,Denken,0000,0000,0000,,habríamos tenido suficientes\Nposibilidades de pasarlo.
+Dialogue: 0,0:09:54.38,0:09:58.24,Gen_Main,Denken,0000,0000,0000,,Es una lástima. Habríamos formado\Nun grupo de individuos muy capaces.
+Dialogue: 0,0:09:58.92,0:10:02.97,Gen_Main,Richter,0000,0000,0000,,Denken, no todos pueden adaptarse\Ntan fácilmente como tú.
+Dialogue: 0,0:10:03.53,0:10:07.24,Gen_Main,Richter,0000,0000,0000,,¿Recuerdas lo que dijiste\Nal final de la primera prueba?
+Dialogue: 0,0:10:10.87,0:10:12.76,Gen_Main,Richter,0000,0000,0000,,Supongo que no les agradó la idea.
+Dialogue: 0,0:10:13.38,0:10:17.63,Gen_Main,Richter,0000,0000,0000,,Es solo cuestión de pensar\Nque quedamos los más inteligentes.
+Dialogue: 0,0:10:17.99,0:10:19.95,Gen_Main,Richter,0000,0000,0000,,Por lo menos, entre nosotros,
+Dialogue: 0,0:10:20.15,0:10:24.77,Gen_Main,Richter,0000,0000,0000,,no hay ningún tonto que estorbe\Nal caer en la simple trampa de un mimic.
+Dialogue: 0,0:10:25.38,0:10:27.34,Gen_Main,Richter,0000,0000,0000,,Así está mejor, ¿no, Denken?
+Dialogue: 0,0:10:27.98,0:10:31.74,Gen_Main,Denken,0000,0000,0000,,¿Cómo crees que habrá alguien\Ntan estúpido participando en el examen?
+Dialogue: 0,0:10:32.77,0:10:34.29,Gen_Main,Denken,0000,0000,0000,,En marcha.
+Dialogue: 0,0:10:43.74,0:10:45.43,Gen_Main,Frieren,0000,0000,0000,,Este poder mágico que siento…
+Dialogue: 0,0:10:46.47,0:10:48.16,Gen_Main,Frieren,0000,0000,0000,,Puede que sea un grimorio.
+Dialogue: 0,0:10:48.57,0:10:52.51,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren, vio el análisis\Nde la magia de {\i1}Mikheit{\i0}, ¿no?
+Dialogue: 0,0:10:53.92,0:10:55.67,Gen_Main,Fern,0000,0000,0000,,Es un mimic.
+Dialogue: 0,0:10:56.46,0:11:01.09,Gen_Main,Frieren,0000,0000,0000,,Fern, el índice de confiabilidad\Nde esa magia es del 99 %, ¿sabes?
+Dialogue: 0,0:11:01.29,0:11:03.43,Gen_Main,Fern,0000,0000,0000,,¿Y eso qué tiene que ver?
+Dialogue: 0,0:11:03.88,0:11:08.70,Gen_Main,Frieren,0000,0000,0000,,Gracias a que hubo grandes magos que\Nsupieron ver más allá del 1 % restante,
+Dialogue: 0,0:11:08.90,0:11:11.40,Gen_Main,Frieren,0000,0000,0000,,se lograron descubrimientos históricos.
+Dialogue: 0,0:11:16.53,0:11:18.29,Gen_Main,Frieren,0000,0000,0000,,Sí, estoy segura.
+Dialogue: 0,0:11:19.95,0:11:23.07,Gen_Main,Frieren,0000,0000,0000,,Aquí dentro hay\Nun libro de hechizos muy valioso.
+Dialogue: 0,0:11:23.87,0:11:28.08,Gen_Main,Frieren,0000,0000,0000,,Mi experiencia como hechicera\Nme lo dice.
+Dialogue: 0,0:11:33.58,0:11:36.93,Gen_Main,Frieren,0000,0000,0000,,¡Está muy oscuro! ¡Tengo mucho miedo!
+Dialogue: 0,0:11:38.22,0:11:39.84,Gen_Main,Frieren,0000,0000,0000,,Qué miedo.
+Dialogue: 0,0:11:41.16,0:11:42.84,Gen_Main,Frieren,0000,0000,0000,,Está oscuro. Es aterrador.
+Dialogue: 0,0:11:56.15,0:11:59.99,Gen_Italics,Sense,0000,0000,0000,,Creo que tal vez me equivoqué\Nal venir con ellas.
+Dialogue: 0,0:12:09.09,0:12:13.40,Gen_Main,Denken,0000,0000,0000,,No pisen la piedra en el centro.\NEl techo nos caerá encima.
+Dialogue: 0,0:12:17.06,0:12:19.92,Gen_Main,Laufen,0000,0000,0000,,No me digan que esa mancha\Nen forma de persona es…
+Dialogue: 0,0:12:20.68,0:12:24.22,Gen_Main,Richter,0000,0000,0000,,Qué espeluznante.\NNo le quedaron ni los huesos.
+Dialogue: 0,0:12:45.06,0:12:46.56,Gen_Main,Laufen,0000,0000,0000,,¡Las gárgolas cobraron vida!
+Dialogue: 0,0:13:44.74,0:13:47.97,Gen_Main,Richter/Denken,0000,0000,0000,,-Denken, una quedó atrapada.\N-Ya lo sé.
+Dialogue: 0,0:13:48.38,0:13:50.22,Gen_Main,Richter,0000,0000,0000,,Está detrás de esa pared.
+Dialogue: 0,0:13:51.69,0:13:53.31,Gen_Main,Denken,0000,0000,0000,,Hazte para atrás.
+Dialogue: 0,0:14:00.29,0:14:01.80,Gen_Main,Denken,0000,0000,0000,,Al parecer no surte efecto.
+Dialogue: 0,0:14:02.38,0:14:05.57,Gen_Main,Denken,0000,0000,0000,,No queda otro remedio. ¡Rompe el frasco!
+Dialogue: 0,0:14:22.12,0:14:26.34,Gen_Main,Laufen/Denken,0000,0000,0000,,-Increíble.\N-La primera descalificada, ¿eh?
+Dialogue: 0,0:14:30.01,0:14:32.85,Gen_Main,Denken,0000,0000,0000,,Un pequeño descuido\Nnos puede costar la vida.
+Dialogue: 0,0:14:34.47,0:14:37.22,Gen_Main,Denken,0000,0000,0000,,Conque este es el terror\Nde la Tumba Real en Ruinas.
+Dialogue: 0,0:14:47.81,0:14:50.74,Gen_Main,Frieren,0000,0000,0000,,Oye, Fern, pon atención.
+Dialogue: 0,0:14:51.14,0:14:54.24,Gen_Main,Frieren,0000,0000,0000,,Deja de jalarme, ¿sí?\NMe vas a partir en dos.
+Dialogue: 0,0:14:54.87,0:14:56.06,Gen_Main,Fern,0000,0000,0000,,Está bien.
+Dialogue: 0,0:14:57.43,0:15:00.97,Gen_Main,Frieren,0000,0000,0000,,En estos casos, lo mejor es hacer\Nlo contrario: empujarme adentro.
+Dialogue: 0,0:15:01.17,0:15:04.12,Gen_Main,Frieren,0000,0000,0000,,Así el mimic dejará de morder\Npor el reflejo de vomitar.
+Dialogue: 0,0:15:05.81,0:15:07.88,Gen_Main,Fern,0000,0000,0000,,¿Es acaso similar a un perro?
+Dialogue: 0,0:15:10.84,0:15:13.18,Gen_Main,Frieren,0000,0000,0000,,Uf, me salvé.
+Dialogue: 0,0:15:14.11,0:15:15.51,Gen_Main,Fern,0000,0000,0000,,No lo puedo creer.
+Dialogue: 0,0:15:15.99,0:15:18.65,Gen_Main,Fern,0000,0000,0000,,¿Cómo los manejaba cuando estaba sola?
+Dialogue: 0,0:15:18.99,0:15:22.32,Gen_Main,Frieren,0000,0000,0000,,Los hacía estallar desde adentro\Ncon magia de ataque.
+Dialogue: 0,0:15:23.08,0:15:26.58,Gen_Main,Frieren,0000,0000,0000,,Pero no me gusta\Nporque se me chamusca el cabello.
+Dialogue: 0,0:15:26.78,0:15:28.03,Gen_Main,Frieren,0000,0000,0000,,Ya volví.
+Dialogue: 0,0:15:28.61,0:15:31.15,Gen_Main,Frieren,0000,0000,0000,,Parece que tengo rollos de pan\Nen la cabeza.
+Dialogue: 0,0:15:31.46,0:15:35.55,Gen_Main,Fern,0000,0000,0000,,Entonces, esa era la razón por la que\Na veces tenía otro peinado, ¿verdad?
+Dialogue: 0,0:15:35.75,0:15:37.03,Gen_Main,Fern,0000,0000,0000,,¿Por qué está así?
+Dialogue: 0,0:15:37.77,0:15:40.08,Gen_Main,Frieren,0000,0000,0000,,Bueno, sigamos con nuevos ánimos
+Dialogue: 0,0:15:40.77,0:15:42.96,Gen_Main,Frieren,0000,0000,0000,,y conquistemos el laberinto.
+Dialogue: 0,0:15:50.67,0:15:52.09,Gen_Main,Frieren,0000,0000,0000,,Mira, son gárgolas.
+Dialogue: 0,0:15:52.57,0:15:54.73,Gen_Main,Frieren,0000,0000,0000,,Vamos a vencerlas\Nantes de que se muevan.
+Dialogue: 0,0:15:58.45,0:16:01.63,Gen_Main,Fern,0000,0000,0000,,Esta medalla aparece\Nen varios lugares, ¿verdad?
+Dialogue: 0,0:16:01.83,0:16:04.98,Gen_Main,Frieren,0000,0000,0000,,Dicen que las colecciona\Nun conocedor excéntrico.
+Dialogue: 0,0:16:09.58,0:16:12.36,Gen_Main,Frieren,0000,0000,0000,,Esta parece ser la ruta directa.\NVámonos de vuelta.
+Dialogue: 0,0:16:12.56,0:16:13.82,Gen_Main,Fern,0000,0000,0000,,¿Y eso por qué?
+Dialogue: 0,0:16:18.09,0:16:19.95,Gen_Main,Fern,0000,0000,0000,,Vamos mejor de lo que creía.
+Dialogue: 0,0:16:20.77,0:16:24.24,Gen_Main,Frieren,0000,0000,0000,,Eso es muy extraño para un calabozo\Ninexplorado por completo.
+Dialogue: 0,0:16:24.63,0:16:27.66,Gen_Main,Frieren,0000,0000,0000,,Creo que estamos\Ncerca del nivel más profundo.
+Dialogue: 0,0:16:28.58,0:16:31.06,Gen_Main,Frieren,0000,0000,0000,,Sea como sea,\Nno debemos bajar la guardia.
+Dialogue: 0,0:16:31.63,0:16:35.02,Gen_Main,Frieren,0000,0000,0000,,Tomemos un breve descanso\Nen el siguiente mausoleo, ¿sí?
+Dialogue: 0,0:16:38.07,0:16:40.48,Gen_Main,Frieren,0000,0000,0000,,Conseguimos muchas cosas maravillosas.
+Dialogue: 0,0:16:40.68,0:16:42.85,Gen_Main,Fern,0000,0000,0000,,Solo se ven como chatarra para mí.
+Dialogue: 0,0:16:48.41,0:16:50.00,Gen_Main,Sense,0000,0000,0000,,No lo entiendo.
+Dialogue: 0,0:16:50.20,0:16:51.86,Gen_Main,Fern,0000,0000,0000,,Lo sé.
+Dialogue: 0,0:16:52.47,0:16:54.92,Gen_Main,Fern,0000,0000,0000,,¿Cómo se puede alegrar con esa basura?
+Dialogue: 0,0:16:56.60,0:16:58.47,Gen_Main,Fern,0000,0000,0000,,La está frotando con las mejillas.
+Dialogue: 0,0:17:00.10,0:17:03.14,Gen_Main,Sense,0000,0000,0000,,A quien no logro comprender\Nes a ti, Fern.
+Dialogue: 0,0:17:04.35,0:17:08.63,Gen_Main,Sense,0000,0000,0000,,Nunca he visto a una hechicera\Ntan joven que fuera tan brillante.
+Dialogue: 0,0:17:09.17,0:17:11.55,Gen_Main,Sense,0000,0000,0000,,Debes haber practicado\Ny entrenado mucho.
+Dialogue: 0,0:17:12.35,0:17:15.44,Gen_Main,Sense,0000,0000,0000,,Sin embargo, no percibo nada\Nde pasión o tenacidad de ti.
+Dialogue: 0,0:17:15.64,0:17:17.28,Gen_Main,Sense,0000,0000,0000,,Eres una chica muy extraña.
+Dialogue: 0,0:17:21.01,0:17:26.44,Gen_Main,Fern,0000,0000,0000,,Me volví una maga hecha y derecha para\Npagarle a alguien lo que hizo por mí.
+Dialogue: 0,0:17:29.69,0:17:32.44,Gen_Main,Fern,0000,0000,0000,,Entonces, ese era\Nel objetivo de mi vida.
+Dialogue: 0,0:17:33.57,0:17:38.53,Gen_Main,Fern,0000,0000,0000,,Solo practicaba con todas mis fuerzas.\NNunca pensé en qué habría más allá.
+Dialogue: 0,0:17:41.00,0:17:46.97,Gen_Main,Fern,0000,0000,0000,,De seguro en ese entonces me acabé\Ntoda la pasión y tenacidad que tenía.
+Dialogue: 0,0:17:48.50,0:17:52.59,Gen_Main,Sense,0000,0000,0000,,En ese caso, ¿para qué continúas\Nrefinando tus artes mágicas?
+Dialogue: 0,0:17:55.80,0:17:58.33,Gen_Main,Fern,0000,0000,0000,,La señorita Frieren\Nse ve muy divertida, ¿no?
+Dialogue: 0,0:17:58.53,0:18:00.18,Gen_Main,Sense,0000,0000,0000,,Pues sí.
+Dialogue: 0,0:18:01.09,0:18:04.18,Gen_Main,Fern,0000,0000,0000,,La primera vez que me adentré\Nen un calabozo con ella,
+Dialogue: 0,0:18:04.81,0:18:10.42,Gen_Main,Fern,0000,0000,0000,,sonreía muy contenta luego de reunir\Nchatarra y libros de hechizos basura.
+Dialogue: 0,0:18:15.66,0:18:18.15,Gen_Main,Fern,0000,0000,0000,,Y se me pegó su sonrisa.
+Dialogue: 0,0:18:18.58,0:18:22.91,Gen_Main,Fern,0000,0000,0000,,De seguro me gusta mucho\Nverla de esa manera
+Dialogue: 0,0:18:23.30,0:18:26.20,Gen_Main,Fern,0000,0000,0000,,y por eso busco nuevas magias\Njunto con ella.
+Dialogue: 0,0:18:29.98,0:18:32.07,Gen_Main,Fern,0000,0000,0000,,Ya es hora de que sigamos adelante.
+Dialogue: 0,0:18:36.95,0:18:40.55,Gen_Main,Sense,0000,0000,0000,,Tal parece que venir con ustedes\Nfue lo más indicado.
+Dialogue: 0,0:18:41.19,0:18:46.12,Gen_Main,Sense,0000,0000,0000,,Seguramente ustedes sí podrán disfrutar\Nincluso este laberinto tan cruel.
+Dialogue: 0,0:19:10.30,0:19:12.23,Gen_Main,Scharf,0000,0000,0000,,El diseño del lugar ha cambiado.
+Dialogue: 0,0:19:12.99,0:19:15.57,Gen_Main,Wirbel,0000,0000,0000,,Quizás el nivel más profundo esté cerca.
+Dialogue: 0,0:19:18.20,0:19:19.54,Gen_Main,Ehre,0000,0000,0000,,Wirbel…
+Dialogue: 0,0:19:19.74,0:19:21.80,Gen_Main,Wirbel,0000,0000,0000,,¿Qué quieres? ¿Ya no puedes caminar?
+Dialogue: 0,0:19:22.00,0:19:23.51,Gen_Main,Ehre,0000,0000,0000,,Alguien me atrapó.
+Dialogue: 0,0:19:23.79,0:19:26.25,Gen_Main,Ehre,0000,0000,0000,,Hay tres hechiceros\Nocultando su poder mágico.
+Dialogue: 0,0:19:26.42,0:19:27.66,Gen_Main,Ehre,0000,0000,0000,,Viene un ataque.
+Dialogue: 0,0:19:33.49,0:19:35.32,Gen_Main,Wirbel,0000,0000,0000,,Scharf, tápales la visión.
+Dialogue: 0,0:19:35.52,0:19:37.79,Gen_Main,Wirbel,0000,0000,0000,,La retienen con la magia de {\i1}Sorganeil{\i0}.
+Dialogue: 0,0:19:37.99,0:19:38.99,Gen_Main,Scharf,0000,0000,0000,,Ya lo sé.
+Dialogue: 0,0:19:54.54,0:19:58.55,Gen_Main,Wirbel,0000,0000,0000,,Ahora entiendo por qué la Tumba Real\Nen Ruinas era imposible de pasar.
+Dialogue: 0,0:20:00.14,0:20:04.17,Gen_Main,Wirbel,0000,0000,0000,,Nunca me imaginé que habría algo así.
+Dialogue: 0,0:20:05.95,0:20:09.56,Gen_Main,Wirbel,0000,0000,0000,,Scharf, atácame a mí.\NEhre, tú ve por Scharf.
+Dialogue: 0,0:20:09.87,0:20:12.02,Gen_Main,Wirbel,0000,0000,0000,,Yo acabaré con Ehre.
+Dialogue: 0,0:20:13.51,0:20:15.13,Gen_Main,Wirbel,0000,0000,0000,,Tenemos que pasar esta prueba.
+Dialogue: 0,0:20:55.33,0:20:58.98,Gen_Main,Laufen,0000,0000,0000,,Copias hechas de magia, ¿eh?
+Dialogue: 0,0:20:59.78,0:21:02.52,Gen_Main,Laufen,0000,0000,0000,,Tiene que ser obra\Nde monstruos o demonios.
+Dialogue: 0,0:21:03.46,0:21:07.87,Gen_Main,Laufen,0000,0000,0000,,Nunca había visto que nadie copiara\Na otro de una manera tan perfecta.
+Dialogue: 0,0:21:08.77,0:21:12.75,Gen_Main,Laufen,0000,0000,0000,,Su poder mágico y habilidad eran\Nprácticamente iguales a los de Laufen.
+Dialogue: 0,0:21:13.18,0:21:18.75,Gen_Main,Laufen,0000,0000,0000,,Al igual que sus movimientos.\NQuizás usen los recuerdos.
+Dialogue: 0,0:21:19.46,0:21:21.77,Gen_Main,Laufen,0000,0000,0000,,Es bastante desagradable.
+Dialogue: 0,0:21:22.43,0:21:24.26,Gen_Main,Methode,0000,0000,0000,,Lo único bueno del asunto
+Dialogue: 0,0:21:24.73,0:21:28.00,Gen_Main,Methode,0000,0000,0000,,es que, con un vistazo,\Nuno se puede percatar de que es falsa.
+Dialogue: 0,0:21:28.41,0:21:31.89,Gen_Main,Methode,0000,0000,0000,,Por lo menos, no hay peligro\Nde eliminarnos entre camaradas.
+Dialogue: 0,0:21:32.39,0:21:38.01,Gen_Main,Methode,0000,0000,0000,,Suponiendo que el que lanzó la magia\Npudiera controlar varias a la vez,
+Dialogue: 0,0:21:38.18,0:21:40.72,Gen_Main,Methode,0000,0000,0000,,serían una amenaza\Nde un nivel aterrador.
+Dialogue: 0,0:21:43.14,0:21:47.26,Gen_Main,Denken,0000,0000,0000,,Sea como sea, formar un grupo\Nfue lo mejor que pudimos hacer.
+Dialogue: 0,0:21:50.78,0:21:53.64,Gen_Main,Denken,0000,0000,0000,,Así tendremos más maneras\Nde lidiar con ellas.
+Dialogue: 0,0:22:18.70,0:22:22.07,Gen_Main,Richter,0000,0000,0000,,Denken, ¿también vamos\Na ser capaces de lidiar con esa?
+Dialogue: 0,0:22:27.97,0:22:30.22,Gen_Main,Denken,0000,0000,0000,,Lo único que puedo decir es que,
+Dialogue: 0,0:22:30.89,0:22:35.89,Gen_Main,Denken,0000,0000,0000,,si esto no fuera un examen, ya habría\Nroto el frasco desde hace mucho.
+Dialogue: 0,0:24:16.85,0:24:19.98,Cart_C_Tim,CARTEL,0000,0000,0000,,{\b0\fad(800,0)\bord1\blur0.6\fs18\pos(320,231)}Traducción: Antonio Valdez\NPautado: Thomas Benaissa\NEdición: Álvaro Jimeno\NControl de calidad: Nicolás Sepúlveda{\b1\b0}
+Dialogue: 0,0:24:20.31,0:24:23.99,Gen_Main,Denken/Frieren,0000,0000,0000,,-Ahora bien…\N-Qué agradable aroma.
+Dialogue: 0,0:24:22.19,0:24:26.01,Gen_Main_Up,Übel,0000,0000,0000,,Si tienen la misma habilidad que\Nnosotros, la victoria es pura suerte.
+Dialogue: 0,0:24:24.27,0:24:27.86,Gen_Main,Methode/Richter,0000,0000,0000,,-Míreme a los ojos, por favor.\N-No es imposible.
+Dialogue: 0,0:24:26.31,0:24:27.86,Gen_Main_Up,Blei,0000,0000,0000,,¿Cuánto tiempo necesitas?
+Dialogue: 0,0:24:27.52,0:24:29.98,Cart_A_Tim,CARTEL,0000,0000,0000,,{\fsp1\b0\fad(500,0)\pos(320,80)\bord0\c&H201B1C&\blur5\t(0,271,\blur0)\t(312,1188,\c&HFFFFFF&)\t(\fsp0)}Episodio 24\N{\fs30}Copias perfectas
+Dialogue: 0,0:24:28.06,0:24:29.98,Gen_Main,Scharf,0000,0000,0000,,Son copias perfectas.

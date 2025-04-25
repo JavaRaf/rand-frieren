@@ -1,0 +1,389 @@
+﻿[Script Info]
+Title: [Erai-raws] Português (Brasil)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,1
+Style: DefaultItalics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DefaultOverlap,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Flashback,Trebuchet MS,22,&H00FBFBFE,&H000000FF,&H005C0718,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,0
+Style: FlashbackItalics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,1
+Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Signs_WText,Times New Roman,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,0030,0030,0010,0
+Style: Signs_EpTitle,Times New Roman,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0030,0030,0010,0
+Style: Signs_NextEp,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Songs_OP,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00B7812E,&H00B7812E,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Songs_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A95974,&H00A95974,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Italics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,0
+Style: Top,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0040,0040,0015,1
+Style: Jikai,Times New Roman,20,&H001F221F,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0000,0000,0080,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.51,0:00:09.79,Default,FERN,0000,0000,0000,,Então, essa fissura foi\Npor conta do seu treinamento.
+Dialogue: 0,0:00:13.53,0:00:16.03,Songs_OP,OP LYRICS,0000,0000,0000,,Como um conto de fadas
+Dialogue: 0,0:00:16.03,0:00:18.45,Songs_OP,OP LYRICS,0000,0000,0000,,É um sinal de que o conto chegou ao fim
+Dialogue: 0,0:00:18.45,0:00:21.37,Songs_OP,OP LYRICS,0000,0000,0000,,Como uma única passagem tirada
+Dialogue: 0,0:00:21.37,0:00:23.00,Songs_OP,OP LYRICS,0000,0000,0000,,De uma viagem muito longa
+Dialogue: 0,0:00:23.00,0:00:25.33,Songs_OP,OP LYRICS,0000,0000,0000,,Do ser maligno que lança trevas
+Dialogue: 0,0:00:25.33,0:00:27.67,Songs_OP,OP LYRICS,0000,0000,0000,,Por esta terra
+Dialogue: 0,0:00:27.67,0:00:30.00,Songs_OP,OP LYRICS,0000,0000,0000,,E as memórias da curta jornada
+Dialogue: 0,0:00:30.00,0:00:32.46,Songs_OP,OP LYRICS,0000,0000,0000,,Do herói que o derrotou
+Dialogue: 0,0:00:33.26,0:00:42.22,Signs,SIGN,0000,0000,0000,,{\fad(1,473)\blur0.25\fs25\fnGeorgia\fsp3.9\pos(322,230)\c&HFFFCFE&\t(989,4326,\c&HEFC777&)\t(6411,6745,\c&HEAC732&)}e a Jornada para o Além
+Dialogue: 0,0:00:42.47,0:00:44.77,Songs_OP,OP LYRICS,0000,0000,0000,,A história termina
+Dialogue: 0,0:00:44.77,0:00:47.27,Songs_OP,OP LYRICS,0000,0000,0000,,E o herói vai descansar
+Dialogue: 0,0:00:47.27,0:00:50.11,Songs_OP,OP LYRICS,0000,0000,0000,,Deixando esta terra
+Dialogue: 0,0:00:50.11,0:00:51.78,Songs_OP,OP LYRICS,0000,0000,0000,,Com dias de paz e tranquilidade
+Dialogue: 0,0:00:51.78,0:00:54.28,Songs_OP,OP LYRICS,0000,0000,0000,,A passagem do tempo é impiedosa
+Dialogue: 0,0:00:54.28,0:00:56.45,Songs_OP,OP LYRICS,0000,0000,0000,,Fazendo as pessoas se esquecerem
+Dialogue: 0,0:00:56.45,0:00:59.24,Songs_OP,OP LYRICS,0000,0000,0000,,Até os rastros deixados por suas vidas
+Dialogue: 0,0:00:59.24,0:01:01.04,Songs_OP,OP LYRICS,0000,0000,0000,,E começa a enferrujar
+Dialogue: 0,0:01:01.04,0:01:02.87,Songs_OP,OP LYRICS,0000,0000,0000,,Assim como
+Dialogue: 0,0:01:02.87,0:01:05.16,Songs_OP,OP LYRICS,0000,0000,0000,,Suas palavras, desejos e coragem
+Dialogue: 0,0:01:05.16,0:01:08.50,Songs_OP,OP LYRICS,0000,0000,0000,,Tudo ainda reside dentro de mim
+Dialogue: 0,0:01:08.50,0:01:10.38,Songs_OP,OP LYRICS,0000,0000,0000,,E seguem vivos
+Dialogue: 0,0:01:11.17,0:01:12.92,Songs_OP,OP LYRICS,0000,0000,0000,,Escolhemos o mesmo caminho
+Dialogue: 0,0:01:12.92,0:01:15.05,Songs_OP,OP LYRICS,0000,0000,0000,,É assim que deve ser
+Dialogue: 0,0:01:15.05,0:01:16.59,Songs_OP,OP LYRICS,0000,0000,0000,,É por isso que, em algum momento
+Dialogue: 0,0:01:16.59,0:01:20.85,Songs_OP,OP LYRICS,0000,0000,0000,,Quis entender o motivo das lágrimas
+Dialogue: 0,0:01:20.85,0:01:22.22,Songs_OP,OP LYRICS,0000,0000,0000,,Que desciam pelo meu rosto
+Dialogue: 0,0:01:22.22,0:01:23.31,Songs_OP,OP LYRICS,0000,0000,0000,,Mesmo agora
+Dialogue: 0,0:01:23.31,0:01:25.68,Songs_OP,OP LYRICS,0000,0000,0000,,Se eu refizer a jornada que seguimos juntos
+Dialogue: 0,0:01:25.68,0:01:29.23,Songs_OP,OP LYRICS,0000,0000,0000,,Mesmo se você não estiver aqui
+Dialogue: 0,0:01:29.23,0:01:30.90,Songs_OP,OP LYRICS,0000,0000,0000,,Sei que serei capaz de encontrar
+Dialogue: 0,0:01:42.99,0:01:46.00,Signs_EpTitle,EPTITLE,0000,0000,0000,,{\blur0.2\c&HFAFFF7&\pos(413,268.5)}Episódio 6: O herói do vilarejo
+Dialogue: 0,0:01:53.82,0:01:56.39,Default,FERN,0000,0000,0000,,Você não pretende lutar\Ncontra o dragão, não é mesmo?
+Dialogue: 0,0:01:57.08,0:01:59.57,Default,FERN,0000,0000,0000,,Então, por que continua a treinar?
+Dialogue: 0,0:02:01.03,0:02:03.14,Default,STARK,0000,0000,0000,,Quando cheguei aqui,
+Dialogue: 0,0:02:03.14,0:02:07.54,Default,STARK,0000,0000,0000,,todos os aldeões tinham expressões\Nsombrias e viviam com medo do dragão.
+Dialogue: 0,0:02:08.47,0:02:13.17,Default,STARK,0000,0000,0000,,Agora, essas pessoas\Nestão sorrindo e felizes.
+Dialogue: 0,0:02:13.84,0:02:17.27,Default,STARK,0000,0000,0000,,Elas dizem que o vilarejo\Nestá a salvo pois estou aqui,
+Dialogue: 0,0:02:18.17,0:02:20.29,Default,STARK,0000,0000,0000,,mesmo eu não tendo feito nada.
+Dialogue: 0,0:02:21.26,0:02:25.65,Default,STARK,0000,0000,0000,,O dragão só não atacou este vilarejo\Nporque não sentiu vontade.
+Dialogue: 0,0:02:31.23,0:02:35.80,Default,FERN,0000,0000,0000,,Se atacar, você lutará contra ele?
+Dialogue: 0,0:02:36.13,0:02:37.76,Default,STARK,0000,0000,0000,,Eu não quero morrer.
+Dialogue: 0,0:02:38.16,0:02:43.68,Default,STARK,0000,0000,0000,,Mas, para as pessoas deste vilarejo,\Neu sou um herói.
+Dialogue: 0,0:02:44.74,0:02:47.12,Default,STARK,0000,0000,0000,,Sou Stark, o herói deste vilarejo.
+Dialogue: 0,0:02:47.79,0:02:49.86,Default,STARK,0000,0000,0000,,Preciso defendê-lo.
+Dialogue: 0,0:02:52.25,0:02:56.69,Default,STARK,0000,0000,0000,,Dito isso, talvez fosse\Nmelhor eu fugir daqui.
+Dialogue: 0,0:03:00.21,0:03:06.78,Default,STARK,0000,0000,0000,,Consegui esta cicatriz na minha testa brigando\Ncom o meu mestre. Não foi contra monstros.
+Dialogue: 0,0:03:11.36,0:03:14.21,Italics,STARK,0000,0000,0000,,Foi a primeira vez que ele bateu em mim.
+Dialogue: 0,0:03:16.26,0:03:18.31,Italics,STARK,0000,0000,0000,,Ele deve estar decepcionado comigo.
+Dialogue: 0,0:03:19.60,0:03:24.44,Default,STARK,0000,0000,0000,,No fim, ele nunca me elogiou. Nenhuma vez.
+Dialogue: 0,0:03:32.40,0:03:33.49,Default,STARK,0000,0000,0000,,O que é?
+Dialogue: 0,0:03:35.01,0:03:38.80,Default,FERN,0000,0000,0000,,Não acho que você vai fugir.
+Dialogue: 0,0:03:41.30,0:03:43.06,Default,STARK,0000,0000,0000,,O que sabe sobre mim?
+Dialogue: 0,0:03:43.06,0:03:47.96,Default,FERN,0000,0000,0000,,Não sei nada sobre você, mas me lembrei\Nde uma experiência assustadora que tive.
+Dialogue: 0,0:03:47.96,0:03:49.58,Default,STARK,0000,0000,0000,,Uma experiência assustadora?
+Dialogue: 0,0:03:51.20,0:03:53.67,Italics,FERN,0000,0000,0000,,A minha primeira luta contra um monstro.
+Dialogue: 0,0:03:55.38,0:03:57.14,Italics,FERN,0000,0000,0000,,Eu havia treinado bastante até então.
+Dialogue: 0,0:03:57.14,0:04:02.21,Italics,FERN,0000,0000,0000,,Mas meu medo me fez tremer nas bases,
+Dialogue: 0,0:04:03.76,0:04:05.48,Italics,FERN,0000,0000,0000,,e eu fugi.
+Dialogue: 0,0:04:07.30,0:04:09.34,Italics,FERN,0000,0000,0000,,O monstro não parava\Nde correr atrás de mim.
+Dialogue: 0,0:04:09.79,0:04:12.47,Italics,FERN,0000,0000,0000,,Por algum motivo,\Na Srta. Frieren não me ajudou.
+Dialogue: 0,0:04:12.47,0:04:15.55,Italics,STARK,0000,0000,0000,,O meu mestre também era assim.
+Dialogue: 0,0:04:15.55,0:04:19.73,Italics,FERN,0000,0000,0000,,Quando ele, finalmente,\Nme encurralou e eu me decidi,
+Dialogue: 0,0:04:20.72,0:04:22.07,Italics,FERN,0000,0000,0000,,meu corpo se moveu.
+Dialogue: 0,0:04:26.77,0:04:29.98,Default,FERN,0000,0000,0000,,Eu só precisava de determinação.
+Dialogue: 0,0:04:30.67,0:04:34.33,Default,FERN,0000,0000,0000,,Seu treinamento até agora\Nnão te deixará na mão.
+Dialogue: 0,0:04:35.40,0:04:38.54,Default,FERN,0000,0000,0000,,Mesmo você sendo um covarde,
+Dialogue: 0,0:04:38.68,0:04:44.14,Default,FERN,0000,0000,0000,,eu acredito que a sua determinação\Nde proteger o vilarejo seja genuína.
+Dialogue: 0,0:04:52.71,0:04:55.15,Default,STARK,0000,0000,0000,,Determinação, é?
+Dialogue: 0,0:05:02.23,0:05:03.35,Default,FRIEREN,0000,0000,0000,,Como foi lá?
+Dialogue: 0,0:05:05.26,0:05:06.49,Default,FERN,0000,0000,0000,,Não sei.
+Dialogue: 0,0:05:07.47,0:05:08.95,Default,FERN,0000,0000,0000,,Eu não sei,
+Dialogue: 0,0:05:11.09,0:05:13.35,Default,FERN,0000,0000,0000,,mas acho que vai dar tudo certo.
+Dialogue: 0,0:05:23.38,0:05:24.66,Default,FERN,0000,0000,0000,,Ele não está aqui.
+Dialogue: 0,0:05:24.66,0:05:25.79,Default,FRIEREN,0000,0000,0000,,Acho que fugiu.
+Dialogue: 0,0:05:26.28,0:05:28.23,Default,FRIEREN,0000,0000,0000,,Que pena. Eu tinha muitas expectativas.
+Dialogue: 0,0:05:28.54,0:05:29.77,Default,FRIEREN,0000,0000,0000,,É, não tem jeito.
+Dialogue: 0,0:05:29.77,0:05:32.55,Default,FRIEREN,0000,0000,0000,,Fern, vamos fazer pega-pega com o dragão.
+Dialogue: 0,0:05:32.55,0:05:33.09,Default,FERN,0000,0000,0000,,O quê?
+Dialogue: 0,0:05:36.77,0:05:37.87,Default,STARK,0000,0000,0000,,Frieren.
+Dialogue: 0,0:05:40.23,0:05:42.57,Default,STARK,0000,0000,0000,,Só precisa que eu o distraia\Npor 30 segundos, né?
+Dialogue: 0,0:05:43.84,0:05:45.49,Default,FRIEREN,0000,0000,0000,,Está atrasado.
+Dialogue: 0,0:05:46.28,0:05:48.61,Default,STARK,0000,0000,0000,,Me promete uma coisa?
+Dialogue: 0,0:05:48.61,0:05:52.97,Default,STARK,0000,0000,0000,,Se eu morrer durante a batalha,\Nquero que acabe com o dragão.
+Dialogue: 0,0:05:53.71,0:05:56.20,Default,FRIEREN,0000,0000,0000,,Certo. Eu prometo.
+Dialogue: 0,0:05:56.82,0:06:00.83,Default,FRIEREN,0000,0000,0000,,Mas por que ir tão longe\Npor aqueles aldeões?
+Dialogue: 0,0:06:03.59,0:06:04.63,Default,FRIEREN,0000,0000,0000,,O que foi?
+Dialogue: 0,0:06:04.63,0:06:07.70,Default,STARK,0000,0000,0000,,Só achei que foi uma pergunta esquisita.
+Dialogue: 0,0:06:08.52,0:06:11.22,Default,STARK,0000,0000,0000,,Eu morei neste vilarejo por três anos.
+Dialogue: 0,0:06:13.92,0:06:15.07,Default,FRIEREN,0000,0000,0000,,Isso não é muito tempo.
+Dialogue: 0,0:06:15.07,0:06:16.10,Default,STARK,0000,0000,0000,,Claro que é.
+Dialogue: 0,0:06:20.18,0:06:23.20,Default,STARK,0000,0000,0000,,Beleza, vamos acabar logo com isso.
+Dialogue: 0,0:06:23.70,0:06:25.53,Default,FERN,0000,0000,0000,,Suas mãos estão tremendo.
+Dialogue: 0,0:06:25.53,0:06:27.78,Default,STARK,0000,0000,0000,,Claro que estão. Eu estou com medo.
+Dialogue: 0,0:06:29.59,0:06:31.48,Default,STARK,0000,0000,0000,,Não precisa rir de mim.
+Dialogue: 0,0:06:32.06,0:06:33.86,Default,FRIEREN,0000,0000,0000,,Você é como o Eisen.
+Dialogue: 0,0:06:34.49,0:06:35.87,Italics,STARK,0000,0000,0000,,O meu mestre?
+Dialogue: 0,0:06:37.05,0:06:39.21,Flashback,HIMMEL,0000,0000,0000,,É um oponente poderoso.
+Dialogue: 0,0:06:39.91,0:06:43.36,Flashback,FRIEREN,0000,0000,0000,,Eisen, suas mãos estão\Ntremendo. Está com medo?
+Dialogue: 0,0:06:44.37,0:06:45.38,Flashback,EISEN,0000,0000,0000,,Estou.
+Dialogue: 0,0:06:45.87,0:06:47.83,Flashback,FRIEREN,0000,0000,0000,,E vai só admitir, assim?
+Dialogue: 0,0:06:48.57,0:06:51.65,Flashback,EISEN,0000,0000,0000,,Ter medo não é algo ruim.
+Dialogue: 0,0:06:52.53,0:06:57.49,Flashback,EISEN,0000,0000,0000,,Foi o meu medo que me trouxe tão longe.
+Dialogue: 0,0:07:00.66,0:07:02.85,Default,FRIEREN,0000,0000,0000,,Vocês tremem do mesmo jeito.
+Dialogue: 0,0:07:08.48,0:07:09.59,DefaultItalics,STARK,0000,0000,0000,,Entendi.
+Dialogue: 0,0:07:14.10,0:07:18.31,DefaultItalics,STARK,0000,0000,0000,,Então, o meu mestre também teve medo.
+Dialogue: 0,0:07:19.34,0:07:23.17,DefaultItalics,STARK,0000,0000,0000,,Eu só preciso de determinação.
+Dialogue: 0,0:07:27.11,0:07:28.94,Default,FRIEREN,0000,0000,0000,,Ele entrou no alcance do dragão.
+Dialogue: 0,0:07:30.10,0:07:31.88,Default,FERN,0000,0000,0000,,Não está atacando.
+Dialogue: 0,0:07:32.95,0:07:34.65,Default,FRIEREN,0000,0000,0000,,Está tomando cuidado.
+Dialogue: 0,0:07:35.75,0:07:37.23,Default,FRIEREN,0000,0000,0000,,É como eu imaginava.
+Dialogue: 0,0:07:45.53,0:07:48.39,Default,FRIEREN,0000,0000,0000,,Faz sentido o dragão\Nter parado de atacar o vilarejo.
+Dialogue: 0,0:07:49.22,0:07:51.24,Default,FRIEREN,0000,0000,0000,,O dragão é uma criatura esperta.
+Dialogue: 0,0:07:51.85,0:07:55.64,Default,FRIEREN,0000,0000,0000,,Não é burro o suficiente para comprar\Nbriga com um poderoso adversário.
+Dialogue: 0,0:07:57.62,0:08:05.57,Default,FRIEREN,0000,0000,0000,,O Eisen não bateu no Stark por ser fraco\Nou por estar decepcionado com ele.
+Dialogue: 0,0:08:10.78,0:08:13.54,FlashbackItalics,EISEN,0000,0000,0000,,Nós nos separamos após brigar.
+Dialogue: 0,0:08:14.29,0:08:15.48,Flashback,FRIEREN,0000,0000,0000,,Você bateu nele?
+Dialogue: 0,0:08:18.52,0:08:22.27,Flashback,EISEN,0000,0000,0000,,Foi por reflexo.
+Dialogue: 0,0:08:22.87,0:08:25.46,Flashback,EISEN,0000,0000,0000,,Eu me arrependo pelo o que fiz com ele.
+Dialogue: 0,0:08:27.26,0:08:28.64,Flashback,EISEN,0000,0000,0000,,Estava com medo.
+Dialogue: 0,0:08:29.86,0:08:33.29,Flashback,EISEN,0000,0000,0000,,Eu estava com medo dele, Frieren.
+Dialogue: 0,0:08:34.68,0:08:37.15,Flashback,EISEN,0000,0000,0000,,Não consegui acreditar.
+Dialogue: 0,0:08:37.98,0:08:43.62,FlashbackItalics,EISEN,0000,0000,0000,,O meu aprendiz irá\Nse tornar um incrível guerreiro.
+Dialogue: 0,0:09:17.18,0:09:19.45,Default,STARK,0000,0000,0000,,Agora! Atirem!
+Dialogue: 0,0:09:23.13,0:09:25.60,Default,STARK,0000,0000,0000,,Ei! Por que não está atirando?!
+Dialogue: 0,0:09:25.60,0:09:27.59,Default,STARK,0000,0000,0000,,Eu fiz exatamente o que me mandou fazer!
+Dialogue: 0,0:09:27.97,0:09:29.76,Default,STARK,0000,0000,0000,,Espera que eu lute sozinho?!
+Dialogue: 0,0:09:29.76,0:09:31.83,Default,STARK,0000,0000,0000,,Não ferra comigo, sua velha idiota!
+Dialogue: 0,0:09:32.15,0:09:33.90,Top,STARK,0000,0000,0000,,Você é mesmo como o meu mestre!
+Dialogue: 0,0:09:33.12,0:09:34.64,Default,FRIEREN,0000,0000,0000,,Ele já está morto!
+Dialogue: 0,0:09:35.37,0:09:36.23,Default,STARK,0000,0000,0000,,Hein?
+Dialogue: 0,0:09:37.42,0:09:39.00,Default,FRIEREN,0000,0000,0000,,"Velha idiota"...
+Dialogue: 0,0:09:39.97,0:09:41.89,DefaultItalics,FERN,0000,0000,0000,,Estou com medo do que ela fará depois.
+Dialogue: 0,0:09:45.35,0:09:48.87,DefaultItalics,STARK,0000,0000,0000,,Eu... o matei?
+Dialogue: 0,0:09:50.25,0:09:54.55,DefaultItalics,STARK,0000,0000,0000,,Eu derrotei o dragão, sozinho?
+Dialogue: 0,0:09:56.39,0:09:57.57,Default,FRIEREN,0000,0000,0000,,Stark.
+Dialogue: 0,0:09:58.72,0:10:00.09,Default,FRIEREN,0000,0000,0000,,Você foi ótimo.
+Dialogue: 0,0:10:00.42,0:10:03.40,Default,FRIEREN,0000,0000,0000,,Superou as minhas\Nexpectativas. Muito bem.
+Dialogue: 0,0:10:06.21,0:10:09.09,Default,FRIEREN,0000,0000,0000,,Olha só essa montanha de tesouro! Uhul!
+Dialogue: 0,0:10:09.09,0:10:11.29,Default,FERN,0000,0000,0000,,Não podemos levar tudo isso.
+Dialogue: 0,0:10:16.45,0:10:18.22,Default,FERN,0000,0000,0000,,No máximo, três itens.
+Dialogue: 0,0:10:22.21,0:10:24.30,Default,STARK,0000,0000,0000,,Sério, que besteira.
+Dialogue: 0,0:10:24.67,0:10:26.92,Default,STARK,0000,0000,0000,,Você se interessa por essas coisas?
+Dialogue: 0,0:10:26.92,0:10:28.44,Default,FRIEREN,0000,0000,0000,,É uma montanha de tesouro.
+Dialogue: 0,0:10:29.16,0:10:35.15,Default,STARK,0000,0000,0000,,Meu mestre disse que, graças a você,\Na aventura dos heróis foi ridícula.
+Dialogue: 0,0:10:35.57,0:10:36.56,Default,FRIEREN,0000,0000,0000,,Ah, é?
+Dialogue: 0,0:10:36.92,0:10:41.23,Default,STARK,0000,0000,0000,,Ele disse que foi uma jornada\Nridícula... e divertida.
+Dialogue: 0,0:10:45.36,0:10:48.86,Flashback,HEITER,0000,0000,0000,,Uau! Você fez mesmo raspadinha!
+Dialogue: 0,0:10:49.59,0:10:51.79,Flashback,FRIEREN,0000,0000,0000,,Eu disse que valia a pena a procura.
+Dialogue: 0,0:10:51.79,0:10:55.03,Flashback,HEITER,0000,0000,0000,,Fora que não é só gelo: é macia também!
+Dialogue: 0,0:10:55.03,0:10:56.05,Flashback,FRIEREN,0000,0000,0000,,É mesmo.
+Dialogue: 0,0:10:56.05,0:11:00.02,Flashback,EISEN,0000,0000,0000,,Que ridículo. Era para estarmos\Nperdendo tempo com isso?
+Dialogue: 0,0:11:00.02,0:11:04.42,Flashback,HIMMEL,0000,0000,0000,,Por que não? A nossa\Njornada apenas começou.
+Dialogue: 0,0:11:05.11,0:11:08.70,Flashback,EISEN,0000,0000,0000,,O Herói do Sul, que dizem ser\No herói mais forte da humanidade,
+Dialogue: 0,0:11:08.70,0:11:11.41,Flashback,EISEN,0000,0000,0000,,foi derrotado pelos Sete Sábios\Nda Destruição do Rei Demônio.
+Dialogue: 0,0:11:12.53,0:11:17.27,Flashback,EISEN,0000,0000,0000,,Não sabemos se voltaremos vivos.
+Dialogue: 0,0:11:18.07,0:11:21.65,Flashback,HIMMEL,0000,0000,0000,,Eisen, você prefere uma jornada\Nmais difícil e dolorosa?
+Dialogue: 0,0:11:24.91,0:11:32.92,Flashback,HIMMEL,0000,0000,0000,,Pois eu prefiro uma jornada ridícula e divertida,\Nque me faça rir após terminarmos.
+Dialogue: 0,0:11:35.78,0:11:39.54,Flashback,HEITER,0000,0000,0000,,Olha só! Derrete assim que você encosta!
+Dialogue: 0,0:11:39.54,0:11:41.29,Flashback,FRIEREN,0000,0000,0000,,Não toque nisso. Iremos comer isso.
+Dialogue: 0,0:11:41.29,0:11:42.31,Flashback,EISEN,0000,0000,0000,,Que ridículo.
+Dialogue: 0,0:11:42.31,0:11:45.20,Flashback,HEITER,0000,0000,0000,,Aliás, Frieren, e a cobertura?
+Dialogue: 0,0:11:45.20,0:11:47.38,Flashback,FREIREN,0000,0000,0000,,Não tenho uma magia\Npara produzir cobertura.
+Dialogue: 0,0:11:47.38,0:11:48.23,Flashback,HIMMEL,0000,0000,0000,,Não tem?
+Dialogue: 0,0:11:48.23,0:11:50.25,Flashback,EISEN,0000,0000,0000,,É mesmo ridículo.
+Dialogue: 0,0:12:05.03,0:12:07.71,Default,FREIREN,0000,0000,0000,,E então, conseguiu ver?
+Dialogue: 0,0:12:07.71,0:12:12.07,Default,FERN,0000,0000,0000,,Consegui, mas não é\Numa magia muito interessante.
+Dialogue: 0,0:12:12.07,0:12:15.03,Default,FRIEREN,0000,0000,0000,,Desculpa pelo meu corpo\Nnão ser tão interessante.
+Dialogue: 0,0:12:17.84,0:12:18.86,Default,STARK,0000,0000,0000,,O que foi?
+Dialogue: 0,0:12:19.93,0:12:20.69,Default,FERN,0000,0000,0000,,Que pequeno.
+Dialogue: 0,0:12:20.69,0:12:22.45,Default,STARK,0000,0000,0000,,Não é nada pequeno!
+Dialogue: 0,0:12:22.91,0:12:26.71,Default,FRIEREN,0000,0000,0000,,Então, Stark, o que fará agora?
+Dialogue: 0,0:12:26.71,0:12:29.48,Default,FRIEREN,0000,0000,0000,,Pode ir ver o Eisen, se quiser.
+Dialogue: 0,0:12:30.20,0:12:32.97,Default,STARK,0000,0000,0000,,Meu mestre te disse\Npara me levar junto, não foi?
+Dialogue: 0,0:12:33.67,0:12:34.67,Default,STARK,0000,0000,0000,,Além disso...
+Dialogue: 0,0:12:35.72,0:12:39.71,Default,STARK,0000,0000,0000,,Bateu uma vontade de partir\Nem uma jornada ridícula, também.
+Dialogue: 0,0:12:44.57,0:12:49.99,Signs_WText,SIGN,0000,0000,0000,,{\fs15\fad(903,1)\blur0.2\pos(591.5,9.5)}28 anos se passaram desde a morte do Herói Himmel.\NEstamos na cidade fortaleza de Waal, localizada no Desfiladeiro de Riegel, nas Terras Centrais.
+Dialogue: 0,0:12:50.70,0:12:54.51,Default,GUARD CAPTAIN,0000,0000,0000,,Há monstros em atividade\Nnas Terras do Norte.
+Dialogue: 0,0:12:54.99,0:12:58.59,Default,GUARD CAPTAIN,0000,0000,0000,,Não é permitida a entrada de ninguém\Npor esta barreira no momento.
+Dialogue: 0,0:12:59.18,0:13:02.83,Default,FERN,0000,0000,0000,,Quando a barreira abrirá novamente?
+Dialogue: 0,0:13:03.06,0:13:04.41,Default,GUARD CAPTAIN,0000,0000,0000,,Não sei.
+Dialogue: 0,0:13:04.41,0:13:07.36,Default,GUARD CAPTAIN,0000,0000,0000,,Mas não deixamos ninguém passar\Ndesde que fui designado para cá,
+Dialogue: 0,0:13:07.36,0:13:11.01,Default,GUARD CAPTAIN,0000,0000,0000,,incluindo monstros e pessoas.
+Dialogue: 0,0:13:12.22,0:13:13.59,Default,GUARD,0000,0000,0000,,Com licença.
+Dialogue: 0,0:13:14.35,0:13:17.00,Default,GUARD,0000,0000,0000,,O castelão deseja falar com o senhor.
+Dialogue: 0,0:13:17.00,0:13:18.20,Default,GUARD CAPTAIN,0000,0000,0000,,Irei agora mesmo.
+Dialogue: 0,0:13:19.27,0:13:21.25,Default,GUARD CAPTAIN,0000,0000,0000,,Escutem, aventureiras.
+Dialogue: 0,0:13:21.68,0:13:25.31,Default,GUARD CAPTAIN,0000,0000,0000,,Não causem problemas nesta cidade.
+Dialogue: 0,0:13:30.32,0:13:32.84,Default,FERN,0000,0000,0000,,Não foi uma recepção muito calorosa.
+Dialogue: 0,0:13:33.16,0:13:36.88,Default,FRIEREN,0000,0000,0000,,É verdade. Ele é um guarda admirável.
+Dialogue: 0,0:13:36.88,0:13:38.71,Default,FRIEREN,0000,0000,0000,,Ríspido com forasteiros,
+Dialogue: 0,0:13:39.06,0:13:42.07,Default,FRIEREN,0000,0000,0000,,como guardas da cidade devem ser.
+Dialogue: 0,0:13:45.53,0:13:50.10,Default,FRIEREN,0000,0000,0000,,Enfim, esta cidade parece segura.
+Dialogue: 0,0:13:50.10,0:13:52.31,Default,FRIEREN,0000,0000,0000,,Esperaremos aqui por um tempo.
+Dialogue: 0,0:13:53.43,0:13:56.70,Default,FRIEREN,0000,0000,0000,,Será uma boa chance\Npara estudarmos magia com calma.
+Dialogue: 0,0:13:56.70,0:14:00.04,Default,FRIEREN,0000,0000,0000,,Assim que deixarmos as coisas\Nna estalagem, olharei as lojas de magia.
+Dialogue: 0,0:14:03.59,0:14:07.83,Default,FRIEREN,0000,0000,0000,,O que é? A barreira está fechada.\NNão é como se pudéssemos fazer algo.
+Dialogue: 0,0:14:08.60,0:14:10.65,Default,FRIEREN,0000,0000,0000,,Vão. Façam o que quiserem.
+Dialogue: 0,0:14:10.65,0:14:12.68,Default,FRIEREN,0000,0000,0000,,Pegarei um quarto para nós na estalagem.
+Dialogue: 0,0:14:15.08,0:14:16.91,Default,STARK,0000,0000,0000,,Quer comer alguma coisa?
+Dialogue: 0,0:14:18.65,0:14:20.41,Default,STARK,0000,0000,0000,,Tudo bem. Eu vou sozinho.
+Dialogue: 0,0:14:21.67,0:14:22.90,Default,STARK,0000,0000,0000,,Que medo...
+Dialogue: 0,0:14:27.76,0:14:30.96,Default,VILLAGER A,0000,0000,0000,,Soube que as rotas marítimas\Ntambém foram fechadas recentemente.
+Dialogue: 0,0:14:31.59,0:14:35.03,Default,VILLAGER B,0000,0000,0000,,O exército das Terras do Norte\Npretende derrotá-los,
+Dialogue: 0,0:14:35.03,0:14:38.47,Default,VILLAGER B,0000,0000,0000,,mas deve levar pelo menos\Ndois anos até os portões se abrirem.
+Dialogue: 0,0:14:39.38,0:14:41.33,Default,VILLAGER B,0000,0000,0000,,Os negócios estão estagnados.
+Dialogue: 0,0:14:44.39,0:14:48.74,Default,STARK,0000,0000,0000,,Não como um especial\Nde frutas jumbo há anos.
+Dialogue: 0,0:14:49.40,0:14:53.08,Default,STARK,0000,0000,0000,,Eu era criança quando vim,\Nentão mal consegui terminar.
+Dialogue: 0,0:14:53.08,0:14:55.13,Default,STARK,0000,0000,0000,,Tive que dividir com o meu mestre.
+Dialogue: 0,0:14:56.56,0:14:59.32,Default,STARK,0000,0000,0000,,Mas não lembro de ser tão pequeno.
+Dialogue: 0,0:14:59.66,0:15:03.96,Default,BARKEEP,0000,0000,0000,,Deve ser porque o senhor cresceu.
+Dialogue: 0,0:15:04.92,0:15:08.98,Default,STARK,0000,0000,0000,,Entendi. Eu cresci, é?
+Dialogue: 0,0:15:09.85,0:15:12.79,Default,STARK,0000,0000,0000,,Tudo parecia tão grande\Nquando eu era criança.
+Dialogue: 0,0:15:13.40,0:15:18.92,Default,STARK,0000,0000,0000,,Até as costas do meu mestre, que pareciam largas,\Ncomeçaram a parecer pequenas em algum momento.
+Dialogue: 0,0:15:20.20,0:15:22.95,Default,BARKEEP,0000,0000,0000,,O Eisen está envelhecendo.
+Dialogue: 0,0:15:22.95,0:15:25.39,Default,BARKEEP,0000,0000,0000,,Espero que o esteja respeitando como pai.
+Dialogue: 0,0:15:27.31,0:15:29.08,Default,STARK,0000,0000,0000,,É isso que estou fazendo agora.
+Dialogue: 0,0:15:30.13,0:15:32.38,Default,STARK,0000,0000,0000,,Mas, sério, sempre foi pequeno {\i1}assim{\i0}?
+Dialogue: 0,0:15:32.38,0:15:35.78,Default,MASTER,0000,0000,0000,,A passagem do tempo é cruel.
+Dialogue: 0,0:15:41.05,0:15:42.75,Default,STARK,0000,0000,0000,,O que foi? Algum problema?
+Dialogue: 0,0:15:42.75,0:15:44.53,Default,STARK,0000,0000,0000,,Eu comprei com o meu próprio dinheiro.
+Dialogue: 0,0:15:45.23,0:15:47.64,Default,FERN,0000,0000,0000,,Com licença.\NQuero um copo de leite, por favor.
+Dialogue: 0,0:15:47.64,0:15:48.82,Default,BARKEEP,0000,0000,0000,,Como quiser.
+Dialogue: 0,0:15:50.54,0:15:54.04,Default,STARK,0000,0000,0000,,O que foi? Por que está brava?
+Dialogue: 0,0:15:55.09,0:15:56.30,Default,FERN,0000,0000,0000,,Sr. Stark.
+Dialogue: 0,0:15:56.30,0:15:58.52,Default,STARK,0000,0000,0000,,Tá bom. Pode ficar com metade.
+Dialogue: 0,0:15:58.52,0:16:00.18,Default,FERN,0000,0000,0000,,Não era isso o que eu ia dizer.
+Dialogue: 0,0:16:00.95,0:16:05.85,Default,FERN,0000,0000,0000,,E se eu dissesse que, talvez, tenhamos\Nque passar mais dois anos nesta cidade?
+Dialogue: 0,0:16:05.85,0:16:07.33,Default,STARK,0000,0000,0000,,Hein? Nem pensar.
+Dialogue: 0,0:16:07.33,0:16:09.83,Default,FERN,0000,0000,0000,,Pois é, né?! Eu também não quero!
+Dialogue: 0,0:16:09.83,0:16:11.00,Default,STARK,0000,0000,0000,,Beleza...
+Dialogue: 0,0:16:11.00,0:16:12.20,DefaultItalics,STARK,0000,0000,0000,,Qual é a dela?
+Dialogue: 0,0:16:12.51,0:16:16.77,Default,FERN,0000,0000,0000,,Que alívio. Você é normal.
+Dialogue: 0,0:16:16.77,0:16:19.70,Default,STARK,0000,0000,0000,,Ei, eu te ofendi de alguma forma?
+Dialogue: 0,0:16:21.48,0:16:24.35,Default,STARK,0000,0000,0000,,Um caminho pela barreira?
+Dialogue: 0,0:16:24.75,0:16:27.53,Default,STARK,0000,0000,0000,,Tá bom, eu te ajudo a encontrar um.
+Dialogue: 0,0:16:27.53,0:16:29.34,Default,FERN,0000,0000,0000,,Obrigada.
+Dialogue: 0,0:16:29.89,0:16:33.35,Default,STARK,0000,0000,0000,,Será que não daria para voarmos sobre ela?
+Dialogue: 0,0:16:34.14,0:16:36.53,Default,FERN,0000,0000,0000,,A fronteira com as Terras do Norte
+Dialogue: 0,0:16:36.53,0:16:39.63,Default,FERN,0000,0000,0000,,é protegida por uma forte barreira\Nque se estende até a altitude máxima de voo.
+Dialogue: 0,0:16:39.63,0:16:41.59,Default,FERN,0000,0000,0000,,Não podemos atravessar assim.
+Dialogue: 0,0:16:41.59,0:16:45.77,Default,STARK,0000,0000,0000,,Faz sentido. Se não fosse assim,\Nos monstros voadores já teriam entrado.
+Dialogue: 0,0:16:46.89,0:16:50.34,Default,STARK,0000,0000,0000,,É, não tem jeito. Precisamos passar\Nna guilda dos comerciantes.
+Dialogue: 0,0:16:50.34,0:16:52.48,Default,STARK,0000,0000,0000,,Talvez eles possam negociar.
+Dialogue: 0,0:17:04.42,0:17:06.62,Default,FERN,0000,0000,0000,,Os negócios foram\Nparalisados completamente.
+Dialogue: 0,0:17:07.17,0:17:09.91,Default,FERN,0000,0000,0000,,Se nem caravanas protegidas\Npuderem passar,
+Dialogue: 0,0:17:09.91,0:17:12.73,Default,FERN,0000,0000,0000,,então as Terras do Norte\Ndevem ser bem perigosas.
+Dialogue: 0,0:17:13.85,0:17:16.74,Default,FERN,0000,0000,0000,,Só nos resta esperar\Na situação se estabilizar.
+Dialogue: 0,0:17:17.87,0:17:22.37,Default,STARK,0000,0000,0000,,Não, vamos passar no mercado negro\Ne na guilda dos bandidos antes.
+Dialogue: 0,0:17:23.12,0:17:25.67,Default,FERN,0000,0000,0000,,Não é um tanto perigoso?
+Dialogue: 0,0:17:25.67,0:17:30.98,Default,STARK,0000,0000,0000,,Ficaremos bem. As pessoas acham\Nque sou forte, e eu sei blefar muito bem.
+Dialogue: 0,0:17:32.15,0:17:33.89,Default,FERN,0000,0000,0000,,E você tem cara de delinquente.
+Dialogue: 0,0:17:33.89,0:17:34.84,Default,STARK,0000,0000,0000,,Cala a boca.
+Dialogue: 0,0:17:53.25,0:17:54.72,Default,STARK,0000,0000,0000,,É, não adiantou.
+Dialogue: 0,0:17:55.54,0:17:59.99,Default,STARK,0000,0000,0000,,Eu não deveria estar surpreso.\NEles estão lutando uma batalha defensiva.
+Dialogue: 0,0:17:59.99,0:18:02.30,Default,STARK,0000,0000,0000,,Não há nada que possamos fazer\Nse não abrirem os portões.
+Dialogue: 0,0:18:02.60,0:18:06.86,Default,STARK,0000,0000,0000,,Vamos passar no posto de defesa,\Nagora. Não temos nada a perder.
+Dialogue: 0,0:18:09.70,0:18:10.83,Default,STARK,0000,0000,0000,,O que foi?
+Dialogue: 0,0:18:10.83,0:18:15.51,Default,FERN,0000,0000,0000,,Nada. Só estava pensando\Nque você é muito cooperativo.
+Dialogue: 0,0:18:15.51,0:18:17.91,Default,STARK,0000,0000,0000,,A ideia foi sua.
+Dialogue: 0,0:18:17.91,0:18:20.07,Default,STARK,0000,0000,0000,,Achei que não quisesse esperar.
+Dialogue: 0,0:18:20.49,0:18:23.08,Default,FERN,0000,0000,0000,,Você parece mais desesperado que eu.
+Dialogue: 0,0:18:25.63,0:18:28.94,Default,STARK,0000,0000,0000,,Bem, eu não tenho muito tempo.
+Dialogue: 0,0:18:29.55,0:18:31.00,Default,FERN,0000,0000,0000,,O que quer dizer com isso?
+Dialogue: 0,0:18:33.10,0:18:35.95,Default,STARK,0000,0000,0000,,A vista daqui de cima é bonita, não é?
+Dialogue: 0,0:18:35.95,0:18:37.83,Default,STARK,0000,0000,0000,,Dá pra ver o norte muito bem.
+Dialogue: 0,0:18:38.68,0:18:42.22,Default,STARK,0000,0000,0000,,Quando pequeno,\Nmeu mestre me trouxe aqui.
+Dialogue: 0,0:18:45.36,0:18:50.03,Flashback,EISEN,0000,0000,0000,,Partimos para as Terras\Ndo Norte desta cidade.
+Dialogue: 0,0:18:50.49,0:18:52.62,Flashback,YOUNG STARK,0000,0000,0000,,Como foi a sua jornada, Mestre?
+Dialogue: 0,0:18:53.33,0:18:57.97,Flashback,EISEN,0000,0000,0000,,Você quer saber? Naquela época, nós...
+Dialogue: 0,0:18:57.97,0:19:01.11,Italics,STARK,0000,0000,0000,,Ele não costumava falar\Nmuito sobre si mesmo,
+Dialogue: 0,0:19:01.74,0:19:04.82,Italics,STARK,0000,0000,0000,,mas me contou, bem feliz,\Nsobre a aventura dos heróis.
+Dialogue: 0,0:19:06.00,0:19:08.49,Italics,STARK,0000,0000,0000,,Em meio à sua longa vida,
+Dialogue: 0,0:19:08.49,0:19:13.01,Italics,STARK,0000,0000,0000,,não havia nada mais importante\Npara ele que aquela aventura de dez anos.
+Dialogue: 0,0:19:14.28,0:19:16.74,Default,STARK,0000,0000,0000,,Acho que o mesmo vale para a Frieren.
+Dialogue: 0,0:19:18.28,0:19:19.55,Default,FERN,0000,0000,0000,,Talvez.
+Dialogue: 0,0:19:20.91,0:19:24.43,Default,STARK,0000,0000,0000,,Mas ele está velho demais\Npara viajar, agora.
+Dialogue: 0,0:19:25.62,0:19:29.18,Default,STARK,0000,0000,0000,,E ele disse para me levarem com vocês.
+Dialogue: 0,0:19:30.35,0:19:37.81,Default,STARK,0000,0000,0000,,Por isso, preciso passar pela experiência de ter\Naventuras ridículas e divertidas no lugar dele
+Dialogue: 0,0:19:37.81,0:19:40.94,Default,STARK,0000,0000,0000,,e contar essas histórias para ele.
+Dialogue: 0,0:19:42.23,0:19:45.14,Default,STARK,0000,0000,0000,,É o que posso fazer\Npara retribuir minha dívida a ele.
+Dialogue: 0,0:19:46.55,0:19:50.28,Default,STARK,0000,0000,0000,,Se eu demorar muito,\Nmeu mestre irá morrer.
+Dialogue: 0,0:19:53.51,0:19:57.41,Default,FERN,0000,0000,0000,,Então não podemos deixar\Nque nos atrasem aqui.
+Dialogue: 0,0:19:57.93,0:20:02.06,Default,STARK,0000,0000,0000,,Dito isso, eu acho que ele\Nainda vai viver bastante.
+Dialogue: 0,0:20:15.06,0:20:19.69,Default,FERN,0000,0000,0000,,Srta. Frieren, o que faz aqui?
+Dialogue: 0,0:20:19.69,0:20:21.61,Default,FRIEREN,0000,0000,0000,,Silêncio.
+Dialogue: 0,0:20:22.17,0:20:23.64,Default,FRIEREN,0000,0000,0000,,Estou sendo perseguida.
+Dialogue: 0,0:20:31.90,0:20:34.45,Default,STARK,0000,0000,0000,,O que diabos você fez?
+Dialogue: 0,0:20:34.45,0:20:35.81,Default,FRIEREN,0000,0000,0000,,Não sei.
+Dialogue: 0,0:20:35.81,0:20:38.62,Default,FRIEREN,0000,0000,0000,,Só estava visitando várias\Nlojas de magia, daí...
+Dialogue: 0,0:20:42.59,0:20:45.87,Default,GUARD CAPTAIN,0000,0000,0000,,Sinto muito, Srta. Frieren!
+Dialogue: 0,0:20:45.87,0:20:47.29,Default,GUARD CAPTAIN,0000,0000,0000,,Me perdoe!
+Dialogue: 0,0:20:48.30,0:20:52.60,Default,FRIEREN,0000,0000,0000,,Espera. Não estou gostando\Ndo rumo dessa conversa.
+Dialogue: 0,0:20:53.77,0:20:57.64,Default,CASTELLAN,0000,0000,0000,,Parece que faltaram modos\Nao capitão da guarda.
+Dialogue: 0,0:20:58.13,0:21:01.90,Default,CASTELLAN,0000,0000,0000,,Como castelão desta cidade,\Npeço desculpas.
+Dialogue: 0,0:21:02.74,0:21:07.40,Default,FRIEREN,0000,0000,0000,,Não se preocupe. Ele só estava\Nfazendo seu trabalho como guarda.
+Dialogue: 0,0:21:07.40,0:21:10.60,Default,FRIEREN,0000,0000,0000,,E eu não estou com pressa.\NQuero ficar na paz e—
+Dialogue: 0,0:21:10.60,0:21:13.97,Default,CASTELLAN,0000,0000,0000,,Você pretende viajar\Nao norte novamente, certo?
+Dialogue: 0,0:21:15.11,0:21:18.93,Default,CASTELLAN,0000,0000,0000,,Ouvi dizer que as Terras do Norte estão,\Natualmente, envolvidas num conflito sem fim
+Dialogue: 0,0:21:18.93,0:21:21.03,Default,CASTELLAN,0000,0000,0000,,com o que restou\Ndo exército do Rei Demônio.
+Dialogue: 0,0:21:21.42,0:21:24.18,Default,CASTELLAN,0000,0000,0000,,Você deve estar preocupada\Ncom a situação atual.
+Dialogue: 0,0:21:24.18,0:21:27.93,Default,CASTELLAN,0000,0000,0000,,Claro que está. Afinal,\Ncarrega a bondade de uma heroína.
+Dialogue: 0,0:21:28.46,0:21:32.02,Default,CASTELLAN,0000,0000,0000,,As pessoas das Terras do Norte\Ntambém ficarão contentes.
+Dialogue: 0,0:21:32.02,0:21:35.44,Default,CASTELLAN,0000,0000,0000,,Sinta-se à vontade\Npara passar pela barreira.
+Dialogue: 0,0:21:48.62,0:21:51.20,Default,FERN,0000,0000,0000,,Não acredito que passamos tão fácil.
+Dialogue: 0,0:21:51.20,0:21:55.28,Default,FERN,0000,0000,0000,,Não teria sido melhor se tivesse falado\Nquem você era desde o começo?
+Dialogue: 0,0:21:56.04,0:21:58.60,Default,FRIEREN,0000,0000,0000,,Não achei que fosse fazer diferença.
+Dialogue: 0,0:21:59.23,0:22:01.20,Default,FRIEREN,0000,0000,0000,,Eu queria fazer as coisas com calma...
+Dialogue: 0,0:22:01.64,0:22:05.30,Default,FRIEREN,0000,0000,0000,,E não gosto desse tipo de coisa.
+Dialogue: 0,0:22:06.02,0:22:08.49,Default,FRIEREN,0000,0000,0000,,Não consigo ficar calma com isso.
+Dialogue: 0,0:22:09.31,0:22:12.10,Default,STARK,0000,0000,0000,,Eu até que estou feliz por ter visto isso.
+Dialogue: 0,0:22:20.06,0:22:23.60,Default,STARK,0000,0000,0000,,Meu mestre deve ter visto a mesma\Ncoisa quando partiu para o norte.
+Dialogue: 0,0:22:36.40,0:22:37.50,Default,FRIEREN,0000,0000,0000,,Sim, verdade.
+Dialogue: 0,0:22:38.95,0:22:43.34,Default,FRIEREN,0000,0000,0000,,Ai, ai. Queria ter pesquisado\Nmais sobre magia...
+Dialogue: 0,0:22:43.34,0:22:44.66,Default,FERN,0000,0000,0000,,Ainda falando isso?
+Dialogue: 0,0:22:44.66,0:22:48.34,Default,STARK,0000,0000,0000,,Fique sabendo que passamos\Npor muitos problemas. Não é?
+Dialogue: 0,0:22:48.34,0:22:49.15,Default,FERN,0000,0000,0000,,Sim.
+Dialogue: 0,0:22:49.96,0:22:52.50,Songs_ED,ED LYRICS,0000,0000,0000,,E você está bem?
+Dialogue: 0,0:22:53.03,0:22:55.02,Songs_ED,ED LYRICS,0000,0000,0000,,Pode me ouvir?
+Dialogue: 0,0:22:55.81,0:23:01.92,Songs_ED,ED LYRICS,0000,0000,0000,,Seguindo por trilhos desertos
+Dialogue: 0,0:23:01.92,0:23:04.25,Songs_ED,ED LYRICS,0000,0000,0000,,Chorando excessivamente
+Dialogue: 0,0:23:04.81,0:23:07.42,Songs_ED,ED LYRICS,0000,0000,0000,,Querendo que você sorria
+Dialogue: 0,0:23:07.42,0:23:13.46,Songs_ED,ED LYRICS,0000,0000,0000,,Me prendo às memórias\Nque quero manter frescas
+Dialogue: 0,0:23:13.46,0:23:17.15,Songs_ED,ED LYRICS,0000,0000,0000,,Tem uma coisa que gostaria de te dizer
+Dialogue: 0,0:23:17.15,0:23:19.94,Songs_ED,ED LYRICS,0000,0000,0000,,Com palavras mais preciosas que "adeus"
+Dialogue: 0,0:23:19.94,0:23:25.61,Songs_ED,ED LYRICS,0000,0000,0000,,Nada notável, mas especial
+Dialogue: 0,0:23:25.61,0:23:29.13,Songs_ED,ED LYRICS,0000,0000,0000,,Sabe, coisas que não poderiam ser vistas
+Dialogue: 0,0:23:29.13,0:23:32.18,Songs_ED,ED LYRICS,0000,0000,0000,,Se não fossem por estes olhos
+Dialogue: 0,0:23:32.18,0:23:36.94,Songs_ED,ED LYRICS,0000,0000,0000,,Por quê? E começam a transbordar
+Dialogue: 0,0:23:36.94,0:23:43.04,Songs_ED,ED LYRICS,0000,0000,0000,,Por isso, se eu nascesse novamente
+Dialogue: 0,0:23:43.04,0:23:48.86,Songs_ED,ED LYRICS,0000,0000,0000,,Eu, com certeza,\Nescolheria este lugar mais uma vez
+Dialogue: 0,0:23:48.86,0:23:54.87,Songs_ED,ED LYRICS,0000,0000,0000,,Então, se nos encontrássemos novamente
+Dialogue: 0,0:23:54.87,0:24:00.63,Songs_ED,ED LYRICS,0000,0000,0000,,Nunca te deixaria ir,\Neu escolheria o presente
+Dialogue: 0,0:24:00.63,0:24:03.58,Songs_ED,ED LYRICS,0000,0000,0000,,Mesmo se nenhuma promessa for feita
+Dialogue: 0,0:24:03.58,0:24:06.50,Songs_ED,ED LYRICS,0000,0000,0000,,Mesmo se eu me perder em dias de solidão
+Dialogue: 0,0:24:06.50,0:24:12.70,Songs_ED,ED LYRICS,0000,0000,0000,,Não há problema com estas lágrimas, \Npois o amanhecer certamente virá
+Dialogue: 0,0:24:12.70,0:24:15.34,Songs_ED,ED LYRICS,0000,0000,0000,,Estou sussurrando nossa canção de ninar
+Dialogue: 0,0:24:15.34,0:24:19.26,Songs_ED,ED LYRICS,0000,0000,0000,,Para você voltar para casa
+Dialogue: 0,0:24:20.37,0:24:21.78,Default,DEMON CHILD,0000,0000,0000,,{\i1}Isso dói...{\i0}
+Dialogue: 0,0:24:20.48,0:24:22.52,DefaultOverlap,FRIEREN,0000,0000,0000,,{\i1}Humanos adoram uma algazarra.{\i0}
+Dialogue: 0,0:24:20.54,0:24:23.70,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)\pos(57,145)}{\pos(378,232)}Isso dói,\Nmãe...
+Dialogue: 0,0:24:20.77,0:24:23.49,Top,GRANAT,0000,0000,0000,,{\i1}Ele morreu em uma batalha\Ncontra Aura há dez anos.{\i0}
+Dialogue: 0,0:24:20.79,0:24:22.70,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)\pos(416,210)}{\pos(572,141)}Humanos adoram uma algazarra.
+Dialogue: 0,0:24:21.14,0:24:22.48,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)\pos(478,109)}Ele morreu
+Dialogue: 0,0:24:21.78,0:24:22.53,Default,DEMON CHILD,0000,0000,0000,,{\i1}Mamãe...{\i0}
+Dialogue: 0,0:24:22.08,0:24:24.06,Jikai,SIGN,0000,0000,0000,,{\fs15\fad(300,300)\pos(337,166)}em uma\Nbatalha\Ncontra\NAura\Nhá dez\Nanos.
+Dialogue: 0,0:24:22.53,0:24:25.65,Default,TRAVELER,0000,0000,0000,,{\i1}O Festival de Libertação é hoje à noite.{\i0}
+Dialogue: 0,0:24:22.91,0:24:25.08,Jikai,SIGN,0000,0000,0000,,{\fscx80\fs17\fad(300,300)\pos(580,199)}O Festival\Nde Libertação\Né hoje\Nà noite.
+Dialogue: 0,0:24:23.46,0:24:25.46,Jikai,SIGN,0000,0000,0000,,{\fscx80\fad(300,300)\pos(143,113)}Então não\Nseríamos
+Dialogue: 0,0:24:24.32,0:24:26.29,DefaultOverlap,VILLAGER,0000,0000,0000,,{\i1}Então não seríamos diferentes dos demônios.{\i0}
+Dialogue: 0,0:24:24.54,0:24:26.40,Jikai,SIGN,0000,0000,0000,,{\fscx80\fad(300,300)\pos(147,174)}diferentes\Ndos\Ndemônios.
+Dialogue: 0,0:24:24.55,0:24:25.91,Top,STARK,0000,0000,0000,,{\i1}Eles conseguem falar.{\i0}
+Dialogue: 0,0:24:24.80,0:24:26.28,Jikai,SIGN,0000,0000,0000,,{\fs18\fad(300,300)\pos(291,185)}Eles\Nconseguem\Nfalar.
+Dialogue: 0,0:24:25.66,0:24:27.79,Default,LUGNER,0000,0000,0000,,{\i1}Estou interessado naquela maga.{\i0}
+Dialogue: 0,0:24:25.84,0:24:27.70,Jikai,SIGN,0000,0000,0000,,{\fs18\fad(300,300)\pos(547,223)}Estou\Ninteressado\Nnaquela\Nmaga.
+Dialogue: 0,0:24:26.18,0:24:27.77,Top,FERN,0000,0000,0000,,{\i1}Que problemático...{\i0}
+Dialogue: 0,0:24:26.40,0:24:27.84,Jikai,SIGN,0000,0000,0000,,{\fs18\fad(300,300)\pos(101,260)}Que\Nproblemático...
+Dialogue: 0,0:24:27.52,0:24:29.93,Signs_NextEp,SIGN,0000,0000,0000,,{\fad(229,1)\blur3\t(20,312,\blur0.2)\pos(320,113.5)\c&H000000&\t(312,646,\c&HF6F6F6&)\fsp1.6\t(\fsp1)}Episódio 7\N\N\N\N\N\N\N\NÉ como um conto de fadas
+Dialogue: 0,0:24:27.79,0:24:29.85,Default,EISEN,0000,0000,0000,,{\i1}É como um conto de fadas.{\i0}

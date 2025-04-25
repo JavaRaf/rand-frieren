@@ -1,0 +1,361 @@
+﻿[Script Info]
+Title: [Erai-raws] Português (Brasil)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,1
+Style: DefaultTop,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0015,0
+Style: DefaultOverlap,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Flashback,Trebuchet MS,22,&H00FBFBFE,&H000000FF,&H005C0718,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,0
+Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Signs_WText,Times New Roman,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,0030,0030,0010,0
+Style: Signs_EpTitle,Times New Roman,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0030,0030,0010,0
+Style: Signs_NextEp,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Songs_OP,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00B7812E,&H00B7812E,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Songs_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A95974,&H00A95974,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Jikai,Times New Roman,20,&H001F221F,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0000,0000,0080,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:16.82,0:00:18.41,Flashback,YOUNG GORILLA,0000,0000,0000,,Ei, Sein!
+Dialogue: 0,0:00:23.18,0:00:27.50,Flashback,YOUNG GORILLA,0000,0000,0000,,Aquele mago disse\Nque tiraria uma foto nossa.
+Dialogue: 0,0:00:27.50,0:00:28.86,Flashback,YOUNG SEIN,0000,0000,0000,,Uma foto?
+Dialogue: 0,0:00:29.88,0:00:31.46,Flashback,YOUNG SEIN,0000,0000,0000,,O que é isso?
+Dialogue: 0,0:00:46.27,0:00:48.43,Flashback,YOUNG GORILLA,0000,0000,0000,,Não fica perguntando. Só vem.
+Dialogue: 0,0:00:54.17,0:00:57.35,Flashback,YOUNG GORILLA,0000,0000,0000,,É o começo da nossa lenda!
+Dialogue: 0,0:01:25.52,0:01:28.02,Songs_OP,OP LYRICS,0000,0000,0000,,Como um conto de fadas
+Dialogue: 0,0:01:28.02,0:01:30.44,Songs_OP,OP LYRICS,0000,0000,0000,,É um sinal de que o conto chegou ao fim
+Dialogue: 0,0:01:30.44,0:01:33.36,Songs_OP,OP LYRICS,0000,0000,0000,,Como uma única passagem tirada
+Dialogue: 0,0:01:33.36,0:01:34.99,Songs_OP,OP LYRICS,0000,0000,0000,,De uma viagem muito longa
+Dialogue: 0,0:01:34.99,0:01:37.32,Songs_OP,OP LYRICS,0000,0000,0000,,Do ser maligno que lança trevas
+Dialogue: 0,0:01:37.32,0:01:39.66,Songs_OP,OP LYRICS,0000,0000,0000,,Por esta terra
+Dialogue: 0,0:01:39.66,0:01:41.99,Songs_OP,OP LYRICS,0000,0000,0000,,E as memórias da curta jornada
+Dialogue: 0,0:01:41.99,0:01:44.45,Songs_OP,OP LYRICS,0000,0000,0000,,Do herói que o derrotou
+Dialogue: 0,0:01:45.25,0:01:54.21,Signs,SIGN,0000,0000,0000,,{\fad(1,473)\blur0.25\fs25\fnGeorgia\fsp3.9\pos(322,230)\c&HFFFCFE&\t(989,4326,\c&HEFC777&)\t(6411,6745,\c&HEAC732&)}e a Jornada para o Além
+Dialogue: 0,0:01:54.46,0:01:56.76,Songs_OP,OP LYRICS,0000,0000,0000,,A história termina
+Dialogue: 0,0:01:56.76,0:01:59.26,Songs_OP,OP LYRICS,0000,0000,0000,,E o herói vai descansar
+Dialogue: 0,0:01:59.26,0:02:02.10,Songs_OP,OP LYRICS,0000,0000,0000,,Deixando esta terra
+Dialogue: 0,0:02:02.10,0:02:03.76,Songs_OP,OP LYRICS,0000,0000,0000,,Com dias de paz e tranquilidade
+Dialogue: 0,0:02:03.76,0:02:06.27,Songs_OP,OP LYRICS,0000,0000,0000,,A passagem do tempo é impiedosa
+Dialogue: 0,0:02:06.27,0:02:08.44,Songs_OP,OP LYRICS,0000,0000,0000,,Fazendo as pessoas se esquecerem
+Dialogue: 0,0:02:08.44,0:02:11.23,Songs_OP,OP LYRICS,0000,0000,0000,,Até dos rastros deixados por suas vidas
+Dialogue: 0,0:02:11.23,0:02:13.02,Songs_OP,OP LYRICS,0000,0000,0000,,E começa a enferrujar
+Dialogue: 0,0:02:13.02,0:02:14.86,Songs_OP,OP LYRICS,0000,0000,0000,,Assim como
+Dialogue: 0,0:02:14.86,0:02:17.15,Songs_OP,OP LYRICS,0000,0000,0000,,Suas palavras, desejos e coragem
+Dialogue: 0,0:02:17.15,0:02:20.49,Songs_OP,OP LYRICS,0000,0000,0000,,Tudo ainda reside dentro de mim
+Dialogue: 0,0:02:20.49,0:02:22.37,Songs_OP,OP LYRICS,0000,0000,0000,,E seguem vivos
+Dialogue: 0,0:02:23.16,0:02:24.91,Songs_OP,OP LYRICS,0000,0000,0000,,Escolhemos o mesmo caminho
+Dialogue: 0,0:02:24.91,0:02:27.04,Songs_OP,OP LYRICS,0000,0000,0000,,É assim que deve ser
+Dialogue: 0,0:02:27.04,0:02:28.58,Songs_OP,OP LYRICS,0000,0000,0000,,É por isso que, em algum momento
+Dialogue: 0,0:02:28.58,0:02:32.84,Songs_OP,OP LYRICS,0000,0000,0000,,Quis entender o motivo das lágrimas
+Dialogue: 0,0:02:32.84,0:02:34.21,Songs_OP,OP LYRICS,0000,0000,0000,,Que desciam pelo meu rosto
+Dialogue: 0,0:02:34.21,0:02:35.30,Songs_OP,OP LYRICS,0000,0000,0000,,Mesmo agora
+Dialogue: 0,0:02:35.30,0:02:37.67,Songs_OP,OP LYRICS,0000,0000,0000,,Se eu refizer a jornada que seguimos juntos
+Dialogue: 0,0:02:37.67,0:02:41.22,Songs_OP,OP LYRICS,0000,0000,0000,,Mesmo se você não estiver aqui
+Dialogue: 0,0:02:41.22,0:02:42.89,Songs_OP,OP LYRICS,0000,0000,0000,,Sei que serei capaz de encontrar
+Dialogue: 0,0:02:55.02,0:02:58.03,Signs_EpTitle,EPTITLE,0000,0000,0000,,{\blur0.2\c&HFAFFF7&\pos(397,269.5)}Episódio 16: Amigos de longa data
+Dialogue: 0,0:02:58.03,0:03:03.03,Signs_WText,SIGN,0000,0000,0000,,{\fs15\blur0.2\pos(593.5,9)}29 anos se passaram desde a morte do Herói Himmel.\NEstamos na região de Klar, nas Terras do Norte.
+Dialogue: 0,0:03:03.91,0:03:06.06,Default,STARK,0000,0000,0000,,Ele é mesmo um guerreiro forte?
+Dialogue: 0,0:03:06.68,0:03:10.42,Default,FRIEREN,0000,0000,0000,,Ele é um anão que protegeu o vilarejo\Nao qual estamos indo por quase 400 anos.
+Dialogue: 0,0:03:10.73,0:03:14.35,Default,FERN,0000,0000,0000,,Qual é a expectativa de vida dos anões?
+Dialogue: 0,0:03:14.35,0:03:16.42,Default,SEIN,0000,0000,0000,,Uns 300 anos.
+Dialogue: 0,0:03:16.88,0:03:18.75,Default,FRIEREN,0000,0000,0000,,Ele é chamado de Velhinho Voll.
+Dialogue: 0,0:03:18.75,0:03:20.67,Default,FRIEREN,0000,0000,0000,,É um amigo de longa data.
+Dialogue: 0,0:03:21.21,0:03:24.24,Default,FRIEREN,0000,0000,0000,,Quero falar com ele antes de sua morte.
+Dialogue: 0,0:03:24.24,0:03:26.15,Default,STARK,0000,0000,0000,,Isso não tem graça.
+Dialogue: 0,0:03:26.78,0:03:33.55,Default,FERN,0000,0000,0000,,Mas, realmente, são poucas as pessoas\Nque podem falar sobre o passado com você.
+Dialogue: 0,0:03:33.92,0:03:37.26,Default,FERN,0000,0000,0000,,Um desvio como este de vez\Nem quando não deve ser problema.
+Dialogue: 0,0:03:37.93,0:03:40.79,Default,FRIEREN,0000,0000,0000,,Talvez eu passe uns dez anos,\Nmais ou menos, aqui...
+Dialogue: 0,0:03:40.79,0:03:42.74,Default,FERN,0000,0000,0000,,Ficaremos, no máximo, uma semana.
+Dialogue: 0,0:04:03.55,0:04:05.23,Default,SEIN,0000,0000,0000,,É esse o vilarejo?
+Dialogue: 0,0:04:11.07,0:04:12.21,Default,FRIEREN,0000,0000,0000,,Velhinho Voll.
+Dialogue: 0,0:04:13.82,0:04:15.43,Default,FRIEREN,0000,0000,0000,,Há quanto tempo.
+Dialogue: 0,0:04:16.76,0:04:21.34,Default,FRIEREN,0000,0000,0000,,E então? Ele não parece legal,\Ncomo um guerreiro ancião e experiente?
+Dialogue: 0,0:04:21.34,0:04:23.32,Default,STARK,0000,0000,0000,,"Ancião" é pouco.
+Dialogue: 0,0:04:25.72,0:04:28.89,Default,VOLL,0000,0000,0000,,Espera. Quem é você?
+Dialogue: 0,0:04:28.89,0:04:30.38,Default,STARK,0000,0000,0000,,Ele está gagá.
+Dialogue: 0,0:04:30.83,0:04:32.37,Default,FRIEREN,0000,0000,0000,,Sou eu, a Frieren.
+Dialogue: 0,0:04:34.76,0:04:36.82,Default,VOLL,0000,0000,0000,,Ah, é mesmo.
+Dialogue: 0,0:04:38.99,0:04:41.39,Default,FRIEREN,0000,0000,0000,,Vai continuar a fingir estar gagá?
+Dialogue: 0,0:04:44.01,0:04:44.77,Default,STARK,0000,0000,0000,,Hã?
+Dialogue: 0,0:04:48.80,0:04:52.97,Default,VOLL,0000,0000,0000,,A maioria das mortes em batalha\Nocorrem por descuido.
+Dialogue: 0,0:04:53.31,0:04:57.10,Default,VOLL,0000,0000,0000,,É a maior fraqueza tanto\Ndos demônios quanto das pessoas.
+Dialogue: 0,0:04:58.46,0:05:00.11,Default,VOLL,0000,0000,0000,,Consegue ficar de pé, não?
+Dialogue: 0,0:05:00.48,0:05:04.99,Default,VOLL,0000,0000,0000,,Até os guerreiros mais experientes\Npodem sofrer ferimentos bobos e fatais
+Dialogue: 0,0:05:04.99,0:05:08.32,Default,VOLL,0000,0000,0000,,se não prestarem atenção em sua defesa.
+Dialogue: 0,0:05:09.81,0:05:14.03,Default,VOLL,0000,0000,0000,,Se eu tivesse sacado a minha espada,\Nvocê teria perdido uma perna.
+Dialogue: 0,0:05:14.74,0:05:17.64,Default,FRIEREN,0000,0000,0000,,Você continua com estratégias sujas.
+Dialogue: 0,0:05:18.72,0:05:20.01,Default,VOLL,0000,0000,0000,,Frieren.
+Dialogue: 0,0:05:20.35,0:05:24.36,Default,VOLL,0000,0000,0000,,Você é bem-vinda aqui. Sinta-se em casa.
+Dialogue: 0,0:05:26.34,0:05:27.99,Default,STARK,0000,0000,0000,,Espera, Frieren.
+Dialogue: 0,0:05:29.13,0:05:30.33,Default,STARK,0000,0000,0000,,Não consigo andar.
+Dialogue: 0,0:05:30.98,0:05:34.64,Default,FRIEREN,0000,0000,0000,,Stark, treine com ele\Nenquanto estiver aqui.
+Dialogue: 0,0:05:35.12,0:05:35.92,Default,STARK,0000,0000,0000,,Tá.
+Dialogue: 0,0:05:36.51,0:05:38.95,Default,SEIN,0000,0000,0000,,É um velhinho e tanto.
+Dialogue: 0,0:05:40.02,0:05:42.56,Default,FRONT DESK,0000,0000,0000,,Podem usar essa lenha.
+Dialogue: 0,0:05:43.13,0:05:47.26,Default,FRIEREN,0000,0000,0000,,Gostaria de ficar aqui por uma década.\NArranje-nos trabalho.
+Dialogue: 0,0:05:47.26,0:05:50.45,Default,FERN,0000,0000,0000,,Srta. Frieren, ficaremos,\Nno máximo, uma semana.
+Dialogue: 0,0:05:51.37,0:05:52.81,Default,FRIEREN,0000,0000,0000,,Tá bom...
+Dialogue: 0,0:06:09.52,0:06:11.17,Default,VILLAGER A,0000,0000,0000,,É um vilarejo pequeno.
+Dialogue: 0,0:06:11.74,0:06:15.52,Default,VILLAGER A,0000,0000,0000,,Ninguém mais queria fazer esse trabalho.\NVocês estão sendo de grande ajuda.
+Dialogue: 0,0:06:15.52,0:06:17.49,Default,FERN,0000,0000,0000,,Bem, não temos mais nada para fazer.
+Dialogue: 0,0:06:18.66,0:06:22.92,Default,VILLAGER A,0000,0000,0000,,Mas não fazia ideia\Nde que o Velhinho Voll tinha amigos.
+Dialogue: 0,0:06:22.92,0:06:26.20,Default,VILLAGER A,0000,0000,0000,,Nunca vi ele conversar\Ncom tanta alegria antes.
+Dialogue: 0,0:06:26.84,0:06:28.75,Default,VILLAGER A,0000,0000,0000,,Ele é um velho gagá.
+Dialogue: 0,0:06:28.75,0:06:31.10,Default,VILLAGER A,0000,0000,0000,,Até para ter uma conversa\Nnormal ele tem problemas.
+Dialogue: 0,0:06:31.77,0:06:37.66,Default,VILLAGER A,0000,0000,0000,,Ele protege o vilarejo de monstros e demônios\Nhá anos, mas ninguém sabe o motivo.
+Dialogue: 0,0:06:39.32,0:06:41.42,Default,VILLAGER A,0000,0000,0000,,Como se fosse uma divindade protetora.
+Dialogue: 0,0:06:42.32,0:06:44.57,Default,FERN,0000,0000,0000,,Ele esteve sozinho todo esse tempo.
+Dialogue: 0,0:07:24.06,0:07:26.51,Default,FRIEREN,0000,0000,0000,,Uma semana passa voando, não é?
+Dialogue: 0,0:07:26.85,0:07:28.26,Default,FRIEREN,0000,0000,0000,,Como está o Stark?
+Dialogue: 0,0:07:29.05,0:07:31.75,Default,VOLL,0000,0000,0000,,Os humanos crescem rápido.
+Dialogue: 0,0:07:32.33,0:07:34.35,Default,VOLL,0000,0000,0000,,Ele melhorou bastante.
+Dialogue: 0,0:07:34.72,0:07:35.55,Default,FRIEREN,0000,0000,0000,,Entendo.
+Dialogue: 0,0:07:37.37,0:07:40.20,Default,FRIEREN,0000,0000,0000,,Foi divertido, Velhinho Voll.
+Dialogue: 0,0:07:41.71,0:07:44.46,Default,FRIEREN,0000,0000,0000,,Sou muito grata a você agora.
+Dialogue: 0,0:07:45.02,0:07:49.91,Default,FRIEREN,0000,0000,0000,,Foi graças ao senhor que eu aprendi\Nsobre o Himmel e os outros.
+Dialogue: 0,0:07:50.96,0:07:53.92,Flashback,HIMMEL,0000,0000,0000,,Velhinho Voll, por que o senhor\Ndefende este vilarejo?
+Dialogue: 0,0:07:54.71,0:07:56.91,Flashback,VOLL,0000,0000,0000,,É uma história antiga.
+Dialogue: 0,0:07:57.43,0:08:00.13,Flashback,VOLL,0000,0000,0000,,Isso não importa mais.
+Dialogue: 0,0:08:00.61,0:08:03.62,Flashback,HIMMEL,0000,0000,0000,,As pessoas não arriscam suas vidas\Npor coisas que não importam.
+Dialogue: 0,0:08:07.09,0:08:13.91,Flashback,VOLL,0000,0000,0000,,Só estou protegendo o vilarejo\Nque a minha esposa amou.
+Dialogue: 0,0:08:17.14,0:08:19.19,Flashback,VOLL,0000,0000,0000,,Ela era humana.
+Dialogue: 0,0:08:20.13,0:08:26.72,Flashback,VOLL,0000,0000,0000,,Só estou mantendo a promessa\Nque fiz muito tempo atrás.
+Dialogue: 0,0:08:29.17,0:08:32.23,Flashback,VOLL,0000,0000,0000,,Mas não entrarei em mais detalhes.
+Dialogue: 0,0:08:33.43,0:08:39.44,Flashback,VOLL,0000,0000,0000,,Afinal, não consigo descrever direito\Ncomo era o seu rosto, sua voz ou seus olhos.
+Dialogue: 0,0:08:39.84,0:08:42.87,Flashback,VOLL,0000,0000,0000,,É uma memória só minha.
+Dialogue: 0,0:08:44.86,0:08:47.18,Flashback,VOLL,0000,0000,0000,,É bobo, não acham?
+Dialogue: 0,0:08:47.18,0:08:51.91,Flashback,VOLL,0000,0000,0000,,Estou mantendo uma promessa\Nque fiz a uma mulher falecida.
+Dialogue: 0,0:08:53.09,0:08:54.59,Flashback,HIMMEL,0000,0000,0000,,É verdade.
+Dialogue: 0,0:08:56.51,0:09:03.84,Flashback,HIMMEL,0000,0000,0000,,Mas tenho certeza de que ela está feliz\Npelo senhor estar mantendo a promessa.
+Dialogue: 0,0:09:06.09,0:09:10.45,Flashback,VOLL,0000,0000,0000,,Himmel, você é um bom herói.
+Dialogue: 0,0:09:10.45,0:09:13.50,Flashback,VOLL,0000,0000,0000,,Tenho certeza de que derrotará\No Rei Demônio.
+Dialogue: 0,0:09:14.27,0:09:21.75,Flashback,VOLL,0000,0000,0000,,Minha esposa desejava ver a era de paz\Nque virá após a derrota do Rei Demônio.
+Dialogue: 0,0:09:22.68,0:09:29.01,Flashback,VOLL,0000,0000,0000,,Eu levarei a memória do grande\Nherói Himmel para o futuro.
+Dialogue: 0,0:09:29.52,0:09:34.20,Flashback,HIMMEL,0000,0000,0000,,Eu agradeço,\Nmas não precisa fazer tudo isso.
+Dialogue: 0,0:09:35.05,0:09:38.42,Flashback,HIMMEL,0000,0000,0000,,Já tenho a Frieren e o Eisen no meu grupo.
+Dialogue: 0,0:09:38.89,0:09:41.52,Flashback,EISEN,0000,0000,0000,,Mas eu não viverei tanto quanto uma elfa.
+Dialogue: 0,0:09:41.96,0:09:44.52,Flashback,HIMMEL,0000,0000,0000,,Então, será uma missão para a Frieren.
+Dialogue: 0,0:09:45.61,0:09:49.30,Flashback,HIMMEL,0000,0000,0000,,Ela levará a nossa memória para o futuro.
+Dialogue: 0,0:09:50.08,0:09:51.03,Flashback,HIMMEL,0000,0000,0000,,Não vai?
+Dialogue: 0,0:09:51.50,0:09:53.27,Flashback,FRIEREN,0000,0000,0000,,Tudo bem, eu acho.
+Dialogue: 0,0:09:54.69,0:09:55.88,Flashback,VOLL,0000,0000,0000,,Entendo.
+Dialogue: 0,0:09:57.50,0:09:59.92,Flashback,VOLL,0000,0000,0000,,Você foi abençoado\Ncom bons companheiros.
+Dialogue: 0,0:10:01.49,0:10:03.41,Flashback,HIMMEL,0000,0000,0000,,Sendo assim, depois, te mostrarei
+Dialogue: 0,0:10:03.64,0:10:07.71,Flashback,HIMMEL,0000,0000,0000,,a coleção de poses charmosas\Nque eu elaborei.
+Dialogue: 0,0:10:07.71,0:10:10.18,Flashback,FRIEREN,0000,0000,0000,,É, acho que vou abrir mão\Nde me lembrar de você.
+Dialogue: 0,0:10:13.12,0:10:17.38,Default,FRIEREN,0000,0000,0000,,Talvez eu não precisasse mesmo\Ndaquela coleção de poses charmosas.
+Dialogue: 0,0:10:17.66,0:10:19.71,Default,FRIEREN,0000,0000,0000,,Que desperdício de memória...
+Dialogue: 0,0:10:20.53,0:10:23.81,Default,VOLL,0000,0000,0000,,Você se lembra do rosto do herói?
+Dialogue: 0,0:10:24.97,0:10:26.34,Default,FRIEREN,0000,0000,0000,,Claro que me lembro.
+Dialogue: 0,0:10:26.72,0:10:27.91,Default,VOLL,0000,0000,0000,,E de sua voz?
+Dialogue: 0,0:10:30.09,0:10:32.23,Default,FRIEREN,0000,0000,0000,,Não me trate como idiota.
+Dialogue: 0,0:10:32.23,0:10:34.02,Default,FRIEREN,0000,0000,0000,,Eu lembro de tudo.
+Dialogue: 0,0:10:34.50,0:10:37.98,Default,FRIEREN,0000,0000,0000,,Eu decidi conhecer melhor\Nas pessoas graças ao Himmel.
+Dialogue: 0,0:10:38.60,0:10:42.12,Default,FRIEREN,0000,0000,0000,,Assim como o motivo do senhor\Npara defender este vilarejo é importante,
+Dialogue: 0,0:10:42.42,0:10:43.91,Default,FRIEREN,0000,0000,0000,,isso é importante para mim.
+Dialogue: 0,0:10:45.23,0:10:48.43,Default,VOLL,0000,0000,0000,,Entendi. Um motivo, é?
+Dialogue: 0,0:10:50.31,0:10:53.47,Default,VOLL,0000,0000,0000,,Eu não consigo mais me lembrar.
+Dialogue: 0,0:10:54.10,0:10:58.97,Default,VOLL,0000,0000,0000,,Nem do seu rosto,\Nnem de sua voz, nem de seus olhos.
+Dialogue: 0,0:11:00.76,0:11:07.34,Default,VOLL,0000,0000,0000,,Mas continuarei a defender este vilarejo\Npor ser importante para alguma coisa.
+Dialogue: 0,0:11:10.49,0:11:13.30,Default,FRIEREN,0000,0000,0000,,O senhor é um piadista, Velhinho Voll.
+Dialogue: 0,0:11:15.48,0:11:20.83,Default,VOLL,0000,0000,0000,,A propósito, para onde vocês estão indo?
+Dialogue: 0,0:11:20.83,0:11:24.84,Default,FRIEREN,0000,0000,0000,,Estamos indo para Aureole,\Na terra onde descansam as almas.
+Dialogue: 0,0:11:25.41,0:11:27.03,Default,VOLL,0000,0000,0000,,Onde fica isso?
+Dialogue: 0,0:11:27.38,0:11:30.49,Default,FRIEREN,0000,0000,0000,,Em Ende, onde fica\No castelo do Rei Demônio.
+Dialogue: 0,0:11:31.01,0:11:32.28,Default,VOLL,0000,0000,0000,,Entendo.
+Dialogue: 0,0:11:34.64,0:11:38.07,Default,VOLL,0000,0000,0000,,Então, você derrotará o Rei Demônio.
+Dialogue: 0,0:11:40.77,0:11:44.76,Default,VOLL,0000,0000,0000,,Espero que isso traga paz para esta terra.
+Dialogue: 0,0:11:49.48,0:11:53.19,Default,FRIEREN,0000,0000,0000,,Velhinho Voll, o Rei Demônio já foi...
+Dialogue: 0,0:12:03.77,0:12:05.09,Default,VOLL,0000,0000,0000,,O que foi?
+Dialogue: 0,0:12:06.41,0:12:11.44,Default,FRIEREN,0000,0000,0000,,Eu também levarei\Na sua memória para o futuro.
+Dialogue: 0,0:12:15.37,0:12:18.26,Default,VOLL,0000,0000,0000,,Até que isso seria bom.
+Dialogue: 0,0:12:22.20,0:12:26.65,Default,VOLL,0000,0000,0000,,Fico feliz por termos\Nnos encontrado no fim da minha vida.
+Dialogue: 0,0:12:26.65,0:12:30.08,Default,FRIEREN,0000,0000,0000,,O senhor disse a mesma coisa 80 anos atrás.
+Dialogue: 0,0:12:39.00,0:12:42.36,Default,FRIEREN,0000,0000,0000,,Tchau, Velhinho Voll. Se cuida.
+Dialogue: 0,0:12:44.02,0:12:45.24,Default,VOLL,0000,0000,0000,,Frieren.
+Dialogue: 0,0:12:47.48,0:12:49.53,Default,VOLL,0000,0000,0000,,Eu sonhei com a minha esposa.
+Dialogue: 0,0:12:50.35,0:12:51.26,Default,FRIEREN,0000,0000,0000,,Ah, é?
+Dialogue: 0,0:12:52.55,0:12:57.38,Default,VOLL,0000,0000,0000,,Talvez seja porque você e eu\Nrelembramos do passado.
+Dialogue: 0,0:12:59.34,0:13:00.47,Default,FRIEREN,0000,0000,0000,,Bom, até.
+Dialogue: 0,0:13:09.01,0:13:14.52,Signs_WText,SIGN,0000,0000,0000,,{\fs15\blur0.2\pos(594.5,126.5)}29 anos se passaram desde a morte do Herói Himmel.\NEstamos nas Estrada Rohr, nas Terras do Norte.
+Dialogue: 0,0:13:23.01,0:13:24.30,Default,FRIEREN,0000,0000,0000,,Foi perguntar alguma coisa?
+Dialogue: 0,0:13:24.76,0:13:26.54,Default,SEIN,0000,0000,0000,,Estou procurando por alguém.
+Dialogue: 0,0:13:28.51,0:13:31.79,Default,SEIN,0000,0000,0000,,Você lembra o motivo de eu\Nestar nesta jornada, não lembra?
+Dialogue: 0,0:13:32.35,0:13:35.66,Default,STARK,0000,0000,0000,,Não é para viajar com uma tiazinha gata?
+Dialogue: 0,0:13:36.15,0:13:38.67,Default,SEIN,0000,0000,0000,,Isso também é importante.
+Dialogue: 0,0:13:40.11,0:13:42.67,Default,SEIN,0000,0000,0000,,Mas o objetivo da minha jornada é este.
+Dialogue: 0,0:13:43.49,0:13:47.30,Default,SEIN,0000,0000,0000,,Me reencontrar com meu amigo\Nque partiu há 10 anos.​
+Dialogue: 0,0:13:47.30,0:13:49.32,Default,FRIEREN,0000,0000,0000,,Ah, é mesmo.
+Dialogue: 0,0:13:50.62,0:13:53.57,Default,STARK,0000,0000,0000,,Uma foto? Isso é raro de se achar por aí.
+Dialogue: 0,0:13:54.36,0:13:58.14,Default,SEIN,0000,0000,0000,,Foi tirada por um mago que visitou\No meu vilarejo muito tempo atrás.
+Dialogue: 0,0:13:59.23,0:14:01.52,Default,FRIEREN,0000,0000,0000,,E você descobriu para onde ele foi?
+Dialogue: 0,0:14:01.52,0:14:06.00,Default,SEIN,0000,0000,0000,,Temos viajado pelas principais\Nestradas das terras do norte.
+Dialogue: 0,0:14:06.51,0:14:08.94,Default,SEIN,0000,0000,0000,,E, pelo caminho, encontramos\Npessoas que o viram.
+Dialogue: 0,0:14:09.39,0:14:12.17,Default,SEIN,0000,0000,0000,,Podemos continuar seguindo\Nrumo ao norte sem problemas.
+Dialogue: 0,0:14:15.64,0:14:17.20,Default,STARK,0000,0000,0000,,Isso foi há 10 anos, não?
+Dialogue: 0,0:14:17.20,0:14:19.89,Default,STARK,0000,0000,0000,,Estou surpreso de alguém\Nlembrar de tê-lo visto.
+Dialogue: 0,0:14:19.89,0:14:21.95,Default,SEIN,0000,0000,0000,,Ele tem um nome peculiar.
+Dialogue: 0,0:14:22.35,0:14:23.99,Default,SEIN,0000,0000,0000,,E deixa uma forte impressão.
+Dialogue: 0,0:14:24.69,0:14:26.21,Default,STARK,0000,0000,0000,,E como ele se chama?
+Dialogue: 0,0:14:26.70,0:14:28.44,Default,SEIN,0000,0000,0000,,Guerreiro Gorila.
+Dialogue: 0,0:14:32.24,0:14:33.21,Default,STARK,0000,0000,0000,,Tá bom.
+Dialogue: 0,0:14:34.81,0:14:35.85,Default,STARK,0000,0000,0000,,E o nome de verdade?
+Dialogue: 0,0:14:38.30,0:14:39.34,Default,SEIN,0000,0000,0000,,Ih, o nome de verdade?
+Dialogue: 0,0:14:39.34,0:14:41.31,Default,STARK,0000,0000,0000,,Vocês eram mesmo melhores amigos?
+Dialogue: 0,0:14:41.60,0:14:45.93,Default,SEIN,0000,0000,0000,,Todos no vilarejo sempre\No chamaram de Guerreiro Gorila.
+Dialogue: 0,0:14:45.93,0:14:48.73,Default,SEIN,0000,0000,0000,,Ou melhor, ele fez\Ncom que o chamassem assim.
+Dialogue: 0,0:14:48.73,0:14:50.61,Default,STARK,0000,0000,0000,,Como isso aconteceu?
+Dialogue: 0,0:14:52.36,0:14:54.83,Default,SEIN,0000,0000,0000,,A propósito, eu sou o Sacerdote Barbicha.
+Dialogue: 0,0:14:54.83,0:14:56.11,Default,STARK,0000,0000,0000,,Ninguém te perguntou.
+Dialogue: 0,0:14:56.48,0:14:59.77,Default,FRIEREN,0000,0000,0000,,As pessoas te chamavam disso\Nantes de você ter uma barbicha?
+Dialogue: 0,0:14:59.77,0:15:01.82,Default,FERN,0000,0000,0000,,Vamos mesmo continuar com esse assunto?
+Dialogue: 0,0:15:02.37,0:15:06.77,Default,SEIN,0000,0000,0000,,De qualquer forma, é ótimo\Nse lembrarem do nome Guerreiro Gorila.
+Dialogue: 0,0:15:06.77,0:15:09.39,Default,SEIN,0000,0000,0000,,Ele, com certeza, atenderia por esse nome.
+Dialogue: 0,0:15:10.03,0:15:11.39,Default,STARK,0000,0000,0000,,Que cara esquisito.
+Dialogue: 0,0:15:11.65,0:15:14.77,Default,SEIN,0000,0000,0000,,Sim. Ele é um cara estranho.
+Dialogue: 0,0:15:22.84,0:15:26.09,Default,FRIEREN,0000,0000,0000,,Após cruzarmos este desfiladeiro\Ne caminharmos por cerca de uma semana,
+Dialogue: 0,0:15:26.09,0:15:28.91,Default,FRIEREN,0000,0000,0000,,finalmente chegaremos\Nna cidade mágica de Äußerst.
+Dialogue: 0,0:15:30.58,0:15:33.15,Default,FERN,0000,0000,0000,,Foi mesmo uma longa jornada.
+Dialogue: 0,0:15:33.15,0:15:34.88,Default,FRIEREN,0000,0000,0000,,Por que está olhando para mim?
+Dialogue: 0,0:15:35.40,0:15:38.51,Default,FRIEREN,0000,0000,0000,,Não fiz nada de errado desta vez.
+Dialogue: 0,0:15:39.17,0:15:41.70,Default,SEIN,0000,0000,0000,,Podemos passar em um vilarejo antes?
+Dialogue: 0,0:15:42.01,0:15:45.04,Default,SEIN,0000,0000,0000,,A estrada se bifurca aqui.
+Dialogue: 0,0:15:45.04,0:15:48.21,Default,FRIEREN,0000,0000,0000,,Tudo bem. Também queremos descansar.
+Dialogue: 0,0:15:52.89,0:15:57.22,Default,SEIN,0000,0000,0000,,Alguém que se autodenominava “Gorila”\Npassou por aqui 10 anos atrás?
+Dialogue: 0,0:15:57.62,0:15:59.49,Default,STARK,0000,0000,0000,,É uma pergunta e tanto.
+Dialogue: 0,0:15:59.49,0:16:02.15,Default,VILLAGER B,0000,0000,0000,,Ah, o Sr. Guerreiro Gorila.
+Dialogue: 0,0:16:02.15,0:16:03.69,Default,STARK,0000,0000,0000,,Nossa, ele sabe quem é.
+Dialogue: 0,0:16:03.69,0:16:07.06,Default,VILLAGER B,0000,0000,0000,,Ele deixou uma forte impressão,\Nentão é claro que eu me lembro.
+Dialogue: 0,0:16:07.06,0:16:10.30,Default,VILLAGER B,0000,0000,0000,,Ele derrotou um monstro\Nque apareceu perto do vilarejo.
+Dialogue: 0,0:16:10.70,0:16:13.63,Default,SEIN,0000,0000,0000,,Você sabe para onde\Nele seguiu depois disso?
+Dialogue: 0,0:16:13.63,0:16:15.58,Default,VILLAGER B,0000,0000,0000,,Aí, não sei...
+Dialogue: 0,0:16:16.57,0:16:17.29,Default,VILLAGER B,0000,0000,0000,,Ah!
+Dialogue: 0,0:16:17.60,0:16:22.35,Default,VILLAGER B,0000,0000,0000,,O Sr. Gorila parecia próximo da velha\Nteimosa que mora lá em cima.
+Dialogue: 0,0:16:22.35,0:16:24.02,Default,VILLAGER B,0000,0000,0000,,Melhor perguntar para ela.
+Dialogue: 0,0:16:24.02,0:16:27.65,Default,STARK,0000,0000,0000,,Uma "velha teimosa"? É um apelido e tanto.
+Dialogue: 0,0:16:28.67,0:16:31.69,Default,STUBBORN,0000,0000,0000,,Pois eu sou velha e teimosa.
+Dialogue: 0,0:16:31.90,0:16:34.36,Default,STUBBORN,0000,0000,0000,,Não vou contar de graça.
+Dialogue: 0,0:16:34.36,0:16:36.85,Default,STARK,0000,0000,0000,,Ela mesma se reconhece como teimosa.
+Dialogue: 0,0:16:36.85,0:16:38.43,Default,SEIN,0000,0000,0000,,E o que faremos?
+Dialogue: 0,0:16:42.83,0:16:46.45,Default,STUBBORN,0000,0000,0000,,Vocês farão várias tarefas para mim.
+Dialogue: 0,0:16:46.93,0:16:52.87,Default,STUBBORN,0000,0000,0000,,Primeiro, entregue esta carta a Nagel,\Num ferreiro da cidade vizinha.
+Dialogue: 0,0:16:55.44,0:16:57.33,Default,SEIN,0000,0000,0000,,É uma tarefa simples.
+Dialogue: 0,0:16:57.63,0:17:00.08,Default,FREIREN,0000,0000,0000,,Isso me lembra da minha\Njornada com o Himmel.
+Dialogue: 0,0:17:00.56,0:17:02.83,Default,FERN,0000,0000,0000,,Vocês faziam coisas assim?
+Dialogue: 0,0:17:03.63,0:17:07.35,Default,FRIEREN,0000,0000,0000,,Ajudar as pessoas realizando\Ntarefas era parte da rotina.
+Dialogue: 0,0:17:07.85,0:17:13.75,Default,FRIEREN,0000,0000,0000,,E sempre acabavam se mostrando buscas\Nproblemáticas ou extermínio de monstros.
+Dialogue: 0,0:17:14.42,0:17:16.52,Default,STARK,0000,0000,0000,,Vira essa boca pra lá.
+Dialogue: 0,0:17:17.24,0:17:21.22,Default,FRIEREN,0000,0000,0000,,Enfim, vamos fazer o que pudermos\Npara ela abrir seu coração para nós.
+Dialogue: 0,0:17:47.65,0:17:51.04,Default,SEIN,0000,0000,0000,,Essa velha se recusa a se abrir.
+Dialogue: 0,0:17:51.04,0:17:53.88,Default,STARK,0000,0000,0000,,Bem que a chamam de "teimosa".
+Dialogue: 0,0:17:54.19,0:18:00.00,Default,FRIEREN,0000,0000,0000,,Desculpa. O Himmel ou o Heiter teriam\Nconseguido que ela se abrisse em meio dia.
+Dialogue: 0,0:18:00.00,0:18:03.59,Default,FERN,0000,0000,0000,,Mas o nosso grupo só tem\Npessoas socialmente ineptas.
+Dialogue: 0,0:18:07.52,0:18:09.00,Default,STUBBORN,0000,0000,0000,,É o último.
+Dialogue: 0,0:18:09.00,0:18:12.52,Default,STUBBORN,0000,0000,0000,,Façam o polimento da estátua\Ndos heróis no desfiladeiro.
+Dialogue: 0,0:18:14.11,0:18:16.88,Default,STUBBORN,0000,0000,0000,,Venham comigo. Eu mostrarei o caminho.
+Dialogue: 0,0:18:17.91,0:18:19.86,Default,FRIEREN,0000,0000,0000,,Que estátua dos heróis?
+Dialogue: 0,0:18:19.86,0:18:25.42,Default,STUBBORN,0000,0000,0000,,É uma estátua de pedra dos heróis que dizem\Nter salvado o mundo há muito tempo.
+Dialogue: 0,0:18:25.69,0:18:28.03,Default,STUBBORN,0000,0000,0000,,Isso é tudo que eu sei.
+Dialogue: 0,0:18:29.04,0:18:33.01,Default,STUBBORN,0000,0000,0000,,Eles são heróis esquecidos.\NNinguém lembra os nomes deles.
+Dialogue: 0,0:18:33.01,0:18:35.60,Default,STUBBORN,0000,0000,0000,,O vilarejo cuida da estátua por gerações.
+Dialogue: 0,0:18:36.00,0:18:38.59,Default,SEIN,0000,0000,0000,,Heróis esquecidos, é?
+Dialogue: 0,0:18:38.59,0:18:41.80,Default,STUBBORN,0000,0000,0000,,E você é o Sacerdote Barbicha, não é?
+Dialogue: 0,0:18:43.44,0:18:44.94,Default,SEIN,0000,0000,0000,,Como sabe disso?
+Dialogue: 0,0:18:49.06,0:18:50.70,Default,STUBBORN,0000,0000,0000,,Chegamos.
+Dialogue: 0,0:18:52.59,0:18:54.68,Default,FRIEREN,0000,0000,0000,,Um sacerdote e um guerreiro.
+Dialogue: 0,0:18:55.32,0:18:57.23,Default,FRIEREN,0000,0000,0000,,É bem antiga.
+Dialogue: 0,0:18:57.67,0:19:01.27,Default,FERN,0000,0000,0000,,Eles meio que lembram\No Sr. Sein e o Sr. Gorila.
+Dialogue: 0,0:19:01.27,0:19:05.05,Default,FRIEREN,0000,0000,0000,,Acho que reconheço o guerreiro.
+Dialogue: 0,0:19:06.70,0:19:08.20,Default,FRIEREN,0000,0000,0000,,É o Kraft.
+Dialogue: 0,0:19:08.96,0:19:10.80,Default,STARK,0000,0000,0000,,É mesmo.
+Dialogue: 0,0:19:10.80,0:19:11.96,Default,FERN,0000,0000,0000,,É idêntico a ele!
+Dialogue: 0,0:19:15.06,0:19:17.55,Default,FRIEREN,0000,0000,0000,,Bem, vamos começar?
+Dialogue: 0,0:19:23.02,0:19:24.15,Default,FRIEREN,0000,0000,0000,,Sein?
+Dialogue: 0,0:19:24.15,0:19:25.48,Default,SEIN,0000,0000,0000,,Entendi.
+Dialogue: 0,0:19:25.98,0:19:28.79,Default,SEIN,0000,0000,0000,,Então, essa pessoa se chama Kraft.
+Dialogue: 0,0:19:29.33,0:19:30.42,Default,SEIN,0000,0000,0000,,E quem é esse?
+Dialogue: 0,0:19:30.42,0:19:32.47,Default,FRIEREN,0000,0000,0000,,Não faço ideia.
+Dialogue: 0,0:19:33.49,0:19:34.80,Default,SEIN,0000,0000,0000,,Entendi.
+Dialogue: 0,0:19:38.78,0:19:40.60,Flashback,HEITER,0000,0000,0000,,Que estátua é essa?
+Dialogue: 0,0:19:40.60,0:19:42.59,Flashback,YOUNG GORILLA,0000,0000,0000,,Eles não se parecem com a gente?
+Dialogue: 0,0:19:43.71,0:19:47.53,Flashback,YOUNG GORILLA,0000,0000,0000,,Segundo o chefe, são heróis ancestrais.
+Dialogue: 0,0:19:47.53,0:19:50.00,Flashback,YOUNG GORILLA,0000,0000,0000,,Mas ninguém se lembra dos seus nomes.
+Dialogue: 0,0:19:50.49,0:19:52.82,Flashback,YOUNG GORILLA,0000,0000,0000,,Isso não acontecerá com a gente.
+Dialogue: 0,0:19:52.82,0:19:54.99,Flashback,YOUNG GORILLA,0000,0000,0000,,Eu me recuso a ser esquecido.
+Dialogue: 0,0:19:56.29,0:20:00.31,Flashback,YOUNG GORILLA,0000,0000,0000,,Vou me tornar um herói\Ninesquecível, como o Himmel.
+Dialogue: 0,0:20:02.86,0:20:06.81,Flashback,HEITER,0000,0000,0000,,Até os maiores heróis\Nsão esquecidos algum dia.
+Dialogue: 0,0:20:07.29,0:20:12.01,Flashback,HEITER,0000,0000,0000,,Isso não será exceção nem para o Himmel,\Nque derrotou o Rei Demônio.
+Dialogue: 0,0:20:13.75,0:20:17.84,Flashback,YOUNG SEIN,0000,0000,0000,,Acho que o senhor está certo.\NÉ impossível.
+Dialogue: 0,0:20:21.49,0:20:24.25,Flashback,YOUNG GORILLA,0000,0000,0000,,Acha que consigo ficar\Ngrande assim se eu me esforçar?
+Dialogue: 0,0:20:26.31,0:20:28.04,Flashback,YOUNG GORILLA,0000,0000,0000,,"Guerreiro Gorila".
+Dialogue: 0,0:20:28.41,0:20:30.63,Flashback,YOUNG GORILLA,0000,0000,0000,,De agora em diante, esse será o meu nome!
+Dialogue: 0,0:20:33.27,0:20:34.79,Flashback,YOUNG SEIN,0000,0000,0000,,Por quê?
+Dialogue: 0,0:20:35.09,0:20:39.91,Flashback,YOUNG GORILLA,0000,0000,0000,,Se eu quiser me tornar um herói inesquecível,\Npreciso de um nome memorável.
+Dialogue: 0,0:20:43.36,0:20:45.57,Flashback,HEITER,0000,0000,0000,,É verdade.
+Dialogue: 0,0:20:46.51,0:20:49.71,Flashback,HEITER,0000,0000,0000,,Sendo assim, você será\No Sacerdote Barbicha.
+Dialogue: 0,0:20:53.89,0:20:55.60,Flashback,YOUNG GORILLA,0000,0000,0000,,Que nome maneiro!
+Dialogue: 0,0:20:56.73,0:20:59.60,Flashback,HEITER,0000,0000,0000,,Uma barbicha ficaria ótima em você.
+Dialogue: 0,0:21:05.24,0:21:07.04,Default,SEIN,0000,0000,0000,,Finalmente, terminamos.
+Dialogue: 0,0:21:07.33,0:21:09.13,Default,SEIN,0000,0000,0000,,Deu muito trabalho.
+Dialogue: 0,0:21:09.13,0:21:12.61,Default,FRIEREN,0000,0000,0000,,Dava para ter usado magia\Nse fosse uma estátua de bronze.
+Dialogue: 0,0:21:12.61,0:21:16.04,Default,STUBBORN,0000,0000,0000,,Eu também pedi\Npara o Gorila polir a estátua,
+Dialogue: 0,0:21:16.04,0:21:19.45,Default,STUBBORN,0000,0000,0000,,mas ele não fez um trabalho\Ntão bom quanto este.
+Dialogue: 0,0:21:20.04,0:21:22.67,Default,SEIN,0000,0000,0000,,Ele só é bom em lutar.
+Dialogue: 0,0:21:23.00,0:21:26.94,Default,STUBBORN,0000,0000,0000,,Mas o nome dele deixou\Numa forte impressão.
+Dialogue: 0,0:21:29.06,0:21:32.93,Default,STUBBORN,0000,0000,0000,,E o Gorila falou bastante de você.
+Dialogue: 0,0:21:34.24,0:21:40.13,Default,STUBBORN,0000,0000,0000,,Ele disse que vocês dois se tornariam heróis\Ncujos nomes seriam lembrados para sempre.
+Dialogue: 0,0:22:00.44,0:22:02.55,Default,FRIEREN,0000,0000,0000,,Descobriu para onde o Gorila foi?
+Dialogue: 0,0:22:04.38,0:22:05.47,Default,SEIN,0000,0000,0000,,Tür.
+Dialogue: 0,0:22:06.12,0:22:09.42,Default,SEIN,0000,0000,0000,,É uma cidade comercial\Nno meio das terras do norte.
+Dialogue: 0,0:22:09.42,0:22:11.77,Default,FRIEREN,0000,0000,0000,,Fica bem longe ao leste.
+Dialogue: 0,0:22:12.18,0:22:15.01,Default,FRIEREN,0000,0000,0000,,É na região oposta a Äußerst.
+Dialogue: 0,0:22:15.96,0:22:17.06,Default,SEIN,0000,0000,0000,,Sim.
+Dialogue: 0,0:22:21.71,0:22:23.89,Default,SEIN,0000,0000,0000,,O que eu vou fazer?
+Dialogue: 0,0:22:26.03,0:22:28.57,Songs_ED,ED LYRICS,0000,0000,0000,,E você está bem?
+Dialogue: 0,0:22:29.07,0:22:31.08,Songs_ED,ED LYRICS,0000,0000,0000,,Pode me ouvir?
+Dialogue: 0,0:22:31.87,0:22:37.96,Songs_ED,ED LYRICS,0000,0000,0000,,Seguindo por trilhos desertos
+Dialogue: 0,0:22:37.96,0:22:40.29,Songs_ED,ED LYRICS,0000,0000,0000,,Chorando excessivamente
+Dialogue: 0,0:22:40.88,0:22:43.46,Songs_ED,ED LYRICS,0000,0000,0000,,Querendo que você sorria
+Dialogue: 0,0:22:43.46,0:22:49.51,Songs_ED,ED LYRICS,0000,0000,0000,,Me prendo às memórias\Nque quero manter frescas
+Dialogue: 0,0:22:49.51,0:22:53.22,Songs_ED,ED LYRICS,0000,0000,0000,,Tem uma coisa que gostaria de te dizer
+Dialogue: 0,0:22:53.22,0:22:55.98,Songs_ED,ED LYRICS,0000,0000,0000,,Com palavras mais preciosas que "adeus"
+Dialogue: 0,0:22:55.98,0:23:01.65,Songs_ED,ED LYRICS,0000,0000,0000,,Nada notável, mas especial
+Dialogue: 0,0:23:01.65,0:23:05.19,Songs_ED,ED LYRICS,0000,0000,0000,,Sabe, coisas que não poderiam ser vistas
+Dialogue: 0,0:23:05.19,0:23:08.24,Songs_ED,ED LYRICS,0000,0000,0000,,Se não fossem por estes olhos
+Dialogue: 0,0:23:08.24,0:23:12.99,Songs_ED,ED LYRICS,0000,0000,0000,,Por quê? E começam a transbordar
+Dialogue: 0,0:23:12.99,0:23:19.08,Songs_ED,ED LYRICS,0000,0000,0000,,Por isso, se eu nascesse novamente
+Dialogue: 0,0:23:19.08,0:23:24.92,Songs_ED,ED LYRICS,0000,0000,0000,,Eu, com certeza,\Nescolheria este lugar mais uma vez
+Dialogue: 0,0:23:24.92,0:23:30.93,Songs_ED,ED LYRICS,0000,0000,0000,,Então, se nos encontrássemos novamente
+Dialogue: 0,0:23:30.93,0:23:36.68,Songs_ED,ED LYRICS,0000,0000,0000,,Nunca te deixaria ir,\Neu escolheria o presente
+Dialogue: 0,0:23:36.68,0:23:39.64,Songs_ED,ED LYRICS,0000,0000,0000,,Mesmo se nenhuma promessa for feita
+Dialogue: 0,0:23:39.64,0:23:42.34,Songs_ED,ED LYRICS,0000,0000,0000,,Mesmo se eu me perder em dias de solidão
+Dialogue: 0,0:23:42.34,0:23:48.69,Songs_ED,ED LYRICS,0000,0000,0000,,Não há problema com estas lágrimas,\Npois o amanhecer certamente virá
+Dialogue: 0,0:23:48.69,0:23:51.37,Songs_ED,ED LYRICS,0000,0000,0000,,Estou sussurrando nossa canção de ninar
+Dialogue: 0,0:23:51.37,0:23:55.38,Songs_ED,ED LYRICS,0000,0000,0000,,Para você voltar para casa
+Dialogue: 0,0:23:56.20,0:23:58.87,Default,SEIN,0000,0000,0000,,Quero falar com vocês no outro quarto, um de cada vez.
+Dialogue: 0,0:23:56.62,0:23:59.18,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)\pos(395.429,237.571)}{\pos(378,232)} Quero\Nfalar\Ncom\Nvocês\Nno outro \Nquarto,\Num de\Ncada\Nvez.
+Dialogue: 0,0:23:56.63,0:23:59.45,DefaultOverlap,VILLAGER,0000,0000,0000,,Sintam-se em casa e descansem.
+Dialogue: 0,0:23:57.06,0:23:59.56,Jikai,SIGN,0000,0000,0000,,{\fs17\fscx80\fad(300,300)\pos(105.857,179.857)}{\pos(572,141)}  Fiquem\Nà\Nvontade\Ne\Ndescansem.
+Dialogue: 0,0:23:57.14,0:23:58.87,DefaultTop,STARK,0000,0000,0000,,Sim, a culpa foi toda minha.
+Dialogue: 0,0:23:57.31,0:23:59.31,Jikai,SIGN,0000,0000,0000,,{\fs20\fad(300,300)\pos(583,226)} Sim,\Na\Nculpa\Nfoi\Ntoda\Nminha.
+Dialogue: 0,0:23:58.87,0:24:01.79,Default,FRIEREN,0000,0000,0000,,Porque mediar é a tarefa de um sacerdote.
+Dialogue: 0,0:23:59.10,0:24:01.69,Jikai,SIGN,0000,0000,0000,,{\fs18\fad(300,300)\pos(476.429,245)}{\pos(572,141)} Porque mediar é a tarefa de um sacerdote.
+Dialogue: 0,0:23:59.47,0:24:01.80,DefaultOverlap,HEITER,0000,0000,0000,,Seu remédio está pronto.
+Dialogue: 0,0:23:59.70,0:24:02.27,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)\pos(65.286,281.143)}Seu\Nremédio\Nestá\Npronto.
+Dialogue: 0,0:24:00.67,0:24:01.80,DefaultTop,FERN,0000,0000,0000,,Está me envergonhando.
+Dialogue: 0,0:24:01.02,0:24:02.73,Jikai,SIGN,0000,0000,0000,,{\fs15\fad(300,300)\pos(386,180)}Está\Nme\Nenvergonhando.
+Dialogue: 0,0:24:01.80,0:24:04.24,Default,HIMMEL,0000,0000,0000,,Eu sou bem charmoso quando sou atencioso, não?
+Dialogue: 0,0:24:01.90,0:24:04.48,Jikai,SIGN,0000,0000,0000,,{\fs17\fad(300,300)\pos(73,160)}Eu sou\Nbem\Ncharmoso\Nquando sou\Natencioso,\Nnão?
+Dialogue: 0,0:24:02.26,0:24:04.57,DefaultTop,SEIN,0000,0000,0000,,Acho que não tem problema.
+Dialogue: 0,0:24:02.50,0:24:04.48,Jikai,SIGN,0000,0000,0000,,{\fscx80\fad(300,300)\pos(582,233)}Acho\Nque\Nnão\Ntem\Nproblema.
+Dialogue: 0,0:24:04.04,0:24:05.99,Signs_NextEp,SIGN,0000,0000,0000,,{\fad(229,1)\blur3\t(20,312,\blur0.2)\pos(320,113.5)\c&H000000&\t(312,646,\c&HF6F6F6&)\fsp1.6\t(\fsp1)}Episódio 17\N\N\N\N\N\N\N\NSe cuidem
+Dialogue: 0,0:24:04.57,0:24:05.91,Default,SEIN,0000,0000,0000,,Bom, se cuidem.

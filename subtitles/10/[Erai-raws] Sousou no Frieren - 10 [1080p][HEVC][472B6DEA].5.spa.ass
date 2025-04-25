@@ -1,0 +1,347 @@
+﻿[Script Info]
+Title: [Erai-raws] Español (América Latina)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Gen_Main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Main_Up,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00090909,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Gen_Italics_top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Cart_A_Tre,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tre,Trebuchet MS,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Tim,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tim,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Verd,Verdana,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,110,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EpiTitle,Times New Roman,20,&H00FFFFFF,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,6,0020,0020,0020,1
+Style: Cart_Serieslogo,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,10,0,1,0,0,8,0005,0005,0000,1
+Style: Cart_C_Verd,Verdana,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EndCards,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0020,1
+Style: Cart_NextTitle,Times New Roman,20,&H00000000,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,5,0020,0020,0020,1
+Style: Cart_Opening,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00494949,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_Ending,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:17.56,0:00:19.96,Gen_Main,Frieren/Flamme,0000,0000,0000,,-Flamme…\N-Llámame "maestra".
+Dialogue: 0,0:00:22.13,0:00:23.34,Gen_Main,Flamme,0000,0000,0000,,¿Qué quieres?
+Dialogue: 0,0:00:23.67,0:00:26.88,Gen_Main,Frieren,0000,0000,0000,,Maestra, ¿tú crees en verdad\Nque es un método cobarde?
+Dialogue: 0,0:00:28.65,0:00:33.01,Gen_Main,Flamme,0000,0000,0000,,Frieren, ¿recuerdas\Nlas últimas palabras de Basalto?
+Dialogue: 0,0:00:34.36,0:00:35.63,Gen_Main,Frieren,0000,0000,0000,,No, no las recuerdo.
+Dialogue: 0,0:00:36.30,0:00:39.56,Gen_Main,Frieren,0000,0000,0000,,Ellos engañan a las personas\Ncon sus palabras.
+Dialogue: 0,0:00:40.03,0:00:44.48,Gen_Main,Flamme,0000,0000,0000,,Exacto. No son más que monstruos\Ncapaces de emplear la palabra.
+Dialogue: 0,0:00:44.95,0:00:48.84,Gen_Main,Flamme,0000,0000,0000,,Esa es la esencia de los monstruos\Na los que yo clasifico como demonios.
+Dialogue: 0,0:00:50.63,0:00:52.34,Gen_Main,Flamme,0000,0000,0000,,Ellos son cobardes y tramposos.
+Dialogue: 0,0:00:52.54,0:00:56.00,Gen_Main,Flamme,0000,0000,0000,,En ese caso, es cuestión\Nde que nosotros lo seamos más que ellos.
+Dialogue: 0,0:00:56.91,0:00:59.74,Gen_Main,Flamme,0000,0000,0000,,Si así somos capaces\Nde erradicar a los demonios,
+Dialogue: 0,0:01:00.13,0:01:03.04,Gen_Main,Flamme,0000,0000,0000,,asumiré muy contenta\Nel papel de cobarde y tramposa.
+Dialogue: 0,0:01:07.54,0:01:09.81,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Es como en los cuentos de hadas.
+Dialogue: 0,0:01:10.01,0:01:12.12,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Es la prueba de que ha llegado a su fin,
+Dialogue: 0,0:01:12.29,0:01:14.91,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}como un pasaje que se tomó
+Dialogue: 0,0:01:15.11,0:01:16.85,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}de un viaje que muchos años duró.
+Dialogue: 0,0:01:17.02,0:01:19.05,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Érase una vez un ente maligno
+Dialogue: 0,0:01:19.25,0:01:21.40,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}que proyectaba su sombra\Nsobre la tierra.
+Dialogue: 0,0:01:21.60,0:01:23.77,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Estos son recuerdos de ese corto viaje
+Dialogue: 0,0:01:23.97,0:01:26.47,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}al lado del héroe que derrotó al mal.
+Dialogue: 0,0:01:27.23,0:01:36.24,Cart_Serieslogo,CARTEL,0000,0000,0000,,{\fsp1\fad(0,550)\fsp4\pos(320,245)\c&HFFFFFF&\t(1000,4450,\c&HEEC36B&)\t(6300,7500,\c&HEAD347&)}Más allá\Ndel final del viaje
+Dialogue: 0,0:01:36.46,0:01:40.91,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}La historia termina,\Ny el héroe se sume en el sueño.
+Dialogue: 0,0:01:41.11,0:01:45.56,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Deja en esta tierra\Ndías de paz y tranquilidad.
+Dialogue: 0,0:01:45.76,0:01:47.92,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}El paso del tiempo no perdona.
+Dialogue: 0,0:01:48.12,0:01:50.31,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Hace a la gente olvidar.
+Dialogue: 0,0:01:50.51,0:01:54.73,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Incluso los rastros de su vida\Nen el reino ya se oxidan.
+Dialogue: 0,0:01:54.93,0:01:58.82,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Sea como sea,\Ntus palabras, deseos y valentía
+Dialogue: 0,0:01:59.11,0:02:04.36,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}están dentro de mí en verdad\Ny continúan con vida.
+Dialogue: 0,0:02:05.18,0:02:06.73,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Escogimos el mismo camino.
+Dialogue: 0,0:02:06.93,0:02:08.80,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Se suponía que eso iba a ser todo.
+Dialogue: 0,0:02:08.97,0:02:10.52,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Entonces, ¿de repente por qué
+Dialogue: 0,0:02:10.69,0:02:14.83,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}quise comprender la razón\Nde las lágrimas que surcan mis mejillas?
+Dialogue: 0,0:02:15.08,0:02:19.56,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Sé que no es tarde. Si recorro\Nla senda que caminamos juntos,
+Dialogue: 0,0:02:19.76,0:02:22.88,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}aunque tú no estés ahí en verdad,
+Dialogue: 0,0:02:23.12,0:02:24.89,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}sé que te podré hallar.
+Dialogue: 0,0:02:37.01,0:02:40.01,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an3\pos(562,285)\b0\fad(0,0)}Episodio 10\NUna hechicera poderosa
+Dialogue: 0,0:02:44.70,0:02:46.77,Gen_Italics,Lügner,0000,0000,0000,,No para la hemorragia.
+Dialogue: 0,0:02:47.47,0:02:49.02,Gen_Italics,Lügner,0000,0000,0000,,Conque este será mi fin, ¿eh?
+Dialogue: 0,0:02:49.41,0:02:52.20,Gen_Main,Fern,0000,0000,0000,,Y así es como su plan acaba en fracaso.
+Dialogue: 0,0:02:53.56,0:02:54.99,Gen_Main,Lügner,0000,0000,0000,,Quizá tengas razón,
+Dialogue: 0,0:02:55.19,0:02:57.94,Gen_Main,Lügner,0000,0000,0000,,pero Frieren\Nno saldrá ilesa, te lo aseguro.
+Dialogue: 0,0:02:58.50,0:03:02.24,Gen_Main,Lügner,0000,0000,0000,,Ahora debe estar luchando\Ncon nuestra señora Aura.
+Dialogue: 0,0:03:03.00,0:03:07.15,Gen_Main,Lügner,0000,0000,0000,,La vez anterior no tuvo más opción que\Nretirarse por culpa del grupo de héroes,
+Dialogue: 0,0:03:07.32,0:03:11.01,Gen_Main,Lügner,0000,0000,0000,,pero ya no hay héroes cerca\Nque protejan a la elfa.
+Dialogue: 0,0:03:12.30,0:03:15.12,Gen_Main,Lügner,0000,0000,0000,,Admito que Frieren\Nes una amenaza para nosotros,
+Dialogue: 0,0:03:15.32,0:03:18.88,Gen_Main,Lügner,0000,0000,0000,,pero su poder mágico no llega\Nni a los talones de la señora Aura.
+Dialogue: 0,0:03:19.50,0:03:23.63,Gen_Main,Lügner,0000,0000,0000,,Frieren caerá sin duda si se le ocurre\Npelear de frente y con honor.
+Dialogue: 0,0:03:23.83,0:03:26.73,Gen_Main,Fern,0000,0000,0000,,En ese caso,\Nla señorita Frieren saldrá vencedora.
+Dialogue: 0,0:03:28.04,0:03:32.39,Gen_Main,Fern,0000,0000,0000,,Le aseguro que ella nunca pelearía\Ncontra demonios de frente y con honor.
+Dialogue: 0,0:03:32.92,0:03:35.43,Gen_Main,Fern,0000,0000,0000,,Sin duda, engañará a Aura\Npara luego eliminarla.
+Dialogue: 0,0:03:36.73,0:03:39.65,Gen_Italics,Lügner,0000,0000,0000,,Tonterías. Ella siempre…
+Dialogue: 0,0:03:40.27,0:03:43.91,Gen_Italics,Lügner,0000,0000,0000,,Frieren, la Asesina,\Nsiempre nos ha salido de frente…
+Dialogue: 0,0:03:45.51,0:03:48.29,Gen_Italics,Lügner,0000,0000,0000,,¿Qué es esta sensación de inseguridad?
+Dialogue: 0,0:03:49.67,0:03:51.99,Gen_Italics,Lügner,0000,0000,0000,,El poder mágico de la muchacha es débil.
+Dialogue: 0,0:03:52.52,0:03:56.82,Gen_Italics,Lügner,0000,0000,0000,,Sé que me venció por la velocidad\Ny cantidad de sus disparos mágicos,
+Dialogue: 0,0:03:58.12,0:04:02.55,Gen_Italics,Lügner,0000,0000,0000,,pero ¿cómo fue capaz de hacer esa gran\Nhazaña sin quedarse sin poder mágico?
+Dialogue: 0,0:04:04.17,0:04:05.56,Gen_Main,Lügner,0000,0000,0000,,Conque era eso.
+Dialogue: 0,0:04:06.05,0:04:08.17,Gen_Main,Lügner,0000,0000,0000,,Pero no puedo creer que sea posible.
+Dialogue: 0,0:04:09.37,0:04:11.34,Gen_Main,Lügner,0000,0000,0000,,Frieren es igual a ti, ¿no es cierto?
+Dialogue: 0,0:04:12.22,0:04:13.96,Gen_Main,Lügner,0000,0000,0000,,Malditas cobardes y tramposas.
+Dialogue: 0,0:04:15.09,0:04:18.65,Gen_Main,Lügner,0000,0000,0000,,Ustedes son una desgracia\Npara todos los hechiceros.
+Dialogue: 0,0:04:18.89,0:04:22.28,Gen_Main,Fern,0000,0000,0000,,La señorita Frieren\Nes quien lo sabe mejor que nadie.
+Dialogue: 0,0:04:32.26,0:04:34.29,Gen_Main,Flamme,0000,0000,0000,,Qué horrible tragedia.
+Dialogue: 0,0:04:35.77,0:04:37.42,Gen_Main,Flamme,0000,0000,0000,,Era una aldea élfica, ¿eh?
+Dialogue: 0,0:04:49.65,0:04:54.18,Gen_Main,Flamme,0000,0000,0000,,Era Basalto del Trono de Jade,\Nuno de los generales del Rey Demonio.
+Dialogue: 0,0:04:54.45,0:04:58.19,Gen_Main,Flamme,0000,0000,0000,,Parece que comandó sus hordas\Npara destruir esta aldea.
+Dialogue: 0,0:05:00.55,0:05:04.32,Gen_Main,Flamme,0000,0000,0000,,¿Tú fuiste la que acabó con él,\Nniña moribunda de ahí?
+Dialogue: 0,0:05:10.97,0:05:14.46,Gen_Main,Flamme,0000,0000,0000,,Qué poder mágico tan impresionante.\NEres muy poderosa, ¿no?
+Dialogue: 0,0:05:14.83,0:05:17.35,Gen_Main,Flamme,0000,0000,0000,,¿Luchaste frente a frente\Ncon los demonios?
+Dialogue: 0,0:05:19.99,0:05:22.96,Gen_Main,Flamme,0000,0000,0000,,Qué estupidez. Fuiste muy tonta.
+Dialogue: 0,0:05:23.61,0:05:26.42,Gen_Main,Flamme,0000,0000,0000,,¿Por qué se te ocurrió\Npelear de frente y con honor?
+Dialogue: 0,0:05:26.62,0:05:28.98,Gen_Main,Flamme,0000,0000,0000,,Mejor huye, escóndete\Ny ataca por sorpresa.
+Dialogue: 0,0:05:29.18,0:05:31.72,Gen_Main,Flamme,0000,0000,0000,,Existen muchas otras opciones,\N¿no crees?
+Dialogue: 0,0:05:32.28,0:05:35.37,Gen_Main,Flamme,0000,0000,0000,,No comprendo lo que piensan\Nlos hechiceros poderosos.
+Dialogue: 0,0:05:36.04,0:05:37.64,Gen_Main,Frieren,0000,0000,0000,,Sí, debes saberlo.
+Dialogue: 0,0:05:39.85,0:05:42.86,Gen_Main,Frieren,0000,0000,0000,,Sé que debes entender lo que yo sentí.
+Dialogue: 0,0:05:45.14,0:05:50.00,Gen_Main,Frieren,0000,0000,0000,,Porque tú eres una hechicera\Nmucho más poderosa que yo.
+Dialogue: 0,0:06:00.51,0:06:02.25,Gen_Main,Flamme,0000,0000,0000,,¿Por qué así lo crees?
+Dialogue: 0,0:06:03.73,0:06:05.26,Gen_Main,Frieren,0000,0000,0000,,Esa impresión me dio.
+Dialogue: 0,0:06:07.16,0:06:09.37,Gen_Main,Flamme,0000,0000,0000,,¿Cómo te llamas, niña?
+Dialogue: 0,0:06:13.67,0:06:15.65,Gen_Main,Frieren,0000,0000,0000,,¿Qué fue de la aldea?
+Dialogue: 0,0:06:15.85,0:06:19.67,Gen_Main,Flamme,0000,0000,0000,,Quedó completamente destruida.\NMasacraron a hombres, mujeres y niños.
+Dialogue: 0,0:06:20.94,0:06:22.70,Gen_Main,Frieren,0000,0000,0000,,No pude protegerlos
+Dialogue: 0,0:06:22.90,0:06:25.42,Gen_Main,Frieren,0000,0000,0000,,a pesar de que yo era la más poderosa.
+Dialogue: 0,0:06:25.77,0:06:27.66,Gen_Main,Flamme,0000,0000,0000,,De verdad que eres tonta, ¿eh?
+Dialogue: 0,0:06:27.86,0:06:31.27,Gen_Main,Flamme,0000,0000,0000,,Si hubiera estado en tu lugar,\Nhabría huido sin dudarlo.
+Dialogue: 0,0:06:32.62,0:06:35.13,Gen_Main,Frieren/Flamme,0000,0000,0000,,-Bájame.\N-No lo haré.
+Dialogue: 0,0:06:35.33,0:06:38.79,Gen_Main,Flamme,0000,0000,0000,,Tienes talento. Te haré mi discípula.
+Dialogue: 0,0:06:40.12,0:06:45.61,Gen_Main,Flamme,0000,0000,0000,,Además, debes ser consciente de que\Nhabrías muerto si yo no hubiera llegado.
+Dialogue: 0,0:06:45.81,0:06:50.13,Gen_Main,Flamme,0000,0000,0000,,Aparte de que no pudiste proteger\Ntu aldea, estuviste a punto de morir.
+Dialogue: 0,0:06:50.61,0:06:52.69,Gen_Main,Flamme,0000,0000,0000,,Habrías muerto literalmente en vano.
+Dialogue: 0,0:06:55.43,0:06:56.84,Gen_Main,Flamme,0000,0000,0000,,Nos siguen unos asesinos.
+Dialogue: 0,0:06:57.91,0:07:00.52,Gen_Main,Flamme,0000,0000,0000,,Son más poderosos\Nque el general que aniquilaste.
+Dialogue: 0,0:07:07.78,0:07:09.95,Gen_Main,Flamme,0000,0000,0000,,Estos son fascinantes, ¿no?
+Dialogue: 0,0:07:10.23,0:07:15.45,Gen_Main,Flamme,0000,0000,0000,,Ocultaban su poder mágico con\Nla intención de tomarnos por sorpresa,
+Dialogue: 0,0:07:15.77,0:07:20.82,Gen_Main,Flamme,0000,0000,0000,,pero se aparecieron de frente en cuanto\Nse percataron de que éramos hechiceras.
+Dialogue: 0,0:07:22.02,0:07:24.35,Gen_Main,Flamme,0000,0000,0000,,Son cobardes y astutos,
+Dialogue: 0,0:07:24.55,0:07:29.63,Gen_Main,Flamme,0000,0000,0000,,pero, a la vez, cada uno siente un gran\Ny estúpido orgullo hacia su magia.
+Dialogue: 0,0:07:30.19,0:07:32.13,Gen_Main,Demonio A,0000,0000,0000,,Hechicera humana,
+Dialogue: 0,0:07:32.41,0:07:34.88,Gen_Main,Demonio A,0000,0000,0000,,deja a esa elfa ahí y lárgate.
+Dialogue: 0,0:07:35.41,0:07:38.02,Gen_Main,Flamme,0000,0000,0000,,Si así lo hago, ¿me dejarás ir viva?
+Dialogue: 0,0:07:38.28,0:07:43.02,Gen_Main,Demonio A,0000,0000,0000,,El Rey Demonio nos ordenó\Nque masacráramos a todos los elfos.
+Dialogue: 0,0:07:43.26,0:07:45.99,Gen_Main,Demonio A,0000,0000,0000,,Tu vida nos importa un comino.
+Dialogue: 0,0:07:46.43,0:07:47.85,Gen_Main,Flamme,0000,0000,0000,,Ah, ¿sí?
+Dialogue: 0,0:07:51.81,0:07:52.91,Gen_Main,Flamme,0000,0000,0000,,Frieren,
+Dialogue: 0,0:07:53.58,0:07:58.25,Gen_Main,Flamme,0000,0000,0000,,es verdad que comprendo muy bien\Nlo que sienten los hechiceros poderosos.
+Dialogue: 0,0:07:59.11,0:08:02.29,Gen_Main,Flamme,0000,0000,0000,,Y también me imagino muy bien\Nlo que estos demonios piensan.
+Dialogue: 0,0:08:02.86,0:08:08.17,Gen_Main,Flamme,0000,0000,0000,,Confían y creen por completo\Nen la magia que han pulido hasta ahora.
+Dialogue: 0,0:08:08.93,0:08:12.95,Gen_Main,Flamme,0000,0000,0000,,Es decir, se dan el lujo de exhibir una\Narrogancia que no vale una porquería.
+Dialogue: 0,0:08:26.98,0:08:32.57,Gen_Main,Flamme,0000,0000,0000,,Frieren, a diferencia de ti, me juzgaron\Ncomo una hechicera de pacotilla.
+Dialogue: 0,0:08:33.43,0:08:37.05,Gen_Main,Flamme,0000,0000,0000,,Estos eran excelentes hechiceros\Nde los más altos rangos,
+Dialogue: 0,0:08:37.22,0:08:40.17,Gen_Main,Flamme,0000,0000,0000,,pero perdieron la vida\Ndebido a que se confiaron un poco.
+Dialogue: 0,0:08:40.33,0:08:45.20,Gen_Main,Frieren,0000,0000,0000,,Limitaste el poder mágico que irradias\Npara que malinterpretaran tu fuerza.
+Dialogue: 0,0:08:46.57,0:08:47.83,Gen_Main,Flamme,0000,0000,0000,,Así es.
+Dialogue: 0,0:08:48.15,0:08:52.41,Gen_Main,Flamme,0000,0000,0000,,Engaño al enemigo para que crea\Nque soy débil y, así, eliminarlo.
+Dialogue: 0,0:08:53.16,0:08:58.47,Gen_Main,Flamme,0000,0000,0000,,Es una cobarde estrategia que ridiculiza\Nel honorable uso de la magia.
+Dialogue: 0,0:09:14.34,0:09:16.74,Gen_Main,Flamme,0000,0000,0000,,Tus heridas han sanado bastante.
+Dialogue: 0,0:09:19.14,0:09:21.74,Gen_Main,Flamme,0000,0000,0000,,Es hora de empezar con tu entrenamiento.
+Dialogue: 0,0:09:23.25,0:09:24.50,Gen_Main,Frieren,0000,0000,0000,,Flamme…
+Dialogue: 0,0:09:24.70,0:09:26.00,Gen_Main,Flamme,0000,0000,0000,,Llámame "maestra".
+Dialogue: 0,0:09:30.36,0:09:33.26,Gen_Main,Frieren,0000,0000,0000,,Los demonios me lo han robado todo.
+Dialogue: 0,0:09:33.46,0:09:34.86,Gen_Main,Flamme,0000,0000,0000,,A mí también.
+Dialogue: 0,0:09:35.43,0:09:38.41,Gen_Main,Frieren,0000,0000,0000,,Los odio tanto que desearía\Nerradicarlos del mundo.
+Dialogue: 0,0:09:38.75,0:09:40.20,Gen_Main,Flamme,0000,0000,0000,,Yo también.
+Dialogue: 0,0:09:41.29,0:09:43.89,Gen_Main,Frieren,0000,0000,0000,,Sin embargo, a mí me gusta la magia.
+Dialogue: 0,0:09:44.09,0:09:45.14,Gen_Main,Flamme,0000,0000,0000,,También me gusta.
+Dialogue: 0,0:09:47.72,0:09:52.94,Gen_Main,Flamme,0000,0000,0000,,Es suficiente que solo seamos nosotras\Nlas cobardes que la ridiculizamos.
+Dialogue: 0,0:09:55.16,0:09:57.86,Gen_Main,Frieren,0000,0000,0000,,¿Qué debo hacer en el entrenamiento?
+Dialogue: 0,0:09:58.06,0:10:02.53,Gen_Main,Flamme,0000,0000,0000,,Trata de limitar el poder mágico que\Nirradias al exterior a una décima parte.
+Dialogue: 0,0:10:04.67,0:10:07.84,Gen_Main,Flamme,0000,0000,0000,,No esperaba menos de ti.\NConseguiste reprimirla muy bien.
+Dialogue: 0,0:10:08.89,0:10:11.85,Gen_Main,Frieren,0000,0000,0000,,Cualquier elfo es capaz de hacer esto.
+Dialogue: 0,0:10:12.05,0:10:14.67,Gen_Main,Flamme,0000,0000,0000,,A la vez que sigues con eso,\Nharás entrenamiento
+Dialogue: 0,0:10:14.87,0:10:17.27,Gen_Main,Flamme,0000,0000,0000,,para ir aumentando\Ntu poder mágico básico.
+Dialogue: 0,0:10:17.47,0:10:20.55,Gen_Main,Frieren/Flamme,0000,0000,0000,,-¿Eso es todo?\N-Fácil, ¿no?
+Dialogue: 0,0:10:22.10,0:10:26.39,Gen_Main,Frieren,0000,0000,0000,,A propósito, ¿hasta cuándo\Ndebo seguir limitando mi poder mágico?
+Dialogue: 0,0:10:26.59,0:10:29.06,Gen_Main,Frieren,0000,0000,0000,,Me voy a cansar\Nsi lo hago por mucho tiempo.
+Dialogue: 0,0:10:29.26,0:10:31.11,Gen_Main,Flamme,0000,0000,0000,,Igual que yo.
+Dialogue: 0,0:10:31.99,0:10:33.44,Gen_Main,Flamme,0000,0000,0000,,Toda la vida.
+Dialogue: 0,0:10:33.93,0:10:37.36,Gen_Main,Flamme,0000,0000,0000,,Dedicarás toda tu vida\Na engañar a los demonios.
+Dialogue: 0,0:10:42.61,0:10:44.66,Gen_Main,Aura,0000,0000,0000,,Lügner ha muerto, ¿verdad?
+Dialogue: 0,0:10:45.29,0:10:47.97,Gen_Main,Frieren,0000,0000,0000,,Ahora todos tus decapitadores\Nhan sido aniquilados.
+Dialogue: 0,0:10:48.17,0:10:50.45,Gen_Main,Frieren,0000,0000,0000,,Has fallado, Aura.
+Dialogue: 0,0:10:50.92,0:10:53.32,Gen_Main,Aura,0000,0000,0000,,Sí, es una lástima,
+Dialogue: 0,0:10:53.71,0:10:57.88,Gen_Main,Aura,0000,0000,0000,,pero, si logro acabar contigo\Naquí y ahora, será suficiente para mí.
+Dialogue: 0,0:10:59.81,0:11:05.76,Gen_Main,Aura,0000,0000,0000,,En esta batalla liberaste a muchos de\Nmis guerreros inmortales de mi control.
+Dialogue: 0,0:11:06.84,0:11:11.98,Gen_Main,Aura,0000,0000,0000,,Me pregunto si no te preocupa consumir\Ntanto poder mágico en mi presencia.
+Dialogue: 0,0:11:14.45,0:11:16.47,Gen_Italics,Frieren,0000,0000,0000,,La Balanza de Obediencia…
+Dialogue: 0,0:11:16.67,0:11:19.18,Gen_Italics,Frieren,0000,0000,0000,,Se colocan en sus platos\Nlas almas de ambas,
+Dialogue: 0,0:11:19.38,0:11:22.74,Gen_Italics,Frieren,0000,0000,0000,,y la que tenga mayor poder mágico\Nhace su sirviente al otro.
+Dialogue: 0,0:11:23.71,0:11:29.08,Gen_Italics,Frieren,0000,0000,0000,,Aura puede usar magia tan riesgosa solo\Nporque posee un enorme poder mágico.
+Dialogue: 0,0:11:29.72,0:11:34.50,Gen_Italics,Frieren,0000,0000,0000,,El poder mágico básicamente aumenta en\Nproporción a los años de entrenamiento.
+Dialogue: 0,0:11:36.43,0:11:39.42,Gen_Italics,Frieren,0000,0000,0000,,Su poder mágico desbordante me dice
+Dialogue: 0,0:11:39.89,0:11:43.27,Gen_Italics,Frieren,0000,0000,0000,,que es un archidemonio\Nque ha vivido más de 500 años,
+Dialogue: 0,0:11:43.61,0:11:47.04,Gen_Italics,Frieren,0000,0000,0000,,y que ha empleado casi todo ese tiempo\Nen incrementar su magia.
+Dialogue: 0,0:11:48.36,0:11:50.14,Gen_Italics,Frieren,0000,0000,0000,,Quinientos años, ¿eh?
+Dialogue: 0,0:11:50.34,0:11:53.04,Gen_Italics,Frieren,0000,0000,0000,,Ha vivido mucho\Nincluso para la raza demoníaca.
+Dialogue: 0,0:11:53.24,0:11:55.65,Gen_Italics,Frieren,0000,0000,0000,,Supongo que no ha tenido rival\Nhasta ahora.
+Dialogue: 0,0:11:56.47,0:12:00.57,Gen_Italics,Frieren,0000,0000,0000,,Obtengo toda esta información solamente\Ncon ver el poder mágico que irradia,
+Dialogue: 0,0:12:01.11,0:12:05.91,Gen_Italics,Frieren,0000,0000,0000,,pero a los demonios no les importa\Nmostrarlo. No pueden ocultarlo.
+Dialogue: 0,0:12:06.99,0:12:08.21,Gen_Main,Frieren,0000,0000,0000,,Me das lástima.
+Dialogue: 0,0:12:12.07,0:12:13.74,Gen_Main,Aura,0000,0000,0000,,Magia de obediencia, {\i1}Auserlese{\i0}.
+Dialogue: 0,0:12:17.41,0:12:18.54,Gen_Main,Frieren,0000,0000,0000,,Maestra…
+Dialogue: 0,0:12:20.09,0:12:22.41,Gen_Main,Frieren,0000,0000,0000,,Los demonios\Nson astutos y tramposos, ¿no?
+Dialogue: 0,0:12:22.61,0:12:26.77,Gen_Main,Frieren,0000,0000,0000,,¿Por qué no ocultan su poder mágico\Ntodo el tiempo como tú?
+Dialogue: 0,0:12:28.03,0:12:29.44,Gen_Main,Flamme,0000,0000,0000,,No pueden hacerlo.
+Dialogue: 0,0:12:30.51,0:12:33.31,Gen_Main,Flamme,0000,0000,0000,,Aunque el individualismo\Nrija el mundo demoníaco,
+Dialogue: 0,0:12:33.51,0:12:37.94,Gen_Main,Flamme,0000,0000,0000,,para luchar con la humanidad, poseen\Nel mínimo esbozo de una organización.
+Dialogue: 0,0:12:39.45,0:12:41.82,Gen_Main,Flamme,0000,0000,0000,,¿Qué se necesita en una organización?
+Dialogue: 0,0:12:42.95,0:12:45.45,Gen_Main,Frieren/Flamme,0000,0000,0000,,-Una jerarquía, tal vez.\N-Así es.
+Dialogue: 0,0:12:45.74,0:12:49.96,Gen_Main,Flamme,0000,0000,0000,,O sea, que es necesario un sujeto con\Nautoridad para comandar la organización.
+Dialogue: 0,0:12:50.62,0:12:54.41,Gen_Main,Flamme,0000,0000,0000,,En el caso de las personas, por ejemplo,\Nla autoridad de los habitantes
+Dialogue: 0,0:12:54.61,0:12:57.60,Gen_Main,Flamme,0000,0000,0000,,de este país se determina\Npor el renombre y la fortuna.
+Dialogue: 0,0:12:58.18,0:13:02.28,Gen_Main,Flamme,0000,0000,0000,,Ese tipo de buen aspecto que salió\Ndel templo es una figura de autoridad.
+Dialogue: 0,0:13:03.14,0:13:05.34,Gen_Main,Flamme,0000,0000,0000,,La jerarquía\Nno se percibe con exactitud.
+Dialogue: 0,0:13:05.54,0:13:09.52,Gen_Main,Flamme,0000,0000,0000,,Por eso, se adornan con ropas y joyas\Npara mostrarla con la apariencia.
+Dialogue: 0,0:13:09.89,0:13:11.60,Gen_Main,Frieren,0000,0000,0000,,¿Los demonios son diferentes?
+Dialogue: 0,0:13:12.09,0:13:16.38,Gen_Main,Flamme,0000,0000,0000,,No ha cambiado nada para ellos\Ndesde que eran monstruos.
+Dialogue: 0,0:13:16.58,0:13:18.39,Gen_Main,Flamme,0000,0000,0000,,Los poderosos son los que reinan.
+Dialogue: 0,0:13:18.59,0:13:20.73,Gen_Main,Flamme,0000,0000,0000,,Es más simple que el caso de la gente.
+Dialogue: 0,0:13:21.24,0:13:23.24,Gen_Main,Flamme,0000,0000,0000,,Su fuerza se aprecia solo con verla.
+Dialogue: 0,0:13:23.66,0:13:24.99,Gen_Main,Frieren,0000,0000,0000,,Su poder mágico, ¿cierto?
+Dialogue: 0,0:13:25.37,0:13:29.89,Gen_Main,Flamme,0000,0000,0000,,Su poder mágico es como el renombre\Ny la fortuna de las personas.
+Dialogue: 0,0:13:30.09,0:13:32.49,Gen_Main,Flamme,0000,0000,0000,,Se podría decir que es su majestuosidad.
+Dialogue: 0,0:13:33.10,0:13:38.02,Gen_Main,Flamme,0000,0000,0000,,Aunque oculten su poder mágico\Npor un momento para espiar o acechar,
+Dialogue: 0,0:13:38.22,0:13:42.63,Gen_Main,Flamme,0000,0000,0000,,no hay ningún imbécil que esconda\Nsu poder mágico todo el tiempo.
+Dialogue: 0,0:13:42.86,0:13:46.76,Gen_Main,Flamme,0000,0000,0000,,Es muy diferente un noble que se viste\Nde plebeyo para visitar el pueblo
+Dialogue: 0,0:13:47.16,0:13:51.39,Gen_Main,Flamme,0000,0000,0000,,a uno que se deshace de su estatus\Ny toda su fortuna para siempre, ¿no?
+Dialogue: 0,0:13:52.54,0:13:56.95,Gen_Main,Flamme,0000,0000,0000,,Además, la sociedad demoníaca no es\Ntan complaciente como para otorgarle
+Dialogue: 0,0:13:57.15,0:13:59.65,Gen_Main,Flamme,0000,0000,0000,,autoridad a alguien\Ncarente de poder mágico.
+Dialogue: 0,0:13:59.94,0:14:04.65,Gen_Main,Flamme,0000,0000,0000,,Por consiguiente, los demonios con mayor\Npoder mágico lo muestran con orgullo.
+Dialogue: 0,0:14:05.07,0:14:10.16,Gen_Main,Flamme,0000,0000,0000,,No les trae ningún beneficio\Nocultar su poder mágico a toda hora.
+Dialogue: 0,0:14:10.39,0:14:12.91,Gen_Main,Flamme,0000,0000,0000,,En primer lugar,\Nni siquiera se les ocurre.
+Dialogue: 0,0:14:13.53,0:14:14.96,Gen_Main,Flamme,0000,0000,0000,,Qué miserables son, ¿no?
+Dialogue: 0,0:14:15.16,0:14:20.67,Gen_Main,Flamme,0000,0000,0000,,El poder y la fortuna atan a la gente,\Nasí como la magia ata a los demonios.
+Dialogue: 0,0:14:20.90,0:14:25.33,Gen_Main,Flamme,0000,0000,0000,,Su mayor orgullo es su magia\Ny la aman por encima de todas las cosas.
+Dialogue: 0,0:14:25.53,0:14:28.36,Gen_Main,Flamme,0000,0000,0000,,Pero no pueden manipular libremente\Nsu poder mágico.
+Dialogue: 0,0:14:29.46,0:14:32.73,Gen_Main,Flamme,0000,0000,0000,,Frieren, eres afortunada\Nde no haber nacido como un demonio.
+Dialogue: 0,0:14:32.93,0:14:36.18,Gen_Main,Frieren,0000,0000,0000,,Pues sí. Gracias a eso,\Npuedo engañarlos con mi poder mágico.
+Dialogue: 0,0:14:40.70,0:14:44.07,Gen_Main,Flamme,0000,0000,0000,,Van tres años desde que empezaste\Na limitar tu poder mágico, ¿no?
+Dialogue: 0,0:14:44.39,0:14:47.45,Gen_Main,Flamme,0000,0000,0000,,Tenía mis expectativas en ti\Ny no me decepcionaste.
+Dialogue: 0,0:14:52.31,0:14:54.69,Gen_Main,Flamme,0000,0000,0000,,Lo has perfeccionado bastante.
+Dialogue: 0,0:14:56.95,0:15:00.00,Gen_Main,Flamme,0000,0000,0000,,Frieren, ¿todavía te gusta la magia?
+Dialogue: 0,0:15:01.37,0:15:03.61,Gen_Main,Frieren,0000,0000,0000,,¿Por qué esa pregunta tan repentina?
+Dialogue: 0,0:15:04.79,0:15:06.63,Gen_Main,Frieren,0000,0000,0000,,Más o menos, yo creo.
+Dialogue: 0,0:15:07.13,0:15:11.89,Gen_Main,Flamme,0000,0000,0000,,En el pasado, siempre habías contestado\Nsin dudarlo que sí te gustaba.
+Dialogue: 0,0:15:12.47,0:15:14.39,Gen_Main,Frieren,0000,0000,0000,,Hablas de solo hace 50 años, ¿no?
+Dialogue: 0,0:15:15.62,0:15:17.14,Gen_Main,Flamme,0000,0000,0000,,Sí, es verdad.
+Dialogue: 0,0:15:19.10,0:15:23.98,Gen_Main,Flamme,0000,0000,0000,,Al fin de cuentas,\Nsolo pude enseñarte a combatirlos,
+Dialogue: 0,0:15:24.18,0:15:26.58,Gen_Main,Flamme,0000,0000,0000,,magia para llevar a cabo tu venganza.
+Dialogue: 0,0:15:27.55,0:15:29.40,Gen_Main,Frieren,0000,0000,0000,,¿Estás arrepentida?
+Dialogue: 0,0:15:29.73,0:15:31.04,Gen_Main,Flamme,0000,0000,0000,,No.
+Dialogue: 0,0:15:31.24,0:15:35.08,Gen_Main,Flamme,0000,0000,0000,,Me da gusto haber dejado\Ntoda mi magia en tus manos.
+Dialogue: 0,0:15:36.06,0:15:42.04,Gen_Main,Flamme,0000,0000,0000,,En tu larga vida, llegarás al nivel\Ndonde podrás vencer al Rey Demonio.
+Dialogue: 0,0:15:44.62,0:15:47.52,Gen_Main,Flamme,0000,0000,0000,,Frieren, quiero pedirte una cosa.
+Dialogue: 0,0:15:47.96,0:15:49.12,Gen_Main,Frieren,0000,0000,0000,,¿Qué cosa?
+Dialogue: 0,0:15:49.32,0:15:53.15,Gen_Main,Flamme,0000,0000,0000,,Quiero que llenes de campos de flores\Nlos alrededores de mi tumba.
+Dialogue: 0,0:15:53.35,0:15:54.88,Gen_Main,Frieren,0000,0000,0000,,Eso no va contigo.
+Dialogue: 0,0:15:55.08,0:15:56.51,Gen_Main,Flamme,0000,0000,0000,,Tienes razón.
+Dialogue: 0,0:15:57.85,0:15:59.14,Gen_Main,Flamme,0000,0000,0000,,Frieren,
+Dialogue: 0,0:15:59.79,0:16:05.40,Gen_Main,Flamme,0000,0000,0000,,mi magia favorita\Nes la que crea hermosos campos florales.
+Dialogue: 0,0:16:06.42,0:16:09.19,Gen_Main,Flamme,0000,0000,0000,,Cuando era niña,\Nmis padres me la enseñaron.
+Dialogue: 0,0:16:09.39,0:16:12.15,Gen_Main,Flamme,0000,0000,0000,,Esa fue la causa\Nque hizo que me encantara la magia.
+Dialogue: 0,0:16:16.15,0:16:18.16,Gen_Main,Frieren,0000,0000,0000,,Enséñame esa magia.
+Dialogue: 0,0:16:26.29,0:16:28.01,Gen_Main,Flamme,0000,0000,0000,,Escucha, Frieren.
+Dialogue: 0,0:16:28.43,0:16:31.42,Gen_Main,Flamme,0000,0000,0000,,No se te vaya a ocurrir\Ndejar tu nombre en la historia.
+Dialogue: 0,0:16:32.02,0:16:33.80,Gen_Main,Flamme,0000,0000,0000,,Vive sin llamar la atención.
+Dialogue: 0,0:16:34.87,0:16:39.80,Gen_Main,Flamme,0000,0000,0000,,Deja tu nombre en la historia solamente\Ndespués de haber matado al Rey Demonio.
+Dialogue: 0,0:17:39.56,0:17:43.70,Gen_Main,Himmel,0000,0000,0000,,Escuché que en este bosque ha vivido\Nuna hechicera por mucho tiempo.
+Dialogue: 0,0:17:44.22,0:17:45.58,Gen_Main,Himmel,0000,0000,0000,,¿Esa eres tú?
+Dialogue: 0,0:17:46.62,0:17:50.58,Gen_Main,Frieren,0000,0000,0000,,Sí, he vivido por mucho tiempo,\Npero sin ningún oficio ni beneficio.
+Dialogue: 0,0:17:51.83,0:17:53.71,Gen_Main,Frieren,0000,0000,0000,,No soy la gran hechicera que crees.
+Dialogue: 0,0:17:55.11,0:17:57.22,Gen_Main,Eisen,0000,0000,0000,,¿Qué opinas, Heiter?
+Dialogue: 0,0:17:59.00,0:18:01.85,Gen_Main,Heiter,0000,0000,0000,,Tiene como un quinto de mi poder mágico.
+Dialogue: 0,0:18:02.20,0:18:04.18,Gen_Main,Heiter,0000,0000,0000,,Digamos que es una hechicera regular.
+Dialogue: 0,0:18:04.35,0:18:06.10,Gen_Main,Frieren,0000,0000,0000,,¿Este qué se cree? Eso me enoja.
+Dialogue: 0,0:18:06.83,0:18:10.67,Gen_Main,Frieren,0000,0000,0000,,Váyanse de aquí. No quieren nada que ver\Ncon una hechicera regular, ¿o sí?
+Dialogue: 0,0:18:11.03,0:18:15.24,Gen_Main,Himmel,0000,0000,0000,,No, tú eres más poderosa que cualquier\Notro hechicero que haya conocido.
+Dialogue: 0,0:18:16.57,0:18:18.24,Gen_Main,Frieren,0000,0000,0000,,¿Por qué lo crees así?
+Dialogue: 0,0:18:19.70,0:18:21.24,Gen_Main,Himmel,0000,0000,0000,,Esa impresión me dio.
+Dialogue: 0,0:18:26.27,0:18:27.45,Gen_Main,Aura,0000,0000,0000,,{\i1}Auserlese{\i0}.
+Dialogue: 0,0:18:46.89,0:18:48.85,Gen_Main,Frieren,0000,0000,0000,,Te ves muy contenta, Aura.
+Dialogue: 0,0:18:49.05,0:18:51.10,Gen_Main,Frieren,0000,0000,0000,,¿Estás segura de tu victoria?
+Dialogue: 0,0:18:52.52,0:18:54.11,Gen_Main,Aura,0000,0000,0000,,Muy pronto lo entenderás.
+Dialogue: 0,0:18:55.18,0:18:56.88,Gen_Italics,Aura,0000,0000,0000,,Frieren, la Asesina…
+Dialogue: 0,0:18:57.80,0:19:01.82,Gen_Italics,Aura,0000,0000,0000,,Comenzó sus actividades de aventurera\Nhace más o menos 80 años.
+Dialogue: 0,0:19:02.42,0:19:05.45,Gen_Italics,Aura,0000,0000,0000,,Derrotó a nuestro Rey Demonio\Ncon el grupo de héroes.
+Dialogue: 0,0:19:05.65,0:19:09.36,Gen_Italics,Aura,0000,0000,0000,,Es una misteriosa elfa hechicera\Nde la que se desconoce su edad.
+Dialogue: 0,0:19:10.06,0:19:15.31,Gen_Italics,Aura,0000,0000,0000,,Pero no me importa\Nen lo más mínimo cuánto hayas vivido.
+Dialogue: 0,0:19:15.51,0:19:18.33,Gen_Italics,Aura,0000,0000,0000,,Tu cantidad de poder mágico\Nlo dice todo por ti.
+Dialogue: 0,0:19:19.50,0:19:21.62,Gen_Italics,Aura,0000,0000,0000,,Lo entiendo todo perfectamente.
+Dialogue: 0,0:19:21.82,0:19:24.71,Gen_Italics,Aura,0000,0000,0000,,Eres una hechicera\Ncon grandes habilidades,
+Dialogue: 0,0:19:24.91,0:19:27.60,Gen_Italics,Aura,0000,0000,0000,,pero tu poder mágico no es tan alto.
+Dialogue: 0,0:19:27.80,0:19:31.99,Gen_Italics,Aura,0000,0000,0000,,Te dedicaste a pulir tu magia\Nmás o menos 100 años a lo mucho.
+Dialogue: 0,0:19:32.19,0:19:35.65,Gen_Italics,Aura,0000,0000,0000,,Además, no ha cambiado casi nada\Nen los últimos 80 años.
+Dialogue: 0,0:19:36.13,0:19:39.05,Gen_Italics,Aura,0000,0000,0000,,Quizá te dedicabas a un oficio\Ndiferente a la magia.
+Dialogue: 0,0:19:39.25,0:19:42.07,Gen_Italics,Aura,0000,0000,0000,,O quizá vivías sin oficio ni beneficio.
+Dialogue: 0,0:19:42.77,0:19:47.58,Gen_Italics,Aura,0000,0000,0000,,Sea como sea,\Nno me llegas ni a los talones.
+Dialogue: 0,0:19:57.18,0:19:58.84,Gen_Main,Aura,0000,0000,0000,,Me llevo la victoria.
+Dialogue: 0,0:20:02.04,0:20:06.35,Gen_Main,Aura,0000,0000,0000,,Solo falta que yo en persona\Nte haga el honor de cortarte la cabeza.
+Dialogue: 0,0:20:10.71,0:20:14.77,Gen_Italics,Aura,0000,0000,0000,,De haber sabido, no tenía que haberla\Nobligado a consumir su poder mágico.
+Dialogue: 0,0:20:15.15,0:20:17.48,Gen_Italics,Aura,0000,0000,0000,,Fui demasiado precavida.
+Dialogue: 0,0:20:18.36,0:20:22.92,Gen_Italics,Aura,0000,0000,0000,,Acabó con varios de mis guerreros\Ninmortales. Tendré que reponerlos luego.
+Dialogue: 0,0:20:26.27,0:20:27.49,Gen_Italics,Aura,0000,0000,0000,,¿Qué sucede?
+Dialogue: 0,0:20:28.44,0:20:31.75,Gen_Italics,Aura,0000,0000,0000,,La balanza se inclina\Nhacia el lado de Frieren.
+Dialogue: 0,0:20:32.07,0:20:35.62,Gen_Main,Frieren,0000,0000,0000,,Pusiste mi espíritu en la balanza,\N¿cierto, Aura?
+Dialogue: 0,0:20:37.06,0:20:41.82,Gen_Main,Frieren,0000,0000,0000,,Habría estado en peligro si me hubieras\Natacado con el grueso de tu ejército,
+Dialogue: 0,0:20:42.02,0:20:45.64,Gen_Main,Frieren,0000,0000,0000,,pero soy afortunada de que\Nconfiaras ciegamente en tu poder mágico.
+Dialogue: 0,0:20:46.10,0:20:48.15,Gen_Main,Frieren,0000,0000,0000,,Al fin fui capaz de vencerte.
+Dialogue: 0,0:20:49.02,0:20:50.52,Gen_Main,Aura,0000,0000,0000,,¿Qué quieres decir?
+Dialogue: 0,0:20:50.93,0:20:53.02,Gen_Main,Frieren,0000,0000,0000,,Ya deberías haberte percatado, ¿no?
+Dialogue: 0,0:20:53.53,0:20:56.02,Gen_Main,Frieren,0000,0000,0000,,Yo limitaba mi poder mágico.
+Dialogue: 0,0:20:56.62,0:20:59.61,Gen_Main,Frieren,0000,0000,0000,,Cometiste una grave equivocación, Aura.
+Dialogue: 0,0:21:01.30,0:21:03.20,Gen_Main,Aura,0000,0000,0000,,Eso no puede ser posible.
+Dialogue: 0,0:21:03.40,0:21:06.16,Gen_Main,Aura,0000,0000,0000,,No pude haber pasado por alto algo así.
+Dialogue: 0,0:21:06.74,0:21:12.29,Gen_Main,Aura,0000,0000,0000,,No presentas la inestabilidad\Ncaracterística de quien lo oculta.
+Dialogue: 0,0:21:12.89,0:21:17.85,Gen_Main,Frieren,0000,0000,0000,,Qué sorpresa. No sabía que los demonios\Npodían detectarlo con tal exactitud.
+Dialogue: 0,0:21:18.67,0:21:21.55,Gen_Main,Frieren,0000,0000,0000,,Significa que el método\Nde mi maestra era el correcto.
+Dialogue: 0,0:21:22.50,0:21:26.88,Gen_Main,Frieren,0000,0000,0000,,He pasado la mayor parte de mi vida\Nlimitando mi poder mágico
+Dialogue: 0,0:21:27.19,0:21:29.58,Gen_Main,Frieren,0000,0000,0000,,para que este estado\Nfuera natural para mí.
+Dialogue: 0,0:21:30.86,0:21:35.06,Gen_Main,Aura,0000,0000,0000,,Qué estúpida eres.\N¿Para qué haces una tontería así?
+Dialogue: 0,0:21:35.32,0:21:38.09,Gen_Main,Frieren,0000,0000,0000,,Sí, parece algo muy estúpido,
+Dialogue: 0,0:21:38.68,0:21:40.72,Gen_Main,Frieren,0000,0000,0000,,pero eso me permite vencerlos.
+Dialogue: 0,0:21:44.47,0:21:45.95,Gen_Main,Aura,0000,0000,0000,,No te quieras burlar de mí.
+Dialogue: 0,0:21:46.39,0:21:49.20,Gen_Main,Aura,0000,0000,0000,,Soy un archidemonio\Nque ha vivido más de 500 años.
+Dialogue: 0,0:21:51.36,0:21:54.37,Gen_Main,Frieren,0000,0000,0000,,Aura, la que tienes ante ti
+Dialogue: 0,0:21:57.51,0:22:00.63,Gen_Main,Frieren,0000,0000,0000,,es una hechicera\Nque ha vivido más de mil años.
+Dialogue: 0,0:22:14.27,0:22:15.51,Gen_Main,Frieren,0000,0000,0000,,Frieren,
+Dialogue: 0,0:22:16.22,0:22:19.26,Gen_Main,Frieren,0000,0000,0000,,al igual que los demonios\Nengañan a la gente con el habla,
+Dialogue: 0,0:22:19.91,0:22:23.03,Gen_Main,Frieren,0000,0000,0000,,tú engaña a los demonios\Ncon tu poder mágico.
+Dialogue: 0,0:22:24.50,0:22:27.22,Gen_Main,Frieren,0000,0000,0000,,Aura, acaba con tu propia vida.
+Dialogue: 0,0:22:36.13,0:22:37.92,Gen_Main,Aura,0000,0000,0000,,No puede ser posible.
+Dialogue: 0,0:22:39.58,0:22:41.58,Gen_Main,Aura,0000,0000,0000,,¿Cómo es que yo…?
+Dialogue: 0,0:22:50.05,0:22:52.60,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}And you alright?
+Dialogue: 0,0:22:53.10,0:22:55.10,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Can you hear me?
+Dialogue: 0,0:22:55.89,0:23:01.78,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Voy caminando al lado de vías desiertas.
+Dialogue: 0,0:23:01.98,0:23:04.32,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Lloro en exceso
+Dialogue: 0,0:23:04.90,0:23:07.32,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}porque quiero que sonrías.
+Dialogue: 0,0:23:07.62,0:23:13.34,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Me aferro a recuerdos aún dolorosos.
+Dialogue: 0,0:23:13.63,0:23:19.63,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Hay algo que te quiero decir\Ncon palabras más valiosas que un adiós.
+Dialogue: 0,0:23:19.83,0:23:25.47,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Nada extraordinario, pero especial.
+Dialogue: 0,0:23:25.67,0:23:29.02,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Mira, hay cosas que no pudieron ser.
+Dialogue: 0,0:23:29.22,0:23:36.82,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Si no las hubiera visto con estos ojos,\N¿por qué comienzan a desbordarse?
+Dialogue: 0,0:23:37.02,0:23:48.75,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Por eso, no tengo que nacer de nuevo\Npara volver a escoger este lugar.
+Dialogue: 0,0:23:48.95,0:23:54.75,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Por eso, si volviera a verme contigo,
+Dialogue: 0,0:23:54.95,0:24:00.42,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}no te dejaría ir\Ny escogería el presente.
+Dialogue: 0,0:24:00.62,0:24:06.37,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Aunque no haya promesas de por medio\Ny sean días que me pierda en la soledad,
+Dialogue: 0,0:24:06.57,0:24:12.56,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}está bien llorar,\Nde seguro el amanecer llegará.
+Dialogue: 0,0:24:12.76,0:24:19.34,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}I’m whispering our lullaby\Nfor you to come back home.
+Dialogue: 0,0:24:15.63,0:24:20.01,Cart_C_Tim,CARTEL,0000,0000,0000,,{\b0\fad(800,0)\bord1\blur0.6\fs18\pos(320,241)}Traducción: Antonio Valdez\NPautado: Thomas Benaissa\NEdición: Álvaro Jimeno\NControl de calidad: Nicolás Sepúlveda{\b1\b0}
+Dialogue: 0,0:24:20.39,0:24:23.44,Gen_Main,Heiter/Stark,0000,0000,0000,,-¿Hay alguien que te elogie?\N-Viejo…
+Dialogue: 0,0:24:20.67,0:24:22.80,Gen_Main_Up,Stark,0000,0000,0000,,Un viaje hacia el cielo, ¿eh?
+Dialogue: 0,0:24:23.64,0:24:27.62,Gen_Main,Frieren/Fern,0000,0000,0000,,-¿Qué es una hechicera de primer grado?\N-¿Qué es esa antigüedad?
+Dialogue: 0,0:24:25.80,0:24:27.94,Gen_Main_Up,Kraft,0000,0000,0000,,Nosotros somos elfos.
+Dialogue: 0,0:24:27.57,0:24:30.03,Cart_A_Tim,CARTEL,0000,0000,0000,,{\fsp1\b0\fad(500,0)\pos(320,86)\bord0\c&H201B1C&\blur5\t(0,271,\blur0)\t(312,1188,\c&HFFFFFF&)\t(\fsp0)}Episodio 11\N{\fs30}El invierno de los Países del Norte
+Dialogue: 0,0:24:27.82,0:24:30.03,Gen_Main,Frieren,0000,0000,0000,,El invierno de los Países del Norte.

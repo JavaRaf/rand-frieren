@@ -1,0 +1,337 @@
+﻿[Script Info]
+Title: [Erai-raws] Português (Brasil)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,1
+Style: Italics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,0
+Style: Flashback,Trebuchet MS,22,&H00FBFBFE,&H000000FF,&H005C0718,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,0
+Style: Flashback Italics,Trebuchet MS,22,&H00FBFBFE,&H000000FF,&H005C0718,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,0
+Style: Flashback Top,Trebuchet MS,22,&H00FBFBFE,&H000000FF,&H005C0718,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0040,0040,0015,0
+Style: Flashback Top Italics,Trebuchet MS,22,&H00FBFBFE,&H000000FF,&H005C0718,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0040,0040,0015,0
+Style: Sign,Tahoma,22,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0040,0040,0015,1
+Style: EpTitle,Times New Roman,25,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0040,0050,0090,1
+Style: Jikai,Times New Roman,20,&H001F221F,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0000,0000,0080,1
+Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Songs_OP,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00B7812E,&H00B7812E,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Songs_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A95974,&H00A95974,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.52,0:00:03.02,Songs_OP,OP LYRICS,0000,0000,0000,,Como um conto de fadas
+Dialogue: 0,0:00:03.02,0:00:05.44,Songs_OP,OP LYRICS,0000,0000,0000,,É um sinal de que o conto chegou ao fim
+Dialogue: 0,0:00:05.44,0:00:08.36,Songs_OP,OP LYRICS,0000,0000,0000,,Como uma única passagem tirada
+Dialogue: 0,0:00:08.36,0:00:09.98,Songs_OP,OP LYRICS,0000,0000,0000,,De uma viagem muito longa
+Dialogue: 0,0:00:09.98,0:00:12.32,Songs_OP,OP LYRICS,0000,0000,0000,,Do ser maligno que lança trevas
+Dialogue: 0,0:00:12.32,0:00:14.66,Songs_OP,OP LYRICS,0000,0000,0000,,Por esta terra
+Dialogue: 0,0:00:14.66,0:00:16.99,Songs_OP,OP LYRICS,0000,0000,0000,,E as memórias da curta jornada
+Dialogue: 0,0:00:16.99,0:00:19.45,Songs_OP,OP LYRICS,0000,0000,0000,,Do herói que o derrotou
+Dialogue: 0,0:00:20.24,0:00:29.21,Signs,SIGN,0000,0000,0000,,{\fad(1,473)\blur0.25\fs25\fnGeorgia\fsp3.9\pos(322,230)\c&HFFFCFE&\t(989,4326,\c&HEFC777&)\t(6411,6745,\c&HEAC732&)}e a Jornada para o Além
+Dialogue: 0,0:00:29.46,0:00:31.76,Songs_OP,OP LYRICS,0000,0000,0000,,A história termina
+Dialogue: 0,0:00:31.76,0:00:34.26,Songs_OP,OP LYRICS,0000,0000,0000,,E o herói vai descansar
+Dialogue: 0,0:00:34.26,0:00:37.09,Songs_OP,OP LYRICS,0000,0000,0000,,Deixando esta terra
+Dialogue: 0,0:00:37.09,0:00:38.76,Songs_OP,OP LYRICS,0000,0000,0000,,Com dias de paz e tranquilidade
+Dialogue: 0,0:00:38.76,0:00:41.27,Songs_OP,OP LYRICS,0000,0000,0000,,A passagem do tempo é impiedosa
+Dialogue: 0,0:00:41.27,0:00:43.43,Songs_OP,OP LYRICS,0000,0000,0000,,Fazendo as pessoas se esquecerem
+Dialogue: 0,0:00:43.43,0:00:46.23,Songs_OP,OP LYRICS,0000,0000,0000,,Até os rastros deixados por sua vida
+Dialogue: 0,0:00:46.23,0:00:48.02,Songs_OP,OP LYRICS,0000,0000,0000,,E começa a enferrujar
+Dialogue: 0,0:00:48.02,0:00:49.86,Songs_OP,OP LYRICS,0000,0000,0000,,Assim como
+Dialogue: 0,0:00:49.86,0:00:52.15,Songs_OP,OP LYRICS,0000,0000,0000,,Suas palavras, desejos e coragem
+Dialogue: 0,0:00:52.15,0:00:55.49,Songs_OP,OP LYRICS,0000,0000,0000,,Tudo ainda reside dentro de mim
+Dialogue: 0,0:00:55.49,0:00:57.36,Songs_OP,OP LYRICS,0000,0000,0000,,E seguem vivos
+Dialogue: 0,0:00:58.16,0:00:59.91,Songs_OP,OP LYRICS,0000,0000,0000,,Escolhemos o mesmo caminho
+Dialogue: 0,0:00:59.91,0:01:02.04,Songs_OP,OP LYRICS,0000,0000,0000,,É assim que deve ser
+Dialogue: 0,0:01:02.04,0:01:03.58,Songs_OP,OP LYRICS,0000,0000,0000,,É por isso que, em algum momento,
+Dialogue: 0,0:01:03.58,0:01:07.83,Songs_OP,OP LYRICS,0000,0000,0000,,Quis entender o motivo das lágrimas
+Dialogue: 0,0:01:07.83,0:01:09.21,Songs_OP,OP LYRICS,0000,0000,0000,,Que desciam pelo meu rosto
+Dialogue: 0,0:01:09.21,0:01:10.29,Songs_OP,OP LYRICS,0000,0000,0000,,Mesmo agora
+Dialogue: 0,0:01:10.29,0:01:12.67,Songs_OP,OP LYRICS,0000,0000,0000,,Se eu refizer a jornada que seguimos juntos
+Dialogue: 0,0:01:12.67,0:01:16.22,Songs_OP,OP LYRICS,0000,0000,0000,,Mesmo se você não estiver aqui
+Dialogue: 0,0:01:16.22,0:01:17.89,Songs_OP,OP LYRICS,0000,0000,0000,,Sei que serei capaz de encontrar
+Dialogue: 0,0:01:30.82,0:01:33.82,Default,Frieren,0000,0000,0000,,Vejamos... A magia de longa distância
+Dialogue: 0,0:01:33.82,0:01:38.74,Default,Frieren,0000,0000,0000,,é feita através da combinação\Nde três elementos para os magos.
+Dialogue: 0,0:01:39.17,0:01:43.02,Default,Frieren,0000,0000,0000,,O primeiro é a mana.\NDepois, o poder para projetá-la.
+Dialogue: 0,0:01:43.02,0:01:47.00,Default,Frieren,0000,0000,0000,,E, por fim, controle. Mas você\Njá sabe dessas coisas, certo?
+Dialogue: 0,0:01:47.00,0:01:48.13,Default,Fern,0000,0000,0000,,Sei.
+Dialogue: 0,0:01:48.48,0:01:51.82,Default,Frieren,0000,0000,0000,,Sua magia se dispersou\Nno meio do trajeto.
+Dialogue: 0,0:01:51.82,0:01:55.76,Default,Frieren,0000,0000,0000,,Isso mostra que a quantidade de mana\Ne o poder de projeção são insuficientes.
+Dialogue: 0,0:01:56.05,0:01:59.34,Default,Frieren,0000,0000,0000,,Isso não pode ser resolvido\Nde um dia pro outro.
+Dialogue: 0,0:01:59.34,0:02:03.65,Default,Frieren,0000,0000,0000,,Independentemente do seu talento,\Nvocê terá que trabalhar nisso por anos.
+Dialogue: 0,0:02:08.00,0:02:13.11,Default,Frieren,0000,0000,0000,,Mas o seu poder para controlar\Na magia parece ser elevado.
+Dialogue: 0,0:02:13.11,0:02:18.12,Default,Frieren,0000,0000,0000,,Todos têm dificuldade nisso, mas parece\Nque não é uma preocupação para você,
+Dialogue: 0,0:02:18.51,0:02:20.62,Default,Frieren,0000,0000,0000,,então, trabalhe nisso com calma.
+Dialogue: 0,0:02:22.60,0:02:23.80,Default,Fern,0000,0000,0000,,Certo.
+Dialogue: 0,0:03:33.94,0:03:36.82,Default,Heiter,0000,0000,0000,,Como está o treinamento com a Fern?
+Dialogue: 0,0:03:36.82,0:03:40.91,Default,Frieren,0000,0000,0000,,Em apenas quatro anos, ela alcançou o estágio\Nque, normalmente, levaria dez anos.
+Dialogue: 0,0:03:40.91,0:03:44.57,Default,Frieren,0000,0000,0000,,Ela é dedicada demais.\NO que não é algo muito bom.
+Dialogue: 0,0:03:44.57,0:03:48.05,Default,Heiter,0000,0000,0000,,Ela tem passado o tempo inteiro\Ndentro da floresta, não é?
+Dialogue: 0,0:03:48.05,0:03:51.40,Default,Heiter,0000,0000,0000,,Isso mostra o quanto ela gosta de magia...
+Dialogue: 0,0:03:51.40,0:03:54.96,Default,Frieren,0000,0000,0000,,Ainda assim, há um longo\Ncaminho pela frente para ela.
+Dialogue: 0,0:03:55.34,0:03:58.17,Default,Frieren,0000,0000,0000,,Terminarei de decifrar\No grimório antes disso.
+Dialogue: 0,0:03:59.14,0:04:00.97,Default,Heiter,0000,0000,0000,,É mesmo?
+Dialogue: 0,0:04:02.42,0:04:03.97,Default,Frieren,0000,0000,0000,,Ei, Heiter.
+Dialogue: 0,0:04:04.51,0:04:07.29,Default,Frieren,0000,0000,0000,,Com este grimório, as chances para—
+Dialogue: 0,0:04:10.02,0:04:11.69,Default,Frieren,0000,0000,0000,,Heiter?
+Dialogue: 0,0:04:18.37,0:04:21.45,Default,Heiter,0000,0000,0000,,Não faça essa cara.
+Dialogue: 0,0:04:21.82,0:04:25.91,Default,Heiter,0000,0000,0000,,Foi um milagre eu ter conseguido\Nme mover normalmente até agora.
+Dialogue: 0,0:04:30.11,0:04:32.77,Default,Frieren,0000,0000,0000,,Irei me apressar com o grimório.
+Dialogue: 0,0:04:32.77,0:04:34.67,Default,Heiter,0000,0000,0000,,Por favor.
+Dialogue: 0,0:04:39.40,0:04:41.91,Default,Frieren,0000,0000,0000,,Fern, pause o treinamento.
+Dialogue: 0,0:04:41.91,0:04:45.20,Default,Frieren,0000,0000,0000,,O Heiter caiu. Fique ao lado dele.
+Dialogue: 0,0:04:45.94,0:04:49.06,Default,Fern,0000,0000,0000,,Ainda não destruí aquela rocha.
+Dialogue: 0,0:04:49.54,0:04:52.31,Default,Frieren,0000,0000,0000,,Isso é algo que você\Nconseguirá com o tempo.
+Dialogue: 0,0:04:52.31,0:04:53.02,Default,Fern,0000,0000,0000,,No momento...
+Dialogue: 0,0:04:53.02,0:04:54.82,Default,Fern,0000,0000,0000,,Não pode ser "com o tempo"!
+Dialogue: 0,0:04:57.14,0:04:58.82,Default,Fern,0000,0000,0000,,Porque, com o tempo,
+Dialogue: 0,0:04:59.11,0:05:01.57,Default,Fern,0000,0000,0000,,o Sr. Heiter vai morrer.
+Dialogue: 0,0:05:04.08,0:05:07.00,Default,Fern,0000,0000,0000,,Eu fui salva por ele.
+Dialogue: 0,0:05:18.17,0:05:21.54,Default,Heiter,0000,0000,0000,,Acho que seria um desperdício\Nvocê morrer agora.
+Dialogue: 0,0:05:22.40,0:05:24.47,Default,Fern,0000,0000,0000,,"Um desperdício"?
+Dialogue: 0,0:05:24.97,0:05:28.05,Default,Heiter,0000,0000,0000,,Já faz um certo tempo,
+Dialogue: 0,0:05:28.05,0:05:31.29,Default,Heiter,0000,0000,0000,,mas eu perdi um velho amigo meu.
+Dialogue: 0,0:05:31.94,0:05:35.11,Default,Heiter,0000,0000,0000,,Diferente de mim, ele era bem íntegro,
+Dialogue: 0,0:05:35.11,0:05:39.31,Default,Heiter,0000,0000,0000,,e era o tipo de pessoa que nunca\Nabandonaria uma pessoa com problemas.
+Dialogue: 0,0:05:40.49,0:05:44.00,Default,Heiter,0000,0000,0000,,Se ele tivesse continuado\Na viver em vez de mim,
+Dialogue: 0,0:05:44.00,0:05:46.49,Default,Heiter,0000,0000,0000,,com certeza ele teria sido\Ncapaz de salvar mais pessoas.
+Dialogue: 0,0:05:47.08,0:05:49.45,Default,Heiter,0000,0000,0000,,Diferentemente dele,
+Dialogue: 0,0:05:49.45,0:05:53.20,Default,Heiter,0000,0000,0000,,eu pensava em viver o resto\Nda minha vida tranquilamente.
+Dialogue: 0,0:05:53.20,0:05:56.50,Default,Heiter,0000,0000,0000,,Mas, certo dia, percebi uma coisa.
+Dialogue: 0,0:05:57.28,0:05:59.57,Default,Heiter,0000,0000,0000,,"Se eu morrer desse jeito,
+Dialogue: 0,0:05:59.57,0:06:03.47,Default,Heiter,0000,0000,0000,,tudo o que aprendi com ele sobre coragem,\Ndeterminação e companheirismo,
+Dialogue: 0,0:06:03.77,0:06:09.05,Default,Heiter,0000,0000,0000,,todas essas memórias preciosas,\Ntambém não desapareceriam deste mundo"?
+Dialogue: 0,0:06:12.34,0:06:16.98,Italics,Heiter,0000,0000,0000,,Assim como acho que seria um desperdício\Nvocê morrer com memórias preciosas,
+Dialogue: 0,0:06:17.54,0:06:20.57,Default,Heiter,0000,0000,0000,,caso as tenha dentro de você.
+Dialogue: 0,0:06:22.60,0:06:27.03,Default,Fern,0000,0000,0000,,O Sr. Heiter sempre teve medo\Nde morrer e me deixar sozinha.
+Dialogue: 0,0:06:28.45,0:06:31.48,Default,Fern,0000,0000,0000,,Ele fez a coisa certa.
+Dialogue: 0,0:06:31.48,0:06:34.25,Default,Fern,0000,0000,0000,,Não quero que se arrependa\Npor ter me salvado.
+Dialogue: 0,0:06:34.74,0:06:37.11,Default,Fern,0000,0000,0000,,Não importa se sou uma maga ou não...
+Dialogue: 0,0:06:37.11,0:06:42.01,Default,Fern,0000,0000,0000,,Aprender a viver sozinha é a minha forma\Nde agradecer pelo o que ele fez.
+Dialogue: 0,0:06:42.31,0:06:47.40,Default,Fern,0000,0000,0000,,Quero que ele pense: "Fico feliz por ter te salvado."\NOu que tudo estará bem agora.
+Dialogue: 0,0:06:50.94,0:06:54.14,Default,Frieren,0000,0000,0000,,Você está memorizando\Ntudo o que te ensino, certo?
+Dialogue: 0,0:06:54.14,0:06:55.28,Default,Fern,0000,0000,0000,,Sim.
+Dialogue: 0,0:06:55.28,0:06:57.52,Default,Frieren,0000,0000,0000,,Então, faça como achar melhor.
+Dialogue: 0,0:07:58.28,0:08:02.25,Default,Frieren,0000,0000,0000,,Não havia nada registrado\Nsobre ressurreição ou imortalidade.
+Dialogue: 0,0:08:02.25,0:08:03.65,Default,Heiter,0000,0000,0000,,É mesmo?
+Dialogue: 0,0:08:03.65,0:08:05.26,Default,Frieren,0000,0000,0000,,Você sabia?
+Dialogue: 0,0:08:05.88,0:08:09.28,Default,Heiter,0000,0000,0000,,O medo da morte é imensurável.
+Dialogue: 0,0:08:09.28,0:08:14.14,Default,Heiter,0000,0000,0000,,Se algo assim existisse de verdade,\No próprio Ewig teria usado nele mesmo.
+Dialogue: 0,0:08:14.14,0:08:15.48,Default,Frieren,0000,0000,0000,,Então, por quê?
+Dialogue: 0,0:08:17.00,0:08:19.54,Default,Heiter,0000,0000,0000,,Como a Fern está agora?
+Dialogue: 0,0:08:19.54,0:08:21.86,Default,Frieren,0000,0000,0000,,Precisa lapidar algumas partes ainda...
+Dialogue: 0,0:08:22.34,0:08:25.37,Default,Frieren,0000,0000,0000,,mas pode-se dizer que ela\Nestá no nível de um adulto.
+Dialogue: 0,0:08:26.99,0:08:30.61,Default,Heiter,0000,0000,0000,,É mesmo? Ela conseguiu a tempo.
+Dialogue: 0,0:08:31.17,0:08:35.49,Default,Heiter,0000,0000,0000,,Significa que ela não irá mais\Nte atrasar, certo, Frieren?
+Dialogue: 0,0:08:37.00,0:08:40.50,Flashback,Heiter,0000,0000,0000,,Pode levá-la em suas viagens?
+Dialogue: 0,0:08:40.50,0:08:43.50,Flashback,Frieren,0000,0000,0000,,Desculpa, Heiter. Não posso fazer isso.
+Dialogue: 0,0:08:44.40,0:08:46.26,Flashback,Frieren,0000,0000,0000,,Ela só vai me atrasar.
+Dialogue: 0,0:08:46.82,0:08:48.56,Default,Frieren,0000,0000,0000,,Você calculou tudo isso, Heiter?
+Dialogue: 0,0:08:51.34,0:08:55.76,Default,Heiter,0000,0000,0000,,O pagamento por decodificar\Nestá guardado na gaveta da mesa.
+Dialogue: 0,0:08:56.05,0:08:59.05,Default,Heiter,0000,0000,0000,,Por favor, parta com ela hoje à noite.
+Dialogue: 0,0:08:59.05,0:09:00.77,Default,Frieren,0000,0000,0000,,O que pretende fazer?
+Dialogue: 0,0:09:01.54,0:09:05.40,Default,Heiter,0000,0000,0000,,Como pode ver, não durarei muito.
+Dialogue: 0,0:09:06.28,0:09:12.88,Default,Heiter,0000,0000,0000,,Não quero que ela passe pela experiência\Nde perder alguém novamente.
+Dialogue: 0,0:09:13.77,0:09:17.79,Default,Heiter,0000,0000,0000,,Frieren, deixo a Fern sob seus cuidados.
+Dialogue: 0,0:09:19.68,0:09:22.79,Default,Frieren,0000,0000,0000,,Está tentando dar uma\Nde durão de novo, Heiter?
+Dialogue: 0,0:09:25.45,0:09:28.94,Default,Frieren,0000,0000,0000,,A Fern já está preparada\Npara se separar de você.
+Dialogue: 0,0:09:29.51,0:09:35.05,Default,Frieren,0000,0000,0000,,Você precisa se despedir\Ndevidamente dela antes de morrer,
+Dialogue: 0,0:09:35.45,0:09:38.62,Default,Frieren,0000,0000,0000,,e criar o máximo de memórias com ela,\Nna medida do possível.
+Dialogue: 0,0:09:41.74,0:09:43.56,Default,Heiter,0000,0000,0000,,Frieren.
+Dialogue: 0,0:09:44.08,0:09:47.17,Default,Heiter,0000,0000,0000,,Você é mesmo uma garota gentil.
+Dialogue: 0,0:09:56.20,0:09:59.70,Flashback,Frieren,0000,0000,0000,,Ei, por que você salvou a Fern?
+Dialogue: 0,0:10:16.65,0:10:19.65,Flashback,Heiter,0000,0000,0000,,O Herói Himmel teria feito o mesmo.
+Dialogue: 0,0:10:22.31,0:10:24.10,Flashback Italics,Frieren,0000,0000,0000,,É verdade.
+Dialogue: 0,0:10:36.94,0:10:38.37,Default,Frieren,0000,0000,0000,,Então, acho que...
+Dialogue: 0,0:10:39.45,0:10:41.42,Default,Frieren,0000,0000,0000,,farei o mesmo.
+Dialogue: 0,0:10:51.48,0:10:53.17,Default,Fern,0000,0000,0000,,Muito obrigada.
+Dialogue: 0,0:10:53.61,0:10:57.54,Default,Fern,0000,0000,0000,,Graças a você, consegui retribuir\No Sr. Heiter apropriadamente.
+Dialogue: 0,0:10:59.02,0:11:02.56,Default,Frieren,0000,0000,0000,,O que aconteceu foi\Nque esse sacerdote degenerado
+Dialogue: 0,0:11:03.02,0:11:05.23,Default,Frieren,0000,0000,0000,,passou a perna em mim.
+Dialogue: 0,0:11:10.62,0:11:12.17,Default,Frieren,0000,0000,0000,,Bem, vamos?
+Dialogue: 0,0:11:15.01,0:11:18.02,Sign,SIGN,0000,0000,0000,,{\fad(1,1)\fs18\b0\bord0\fnTimes New Roman\c&HFFFFFF&\pos(436,285)}Episódio 2: Não precisa ser magia...
+Dialogue: 0,0:11:26.69,0:11:32.19,Sign,SIGN,0000,0000,0000,,{\fs19\fnTimes New Roman\c&HFFFFFF&\3c&HD1AF58&\pos(256,62)}26 anos se passaram desde a morte do Herói Himmel.\NEstamos em Turk, nas Terras Centrais.
+Dialogue: 0,0:11:34.65,0:11:36.09,Default,Frieren,0000,0000,0000,,Já chega, Fern.
+Dialogue: 0,0:11:36.09,0:11:37.58,Default,Frieren,0000,0000,0000,,Terminamos.
+Dialogue: 0,0:11:41.47,0:11:46.35,Default,Homem,0000,0000,0000,,Vocês me ajudaram bastante.\NAqui está a recompensa que prometi.
+Dialogue: 0,0:11:47.47,0:11:50.47,Default,Fern,0000,0000,0000,,Só temos feito trabalhos simples...
+Dialogue: 0,0:11:50.47,0:11:52.36,Default,Frieren,0000,0000,0000,,Vida de aventureira é assim, mesmo.
+Dialogue: 0,0:11:52.92,0:11:54.92,Default,Fern,0000,0000,0000,,Qual foi a recompensa?
+Dialogue: 0,0:11:54.92,0:12:00.64,Default,Frieren,0000,0000,0000,,Magia popular. Uma magia para aquecer chá.\NVamos testar mais tarde.
+Dialogue: 0,0:12:02.50,0:12:05.45,Italics,Fern,0000,0000,0000,,Outro dia, foi magia que tira\Nferrugem de estátuas de bronze.
+Dialogue: 0,0:12:06.24,0:12:10.67,Italics,Fern,0000,0000,0000,,E, antes disso, foi um feitiço\Nque faz uvas doces ficarem azedas.
+Dialogue: 0,0:12:09.29,0:12:10.66,Flashback Top,Fern,0000,0000,0000,,Que azedo...
+Dialogue: 0,0:12:11.41,0:12:13.84,Default,Fern,0000,0000,0000,,Só estamos coletando\Nmagias esquisitas.
+Dialogue: 0,0:12:13.84,0:12:15.05,Default,Frieren,0000,0000,0000,,É um hobby meu.
+Dialogue: 0,0:12:15.81,0:12:19.64,Default,Fern,0000,0000,0000,,Srta. Frieren, você gosta bastante\Nde magia, não é mesmo?
+Dialogue: 0,0:12:19.64,0:12:22.30,Default,Frieren,0000,0000,0000,,É meio-termo. Assim como você.
+Dialogue: 0,0:12:23.04,0:12:25.56,Default,Fern,0000,0000,0000,,Tenho a impressão de que é diferente.
+Dialogue: 0,0:12:27.07,0:12:28.56,Default,Frieren,0000,0000,0000,,É igual.
+Dialogue: 0,0:12:29.58,0:12:33.44,Default,fitoterapeuta,0000,0000,0000,,Tudo bem mesmo eu pedir um favor a vocês?
+Dialogue: 0,0:12:33.44,0:12:38.45,Default,fitoterapeuta,0000,0000,0000,,Eu sou fitoterapeuta, então não tenho\Nnenhuma magia para ensinar a vocês...
+Dialogue: 0,0:12:39.24,0:12:44.45,Default,Frieren,0000,0000,0000,,Não tem problema. Só de nos ensinar sobre\Na flora desta região já será de grande ajuda.
+Dialogue: 0,0:12:48.47,0:12:49.46,Default,fitoterapeuta,0000,0000,0000,,É aqui.
+Dialogue: 0,0:12:54.78,0:12:57.74,Default,Fern,0000,0000,0000,,É uma estátua do Herói Himmel?
+Dialogue: 0,0:12:57.74,0:12:59.84,Default,fitoterapeuta,0000,0000,0000,,Está em péssimo estado, não acham?
+Dialogue: 0,0:12:59.84,0:13:03.60,Default,fitoterapeuta,0000,0000,0000,,E eu não consigo fazer\Nmais nada nesta idade.
+Dialogue: 0,0:13:04.36,0:13:07.56,Default,fitoterapeuta,0000,0000,0000,,Os moradores do vilarejo\Ntambém não se importam mais.
+Dialogue: 0,0:13:09.30,0:13:10.56,Flashback,Pessoas,0000,0000,0000,,Fujam!
+Dialogue: 0,0:13:30.61,0:13:37.12,Default,fitoterapeuta,0000,0000,0000,,O Sr. Himmel colocou sua vida em jogo ao lutar\Ncontra um demônio que atacou o nosso vilarejo.
+Dialogue: 0,0:13:37.12,0:13:40.55,Default,fitoterapeuta,0000,0000,0000,,É angustiante ver\Na estátua nesse estado.
+Dialogue: 0,0:13:41.15,0:13:44.61,Default,Frieren,0000,0000,0000,,Não. Acredito que seja\Nconsequência dos atos dele.
+Dialogue: 0,0:13:44.61,0:13:47.26,Default,Frieren,0000,0000,0000,,A culpa é do Himmel, por ser exibido.
+Dialogue: 0,0:13:47.82,0:13:52.27,Default,Frieren,0000,0000,0000,,Ele devia ter recusado quando disseram\Nque construiriam uma estátua.
+Dialogue: 0,0:13:53.84,0:13:54.77,Flashback,Himmel,0000,0000,0000,,Está bom?
+Dialogue: 0,0:13:54.77,0:13:56.78,Flashback,Himmel,0000,0000,0000,,Não estou charmoso demais nesta pose?
+Dialogue: 0,0:13:56.78,0:13:58.99,Flashback Top Italics,Eisen,0000,0000,0000,,Decide isso logo.
+Dialogue: 0,0:13:57.44,0:14:01.53,Italics,Frieren,0000,0000,0000,,Ele ficou preocupado com sua pose\Npor 18 horas e estressou o artesão.
+Dialogue: 0,0:13:58.99,0:14:00.51,Flashback Top Italics,Frieren,0000,0000,0000,,Estou com fome!
+Dialogue: 0,0:14:02.44,0:14:06.58,Default,Frieren,0000,0000,0000,,No fim, ele se aquietou com uma pose\Nque não parecesse um idiota.
+Dialogue: 0,0:14:07.52,0:14:09.41,Default,fitoterapeuta,0000,0000,0000,,Que história interessante.
+Dialogue: 0,0:14:10.18,0:14:15.47,Default,fitoterapeuta,0000,0000,0000,,Falando nisso, havia uma maga élfica\Nno grupo do Sr. Herói, não?
+Dialogue: 0,0:14:16.76,0:14:18.80,Default,Frieren,0000,0000,0000,,Bem, posso limpar?
+Dialogue: 0,0:14:22.64,0:14:24.30,Default,fitoterapeuta,0000,0000,0000,,Muito obrigada!
+Dialogue: 0,0:14:24.92,0:14:27.18,Default,fitoterapeuta,0000,0000,0000,,Magia é uma coisa fantástica, não é mesmo?
+Dialogue: 0,0:14:27.18,0:14:30.18,Default,fitoterapeuta,0000,0000,0000,,Não ficou nenhum sinal\Nde ferrugem na estátua de bronze.
+Dialogue: 0,0:14:32.15,0:14:36.94,Default,fitoterapeuta,0000,0000,0000,,Gostaria de colocar uma cor nela.\NE talvez plantar algumas flores.
+Dialogue: 0,0:14:37.58,0:14:41.64,Default,fitoterapeuta,0000,0000,0000,,Srta. Frieren, você pode usar magia\Npara criar um jardim de flores, não?
+Dialogue: 0,0:14:41.64,0:14:44.91,Default,Frieren,0000,0000,0000,,É verdade. Se tiver alguma flor adequada...
+Dialogue: 0,0:14:47.91,0:14:51.64,Default,Frieren,0000,0000,0000,,Não. Talvez uma Erva\Nda Lua Azul seja melhor.
+Dialogue: 0,0:14:51.64,0:14:54.21,Default,Fern,0000,0000,0000,,Que tipo de flor é essa?
+Dialogue: 0,0:14:54.21,0:14:56.32,Default,Frieren,0000,0000,0000,,Não sei. Nunca a vi antes.
+Dialogue: 0,0:14:56.32,0:14:57.54,Default,Fern,0000,0000,0000,,Então, por quê?
+Dialogue: 0,0:14:58.44,0:15:00.17,Default,Frieren,0000,0000,0000,,É a flor da terra natal do Himmel.
+Dialogue: 0,0:15:00.66,0:15:03.76,Default,Fern,0000,0000,0000,,Mas a magia não daria certo\Ncom uma flor nunca vista antes.
+Dialogue: 0,0:15:10.47,0:15:11.81,Default,fitoterapeuta,0000,0000,0000,,A Erva da Lua Azul...
+Dialogue: 0,0:15:12.32,0:15:14.41,Default,fitoterapeuta,0000,0000,0000,,Que nome nostálgico.
+Dialogue: 0,0:15:16.64,0:15:22.04,Default,fitoterapeuta,0000,0000,0000,,Antigamente, naquela floresta,\Nhavia uma rica vegetação.
+Dialogue: 0,0:15:27.75,0:15:29.70,Default,Frieren,0000,0000,0000,,E não há mais nenhuma por aqui?
+Dialogue: 0,0:15:30.70,0:15:33.01,Default,fitoterapeuta,0000,0000,0000,,Tudo foi destruído.
+Dialogue: 0,0:15:33.01,0:15:37.21,Default,fitoterapeuta,0000,0000,0000,,Faz décadas que nenhuma\Nfoi vista neste continente.
+Dialogue: 0,0:15:38.41,0:15:39.55,Default,Frieren,0000,0000,0000,,Entendo.
+Dialogue: 0,0:15:42.72,0:15:44.72,Default,Frieren,0000,0000,0000,,Vamos, Fern.
+Dialogue: 0,0:15:44.72,0:15:45.84,Default,Fern,0000,0000,0000,,Certo.
+Dialogue: 0,0:15:50.38,0:15:52.78,Default,Frieren,0000,0000,0000,,Está escondendo algo.
+Dialogue: 0,0:15:52.78,0:15:54.68,Default,Frieren,0000,0000,0000,,Não ficarei brava, então me mostre.
+Dialogue: 0,0:15:58.76,0:16:02.70,Default,Frieren,0000,0000,0000,,São ratos-da-semente. É um animal\Ndaninho que come sementes.
+Dialogue: 0,0:16:02.70,0:16:04.32,Default,Fern,0000,0000,0000,,Os levarei de volta à floresta.
+Dialogue: 0,0:16:09.12,0:16:12.08,Default,Frieren,0000,0000,0000,,Ei, Fern, vamos procurar\Npela Erva da Lua Azul?
+Dialogue: 0,0:16:12.64,0:16:14.20,Default,Fern,0000,0000,0000,,Está certa disso?
+Dialogue: 0,0:16:14.95,0:16:17.55,Default,Frieren/Fern,0000,0000,0000,,Pouco tempo atrás, esta floresta tinha uma rica—
+Dialogue: 0,0:16:17.55,0:16:19.04,Default,Frieren/Fern,0000,0000,0000,,Isso faz décadas.
+Dialogue: 0,0:16:19.67,0:16:21.29,Default,Frieren,0000,0000,0000,,Mas vale a pena procurar.
+Dialogue: 0,0:16:22.50,0:16:24.63,Default,Frieren,0000,0000,0000,,Se encontrarmos uma delas\Ne a analisarmos,
+Dialogue: 0,0:16:25.30,0:16:28.13,Default,Frieren,0000,0000,0000,,obteremos a magia de fazer\Na Erva da Lua Azul florescer.
+Dialogue: 0,0:16:29.10,0:16:30.64,Default,Fern,0000,0000,0000,,Isso é pelo Sr. Himmel?
+Dialogue: 0,0:16:31.41,0:16:35.10,Default,Frieren,0000,0000,0000,,Não. Com toda a certeza, é por mim.
+Dialogue: 0,0:17:27.95,0:17:31.75,Default,Fern,0000,0000,0000,,Srta. Frieren, seis meses se passaram\Ndesde começamos a procurar
+Dialogue: 0,0:17:31.75,0:17:33.36,Default,Fern,0000,0000,0000,,pela Erva da Lua Azul.
+Dialogue: 0,0:17:33.36,0:17:37.62,Default,Frieren,0000,0000,0000,,É mesmo. Será que devemos\Nexpandir nossa área de busca?
+Dialogue: 0,0:17:46.84,0:17:50.88,Default,fitoterapeuta,0000,0000,0000,,Ora, ora. Que raridade te ver sozinha.
+Dialogue: 0,0:17:52.95,0:17:56.98,Default,fitoterapeuta,0000,0000,0000,,Já faz um bom tempo desde que vocês\Nvieram para o vilarejo.
+Dialogue: 0,0:17:58.18,0:18:00.64,Default,fitoterapeuta,0000,0000,0000,,Será que encontrarão a Erva da Lua Azul?
+Dialogue: 0,0:18:01.41,0:18:03.32,Default,Fern,0000,0000,0000,,Acha que encontraremos?
+Dialogue: 0,0:18:05.44,0:18:08.78,Default,Fern,0000,0000,0000,,A fixação da Srta. Frieren\Npela magia é anormal.
+Dialogue: 0,0:18:09.58,0:18:14.28,Default,Fern,0000,0000,0000,,Se continuar assim, continuaremos\Nprocurando por ela durante anos.
+Dialogue: 0,0:18:15.10,0:18:19.47,Default,Fern,0000,0000,0000,,A Srta. Frieren é uma maga com o poder\Npara salvar muitas pessoas.
+Dialogue: 0,0:18:20.50,0:18:25.50,Default,Fern,0000,0000,0000,,Ela não deveria estar perdendo tempo\Ncom coisas que não existem.
+Dialogue: 0,0:18:27.18,0:18:28.72,Default,fitoterapeuta,0000,0000,0000,,Ai, os jovens.
+Dialogue: 0,0:18:30.30,0:18:33.55,Default,Fern,0000,0000,0000,,O meu pensamento está errado?
+Dialogue: 0,0:18:34.12,0:18:36.38,Default,fitoterapeuta,0000,0000,0000,,Não acho que esteja.
+Dialogue: 0,0:18:37.32,0:18:42.18,Default,fitoterapeuta,0000,0000,0000,,Mas, para a Frieren, não é assim.
+Dialogue: 0,0:18:44.90,0:18:49.75,Default,fitoterapeuta,0000,0000,0000,,Entretanto, ela é adulta\Nhá muito mais tempo que nós.
+Dialogue: 0,0:18:49.75,0:18:54.03,Default,fitoterapeuta,0000,0000,0000,,Tenho certeza de que, se você for franca\Nao transmitir esses sentimentos, ela entenderá.
+Dialogue: 0,0:19:12.84,0:19:16.89,Default,Fern,0000,0000,0000,,Estas sementes parecem ser de uma espécie\Npróxima. Ela guardou para fins medicinais.
+Dialogue: 0,0:19:17.90,0:19:21.55,Default,Fern,0000,0000,0000,,Se as plantarmos em torno\Nda estátua do Sr. Himmel no lugar...
+Dialogue: 0,0:19:22.30,0:19:23.89,Default,Frieren,0000,0000,0000,,Já entendi, Fern.
+Dialogue: 0,0:19:24.64,0:19:26.92,Default,Frieren,0000,0000,0000,,Fiz você se preocupar com isso.
+Dialogue: 0,0:19:29.60,0:19:32.36,Default,Frieren,0000,0000,0000,,Não se trata mais do meu tempo.
+Dialogue: 0,0:19:32.81,0:19:34.03,Default,Frieren,0000,0000,0000,,E já é hora.
+Dialogue: 0,0:19:34.90,0:19:37.03,Default,Frieren,0000,0000,0000,,Vamos parar após\Nprocurarmos mais um pouco.
+Dialogue: 0,0:19:39.28,0:19:42.16,Default,Fern,0000,0000,0000,,Quantos anos serão esse "mais um pouco"?
+Dialogue: 0,0:19:42.64,0:19:43.86,Default,Frieren,0000,0000,0000,,Só mais um pouco.
+Dialogue: 0,0:19:44.78,0:19:48.12,Default,Fern,0000,0000,0000,,Você é insis—
+Dialogue: 0,0:19:59.10,0:20:00.72,Default,Frieren,0000,0000,0000,,Vamos segui-los?
+Dialogue: 0,0:20:30.90,0:20:35.27,Default,Fern,0000,0000,0000,,Srta. Frieren, por que está\Ncoletando magias?
+Dialogue: 0,0:20:35.27,0:20:36.42,Default,Frieren,0000,0000,0000,,É só um hobby meu.
+Dialogue: 0,0:20:36.90,0:20:38.42,Default,Fern,0000,0000,0000,,Não é o que parece.
+Dialogue: 0,0:20:39.28,0:20:41.44,Default,Frieren,0000,0000,0000,,É só um hobby, de verdade.
+Dialogue: 0,0:20:41.92,0:20:45.92,Default,Frieren,0000,0000,0000,,Eu era muito mais apática\Ne preguiçosa antigamente.
+Dialogue: 0,0:21:11.21,0:21:12.92,Flashback,Frieren,0000,0000,0000,,Que nojento.
+Dialogue: 0,0:21:21.61,0:21:24.85,Default,Frieren,0000,0000,0000,,E havia um idiota que me elogiava\Npelas magias que eu obtinha.
+Dialogue: 0,0:21:25.52,0:21:26.87,Default,Frieren,0000,0000,0000,,É só isso.
+Dialogue: 0,0:21:28.72,0:21:30.55,Default,Fern,0000,0000,0000,,Que motivo bobo.
+Dialogue: 0,0:21:31.32,0:21:32.73,Default,Frieren,0000,0000,0000,,Verdade.
+Dialogue: 0,0:21:54.70,0:21:55.59,Default,Fern/Frieren,0000,0000,0000,,Isso é...
+Dialogue: 0,0:21:56.04,0:21:57.38,Default,Fern/Frieren,0000,0000,0000,,Uma pétala de flor.
+Dialogue: 0,0:21:58.27,0:22:04.01,Default,Frieren,0000,0000,0000,,Dizem que os ratos-da-semente escondem\Nsua comida em um lugar livre de predadores.
+Dialogue: 0,0:22:04.01,0:22:05.93,Default,Fern,0000,0000,0000,,São animais inteligentes.
+Dialogue: 0,0:22:06.46,0:22:08.18,Default,Frieren,0000,0000,0000,,Nem tanto.
+Dialogue: 0,0:22:08.78,0:22:10.92,Default,Frieren,0000,0000,0000,,Eles escondem em diferentes lugares,
+Dialogue: 0,0:22:10.92,0:22:13.94,Default,Frieren,0000,0000,0000,,então esquecem\Nonde escondem com frequência.
+Dialogue: 0,0:22:17.81,0:22:18.94,Flashback,Frieren,0000,0000,0000,,Erva da Lua Azul?
+Dialogue: 0,0:22:19.50,0:22:23.53,Flashback,Himmel,0000,0000,0000,,É a flor da minha terra natal. São lindas.
+Dialogue: 0,0:22:24.60,0:22:27.10,Flashback,Himmel,0000,0000,0000,,Bem, não tanto quanto eu.
+Dialogue: 0,0:22:27.10,0:22:28.53,Flashback,Frieren,0000,0000,0000,,Acho que já deu a hora de irmos.
+Dialogue: 0,0:22:29.84,0:22:34.29,Flashback,Himmel,0000,0000,0000,,Frieren. Quero mostrá-las\Na você algum dia.
+Dialogue: 0,0:22:34.96,0:22:37.21,Flashback,Frieren,0000,0000,0000,,É mesmo? Bom, se surgir a oportunidade...
+Dialogue: 0,0:22:45.98,0:22:49.92,Default,Frieren,0000,0000,0000,,Eu achava que estariam aqui,\Nmas não esperava essa quantidade.
+Dialogue: 0,0:22:54.18,0:22:57.11,Default,Frieren,0000,0000,0000,,Você demorou, Himmel.
+Dialogue: 0,0:23:02.64,0:23:04.99,Default,Fern,0000,0000,0000,,Nós as encontramos mesmo...
+Dialogue: 0,0:23:05.70,0:23:08.21,Default,Fern,0000,0000,0000,,Agora, será possível realizar\Na magia da Erva da Lua Azul.
+Dialogue: 0,0:23:09.04,0:23:11.99,Default,Fern,0000,0000,0000,,Por que você se dedica tanto à magia?
+Dialogue: 0,0:23:11.99,0:23:13.75,Default,Fern,0000,0000,0000,,Não consigo entender.
+Dialogue: 0,0:23:14.46,0:23:16.00,Default,Frieren,0000,0000,0000,,Estou certa de que consegue, sim.
+Dialogue: 0,0:23:16.74,0:23:20.00,Default,Frieren,0000,0000,0000,,Já que você não desistiu\Nde se tornar maga, Fern.
+Dialogue: 0,0:23:21.64,0:23:23.64,Default,Fern,0000,0000,0000,,É diferente.
+Dialogue: 0,0:23:23.64,0:23:28.26,Default,Fern,0000,0000,0000,,Só estou satisfeita com qualquer poder\Nútil para viver por conta própria.
+Dialogue: 0,0:23:29.35,0:23:31.55,Default,Fern,0000,0000,0000,,Não precisa ser magia...
+Dialogue: 0,0:23:32.02,0:23:35.27,Default,Frieren,0000,0000,0000,,Mas você escolheu a magia.
+Dialogue: 0,0:23:47.78,0:23:49.24,Default,Fern,0000,0000,0000,,Sim, é verdade.
+Dialogue: 0,0:23:51.27,0:23:56.01,Default,fitoterapeuta,0000,0000,0000,,Quem diria que eu seria capaz de ver\Na Erva da Lua Azul novamente...
+Dialogue: 0,0:23:56.61,0:23:57.87,Default,fitoterapeuta,0000,0000,0000,,Realmente, são lindas.
+Dialogue: 0,0:23:59.15,0:24:01.13,Default,fitoterapeuta,0000,0000,0000,,Obrigada, Frieren.
+Dialogue: 0,0:24:01.78,0:24:05.72,Default,fitoterapeuta,0000,0000,0000,,Tenho certeza de que essa estátua\Nnão será mais esquecida.
+Dialogue: 0,0:24:07.30,0:24:09.18,Default,Frieren,0000,0000,0000,,Esqueci uma coisa.
+Dialogue: 0,0:24:10.58,0:24:11.81,Default,Frieren,0000,0000,0000,,Pronto.
+Dialogue: 0,0:24:12.42,0:24:15.30,Default,fitoterapeuta,0000,0000,0000,,Nossa, que adorável.
+Dialogue: 0,0:24:15.98,0:24:17.81,Default,Frieren,0000,0000,0000,,Bem, vamos?
+Dialogue: 0,0:24:20.02,0:24:22.56,Songs_ED,ED LYRICS,0000,0000,0000,,E você está bem?
+Dialogue: 0,0:24:23.06,0:24:25.06,Songs_ED,ED LYRICS,0000,0000,0000,,Pode me ouvir?
+Dialogue: 0,0:24:25.86,0:24:31.95,Songs_ED,ED LYRICS,0000,0000,0000,,Seguindo por trilhos desertos
+Dialogue: 0,0:24:31.95,0:24:34.28,Songs_ED,ED LYRICS,0000,0000,0000,,Chorando excessivamente
+Dialogue: 0,0:24:34.87,0:24:37.45,Songs_ED,ED LYRICS,0000,0000,0000,,Querendo que você sorria
+Dialogue: 0,0:24:37.45,0:24:43.50,Songs_ED,ED LYRICS,0000,0000,0000,,Me prendo às memórias\Nque quero manter frescas
+Dialogue: 0,0:24:43.50,0:24:47.21,Songs_ED,ED LYRICS,0000,0000,0000,,Tem uma coisa que gostaria de te dizer
+Dialogue: 0,0:24:47.21,0:24:49.96,Songs_ED,ED LYRICS,0000,0000,0000,,Com palavras mais preciosas que "adeus"
+Dialogue: 0,0:24:49.96,0:24:55.64,Songs_ED,ED LYRICS,0000,0000,0000,,Nada notável, mas especial
+Dialogue: 0,0:24:55.64,0:24:59.18,Songs_ED,ED LYRICS,0000,0000,0000,,Sabe, coisas que não poderiam ser vistas
+Dialogue: 0,0:24:59.18,0:25:02.23,Songs_ED,ED LYRICS,0000,0000,0000,,Se não fossem por estes olhos
+Dialogue: 0,0:25:02.23,0:25:06.98,Songs_ED,ED LYRICS,0000,0000,0000,,Por quê? E começam a transbordar
+Dialogue: 0,0:25:06.98,0:25:13.07,Songs_ED,ED LYRICS,0000,0000,0000,,Por isso, se eu nascesse novamente
+Dialogue: 0,0:25:13.07,0:25:18.91,Songs_ED,ED LYRICS,0000,0000,0000,,Eu, com certeza,\Nescolheria este lugar mais uma vez
+Dialogue: 0,0:25:18.91,0:25:24.92,Songs_ED,ED LYRICS,0000,0000,0000,,Então, se nos encontrássemos novamente
+Dialogue: 0,0:25:24.92,0:25:30.67,Songs_ED,ED LYRICS,0000,0000,0000,,Nunca te deixaria ir,\Neu escolheria o presente
+Dialogue: 0,0:25:30.67,0:25:33.63,Songs_ED,ED LYRICS,0000,0000,0000,,Mesmo se nenhuma promessa for feita
+Dialogue: 0,0:25:33.63,0:25:36.55,Songs_ED,ED LYRICS,0000,0000,0000,,Mesmo se eu me perder em dias de solidão
+Dialogue: 0,0:25:36.55,0:25:42.73,Songs_ED,ED LYRICS,0000,0000,0000,,Não há problema com estas lágrimas, \Npois o amanhecer certamente virá
+Dialogue: 0,0:25:42.73,0:25:45.39,Songs_ED,ED LYRICS,0000,0000,0000,,Estou sussurrando nossa canção de ninar
+Dialogue: 0,0:25:45.39,0:25:49.32,Songs_ED,ED LYRICS,0000,0000,0000,,Para você voltar para casa
+Dialogue: 0,0:25:50.36,0:25:53.30,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)}{\an8\pos(586,25)}Ele não\Nseria forte\Ndemais?
+Dialogue: 0,0:25:50.36,0:25:53.47,Italics,,0000,0000,0000,,— Ele não seria forte demais?\N— Qual, o Sábio Ancião da Corrupção?
+Dialogue: 0,0:25:51.30,0:25:53.46,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)}{\an2\pos(70,102)}Qual, o Sábio\NAncião da\NCorrupção?
+Dialogue: 0,0:25:52.60,0:25:55.30,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)}{\fs15\fscx80\pos(590,259)}Que\Nvocê\Ntinha um\Ncoração\Nde gelo\Npor nunca\Nvisitar.
+Dialogue: 0,0:25:53.47,0:25:55.69,Italics,,0000,0000,0000,,— Estamos viajando juntos há muito tempo.\N— Bom, vamos colocá-la em prática?
+Dialogue: 0,0:25:53.64,0:25:56.44,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)}{\pos(346,232)}Bom, vamos colocá-la em prática?
+Dialogue: 0,0:25:54.26,0:25:56.58,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)}{\fs16\pos(452,33)}Estamos viajando juntos há muito tempo.
+Dialogue: 0,0:25:55.69,0:25:57.95,Italics,,0000,0000,0000,,— Existe algum objetivo nesta jornada?\N— É importante estudar.
+Dialogue: 0,0:25:56.10,0:25:57.92,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)}{\pos(498,123)}É importante estudar.
+Dialogue: 0,0:25:56.36,0:25:57.82,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)}{\fs15\pos(286,208)}Existe\Nalgum\Nobjetivo\Nnesta\Njornada?
+Dialogue: 0,0:25:57.86,0:26:00.08,EpTitle,TITLE,0000,0000,0000,,{\fad(300,1)\b0\pos(323,240)}Episódio 3\N\N\N\N\N\N\NA magia para matar pessoas
+Dialogue: 0,0:25:57.95,0:25:59.95,Italics,Frieren,0000,0000,0000,,A magia para matar pessoas.

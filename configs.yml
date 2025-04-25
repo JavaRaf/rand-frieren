@@ -173,7 +173,7 @@ filters:
 
   two_panels:
     enabled: true
-    percent: 0.5
+    percent: 0.4
 
   mirror:
     enabled: true
@@ -181,7 +181,7 @@ filters:
 
   negative:
     enabled: true
-    percent: 0.5
+    percent: 0.2
 
   # warp_in:
   #   enabled: false

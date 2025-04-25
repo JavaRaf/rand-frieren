@@ -1,0 +1,427 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: DefaultItalicsTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: DefaultOverlap,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultOverlapTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: FlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: FlashbackTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0018,0
+Style: FlashbackItalicsTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Narration,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Signs_WText,Times New Roman,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,0030,0030,0010,0
+Style: Signs_EpTitle,Times New Roman,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0030,0030,0010,0
+Style: Signs_NextEp,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Songs_OP,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00B7812E,&H00B7812E,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Songs_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A95974,&H00A95974,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.89,0:00:03.04,Default,SEIN,0000,0000,0000,,I see.
+Dialogue: 0,0:00:03.70,0:00:06.02,Default,SEIN,0000,0000,0000,,So you're an adventurer.
+Dialogue: 0,0:00:07.59,0:00:11.65,Default,SEIN,0000,0000,0000,,I wanted to be one a long time ago.
+Dialogue: 0,0:00:13.14,0:00:17.98,Default,SEIN,0000,0000,0000,,It was the kind of dumb \Nchildhood dream everyone has.
+Dialogue: 0,0:00:22.54,0:00:25.04,Songs_OP,OP LYRICS,0000,0000,0000,,Like a fairy tale
+Dialogue: 0,0:00:25.04,0:00:27.46,Songs_OP,OP LYRICS,0000,0000,0000,,It's a sign the story has reached its end
+Dialogue: 0,0:00:27.46,0:00:30.38,Songs_OP,OP LYRICS,0000,0000,0000,,Like a single passage taken from
+Dialogue: 0,0:00:30.38,0:00:32.01,Songs_OP,OP LYRICS,0000,0000,0000,,A journey that was too long
+Dialogue: 0,0:00:32.01,0:00:34.34,Songs_OP,OP LYRICS,0000,0000,0000,,Of the evil that once cast a shadow
+Dialogue: 0,0:00:34.34,0:00:36.68,Songs_OP,OP LYRICS,0000,0000,0000,,Across this land
+Dialogue: 0,0:00:36.68,0:00:39.01,Songs_OP,OP LYRICS,0000,0000,0000,,And the memories of the short journey
+Dialogue: 0,0:00:39.01,0:00:41.47,Songs_OP,OP LYRICS,0000,0000,0000,,With the hero who defeated it
+Dialogue: 0,0:00:42.27,0:00:51.23,Signs,SIGN,0000,0000,0000,,{\fad(1,473)\blur0.25\fs25\fnGeorgia\fsp3.9\pos(322,230)\c&HFFFCFE&\t(989,4326,\c&HEFC777&)\t(6411,6745,\c&HEAC732&)}Beyond Journey's End
+Dialogue: 0,0:00:51.48,0:00:53.78,Songs_OP,OP LYRICS,0000,0000,0000,,The story ends
+Dialogue: 0,0:00:53.78,0:00:56.28,Songs_OP,OP LYRICS,0000,0000,0000,,And the hero goes to sleep
+Dialogue: 0,0:00:56.28,0:00:59.12,Songs_OP,OP LYRICS,0000,0000,0000,,Leaving this land with
+Dialogue: 0,0:00:59.12,0:01:00.79,Songs_OP,OP LYRICS,0000,0000,0000,,Days of peace and quiet
+Dialogue: 0,0:01:00.79,0:01:03.29,Songs_OP,OP LYRICS,0000,0000,0000,,The passage of time heartlessly
+Dialogue: 0,0:01:03.29,0:01:05.46,Songs_OP,OP LYRICS,0000,0000,0000,,Makes people forget
+Dialogue: 0,0:01:05.46,0:01:08.25,Songs_OP,OP LYRICS,0000,0000,0000,,Even the tracks left behind by his life
+Dialogue: 0,0:01:08.25,0:01:10.04,Songs_OP,OP LYRICS,0000,0000,0000,,Begin to rust
+Dialogue: 0,0:01:10.04,0:01:11.88,Songs_OP,OP LYRICS,0000,0000,0000,,Just the same
+Dialogue: 0,0:01:11.88,0:01:14.17,Songs_OP,OP LYRICS,0000,0000,0000,,Your words and wishes and courage
+Dialogue: 0,0:01:14.17,0:01:17.51,Songs_OP,OP LYRICS,0000,0000,0000,,Are still inside of me
+Dialogue: 0,0:01:17.51,0:01:19.39,Songs_OP,OP LYRICS,0000,0000,0000,,And they live on
+Dialogue: 0,0:01:20.18,0:01:21.93,Songs_OP,OP LYRICS,0000,0000,0000,,We chose the same path
+Dialogue: 0,0:01:21.93,0:01:24.06,Songs_OP,OP LYRICS,0000,0000,0000,,That's all it was supposed to be
+Dialogue: 0,0:01:24.06,0:01:25.60,Songs_OP,OP LYRICS,0000,0000,0000,,Why is it that at some point
+Dialogue: 0,0:01:25.60,0:01:29.86,Songs_OP,OP LYRICS,0000,0000,0000,,I wanted to understand the reason for
+Dialogue: 0,0:01:29.86,0:01:31.23,Songs_OP,OP LYRICS,0000,0000,0000,,The tears that fall down my cheeks
+Dialogue: 0,0:01:31.23,0:01:32.32,Songs_OP,OP LYRICS,0000,0000,0000,,Even now
+Dialogue: 0,0:01:32.32,0:01:34.69,Songs_OP,OP LYRICS,0000,0000,0000,,If I retrace the journey we walked together
+Dialogue: 0,0:01:34.69,0:01:38.24,Songs_OP,OP LYRICS,0000,0000,0000,,Even though you're not there
+Dialogue: 0,0:01:38.24,0:01:39.91,Songs_OP,OP LYRICS,0000,0000,0000,,I know I'll be able to find it
+Dialogue: 0,0:01:52.00,0:01:55.01,Signs_EpTitle,EPTITLE,0000,0000,0000,,{\blur0.2\c&HFAFFF7&\pos(372,270)}Episode 13: Aversion to One's Own Kind
+Dialogue: 0,0:01:55.01,0:02:00.01,Signs_WText,SIGN,0000,0000,0000,,{\blur0.2\pos(588.5,16)}29 years after the death of Himmel the Hero,\Nin the Alt Woods, located in the northern lands
+Dialogue: 0,0:01:58.35,0:02:00.01,Default,SEIN,0000,0000,0000,,When I was a kid,
+Dialogue: 0,0:02:00.64,0:02:04.75,Default,SEIN,0000,0000,0000,,I had a friend who I joined \Non lots of little adventures.
+Dialogue: 0,0:02:05.38,0:02:10.01,Default,SEIN,0000,0000,0000,,Foolhardy and with energy to spare, \Nhe was like a gorilla.
+Dialogue: 0,0:02:10.93,0:02:14.62,Default,SEIN,0000,0000,0000,,That said, he was a good gorilla \Nwho cared for his friends.
+Dialogue: 0,0:02:16.21,0:02:20.04,Default,SEIN,0000,0000,0000,,When I grew up and started \Nto forget that dream,
+Dialogue: 0,0:02:21.26,0:02:25.64,Default,SEIN,0000,0000,0000,,he invited me to become \Nan adventurer with him.
+Dialogue: 0,0:02:27.24,0:02:32.25,Default,SEIN,0000,0000,0000,,I wonder what would've changed \Nif I'd taken his hand then.
+Dialogue: 0,0:02:33.85,0:02:36.00,Default,SEIN,0000,0000,0000,,That was ten years ago.
+Dialogue: 0,0:02:36.52,0:02:38.56,Default,SEIN,0000,0000,0000,,I still regret it.
+Dialogue: 0,0:02:39.69,0:02:40.97,Default,FRIEREN,0000,0000,0000,,Huh.
+Dialogue: 0,0:02:41.38,0:02:44.05,Default,FRIEREN,0000,0000,0000,,So why are you telling me this?
+Dialogue: 0,0:02:44.74,0:02:48.04,Default,SEIN,0000,0000,0000,,My village's harvest festival is coming up.
+Dialogue: 0,0:02:48.04,0:02:53.09,Default,SEIN,0000,0000,0000,,My brother asked me to go into the woods \Nand pick wild herbs to use in cooking.
+Dialogue: 0,0:02:53.09,0:02:54.05,Default,SEIN,0000,0000,0000,,But then...
+Dialogue: 0,0:02:56.30,0:02:58.44,Default,SEIN,0000,0000,0000,,I got stuck in a bottomless swamp.
+Dialogue: 0,0:02:59.05,0:03:02.57,Default,SEIN,0000,0000,0000,,I'm done for.
+Dialogue: 0,0:03:03.70,0:03:09.79,Default,SEIN,0000,0000,0000,,But if you take my hand, \Nthen maybe my fate will change.
+Dialogue: 0,0:03:10.90,0:03:13.87,Default,FRIEREN,0000,0000,0000,,Hold on. I'm thinking about it.
+Dialogue: 0,0:03:15.08,0:03:18.85,Default,SEIN,0000,0000,0000,,What is there to think about?
+Dialogue: 0,0:03:18.85,0:03:20.09,Default,FRIEREN,0000,0000,0000,,Your hand is dirty.
+Dialogue: 0,0:03:20.62,0:03:23.87,Default,SEIN,0000,0000,0000,,This is really not the time \Nto be worrying about that!
+Dialogue: 0,0:03:25.20,0:03:26.64,Default,SEIN,0000,0000,0000,,Besides, miss...
+Dialogue: 0,0:03:27.85,0:03:31.46,Default,SEIN,0000,0000,0000,,Grown-ups are dirty by nature.
+Dialogue: 0,0:03:33.29,0:03:36.28,Default,FRIEREN,0000,0000,0000,,This might be my first time encountering \Na physically dirty adult.
+Dialogue: 0,0:03:36.70,0:03:38.56,Default,FRIEREN,0000,0000,0000,,Can I have some more time?
+Dialogue: 0,0:03:39.14,0:03:42.48,Default,FRIEREN,0000,0000,0000,,I'm trying to remember the spell to pull \Nsomeone out of a bottomless swamp.
+Dialogue: 0,0:03:42.49,0:03:45.52,Default,SEIN,0000,0000,0000,,P-Please hurry.
+Dialogue: 0,0:03:45.52,0:03:46.96,Default,FRIEREN,0000,0000,0000,,Let's see...
+Dialogue: 0,0:03:47.47,0:03:48.75,Default,FERN,0000,0000,0000,,Ms. Frieren.
+Dialogue: 0,0:03:49.07,0:03:51.10,Default,FERN,0000,0000,0000,,Did you find any herbs?
+Dialogue: 0,0:03:51.10,0:03:52.96,Default,FRIEREN,0000,0000,0000,,Oh, I remember now.
+Dialogue: 0,0:03:59.22,0:04:01.06,Default,SEIN,0000,0000,0000,,This is far enough.
+Dialogue: 0,0:04:01.06,0:04:04.29,Default,FERN,0000,0000,0000,,I'm sorry for the trouble \NMs. Frieren caused you.
+Dialogue: 0,0:04:04.29,0:04:08.16,Default,SEIN,0000,0000,0000,,It's fine. She saved me.
+Dialogue: 0,0:04:08.16,0:04:11.76,Default,FERN,0000,0000,0000,,I'll give her an earful later.
+Dialogue: 0,0:04:12.21,0:04:13.39,Default,STARK,0000,0000,0000,,Not my problem.
+Dialogue: 0,0:04:14.03,0:04:17.48,Default,SEIN,0000,0000,0000,,Anyway, are you sure you don't \Nneed to stop by the village?
+Dialogue: 0,0:04:17.48,0:04:21.15,Default,SEIN,0000,0000,0000,,We're busy preparing for the harvest festival, \Nbut I can at least thank you.
+Dialogue: 0,0:04:21.55,0:04:26.82,Default,FRIEREN,0000,0000,0000,,We're hoping to reach a large \Ntown today so we can resupply.
+Dialogue: 0,0:04:27.05,0:04:30.15,Default,SEIN,0000,0000,0000,,I see. In that case, be careful.
+Dialogue: 0,0:04:30.15,0:04:33.25,Default,SEIN,0000,0000,0000,,There are lots of dangerous \Nvenomous creatures around here.
+Dialogue: 0,0:04:33.61,0:04:34.35,Default,FRIEREN,0000,0000,0000,,Okay.
+Dialogue: 0,0:04:34.35,0:04:35.50,Default,STARK,0000,0000,0000,,Got it.
+Dialogue: 0,0:04:45.38,0:04:46.76,Default,STARK,0000,0000,0000,,Something bit me.
+Dialogue: 0,0:04:47.30,0:04:49.63,Default,FERN,0000,0000,0000,,What? You were bitten?
+Dialogue: 0,0:04:49.63,0:04:53.43,Default,FRIEREN,0000,0000,0000,,He told us to be careful. \NWhat are you doing?
+Dialogue: 0,0:04:53.43,0:04:55.36,Default,FERN,0000,0000,0000,,Let's stop the bleeding.
+Dialogue: 0,0:04:55.84,0:04:56.59,Default,STARK,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:57.31,0:04:59.23,Default,STARK,0000,0000,0000,,My nose is starting to bleed.
+Dialogue: 0,0:05:01.70,0:05:06.69,Default,FRIEREN,0000,0000,0000,,Identifying poison is a priest spell, \Nso I'm not too good at it.
+Dialogue: 0,0:05:06.69,0:05:10.79,Default,FRIEREN,0000,0000,0000,,I don't recognize this reaction, \Nso the antidotes we have might not work.
+Dialogue: 0,0:05:11.15,0:05:13.59,Default,FRIEREN,0000,0000,0000,,We should get you checked out at a church.
+Dialogue: 0,0:05:14.20,0:05:17.64,Default,FIREREN,0000,0000,0000,,Fern, how much longer can \Nyou use your flying magic?
+Dialogue: 0,0:05:17.64,0:05:21.93,Default,FERN,0000,0000,0000,,It consumes a lot of mana, \Nso only about thirty minutes.
+Dialogue: 0,0:05:21.93,0:05:25.08,Default,FRIEREN,0000,0000,0000,,Thirty minutes won't get us to town.
+Dialogue: 0,0:05:25.08,0:05:27.15,Default,FRIEREN,0000,0000,0000,,We'll head back to that village.
+Dialogue: 0,0:05:27.15,0:05:29.37,Default,FRIEREN,0000,0000,0000,,I'll transport Stark.
+Dialogue: 0,0:05:29.37,0:05:30.96,Default,STARK,0000,0000,0000,,It's not that big a deal.
+Dialogue: 0,0:05:31.31,0:05:33.15,Default,STARK,0000,0000,0000,,I'm fine.
+Dialogue: 0,0:05:33.15,0:05:36.60,Default,STARK,0000,0000,0000,,Besides, my master said \Nyou can tough out poisons.
+Dialogue: 0,0:05:37.00,0:05:41.70,Default,FRIEREN,0000,0000,0000,,Come to think of it, Eisen was perfectly \Nhealthy even after taking several arrows
+Dialogue: 0,0:05:41.70,0:05:45.22,Default,FRIEREN,0000,0000,0000,,that were coated with a poison \Nstrong enough to knock out a dragon.
+Dialogue: 0,0:05:45.91,0:05:48.12,Default,FRIEREN,0000,0000,0000,,Heiter was appalled.
+Dialogue: 0,0:05:48.36,0:05:49.40,Default,STARK,0000,0000,0000,,See?
+Dialogue: 0,0:05:49.40,0:05:54.42,Default,FERN,0000,0000,0000,,That just goes to show that Mr. Eisen \Nwas far from normal.
+Dialogue: 0,0:05:54.42,0:06:01.13,Default,FERN,0000,0000,0000,,Besides, according to Mr. Heiter, \N20% of adventurer deaths are due to poison.
+Dialogue: 0,0:06:02.07,0:06:03.24,Default,FERN,0000,0000,0000,,We should hurry.
+Dialogue: 0,0:06:04.94,0:06:08.12,Default,STARK,0000,0000,0000,,I'm fine, really.
+Dialogue: 0,0:06:13.46,0:06:15.25,Default,SEINS BROTHER,0000,0000,0000,,It's too late.
+Dialogue: 0,0:06:15.59,0:06:18.32,Default,SEINS BROTHER,0000,0000,0000,,In a few hours, his brain \Nwill begin to melt.
+Dialogue: 0,0:06:18.32,0:06:20.51,Default,SEINS BROTHER,0000,0000,0000,,It will flow out his nose,
+Dialogue: 0,0:06:21.18,0:06:22.49,Default,SEINS BROTHER,0000,0000,0000,,and then he'll die.
+Dialogue: 0,0:06:22.49,0:06:24.19,Default,STARK,0000,0000,0000,,That's terrifying!
+Dialogue: 0,0:06:24.68,0:06:27.60,Default,FERN,0000,0000,0000,,Isn't there anything we can do, Father?
+Dialogue: 0,0:06:27.87,0:06:32.34,Default,SEINS BROTHER,0000,0000,0000,,Normally, it can only be \Ncured if it's treated early,
+Dialogue: 0,0:06:32.34,0:06:34.74,Default,SEINS BROTHER,0000,0000,0000,,but perhaps my brother could help.
+Dialogue: 0,0:06:35.58,0:06:38.00,Default,SEIN,0000,0000,0000,,Brother, do you have a minute?
+Dialogue: 0,0:06:38.23,0:06:40.79,Default,SEIN,0000,0000,0000,,Don't you think this new \Ntub is kind of small?
+Dialogue: 0,0:06:40.79,0:06:42.33,Default,SEINS BROTHER,0000,0000,0000,,There's honor in poverty.
+Dialogue: 0,0:06:42.33,0:06:43.97,Default,SEIN,0000,0000,0000,,Isn't this going too far, though?
+Dialogue: 0,0:06:44.43,0:06:48.25,Default,SEIN,0000,0000,0000,,We're the only ones who impoverish \Nourselves down to a hand-sized tub.
+Dialogue: 0,0:06:48.65,0:06:52.64,Default,SEINS BROTHER,0000,0000,0000,,More importantly, Sein, \Ntake a look at this boy.
+Dialogue: 0,0:06:53.18,0:06:56.52,Default,SEIN,0000,0000,0000,,Huh? Brother, these are the\N ones I told you about.
+Dialogue: 0,0:06:56.95,0:06:59.01,Default,SEIN,0000,0000,0000,,They're the people who rescued me.
+Dialogue: 0,0:07:00.63,0:07:04.11,Default,SEIN,0000,0000,0000,,Did you get bitten by a snake?
+Dialogue: 0,0:07:04.11,0:07:06.02,Default,SEIN,0000,0000,0000,,I told you to be careful.
+Dialogue: 0,0:07:11.68,0:07:14.55,Default,SEIN,0000,0000,0000,,Now we're even.
+Dialogue: 0,0:07:14.93,0:07:17.67,Default,SEIN,0000,0000,0000,,Brother, I'm going to help out at the plaza.
+Dialogue: 0,0:07:18.51,0:07:19.46,Default,SEINS BROTHER,0000,0000,0000,,Sure.
+Dialogue: 0,0:07:21.27,0:07:24.22,Default,STARK,0000,0000,0000,,My nose stopped bleeding.
+Dialogue: 0,0:07:25.21,0:07:27.56,Default,FERN,0000,0000,0000,,The effects of the poison are gone.
+Dialogue: 0,0:07:30.52,0:07:32.60,Default,FRIEREN,0000,0000,0000,,Father, is he...?
+Dialogue: 0,0:07:33.40,0:07:36.92,Default,SEINS BROTHER,0000,0000,0000,,What do you think of my younger brother?
+Dialogue: 0,0:07:39.49,0:07:42.42,Default,FRIEREN,0000,0000,0000,,That holy symbol around your neck
+Dialogue: 0,0:07:42.42,0:07:46.69,Default,FRIEREN,0000,0000,0000,,is awarded to the most outstanding priest \Nin a region by the holy capital.
+Dialogue: 0,0:07:47.75,0:07:52.94,Default,FRIEREN,0000,0000,0000,,He instantly cured a poison a \Nhealing expert called incurable.
+Dialogue: 0,0:07:54.02,0:07:56.02,Default,FRIEREN,0000,0000,0000,,He's a genius.
+Dialogue: 0,0:07:56.62,0:07:59.81,Default,SEINS BROTHER,0000,0000,0000,,I'm not surprised you noticed, Ms. Frieren.
+Dialogue: 0,0:07:59.81,0:08:02.12,Default,FRIEREN,0000,0000,0000,,You know who I am?
+Dialogue: 0,0:08:02.12,0:08:05.08,Default,SEINS BROTHER,0000,0000,0000,,Mr. Heiter told me about you.
+Dialogue: 0,0:08:06.42,0:08:13.03,Default,SEINS BROTHER,0000,0000,0000,,He gave me this holy symbol when he came \Nhere from the holy capital to observe us.
+Dialogue: 0,0:08:13.48,0:08:17.17,Default,SEINS BROTHER,0000,0000,0000,,That said, I'm a mere provincial priest.
+Dialogue: 0,0:08:17.52,0:08:21.18,Default,SEINS BROTHER,0000,0000,0000,,This is the only thing I can be proud of.
+Dialogue: 0,0:08:21.72,0:08:25.85,Default,SEINS BROTHER,0000,0000,0000,,But my ability doesn't compare to Sein's.
+Dialogue: 0,0:08:26.54,0:08:30.42,Default,SEINS BROTHER,0000,0000,0000,,Our parents passed away when we were young.
+Dialogue: 0,0:08:31.13,0:08:35.44,Default,SEINS BROTHER,0000,0000,0000,,Since then, I raised my much \Nyounger brother myself.
+Dialogue: 0,0:08:36.42,0:08:41.27,Default,SEINS BROTHER,0000,0000,0000,,As a child, he often said he wanted \Nto become an adventurer.
+Dialogue: 0,0:08:42.22,0:08:43.85,Default,SEINS BROTHER,0000,0000,0000,,He didn't want to become
+Dialogue: 0,0:08:43.85,0:08:49.56,Default,SEINS BROTHER,0000,0000,0000,,an ordinary village priest like me \Nwho spent every day the same way.
+Dialogue: 0,0:08:50.30,0:08:53.83,Default,SEINS BROTHER,0000,0000,0000,,He said that with his eyes \Nfull of hopes and dreams.
+Dialogue: 0,0:08:54.77,0:08:59.15,Default,SEINS BROTHER,0000,0000,0000,,But now he's like I was when I was young.
+Dialogue: 0,0:08:59.85,0:09:02.30,Default,SEINS BROTHER,0000,0000,0000,,This life must bore him.
+Dialogue: 0,0:09:03.87,0:09:08.62,Default,SEINS BROTHER,0000,0000,0000,,Would you please take him \Naway from this village?
+Dialogue: 0,0:09:09.05,0:09:14.69,Default,SEINS BROTHER,0000,0000,0000,,I'm certain he's been looking for someone \Nto give him that last push.
+Dialogue: 0,0:09:18.03,0:09:20.34,Default,STARK,0000,0000,0000,,I'm in, Frieren.
+Dialogue: 0,0:09:20.91,0:09:23.17,Default,STARK,0000,0000,0000,,What's there to even think about?
+Dialogue: 0,0:09:24.70,0:09:28.46,Default,STARK,0000,0000,0000,,I'm not risking my brains \Nflowing out my nose again.
+Dialogue: 0,0:09:28.92,0:09:33.54,Default,FERN,0000,0000,0000,,It's true that the journey ahead \Nmay be safer with a priest.
+Dialogue: 0,0:09:34.14,0:09:36.72,Default,FERN,0000,0000,0000,,What do you not like about \Nthe idea, Ms. Frieren?
+Dialogue: 0,0:09:38.79,0:09:41.84,Default,FRIEREN,0000,0000,0000,,It's an aversion to my own kind, I guess.
+Dialogue: 0,0:09:42.13,0:09:44.19,Default,STARK,0000,0000,0000,,What is she talking about?
+Dialogue: 0,0:09:44.69,0:09:48.56,Default,STARK,0000,0000,0000,,I'm inviting him to join us, \Neven if you two don't want to.
+Dialogue: 0,0:09:51.37,0:09:52.51,Default,FRIEREN,0000,0000,0000,,Where is he going?
+Dialogue: 0,0:09:52.94,0:09:57.23,Default,FERN,0000,0000,0000,,Mr. Sein spends a lot of time \Nat the bar downstairs.
+Dialogue: 0,0:09:57.72,0:09:58.77,Default,FRIEREN,0000,0000,0000,,What?
+Dialogue: 0,0:10:01.73,0:10:02.49,Default,STARK,0000,0000,0000,,Alcohol.
+Dialogue: 0,0:10:03.76,0:10:04.87,Default,STARK,0000,0000,0000,,Tobacco.
+Dialogue: 0,0:10:06.05,0:10:07.00,Default,STARK,0000,0000,0000,,Gambling.
+Dialogue: 0,0:10:09.43,0:10:11.95,Default,STARK,0000,0000,0000,,That's a bit {\i1}too{\i0} corrupt, don't you think?
+Dialogue: 0,0:10:12.18,0:10:16.11,Default,SEIN,0000,0000,0000,,I'm getting to know the people. \NCare to join us?
+Dialogue: 0,0:10:16.82,0:10:20.96,Default,STARK,0000,0000,0000,,It's Stark. We're looking for a priest.
+Dialogue: 0,0:10:21.45,0:10:22.85,Default,STARK,0000,0000,0000,,Will you join us?
+Dialogue: 0,0:10:24.34,0:10:28.58,Default,SEIN,0000,0000,0000,,You must be joking. \NI'm this village's priest.
+Dialogue: 0,0:10:28.58,0:10:30.12,Default,SEIN,0000,0000,0000,,I can't go on adventures.
+Dialogue: 0,0:10:32.24,0:10:35.45,Default,SEIN,0000,0000,0000,,No, I suppose that could be fun.
+Dialogue: 0,0:10:36.42,0:10:37.90,Default,SEIN,0000,0000,0000,,Have a seat, Stark.
+Dialogue: 0,0:10:38.29,0:10:40.80,Default,SEIN,0000,0000,0000,,If you can beat me, I'll join your party.
+Dialogue: 0,0:10:40.80,0:10:41.98,Default,STARK,0000,0000,0000,,Really?
+Dialogue: 0,0:10:41.98,0:10:43.90,Default,SEIN,0000,0000,0000,,Yes, really.
+Dialogue: 0,0:10:46.64,0:10:49.72,Default,STARK,0000,0000,0000,,Please, no!
+Dialogue: 0,0:10:50.16,0:10:54.67,Default,FERN,0000,0000,0000,,Ms. Frieren, I think I heard \NMr. Stark scream downstairs.
+Dialogue: 0,0:11:04.15,0:11:06.18,Default,FERN,0000,0000,0000,,Someone's taken all his belongings.
+Dialogue: 0,0:11:06.87,0:11:09.53,Default,FERN,0000,0000,0000,,How awful. Who would do this?
+Dialogue: 0,0:11:09.53,0:11:11.12,Default,SEIN,0000,0000,0000,,No hard feelings.
+Dialogue: 0,0:11:11.12,0:11:11.81,Default,FERN,0000,0000,0000,,What?
+Dialogue: 0,0:11:12.85,0:11:16.42,Default,SEIN,0000,0000,0000,,Grown-ups are dirty, after all.
+Dialogue: 0,0:11:16.88,0:11:18.97,Default,FERN,0000,0000,0000,,Someone's taken all {\i1}his{\i0} belongings!
+Dialogue: 0,0:11:18.97,0:11:21.24,Default,SEIN,0000,0000,0000,,The village chief won the lot.
+Dialogue: 0,0:11:21.24,0:11:23.41,Default,SEIN,0000,0000,0000,,He's got the devil's own luck.
+Dialogue: 0,0:11:23.85,0:11:24.67,Default,FRIEREN,0000,0000,0000,,Sein.
+Dialogue: 0,0:11:25.08,0:11:28.92,Default,SEIN,0000,0000,0000,,I heard you're looking for party members. \NAsk someone else.
+Dialogue: 0,0:11:29.46,0:11:31.80,Default,FRIEREN,0000,0000,0000,,You want to become an adventurer, don't you?
+Dialogue: 0,0:11:32.11,0:11:36.38,Default,SEIN,0000,0000,0000,,That was a long time ago. It's too late now.
+Dialogue: 0,0:11:37.15,0:11:40.45,Default,SEIN,0000,0000,0000,,I should've gone after him sooner.
+Dialogue: 0,0:11:41.87,0:11:45.19,Default,SEIN,0000,0000,0000,,The only person sitting here \Nis a loser in his underwear.
+Dialogue: 0,0:11:48.34,0:11:52.65,Flashback,HIMMEL,0000,0000,0000,,Frieren, come defeat the Demon King with us.
+Dialogue: 0,0:11:52.65,0:11:54.20,Flashback,FRIEREN,0000,0000,0000,,It's too late now.
+Dialogue: 0,0:11:54.63,0:11:58.28,Flashback,FRIEREN,0000,0000,0000,,I haven't fought demons in over 500 years.
+Dialogue: 0,0:11:58.83,0:12:01.57,Flashback,FRIEREN,0000,0000,0000,,I've forgotten how to fight them.
+Dialogue: 0,0:12:02.66,0:12:05.71,Flashback,FRIEREN,0000,0000,0000,,I deferred the decision for too long.
+Dialogue: 0,0:12:06.20,0:12:09.59,Flashback,FRIEREN,0000,0000,0000,,I was probably afraid to fight the Demon King.
+Dialogue: 0,0:12:10.54,0:12:13.89,Flashback,FRIEREN,0000,0000,0000,,Too much time has passed. \NTime I can't get back now.
+Dialogue: 0,0:12:14.97,0:12:17.10,Flashback,HIMMEL,0000,0000,0000,,So what, Frieren?
+Dialogue: 0,0:12:17.88,0:12:20.53,FlashbackTop,HIMMEL,0000,0000,0000,,I'm talking about the present.
+Dialogue: 0,0:12:17.88,0:12:20.53,Default,FRIEREN,0000,0000,0000,,I'm talking about the present.
+Dialogue: 0,0:12:29.88,0:12:31.26,Default,SEIN,0000,0000,0000,,Ask someone else.
+Dialogue: 0,0:12:31.78,0:12:34.28,Default,SEIN,0000,0000,0000,,You don't know how I feel.
+Dialogue: 0,0:12:34.79,0:12:38.05,Default,FRIEREN,0000,0000,0000,,I see. That told me everything I need to know.
+Dialogue: 0,0:12:38.05,0:12:40.69,Default,FRIEREN,0000,0000,0000,,I don't like you, Sein.
+Dialogue: 0,0:12:42.61,0:12:44.97,Default,SEIN,0000,0000,0000,,I see. In that case...
+Dialogue: 0,0:12:44.97,0:12:47.82,Default,FRIEREN,0000,0000,0000,,So I've decided you'll join us, \Nno matter what.
+Dialogue: 0,0:12:49.10,0:12:50.98,Default,SEIN,0000,0000,0000,,What? Why?
+Dialogue: 0,0:12:52.56,0:12:54.91,Default,SEIN,0000,0000,0000,,That makes so little sense that it scares me.
+Dialogue: 0,0:12:55.89,0:12:58.68,Default,STARK,0000,0000,0000,,Thanks. I feel warmer now.
+Dialogue: 0,0:13:00.28,0:13:05.29,Default,FERN,0000,0000,0000,,I'm truly sorry for all the \Ntrouble we caused. Excuse us.
+Dialogue: 0,0:13:07.41,0:13:09.31,Default,FRIEREN,0000,0000,0000,,How much did it cost to get everything back?
+Dialogue: 0,0:13:09.78,0:13:12.90,Default,FERN,0000,0000,0000,,He said we should take our time and \Nenjoy the harvest festival coming up,
+Dialogue: 0,0:13:13.42,0:13:15.51,Default,FERN,0000,0000,0000,,and then he returned it all for free.
+Dialogue: 0,0:13:15.51,0:13:18.13,Default,FRIEREN,0000,0000,0000,,Good thing they're nice people here.
+Dialogue: 0,0:13:18.13,0:13:20.49,Default,FERN,0000,0000,0000,,He didn't know what to do with the axe.
+Dialogue: 0,0:13:20.49,0:13:21.65,Default,STARK,0000,0000,0000,,That's kinda sad.
+Dialogue: 0,0:13:22.63,0:13:24.64,Default,FERN,0000,0000,0000,,Mr. Stark, please put these on.
+Dialogue: 0,0:13:25.32,0:13:28.81,Default,STARK,0000,0000,0000,,Do you have to hold them \Nlike they're filthy?
+Dialogue: 0,0:13:29.38,0:13:31.32,Default,FERN,0000,0000,0000,,Mr. Sein, these are yours.
+Dialogue: 0,0:13:35.35,0:13:38.37,Default,SEIN,0000,0000,0000,,What did I do to upset her?
+Dialogue: 0,0:13:38.98,0:13:42.72,Default,FRIEREN,0000,0000,0000,,She's mad you took all \Nof Stark's belongings.
+Dialogue: 0,0:13:43.15,0:13:45.99,Default,SEIN,0000,0000,0000,,It wasn't me. It was the chief.
+Dialogue: 0,0:13:47.60,0:13:50.01,Default,FERN,0000,0000,0000,,People who gamble are the worst.
+Dialogue: 0,0:13:50.01,0:13:52.01,Default,STARK,0000,0000,0000,,I'm sorry, okay?
+Dialogue: 0,0:13:52.01,0:13:54.75,Default,FERN,0000,0000,0000,,And Mr. Sein is supposed to be a priest.
+Dialogue: 0,0:13:55.17,0:13:57.41,Default,FRIEREN,0000,0000,0000,,I'm not so sure about a priest who drinks.
+Dialogue: 0,0:13:58.00,0:14:00.96,Default,FERN,0000,0000,0000,,Don't you know, Ms. Frieren?
+Dialogue: 0,0:14:00.96,0:14:03.24,Default,FERN,0000,0000,0000,,Alcohol is the best medicine.
+Dialogue: 0,0:14:03.24,0:14:06.65,Default,FRIEREN,0000,0000,0000,,What did you teach her, Heiter?
+Dialogue: 0,0:14:07.39,0:14:13.76,Default,FRIEREN,0000,0000,0000,,Whether we recruit him or not, \NSein should become an adventurer.
+Dialogue: 0,0:14:13.76,0:14:16.67,Default,STARK,0000,0000,0000,,You've really come around to the idea.
+Dialogue: 0,0:14:17.79,0:14:21.50,Default,FRIEREN,0000,0000,0000,,I thought it might be nice to give \Nsomeone the push they need,
+Dialogue: 0,0:14:22.00,0:14:24.37,Default,FRIEREN,0000,0000,0000,,like Himmel the Hero did for me.
+Dialogue: 0,0:14:28.80,0:14:35.13,DefaultItalics,SEIN,0000,0000,0000,,Looks like the adventurers \Nhave decided to stay in town.
+Dialogue: 0,0:14:40.08,0:14:43.57,DefaultItalics,SEIN,0000,0000,0000,,They've been trying \Nto recruit me every day since.
+Dialogue: 0,0:14:47.14,0:14:51.59,DefaultItalics,SEIN,0000,0000,0000,,All my efforts to make them stop \Nhave been in vain.
+Dialogue: 0,0:14:52.53,0:14:59.35,DefaultItalics,SEIN,0000,0000,0000,,They invite me on adventures with hopes and \Ndreams in their eyes, like he did back then.
+Dialogue: 0,0:15:00.39,0:15:03.65,FlashbackItalics,GORILLA,0000,0000,0000,,I'm just going to travel around \Nthe northern lands a bit.
+Dialogue: 0,0:15:04.69,0:15:07.46,Flashback,GORILLA,0000,0000,0000,,I'll be back in time for the harvest \Nfestival three years from now.
+Dialogue: 0,0:15:07.86,0:15:11.22,Flashback,GORILLA,0000,0000,0000,,If you aren't ready now, you can come then.
+Dialogue: 0,0:15:12.33,0:15:14.57,FlashbackItalics,GORILLA,0000,0000,0000,,Let's go on our next adventure together.
+Dialogue: 0,0:15:16.19,0:15:21.24,DefaultItalics,SEIN,0000,0000,0000,,Every time they try to recruit me, \NI wonder, "Why now?"
+Dialogue: 0,0:15:22.16,0:15:25.86,DefaultItalics,SEIN,0000,0000,0000,,They shine too brightly for these tired eyes.
+Dialogue: 0,0:15:27.40,0:15:30.49,Default,SEINS BROTHER,0000,0000,0000,,You want to know what Sein likes?
+Dialogue: 0,0:15:30.49,0:15:34.45,Default,FRIEREN,0000,0000,0000,,We've been struggling to win him over, \Nso we're looking for ideas.
+Dialogue: 0,0:15:34.45,0:15:39.01,Default,SEINS BROTHER,0000,0000,0000,,Well, he likes alcohol, \Ntobacco, and gambling...
+Dialogue: 0,0:15:39.01,0:15:40.89,Default,FRIEREN,0000,0000,0000,,We know those already.
+Dialogue: 0,0:15:40.89,0:15:42.89,Default,STARK,0000,0000,0000,,Are you sure he's a priest?
+Dialogue: 0,0:15:42.89,0:15:46.84,Default,FERN,0000,0000,0000,,It seems Mr. Heiter was a \Nserious priest after all.
+Dialogue: 0,0:15:47.85,0:15:50.23,Default,FRIEREN,0000,0000,0000,,What's a serious priest, anyway?
+Dialogue: 0,0:15:50.51,0:15:55.02,Default,SEINS BROTHER,0000,0000,0000,,He also likes older women.
+Dialogue: 0,0:15:55.28,0:15:57.24,Default,STARK,0000,0000,0000,,He's a totally depraved priest.
+Dialogue: 0,0:15:57.24,0:15:59.61,Default,FRIEREN,0000,0000,0000,,Older women, huh?
+Dialogue: 0,0:16:00.05,0:16:03.05,Default,FRIEREN,0000,0000,0000,,Honestly, I don't know what \Nto do with that information.
+Dialogue: 0,0:16:05.07,0:16:07.16,Default,FRIEREN,0000,0000,0000,,What?
+Dialogue: 0,0:16:08.75,0:16:10.21,Default,FRIEREN,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:16:10.21,0:16:14.39,Default,SEIN,0000,0000,0000,,Brother, don't you think \Nour new sickle is too small?
+Dialogue: 0,0:16:14.39,0:16:16.17,Default,SEIN,0000,0000,0000,,You can't even cut grass with...
+Dialogue: 0,0:16:16.17,0:16:18.73,Default,SEIN,0000,0000,0000,,Oh, it's you again.
+Dialogue: 0,0:16:21.08,0:16:22.61,Default,STARK,0000,0000,0000,,Do you have a minute, Sein?
+Dialogue: 0,0:16:22.61,0:16:23.97,Default,SEIN,0000,0000,0000,,You're still here?
+Dialogue: 0,0:16:23.97,0:16:24.96,Default,STARK,0000,0000,0000,,C'mon.
+Dialogue: 0,0:16:24.96,0:16:29.24,Default,SEIN,0000,0000,0000,,Don't make me say it again. \NAsk someone else.
+Dialogue: 0,0:16:30.55,0:16:34.93,Default,STARK,0000,0000,0000,,Sein, wouldn't you like to \Ntravel with an older woman?
+Dialogue: 0,0:16:35.46,0:16:37.04,Default,SEIN,0000,0000,0000,,Are you stupid?
+Dialogue: 0,0:16:37.89,0:16:42.10,Default,SEIN,0000,0000,0000,,That's the whole reason I wanted \Nto become an adventurer as a kid.
+Dialogue: 0,0:16:42.10,0:16:43.31,Default,STARK,0000,0000,0000,,Talk about impure motives.
+Dialogue: 0,0:16:43.57,0:16:48.07,Default,SEIN,0000,0000,0000,,So, where is this older woman?
+Dialogue: 0,0:16:48.38,0:16:50.16,Default,FRIEREN,0000,0000,0000,,Right here, Sein.
+Dialogue: 0,0:16:50.78,0:16:55.62,Default,FRIEREN,0000,0000,0000,,I'm an elf. I'm far older than you are.
+Dialogue: 0,0:16:57.43,0:17:00.72,Default,SEIN,0000,0000,0000,,Come to think of it, I think \Nmy brother mentioned that.
+Dialogue: 0,0:17:05.11,0:17:09.03,Default,SEIN,0000,0000,0000,,But an older woman like that... \Nis no older woman at all!
+Dialogue: 0,0:17:09.03,0:17:10.72,Default,FERN,0000,0000,0000,,He seems really distressed.
+Dialogue: 0,0:17:10.97,0:17:12.39,Default,FRIEREN,0000,0000,0000,,Then you leave me with no choice.
+Dialogue: 0,0:17:13.00,0:17:16.33,Default,FRIEREN,0000,0000,0000,,I didn't want to do this...
+Dialogue: 0,0:17:18.30,0:17:22.56,Default,FRIEREN,0000,0000,0000,,but the time has come to use the seduction \Ntechnique my master taught me.
+Dialogue: 0,0:17:24.59,0:17:25.35,Default,FRIEREN,0000,0000,0000,,Smooch.
+Dialogue: 0,0:17:30.83,0:17:31.97,Default,SEIN,0000,0000,0000,,What was that?
+Dialogue: 0,0:17:33.43,0:17:35.30,Default,FRIEREN,0000,0000,0000,,I threw you a kiss.
+Dialogue: 0,0:17:35.30,0:17:37.65,Default,FRIEREN,0000,0000,0000,,Maybe you're too young \Nto appreciate it, sonny.
+Dialogue: 0,0:17:38.17,0:17:41.32,Default,SEIN,0000,0000,0000,,Won't somebody please take this child home?
+Dialogue: 0,0:17:41.32,0:17:43.07,Default,STARK,0000,0000,0000,,That was way too sexy.
+Dialogue: 0,0:17:43.07,0:17:44.76,Default,SEIN,0000,0000,0000,,What's wrong with you two?
+Dialogue: 0,0:17:44.76,0:17:50.60,Default,FRIEREN,0000,0000,0000,,That's odd. When I tried it on Himmel, \Nit knocked him out cold.
+Dialogue: 0,0:17:53.62,0:17:55.21,Flashback,HEITER,0000,0000,0000,,Himmel!
+Dialogue: 0,0:17:55.21,0:17:57.09,Flashback,EISEN,0000,0000,0000,,You're a wicked woman.
+Dialogue: 0,0:17:57.50,0:17:58.73,Default,FRIEREN,0000,0000,0000,,How strange.
+Dialogue: 0,0:17:58.73,0:18:00.05,Default,FERN,0000,0000,0000,,I understand.
+Dialogue: 0,0:18:00.05,0:18:03.44,Default,FERN,0000,0000,0000,,If I'd been the target, \NI would have been in danger.
+Dialogue: 0,0:18:03.44,0:18:05.87,Default,STARK,0000,0000,0000,,As depraved as he is, he's still a holy man.
+Dialogue: 0,0:18:05.87,0:18:07.25,Default,STARK,0000,0000,0000,,A formidable foe.
+Dialogue: 0,0:18:07.25,0:18:08.79,Default,SEIN,0000,0000,0000,,Enough already.
+Dialogue: 0,0:18:09.53,0:18:12.22,Default,SEIN,0000,0000,0000,,I'm not becoming an adventurer.
+Dialogue: 0,0:18:12.70,0:18:15.35,Default,FREIREN,0000,0000,0000,,I thought you wanted to go after your friend.
+Dialogue: 0,0:18:16.84,0:18:18.60,Default,SEIN,0000,0000,0000,,Brother, you must understand.
+Dialogue: 0,0:18:19.81,0:18:20.78,Default,SEINS BROTHER,0000,0000,0000,,Sein...
+Dialogue: 0,0:18:21.58,0:18:24.81,Default,SEIN,0000,0000,0000,,He said he'd be back in three years.
+Dialogue: 0,0:18:25.56,0:18:27.52,Default,SEIN,0000,0000,0000,,Well, it's been ten.
+Dialogue: 0,0:18:28.32,0:18:31.29,Default,SEIN,0000,0000,0000,,He's obviously dead.
+Dialogue: 0,0:18:34.13,0:18:37.09,Default,FRIEREN,0000,0000,0000,,So you're giving up without going to see him?
+Dialogue: 0,0:18:39.06,0:18:41.15,Default,FRIEREN,0000,0000,0000,,It's only been ten years.
+Dialogue: 0,0:18:41.64,0:18:45.26,Default,FRIEREN,0000,0000,0000,,If you don't go see him now, \Nyou'll regret it in the near future.
+Dialogue: 0,0:18:45.98,0:18:49.35,Default,FRIEREN,0000,0000,0000,,You'll wonder if you could've made it \Nin time if you'd gone now.
+Dialogue: 0,0:18:50.55,0:18:51.98,Default,SEIN,0000,0000,0000,,It's too—
+Dialogue: 0,0:18:51.98,0:18:54.76,Default,FRIEREN,0000,0000,0000,,You think it's too late, don't you?
+Dialogue: 0,0:18:55.92,0:19:00.02,Default,FRIEREN,0000,0000,0000,,I'm talking about the present, Sein.
+Dialogue: 0,0:19:05.31,0:19:11.27,Default,SEIN,0000,0000,0000,,I can't go for the same reason \NI didn't follow him ten years ago.
+Dialogue: 0,0:19:11.97,0:19:17.06,Default,SEIN,0000,0000,0000,,I can't leave my brother \Nbehind in this village.
+Dialogue: 0,0:19:17.62,0:19:20.19,Default,SEINS BROTHER,0000,0000,0000,,What are you talking about, Sein?
+Dialogue: 0,0:19:21.61,0:19:24.52,Default,SEIN,0000,0000,0000,,I overheard the conversation \Nyou had with Mr. Heiter
+Dialogue: 0,0:19:24.52,0:19:26.01,Default,SEIN,0000,0000,0000,,when he came to observe us.
+Dialogue: 0,0:19:27.91,0:19:33.36,Flashback,HEITER,0000,0000,0000,,With your talent, you could serve \Nas a priest in the holy capital.
+Dialogue: 0,0:19:33.36,0:19:35.40,Flashback,SEINS BROTHER,0000,0000,0000,,Me, in the holy capital?
+Dialogue: 0,0:19:35.81,0:19:38.21,Flashback,HEITER,0000,0000,0000,,Yes, undoubtedly.
+Dialogue: 0,0:19:38.21,0:19:42.66,Flashback,SEINS BROTHER,0000,0000,0000,,What would happen to my brother then?
+Dialogue: 0,0:19:43.22,0:19:44.97,Flashback,HEITER,0000,0000,0000,,He'd come with you, of course.
+Dialogue: 0,0:19:45.90,0:19:47.40,Flashback,SEINS BROTHER,0000,0000,0000,,I see.
+Dialogue: 0,0:19:48.52,0:19:52.08,Flashback,SEINS BROTHER,0000,0000,0000,,Mr. Heiter, I appreciate the offer,
+Dialogue: 0,0:19:52.81,0:19:56.65,Flashback,SEINS BROTHER,0000,0000,0000,,but my life in this village is comfortable.
+Dialogue: 0,0:19:57.14,0:20:00.41,Flashback,SEINS BROTHER,0000,0000,0000,,My brother lost his parents \Nwhen he was still young.
+Dialogue: 0,0:20:01.15,0:20:03.18,Flashback,SEINS BROTHER,0000,0000,0000,,As his older brother,
+Dialogue: 0,0:20:03.87,0:20:07.49,Flashback,SEINS BROTHER,0000,0000,0000,,I can't take his hometown from him, too.
+Dialogue: 0,0:20:11.17,0:20:12.43,Flashback,HEITER,0000,0000,0000,,Very well.
+Dialogue: 0,0:20:14.06,0:20:16.58,Flashback,HEITER,0000,0000,0000,,I understand.
+Dialogue: 0,0:20:16.58,0:20:19.49,Flashback,HEITER,0000,0000,0000,,I suppose I wasted my time coming here.
+Dialogue: 0,0:20:19.49,0:20:21.82,Flashback,HEITER,0000,0000,0000,,But since I'm already wasting time,
+Dialogue: 0,0:20:22.17,0:20:27.74,Flashback,HEITER,0000,0000,0000,,perhaps I'll tell your brother \Nall about my adventures.
+Dialogue: 0,0:20:28.86,0:20:32.15,Default,SEIN,0000,0000,0000,,My brother stayed in this village for me.
+Dialogue: 0,0:20:34.29,0:20:37.72,Default,SEINS BROTHER,0000,0000,0000,,Sein, is that what you thought?
+Dialogue: 0,0:20:41.11,0:20:43.34,Default,SEINS BROTHER,0000,0000,0000,,We're not the same!
+Dialogue: 0,0:20:43.76,0:20:47.59,Default,SEINS BROTHER,0000,0000,0000,,I've never regretted the choice I made!
+Dialogue: 0,0:20:47.92,0:20:50.55,Default,SEINS BROTHER,0000,0000,0000,,But what about you?
+Dialogue: 0,0:20:50.55,0:20:53.04,Default,SEINS BROTHER,0000,0000,0000,,How long do you intend \Nto regret {\i1}your{\i0} choice?
+Dialogue: 0,0:20:53.53,0:20:54.54,Default,SEINS BROTHER,0000,0000,0000,,I've had enough.
+Dialogue: 0,0:21:10.97,0:21:12.99,Default,SEIN,0000,0000,0000,,I apologized to my brother.
+Dialogue: 0,0:21:13.51,0:21:14.35,Default,FRIEREN,0000,0000,0000,,Okay.
+Dialogue: 0,0:21:15.24,0:21:19.78,Default,SEIN,0000,0000,0000,,Don't get the wrong idea. \NHe's a kind brother.
+Dialogue: 0,0:21:20.34,0:21:22.68,Default,SEIN,0000,0000,0000,,He never once hit me before,
+Dialogue: 0,0:21:23.84,0:21:26.42,Default,SEIN,0000,0000,0000,,but I made him hit me this time.
+Dialogue: 0,0:21:27.00,0:21:29.64,Default,SEIN,0000,0000,0000,,I'd never seen him with \Nthat expression before.
+Dialogue: 0,0:21:34.18,0:21:38.41,Default,SEIN,0000,0000,0000,,Frieren, I've decided to \Nbecome an adventurer.
+Dialogue: 0,0:21:38.97,0:21:40.42,Default,SEIN,0000,0000,0000,,I'm going after my friend.
+Dialogue: 0,0:21:41.73,0:21:44.05,Default,SEIN,0000,0000,0000,,It's only been ten years, after all.
+Dialogue: 0,0:21:44.82,0:21:45.68,Default,FRIEREN,0000,0000,0000,,I see.
+Dialogue: 0,0:21:51.41,0:21:55.28,Default,SEIN,0000,0000,0000,,I'm doing this so I can look for him.
+Dialogue: 0,0:21:55.95,0:22:00.95,Default,SEIN,0000,0000,0000,,I'll find him and make my stupid \Nchildhood dream come true.
+Dialogue: 0,0:22:01.52,0:22:05.76,Default,SEIN,0000,0000,0000,,So I'm only traveling with you partway.
+Dialogue: 0,0:22:07.10,0:22:08.29,Default,STARK,0000,0000,0000,,All right!
+Dialogue: 0,0:22:08.29,0:22:09.38,Default,FERN,0000,0000,0000,,You did it.
+Dialogue: 0,0:22:15.40,0:22:16.51,Default,CHILDREN,0000,0000,0000,,Bye!
+Dialogue: 0,0:22:16.51,0:22:17.47,Default,CHILDREN,0000,0000,0000,,See you!
+Dialogue: 0,0:22:17.47,0:22:18.39,Default,CHILDREN,0000,0000,0000,,Bye-bye!
+Dialogue: 0,0:22:18.39,0:22:19.73,Default,CHILDREN,0000,0000,0000,,See you later!
+Dialogue: 0,0:22:19.73,0:22:21.40,Default,CHILDREN,0000,0000,0000,,Later!
+Dialogue: 0,0:22:25.09,0:22:28.89,Default,SEIN,0000,0000,0000,,By the way, where are you guys headed?
+Dialogue: 0,0:22:28.89,0:22:30.13,Default,FRIEREN,0000,0000,0000,,Heaven.
+Dialogue: 0,0:22:30.48,0:22:32.90,Default,SEIN,0000,0000,0000,,Is that someplace you need to seek out?
+Dialogue: 0,0:22:33.21,0:22:35.15,Default,SEIN,0000,0000,0000,,We all go there when we die.
+Dialogue: 0,0:22:35.58,0:22:37.54,Default,FERN,0000,0000,0000,,Even you, Mr. Sein?
+Dialogue: 0,0:22:38.44,0:22:42.11,Default,SEIN,0000,0000,0000,,She really doesn't mince words, huh?
+Dialogue: 0,0:22:42.11,0:22:43.81,Default,STARK,0000,0000,0000,,Good luck to us both.
+Dialogue: 0,0:22:46.58,0:22:48.16,Default,SEIN,0000,0000,0000,,Seriously, what's her deal?
+Dialogue: 0,0:22:50.05,0:22:52.60,Songs_ED,ED LYRICS,0000,0000,0000,,And you alright
+Dialogue: 0,0:22:53.10,0:22:55.10,Songs_ED,ED LYRICS,0000,0000,0000,,Can you hear me
+Dialogue: 0,0:22:55.89,0:23:01.98,Songs_ED,ED LYRICS,0000,0000,0000,,Trailing along deserted train tracks
+Dialogue: 0,0:23:01.98,0:23:04.32,Songs_ED,ED LYRICS,0000,0000,0000,,Crying excessively
+Dialogue: 0,0:23:04.90,0:23:07.49,Songs_ED,ED LYRICS,0000,0000,0000,,Wanting you to smile
+Dialogue: 0,0:23:07.49,0:23:13.53,Songs_ED,ED LYRICS,0000,0000,0000,,I hold on to memories I'd like to keep fresh
+Dialogue: 0,0:23:13.53,0:23:17.25,Songs_ED,ED LYRICS,0000,0000,0000,,There's something I'd like to tell you
+Dialogue: 0,0:23:17.25,0:23:20.00,Songs_ED,ED LYRICS,0000,0000,0000,,With words more precious than a goodbye
+Dialogue: 0,0:23:20.00,0:23:25.67,Songs_ED,ED LYRICS,0000,0000,0000,,Unremarkable yet special
+Dialogue: 0,0:23:25.67,0:23:29.22,Songs_ED,ED LYRICS,0000,0000,0000,,See, things that couldn't have been
+Dialogue: 0,0:23:29.22,0:23:32.26,Songs_ED,ED LYRICS,0000,0000,0000,,Seen if it weren't for these eyes
+Dialogue: 0,0:23:32.26,0:23:37.02,Songs_ED,ED LYRICS,0000,0000,0000,,Why? They begin to overflow
+Dialogue: 0,0:23:37.02,0:23:43.11,Songs_ED,ED LYRICS,0000,0000,0000,,So, if I were to be born again
+Dialogue: 0,0:23:43.11,0:23:48.94,Songs_ED,ED LYRICS,0000,0000,0000,,I would surely choose this place once more
+Dialogue: 0,0:23:48.94,0:23:54.95,Songs_ED,ED LYRICS,0000,0000,0000,,So, if we were to meet again
+Dialogue: 0,0:23:54.95,0:24:00.71,Songs_ED,ED LYRICS,0000,0000,0000,,I'd never let you go, I'd choose the present
+Dialogue: 0,0:24:00.71,0:24:03.67,Songs_ED,ED LYRICS,0000,0000,0000,,Even if no promises were made
+Dialogue: 0,0:24:03.67,0:24:06.59,Songs_ED,ED LYRICS,0000,0000,0000,,Even if I'm lost in days of loneliness
+Dialogue: 0,0:24:06.59,0:24:12.76,Songs_ED,ED LYRICS,0000,0000,0000,,Those tears will be alright, \Ndawn will surely break
+Dialogue: 0,0:24:12.76,0:24:15.43,Songs_ED,ED LYRICS,0000,0000,0000,,I'm whispering our lullaby
+Dialogue: 0,0:24:15.43,0:24:19.35,Songs_ED,ED LYRICS,0000,0000,0000,,for you to come back home
+Dialogue: 0,0:24:20.16,0:24:22.40,Default,FRIEREN,0000,0000,0000,,What do you mean by understanding relationships?
+Dialogue: 0,0:24:20.66,0:24:23.13,DefaultTop,FERN,0000,0000,0000,,I don't like how accustomed you seem \Nto the company of women.
+Dialogue: 0,0:24:20.95,0:24:23.03,DefaultOverlap,STARK,0000,0000,0000,,I'm pretty sure that would kill me.
+Dialogue: 0,0:24:22.39,0:24:24.11,Default,HIMMEL,0000,0000,0000,,Let's go shopping together later.
+Dialogue: 0,0:24:23.02,0:24:24.58,DefaultOverlap,MERCHANT,0000,0000,0000,,We help each other when we're in need.
+Dialogue: 0,0:24:24.58,0:24:26.67,Default,HEITER,0000,0000,0000,,It happens naturally as people age.
+Dialogue: 0,0:24:24.99,0:24:26.20,DefaultOverlap,FERN,0000,0000,0000,,We're alive.
+Dialogue: 0,0:24:25.46,0:24:27.77,DefaultTop,STARK,0000,0000,0000,,Do you really hate me that much?
+Dialogue: 0,0:24:27.57,0:24:30.02,Signs_NextEp,SIGN,0000,0000,0000,,{\fad(229,1)\blur3\t(20,312,\blur0.2)\pos(320,113.5)\c&H000000&\t(312,646,\c&HF6F6F6&)\fsp1.6\t(\fsp1)}Episode 14\N\N\N\N\N\N\N\NPrivilege of the Young
+Dialogue: 0,0:24:27.77,0:24:30.09,Default,SEIN,0000,0000,0000,,Those arguments are the \Nprivilege of the young.

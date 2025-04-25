@@ -1,0 +1,316 @@
+﻿[Script Info]
+Title: [Erai-raws] Español (América Latina)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Gen_Main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Main_Up,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00090909,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Gen_Italics_top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Gen_Nota,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00262626,&H00505050,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Cart_A_Tre,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_B_Tre,Trebuchet MS,24,&H00323232,&H000000FF,&H00D9D9D9,&H00D9D9D9,-1,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0020,1
+Style: Cart_C_Tre,Trebuchet MS,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Tim,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_B_Tim,Times New Roman,24,&H00323232,&H000000FF,&H00D9D9D9,&H00D9D9D9,-1,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0020,1
+Style: Cart_C_Tim,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Edit_Margin,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H0063110A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0010,1
+Style: Cart_A_Verd,Verdana,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,110,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EpiTitle,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H32494949,&H00494949,-1,0,0,0,100,100,0,0,1,0,2,3,0020,0020,0020,1
+Style: Cart_Serieslogo,Consolas,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,10,0,1,0,0,5,0005,0005,0000,1
+Style: Cart_C_Verd,Verdana,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.01,0:00:02.30,Gen_Main,Eisen,0000,0000,0000,,Frieren,
+Dialogue: 0,0:00:02.67,0:00:06.70,Gen_Main,Eisen,0000,0000,0000,,busca Aureole y habla con Himmel.
+Dialogue: 0,0:00:08.52,0:00:11.24,Gen_Main,Frieren/Flamme,0000,0000,0000,,"En los confines nórdicos\Ndel continente,
+Dialogue: 0,0:00:11.99,0:00:15.53,Gen_Main,Flamme,0000,0000,0000,,hay un lugar que\Nla gente de este mundo llama el cielo.
+Dialogue: 0,0:00:15.99,0:00:19.86,Gen_Main,Flamme,0000,0000,0000,,Llegué a Aureole,\Nla Tierra donde descansan las Almas.
+Dialogue: 0,0:00:20.52,0:00:23.75,Gen_Main,Flamme,0000,0000,0000,,Es un lugar donde se reúne\Nuna gran cantidad de almas.
+Dialogue: 0,0:00:24.10,0:00:27.28,Gen_Main,Flamme,0000,0000,0000,,Ahí conversé\Ncon mis compañeros de armas del pasado".
+Dialogue: 0,0:00:30.69,0:00:32.13,Gen_Main,Eisen,0000,0000,0000,,Perdón.
+Dialogue: 0,0:00:32.55,0:00:34.88,Gen_Main,Eisen,0000,0000,0000,,Será un camino muy largo.
+Dialogue: 0,0:00:35.17,0:00:38.01,Gen_Main,Eisen,0000,0000,0000,,A nosotros nos tomó diez años.
+Dialogue: 0,0:00:39.93,0:00:41.36,Gen_Main,Fern,0000,0000,0000,,Es verdad.
+Dialogue: 0,0:00:41.56,0:00:46.09,Gen_Main,Fern,0000,0000,0000,,Es la ruta que tomó el grupo de héroes\Npara llegar al castillo del enemigo.
+Dialogue: 0,0:00:56.94,0:00:58.53,Gen_Main,Frieren,0000,0000,0000,,Pues sí.
+Dialogue: 0,0:00:59.00,0:01:01.29,Gen_Main,Frieren,0000,0000,0000,,Es una aventura de solo diez años.
+Dialogue: 0,0:01:03.55,0:01:05.50,Gen_Main,Eisen,0000,0000,0000,,Dijiste que era una centésima parte.
+Dialogue: 0,0:01:07.46,0:01:11.00,Gen_Main,Himmel,0000,0000,0000,,Frieren, ¿no te vas\Na quedar en la capital?
+Dialogue: 0,0:01:11.40,0:01:12.95,Gen_Main,Frieren,0000,0000,0000,,Continuaré con el viaje.
+Dialogue: 0,0:01:13.15,0:01:16.09,Gen_Main,Himmel/Frieren,0000,0000,0000,,-¿Tú sola?\N-Es mucho más cómodo.
+Dialogue: 0,0:01:16.93,0:01:19.12,Gen_Main,Eisen,0000,0000,0000,,¿No quieres tener discípulos?
+Dialogue: 0,0:01:19.32,0:01:22.26,Gen_Main,Eisen,0000,0000,0000,,Es mejor tener alguien\Ncon quien hablar en los viajes.
+Dialogue: 0,0:01:22.63,0:01:24.61,Gen_Main,Frieren,0000,0000,0000,,No. Es una pérdida de tiempo.
+Dialogue: 0,0:01:24.97,0:01:27.77,Gen_Main,Frieren,0000,0000,0000,,Mueren muy pronto\Nsin importar lo que les enseñes.
+Dialogue: 0,0:01:30.33,0:01:34.65,Gen_Main,Eisen,0000,0000,0000,,Frieren, las relaciones\Nentre las personas no son así.
+Dialogue: 0,0:01:34.99,0:01:36.78,Gen_Main,Frieren,0000,0000,0000,,Sí, así son.
+Dialogue: 0,0:01:36.98,0:01:42.05,Gen_Main,Frieren,0000,0000,0000,,La aventura con ustedes no abarcará\Nni la centésima parte de mi vida.
+Dialogue: 0,0:01:43.26,0:01:45.60,Gen_Main,Frieren,0000,0000,0000,,También dije eso, ¿no es cierto?
+Dialogue: 0,0:01:47.27,0:01:49.08,Gen_Main,Eisen,0000,0000,0000,,Qué interesante.
+Dialogue: 0,0:01:49.51,0:01:50.71,Gen_Main,Frieren,0000,0000,0000,,¿Qué cosa?
+Dialogue: 0,0:01:51.96,0:01:56.00,Gen_Main,Eisen,0000,0000,0000,,Esa centésima parte te cambió.
+Dialogue: 0,0:02:08.06,0:02:09.61,Gen_Main,Eisen,0000,0000,0000,,Nos vemos.
+Dialogue: 0,0:02:10.19,0:02:12.11,Gen_Main,Frieren,0000,0000,0000,,Sí, hasta pronto.
+Dialogue: 0,0:02:19.75,0:02:22.69,Gen_Main,Fern,0000,0000,0000,,Pero ya es la mitad de mi vida, ¿eh?
+Dialogue: 0,0:02:24.05,0:02:26.75,Gen_Main,Fern,0000,0000,0000,,El tiempo que he pasado a su lado,\Nseñorita Frieren.
+Dialogue: 0,0:02:28.91,0:02:31.36,Gen_Main,Frieren,0000,0000,0000,,Y cada vez será\Nuna parte mucho más grande.
+Dialogue: 0,0:02:53.27,0:03:02.28,Cart_Serieslogo,CARTEL,0000,0000,0000,,{\an8\fsp1\fad(0,550)\fsp4\pos(320,235)\c&HFFFFFF&\t(1000,4450,\c&HEEC36B&)\t(6300,7500,\c&HEAD347&)}Más allá\Ndel final del viaje
+Dialogue: 0,0:04:02.97,0:04:05.97,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an3\pos(562,285)\b0\fad(0,0)}Episodio 5\NIlusiones fantasmales
+Dialogue: 0,0:04:07.16,0:04:09.22,Gen_Main,Heiter,0000,0000,0000,,Pon atención, Fern.
+Dialogue: 0,0:04:09.71,0:04:12.88,Gen_Main,Heiter,0000,0000,0000,,De ahora en adelante,\Nobedece a Frieren en todo lo que diga.
+Dialogue: 0,0:04:13.05,0:04:15.12,Gen_Main,Heiter,0000,0000,0000,,Tienes que ser una buena chica.
+Dialogue: 0,0:04:15.78,0:04:17.23,Gen_Main,Heiter,0000,0000,0000,,O si no…
+Dialogue: 0,0:04:17.93,0:04:19.73,Gen_Main,Fern,0000,0000,0000,,¿O si no?
+Dialogue: 0,0:04:20.02,0:04:22.88,Gen_Main,Heiter,0000,0000,0000,,Te me apareceré como un fantasma\Ndespués de mi muerte.
+Dialogue: 0,0:04:26.34,0:04:31.58,Gen_Main,Fern,0000,0000,0000,,Entonces, si me porto mal,\N¿se me aparecerá como un fantasma?
+Dialogue: 0,0:04:36.25,0:04:38.63,Gen_Main,Heiter,0000,0000,0000,,Te has vuelto bastante astuta, ¿eh?
+Dialogue: 0,0:04:38.99,0:04:40.96,Gen_Main,Heiter,0000,0000,0000,,No sé a quién le sacaste esas mañas.
+Dialogue: 0,0:04:42.21,0:04:43.86,Gen_Main,Heiter,0000,0000,0000,,Me retracto.
+Dialogue: 0,0:04:46.01,0:04:51.96,Gen_Main,Heiter,0000,0000,0000,,Si eres buena niña, podría aparecerme\Npor un breve instante ante ti.
+Dialogue: 0,0:04:57.09,0:04:59.48,Gen_Main,Frieren,0000,0000,0000,,Que ya pronto vamos a llegar a la aldea.
+Dialogue: 0,0:05:01.62,0:05:03.22,Gen_Main,Fern,0000,0000,0000,,Ah, ¿sí?
+Dialogue: 0,0:05:04.04,0:05:05.17,Gen_Main,Frieren,0000,0000,0000,,¿Qué sucede?
+Dialogue: 0,0:05:05.54,0:05:07.35,Gen_Main,Fern,0000,0000,0000,,No es nada.
+Dialogue: 0,0:05:11.41,0:05:17.33,Cart_A_Tim,CARTEL,0000,0000,0000,,{\fad(700,0)}{\blur.3\an7\bord0\fs17\pos(26,39)}28 años después de la muerte\Nde Himmel, el Héroe,\Nen la región de Wille\Nde los Países Centrales
+Dialogue: 0,0:05:26.23,0:05:29.39,Gen_Main,Tendera,0000,0000,0000,,Oigan, piensan tomar el camino\Npara atravesar el cañón, ¿no?
+Dialogue: 0,0:05:29.83,0:05:31.62,Gen_Main,Tendera,0000,0000,0000,,Será mejor que no lo hagan.
+Dialogue: 0,0:05:31.82,0:05:34.63,Gen_Main,Tendera,0000,0000,0000,,Ya van varios que se han perdido.
+Dialogue: 0,0:05:35.17,0:05:36.89,Gen_Main,Frieren,0000,0000,0000,,¿Sale un monstruo al acecho?
+Dialogue: 0,0:05:37.22,0:05:40.07,Gen_Main,Tendera,0000,0000,0000,,El rumor es\Nque los fantasmas se los llevan.
+Dialogue: 0,0:05:40.27,0:05:42.31,Gen_Main,Tendera,0000,0000,0000,,Hay algunos que dicen haberlos visto.
+Dialogue: 0,0:05:42.48,0:05:43.97,Gen_Main,Frieren,0000,0000,0000,,¿Serán muertos vivientes?
+Dialogue: 0,0:05:44.17,0:05:46.60,Gen_Main,Frieren,0000,0000,0000,,¿Sabes qué apariencia\Ntienen esos fantasmas?
+Dialogue: 0,0:05:46.77,0:05:48.55,Gen_Main,Tendera,0000,0000,0000,,No, no estoy tan al tanto.
+Dialogue: 0,0:05:48.75,0:05:51.78,Gen_Main,Tendera,0000,0000,0000,,Si te llama la atención,\Npregúntales en persona.
+Dialogue: 0,0:06:02.20,0:06:03.75,Gen_Main,Fern,0000,0000,0000,,O sea que, en resumen,
+Dialogue: 0,0:06:04.57,0:06:08.03,Gen_Main,Fern,0000,0000,0000,,a la gente se le aparecen\Nlos fantasmas de familiares o amigos.
+Dialogue: 0,0:06:08.23,0:06:10.69,Gen_Main,Fern,0000,0000,0000,,Y todos tienen\Nla misma apariencia que en vida.
+Dialogue: 0,0:06:11.47,0:06:14.77,Gen_Main,Fern,0000,0000,0000,,Algunos dijeron\Nque los fantasmas les hablaron, ¿verdad?
+Dialogue: 0,0:06:15.91,0:06:18.66,Gen_Main,Frieren,0000,0000,0000,,Ciertamente,\Nesto no es obra de muertos vivientes.
+Dialogue: 0,0:06:18.97,0:06:20.56,Gen_Main,Fern,0000,0000,0000,,Ah, ¿no?
+Dialogue: 0,0:06:23.23,0:06:27.34,Gen_Main,Frieren,0000,0000,0000,,"Muerto viviente" es el nombre genérico\Nde los cadáveres controlados por magia,
+Dialogue: 0,0:06:27.51,0:06:29.99,Gen_Main,Frieren,0000,0000,0000,,como los zombis o los esqueletos.
+Dialogue: 0,0:06:31.54,0:06:34.83,Gen_Main,Frieren,0000,0000,0000,,Pero dicen que aquí\Nse aparecen como se veían en vida.
+Dialogue: 0,0:06:35.39,0:06:37.51,Gen_Main,Frieren,0000,0000,0000,,Los cadáveres no tienen esa apariencia.
+Dialogue: 0,0:06:38.63,0:06:42.08,Gen_Main,Frieren,0000,0000,0000,,Es claro que esto es\Nobra de otro tipo de monstruo.
+Dialogue: 0,0:06:43.98,0:06:46.34,Gen_Main,Fern,0000,0000,0000,,Algo me dice que ya tiene una idea.
+Dialogue: 0,0:06:47.42,0:06:51.58,Gen_Main,Frieren,0000,0000,0000,,Son seres de muy mal gusto.\NMejor no toparnos con ellos.
+Dialogue: 0,0:06:54.99,0:06:56.95,Gen_Main,Frieren,0000,0000,0000,,Saldremos de la aldea a primera hora.
+Dialogue: 0,0:06:57.63,0:07:01.60,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren, los aldeanos están\Nsufriendo por culpa de los monstruos.
+Dialogue: 0,0:07:02.31,0:07:04.94,Gen_Main,Frieren,0000,0000,0000,,Acabas de decir algo\Nque Himmel hubiera dicho.
+Dialogue: 0,0:07:05.40,0:07:08.69,Gen_Main,Fern,0000,0000,0000,,Soy una niña buena,\Na diferencia de usted.
+Dialogue: 0,0:07:09.08,0:07:12.74,Gen_Main,Frieren,0000,0000,0000,,Bueno, si así lo quieres, está bien.
+Dialogue: 0,0:07:13.57,0:07:16.30,Gen_Main,Frieren,0000,0000,0000,,Al fin y al cabo,\Ntomaremos el camino montañoso.
+Dialogue: 0,0:07:31.48,0:07:34.52,Gen_Main,Frieren,0000,0000,0000,,Aquí es donde últimamente\Ndesaparecen los aldeanos.
+Dialogue: 0,0:07:35.78,0:07:37.54,Gen_Main,Frieren,0000,0000,0000,,En cuanto a pistas,
+Dialogue: 0,0:07:38.46,0:07:40.23,Gen_Main,Frieren,0000,0000,0000,,tenemos suficientes, sí.
+Dialogue: 0,0:07:40.93,0:07:43.85,Gen_Main,Fern,0000,0000,0000,,Hay rastros de que aquí se usó magia.
+Dialogue: 0,0:07:44.27,0:07:47.36,Gen_Main,Frieren,0000,0000,0000,,Sí, así es.\N¿Qué tipo de magia crees que sea?
+Dialogue: 0,0:07:48.13,0:07:49.84,Gen_Main,Fern,0000,0000,0000,,Magia fantasmal.
+Dialogue: 0,0:07:50.78,0:07:54.36,Gen_Main,Fern,0000,0000,0000,,Leí en el libro de ecología mágica
+Dialogue: 0,0:07:54.85,0:07:57.85,Gen_Main,Fern,0000,0000,0000,,que hay monstruos que usan magia\Npara atraer a sus presas.
+Dialogue: 0,0:07:58.21,0:07:59.62,Gen_Main,Frieren,0000,0000,0000,,Se llaman einsam.
+Dialogue: 0,0:08:01.02,0:08:04.72,Gen_Main,Frieren,0000,0000,0000,,Entre esa clase de monstruos,\Nestos son muy astutos y voraces.
+Dialogue: 0,0:08:04.92,0:08:07.50,Gen_Main,Frieren,0000,0000,0000,,Su dieta es muy desbalanceada.\NSolo comen humanos.
+Dialogue: 0,0:08:08.50,0:08:11.63,Gen_Main,Frieren,0000,0000,0000,,Muestran ilusiones de los muertos\Na la gente para atraerla.
+Dialogue: 0,0:08:12.26,0:08:14.64,Gen_Main,Fern,0000,0000,0000,,¿Cómo los pueden atraer con eso?
+Dialogue: 0,0:08:15.00,0:08:18.77,Gen_Main,Frieren,0000,0000,0000,,Conjuran visiones de la persona\Nque era más importante para ellos.
+Dialogue: 0,0:08:21.54,0:08:27.02,Gen_Main,Frieren,0000,0000,0000,,Pero la ilusión que los einsam usan\Nno es una amenaza para los hechiceros.
+Dialogue: 0,0:08:27.48,0:08:32.53,Gen_Main,Frieren,0000,0000,0000,,Se desvanece fácilmente al lanzarles\Nmagia de alta densidad, como un ataque.
+Dialogue: 0,0:08:33.24,0:08:35.91,Gen_Main,Fern,0000,0000,0000,,Debo dispararles\Na las ilusiones fantasmales, ¿no?
+Dialogue: 0,0:08:38.17,0:08:39.37,Gen_Main,Frieren,0000,0000,0000,,¿Podrás hacerlo?
+Dialogue: 0,0:08:40.71,0:08:42.16,Gen_Main,Fern,0000,0000,0000,,Desde luego que sí.
+Dialogue: 0,0:08:42.36,0:08:44.87,Gen_Main,Fern,0000,0000,0000,,Porque sabré que es una visión falsa.
+Dialogue: 0,0:08:45.38,0:08:49.05,Gen_Main,Frieren,0000,0000,0000,,Yo le disparé a la ilusión de mi maestra\Nque rogaba por su vida.
+Dialogue: 0,0:08:50.68,0:08:54.13,Gen_Main,Frieren,0000,0000,0000,,Bueno, ya estaba acostumbrada a oírla\Npedir misericordia.
+Dialogue: 0,0:08:54.36,0:08:57.25,Gen_Main,Frieren,0000,0000,0000,,Por eso, no me quedó\Nun gran sentimiento de culpa.
+Dialogue: 0,0:08:57.92,0:09:00.76,Gen_Main,Frieren,0000,0000,0000,,De todas maneras,\Nno se siente muy bien que digamos.
+Dialogue: 0,0:09:01.21,0:09:05.02,Gen_Main,Fern,0000,0000,0000,,¿Cómo es que estaba acostumbrada\Na que le pidiera misericordia?
+Dialogue: 0,0:09:10.53,0:09:12.54,Gen_Main,Fern,0000,0000,0000,,Una neblina ha cubierto el bosque.
+Dialogue: 0,0:09:13.37,0:09:14.73,Gen_Main,Frieren,0000,0000,0000,,Ya están cerca.
+Dialogue: 0,0:09:16.25,0:09:18.95,Gen_Main,Frieren,0000,0000,0000,,Cuando aparezca la ilusión,\Nfulmínala sin dudarlo.
+Dialogue: 0,0:09:24.16,0:09:25.46,Gen_Main,Heiter,0000,0000,0000,,Fern…
+Dialogue: 0,0:09:30.46,0:09:34.00,Gen_Italics,Fern,0000,0000,0000,,Conque esta es la ilusión fantasmal.
+Dialogue: 0,0:09:35.79,0:09:37.41,Gen_Italics,Fern,0000,0000,0000,,No me afecta para nada.
+Dialogue: 0,0:09:38.51,0:09:39.72,Gen_Italics,Fern,0000,0000,0000,,Puedo dispararle.
+Dialogue: 0,0:09:41.70,0:09:45.60,Gen_Main,Heiter,0000,0000,0000,,Ya te volviste una hechicera\Nhecha y derecha, ¿verdad?
+Dialogue: 0,0:09:47.58,0:09:49.92,Gen_Main,Heiter,0000,0000,0000,,Como te portaste bien,
+Dialogue: 0,0:09:50.12,0:09:53.48,Gen_Main,Heiter,0000,0000,0000,,decidí aparecerme\Npor un breve instante ante ti.
+Dialogue: 0,0:09:56.69,0:10:01.18,Gen_Main,Fern/Heiter,0000,0000,0000,,-{\i1}Son mis recuerdos.{\i0}\N-Elegir la magia fue lo mejor para ti…
+Dialogue: 0,0:10:01.57,0:10:07.03,Gen_Main,Heiter/Fern,0000,0000,0000,,-Siempre te gustó la magia.\N-{\i1}Esta cosa ve mis recuerdos.{\i0}
+Dialogue: 0,0:10:05.59,0:10:09.99,Gen_Main_Up,Heiter,0000,0000,0000,,Te veías muy feliz\Ncuando te regalé el báculo.
+Dialogue: 0,0:10:07.73,0:10:09.80,Gen_Italics,Fern,0000,0000,0000,,¿Cómo puede hacer algo tan cruel?
+Dialogue: 0,0:10:10.19,0:10:13.00,Gen_Main_Up,Heiter,0000,0000,0000,,Todas las noches te dormías con él.
+Dialogue: 0,0:10:10.41,0:10:13.00,Gen_Italics,Fern,0000,0000,0000,,Este es un recuerdo mío muy preciado.
+Dialogue: 0,0:10:15.14,0:10:16.37,Gen_Main,Frieren,0000,0000,0000,,Fern…
+Dialogue: 0,0:10:19.78,0:10:21.37,Gen_Main,Frieren,0000,0000,0000,,Fue demasiado para ella.
+Dialogue: 0,0:10:28.93,0:10:31.15,Gen_Main,Frieren,0000,0000,0000,,Conque ahora se me aparece Himmel, ¿eh?
+Dialogue: 0,0:10:31.74,0:10:35.44,Gen_Main,Frieren,0000,0000,0000,,Y yo que creía que mi maestra\Nme saldría de nuevo.
+Dialogue: 0,0:10:36.82,0:10:40.16,Gen_Main,Frieren,0000,0000,0000,,¿Será señal de que he cambiado un poco?
+Dialogue: 0,0:10:43.67,0:10:46.66,Gen_Main,Himmel,0000,0000,0000,,Frieren, dispara.
+Dialogue: 0,0:10:47.67,0:10:51.21,Gen_Main,Frieren,0000,0000,0000,,Sí, exacto. Es lo que Himmel diría.
+Dialogue: 0,0:11:13.49,0:11:16.14,Gen_Main,Frieren,0000,0000,0000,,Ahora este camino montañoso\Nes seguro, ¿verdad?
+Dialogue: 0,0:11:17.05,0:11:18.55,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren,
+Dialogue: 0,0:11:19.29,0:11:21.95,Gen_Main,Fern,0000,0000,0000,,era una ilusión fantasmal\Ndel señor Heiter.
+Dialogue: 0,0:11:22.47,0:11:25.45,Gen_Main,Fern/Frieren,0000,0000,0000,,-Era un impostor.\N-Sí, así es.
+Dialogue: 0,0:11:28.78,0:11:31.46,Gen_Main,Frieren,0000,0000,0000,,Ahora vayamos a vernos\Ncon los auténticos.
+Dialogue: 0,0:11:32.20,0:11:35.41,Gen_Main,Frieren,0000,0000,0000,,Recuerda que nuestra meta es Aureole.
+Dialogue: 0,0:11:37.64,0:11:39.21,Gen_Main,Fern,0000,0000,0000,,Sí, tiene razón.
+Dialogue: 0,0:11:43.26,0:11:48.72,Cart_A_Tim,CARTEL,0000,0000,0000,,{\fad(700,0)}{\blur.3\an7\bord0\fs17\pos(26,39)}28 años después de la muerte\Nde Himmel, el Héroe,\Nen el cañón de Riegel\Nde los Países Centrales
+Dialogue: 0,0:11:49.61,0:11:51.23,Gen_Main,Fern,0000,0000,0000,,¿Ese es un dragón?
+Dialogue: 0,0:11:52.79,0:11:54.79,Gen_Main,Fern,0000,0000,0000,,Es la primera vez que veo uno.
+Dialogue: 0,0:11:55.67,0:11:57.18,Gen_Main,Frieren,0000,0000,0000,,Mira el nido.
+Dialogue: 0,0:11:58.65,0:12:00.40,Gen_Main,Frieren,0000,0000,0000,,Hay un grimorio, ¿no?
+Dialogue: 0,0:12:00.93,0:12:03.34,Gen_Main,Frieren,0000,0000,0000,,Ese es uno\Nde los que andaba buscando, ¿sabes?
+Dialogue: 0,0:12:03.54,0:12:05.66,Gen_Main,Fern,0000,0000,0000,,Vaya que le siguen gustando, ¿verdad?
+Dialogue: 0,0:12:06.04,0:12:08.15,Gen_Main,Fern,0000,0000,0000,,Pero ¿qué hace ahí?
+Dialogue: 0,0:12:08.76,0:12:12.91,Gen_Main,Frieren,0000,0000,0000,,Los dragones utilizan objetos mágicos\Ncomo material para sus nidos.
+Dialogue: 0,0:12:13.94,0:12:15.79,Gen_Main,Frieren,0000,0000,0000,,Es un dragón solar.
+Dialogue: 0,0:12:16.09,0:12:18.92,Gen_Main,Frieren,0000,0000,0000,,Este ha devorado a varios aventureros.
+Dialogue: 0,0:12:19.39,0:12:22.38,Gen_Main,Frieren,0000,0000,0000,,De cualquier modo,\Nlo mejor será exterminarlo.
+Dialogue: 0,0:12:23.77,0:12:25.95,Gen_Main,Frieren,0000,0000,0000,,Ten cuidado de no darle al nido.
+Dialogue: 0,0:12:26.15,0:12:27.22,Gen_Main,Fern,0000,0000,0000,,Muy bien.
+Dialogue: 0,0:12:40.22,0:12:43.73,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren,\Nno parece haberle afectado.
+Dialogue: 0,0:12:43.93,0:12:46.07,Gen_Main,Frieren,0000,0000,0000,,Los dragones no dejarán de ser duros.
+Dialogue: 0,0:12:46.27,0:12:48.45,Gen_Main,Frieren,0000,0000,0000,,No hay otra opción más que correr.
+Dialogue: 0,0:13:07.09,0:13:09.30,Gen_Main,Frieren,0000,0000,0000,,Al fin te libraste de él, ¿verdad?
+Dialogue: 0,0:13:09.50,0:13:11.56,Gen_Main,Frieren,0000,0000,0000,,Surca los cielos con gran rapidez, ¿eh?
+Dialogue: 0,0:13:11.75,0:13:13.93,Gen_Main,Frieren,0000,0000,0000,,Una lucha aérea no parece buena idea.
+Dialogue: 0,0:13:14.14,0:13:17.96,Gen_Main,Fern,0000,0000,0000,,Por un momento, me resigné a morir.
+Dialogue: 0,0:13:18.33,0:13:19.69,Gen_Main,Frieren,0000,0000,0000,,Bueno, volvamos con él.
+Dialogue: 0,0:13:20.07,0:13:23.61,Gen_Main,Frieren,0000,0000,0000,,Si repetimos el proceso, de seguro\Nalgún día lograremos vencerlo.
+Dialogue: 0,0:13:28.27,0:13:29.49,Gen_Main,Frieren,0000,0000,0000,,Me lo imaginaba.
+Dialogue: 0,0:13:30.01,0:13:34.12,Gen_Main,Frieren,0000,0000,0000,,Jugar al gato y a al ratón con un dragón\Nno es el {\i1}modus operandi{\i0} de un mago.
+Dialogue: 0,0:13:38.55,0:13:41.34,Gen_Main,Frieren,0000,0000,0000,,Supongo que ya es hora\Nde hacer que se nos una.
+Dialogue: 0,0:13:44.46,0:13:48.59,Gen_Main,Frieren/Eisen,0000,0000,0000,,-¿Guardaespaldas?\N-Sí. Buscas uno, ¿no?
+Dialogue: 0,0:13:48.93,0:13:53.84,Gen_Main,Eisen,0000,0000,0000,,En una aldea cerca del cañón de Riegel,\Nhay un guerrero llamado Stark.
+Dialogue: 0,0:13:54.04,0:13:57.60,Gen_Main,Eisen,0000,0000,0000,,Antes de entrar a los Países del Norte,\Npasa por él y llévatelo.
+Dialogue: 0,0:13:57.87,0:13:59.77,Gen_Main,Eisen,0000,0000,0000,,Es mi aprendiz.
+Dialogue: 0,0:14:01.85,0:14:03.36,Gen_Main,Frieren,0000,0000,0000,,¿Es un buen guerrero?
+Dialogue: 0,0:14:14.99,0:14:18.54,Gen_Main,Fern,0000,0000,0000,,Es tan normal la vida aquí\Nque no parece que haya un dragón cerca.
+Dialogue: 0,0:14:18.74,0:14:20.38,Gen_Main,Frieren,0000,0000,0000,,Buena observación.
+Dialogue: 0,0:14:22.17,0:14:27.63,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren,\N¿qué magia contiene aquel grimorio?
+Dialogue: 0,0:14:28.19,0:14:30.39,Gen_Main,Frieren,0000,0000,0000,,La magia para ver a través de la ropa.
+Dialogue: 0,0:14:33.53,0:14:37.58,Gen_Main,Fern,0000,0000,0000,,Usted se la pasa coleccionando\Nlas magias más excéntricas.
+Dialogue: 0,0:14:37.78,0:14:39.52,Gen_Main,Frieren,0000,0000,0000,,Es que es mi pasatiempo.
+Dialogue: 0,0:14:40.26,0:14:42.37,Gen_Main,Frieren,0000,0000,0000,,Pero también tiene fines prácticos.
+Dialogue: 0,0:14:42.79,0:14:45.36,Gen_Main,Frieren,0000,0000,0000,,Según lo que percibas como ropa,
+Dialogue: 0,0:14:45.56,0:14:50.28,Gen_Main,Frieren/Abuela,0000,0000,0000,,-puedes detectar armas escondidas.\N-Viajeras, ¿tienen un momento?
+Dialogue: 0,0:14:51.38,0:14:54.28,Gen_Main,Abuela,0000,0000,0000,,El gran Stark dice que quiere verlas.
+Dialogue: 0,0:14:54.97,0:14:57.22,Gen_Main,Frieren,0000,0000,0000,,Nos ahorró el trabajo de buscarlo.
+Dialogue: 0,0:15:01.21,0:15:02.79,Gen_Main,Abuela,0000,0000,0000,,Hace tres años,
+Dialogue: 0,0:15:03.79,0:15:07.51,Gen_Main,Abuela,0000,0000,0000,,aquel dragón atacó el pueblo.
+Dialogue: 0,0:15:14.66,0:15:19.06,Gen_Main,Abuela,0000,0000,0000,,En ese momento, el gran Stark\Nse apareció para salvarnos.
+Dialogue: 0,0:15:19.32,0:15:23.16,Gen_Main,Abuela,0000,0000,0000,,El valiente guerrero se plantó ante\Nel dragón y no retrocedió ni un paso.
+Dialogue: 0,0:15:23.36,0:15:27.93,Gen_Main,Abuela,0000,0000,0000,,Y luego de un largo rato de mirarse\Nfijamente, el dragón se retiró.
+Dialogue: 0,0:15:28.13,0:15:32.29,Gen_Main,Abuela,0000,0000,0000,,Gracias a que el valiente\Ncontinúa aquí desde entonces,
+Dialogue: 0,0:15:32.49,0:15:37.86,Gen_Main,Abuela,0000,0000,0000,,el dragón no viene a atacarnos y somos\Ncapaces de vivir en paz y tranquilidad.
+Dialogue: 0,0:15:39.29,0:15:44.23,Gen_Main,Fern,0000,0000,0000,,Es probable que podamos derrotar\Nal dragón si le pedimos ayuda, ¿verdad?
+Dialogue: 0,0:15:44.68,0:15:46.10,Gen_Main,Frieren,0000,0000,0000,,Ojalá que sí.
+Dialogue: 0,0:15:48.49,0:15:51.70,Gen_Main,Niño A,0000,0000,0000,,¿Podré ser un guerrero poderoso\Ncomo tú, Stark?
+Dialogue: 0,0:15:51.90,0:15:53.09,Gen_Main,Stark,0000,0000,0000,,Claro que sí.
+Dialogue: 0,0:15:53.62,0:15:56.35,Gen_Main,Stark,0000,0000,0000,,Pero ser guerrero es la peor ocupación.
+Dialogue: 0,0:15:58.70,0:16:00.81,Gen_Main,Niño A,0000,0000,0000,,¡Abuela!
+Dialogue: 0,0:16:08.60,0:16:11.42,Gen_Main,Stark,0000,0000,0000,,Conque ustedes son\Nlas que se metieron con el dragón.
+Dialogue: 0,0:16:11.95,0:16:15.70,Gen_Main,Stark,0000,0000,0000,,No nos conviene que lo molesten.\NPonen en peligro la aldea.
+Dialogue: 0,0:16:16.86,0:16:20.45,Gen_Main,Stark,0000,0000,0000,,Los dragones son más aterradores\Nde lo que ustedes creen.
+Dialogue: 0,0:16:22.39,0:16:25.29,Gen_Main,Stark,0000,0000,0000,,Esta cicatriz me la hizo\Nun dragón oscuro en batalla.
+Dialogue: 0,0:16:25.57,0:16:27.96,Gen_Main,Frieren,0000,0000,0000,,No es una cicatriz tan impresionante.
+Dialogue: 0,0:16:30.09,0:16:33.72,Gen_Main,Stark,0000,0000,0000,,Las mandó mi maestro, ¿verdad?\NDíganme quiénes son.
+Dialogue: 0,0:16:34.60,0:16:36.72,Gen_Main,Frieren,0000,0000,0000,,Frieren, la hechicera.
+Dialogue: 0,0:16:39.59,0:16:41.91,Gen_Main,Stark,0000,0000,0000,,Señora, déjenos solos.
+Dialogue: 0,0:16:43.29,0:16:46.52,Gen_Main,Stark,0000,0000,0000,,No hay problema.\NSon amigas de mi maestro.
+Dialogue: 0,0:16:52.22,0:16:54.81,Gen_Main,Stark,0000,0000,0000,,Mi maestro estaba enojado, ¿verdad?
+Dialogue: 0,0:16:55.42,0:16:57.62,Gen_Main,Stark,0000,0000,0000,,Pues me le escapé sin decir nada.
+Dialogue: 0,0:16:58.26,0:17:01.68,Gen_Main,Frieren,0000,0000,0000,,Stark, ¿por qué sigues\Nsin derrotar al dragón?
+Dialogue: 0,0:17:01.88,0:17:04.50,Gen_Main,Frieren,0000,0000,0000,,Ninguna razón\Nte retiene en la aldea, ¿o sí?
+Dialogue: 0,0:17:05.08,0:17:07.98,Gen_Main,Frieren,0000,0000,0000,,¿Por qué no me dices primero\Nqué asunto tienes conmigo?
+Dialogue: 0,0:17:08.52,0:17:11.88,Gen_Main,Frieren,0000,0000,0000,,Si quieren que regrese\Ncon mi maestro, me rehúso.
+Dialogue: 0,0:17:12.76,0:17:16.01,Gen_Main,Frieren,0000,0000,0000,,Quiero que te nos unas\Ncomo guerrero de vanguardia.
+Dialogue: 0,0:17:16.34,0:17:20.01,Gen_Main,Frieren,0000,0000,0000,,Primero, nos gustaría que nos ayudaras\Na aniquilar al dragón solar.
+Dialogue: 0,0:17:20.37,0:17:23.12,Gen_Main,Frieren,0000,0000,0000,,Es que quiero el grimorio en su nido.
+Dialogue: 0,0:17:23.32,0:17:25.74,Gen_Main,Stark/Frieren,0000,0000,0000,,-¿Para qué?\N-Porque es mi pasatiempo.
+Dialogue: 0,0:17:25.94,0:17:27.65,Gen_Main,Frieren,0000,0000,0000,,No tengo otra razón en especial.
+Dialogue: 0,0:17:28.07,0:17:30.06,Gen_Main,Stark,0000,0000,0000,,Es un dragón solar, ¿entiendes?
+Dialogue: 0,0:17:30.51,0:17:32.97,Gen_Main,Stark,0000,0000,0000,,No es un enemigo\Ncon el que se lucha sin razón.
+Dialogue: 0,0:17:41.35,0:17:42.93,Gen_Main,Himmel,0000,0000,0000,,¡Qué impresionante!
+Dialogue: 0,0:17:44.21,0:17:45.66,Gen_Main,Frieren,0000,0000,0000,,Es cierto.
+Dialogue: 0,0:17:46.11,0:17:49.75,Gen_Main,Frieren,0000,0000,0000,,Pero había unos tontos que se alegraban\Ncon la magia que colecciono.
+Dialogue: 0,0:17:50.46,0:17:52.38,Gen_Main,Frieren,0000,0000,0000,,¿Esa es razón suficiente, según tú?
+Dialogue: 0,0:17:53.30,0:17:56.18,Gen_Main,Stark,0000,0000,0000,,Se alegraban con la magia, ¿eh?
+Dialogue: 0,0:17:58.67,0:18:01.03,Gen_Main,Stark/Frieren,0000,0000,0000,,-Qué tontería.\N-Lo sé.
+Dialogue: 0,0:18:01.98,0:18:04.41,Gen_Main,Stark,0000,0000,0000,,Sí, no me importaría ser su compañero.
+Dialogue: 0,0:18:05.38,0:18:07.74,Gen_Main,Stark,0000,0000,0000,,Mi maestro les pidió\Nque me llevaran, ¿no?
+Dialogue: 0,0:18:08.41,0:18:12.06,Gen_Main,Stark,0000,0000,0000,,Pero mi condición es que derroten\Nal dragón solar a como dé lugar.
+Dialogue: 0,0:18:12.97,0:18:15.19,Gen_Main,Stark,0000,0000,0000,,Para ser sincero,\Nyo solo no puedo con él.
+Dialogue: 0,0:18:16.42,0:18:19.70,Gen_Main,Stark,0000,0000,0000,,Frieren, tú podrías exterminarlo, ¿no?
+Dialogue: 0,0:18:20.15,0:18:23.70,Gen_Main,Frieren,0000,0000,0000,,Sí, eso tenlo por seguro, pero solo\Nsi lo distraes por 30 segundos.
+Dialogue: 0,0:18:24.31,0:18:25.92,Gen_Main,Stark,0000,0000,0000,,Claro. Entiendo.
+Dialogue: 0,0:18:26.61,0:18:28.57,Gen_Main,Stark,0000,0000,0000,,Por 30 segundos, ¿eh?
+Dialogue: 0,0:18:30.33,0:18:32.73,Gen_Main,Stark,0000,0000,0000,,¿Eso tengo que hacerlo yo sí o sí?
+Dialogue: 0,0:18:32.93,0:18:35.46,Gen_Main,Fern,0000,0000,0000,,¿Y ahora con qué sale este hombre?
+Dialogue: 0,0:18:35.95,0:18:38.16,Gen_Main,Frieren,0000,0000,0000,,Ahora entiendo de qué se trata.
+Dialogue: 0,0:18:38.67,0:18:41.97,Gen_Main,Frieren,0000,0000,0000,,Stark, ¿tienes experiencia\Nluchando contra monstruos?
+Dialogue: 0,0:18:42.19,0:18:43.72,Gen_Main,Stark,0000,0000,0000,,¡Ninguna!
+Dialogue: 0,0:18:43.98,0:18:46.47,Gen_Main,Stark,0000,0000,0000,,¡Ayúdame, Frieren!
+Dialogue: 0,0:18:46.89,0:18:49.73,Gen_Main,Stark,0000,0000,0000,,Reuní el valor\Npara plantármele enfrente.
+Dialogue: 0,0:18:49.99,0:18:53.73,Gen_Main,Stark,0000,0000,0000,,Pero me dio tanto miedo\Nque no pude dar ni un paso.
+Dialogue: 0,0:18:54.05,0:18:58.20,Gen_Main,Stark,0000,0000,0000,,¡Es capaz de rebanar casas\Ncomo si fueran verduras!
+Dialogue: 0,0:18:58.49,0:19:01.74,Gen_Main,Stark,0000,0000,0000,,¡Un simple humano\Nno puede luchar contra esa cosa!
+Dialogue: 0,0:19:02.94,0:19:06.01,Gen_Main,Stark,0000,0000,0000,,El dragón me dejó vivir\Npor simple capricho.
+Dialogue: 0,0:19:08.75,0:19:13.00,Gen_Main,Stark,0000,0000,0000,,Por alguna razón, ya no ataca la aldea.\NY los aldeanos me tratan como héroe.
+Dialogue: 0,0:19:13.34,0:19:16.17,Gen_Main,Stark,0000,0000,0000,,¡Todos los aldeanos son muy buena gente!
+Dialogue: 0,0:19:16.37,0:19:18.41,Gen_Main,Señora,0000,0000,0000,,Eres joven. Debes comer mucho.
+Dialogue: 0,0:19:18.61,0:19:21.76,Gen_Main,Niño A,0000,0000,0000,,¡Stark, muéstrame un nuevo ataque letal!
+Dialogue: 0,0:19:22.01,0:19:25.26,Gen_Main,Stark,0000,0000,0000,,¡La cosa ya no está\Ncomo para salir huyendo de aquí!
+Dialogue: 0,0:19:25.89,0:19:30.27,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren, este no sirve.\NBusquemos otro.
+Dialogue: 0,0:19:30.47,0:19:33.01,Gen_Main,Stark,0000,0000,0000,,¡No me abandonen!
+Dialogue: 0,0:19:33.21,0:19:36.10,Gen_Main,Frieren,0000,0000,0000,,No, él es capaz\Nde luchar contra el dragón.
+Dialogue: 0,0:19:36.49,0:19:38.03,Gen_Main,Frieren,0000,0000,0000,,Sé que puede hacerlo.
+Dialogue: 0,0:19:38.28,0:19:41.17,Gen_Main,Fern,0000,0000,0000,,Lo dice como si de verdad\Nen la práctica pudiera…
+Dialogue: 0,0:20:02.15,0:20:05.50,Gen_Main,Frieren,0000,0000,0000,,Stark, te daré solo una noche.
+Dialogue: 0,0:20:06.30,0:20:07.93,Gen_Main,Frieren,0000,0000,0000,,Piénsalo bien.
+Dialogue: 0,0:20:08.37,0:20:11.45,Gen_Main,Frieren,0000,0000,0000,,Estoy segura de que sabes\Nque no puedes seguir así.
+Dialogue: 0,0:20:25.63,0:20:28.16,Gen_Main,Cocinero,0000,0000,0000,,¿Que fueron a ver al gran Stark?
+Dialogue: 0,0:20:28.55,0:20:30.35,Gen_Main,Cocinero,0000,0000,0000,,Es un joven extraordinario, ¿no?
+Dialogue: 0,0:20:30.55,0:20:35.17,Gen_Main,Señora,0000,0000,0000,,Siempre se come con mucho gusto\Nla comida que le damos.
+Dialogue: 0,0:20:36.02,0:20:38.29,Gen_Main,Fern,0000,0000,0000,,Todos lo quieren, ¿verdad?
+Dialogue: 0,0:20:39.01,0:20:42.30,Gen_Main,Frieren,0000,0000,0000,,Pues da la impresión de ser buen chico.
+Dialogue: 0,0:20:42.97,0:20:44.33,Gen_Main,Fern,0000,0000,0000,,¿Buen chico?
+Dialogue: 0,0:20:45.02,0:20:47.93,Gen_Main,Fern,0000,0000,0000,,A mí solo me pareció un cobarde.
+Dialogue: 0,0:20:48.20,0:20:50.55,Gen_Main,Frieren,0000,0000,0000,,Eso no lo niego.
+Dialogue: 0,0:20:50.86,0:20:54.19,Gen_Main,Frieren,0000,0000,0000,,Como tú, la vez que peleaste\Npor primera vez contra un monstruo…
+Dialogue: 0,0:20:56.03,0:20:57.81,Gen_Main,Frieren,0000,0000,0000,,Está bien. Lo olvidaré.
+Dialogue: 0,0:21:01.11,0:21:05.82,Gen_Main,Frieren,0000,0000,0000,,Rayos. Eras tan buena y linda\Ncuando eras pequeña.
+Dialogue: 0,0:21:07.06,0:21:11.13,Gen_Main,Fern,0000,0000,0000,,Por cierto, ¿por qué cree\Nque el dragón ya no ataca el pueblo?
+Dialogue: 0,0:21:11.33,0:21:15.83,Gen_Main,Frieren,0000,0000,0000,,Quién sabe. Puede que sea\Npor simple capricho. O puede que no.
+Dialogue: 0,0:21:18.54,0:21:20.09,Gen_Main,Fern,0000,0000,0000,,¿Qué será ese ruido?
+Dialogue: 0,0:21:20.51,0:21:22.13,Gen_Main,Frieren,0000,0000,0000,,Pues Stark, ¿no?
+Dialogue: 0,0:21:23.62,0:21:25.59,Gen_Main,Frieren,0000,0000,0000,,Si te da curiosidad, ve a verlo.
+Dialogue: 0,0:21:26.04,0:21:27.81,Gen_Main,Frieren,0000,0000,0000,,Yo ya me voy a la cama.
+Dialogue: 0,0:21:46.38,0:21:47.81,Gen_Main,Frieren,0000,0000,0000,,¿Es un buen guerrero?
+Dialogue: 0,0:21:50.57,0:21:55.33,Gen_Main,Eisen,0000,0000,0000,,Cuando era niño,\Nlos monstruos atacaron su pueblo natal.
+Dialogue: 0,0:21:55.80,0:21:58.79,Gen_Main,Eisen,0000,0000,0000,,Él fue el único que escapó con vida.\NEs un cobarde.
+Dialogue: 0,0:22:00.53,0:22:02.22,Gen_Main,Eisen,0000,0000,0000,,Es igual a mí.
+Dialogue: 0,0:22:04.45,0:22:08.23,Gen_Main,Eisen,0000,0000,0000,,Por eso le enseñé todo lo que sé.
+Dialogue: 0,0:22:09.03,0:22:13.22,Gen_Main,Eisen,0000,0000,0000,,Ahora es capaz\Nde pelear por el bien de alguien.
+Dialogue: 0,0:22:13.91,0:22:17.21,Gen_Main,Frieren,0000,0000,0000,,Entiendo. Es un buen guerrero.
+Dialogue: 0,0:22:38.07,0:22:41.46,Gen_Main,Fern,0000,0000,0000,,Era la marca del resultado\Nde su entrenamiento, ¿eh?
+Dialogue: 0,0:24:15.55,0:24:19.93,Cart_C_Tim,CARTEL,0000,0000,0000,,{\b0\fad(800,0)\bord1\blur0.6\fs14}Traducción: Antonio Valdez\NPautado: Thomas Benaissa\NEdición: Álvaro Jimeno\NControl de calidad: Nicolás Sepúlveda.{\b1\b0}
+Dialogue: 0,0:24:20.14,0:24:23.21,Gen_Main,Hombre A,0000,0000,0000,,El tiempo pasa y no perdona.
+Dialogue: 0,0:24:20.55,0:24:21.73,Gen_Main_Up,Frieren,0000,0000,0000,,Vieja bruja, ¿eh?
+Dialogue: 0,0:24:21.93,0:24:25.17,Gen_Main_Up,Hombre B,0000,0000,0000,,Tengan cuidado\Nde no causar problemas en la ciudad.
+Dialogue: 0,0:24:23.41,0:24:24.97,Gen_Main,Stark,0000,0000,0000,,Supongo que se decepcionó de mí.
+Dialogue: 0,0:24:25.17,0:24:27.53,Gen_Main,Fern/Frieren,0000,0000,0000,,-Te tiemblan las manos.\N-Tiemblan de la misma manera.
+Dialogue: 0,0:24:27.48,0:24:29.94,Cart_A_Tim,CARTEL,0000,0000,0000,,{\fsp1\b0\fad(500,0)\pos(320,86)\bord0\c&H201B1C&\blur5\t(0,271,\blur0)\t(312,1188,\c&HFFFFFF&)\t(\fsp0)}Episodio 6\N{\fs30}El héroe del pueblo
+Dialogue: 0,0:24:27.73,0:24:29.94,Gen_Main,Stark,0000,0000,0000,,Soy Stark, el héroe del pueblo.

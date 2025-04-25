@@ -1,0 +1,371 @@
+﻿[Script Info]
+Title: [Erai-raws] Português (Brasil)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,1
+Style: DefaultItalics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DefaultTop,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0015,0
+Style: DefaultOverlap,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultOverlapTop,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0015,0
+Style: Flashback,Trebuchet MS,22,&H00FBFBFE,&H000000FF,&H005C0718,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,0
+Style: FlashbackItalics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,1
+Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Signs_EpTitle,Times New Roman,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0030,0030,0010,0
+Style: Signs_NextEp,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Jikai,Times New Roman,20,&H001F221F,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0000,0000,0080,1
+Style: Songs_OP2,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A5B23B,&H00A5B23B,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Songs_ED2,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00291665,&H00291665,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:17.38,0:00:19.54,DefaultItalics,WIRBEL,0000,0000,0000,,Mas que perigo.
+Dialogue: 0,0:00:19.78,0:00:22.53,DefaultItalics,WIRBEL,0000,0000,0000,,Ela provavelmente está usando\Nmagia que corta objetos.
+Dialogue: 0,0:00:24.09,0:00:28.48,DefaultItalics,WIRBEL,0000,0000,0000,,É uma magia básica,\Nmas não consigo ver sua trajetória.
+Dialogue: 0,0:00:31.93,0:00:35.71,Default,WIRBEL,0000,0000,0000,,É impossível bloquear\Ntodos os ataques, mas...
+Dialogue: 0,0:00:36.58,0:00:39.25,Default,WIRBEL,0000,0000,0000,,O que foi? Não vai continuar com isso?
+Dialogue: 0,0:00:39.59,0:00:42.13,Default,ÜBEL,0000,0000,0000,,Acho que pesei a mão um pouquinho.
+Dialogue: 0,0:00:42.82,0:00:43.98,Default,WIRBEL,0000,0000,0000,,Talvez.
+Dialogue: 0,0:00:44.73,0:00:48.10,Default,WIRBEL,0000,0000,0000,,O raio da sua magia é\Nde uns cinco metros. Acertei?
+Dialogue: 0,0:00:48.35,0:00:51.68,Default,ÜBEL,0000,0000,0000,,Isso mesmo. Então, o que faremos agora?
+Dialogue: 0,0:00:51.68,0:00:54.41,Default,ÜBEL,0000,0000,0000,,Vamos nos atacar\Ncom feitiços básicos de novo?
+Dialogue: 0,0:00:54.88,0:00:58.06,Default,WIRBEL,0000,0000,0000,,Não, isso não será necessário.
+Dialogue: 0,0:00:58.06,0:01:01.49,FlashbackItalics,EHRE,0000,0000,0000,,Sua magia é desprovida de caráter.
+Dialogue: 0,0:01:01.49,0:01:03.71,FlashbackItalics,EHRE,0000,0000,0000,,Ele é covarde, e seu único\Npropósito é vencer.
+Dialogue: 0,0:01:03.71,0:01:08.01,FlashbackItalics,EHRE,0000,0000,0000,,A garota lutando contra o Wirbel\Nagora provavelmente será morta.
+Dialogue: 0,0:01:10.31,0:01:11.13,Default,FERN,0000,0000,0000,,Muito bem.
+Dialogue: 0,0:01:16.33,0:01:18.10,DefaultItalics,EHRE,0000,0000,0000,,Um ataque de saturação?
+Dialogue: 0,0:01:21.53,0:01:24.95,DefaultItalics,EHRE,0000,0000,0000,,Como ela consegue controlar\Ntantas magias de ataque de uma vez?
+Dialogue: 0,0:01:27.33,0:01:30.37,Default,EHRE,0000,0000,0000,,Ela tem um poder absurdo.
+Dialogue: 0,0:01:30.37,0:01:32.19,Default,EHRE,0000,0000,0000,,Não há falha alguma.
+Dialogue: 0,0:01:34.38,0:01:37.68,Default,EHRE,0000,0000,0000,,Eu não consigo... dar conta disso.
+Dialogue: 0,0:01:53.09,0:01:57.01,Songs_OP2,OP LYRICS,0000,0000,0000,,Você é como o vento
+Dialogue: 0,0:01:57.01,0:02:01.63,Songs_OP2,OP LYRICS,0000,0000,0000,,Fechando seus olhos durante o pôr do sol
+Dialogue: 0,0:02:01.63,0:02:07.28,Songs_OP2,OP LYRICS,0000,0000,0000,,Eu me pergunto no que você estará pensando
+Dialogue: 0,0:02:07.56,0:02:12.61,Signs,SIGN,0000,0000,0000,,{\fad(857,1)\blur0.25\fs30\fnGeorgia\fsp3.9\c&HFFFE65&\pos(328,254)\clip(109,253,547,294)\t(3943,4986,\clip(109,253,110,294))}e a Jornada para o Além
+Dialogue: 0,0:02:12.00,0:02:15.98,Songs_OP2,OP LYRICS,0000,0000,0000,,Com as pálpebras abertas
+Dialogue: 0,0:02:15.98,0:02:20.56,Songs_OP2,OP LYRICS,0000,0000,0000,,Seus olhos brilharam como vidro
+Dialogue: 0,0:02:20.56,0:02:27.33,Songs_OP2,OP LYRICS,0000,0000,0000,,O cheiro lembrava levemente o de um dia ensolarado
+Dialogue: 0,0:02:33.26,0:02:38.46,Songs_OP2,OP LYRICS,0000,0000,0000,,Que faça sol! Que as flores desabrochem!
+Dialogue: 0,0:02:38.46,0:02:42.66,Songs_OP2,OP LYRICS,0000,0000,0000,,Floresça e diga que foi culpa do sol
+Dialogue: 0,0:02:42.66,0:02:47.05,Songs_OP2,OP LYRICS,0000,0000,0000,,Se estiver chovendo, quando ela parar
+Dialogue: 0,0:02:47.05,0:02:52.05,Songs_OP2,OP LYRICS,0000,0000,0000,,Ela te fará brilhar ao sol
+Dialogue: 0,0:02:52.05,0:02:57.45,Songs_OP2,OP LYRICS,0000,0000,0000,,Acalme os sons agitados no meu coração
+Dialogue: 0,0:02:57.45,0:03:01.49,Songs_OP2,OP LYRICS,0000,0000,0000,,Nós somos uma brisa da primavera
+Dialogue: 0,0:03:01.49,0:03:05.90,Songs_OP2,OP LYRICS,0000,0000,0000,,Voaremos até aquela nuvem
+Dialogue: 0,0:03:05.90,0:03:10.73,Songs_OP2,OP LYRICS,0000,0000,0000,,E iremos cada vez mais longe
+Dialogue: 0,0:03:13.96,0:03:16.96,Signs_EpTitle,EPTITLE,0000,0000,0000,,{\blur0.2\c&HFAFFF7&\pos(402,269.5)}Episódio 20: Precisar matar
+Dialogue: 0,0:03:18.44,0:03:19.98,Default,WIRBEL,0000,0000,0000,,Sorganeil.
+Dialogue: 0,0:03:29.64,0:03:31.80,Default,ÜBEL,0000,0000,0000,,Não consigo mover o meu corpo.
+Dialogue: 0,0:03:32.35,0:03:34.72,DefaultItalics,ÜBEL,0000,0000,0000,,Também não consigo\Ncontrolar a minha mana.
+Dialogue: 0,0:03:35.29,0:03:38.02,DefaultItalics,ÜBEL,0000,0000,0000,,Que feitiço de amarração poderoso.
+Dialogue: 0,0:03:38.02,0:03:42.04,DefaultItalics,ÜBEL,0000,0000,0000,,Se ele tinha esse feitiço, então por que\Nnão capturou o Stille com isto?
+Dialogue: 0,0:03:42.97,0:03:47.32,DefaultItalics,ÜBEL,0000,0000,0000,,Mas acho que é inútil se ele\Nnão conseguir encontrar nenhum.
+Dialogue: 0,0:03:47.70,0:03:52.25,Default,WIRBEL,0000,0000,0000,,Meu feitiço prende\Naqueles que posso ver.
+Dialogue: 0,0:03:52.69,0:03:56.96,Default,WIRBEL,0000,0000,0000,,Você não será capaz de escapar\Nenquanto eu estiver te olhando.
+Dialogue: 0,0:03:57.23,0:04:01.56,Default,WIRBEL,0000,0000,0000,,Poderia, tranquilamente,\Nte matar com isso.
+Dialogue: 0,0:04:01.56,0:04:04.96,DefaultItalics,ÜBEL,0000,0000,0000,,Além disso, ele estava se segurando.
+Dialogue: 0,0:04:05.42,0:04:10.83,DefaultItalics,ÜBEL,0000,0000,0000,,Se ele realmente quisesse me matar,\Nteria me apreendido quando me emboscou.
+Dialogue: 0,0:04:12.04,0:04:13.47,Default,WIRBEL,0000,0000,0000,,Essa é a sua última chance.
+Dialogue: 0,0:04:16.07,0:04:18.19,Default,WIRBEL,0000,0000,0000,,Deixe o Stille aí e vá embora.
+Dialogue: 0,0:04:19.49,0:04:21.82,DefaultItalics,ÜBEL,0000,0000,0000,,Que cara chato.
+Dialogue: 0,0:04:21.82,0:04:24.52,DefaultItalics,ÜBEL,0000,0000,0000,,Pensei que finalmente tinha\Nencontrado uma luta até a morte.
+Dialogue: 0,0:04:24.81,0:04:28.02,DefaultItalics,ÜBEL,0000,0000,0000,,No fim, o objetivo dele era\Nme ameaçar para pegar nosso Stille.
+Dialogue: 0,0:04:30.18,0:04:31.68,Default,ÜBEL,0000,0000,0000,,Espera aí.
+Dialogue: 0,0:04:31.68,0:04:34.74,Default,ÜBEL,0000,0000,0000,,Por que você precisa\Nme mandar fazer isso?
+Dialogue: 0,0:04:34.74,0:04:38.50,Default,ÜBEL,0000,0000,0000,,Você poderia pegar o Stille de mim\Nenquanto estou imóvel.
+Dialogue: 0,0:04:58.73,0:05:02.55,Default,ÜBEL,0000,0000,0000,,Então, você precisa ver\No meu corpo inteiro.
+Dialogue: 0,0:05:02.55,0:05:05.44,Default,ÜBEL,0000,0000,0000,,Faz sentido você não usá-lo\Ncontra várias pessoas.
+Dialogue: 0,0:05:05.44,0:05:07.53,Default,WIRBEL,0000,0000,0000,,Você mirou nos meus olhos.
+Dialogue: 0,0:05:07.53,0:05:09.73,Default,ÜBEL,0000,0000,0000,,Não é o mais inteligente?
+Dialogue: 0,0:05:09.73,0:05:15.11,Default,WIRBEL,0000,0000,0000,,Não. No seu lugar, eu teria\Nmirado no pescoço, pra matar.
+Dialogue: 0,0:05:15.11,0:05:17.41,Default,WIRBEL,0000,0000,0000,,A luta teria terminado na hora.
+Dialogue: 0,0:05:17.97,0:05:20.26,Default,WIRBEL,0000,0000,0000,,Você deve ser capaz de fazer isso.
+Dialogue: 0,0:05:21.21,0:05:24.49,Default,WIRBEL,0000,0000,0000,,Havia pessoas no campo de batalha\Nque fizeram coisas parecidas.
+Dialogue: 0,0:05:25.21,0:05:29.76,Default,WIRBEL,0000,0000,0000,,Eram um bando de safados\Nque gostavam de matar.
+Dialogue: 0,0:05:32.22,0:05:35.26,Default,WIRBEL,0000,0000,0000,,Eu deveria te matar agora mesmo.
+Dialogue: 0,0:05:37.84,0:05:40.70,Default,ÜBEL,0000,0000,0000,,Você já matou mulheres e crianças antes?
+Dialogue: 0,0:05:41.33,0:05:43.09,Default,WIRBEL,0000,0000,0000,,Acha que não?
+Dialogue: 0,0:05:43.77,0:05:48.02,Default,ÜBEL,0000,0000,0000,,Nossa... Que tipo de Infernos você viu?
+Dialogue: 0,0:05:48.45,0:05:50.21,Default,WIRBEL,0000,0000,0000,,Está tentando ganhar tempo?
+Dialogue: 0,0:05:52.21,0:05:54.75,Default,WIRBEL,0000,0000,0000,,Tudo bem, vamos lá.
+Dialogue: 0,0:05:57.30,0:06:02.00,Default,WIRBEL,0000,0000,0000,,A Tropa Mágica do Norte é composta por mercenários\Nespecializados em lutar contra demônios,
+Dialogue: 0,0:06:02.67,0:06:06.18,Default,WIRBEL,0000,0000,0000,,mas, em tempos de necessidade, é chamada\Npara lutar em guerras entre nações.
+Dialogue: 0,0:06:09.59,0:06:13.53,Default,WIRBEL,0000,0000,0000,,As pessoas sabem, exatamente,\No que as torna fracas.
+Dialogue: 0,0:06:14.35,0:06:20.94,Default,WIRBEL,0000,0000,0000,,O ato diabólico de enviar mulheres\Ne crianças para a guerra não era raridade.
+Dialogue: 0,0:06:21.44,0:06:23.20,Default,WIRBEL,0000,0000,0000,,Aquilo não era o Inferno.
+Dialogue: 0,0:06:25.03,0:06:27.10,Default,WIRBEL,0000,0000,0000,,É comum no extremo norte.
+Dialogue: 0,0:06:28.01,0:06:31.58,Default,ÜBEL,0000,0000,0000,,Entendi. Já ouvi o suficiente.
+Dialogue: 0,0:06:44.42,0:06:45.89,Default,ÜBEL,0000,0000,0000,,Você não vai me matar?
+Dialogue: 0,0:06:48.46,0:06:52.44,Default,ÜBEL,0000,0000,0000,,Eu penso que a magia\Nem que a pessoa se especializa
+Dialogue: 0,0:06:52.44,0:06:56.48,Default,ÜBEL,0000,0000,0000,,está fortemente ligada\Nà sua vida e natureza.
+Dialogue: 0,0:06:57.02,0:07:03.35,Default,ÜBEL,0000,0000,0000,,Esta magia de amarração faz parecer\Nque você quer atrasar a morte do oponente.
+Dialogue: 0,0:07:05.10,0:07:09.33,Default,ÜBEL,0000,0000,0000,,Entendi. Então, foi por isso que você\Nme permitiu ganhar tempo.
+Dialogue: 0,0:07:09.96,0:07:11.51,Default,ÜBEL,0000,0000,0000,,Que surpresa.
+Dialogue: 0,0:07:11.51,0:07:17.00,Default,ÜBEL,0000,0000,0000,,As suas duas mãos já estão banhadas em sangue,\Nmas você ainda quer permanecer humano.
+Dialogue: 0,0:07:20.13,0:07:24.46,Default,WIRBEL,0000,0000,0000,,Isso mesmo. Eu uso esse tempo\Npara me preparar para matar.
+Dialogue: 0,0:07:25.27,0:07:26.73,Default,WIRBEL,0000,0000,0000,,Mas, sabe, mocinha...
+Dialogue: 0,0:07:29.12,0:07:34.86,Default,WIRBEL,0000,0000,0000,,Embora eu possa hesitar,\Nsempre matei todos que precisei.
+Dialogue: 0,0:07:38.13,0:07:40.06,Default,WIRBEL,0000,0000,0000,,Tchau, mocinha.
+Dialogue: 0,0:07:44.22,0:07:45.72,Default,FERN,0000,0000,0000,,Não se mova.
+Dialogue: 0,0:07:51.60,0:07:53.24,Default,WIRBEL,0000,0000,0000,,Tá de brincadeira, né?
+Dialogue: 0,0:07:53.24,0:07:55.29,Default,WIRBEL,0000,0000,0000,,Você derrotou a Ehre?
+Dialogue: 0,0:07:55.29,0:07:57.57,DefaultItalics,WIRBEL,0000,0000,0000,,Não senti a presença dela.
+Dialogue: 0,0:07:58.25,0:08:01.87,Default,WIRBEL,0000,0000,0000,,Que susto. Você é capaz de esconder\Na sua mana por completo?
+Dialogue: 0,0:08:02.92,0:08:05.54,Default,WIRBEL,0000,0000,0000,,Deve ter sido você\Nquem capturou o Stille.
+Dialogue: 0,0:08:05.54,0:08:07.64,Default,ÜBEL,0000,0000,0000,,Só tivemos sorte.
+Dialogue: 0,0:08:07.64,0:08:10.43,Default,ÜBEL,0000,0000,0000,,Nos deparamos com um ninho de Stille,
+Dialogue: 0,0:08:10.43,0:08:14.41,Default,ÜBEL,0000,0000,0000,,e a mestre dela a havia ensinado\Numa magia que pode apanhar pássaros.
+Dialogue: 0,0:08:14.41,0:08:19.56,Default,ÜBEL,0000,0000,0000,,Acho que vocês quem deram azar, pois você\Ntem até uma magia que amarra tudo.
+Dialogue: 0,0:08:19.78,0:08:22.29,Default,WIRBEL,0000,0000,0000,,Pois é. Foi um azar e tanto.
+Dialogue: 0,0:08:22.82,0:08:25.06,Default,WIRBEL,0000,0000,0000,,Você estava lutando contra a Ehre.
+Dialogue: 0,0:08:25.06,0:08:26.31,Default,WIRBEL,0000,0000,0000,,O que aconteceu com ela?
+Dialogue: 0,0:08:26.59,0:08:27.80,Default,FERN,0000,0000,0000,,Eu a matei.
+Dialogue: 0,0:08:32.50,0:08:35.47,Default,WIRBEL,0000,0000,0000,,As condições para passar\Nno primeiro teste
+Dialogue: 0,0:08:35.47,0:08:41.99,Default,WIRBEL,0000,0000,0000,,eram ter um Stille em mãos até o pôr do sol de hoje\Ne ter todos os membros do grupo presentes.
+Dialogue: 0,0:08:44.54,0:08:47.80,Default,WIRBEL,0000,0000,0000,,Perdemos. Vou embora daqui.
+Dialogue: 0,0:08:48.22,0:08:51.12,Default,ÜBEL,0000,0000,0000,,Achei que iria me matar.
+Dialogue: 0,0:08:51.12,0:08:53.72,Default,WIRBEL,0000,0000,0000,,Eu já reprovei no teste.
+Dialogue: 0,0:08:53.72,0:08:56.85,Default,WIRBEL,0000,0000,0000,,É desnecessário te matar. Tchau.
+Dialogue: 0,0:08:58.85,0:09:01.70,Default,WIRBEL,0000,0000,0000,,Pode me atacar por trás se quiser.
+Dialogue: 0,0:09:02.45,0:09:06.47,Default,WIRBEL,0000,0000,0000,,Uma morte desnecessária pode se voltar\Na você e se tornar necessária.
+Dialogue: 0,0:09:06.49,0:09:07.67,Default,FERN,0000,0000,0000,,Srta. Übel.
+Dialogue: 0,0:09:08.21,0:09:09.60,Default,ÜBEL,0000,0000,0000,,Eu sei.
+Dialogue: 0,0:09:15.02,0:09:16.98,Default,ÜBEL,0000,0000,0000,,Você mente bem.
+Dialogue: 0,0:09:16.98,0:09:19.87,Default,FERN,0000,0000,0000,,Melhor ajudarmos\No Sr. Land enquanto podemos.
+Dialogue: 0,0:09:20.35,0:09:25.42,Default,ÜBEL,0000,0000,0000,,Aquele quatro-olhos ficará bem.\NEle sabe fingir muito bem.
+Dialogue: 0,0:09:39.64,0:09:41.26,Default,SCHARF,0000,0000,0000,,Acabou.
+Dialogue: 0,0:09:42.71,0:09:44.54,Default,LAND,0000,0000,0000,,Impressionante.
+Dialogue: 0,0:09:47.05,0:09:51.02,Default,LAND,0000,0000,0000,,Você transformou inúmeras pétalas\Nem metal e as controlou com precisão
+Dialogue: 0,0:09:51.02,0:09:52.65,Default,LAND,0000,0000,0000,,para penetrar a minha defesa.
+Dialogue: 0,0:09:54.44,0:09:56.56,Default,LAND,0000,0000,0000,,Mas você foi autodidata aqui, não foi?
+Dialogue: 0,0:09:56.56,0:10:01.28,Default,LAND,0000,0000,0000,,Autodidatas tendem\Nnegligenciar os fundamentos.
+Dialogue: 0,0:10:01.62,0:10:08.17,Default,LAND,0000,0000,0000,,Sempre observo e espero quando luto\Ncontra um adversário que não conheço.
+Dialogue: 0,0:10:08.49,0:10:11.39,Default,LAND,0000,0000,0000,,Sei bem qual é a sua fraqueza.
+Dialogue: 0,0:10:11.39,0:10:13.55,Default,LAND,0000,0000,0000,,Eu, provavelmente, irei vencer.
+Dialogue: 0,0:10:13.89,0:10:15.32,Default,SCHARF,0000,0000,0000,,Você fala bastante, sabia?
+Dialogue: 0,0:10:15.32,0:10:18.54,Default,SCHARF,0000,0000,0000,,Como pretende vencer sendo que eu\Ninutilizei o seu braço dominante?
+Dialogue: 0,0:10:21.36,0:10:25.02,Default,SCHARF,0000,0000,0000,,Se não se render, arrancarei\Na sua cabeça na próxima.
+Dialogue: 0,0:10:25.29,0:10:29.28,Default,LAND,0000,0000,0000,,Como eu disse, estava te observando\Ndesde antes da batalha.
+Dialogue: 0,0:10:30.26,0:10:32.64,Default,LAND,0000,0000,0000,,Você não é muito bom\Nem detectar mana, não é?
+Dialogue: 0,0:10:41.83,0:10:43.41,Default,SCHARF,0000,0000,0000,,Magia de ilusão.
+Dialogue: 0,0:10:43.41,0:10:46.90,Default,LAND,0000,0000,0000,,Diria que está mais para um clone,\Npois há substância.
+Dialogue: 0,0:10:48.87,0:10:50.02,Default,SCHARF,0000,0000,0000,,Desde quando—
+Dialogue: 0,0:10:53.35,0:10:57.77,Default,LAND,0000,0000,0000,,Desde o começo, quando o teste começou.
+Dialogue: 0,0:10:58.63,0:11:00.93,Default,LAND,0000,0000,0000,,Eu não confio em outras pessoas.
+Dialogue: 0,0:11:04.39,0:11:06.39,Default,WIRBEL,0000,0000,0000,,"Matei ela", o cacete.
+Dialogue: 0,0:11:06.88,0:11:10.23,Default,WIRBEL,0000,0000,0000,,Aquela desgraçada mentiu na cara dura.
+Dialogue: 0,0:11:11.13,0:11:12.95,Default,WIRBEL,0000,0000,0000,,Acorda, Ehre.
+Dialogue: 0,0:11:15.51,0:11:18.37,Default,WIRBEL,0000,0000,0000,,Está sem mana? Que ridícula.
+Dialogue: 0,0:11:18.37,0:11:20.40,Default,WIRBEL,0000,0000,0000,,Você não se formou\Ncom as maiores notas da turma?
+Dialogue: 0,0:11:21.83,0:11:25.61,Default,EHRE,0000,0000,0000,,Fui dominada por ataques\Nde magia de ataque comum.
+Dialogue: 0,0:11:26.12,0:11:28.28,Default,EHRE,0000,0000,0000,,Não consegui bloqueá-los.
+Dialogue: 0,0:11:30.21,0:11:32.29,Default,EHRE,0000,0000,0000,,Mas você não vai acreditar em mim.
+Dialogue: 0,0:11:33.29,0:11:34.66,Default,WIRBEL,0000,0000,0000,,Não, eu acredito.
+Dialogue: 0,0:11:39.80,0:11:43.29,Default,WIRBEL,0000,0000,0000,,Por que você a atacou\Nde frente, como uma idiota?
+Dialogue: 0,0:11:43.29,0:11:46.43,Default,WIRBEL,0000,0000,0000,,Não era uma batalha que você\Nseria capaz de vencer.
+Dialogue: 0,0:11:48.68,0:11:53.36,DefaultItalics,WIRBEL,0000,0000,0000,,Mas se ela conseguiu fazer tudo isso\Nsó com magia de ataque comum,
+Dialogue: 0,0:11:54.20,0:11:56.92,DefaultItalics,WIRBEL,0000,0000,0000,,então aquela mulher deve ser um monstro.
+Dialogue: 0,0:11:58.02,0:12:01.11,Default,WIRBEL,0000,0000,0000,,Vamos. Precisamos\Nnos encontrar com o Scharf.
+Dialogue: 0,0:12:01.11,0:12:03.92,Default,EHRE,0000,0000,0000,,Espera. Eu não consigo andar.
+Dialogue: 0,0:12:04.74,0:12:06.64,Default,WIRBEL,0000,0000,0000,,Já vi que não tem jeito.
+Dialogue: 0,0:12:11.38,0:12:14.67,Default,EHRE,0000,0000,0000,,Ei! Vai mesmo me levar como um objeto?
+Dialogue: 0,0:12:14.67,0:12:15.87,Default,EHRE,0000,0000,0000,,Ao menos me leve nas costas!
+Dialogue: 0,0:12:20.61,0:12:23.00,Default,WIRBEL,0000,0000,0000,,Por que eu tô fazendo isso?
+Dialogue: 0,0:12:23.00,0:12:25.28,Default,EHRE,0000,0000,0000,,Sentiu o Scharf nas proximidades?
+Dialogue: 0,0:12:25.28,0:12:27.56,Default,WIRBEL,0000,0000,0000,,Ele está do outro lado daqueles arbustos.
+Dialogue: 0,0:12:28.25,0:12:31.69,Default,WIRBEL,0000,0000,0000,,Ei, Scharf. Me ajude a carregar...
+Dialogue: 0,0:12:35.59,0:12:38.59,Default,SCHARF,0000,0000,0000,,Wirbel, me carregue nas suas costas.
+Dialogue: 0,0:12:38.59,0:12:40.65,Default,SCHARF,0000,0000,0000,,Estou dormente e não consigo me mover.
+Dialogue: 0,0:12:45.09,0:12:46.32,Default,WIRBEL,0000,0000,0000,,Que merda.
+Dialogue: 0,0:12:46.32,0:12:48.40,Default,WIRBEL,0000,0000,0000,,Sério, o que está acontecendo?
+Dialogue: 0,0:12:51.62,0:12:53.91,Default,EHRE,0000,0000,0000,,Que som é esse?
+Dialogue: 0,0:12:53.91,0:12:55.74,Default,WIRBEL,0000,0000,0000,,Deve ser a chuva.
+Dialogue: 0,0:12:55.74,0:12:58.21,Default,WIRBEL,0000,0000,0000,,Começou a chover fora da barreira.
+Dialogue: 0,0:12:58.97,0:13:01.63,Default,WIRBEL,0000,0000,0000,,Parece o meu estado mental agora.
+Dialogue: 0,0:13:01.63,0:13:04.46,Default,WIRBEL,0000,0000,0000,,O sol vai se pôr em mais duas ou três horas.
+Dialogue: 0,0:13:04.46,0:13:06.61,Default,WIRBEL,0000,0000,0000,,O primeiro teste vai se encerrar.
+Dialogue: 0,0:13:07.08,0:13:09.48,Default,WIRBEL,0000,0000,0000,,Dois de nós estamos\Nincapacitados de lutar.
+Dialogue: 0,0:13:09.48,0:13:12.58,Default,WIRBEL,0000,0000,0000,,Não podemos roubar\No Stille de ninguém assim.
+Dialogue: 0,0:13:12.58,0:13:15.14,Default,WIRBEL,0000,0000,0000,,Nós vamos reprovar.
+Dialogue: 0,0:13:15.77,0:13:19.99,Default,EHRE,0000,0000,0000,,E você está nos ajudando assim mesmo.\NVocê é uma boa pessoa.
+Dialogue: 0,0:13:19.99,0:13:23.09,Default,WIRBEL,0000,0000,0000,,Eu posso largar vocês dois bem aqui, sabia?
+Dialogue: 0,0:13:23.09,0:13:24.45,Default,SCHARF,0000,0000,0000,,Por favor, não nos abandone.
+Dialogue: 0,0:13:24.45,0:13:26.67,Default,WIRBEL,0000,0000,0000,,Não chora! Você não é homem, cara?
+Dialogue: 0,0:13:28.22,0:13:33.08,Default,EHRE,0000,0000,0000,,Essa bondade é o motivo\Nde você lutar contra demônios?
+Dialogue: 0,0:13:38.02,0:13:41.14,Default,EHRE,0000,0000,0000,,Você também salvou o meu vilarejo.
+Dialogue: 0,0:13:41.14,0:13:42.16,Default,WIRBEL,0000,0000,0000,,Você é idiota?
+Dialogue: 0,0:13:42.58,0:13:45.68,Default,WIRBEL,0000,0000,0000,,Eu não arrisco a minha vida\Npara ser bonzinho.
+Dialogue: 0,0:13:45.68,0:13:48.60,Default,WIRBEL,0000,0000,0000,,As pessoas lutam pelos próprios desejos.
+Dialogue: 0,0:13:49.88,0:13:51.81,Default,WIRBEL,0000,0000,0000,,No meu caso, tenho outros motivos.
+Dialogue: 0,0:13:52.29,0:13:54.73,Default,WIRBEL,0000,0000,0000,,Eu estava apaixonado\Npor uma garota da minha cidade natal.
+Dialogue: 0,0:13:56.23,0:14:02.80,Default,WIRBEL,0000,0000,0000,,Exatamente 29 anos atrás, a atividade\Ndos demônios nas Terras do Norte aumentou.
+Dialogue: 0,0:14:02.80,0:14:05.99,Default,WIRBEL,0000,0000,0000,,Ela e toda a família fugiram\Npara as Terras Centrais.
+Dialogue: 0,0:14:06.57,0:14:08.61,Default,WIRBEL,0000,0000,0000,,Eu fui moleque, idiota.
+Dialogue: 0,0:14:08.61,0:14:10.57,Default,WIRBEL,0000,0000,0000,,Quis pagar de bonzão pra ela.
+Dialogue: 0,0:14:10.86,0:14:15.05,Flashback,YOUNG WIRBEL,0000,0000,0000,,Matarei todos esses demônios idiotas.
+Dialogue: 0,0:14:15.05,0:14:17.91,Flashback,YOUNG WIRBEL,0000,0000,0000,,Volte para este vilarejo\Nassim que isso acontecer.
+Dialogue: 0,0:14:23.32,0:14:26.67,Default,WIRBEL,0000,0000,0000,,Eu tinha uns quatro ou cinco anos.
+Dialogue: 0,0:14:27.20,0:14:29.58,Default,WIRBEL,0000,0000,0000,,Nem lembro mais do rosto ou do nome dela.
+Dialogue: 0,0:14:34.16,0:14:35.84,Default,EHRE,0000,0000,0000,,Que idiota.
+Dialogue: 0,0:14:35.84,0:14:37.79,Default,WIRBEL,0000,0000,0000,,É. Eu sou um idiota.
+Dialogue: 0,0:14:44.67,0:14:49.16,Default,WIRBEL,0000,0000,0000,,Vamos navegar de volta para casa\Nde novo? Fico enjoado rapidinho.
+Dialogue: 0,0:14:49.52,0:14:52.39,Default,EHRE,0000,0000,0000,,Quer que eu te apresente ao meu avô?
+Dialogue: 0,0:14:52.39,0:14:55.40,Default,EHRE,0000,0000,0000,,Como ele é um mago de nível um,\Npodemos viajar por terra para...
+Dialogue: 0,0:14:56.00,0:14:57.52,Default,EHRE,0000,0000,0000,,Ei, Wirbel.
+Dialogue: 0,0:14:58.01,0:14:58.97,Default,WIRBEL,0000,0000,0000,,O que foi?
+Dialogue: 0,0:14:58.97,0:15:00.04,Default,EHRE,0000,0000,0000,,Olha só.
+Dialogue: 0,0:15:11.77,0:15:15.55,Default,WIRBEL,0000,0000,0000,,Tá de brincadeira. Aquele\Nperrengue todo foi para quê?
+Dialogue: 0,0:15:16.42,0:15:19.74,Default,WIRBEL,0000,0000,0000,,Demorou para a sorte sorrir para mim.
+Dialogue: 0,0:15:25.95,0:15:29.64,Default,KANNE,0000,0000,0000,,Frieren, ela não está fazendo nada.
+Dialogue: 0,0:15:32.26,0:15:34.11,DefaultItalics,DENKEN,0000,0000,0000,,Uma elfa, é?
+Dialogue: 0,0:15:34.50,0:15:37.11,DefaultItalics,DENKEN,0000,0000,0000,,Ela é uma maga habilidosa.
+Dialogue: 0,0:15:37.41,0:15:42.56,DefaultItalics,DENKEN,0000,0000,0000,,Duvido que a magia de Laufen funcione\Npela segunda vez, agora que ela a viu.
+Dialogue: 0,0:15:43.04,0:15:45.56,DefaultItalics,DENKEN,0000,0000,0000,,Mas uma vez foi o suficiente.
+Dialogue: 0,0:15:45.56,0:15:48.12,DefaultItalics,DENKEN,0000,0000,0000,,Não estamos lutando para matar aqui.
+Dialogue: 0,0:15:50.52,0:15:51.89,Default,KANNE,0000,0000,0000,,Ela desapareceu?
+Dialogue: 0,0:15:52.22,0:15:54.09,Default,LAWINE,0000,0000,0000,,Frieren, o Stille...
+Dialogue: 0,0:15:55.68,0:15:57.14,Default,FRIEREN,0000,0000,0000,,Ela o roubou, é?
+Dialogue: 0,0:16:03.22,0:16:04.96,Default,FRIEREN,0000,0000,0000,,Que magia interessante.
+Dialogue: 0,0:16:17.24,0:16:20.36,Default,SENSE,0000,0000,0000,,A barreira é agradável, mesmo na chuva.
+Dialogue: 0,0:16:20.36,0:16:25.09,Default,GENUA,0000,0000,0000,,Aliás, você não é a inspetora\Ndo segundo teste, Sense?
+Dialogue: 0,0:16:26.04,0:16:31.20,Default,SENSE,0000,0000,0000,,Parece que você matou alguns examinandos\Npromissores mais uma vez, Genau.
+Dialogue: 0,0:16:32.49,0:16:33.96,Default,GENAU,0000,0000,0000,,Não me faça rir.
+Dialogue: 0,0:16:35.77,0:16:38.95,Default,GENAU,0000,0000,0000,,Nenhum examinando promissor\Nmorreria com isso.
+Dialogue: 0,0:16:39.43,0:16:43.55,Default,GENAU,0000,0000,0000,,Além disso, magos de nível um\Nsão valiosos por isso.
+Dialogue: 0,0:16:44.24,0:16:46.34,Default,GENAU,0000,0000,0000,,Você deveria saber disso.
+Dialogue: 0,0:16:47.80,0:16:55.15,Default,SENSE,0000,0000,0000,,De qualquer forma, escolher um alvo imune\Nà detecção de mana não foi legal.
+Dialogue: 0,0:16:55.80,0:16:58.37,Default,SENSE,0000,0000,0000,,Eles dependerão da sorte\Npara capturar o Stille.
+Dialogue: 0,0:16:59.06,0:17:02.61,Default,SENSE,0000,0000,0000,,Esta é uma batalha de magos contra magos\Ndisfarçada de competição.
+Dialogue: 0,0:17:02.62,0:17:04.92,Default,GENAU,0000,0000,0000,,A sorte é uma habilidade.
+Dialogue: 0,0:17:05.29,0:17:10.18,Default,GENAU,0000,0000,0000,,E parece que alguns examinandos capturaram\Num Stille sem contar com a sorte.
+Dialogue: 0,0:17:11.47,0:17:14.30,Default,GENAU,0000,0000,0000,,O sol irá se pôr em três horas.
+Dialogue: 0,0:17:14.30,0:17:17.56,Default,GENAU,0000,0000,0000,,A batalha de magos contra magos\Nficará mais intensa.
+Dialogue: 0,0:17:20.65,0:17:22.91,Default,SENSE,0000,0000,0000,,Quem você acha que irá sobreviver?
+Dialogue: 0,0:17:22.91,0:17:25.14,Default,GENAU,0000,0000,0000,,Um terço permanecerá.
+Dialogue: 0,0:17:25.41,0:17:28.57,Default,GENAU,0000,0000,0000,,E Denken estará entre eles.
+Dialogue: 0,0:17:28.57,0:17:32.78,Default,GENAU,0000,0000,0000,,Sua habilidade é comparável\Na de um mago de nível um.
+Dialogue: 0,0:17:33.06,0:17:36.53,Default,SENSE,0000,0000,0000,,Por que um velho interessado\Napenas em riqueza e poder político
+Dialogue: 0,0:17:36.53,0:17:38.87,Default,SENSE,0000,0000,0000,,está buscando uma certificação agora?
+Dialogue: 0,0:17:38.87,0:17:41.18,Default,SENSE,0000,0000,0000,,Ele está fazendo isso\Npelo tal privilégio?
+Dialogue: 0,0:17:41.18,0:17:42.54,Default,GENAU,0000,0000,0000,,Vai saber.
+Dialogue: 0,0:17:42.87,0:17:45.35,Default,GENAU,0000,0000,0000,,Ele já tem uma certa idade.
+Dialogue: 0,0:17:45.35,0:17:47.70,Default,GENAU,0000,0000,0000,,Estou certo de que ele tem algo em mente.
+Dialogue: 0,0:17:48.53,0:17:53.29,Default,FRIEREN,0000,0000,0000,,A magia que aquela garota usou\Nfoi a Jilwer, não foi?
+Dialogue: 0,0:17:53.78,0:17:57.68,Default,FRIEREN,0000,0000,0000,,Uma magia popular usada por uma tribo\Ndas montanhas nas Terras do Sul.
+Dialogue: 0,0:17:58.04,0:17:59.94,Default,DENKEN,0000,0000,0000,,Isso mesmo.
+Dialogue: 0,0:18:00.16,0:18:01.70,Default,KANNE,0000,0000,0000,,O que é um Jilwer?
+Dialogue: 0,0:18:01.70,0:18:03.57,Default,LAWINE,0000,0000,0000,,Uma magia que te permite\Nse mover em alta velocidade.
+Dialogue: 0,0:18:03.96,0:18:08.05,Default,FRIEREN,0000,0000,0000,,Então, vocês dois deviam\Nter continuado escondidos.
+Dialogue: 0,0:18:08.63,0:18:11.56,Default,FRIEREN,0000,0000,0000,,Ela poderia ter\Nroubado o Stille sozinha.
+Dialogue: 0,0:18:11.79,0:18:17.34,Default,DENKEN,0000,0000,0000,,A Laufen ainda é inexperiente.\NEla deixa muitos rastros de mana para trás.
+Dialogue: 0,0:18:17.34,0:18:21.69,Default,DENKEN,0000,0000,0000,,Você a teria seguido\Ncom facilidade, Frieren.
+Dialogue: 0,0:18:23.03,0:18:26.62,Default,DENKEN,0000,0000,0000,,Sei que acha a nossa\Npresença problemática.
+Dialogue: 0,0:18:26.87,0:18:30.37,Default,FRIEREN,0000,0000,0000,,É, acho. E você sabe quem eu sou?
+Dialogue: 0,0:18:30.66,0:18:35.02,Default,DENKEN,0000,0000,0000,,Não há um mago da nossa geração\Nque não conheça esse nome.
+Dialogue: 0,0:18:35.02,0:18:38.00,Default,DENKEN,0000,0000,0000,,É a primeira vez que te vejo\Ncom meus próprios olhos,
+Dialogue: 0,0:18:38.00,0:18:40.25,Default,DENKEN,0000,0000,0000,,mas soube quem você era assim que o fiz.
+Dialogue: 0,0:18:40.64,0:18:45.26,Default,DENKEN,0000,0000,0000,,Você é Frieren, a maga do grupo dos heróis.
+Dialogue: 0,0:18:45.56,0:18:46.94,Default,KANNE,0000,0000,0000,,Ela é famosa?
+Dialogue: 0,0:18:46.94,0:18:51.68,Default,LAWINE,0000,0000,0000,,Ela é uma maga lendária.\NSabia que poderia ser possível, mas...
+Dialogue: 0,0:18:51.68,0:18:54.28,Default,LAWINE,0000,0000,0000,,Acho que elfos não envelhecem mesmo.
+Dialogue: 0,0:18:54.28,0:18:57.44,Default,FRIEREN,0000,0000,0000,,Você está me desafiando abertamente.
+Dialogue: 0,0:18:57.44,0:19:00.40,Default,FRIEREN,0000,0000,0000,,Você esteve nos farejando\Nesse tempo todo, não foi?
+Dialogue: 0,0:19:00.79,0:19:03.66,Default,FRIEREN,0000,0000,0000,,Eu estava esperando algo mais covarde.
+Dialogue: 0,0:19:03.66,0:19:06.15,Default,RICHTER,0000,0000,0000,,Não, isso já é covarde o suficiente.
+Dialogue: 0,0:19:06.75,0:19:13.03,Default,RICHTER,0000,0000,0000,,Enquanto o Denken te mantém ocupada,\Nmatarei uma dessas duas crianças.
+Dialogue: 0,0:19:13.33,0:19:14.79,Default,FRIEREN,0000,0000,0000,,Entendo.
+Dialogue: 0,0:19:14.79,0:19:21.30,Default,FRIEREN,0000,0000,0000,,Se não pudermos passar pela falta de um membro,\Nseremos forçadas a nos retirar.
+Dialogue: 0,0:19:21.30,0:19:23.89,Default,LAWINE,0000,0000,0000,,Interessante. Manda ver.
+Dialogue: 0,0:19:23.89,0:19:26.08,Default,KANNE,0000,0000,0000,,Lawine, ele é forte.
+Dialogue: 0,0:19:26.08,0:19:27.43,Default,LAWINE,0000,0000,0000,,Eu sei.
+Dialogue: 0,0:19:30.06,0:19:35.03,Default,DENKEN,0000,0000,0000,,Pare com isso, Richter.\NSó precisamos mantê-las ocupadas.
+Dialogue: 0,0:19:35.03,0:19:36.18,Default,DENKEN,0000,0000,0000,,Podemos vencer esta luta.
+Dialogue: 0,0:19:37.30,0:19:43.20,Default,RICHTER,0000,0000,0000,,Denken, pensei que você fosse\Num homem mais frio e impiedoso.
+Dialogue: 0,0:19:43.44,0:19:45.70,Default,RICHTER,0000,0000,0000,,Você é um mago da corte, não?
+Dialogue: 0,0:19:45.70,0:19:49.27,Default,RICHTER,0000,0000,0000,,Tenho certeza de que já matou\Ninimigos políticos diversas vezes.
+Dialogue: 0,0:19:57.56,0:20:02.46,Default,DENKEN,0000,0000,0000,,Eu só não acho que valha a pena matar\Nalguém para ser um mago de nível um.
+Dialogue: 0,0:20:02.77,0:20:05.09,Default,FRIEREN,0000,0000,0000,,Tá aí uma coisa com que eu concordo.
+Dialogue: 0,0:20:05.09,0:20:08.11,Default,FRIEREN,0000,0000,0000,,"Mago de nível um" não passa de um título.
+Dialogue: 0,0:20:08.11,0:20:10.35,Default,FRIEREN,0000,0000,0000,,Não acho que tenha tamanho valor.
+Dialogue: 0,0:20:12.02,0:20:14.15,Default,RICHTER,0000,0000,0000,,Você só pode estar brincando.
+Dialogue: 0,0:20:14.15,0:20:17.45,Default,RICHTER,0000,0000,0000,,Está fazendo este teste alheia\Nao privilégio que o título concede?
+Dialogue: 0,0:20:17.45,0:20:18.35,Default,FRIEREN,0000,0000,0000,,Privilégio?
+Dialogue: 0,0:20:20.62,0:20:25.34,Default,RICHTER,0000,0000,0000,,Há mais de 50 anos, Serie,\Na grande maga e fundadora
+Dialogue: 0,0:20:25.34,0:20:31.02,Default,RICHTER,0000,0000,0000,,da Associação Mágica do Continente,\Nsurgiu de repente
+Dialogue: 0,0:20:31.02,0:20:33.42,Default,RICHTER,0000,0000,0000,,para reinar sobre a magia da humanidade.
+Dialogue: 0,0:20:34.74,0:20:37.24,Default,RICHTER,0000,0000,0000,,Ela ainda está em busca\Nde magos experientes
+Dialogue: 0,0:20:37.24,0:20:41.17,Default,RICHTER,0000,0000,0000,,em meio à longa guerra contra\No exército do Rei Demônio.
+Dialogue: 0,0:20:42.26,0:20:46.56,Default,RICHTER,0000,0000,0000,,Então, ela prometeu conceder\Num privilégio especial àqueles
+Dialogue: 0,0:20:46.56,0:20:49.06,Default,RICHTER,0000,0000,0000,,que se tornarem magos de nível um.
+Dialogue: 0,0:20:50.06,0:20:53.80,Default,RICHTER,0000,0000,0000,,Ela concederá a eles\Numa magia que desejarem.
+Dialogue: 0,0:20:54.85,0:21:00.76,Default,RICHTER,0000,0000,0000,,Serie é um grimório vivo que conhece quase\Ntodos os feitiços da história da humanidade.
+Dialogue: 0,0:21:00.76,0:21:05.45,Default,RICHTER,0000,0000,0000,,Ela é a maga mais próxima, em nosso mundo,\Nà Deusa onisciente e todo-poderosa.
+Dialogue: 0,0:21:05.98,0:21:08.32,Default,RICHTER,0000,0000,0000,,Você pode receber uma imensa riqueza,
+Dialogue: 0,0:21:08.32,0:21:13.38,Default,RICHTER,0000,0000,0000,,curar a mais grave das doenças\Nou obter um poder avassalador.
+Dialogue: 0,0:21:14.64,0:21:20.86,Default,RICHTER,0000,0000,0000,,Para magos, obter qualquer feitiço que desejem\Nequivale a ter um desejo realizado.
+Dialogue: 0,0:21:21.38,0:21:23.39,Default,RICHTER,0000,0000,0000,,As pessoas são simples.
+Dialogue: 0,0:21:23.39,0:21:28.40,Default,RICHTER,0000,0000,0000,,Por causa disso, magos de nível um se tornaram\Nmonstros que sequer se assemelham mais a humanos.
+Dialogue: 0,0:21:29.17,0:21:31.25,Default,RICHTER,0000,0000,0000,,Esse é o valor do privilégio.
+Dialogue: 0,0:21:31.81,0:21:32.70,Default,FRIEREN,0000,0000,0000,,Entendo.
+Dialogue: 0,0:21:33.39,0:21:34.78,Default,DENKEN,0000,0000,0000,,Quanta besteira.
+Dialogue: 0,0:21:38.89,0:21:44.02,Default,RICHTER,0000,0000,0000,,Denken, pessoas como você, que não\Nse importam com privilégios, são minoria.
+Dialogue: 0,0:21:45.53,0:21:47.04,Default,RICHTER,0000,0000,0000,,Vamos começar.
+Dialogue: 0,0:21:47.04,0:21:49.90,Default,RICHTER,0000,0000,0000,,Denken, mantenha-a ocupada por um tempo.
+Dialogue: 0,0:21:49.90,0:21:52.37,Default,RICHTER,0000,0000,0000,,Tempo suficiente para matar as duas.
+Dialogue: 0,0:21:52.37,0:21:54.80,Default,DENKEN,0000,0000,0000,,Não me faça repetir, Richter.
+Dialogue: 0,0:21:55.10,0:21:57.18,Default,DENKEN,0000,0000,0000,,São apenas duas crianças.
+Dialogue: 0,0:21:57.18,0:22:00.03,Default,DENKEN,0000,0000,0000,,Podemos colocá-las\Npara dormir por três horas.
+Dialogue: 0,0:22:00.03,0:22:02.34,Default,DENKEN,0000,0000,0000,,Você consegue ficar de olho\Nem duas crianças, não?
+Dialogue: 0,0:22:02.34,0:22:03.30,Default,RICHTER,0000,0000,0000,,Denken.
+Dialogue: 0,0:22:07.62,0:22:10.15,Default,DENKEN,0000,0000,0000,,Eu vou acabar com ela.
+Dialogue: 0,0:22:10.54,0:22:12.25,Default,DENKEN,0000,0000,0000,,Isso deve bastar.
+Dialogue: 0,0:22:12.63,0:22:14.26,Default,RICHTER,0000,0000,0000,,Velho maldito.
+Dialogue: 0,0:22:15.41,0:22:16.76,Default,RICHTER,0000,0000,0000,,Bargland.
+Dialogue: 0,0:22:35.36,0:22:38.95,Default,DENKEN,0000,0000,0000,,Os jovens são tão esquentados.
+Dialogue: 0,0:22:49.88,0:22:53.02,Songs_ED2,ED LYRICS,0000,0000,0000,,E eu estou bem (Ficarei bem)
+Dialogue: 0,0:22:53.02,0:22:55.94,Songs_ED2,ED LYRICS,0000,0000,0000,,Sim, consigo te ouvir (Me importo com você)
+Dialogue: 0,0:22:55.94,0:23:01.52,Songs_ED2,ED LYRICS,0000,0000,0000,,O vento brinca com esse cabelo,\Nque está mais longo agora
+Dialogue: 0,0:23:01.52,0:23:03.96,Songs_ED2,ED LYRICS,0000,0000,0000,,Há sentido em tudo
+Dialogue: 0,0:23:04.46,0:23:06.94,Songs_ED2,ED LYRICS,0000,0000,0000,,Mesmo nos dias parados
+Dialogue: 0,0:23:07.54,0:23:13.58,Songs_ED2,ED LYRICS,0000,0000,0000,,Agora que finalmente entendo,\Neu alcancei você
+Dialogue: 0,0:23:13.58,0:23:17.37,Songs_ED2,ED LYRICS,0000,0000,0000,,Sabe, coisas que não poderiam ser vistas
+Dialogue: 0,0:23:17.37,0:23:20.27,Songs_ED2,ED LYRICS,0000,0000,0000,,Se não fossem por estes olhos
+Dialogue: 0,0:23:20.27,0:23:24.94,Songs_ED2,ED LYRICS,0000,0000,0000,,Por quê? E começam a transbordar
+Dialogue: 0,0:23:24.94,0:23:31.17,Songs_ED2,ED LYRICS,0000,0000,0000,,Não vou pedir para te ver,\Nentão, pelo menos
+Dialogue: 0,0:23:31.17,0:23:36.96,Songs_ED2,ED LYRICS,0000,0000,0000,,Deixe-me lembrar do passado, só por hoje
+Dialogue: 0,0:23:36.96,0:23:42.97,Songs_ED2,ED LYRICS,0000,0000,0000,,Então, se nos encontrássemos novamente
+Dialogue: 0,0:23:42.97,0:23:48.85,Songs_ED2,ED LYRICS,0000,0000,0000,,Não irei hesitar, eu escolho o presente
+Dialogue: 0,0:23:49.91,0:23:52.87,Songs_ED2,ED LYRICS,0000,0000,0000,,A qualquer hora, em qualquer lugar...\N(Onde quer que você esteja)
+Dialogue: 0,0:23:52.87,0:23:57.52,Songs_ED2,ED LYRICS,0000,0000,0000,,A qualquer hora, em qualquer lugar...\N(Sorria para mim)
+Dialogue: 0,0:23:57.52,0:24:00.50,Songs_ED2,ED LYRICS,0000,0000,0000,,Eu estarei aqui\N(Feche seus olhos, eu sempre estarei aqui)
+Dialogue: 0,0:24:00.50,0:24:03.25,Songs_ED2,ED LYRICS,0000,0000,0000,,Mesmo que não haja certeza de nada
+Dialogue: 0,0:24:03.25,0:24:06.32,Songs_ED2,ED LYRICS,0000,0000,0000,,Eu sempre estarei ciente\Nde seus sentimentos
+Dialogue: 0,0:24:06.32,0:24:12.35,Songs_ED2,ED LYRICS,0000,0000,0000,,Essas lágrimas ficarão em paz,\No amanhecer certamente virá
+Dialogue: 0,0:24:12.80,0:24:19.26,Songs_ED2,ED LYRICS,0000,0000,0000,,Estou sussurrando nossa canção\Nde ninar para você voltar para casa
+Dialogue: 0,0:24:20.14,0:24:22.10,Default,DENKEN,0000,0000,0000,,Sua tola inexperiente.
+Dialogue: 0,0:24:20.29,0:24:22.29,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)\pos(246.429,150.571)}{\pos(378,232)}Sua\Ntola\Ninexperiente.
+Dialogue: 0,0:24:20.59,0:24:22.10,DefaultOverlap,FRIEREN,0000,0000,0000,,Qual feitiço eu desejo?
+Dialogue: 0,0:24:20.87,0:24:22.83,Jikai,SIGN,0000,0000,0000,,{\fs20\fad(300,300)\pos(217,227)}Qual feitiço eu desejo?
+Dialogue: 0,0:24:20.87,0:24:22.83,Jikai,SIGN,0000,0000,0000,,{\fs17\fscx80\fad(300,300)\pos(499.857,217.857)}{\pos(572,141)}A diferença\Nentre a\Nnossa\Nmana é\Nimensa.
+Dialogue: 0,0:24:21.34,0:24:23.26,DefaultTop,LAWINE,0000,0000,0000,,A diferença entre a nossa mana é imensa.
+Dialogue: 0,0:24:21.35,0:24:23.27,DefaultOverlapTop,LAUFEN,0000,0000,0000,,Mas ela nos subestima.
+Dialogue: 0,0:24:21.91,0:24:23.71,Jikai,SIGN,0000,0000,0000,,{\fscy80\fs18\fad(300,300)\pos(443.429,277)}{\pos(572,141)}Mas ela\Nnos\Nsubestima.
+Dialogue: 0,0:24:22.10,0:24:23.62,Default,RICHTER,0000,0000,0000,,Me dá um tempo.
+Dialogue: 0,0:24:22.60,0:24:24.46,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)\pos(78.286,227.143)}Me\Ndá\Num\Ntempo.
+Dialogue: 0,0:24:23.62,0:24:25.98,DefaultTop,GENAU,0000,0000,0000,,Aquele velho luta de maneira espetacular.
+Dialogue: 0,0:24:23.69,0:24:26.75,Jikai,SIGN,0000,0000,0000,,{\fscx90\fs15\fad(300,300)\pos(597,273)}Aquele\Nvelho\Nluta de\Nmaneira\Nespetacular.
+Dialogue: 0,0:24:23.82,0:24:24.58,DefaultOverlapTop,KANNE,0000,0000,0000,,Eu sei!
+Dialogue: 0,0:24:23.90,0:24:25.88,Jikai,SIGN,0000,0000,0000,,{\fs30\fad(300,300)\pos(278,201)}Eu\Nsei!
+Dialogue: 0,0:24:24.58,0:24:25.67,DefaultOverlapTop,FLAMME,0000,0000,0000,,Essa é a Frieren.
+Dialogue: 0,0:24:24.71,0:24:26.54,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)\pos(369,218)}Essa\Né a\NFrieren.
+Dialogue: 0,0:24:25.67,0:24:29.90,Default,SERIE,0000,0000,0000,,No mundo da magia, às vezes,\No mundo vira de ponta-cabeça.
+Dialogue: 0,0:24:27.40,0:24:29.85,Signs_NextEp,SIGN,0000,0000,0000,,{\fad(229,1)\blur3\t(20,312,\blur0.2)\pos(320,113.5)\c&H000000&\t(312,646,\c&HF6F6F6&)\fsp1.6\t(\fsp1)}Episódio 21\N\N\N\N\N\N\N\NO mundo da magia

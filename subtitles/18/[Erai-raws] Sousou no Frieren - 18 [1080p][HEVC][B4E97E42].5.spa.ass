@@ -1,0 +1,347 @@
+﻿[Script Info]
+Title: [Erai-raws] Español (América Latina)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Gen_Main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Main_Up,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00090909,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Gen_Italics_top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Cart_A_Tre,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tre,Trebuchet MS,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Tim,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tim,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Verd,Verdana,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,110,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EpiTitle,Times New Roman,20,&H00FFFFFF,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,6,0020,0020,0020,1
+Style: Cart_Serieslogo,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,10,0,1,0,0,8,0005,0005,0000,1
+Style: Cart_C_Verd,Verdana,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EndCards,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0020,1
+Style: Cart_NextTitle,Times New Roman,20,&H00000000,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,5,0020,0020,0020,1
+Style: Cart_Opening,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00494949,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_Ending,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:23.52,0:00:28.78,Cart_Serieslogo,CARTEL,0000,0000,0000,,{\fsp1\fs25\fad(800,0)\fsp4\c&HFFFFFF&\pos(320,273.8)\iclip(523.733,177.6,550.933,345.067)\t(4017,5117,\iclip(123.733,177.6,550.933,345.067))}{\1c&HCEFF61&}M{\1c&HD8FF60&}á{\1c&HDFFF5F&}s{\1c&HE5FF5E&} {\1c&HECFF5D&}a{\1c&HF2FF5D&}l{\1c&HF8FF5C&}l{\1c&HFFFF5B&}á {\1c&HCEFF61&}d{\1c&HD5FF60&}e{\1c&HDBFF5F&}l{\1c&HE1FF5F&} {\1c&HE6FF5E&}f{\1c&HECFF5D&}i{\1c&HF3FF5D&}n{\1c&HFAFF5C&}a{\1c&HFFFF5B&}l {\1c&HCEFF61&}d{\1c&HD5FF60&}e{\1c&HDBFF5F&}l{\1c&HE0FF5F&} {\1c&HE6FF5E&}v{\1c&HEDFF5D&}i{\1c&HF3FF5C&}a{\1c&HF9FF5C&}j{\1c&HFFFF5B&}e
+Dialogue: 0,0:01:29.98,0:01:32.98,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an3\pos(562,285)\b0\fad(0,0)}Episodio 18\NEl Examen de Selección\Nde Hechiceros de Primer Grado
+Dialogue: 0,0:01:34.43,0:01:39.19,Gen_Main,Stark,0000,0000,0000,,Conque esa es Äußerst, la ciudad mágica\Nmás grande de los Países del Norte, ¿eh?
+Dialogue: 0,0:01:38.11,0:01:45.37,Cart_A_Tim,CARTEL,0000,0000,0000,,{\blur.3\an7\bord0\fs17\pos(26,39)}29 años después de la muerte\Nde Himmel, el Héroe,\Nen la región de Kühl\Nde los Países del Norte
+Dialogue: 0,0:01:39.79,0:01:41.42,Gen_Main,Frieren,0000,0000,0000,,Todavía está bastante lejos.
+Dialogue: 0,0:01:41.62,0:01:44.29,Gen_Main,Frieren,0000,0000,0000,,Tenemos que parar\Nuna carreta o algo en el camino.
+Dialogue: 0,0:01:46.21,0:01:49.77,Gen_Main,Fern,0000,0000,0000,,Si ahí usted consigue la licencia\Nde hechicera de primer grado,
+Dialogue: 0,0:01:49.94,0:01:51.90,Gen_Main,Fern,0000,0000,0000,,podremos ir a la altiplanicie norte.
+Dialogue: 0,0:01:52.44,0:01:56.47,Gen_Main,Frieren,0000,0000,0000,,Pues yo opino que no tengo que ser yo\Nla que obtenga la licencia, ¿eh?
+Dialogue: 0,0:01:56.67,0:01:59.12,Gen_Main,Frieren,0000,0000,0000,,Al fin de cuentas,\Nen un tiempo ya no servirá.
+Dialogue: 0,0:01:59.88,0:02:01.66,Gen_Main,Frieren,0000,0000,0000,,Si la sacas tú, asunto arreglado.
+Dialogue: 0,0:02:01.83,0:02:03.89,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren, ¿acaso no lo sabe?
+Dialogue: 0,0:02:04.55,0:02:06.58,Gen_Main,Fern,0000,0000,0000,,Los hechiceros de primer grado
+Dialogue: 0,0:02:06.78,0:02:11.40,Gen_Main,Fern,0000,0000,0000,,son un puñado de la crema y nata\Nde todos los hechiceros del continente.
+Dialogue: 0,0:02:12.28,0:02:14.02,Gen_Main,Fern,0000,0000,0000,,Sería imposible para mí ser uno.
+Dialogue: 0,0:02:16.05,0:02:17.33,Gen_Main,Frieren,0000,0000,0000,,Ah, ¿sí?
+Dialogue: 0,0:02:17.53,0:02:19.49,Gen_Main,Fern,0000,0000,0000,,No parece estar muy interesada.
+Dialogue: 0,0:02:20.28,0:02:21.82,Gen_Main,Stark,0000,0000,0000,,Sé que ya es algo tarde,
+Dialogue: 0,0:02:22.12,0:02:26.65,Gen_Main,Stark,0000,0000,0000,,pero ¿por qué un mago de élite debe\Nacompañarnos a la altiplanicie norte?
+Dialogue: 0,0:02:27.36,0:02:33.36,Gen_Main,Frieren,0000,0000,0000,,Ahí siempre ha estado lleno de monstruos\Nastutos como los Einsam que usan magia.
+Dialogue: 0,0:02:34.17,0:02:39.13,Gen_Main,Frieren,0000,0000,0000,,Es una región peligrosa que no se puede\Ncruzar sin un sacerdote o un buen mago.
+Dialogue: 0,0:02:39.93,0:02:45.25,Gen_Main,Frieren,0000,0000,0000,,Si ahora se requiere un hechicero\Nde élite para pasar por la altiplanicie,
+Dialogue: 0,0:02:45.45,0:02:49.53,Gen_Main,Frieren,0000,0000,0000,,quiere decir que cosas muy escabrosas\Nestán sucediendo por aquellos lares.
+Dialogue: 0,0:02:51.93,0:02:55.15,Gen_Main,Frieren,0000,0000,0000,,En cuanto lleguemos a Äußerst,\Ninvestigaré sobre el examen.
+Dialogue: 0,0:02:55.55,0:02:58.58,Gen_Main,Frieren,0000,0000,0000,,Según lo que dice Fern,\Ntambién hay pruebas de combate.
+Dialogue: 0,0:02:59.10,0:03:01.10,Gen_Main,Frieren,0000,0000,0000,,Tenemos que pensar en una estrategia.
+Dialogue: 0,0:03:01.79,0:03:06.41,Gen_Main,Fern,0000,0000,0000,,Con su poder mágico, podría pasar sin\Ndificultad cualquier examen, ¿no cree?
+Dialogue: 0,0:03:06.90,0:03:11.41,Gen_Main,Fern,0000,0000,0000,,Incluso cuando lo limita, emite uno\Ndel nivel de una hechicera anciana.
+Dialogue: 0,0:03:12.31,0:03:14.54,Gen_Main,Frieren,0000,0000,0000,,No me llames hechicera anciana.
+Dialogue: 0,0:03:14.74,0:03:17.21,Gen_Main,Stark,0000,0000,0000,,Ay, no. Ya va a hacer berrinche.
+Dialogue: 0,0:03:17.41,0:03:20.08,Gen_Main,Stark,0000,0000,0000,,¿No te pasaste de la raya\Ncon eso de anciana?
+Dialogue: 0,0:03:20.28,0:03:21.93,Gen_Main,Fern,0000,0000,0000,,Lo siento mucho.
+Dialogue: 0,0:03:23.10,0:03:26.68,Gen_Main,Frieren,0000,0000,0000,,No se me olvida que una vez\Nme llamaste vieja bruja, ¿eh, Stark?
+Dialogue: 0,0:03:26.92,0:03:28.68,Gen_Main,Stark,0000,0000,0000,,Eso fue hace muchísimo tiempo.
+Dialogue: 0,0:03:29.22,0:03:30.96,Gen_Main,Frieren,0000,0000,0000,,Basta de todo. Tomaré una siesta.
+Dialogue: 0,0:03:31.22,0:03:33.65,Gen_Main,Frieren,0000,0000,0000,,Despiértenme cuando lleguemos a Äußerst.
+Dialogue: 0,0:03:34.19,0:03:35.90,Gen_Main,Fern,0000,0000,0000,,Ay, no.
+Dialogue: 0,0:03:38.77,0:03:40.40,Gen_Main,Frieren,0000,0000,0000,,Pensándolo bien, mejor no.
+Dialogue: 0,0:03:40.60,0:03:42.15,Gen_Main,Stark,0000,0000,0000,,¿Qué? ¿Ahora qué te pasa?
+Dialogue: 0,0:03:42.52,0:03:45.28,Gen_Main,Frieren,0000,0000,0000,,Solo podía ver la mitad del cielo.
+Dialogue: 0,0:03:48.27,0:03:49.91,Gen_Main,Frieren,0000,0000,0000,,Para que lo sepas, Fern,
+Dialogue: 0,0:03:50.89,0:03:54.17,Gen_Main,Frieren,0000,0000,0000,,no solo el poder mágico\Ndetermina la fuerza de un hechicero.
+Dialogue: 0,0:03:54.62,0:03:58.49,Gen_Main,Frieren,0000,0000,0000,,Técnica, experiencia,\Nel repertorio de magias, control…
+Dialogue: 0,0:03:58.69,0:04:00.47,Gen_Main,Frieren,0000,0000,0000,,Además de esfuerzo y agallas.
+Dialogue: 0,0:04:00.67,0:04:02.84,Gen_Main,Stark,0000,0000,0000,,Eso último suena como a un guerrero.
+Dialogue: 0,0:04:03.40,0:04:05.06,Gen_Main,Frieren,0000,0000,0000,,Y talento.
+Dialogue: 0,0:04:06.50,0:04:12.73,Gen_Main,Frieren,0000,0000,0000,,En mi vida, me han vencido 11 hechiceros\Ncon poder mágico menor al mío.
+Dialogue: 0,0:04:13.93,0:04:15.98,Gen_Main,Frieren,0000,0000,0000,,Cuatro de ellos eran demonios.
+Dialogue: 0,0:04:16.78,0:04:18.73,Gen_Main,Fern,0000,0000,0000,,Kvar era uno de ellos, ¿verdad?
+Dialogue: 0,0:04:19.48,0:04:21.61,Gen_Main,Frieren,0000,0000,0000,,Otro era un elfo igual que yo.
+Dialogue: 0,0:04:22.49,0:04:25.27,Gen_Main,Frieren,0000,0000,0000,,Y los seis restantes eran humanos.
+Dialogue: 0,0:04:27.47,0:04:31.75,Gen_Main,Übel,0000,0000,0000,,Falta poco para que se divise\Nel dominio del graf, ¿no?
+Dialogue: 0,0:04:31.75,0:04:37.71,Cart_A_Tim,CARTEL,0000,0000,0000,,{\fad(0,700)}{\blur.3\an7\bord0\fs17\pos(26,79)}Cercanías del dominio\Ndel graf Granat,\Nen los Países del Norte
+Dialogue: 0,0:04:32.05,0:04:35.16,Gen_Main,Übel,0000,0000,0000,,El camino hasta Äußerst\Nes peligroso, ¿verdad?
+Dialogue: 0,0:04:35.55,0:04:38.25,Gen_Main,Übel,0000,0000,0000,,Bueno, tomaré un pequeño descanso.
+Dialogue: 0,0:04:40.17,0:04:43.00,Gen_Main,Bandido A,0000,0000,0000,,Jovencita, me agrada\Nel báculo que llevas contigo.
+Dialogue: 0,0:04:45.70,0:04:49.29,Gen_Main,Übel,0000,0000,0000,,¿Cómo? No me digan\Nque otra vez me topé con bandidos.
+Dialogue: 0,0:04:49.49,0:04:53.35,Gen_Main,Übel,0000,0000,0000,,Justo cuando reina la paz por aquí\Ndespués de que Aura cayera.
+Dialogue: 0,0:04:53.59,0:04:56.47,Gen_Main,Übel,0000,0000,0000,,Ahora calaña como ustedes\Nse multiplica como ratas.
+Dialogue: 0,0:04:56.67,0:04:58.31,Gen_Main,Bandido A,0000,0000,0000,,¿Quién te dijo que hablaras?
+Dialogue: 0,0:04:58.84,0:05:01.05,Gen_Main,Bandido A,0000,0000,0000,,Danos todas tus pertenencias de una vez…
+Dialogue: 0,0:05:06.97,0:05:08.41,Gen_Main,Bandido B,0000,0000,0000,,¡Pedazo de imbécil!
+Dialogue: 0,0:05:16.41,0:05:19.50,Gen_Main,Kraft,0000,0000,0000,,Si valoran su vida,\Ndesaparezcan de mi vista.
+Dialogue: 0,0:05:21.07,0:05:22.88,Gen_Main,Bandido A,0000,0000,0000,,Larguémonos de aquí.
+Dialogue: 0,0:05:24.75,0:05:27.89,Gen_Main,Übel,0000,0000,0000,,Muchas gracias. Me salvaste la vida.
+Dialogue: 0,0:05:28.37,0:05:30.89,Gen_Main,Übel,0000,0000,0000,,Yo soy la hechicera Übel.
+Dialogue: 0,0:05:31.24,0:05:33.27,Gen_Main,Kraft,0000,0000,0000,,Soy el monje Kraft.
+Dialogue: 0,0:05:33.61,0:05:35.75,Gen_Main,Übel,0000,0000,0000,,Vaya, ¿acaso eres un elfo?
+Dialogue: 0,0:05:35.95,0:05:38.26,Gen_Main,Übel,0000,0000,0000,,Qué raro. Es la primera vez que veo uno.
+Dialogue: 0,0:05:39.98,0:05:42.27,Gen_Main,Kraft,0000,0000,0000,,Tienes los ojos de una asesina.
+Dialogue: 0,0:05:45.49,0:05:47.65,Gen_Main,Kraft,0000,0000,0000,,Mi intención no era salvarte.
+Dialogue: 0,0:05:48.87,0:05:52.53,Gen_Main,Kraft,0000,0000,0000,,En el bosque encontré los cadáveres\Nhechos trizas de unos bandidos.
+Dialogue: 0,0:05:52.99,0:05:55.12,Gen_Main,Kraft,0000,0000,0000,,Era la obra de un hechicero,
+Dialogue: 0,0:05:55.32,0:05:57.79,Gen_Main,Kraft,0000,0000,0000,,de uno aterradoramente\Nbueno y peligroso.
+Dialogue: 0,0:05:58.59,0:06:00.04,Gen_Main,Übel,0000,0000,0000,,No me digas.
+Dialogue: 0,0:06:01.69,0:06:04.05,Gen_Main,Übel,0000,0000,0000,,¿Acaso viniste a darme un sermón?
+Dialogue: 0,0:06:05.22,0:06:07.85,Gen_Main,Kraft,0000,0000,0000,,No. Yo también soy un aventurero.
+Dialogue: 0,0:06:08.05,0:06:12.04,Gen_Main,Kraft,0000,0000,0000,,No soy tan necio como para juzgar\Na alguien que mató en defensa propia.
+Dialogue: 0,0:06:12.89,0:06:15.74,Gen_Main,Kraft,0000,0000,0000,,Tan solo evité\Nque esos bandidos perdieran la vida.
+Dialogue: 0,0:06:16.12,0:06:19.06,Gen_Main,Übel,0000,0000,0000,,Qué viejo tan desagradable y aburrido.
+Dialogue: 0,0:06:19.48,0:06:21.81,Gen_Main,Kraft,0000,0000,0000,,¿Te diriges a Äußerst?
+Dialogue: 0,0:06:22.14,0:06:26.32,Gen_Main,Übel,0000,0000,0000,,Sí. Voy a tomar el examen\Npara hechicera de primer grado.
+Dialogue: 0,0:06:27.15,0:06:29.99,Gen_Main,Kraft,0000,0000,0000,,Frieren también mencionó algo parecido.
+Dialogue: 0,0:06:32.21,0:06:35.77,Gen_Main,Kraft,0000,0000,0000,,Me muero de ganas por oír\Nsus anécdotas la próxima vez que la vea.
+Dialogue: 0,0:06:36.95,0:06:39.96,Cart_A_Tim,CARTEL,0000,0000,0000,,{\blur.3\an7\bord0\fs17\pos(26,39)}Cuarteles de la zona norte\Nde la Asociación Mágica Continental
+Dialogue: 0,0:06:37.86,0:06:39.96,Gen_Main,Recepcionista,0000,0000,0000,,El examen será en dos meses.
+Dialogue: 0,0:06:40.46,0:06:45.21,Gen_Main,Recepcionista,0000,0000,0000,,El de primer grado solo se realiza\Nuna vez cada tres años. Tenga cuidado.
+Dialogue: 0,0:06:45.72,0:06:51.26,Gen_Main,Recepcionista,0000,0000,0000,,Además, para tomarlo se requiere poseer\Nla licencia de quinto grado o mayor.
+Dialogue: 0,0:06:53.95,0:06:55.85,Gen_Main,Frieren,0000,0000,0000,,Fern, lo dejo en tus manos, ¿sí?
+Dialogue: 0,0:06:57.43,0:07:00.32,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren,\Nno podré hacerlo yo sola.
+Dialogue: 0,0:07:00.52,0:07:01.73,Gen_Main,Frieren,0000,0000,0000,,Te digo que sí.
+Dialogue: 0,0:07:02.31,0:07:04.24,Gen_Main,Fern,0000,0000,0000,,¿Qué piensa hacer si lo repruebo?
+Dialogue: 0,0:07:04.44,0:07:06.85,Gen_Main,Fern,0000,0000,0000,,El de primer grado\Nes una vez cada tres años.
+Dialogue: 0,0:07:07.25,0:07:11.27,Gen_Main,Frieren,0000,0000,0000,,Entonces, contrataré a un mago de primer\Ngrado o iremos por la ruta marítima.
+Dialogue: 0,0:07:11.73,0:07:14.37,Gen_Main,Fern,0000,0000,0000,,Esas opciones costarán mucho dinero.
+Dialogue: 0,0:07:14.57,0:07:17.54,Gen_Main,Fern,0000,0000,0000,,¿Recuerda cuando no teníamos\Npara postre todos los días?
+Dialogue: 0,0:07:20.11,0:07:22.95,Gen_Main,Frieren,0000,0000,0000,,No importa lo que digas.\NYo no cuento con licencia.
+Dialogue: 0,0:07:26.82,0:07:30.18,Gen_Main,Frieren,0000,0000,0000,,El Emblema Sagrado no cuenta, ¿o sí?
+Dialogue: 0,0:07:30.99,0:07:33.88,Gen_Main,Fern,0000,0000,0000,,Ya dígame de dónde sacó\Nesa reliquia antigua.
+Dialogue: 0,0:07:34.43,0:07:35.78,Gen_Main,Lernen,0000,0000,0000,,Oye, tú.
+Dialogue: 0,0:07:37.13,0:07:39.66,Gen_Main,Lernen,0000,0000,0000,,¿Me podrías mostrar eso, por favor?
+Dialogue: 0,0:07:45.87,0:07:49.35,Gen_Main,Lernen,0000,0000,0000,,¿Piensa tomar el examen\Nde hechiceros de primer grado, señorita?
+Dialogue: 0,0:07:52.55,0:07:54.41,Gen_Main,Frieren,0000,0000,0000,,Podré participar sin problema.
+Dialogue: 0,0:07:55.18,0:07:58.16,Gen_Main,Frieren,0000,0000,0000,,No creía que aún hubiera\Nalguien que recordara esto.
+Dialogue: 0,0:07:58.82,0:08:01.65,Gen_Main,Fern,0000,0000,0000,,¿Ese emblema es algo extraordinario?
+Dialogue: 0,0:08:02.04,0:08:04.23,Gen_Main,Frieren,0000,0000,0000,,Se suponía que lo fuera.
+Dialogue: 0,0:08:07.01,0:08:10.45,Gen_Main,Himmel,0000,0000,0000,,Frieren, tú no estás inscrita\Nen el gremio de hechiceros, ¿verdad?
+Dialogue: 0,0:08:11.06,0:08:14.55,Gen_Main,Frieren,0000,0000,0000,,Es que las organizaciones\Nque gestionan la magia cambian a menudo.
+Dialogue: 0,0:08:15.03,0:08:17.61,Gen_Main,Frieren,0000,0000,0000,,No puedo unirme a todas\Ny cada una de ellas, ¿eh?
+Dialogue: 0,0:08:20.07,0:08:22.31,Gen_Main,Frieren,0000,0000,0000,,Además, mira, yo cuento con esto.
+Dialogue: 0,0:08:22.91,0:08:25.62,Gen_Main,Frieren,0000,0000,0000,,El Emblema Sagrado.\NApuesto a que estás sorprendido.
+Dialogue: 0,0:08:27.11,0:08:29.62,Gen_Main,Himmel,0000,0000,0000,,¿Y este collar oxidado? ¿Qué es?
+Dialogue: 0,0:08:29.82,0:08:31.91,Gen_Main,Himmel/Heiter,0000,0000,0000,,-¿Tú sabes?\N-No, para nada.
+Dialogue: 0,0:08:37.93,0:08:39.33,Gen_Main,Frieren,0000,0000,0000,,Vaya.
+Dialogue: 0,0:08:40.18,0:08:44.73,Gen_Main,Frieren,0000,0000,0000,,Lástima. Esto era lo único\Nque probaba que yo soy una hechicera.
+Dialogue: 0,0:08:46.30,0:08:50.84,Gen_Main,Himmel,0000,0000,0000,,Frieren, es verdad que desconocemos\Nlo que ese collar significa,
+Dialogue: 0,0:08:51.41,0:08:55.97,Gen_Main,Himmel,0000,0000,0000,,pero sabemos que eres\Nuna hechicera extraordinaria.
+Dialogue: 0,0:08:56.77,0:08:58.32,Gen_Main,Himmel,0000,0000,0000,,Con eso es suficiente, ¿no?
+Dialogue: 0,0:09:00.28,0:09:02.10,Gen_Main,Frieren,0000,0000,0000,,Pero no tardarán en morir.
+Dialogue: 0,0:09:09.10,0:09:10.55,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren.
+Dialogue: 0,0:09:11.82,0:09:16.86,Gen_Main,Fern,0000,0000,0000,,No se preocupe. Nosotros sabemos que\Nusted es una hechicera extraordinaria.
+Dialogue: 0,0:09:22.19,0:09:23.67,Gen_Main,Frieren,0000,0000,0000,,Sí, es cierto.
+Dialogue: 0,0:09:26.76,0:09:29.13,Gen_Main,Frieren,0000,0000,0000,,Las normas\Nde la Asociación Mágica Continental
+Dialogue: 0,0:09:29.47,0:09:34.76,Gen_Main,Frieren,0000,0000,0000,,dicen que, a partir del quinto grado,\Nse consideran hechiceros con licencia.
+Dialogue: 0,0:09:35.53,0:09:38.04,Gen_Main,Frieren,0000,0000,0000,,Fern, ¿por qué tú sacaste\Nla de tercer grado?
+Dialogue: 0,0:09:38.62,0:09:41.70,Gen_Main,Fern,0000,0000,0000,,Es que la fecha del examen\Nera la más cercana.
+Dialogue: 0,0:09:42.74,0:09:46.57,Gen_Main,Frieren,0000,0000,0000,,Los hechiceros de quinto grado\Nhacia arriba son 600 en total.
+Dialogue: 0,0:09:46.77,0:09:51.40,Gen_Main,Frieren,0000,0000,0000,,Aun incluyendo a los aprendices de sexto\Na noveno grado, solo son 2000 en total.
+Dialogue: 0,0:09:51.95,0:09:54.22,Gen_Main,Frieren,0000,0000,0000,,Los de primer grado en la cima son 45.
+Dialogue: 0,0:09:54.40,0:09:56.68,Gen_Main,Frieren,0000,0000,0000,,El examen de primer grado\Nes cada tres años,
+Dialogue: 0,0:09:57.21,0:10:01.91,Gen_Main,Frieren,0000,0000,0000,,y se lleva a cabo solo en el Norte,\Nen Äußerst, y en la Ciudad Santa Strahl.
+Dialogue: 0,0:10:03.55,0:10:05.99,Gen_Main,Frieren,0000,0000,0000,,La mayoría de las veces,\Nnadie lo aprueba.
+Dialogue: 0,0:10:06.19,0:10:09.32,Gen_Main,Frieren,0000,0000,0000,,Y cada vez mueren participantes\Ncomo si fuera lo más normal.
+Dialogue: 0,0:10:09.94,0:10:12.01,Gen_Main,Frieren,0000,0000,0000,,Es una prueba bastante difícil.
+Dialogue: 0,0:10:12.70,0:10:16.23,Gen_Main,Frieren,0000,0000,0000,,Lo que me sorprende es que\Nla población de hechiceros bajara tanto.
+Dialogue: 0,0:10:16.43,0:10:18.42,Gen_Main,Fern,0000,0000,0000,,¿En el pasado eran muchos más?
+Dialogue: 0,0:10:19.05,0:10:22.54,Gen_Main,Frieren,0000,0000,0000,,Hace un siglo, cuando había\Nmás ataques del Ejército Demoníaco,
+Dialogue: 0,0:10:22.76,0:10:26.81,Gen_Main,Frieren,0000,0000,0000,,era normal encontrarte con un hechicero\Nen las calles de cualquier ciudad.
+Dialogue: 0,0:10:27.18,0:10:30.60,Gen_Main,Frieren,0000,0000,0000,,Ahora no ves a ninguno\Nexcepto en una ciudad mágica como esta.
+Dialogue: 0,0:10:32.17,0:10:36.49,Gen_Main,Frieren,0000,0000,0000,,Bueno, pues a entrenar duro\Npara el examen en dos meses.
+Dialogue: 0,0:11:08.94,0:11:13.38,Gen_Main_Up,Genau,0000,0000,0000,,Ahora daremos inicio al Examen de\NSelección de Hechiceros de Primer Grado.
+Dialogue: 0,0:11:09.98,0:11:13.98,Cart_A_Tim,CARTEL,0000,0000,0000,,{\blur.3\an2\bord0\fs17\pos(124,333)}Geuna,\Nhechicero de primer grado
+Dialogue: 0,0:11:09.98,0:11:13.98,Cart_A_Tim,CARTEL,0000,0000,0000,,{\blur.3\an2\bord0\fs17\pos(529,333)}Examinador\Nde la primera parte del examen
+Dialogue: 0,0:11:14.43,0:11:16.98,Gen_Main,Falsch,0000,0000,0000,,Este año se reunió\Nla crema y nata, ¿verdad?
+Dialogue: 0,0:11:17.70,0:11:21.60,Gen_Main,Falsch,0000,0000,0000,,Él, tras años luchando con lo que queda\Ndel ejército del Rey Demonio,
+Dialogue: 0,0:11:21.77,0:11:25.99,Gen_Main,Falsch,0000,0000,0000,,Wirbel, de segundo grado, comandante\Nde la unidad de magos del Norte.
+Dialogue: 0,0:11:26.63,0:11:29.26,Gen_Main,Falsch,0000,0000,0000,,Él salió vencedor\Nen varios conflictos políticos,
+Dialogue: 0,0:11:29.46,0:11:31.75,Gen_Main,Falsch,0000,0000,0000,,y ahora es un mago imperial.
+Dialogue: 0,0:11:31.95,0:11:34.39,Gen_Main,Falsch,0000,0000,0000,,Un viejo astuto y curtido por el mundo.
+Dialogue: 0,0:11:34.59,0:11:36.52,Gen_Main,Falsch,0000,0000,0000,,Denken, hechicero de segundo grado.
+Dialogue: 0,0:11:37.15,0:11:41.97,Gen_Main,Falsch,0000,0000,0000,,O la chica más joven\Nque aprobó el examen de tercer grado
+Dialogue: 0,0:11:42.15,0:11:44.56,Gen_Main,Falsch,0000,0000,0000,,con la mejor calificación:\Nla hechicera Fern.
+Dialogue: 0,0:11:44.73,0:11:47.26,Gen_Main,Falsch,0000,0000,0000,,Bueno, también hay\Nelementos problemáticos.
+Dialogue: 0,0:11:47.66,0:11:52.33,Gen_Main,Falsch,0000,0000,0000,,Hace 2 años, ella asesinó al examinador\Nde primer grado del examen de segundo
+Dialogue: 0,0:11:52.53,0:11:54.46,Gen_Main,Falsch,0000,0000,0000,,y quedó descalificada.
+Dialogue: 0,0:11:54.66,0:11:56.90,Gen_Main,Falsch,0000,0000,0000,,Übel, hechicera de tercer grado.
+Dialogue: 0,0:11:58.43,0:12:00.84,Gen_Main,Falsch,0000,0000,0000,,¿Quién más se verá prometedor?
+Dialogue: 0,0:12:02.66,0:12:07.42,Gen_Main,Falsch,0000,0000,0000,,Hay una que posee el poder mágico\Nde una experimentada anciana hechicera.
+Dialogue: 0,0:12:08.19,0:12:10.54,Gen_Main,Falsch/Sense,0000,0000,0000,,-¿Quién es esa?\N-No lo sé.
+Dialogue: 0,0:12:10.91,0:12:15.00,Gen_Main,Genau,0000,0000,0000,,Muy bien. Ahora explicaré el contenido\Nde la primera parte del examen.
+Dialogue: 0,0:12:15.53,0:12:18.50,Gen_Main,Genau,0000,0000,0000,,Será una competencia por equipos.\NLos 57 participantes
+Dialogue: 0,0:12:19.03,0:12:23.05,Gen_Main,Genau,0000,0000,0000,,se dividirán en grupos de tres\Npara tomar el examen.
+Dialogue: 0,0:12:24.22,0:12:26.94,Gen_Main,Genau,0000,0000,0000,,Ahora mismo asignaremos los equipos.
+Dialogue: 0,0:12:28.31,0:12:29.93,Gen_Italics,Frieren,0000,0000,0000,,¿Un brazalete?
+Dialogue: 0,0:12:31.45,0:12:35.89,Gen_Italics,Frieren,0000,0000,0000,,Tiene escrito un número. Quiere decir\Nque estoy en el grupo dos, ¿verdad?
+Dialogue: 0,0:12:36.71,0:12:40.61,Gen_Italics,Frieren,0000,0000,0000,,Al imbuirle poder mágico, me muestra\Nla ubicación de mis compañeros.
+Dialogue: 0,0:12:40.95,0:12:43.49,Gen_Italics,Frieren,0000,0000,0000,,Así es cómo asignarán los grupos, ¿eh?
+Dialogue: 0,0:12:44.38,0:12:46.86,Gen_Italics,Frieren,0000,0000,0000,,Vaya que se les ocurrió algo fascinante.
+Dialogue: 0,0:12:47.06,0:12:49.04,Gen_Italics,Frieren,0000,0000,0000,,No son compañeros que ya conoces.
+Dialogue: 0,0:12:49.96,0:12:53.60,Gen_Italics,Frieren,0000,0000,0000,,Son grupos formados de improviso\Ny al azar con individuos hábiles.
+Dialogue: 0,0:12:53.80,0:12:56.17,Gen_Italics,Frieren,0000,0000,0000,,Será difícil lograr\Nuna buena coordinación.
+Dialogue: 0,0:12:57.74,0:13:00.38,Gen_Italics,Frieren,0000,0000,0000,,En estos casos,\Nla primera impresión es importante.
+Dialogue: 0,0:13:00.58,0:13:03.17,Gen_Italics,Frieren,0000,0000,0000,,Debo tener cuidado\Nde no causar conflictos.
+Dialogue: 0,0:13:04.03,0:13:06.68,Gen_Italics,Frieren,0000,0000,0000,,El brazalete me dice que es por aquí.
+Dialogue: 0,0:13:07.08,0:13:08.68,Gen_Main,Kanne,0000,0000,0000,,¡Ay, eso me duele mucho!
+Dialogue: 0,0:13:09.45,0:13:11.86,Gen_Main,Kanne,0000,0000,0000,,¡Me las vas a arrancar!\N¡Deja de molestar!
+Dialogue: 0,0:13:12.06,0:13:14.57,Gen_Main,Kanne/Lawine,0000,0000,0000,,-¡Te voy a matar!\N-Quiero ver que lo intentes.
+Dialogue: 0,0:13:16.54,0:13:18.81,Gen_Italics,Frieren,0000,0000,0000,,Ya se están peleando.
+Dialogue: 0,0:13:23.71,0:13:25.57,Gen_Main,Übel,0000,0000,0000,,Mucho gusto.
+Dialogue: 0,0:13:26.17,0:13:28.05,Gen_Main,Fern,0000,0000,0000,,El gusto es mío.
+Dialogue: 0,0:13:28.99,0:13:31.99,Cart_A_Tim,CARTEL,0000,0000,0000,,{\blur.3\an7\bord0\fs17\pos(26,39)}Cuenca Grobe\Nde los Países del Norte,\Nsitio de la primera parte del examen
+Dialogue: 0,0:13:31.39,0:13:34.89,Gen_Main,Genau,0000,0000,0000,,Les explicaré las reglas concretas\Nde la primera parte del examen.
+Dialogue: 0,0:13:36.12,0:13:40.14,Gen_Main,Genau,0000,0000,0000,,En la región del examen habita\Nesta especie de aves llamada stille.
+Dialogue: 0,0:13:40.99,0:13:44.70,Gen_Main,Genau,0000,0000,0000,,Se le ha dado a cada grupo una jaula.
+Dialogue: 0,0:13:44.90,0:13:47.63,Gen_Main,Genau,0000,0000,0000,,Son dos las condiciones\Npara pasar la primera parte:
+Dialogue: 0,0:13:48.36,0:13:52.01,Gen_Main,Genau,0000,0000,0000,,tener una jaula con un stille dentro\Npara la puesta del sol de mañana.
+Dialogue: 0,0:13:52.82,0:13:54.62,Gen_Main_Up,Kanne,0000,0000,0000,,¡No te me acerques!
+Dialogue: 0,0:13:53.19,0:13:56.96,Gen_Main,Genau,0000,0000,0000,,Y en ese momento, deben estar juntos\Nlos tres integrantes del grupo.
+Dialogue: 0,0:13:57.96,0:14:00.16,Gen_Main,Genau,0000,0000,0000,,Básicamente,\Npueden hacer lo que quieran,
+Dialogue: 0,0:14:00.85,0:14:04.15,Gen_Main,Genau,0000,0000,0000,,pero, si alguien llegara a salir\Nde la zona del examen,
+Dialogue: 0,0:14:04.51,0:14:08.15,Gen_Main,Genau,0000,0000,0000,,todos los integrantes de su grupo\Nserían descalificados.
+Dialogue: 0,0:14:08.63,0:14:11.32,Gen_Main,Lawine,0000,0000,0000,,¿Cómo puede decir eso\Nluego de erigir una barrera
+Dialogue: 0,0:14:11.52,0:14:14.72,Gen_Main,Lawine,0000,0000,0000,,tan poderosa que no deja pasar\Nni una mota de polvo?
+Dialogue: 0,0:14:14.92,0:14:16.76,Gen_Main,Kanne,0000,0000,0000,,Sí, no hay manera de salir.
+Dialogue: 0,0:14:17.35,0:14:20.00,Gen_Main,Frieren,0000,0000,0000,,Sí estaban poniendo atención\Na la explicación.
+Dialogue: 0,0:14:20.23,0:14:23.63,Gen_Main,Genau,0000,0000,0000,,Muy bien. Damos inicio\Na la primera parte del examen.
+Dialogue: 0,0:14:23.83,0:14:26.26,Gen_Main,Kanne,0000,0000,0000,,Te digo que primero\Ndebemos formular un plan.
+Dialogue: 0,0:14:26.46,0:14:30.78,Gen_Main,Lawine,0000,0000,0000,,¿Eres estúpida? ¿Cómo vamos a formularlo\Nsi no sabemos cómo encontrarlo?
+Dialogue: 0,0:14:31.29,0:14:33.21,Gen_Main,Frieren,0000,0000,0000,,Otra vez se están peleando.
+Dialogue: 0,0:14:34.29,0:14:37.58,Gen_Main,Frieren,0000,0000,0000,,¿Qué tal si nos presentamos\Nmientras nos movemos de aquí?
+Dialogue: 0,0:14:40.82,0:14:44.70,Gen_Main,Frieren,0000,0000,0000,,Decidan quién llevará la jaula\Ncon piedra, papel o tijera.
+Dialogue: 0,0:14:50.21,0:14:53.03,Gen_Main,Frieren,0000,0000,0000,,Me llamo Frieren. Mucho gusto.
+Dialogue: 0,0:14:53.23,0:14:55.98,Gen_Main,Lawine,0000,0000,0000,,Soy Lawine, hechicera de tercer grado.
+Dialogue: 0,0:14:56.54,0:14:59.44,Gen_Main,Kanne,0000,0000,0000,,Me llamo Kanne.\NTambién soy hechicera de tercer grado.
+Dialogue: 0,0:14:59.64,0:15:03.88,Gen_Main,Kanne,0000,0000,0000,,Conozco a Lawine desde que éramos niñas.\NEstuvimos en la misma academia mágica.
+Dialogue: 0,0:15:04.44,0:15:07.21,Gen_Main,Frieren,0000,0000,0000,,¿Poseen algún tipo\Nde conocimiento sobre stille?
+Dialogue: 0,0:15:07.41,0:15:09.13,Gen_Main,Lawine/Kanne,0000,0000,0000,,-No.\N-Ninguno.
+Dialogue: 0,0:15:09.47,0:15:13.81,Gen_Main,Frieren,0000,0000,0000,,Yo sé cosas sobre el pájaro,\Npero no he visto un espécimen vivo.
+Dialogue: 0,0:15:14.01,0:15:17.24,Gen_Main,Frieren,0000,0000,0000,,Primero debemos encontrar uno\Npara observarlo con cuidado.
+Dialogue: 0,0:15:38.23,0:15:39.97,Gen_Main,Kanne,0000,0000,0000,,Ya me cansé.
+Dialogue: 0,0:15:40.61,0:15:42.34,Gen_Main,Lawine,0000,0000,0000,,Te falta mucha condición física.
+Dialogue: 0,0:15:42.54,0:15:44.52,Gen_Main,Frieren,0000,0000,0000,,Tomemos un pequeño descanso.
+Dialogue: 0,0:15:47.61,0:15:50.01,Gen_Main,Lawine,0000,0000,0000,,Aún puedo caminar.\NIré a ver qué hay delante.
+Dialogue: 0,0:15:50.21,0:15:52.72,Gen_Main,Kanne,0000,0000,0000,,Te digo\Nque es más seguro caminar juntas.
+Dialogue: 0,0:15:52.92,0:15:55.80,Gen_Main,Lawine,0000,0000,0000,,Cierra el pico.\NAsí sería más ineficiente.
+Dialogue: 0,0:15:57.35,0:15:58.93,Gen_Main,Frieren,0000,0000,0000,,¿Eres poderosa, Lawine?
+Dialogue: 0,0:15:59.41,0:16:02.21,Gen_Main,Lawine/Kanne,0000,0000,0000,,-Por lo menos más que esta.\N-¿Quieres pelea, estúpida?
+Dialogue: 0,0:16:02.66,0:16:04.06,Gen_Main,Frieren,0000,0000,0000,,¿Y comparándote conmigo?
+Dialogue: 0,0:16:05.98,0:16:08.09,Gen_Main,Lawine,0000,0000,0000,,No quisiera pelear contra ti.
+Dialogue: 0,0:16:08.94,0:16:12.20,Gen_Main,Frieren,0000,0000,0000,,Comprendo. Está bien, ve a ver.
+Dialogue: 0,0:16:12.68,0:16:14.87,Gen_Main,Frieren,0000,0000,0000,,Regresa si se pone peligroso.
+Dialogue: 0,0:16:15.07,0:16:16.07,Gen_Main,Lawine,0000,0000,0000,,Claro.
+Dialogue: 0,0:16:16.82,0:16:18.90,Gen_Main,Frieren,0000,0000,0000,,Y ten cuidado con el cielo, ¿sí?
+Dialogue: 0,0:16:19.10,0:16:20.60,Gen_Main,Lawine,0000,0000,0000,,Ya lo sé.
+Dialogue: 0,0:16:23.70,0:16:26.33,Gen_Italics,Frieren,0000,0000,0000,,Me preocupa el destino de este grupo.
+Dialogue: 0,0:16:26.70,0:16:29.43,Gen_Main,Kanne,0000,0000,0000,,Frieren, pareces una maestra de escuela.
+Dialogue: 0,0:16:29.60,0:16:31.37,Gen_Main,Kanne,0000,0000,0000,,Tienes talento de liderazgo, ¿no?
+Dialogue: 0,0:16:31.72,0:16:34.13,Gen_Main,Frieren,0000,0000,0000,,Es por culpa de que solo están peleando.
+Dialogue: 0,0:16:34.33,0:16:36.09,Gen_Main,Frieren,0000,0000,0000,,No es que quiera dirigirlas.
+Dialogue: 0,0:16:36.45,0:16:40.69,Gen_Main,Kanne,0000,0000,0000,,Lo siento mucho. Siempre\Nnos hemos llevado así nosotras dos.
+Dialogue: 0,0:16:41.42,0:16:44.82,Gen_Main,Kanne,0000,0000,0000,,A propósito, ¿por qué\Ndebemos tener cuidado con el cielo?
+Dialogue: 0,0:16:45.02,0:16:46.65,Gen_Main,Frieren,0000,0000,0000,,Eso, en sentido literal.
+Dialogue: 0,0:16:47.69,0:16:49.76,Gen_Main,Frieren,0000,0000,0000,,¿No eres buena detectando poder mágico?
+Dialogue: 0,0:16:50.46,0:16:52.71,Gen_Main,Kanne/Lawine,0000,0000,0000,,-¿Por qué lo preguntas?\N-Oigan.
+Dialogue: 0,0:16:53.81,0:16:56.87,Gen_Main,Frieren/Lawine,0000,0000,0000,,-Qué rápido volviste.\N-Encontré un stille.
+Dialogue: 0,0:16:59.79,0:17:01.55,Gen_Main,Frieren,0000,0000,0000,,Muy bien hecho, Lawine.
+Dialogue: 0,0:17:01.75,0:17:03.84,Gen_Main,Frieren,0000,0000,0000,,Ahora lo vamos a observar con atención.
+Dialogue: 0,0:17:08.93,0:17:11.00,Gen_Main,Frieren,0000,0000,0000,,¿No les pedí que lo observaran?
+Dialogue: 0,0:17:11.29,0:17:12.73,Gen_Main,Frieren,0000,0000,0000,,Se nos va a escapar.
+Dialogue: 0,0:17:12.93,0:17:15.75,Gen_Main,Lawine,0000,0000,0000,,No. Lo hiciste muy bien, Kanne.
+Dialogue: 0,0:17:20.14,0:17:22.02,Gen_Main,Frieren,0000,0000,0000,,Vaya. Son buenas.
+Dialogue: 0,0:17:24.34,0:17:26.89,Gen_Main,Frieren,0000,0000,0000,,Pero creo que ya es hora\Nde que se cubran.
+Dialogue: 0,0:17:27.63,0:17:28.98,Gen_Main,Lawine,0000,0000,0000,,¿Por qué?
+Dialogue: 0,0:17:33.88,0:17:35.97,Gen_Main,Frieren,0000,0000,0000,,Los stille son resistentes en extremo.
+Dialogue: 0,0:17:36.17,0:17:38.87,Gen_Main,Frieren,0000,0000,0000,,Su máxima velocidad de vuelo\Nsupera la del sonido.
+Dialogue: 0,0:17:39.25,0:17:41.80,Gen_Main,Frieren,0000,0000,0000,,No servirá de nada\Nretenerlo con tan poca fuerza.
+Dialogue: 0,0:17:43.11,0:17:46.44,Gen_Main,Lawine/Kanne,0000,0000,0000,,-No lo puedo creer. Ya no lo veo.\N-Estuvimos cerca, ¿verdad?
+Dialogue: 0,0:17:46.64,0:17:49.81,Gen_Main,Frieren,0000,0000,0000,,Es necesario observarlo muy bien\Npara atraparlo.
+Dialogue: 0,0:17:50.23,0:17:53.38,Gen_Main,Frieren,0000,0000,0000,,El día de hoy lo utilizaremos\Npara estudiarlo, ¿eh?
+Dialogue: 0,0:17:54.42,0:17:58.89,Gen_Italics,Frieren,0000,0000,0000,,Kanne manipuló el agua,\Ny Lawine la congeló.
+Dialogue: 0,0:17:59.09,0:18:02.02,Gen_Italics,Frieren,0000,0000,0000,,Están coordinadas\Nen una sincronización muy precisa,
+Dialogue: 0,0:18:02.22,0:18:03.89,Gen_Italics,Frieren,0000,0000,0000,,como si respiraran a la par.
+Dialogue: 0,0:18:04.09,0:18:06.89,Gen_Italics,Frieren,0000,0000,0000,,Ese resultado no se logra\Nde un día para otro.
+Dialogue: 0,0:18:07.47,0:18:11.31,Gen_Italics,Frieren,0000,0000,0000,,Estaba un poco preocupada por\Nnuestra suerte, pero ya vi esperanzas.
+Dialogue: 0,0:18:11.51,0:18:13.15,Gen_Main,Lawine,0000,0000,0000,,Sigámoslo de inmediato.
+Dialogue: 0,0:18:14.39,0:18:16.41,Gen_Main,Kanne,0000,0000,0000,,Primero hay que rodear el lago.
+Dialogue: 0,0:18:16.61,0:18:20.94,Gen_Main,Lawine/Frieren,0000,0000,0000,,-¿Para qué? Debemos apresurarnos.\N-{\i1}Retiro lo dicho. Otra vez pelean.{\i0}
+Dialogue: 0,0:18:50.47,0:18:53.50,Gen_Main,Kanne,0000,0000,0000,,¿Qué será ese ruido que se oye? ¿Eh?
+Dialogue: 0,0:18:55.90,0:18:57.86,Gen_Main,Kanne,0000,0000,0000,,Frieren no está.
+Dialogue: 0,0:19:01.63,0:19:05.26,Gen_Main,Kanne,0000,0000,0000,,Es muy tenue, pero estoy segura\Nde que es ruido de lluvia.
+Dialogue: 0,0:19:11.87,0:19:14.20,Gen_Main,Kanne,0000,0000,0000,,¿Cómo es posible si no está lloviendo?
+Dialogue: 0,0:19:14.62,0:19:17.01,Gen_Main,Kanne,0000,0000,0000,,Ah, claro. De eso se trata.
+Dialogue: 0,0:19:17.26,0:19:19.22,Gen_Main,Kanne,0000,0000,0000,,Eso quiere decir que tal vez…
+Dialogue: 0,0:19:22.92,0:19:24.33,Gen_Main,Kanne,0000,0000,0000,,¡Un monstruo!
+Dialogue: 0,0:19:33.78,0:19:35.24,Gen_Main,Kanne,0000,0000,0000,,Mi báculo…
+Dialogue: 0,0:19:39.11,0:19:40.58,Gen_Main,Kanne,0000,0000,0000,,¡Lawine!
+Dialogue: 0,0:19:51.57,0:19:54.13,Gen_Main,Frieren,0000,0000,0000,,Te dije que tuvieras\Ncuidado con el cielo, ¿no?
+Dialogue: 0,0:20:04.34,0:20:05.84,Gen_Main,Frieren,0000,0000,0000,,¿Ya estás más tranquila?
+Dialogue: 0,0:20:06.27,0:20:07.64,Gen_Main,Kanne,0000,0000,0000,,Sí.
+Dialogue: 0,0:20:08.28,0:20:10.39,Gen_Main,Frieren,0000,0000,0000,,Llamaste a Lawine.
+Dialogue: 0,0:20:13.02,0:20:14.98,Gen_Main,Frieren,0000,0000,0000,,Creí que la odiabas.
+Dialogue: 0,0:20:16.17,0:20:17.98,Gen_Main,Kanne,0000,0000,0000,,Pues sí.
+Dialogue: 0,0:20:18.35,0:20:19.62,Gen_Main,Frieren,0000,0000,0000,,Sí, ¿verdad?
+Dialogue: 0,0:20:19.82,0:20:22.86,Gen_Main,Frieren,0000,0000,0000,,Pero me pregunto cómo pueden\Ncoordinarse a pesar de eso.
+Dialogue: 0,0:20:23.27,0:20:24.74,Gen_Main,Frieren,0000,0000,0000,,Es muy extraño.
+Dialogue: 0,0:20:26.26,0:20:28.87,Gen_Main,Kanne,0000,0000,0000,,Es que soy muy cobarde,\Naunque no lo parezca.
+Dialogue: 0,0:20:29.93,0:20:33.87,Gen_Main,Kanne,0000,0000,0000,,Me pasa frecuentemente que me quedo\Ncongelada en momentos críticos.
+Dialogue: 0,0:20:36.63,0:20:40.33,Gen_Main,Kanne,0000,0000,0000,,Así me sucedió la primera vez\Nque practicamos la magia de volar.
+Dialogue: 0,0:20:43.03,0:20:46.81,Gen_Main,Lawine,0000,0000,0000,,Los que despegaron primero\Nya se fueron muy lejos.
+Dialogue: 0,0:20:47.01,0:20:50.14,Gen_Main,Lawine,0000,0000,0000,,Abajo hay agua.\NTe aseguro que no morirás.
+Dialogue: 0,0:20:50.53,0:20:53.65,Gen_Main,Lawine,0000,0000,0000,,Si no tienes el valor,\Nte puedo aventar de una patada.
+Dialogue: 0,0:20:53.96,0:20:55.90,Gen_Main,Kanne,0000,0000,0000,,Te odio, Lawine.
+Dialogue: 0,0:20:56.47,0:20:57.91,Gen_Main,Lawine,0000,0000,0000,,Eso ya lo sé.
+Dialogue: 0,0:20:58.57,0:21:01.29,Gen_Main,Kanne,0000,0000,0000,,Siempre me dices cosas muy feas,
+Dialogue: 0,0:21:01.49,0:21:05.26,Gen_Main,Kanne,0000,0000,0000,,pero yo soy de las que mejoran\Ncon elogios y cumplidos.
+Dialogue: 0,0:21:05.78,0:21:07.39,Gen_Main,Lawine,0000,0000,0000,,¿Es tu idea de un chiste?
+Dialogue: 0,0:21:07.59,0:21:11.91,Gen_Main,Lawine,0000,0000,0000,,Pero si este es el resultado de que\Ntus lindos papi y mami te mimaran tanto.
+Dialogue: 0,0:21:12.54,0:21:15.92,Gen_Main,Lawine,0000,0000,0000,,Puedo ser todo lo buena que quieras\Nsi con eso lograras volar.
+Dialogue: 0,0:21:17.05,0:21:19.42,Gen_Main,Kanne,0000,0000,0000,,Entonces, enumera mis cualidades.
+Dialogue: 0,0:21:19.79,0:21:22.30,Gen_Main,Lawine,0000,0000,0000,,Oye, ¿lo dices en serio?
+Dialogue: 0,0:21:27.73,0:21:31.12,Gen_Main,Lawine,0000,0000,0000,,A pesar de que eres cobarde,\Nte esfuerzas mucho en realidad.
+Dialogue: 0,0:21:33.75,0:21:35.81,Gen_Main,Lawine,0000,0000,0000,,Esa es tu cualidad.
+Dialogue: 0,0:21:38.18,0:21:41.25,Gen_Main,Kanne/Lawine,0000,0000,0000,,-Te dije que las enumeraras.\N-¿Qué? ¿Por qué yo?
+Dialogue: 0,0:21:43.54,0:21:46.54,Gen_Main,Lawine,0000,0000,0000,,Todo lo que practicas a escondidas.
+Dialogue: 0,0:21:46.74,0:21:50.70,Gen_Main,Lawine,0000,0000,0000,,Siempre estás atenta de lo que pasa\Nalrededor para tratar a todos bien.
+Dialogue: 0,0:21:50.90,0:21:52.49,Gen_Main,Kanne,0000,0000,0000,,Dime más.
+Dialogue: 0,0:21:55.49,0:21:58.32,Gen_Main,Lawine,0000,0000,0000,,Te ves muy bonita cuando sonríes.
+Dialogue: 0,0:21:58.88,0:22:00.15,Gen_Main,Kanne,0000,0000,0000,,¿Eh? Eso me dio asquito.
+Dialogue: 0,0:22:06.57,0:22:08.54,Gen_Main,Kanne,0000,0000,0000,,Por poco me estrello.
+Dialogue: 0,0:22:09.58,0:22:11.64,Gen_Main,Lawine,0000,0000,0000,,Qué sorpresa. Sí puedes volar.
+Dialogue: 0,0:22:11.84,0:22:14.64,Gen_Main,Lawine,0000,0000,0000,,Ya no seré buena contigo, ¿eh?
+Dialogue: 0,0:22:15.37,0:22:19.52,Gen_Main,Kanne,0000,0000,0000,,Lawine es bastante brusca,\Npero siempre me ayuda a avanzar.
+Dialogue: 0,0:22:20.14,0:22:22.70,Gen_Main,Kanne,0000,0000,0000,,Gracias a ella,\Nnoté que si actúo sin pensar
+Dialogue: 0,0:22:22.90,0:22:25.53,Gen_Main,Kanne,0000,0000,0000,,cuando tenga miedo,\Nse solucionará de algún modo.
+Dialogue: 0,0:22:28.89,0:22:30.61,Gen_Main,Kanne,0000,0000,0000,,Por cierto, Frieren.
+Dialogue: 0,0:22:32.93,0:22:36.12,Gen_Main,Kanne,0000,0000,0000,,Me acabo de percatar\Nde algo muy interesante.
+Dialogue: 0,0:22:40.76,0:22:43.45,Gen_Main,Kanne,0000,0000,0000,,¿Crees que ese hecho nos sirva de algo?
+Dialogue: 0,0:22:44.11,0:22:49.12,Gen_Main,Frieren,0000,0000,0000,,Ya veo. Tal vez podremos\Natrapar un stille fácilmente.
+Dialogue: 0,0:24:16.85,0:24:19.98,Cart_C_Tim,CARTEL,0000,0000,0000,,{\b0\fad(800,0)\bord1\blur0.6\fs18\pos(320,231)}Traducción: Antonio Valdez\NPautado: Thomas Benaissa\NEdición: Álvaro Jimeno\NControl de calidad: Nicolás Sepúlveda{\b1\b0}
+Dialogue: 0,0:24:20.35,0:24:22.77,Gen_Main,Übel/Lawine,0000,0000,0000,,-Eres muy extraño.\N-Ya verás. Acepto el reto.
+Dialogue: 0,0:24:21.67,0:24:23.90,Gen_Main_Up,Land,0000,0000,0000,,Lo dices como si fuera tan fácil.
+Dialogue: 0,0:24:22.97,0:24:25.65,Gen_Main,Frieren/Übel,0000,0000,0000,,-Alguien nos está detectando.\N-Es hora del combate.
+Dialogue: 0,0:24:24.94,0:24:27.29,Gen_Main_Up,Wirbel,0000,0000,0000,,Entonces, las palabras ya no nos sirven.
+Dialogue: 0,0:24:25.85,0:24:29.98,Gen_Main,Denken,0000,0000,0000,,El grupo número 2\Nelaboró un plan muy cuidadoso.
+Dialogue: 0,0:24:27.52,0:24:29.98,Cart_A_Tim,CARTEL,0000,0000,0000,,{\fsp1\b0\fad(500,0)\pos(320,60)\bord0\c&H201B1C&\blur5\t(0,271,\blur0)\t(312,1188,\c&HFFFFFF&)\t(\fsp0)}Episodio 19\N{\fs30}Un plan muy cuidadoso

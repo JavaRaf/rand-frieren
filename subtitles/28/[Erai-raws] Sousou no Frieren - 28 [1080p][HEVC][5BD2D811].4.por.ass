@@ -1,0 +1,344 @@
+﻿[Script Info]
+Title: [Erai-raws] Português (Brasil)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,1
+Style: DefaultItalics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DefaultTop,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0015,0
+Style: Flashback,Trebuchet MS,22,&H00FBFBFE,&H000000FF,&H005C0718,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,0
+Style: FlashbackTop,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,-1,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0015,0
+Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Signs_EpTitle,Times New Roman,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0030,0030,0010,0
+Style: Songs_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A95974,&H00A95974,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Songs_OP2,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A5B23B,&H00A5B23B,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.30,0:00:06.49,Default,FERN,0000,0000,0000,,Eu sou aprendiz da Srta. Frieren.
+Dialogue: 0,0:00:08.98,0:00:10.41,Default,SERIE,0000,0000,0000,,Está aprovada.
+Dialogue: 0,0:00:12.37,0:00:13.34,Default,SERIE,0000,0000,0000,,Próximo.
+Dialogue: 0,0:00:23.09,0:00:27.01,Songs_OP2,OP LYRICS,0000,0000,0000,,Você é como o vento
+Dialogue: 0,0:00:27.01,0:00:31.64,Songs_OP2,OP LYRICS,0000,0000,0000,,Fechando seus olhos durante o pôr do sol
+Dialogue: 0,0:00:31.64,0:00:37.27,Songs_OP2,OP LYRICS,0000,0000,0000,,Eu me pergunto no que você estará pensando
+Dialogue: 0,0:00:37.57,0:00:42.61,Signs,SIGN,0000,0000,0000,,{\fad(857,1)\blur0.25\fs30\fnGeorgia\fsp3.9\c&HFFFE65&\pos(328,254)\clip(109,253,547,294)\t(3943,4986,\clip(109,253,110,294))}e a Jornada para o Além
+Dialogue: 0,0:00:41.99,0:00:45.99,Songs_OP2,OP LYRICS,0000,0000,0000,,Com as pálpebras abertas
+Dialogue: 0,0:00:45.99,0:00:50.58,Songs_OP2,OP LYRICS,0000,0000,0000,,Seus olhos brilharam como vidro
+Dialogue: 0,0:00:50.58,0:00:57.34,Songs_OP2,OP LYRICS,0000,0000,0000,,O cheiro lembrava levemente o de um dia ensolarado
+Dialogue: 0,0:01:03.26,0:01:08.47,Songs_OP2,OP LYRICS,0000,0000,0000,,Que faça sol! Que as flores desabrochem!
+Dialogue: 0,0:01:08.47,0:01:12.68,Songs_OP2,OP LYRICS,0000,0000,0000,,Floresça e diga que foi culpa do sol
+Dialogue: 0,0:01:12.68,0:01:17.06,Songs_OP2,OP LYRICS,0000,0000,0000,,Se estiver chovendo, quando ela parar
+Dialogue: 0,0:01:17.06,0:01:22.07,Songs_OP2,OP LYRICS,0000,0000,0000,,Ela te fará brilhar ao sol
+Dialogue: 0,0:01:22.07,0:01:27.45,Songs_OP2,OP LYRICS,0000,0000,0000,,Acalme os sons agitados no meu coração
+Dialogue: 0,0:01:27.45,0:01:31.49,Songs_OP2,OP LYRICS,0000,0000,0000,,Nós somos uma brisa da primavera
+Dialogue: 0,0:01:31.49,0:01:35.92,Songs_OP2,OP LYRICS,0000,0000,0000,,Voaremos até aquela nuvem
+Dialogue: 0,0:01:35.92,0:01:40.75,Songs_OP2,OP LYRICS,0000,0000,0000,,E iremos cada vez mais longe
+Dialogue: 0,0:01:45.86,0:01:50.87,Default,SERIE,0000,0000,0000,,Denken, o Mago da Corte.\NEu sei tudo sobre você.
+Dialogue: 0,0:01:51.78,0:01:53.91,Default,DENKEN,0000,0000,0000,,É uma honra saber disso.
+Dialogue: 0,0:01:54.67,0:02:02.05,Default,SERIE,0000,0000,0000,,Um mago militar veterano que se tornou\Na maior autoridade nas Terras do Norte.
+Dialogue: 0,0:02:02.63,0:02:04.62,Default,SERIE,0000,0000,0000,,Ouço bastante as suas histórias.
+Dialogue: 0,0:02:05.89,0:02:10.27,Default,SERIE,0000,0000,0000,,Sendo sincera, queria poder te conhecido\Nquando você ainda era jovem,
+Dialogue: 0,0:02:12.07,0:02:16.85,Default,SERIE,0000,0000,0000,,cheio de vigor e ambições.
+Dialogue: 0,0:02:19.88,0:02:22.70,Default,SERIE,0000,0000,0000,,Eu não tenho interesse em cinzas.
+Dialogue: 0,0:02:25.34,0:02:27.64,Default,SERIE,0000,0000,0000,,Ou era o que eu pensava.
+Dialogue: 0,0:02:31.08,0:02:33.00,Default,DENKEN,0000,0000,0000,,Você pensa diferente agora?
+Dialogue: 0,0:02:33.59,0:02:38.76,Default,SERIE,0000,0000,0000,,Quando você me viu, pensou em como faria\Npara me enfrentar em batalha, não foi?
+Dialogue: 0,0:02:41.10,0:02:45.14,Default,DENKEN,0000,0000,0000,,Só por um momento. Eu abandonei\Na ideia logo em seguida.
+Dialogue: 0,0:02:46.49,0:02:49.85,Default,SERIE,0000,0000,0000,,Está aprovado. Vejo que uma chama\Nainda queima em você.
+Dialogue: 0,0:02:50.77,0:02:53.77,Default,SERIE,0000,0000,0000,,Normalmente, sequer\Nconsiderariam lutar contra mim.
+Dialogue: 0,0:02:55.11,0:02:56.10,Default,SERIE,0000,0000,0000,,Próximo.
+Dialogue: 0,0:03:01.59,0:03:02.99,Default,SERIE,0000,0000,0000,,Está aprovada.
+Dialogue: 0,0:03:02.99,0:03:06.59,Default,ÜBEL,0000,0000,0000,,Hm? Mas ainda nem conversamos.
+Dialogue: 0,0:03:07.06,0:03:09.05,Default,SERIE,0000,0000,0000,,Há necessidade disso?
+Dialogue: 0,0:03:10.63,0:03:12.77,Default,ÜBEL,0000,0000,0000,,Creio que não.
+Dialogue: 0,0:03:12.77,0:03:13.69,Default,SERIE,0000,0000,0000,,Próximo.
+Dialogue: 0,0:03:17.74,0:03:20.05,Default,SERIE,0000,0000,0000,,Que piada é essa?
+Dialogue: 0,0:03:20.05,0:03:20.97,Default,LAND,0000,0000,0000,,Como assim?
+Dialogue: 0,0:03:21.45,0:03:23.86,Default,SERIE,0000,0000,0000,,Este é o exame de primeiro nível de magos.
+Dialogue: 0,0:03:23.86,0:03:27.36,Default,SERIE,0000,0000,0000,,Cadê o idiota que sequer botou\Nos pés nos locais de exame?
+Dialogue: 0,0:03:28.77,0:03:34.26,Default,LAND,0000,0000,0000,,Como pode ver, meu corpo\Nestá aqui, em carne e osso.
+Dialogue: 0,0:03:34.26,0:03:35.91,Default,LAND,0000,0000,0000,,Caso contrário,\Neu seria desclassificado.
+Dialogue: 0,0:03:35.91,0:03:41.04,Default,SERIE,0000,0000,0000,,Durante todo o período do exame, seu verdadeiro\Ncorpo sequer saiu de sua terra natal.
+Dialogue: 0,0:03:42.08,0:03:44.30,Default,SERIE,0000,0000,0000,,Está relaxando enquanto toma chá?
+Dialogue: 0,0:03:48.41,0:03:49.92,Default,LAND,0000,0000,0000,,Que surpresa.
+Dialogue: 0,0:03:50.27,0:03:52.25,Default,LAND,0000,0000,0000,,Nem a Übel percebeu.
+Dialogue: 0,0:03:53.20,0:03:56.22,Default,SERIE,0000,0000,0000,,Você tem coragem. Está aprovado.
+Dialogue: 0,0:03:56.57,0:03:57.72,Default,SERIE,0000,0000,0000,,Próximo.
+Dialogue: 0,0:03:59.58,0:04:03.08,Default,SERIE,0000,0000,0000,,Você é Wirbel, capitão\Nda Tropa Mágica do Norte.
+Dialogue: 0,0:04:03.08,0:04:07.71,Default,SERIE,0000,0000,0000,,Dos magos de nível dois que conheço,\Nvocê é o mais voltado para o combate.
+Dialogue: 0,0:04:08.73,0:04:12.78,Default,SERIE,0000,0000,0000,,Com um simples olhar, você percebeu\Nque não poderia me vencer em batalha.
+Dialogue: 0,0:04:13.29,0:04:15.99,Default,SERIE,0000,0000,0000,,Mas não foi um julgamento de medo.
+Dialogue: 0,0:04:16.50,0:04:21.35,Default,WIRBEL,0000,0000,0000,,Um idiota que escolhe lutas que não pode vencer\Nsequer chegaria ao segundo nível de mago.
+Dialogue: 0,0:04:21.99,0:04:23.45,Default,SERIE,0000,0000,0000,,Isso é verdade.
+Dialogue: 0,0:04:25.19,0:04:26.99,Default,SERIE,0000,0000,0000,,Qual é a sua magia favorita?
+Dialogue: 0,0:04:27.90,0:04:30.49,Default,WIRBEL,0000,0000,0000,,Magias são ferramentas para matar.
+Dialogue: 0,0:04:30.49,0:04:32.49,Default,WIRBEL,0000,0000,0000,,Eu não gosto nem desgosto\Nde nenhuma delas.
+Dialogue: 0,0:04:34.38,0:04:35.86,Default,SERIE,0000,0000,0000,,Está aprovado.
+Dialogue: 0,0:04:35.86,0:04:36.91,Default,SEIRE,0000,0000,0000,,Próximo.
+Dialogue: 0,0:04:41.38,0:04:44.56,Default,SERIE,0000,0000,0000,,Me diga, o que você pensou quando me viu?
+Dialogue: 0,0:04:45.89,0:04:50.51,Default,METHODE,0000,0000,0000,,Bom... eu te achei pequena e fofa...
+Dialogue: 0,0:04:52.84,0:04:56.03,Default,SERIE,0000,0000,0000,,Qual é o problema\Ndos examinandos deste ano...?
+Dialogue: 0,0:04:56.89,0:04:58.11,Default,SERIE,0000,0000,0000,,Está aprovada.
+Dialogue: 0,0:05:04.86,0:05:06.04,Default,SERIE,0000,0000,0000,,Sense.
+Dialogue: 0,0:05:06.89,0:05:11.54,Default,SERIE,0000,0000,0000,,Peço desculpas. Realmente, tivemos\Numa grande colheita este ano.
+Dialogue: 0,0:05:15.28,0:05:16.71,Default,SCHARF,0000,0000,0000,,Eu reprovei.
+Dialogue: 0,0:05:16.71,0:05:18.04,Default,WIRBEL,0000,0000,0000,,Tem sempre uma próxima.
+Dialogue: 0,0:05:18.38,0:05:20.55,Default,LAND,0000,0000,0000,,Pare de me seguir.
+Dialogue: 0,0:05:21.32,0:05:23.13,Default,KANNE,0000,0000,0000,,Três anos...
+Dialogue: 0,0:05:24.42,0:05:26.81,Default,FERN,0000,0000,0000,,Srta. Frieren, eu fui aprovada.
+Dialogue: 0,0:05:28.81,0:05:30.11,Default,FRIEREN,0000,0000,0000,,Muito bem.
+Dialogue: 0,0:05:31.63,0:05:32.81,Default,DENKEN,0000,0000,0000,,Frieren.
+Dialogue: 0,0:05:34.39,0:05:37.74,Default,DENKEN,0000,0000,0000,,Eu cheguei até aqui graças a vocês duas.
+Dialogue: 0,0:05:38.78,0:05:42.05,Default,DENKEN,0000,0000,0000,,Finalmente, poderei visitar um certo\Ntúmulo na minha cidade natal.
+Dialogue: 0,0:05:43.84,0:05:44.74,Default,FRIEREN,0000,0000,0000,,É mesmo?
+Dialogue: 0,0:05:52.60,0:05:54.45,Default,STARK,0000,0000,0000,,Ei, Fern.
+Dialogue: 0,0:05:54.45,0:05:56.00,Default,STARK,0000,0000,0000,,Já se decidiu?
+Dialogue: 0,0:06:07.13,0:06:08.54,Default,FERN,0000,0000,0000,,Eu vou querer—
+Dialogue: 0,0:06:07.37,0:06:08.54,DefaultTop,LAUFEN,0000,0000,0000,,Vovô, quero este aqui.
+Dialogue: 0,0:06:12.99,0:06:14.13,Default,DENKEN,0000,0000,0000,,Hm...
+Dialogue: 0,0:06:18.84,0:06:21.45,Default,DENKEN,0000,0000,0000,,Não faça cerimônia. Coma.
+Dialogue: 0,0:06:21.45,0:06:26.38,Default,DENKEN,0000,0000,0000,,Eu quase não tive a oportunidade\Nde comer doces quando era jovem.
+Dialogue: 0,0:06:27.06,0:06:28.73,Default,FERN,0000,0000,0000,,Obrigada.
+Dialogue: 0,0:06:34.20,0:06:36.08,DefaultItalics,STARK,0000,0000,0000,,O que está rolando aqui?
+Dialogue: 0,0:06:39.32,0:06:41.29,Default,DENKEN,0000,0000,0000,,Coma também, rapaz.
+Dialogue: 0,0:06:43.40,0:06:45.10,Default,STARK,0000,0000,0000,,Obrigado, tio.
+Dialogue: 0,0:06:53.22,0:06:54.23,Default,STARK,0000,0000,0000,,Quem é ele?
+Dialogue: 0,0:06:54.82,0:06:57.56,Default,FERN,0000,0000,0000,,É o Sr. Denken, o Mago da Corte.
+Dialogue: 0,0:06:58.87,0:07:00.83,Default,STARK,0000,0000,0000,,Um mago da corte?
+Dialogue: 0,0:07:05.44,0:07:07.52,Default,STARK,0000,0000,0000,,Então, ele é um nobre?!
+Dialogue: 0,0:07:07.52,0:07:11.62,Default,STARK,0000,0000,0000,,Peço desculpas por falar\Nsem modos com o senhor.
+Dialogue: 0,0:07:11.62,0:07:16.37,Default,DENKEN,0000,0000,0000,,Não se preocupe. Eu vim para esta\Ncidade como um mago qualquer.
+Dialogue: 0,0:07:16.37,0:07:20.95,Default,STARK,0000,0000,0000,,Mas não me sinto confortável ao ser\Nbancado por um desconhecido...
+Dialogue: 0,0:07:20.95,0:07:23.75,Default,DENKEN,0000,0000,0000,,Não tenho outro uso para o meu dinheiro.
+Dialogue: 0,0:07:23.75,0:07:26.45,Default,STARK,0000,0000,0000,,Deve haver algum.
+Dialogue: 0,0:07:26.45,0:07:28.50,Default,FERN,0000,0000,0000,,Ele tem razão. O senhor não tem netos?
+Dialogue: 0,0:07:30.65,0:07:33.76,Default,DENKEN,0000,0000,0000,,Não tenho filhos nem netos.
+Dialogue: 0,0:07:33.76,0:07:37.51,Default,DENKEN,0000,0000,0000,,Minha esposa faleceu quando eu\Nestava na casa dos 20 anos.
+Dialogue: 0,0:07:39.40,0:07:42.15,Default,DENKEN,0000,0000,0000,,Ela vivia doente.
+Dialogue: 0,0:07:43.12,0:07:46.72,Default,DENKEN,0000,0000,0000,,Era filha de um nobre de uma região\Nlimítrofe do Planalto Norte
+Dialogue: 0,0:07:46.72,0:07:48.36,Default,DENKEN,0000,0000,0000,,que faliu em uma disputa política.
+Dialogue: 0,0:07:49.16,0:07:54.20,Default,DENKEN,0000,0000,0000,,Naquela época, eu precisava tanto\Nde riqueza quanto de influência.
+Dialogue: 0,0:07:54.20,0:07:57.81,Default,DENKEN,0000,0000,0000,,E só essas eram\Nas únicas formas de salvá-la.
+Dialogue: 0,0:07:59.49,0:08:04.55,Default,DENKEN,0000,0000,0000,,Logo após minha esposa falecer, a Serie\Nformou a Associação Mágica do Continente
+Dialogue: 0,0:08:04.55,0:08:07.83,Default,DENKEN,0000,0000,0000,,e passou a oferecer o privilégio.
+Dialogue: 0,0:08:08.72,0:08:11.67,Default,DENKEN,0000,0000,0000,,Eu nunca me senti tão impotente.
+Dialogue: 0,0:08:13.95,0:08:20.94,Default,DENKEN,0000,0000,0000,,É irônico. Hoje em dia, posso\Ncomandar países, se eu quiser.
+Dialogue: 0,0:08:22.05,0:08:23.15,Default,DENKEN,0000,0000,0000,,Fern.
+Dialogue: 0,0:08:23.69,0:08:28.57,Default,DENKEN,0000,0000,0000,,Para mim, a magia não passa de uma\Nferramenta para decidir disputas políticas.
+Dialogue: 0,0:08:29.51,0:08:37.34,Default,DENKEN,0000,0000,0000,,Diga à Frieren que ela me fez lembrar\Ndo quanto a magia pode ser divertida.
+Dialogue: 0,0:08:38.18,0:08:44.21,Default,DENKEN,0000,0000,0000,,A razão pela qual me tornei um mago foi\Nporque admirei os feitos dela no grupo de heróis.
+Dialogue: 0,0:08:47.10,0:08:49.25,Default,FERN,0000,0000,0000,,Devia dizer a ela o senhor mesmo.
+Dialogue: 0,0:08:49.25,0:08:51.70,Default,FERN,0000,0000,0000,,Tenho certeza de que ela\Nficará feliz de ouvir isso.
+Dialogue: 0,0:08:53.50,0:08:56.64,Default,DENKEN,0000,0000,0000,,Você está certa. Farei isso.
+Dialogue: 0,0:09:06.32,0:09:09.60,Default,FRIEREN,0000,0000,0000,,A cidade mágica de Äußerst\Nfaz jus à reputação.
+Dialogue: 0,0:09:09.60,0:09:11.79,Default,FRIEREN,0000,0000,0000,,Comprei um muitos\Ngrimórios excelentes.
+Dialogue: 0,0:09:19.18,0:09:20.53,Default,WIRBEL,0000,0000,0000,,Ei, senhora.
+Dialogue: 0,0:09:21.91,0:09:24.09,Default,WIRBEL,0000,0000,0000,,É para botar nesta cesta, né?
+Dialogue: 0,0:09:27.76,0:09:30.08,Default,WIRBEL,0000,0000,0000,,Como eu poderia ignorá-la?
+Dialogue: 0,0:09:30.08,0:09:32.76,Default,FRIEREN,0000,0000,0000,,Sendo sincera, fiquei\Npensativa por um momento.
+Dialogue: 0,0:09:32.76,0:09:34.26,Default,WIRBEL,0000,0000,0000,,"Por um momento"?
+Dialogue: 0,0:09:35.08,0:09:39.42,Default,WIRBEL,0000,0000,0000,,Que coisa... Se eu fizesse parte\Ndo grupo de heróis do herói Himmel...
+Dialogue: 0,0:09:39.42,0:09:41.77,Default,FRIEREN,0000,0000,0000,,Se fizesse do grupo do Himmel, o quê?
+Dialogue: 0,0:09:44.20,0:09:46.76,Default,FRIEREN,0000,0000,0000,,Foi você quem me surpreendeu.
+Dialogue: 0,0:09:47.46,0:09:51.02,Default,FRIEREN,0000,0000,0000,,Tentou matar o grupo da Fern\Ndurante o primeiro teste, não foi?
+Dialogue: 0,0:09:51.02,0:09:53.08,Default,FRIEREN,0000,0000,0000,,Ela reclamou disso para mim.
+Dialogue: 0,0:09:53.08,0:09:55.85,Default,FRIEREN,0000,0000,0000,,Me disse que você parecia ser\Nalguém que chutaria um cachorro.
+Dialogue: 0,0:09:56.63,0:09:58.24,Default,WIRBEL,0000,0000,0000,,Eu escuto bastante isso aí.
+Dialogue: 0,0:09:59.06,0:10:00.99,Default,WIRBEL,0000,0000,0000,,Foi só uma ameaça.
+Dialogue: 0,0:10:02.11,0:10:06.92,Default,WIRBEL,0000,0000,0000,,Embora houvesse um deles cuja morte,\Nprovavelmente, faria do mundo um lugar melhor.
+Dialogue: 0,0:10:09.11,0:10:12.99,Default,WIRBEL,0000,0000,0000,,Farei de tudo para proteger\Na minha terra natal.
+Dialogue: 0,0:10:14.11,0:10:16.82,Default,WIRBEL,0000,0000,0000,,Eu queria me tornar um mago de nível um
+Dialogue: 0,0:10:16.82,0:10:20.05,Default,WIRBEL,0000,0000,0000,,pelo privilégio de aprender\Nqualquer feitiço que desejasse.
+Dialogue: 0,0:10:20.05,0:10:25.01,Default,WIRBEL,0000,0000,0000,,Posso exterminar mais demônios\Ncom um feitiço poderoso.
+Dialogue: 0,0:10:25.46,0:10:33.29,Default,WIRBEL,0000,0000,0000,,Mas, em outros lugares do mundo, posso fazer\Ntudo ao meu alcance para ajudar os necessitados.
+Dialogue: 0,0:10:33.77,0:10:34.77,Default,FRIEREN,0000,0000,0000,,Por quê?
+Dialogue: 0,0:10:37.95,0:10:40.74,Default,WIRBEL,0000,0000,0000,,A minha terra natal fica\Nna fronteira do norte.
+Dialogue: 0,0:10:41.78,0:10:45.27,Default,WIRBEL,0000,0000,0000,,Há inúmeras histórias\Nde Himmel, o Herói, por lá.
+Dialogue: 0,0:10:48.14,0:10:50.56,Default,WIRBEL,0000,0000,0000,,A conquista da Torre dos Mil Espelhos.
+Dialogue: 0,0:10:50.56,0:10:53.25,Default,WIRBEL,0000,0000,0000,,Suas batalhas contra Böse, o Imortal,\Ndos Sete Sábios da Destruição,
+Dialogue: 0,0:10:53.25,0:10:55.01,Default,WIRBEL,0000,0000,0000,,e o Dragão Imperador do Inferno.
+Dialogue: 0,0:10:55.75,0:10:59.65,Default,WIRBEL,0000,0000,0000,,Eu adorava essas histórias\Nde aventura, quando criança.
+Dialogue: 0,0:11:01.52,0:11:06.13,Default,WIRBEL,0000,0000,0000,,Mas os anciões do vilarejo\Nmal falavam sobre elas.
+Dialogue: 0,0:11:07.20,0:11:10.28,Default,WIRBEL,0000,0000,0000,,Só falavam sobre como ele\Nderrotou os monstros
+Dialogue: 0,0:11:10.28,0:11:12.87,Default,WIRBEL,0000,0000,0000,,que atacaram um vilarejo, como ele\Nprotegeu algum comerciante
+Dialogue: 0,0:11:12.87,0:11:16.33,Default,WIRBEL,0000,0000,0000,,ou até mesmo como ele\Najudou a carregar coisas.
+Dialogue: 0,0:11:17.60,0:11:21.70,Default,WIRBEL,0000,0000,0000,,Não era lá essas coisas.\NSó contavam história chata.
+Dialogue: 0,0:11:21.70,0:11:22.94,Default,WIRBEL,0000,0000,0000,,Era isso que eu pensava.
+Dialogue: 0,0:11:23.75,0:11:29.39,Default,WIRBEL,0000,0000,0000,,Mas dava pra ver como os anciões do vilarejo\Nficavam felizes ao contar essas histórias.
+Dialogue: 0,0:11:32.68,0:11:35.01,Default,WIRBEL,0000,0000,0000,,Depois que Himmel, o Herói, morreu,
+Dialogue: 0,0:11:35.01,0:11:38.51,Default,WIRBEL,0000,0000,0000,,e os demônios remanescentes começaram\Na agir, eu, finalmente, entendi.
+Dialogue: 0,0:11:49.21,0:11:54.72,Default,WIRBEL,0000,0000,0000,,A Torre dos Mil Espelhos, Böse,\No Dragão Imperador do Inferno
+Dialogue: 0,0:11:54.72,0:11:58.54,Default,WIRBEL,0000,0000,0000,,ou até mesmo o Rei Demônio—nada disso\Ntinha nada a ver com o meu vilarejo.
+Dialogue: 0,0:11:59.63,0:12:03.74,Default,WIREBL,0000,0000,0000,,Todos estavam ocupados\Nmantendo suas vidas cotidianas.
+Dialogue: 0,0:12:05.08,0:12:09.42,Default,WIRBEL,0000,0000,0000,,Se Himmel, o Herói, não tivesse\Nvisitado o meu vilarejo,
+Dialogue: 0,0:12:09.42,0:12:14.62,Default,WIRBEL,0000,0000,0000,,duvido que ele ainda estaria de pé,\Ntendo o Himmel salvado o mundo ou não.
+Dialogue: 0,0:12:14.87,0:12:17.26,Default,FRIEREN,0000,0000,0000,,Então, o que está tentando dizer?
+Dialogue: 0,0:12:17.58,0:12:23.55,Default,WIRBEL,0000,0000,0000,,Que foram as histórias menos emocionantes\Ndo Himmel que me trouxeram até aqui.
+Dialogue: 0,0:12:26.51,0:12:28.38,Default,WIRBEL,0000,0000,0000,,É isso que estou tentando dizer.
+Dialogue: 0,0:12:31.31,0:12:33.84,Default,WIRBEL,0000,0000,0000,,Acho que gastei muito tempo aqui.
+Dialogue: 0,0:12:34.60,0:12:38.31,Default,WIRBEL,0000,0000,0000,,É, voltarei para aqueles dois ali.
+Dialogue: 0,0:12:41.26,0:12:45.03,Default,WIRBEL,0000,0000,0000,,Frieren, você precisa valorizar\Nos encontros que tiver.
+Dialogue: 0,0:12:45.64,0:12:49.28,Default,WIRBEL,0000,0000,0000,,A morte não é a única forma\Nde se despedir desta vida.
+Dialogue: 0,0:12:51.16,0:12:53.78,Default,WIRBEL,0000,0000,0000,,Mas acho que você já sabe disso.
+Dialogue: 0,0:13:01.49,0:13:06.61,Flashback,HEITER,0000,0000,0000,,Frieren, você não consegue passar\Ncada um de nós usando magia?
+Dialogue: 0,0:13:07.16,0:13:10.38,Flashback,FRIEREN,0000,0000,0000,,Mas eu ficaria sozinha deste lado.
+Dialogue: 0,0:13:10.77,0:13:16.01,Flashback,EISEN,0000,0000,0000,,Himmel, precisamos derrotar\No Rei Demônio o mais rápido possível.
+Dialogue: 0,0:13:16.01,0:13:19.65,Flashback,EISEN,0000,0000,0000,,Qual é o sentido de ajudar\Nas pessoas de formas tão pequenas?
+Dialogue: 0,0:13:23.14,0:13:25.56,Flashback,HIMMEL,0000,0000,0000,,De fato, é uma coisa pequena.
+Dialogue: 0,0:13:26.52,0:13:30.12,Flashback,HIMMEL,0000,0000,0000,,Ações como esta não mudarão o mundo.
+Dialogue: 0,0:13:32.10,0:13:36.84,Flashback,HIMMEL,0000,0000,0000,,Mas não irei ignorar quem estiver\Ndiante de mim e precisar de ajuda.
+Dialogue: 0,0:13:48.00,0:13:50.17,Default,FRIEREN,0000,0000,0000,,Não se preocupe, Himmel.
+Dialogue: 0,0:13:51.37,0:13:53.92,Default,FRIEREN,0000,0000,0000,,O mundo mudou.
+Dialogue: 0,0:13:57.51,0:14:02.51,Default,FERN,0000,0000,0000,,Teremos nossos privilégios hoje à noite\Ne poderemos levar convidados.
+Dialogue: 0,0:14:02.98,0:14:06.13,Default,FERN,0000,0000,0000,,Vamos aproveitar para irmos juntos.
+Dialogue: 0,0:14:08.62,0:14:11.37,DefaultItalics,FERN,0000,0000,0000,,Ela parece bem\Ndesconfortável com a ideia.
+Dialogue: 0,0:14:12.72,0:14:16.33,Default,FERN,0000,0000,0000,,Me mandaram levar convidados.
+Dialogue: 0,0:14:17.02,0:14:22.83,Default,CLERK,0000,0000,0000,,Sinto muito, mas a Srta. Serie\Nproibiu a entrada da Srta. Frieren.
+Dialogue: 0,0:14:22.83,0:14:24.43,Default,CLERK,0000,0000,0000,,Ela está proibida de entrar
+Dialogue: 0,0:14:24.43,0:14:27.92,Default,CLERK,0000,0000,0000,,em qualquer instalação da Associação Mágica\Ndo Continente pelos próximos mil anos.
+Dialogue: 0,0:14:28.59,0:14:31.58,Default,FERN,0000,0000,0000,,Mas o que ela fez para merecer isso?
+Dialogue: 0,0:14:32.21,0:14:36.87,Default,FRIEREN,0000,0000,0000,,Não adianta insistir.\NEu irritei a Serie da pior forma.
+Dialogue: 0,0:14:38.39,0:14:41.23,Default,FRIEREN,0000,0000,0000,,Ela parece até criança.
+Dialogue: 0,0:14:41.71,0:14:45.14,Default,FRIEREN,0000,0000,0000,,Mas não é como se eu quisesse estar lá.
+Dialogue: 0,0:14:45.14,0:14:46.89,Default,FRIEREN,0000,0000,0000,,Esperarei do lado de fora.
+Dialogue: 0,0:14:50.53,0:14:52.37,Default,STARK,0000,0000,0000,,Também ficarei aqui fora.
+Dialogue: 0,0:14:54.35,0:14:55.78,Default,STARK,0000,0000,0000,,Ei!
+Dialogue: 0,0:15:05.63,0:15:07.39,Default,STARK,0000,0000,0000,,É o sino da noite.
+Dialogue: 0,0:15:07.81,0:15:10.71,Default,FRIEREN,0000,0000,0000,,Eles devem terminar de receber\No privilégio em breve.
+Dialogue: 0,0:15:10.71,0:15:11.63,Default,STARK,0000,0000,0000,,Sim.
+Dialogue: 0,0:15:12.09,0:15:14.36,Default,FRIEREN,0000,0000,0000,,Uma maga nível um...
+Dialogue: 0,0:15:14.36,0:15:18.25,Default,FRIEREN,0000,0000,0000,,O nível mais alto de um mago.\NExistem menos de 50 no mundo.
+Dialogue: 0,0:15:18.91,0:15:21.01,Default,FRIEREN,0000,0000,0000,,A Fern cresceu bastante.
+Dialogue: 0,0:15:25.33,0:15:31.23,Default,FRIEREN,0000,0000,0000,,Tenho certeza de que a Fern se tornará\Numa maga mais famosa do que eu, nesta era.
+Dialogue: 0,0:15:33.55,0:15:34.69,Default,STARK,0000,0000,0000,,Frieren.
+Dialogue: 0,0:15:35.55,0:15:36.81,Default,FRIEREN,0000,0000,0000,,Fico feliz com isso.
+Dialogue: 0,0:15:39.11,0:15:40.25,Default,STARK,0000,0000,0000,,Eu também.
+Dialogue: 0,0:15:40.86,0:15:42.43,Default,LERNEN,0000,0000,0000,,Srta. Frieren.
+Dialogue: 0,0:15:45.21,0:15:46.43,Default,STARK,0000,0000,0000,,Quem é ele?
+Dialogue: 0,0:15:46.43,0:15:48.87,Default,FRIEREN,0000,0000,0000,,Um membro da Associação\NMágica do Continente.
+Dialogue: 0,0:15:48.87,0:15:54.71,Default,LERNEN,0000,0000,0000,,Sou Lernen, mago de nível um\Ne um dos alunos da Srta. Serie.
+Dialogue: 0,0:15:55.51,0:15:58.86,Default,LERNEN,0000,0000,0000,,Peço desculpas pelo transtorno\Ncausado pela Srta. Serie.
+Dialogue: 0,0:15:59.38,0:16:03.15,Default,FRIEREN,0000,0000,0000,,Tudo bem. Ela sempre foi assim.
+Dialogue: 0,0:16:06.00,0:16:07.90,Default,STARK,0000,0000,0000,,O que foi, Frieren?
+Dialogue: 0,0:16:10.14,0:16:14.10,Default,FRIEREN,0000,0000,0000,,Você consegue ver a instabilidade\Nna minha mana, não é?
+Dialogue: 0,0:16:15.97,0:16:20.74,Default,FRIEREN,0000,0000,0000,,Você é bastante habilidoso.\NEsta era de paz não combina com você.
+Dialogue: 0,0:16:20.74,0:16:27.12,Default,LERNEN,0000,0000,0000,,De fato. Sou um mago arcaico\Nque só é capaz de lutar.
+Dialogue: 0,0:16:27.39,0:16:30.01,Default,LERNEN,0000,0000,0000,,A Srta. Serie sempre me diz isso.
+Dialogue: 0,0:16:30.01,0:16:33.46,Default,LERNEN,0000,0000,0000,,Se eu tivesse nascido durante a época em que\Nlutamos contra o exército do Rei Demônio,
+Dialogue: 0,0:16:33.46,0:16:38.67,Default,LERNEN,0000,0000,0000,,eu teria entrado para a história,\Nao lado dos outros heróis famosos.
+Dialogue: 0,0:16:39.48,0:16:43.14,Default,FRIEREN,0000,0000,0000,,Entendo. E o que quer de mim?
+Dialogue: 0,0:16:43.47,0:16:47.89,Default,LERNEN,0000,0000,0000,,A única aprendiz da Srta. Serie\Ncujo nome é lembrado
+Dialogue: 0,0:16:47.89,0:16:52.17,Default,LERNEN,0000,0000,0000,,é a Grande Maga Flamme, sobre quem\Nouvimos nos contos de fadas.
+Dialogue: 0,0:16:52.53,0:16:59.14,Default,LERNEN,0000,0000,0000,,Quando eu morrer pela idade, outra prova\Nda existência dela irá desaparecer.
+Dialogue: 0,0:16:59.80,0:17:05.10,Default,LERNEN,0000,0000,0000,,Não quero que ela fique\Nsozinha no futuro,
+Dialogue: 0,0:17:05.63,0:17:12.91,Default,LERNEN,0000,0000,0000,,mesmo que isso signifique cair na desonra\Ncomo o assassino da maga lendária Frieren.
+Dialogue: 0,0:17:30.33,0:17:33.43,Default,LERNEN,0000,0000,0000,,Quero um duelo, Srta. Frieren.
+Dialogue: 0,0:17:34.28,0:17:37.74,Default,FRIEREN,0000,0000,0000,,Não vou lutar contra você.\NSeria perda de tempo.
+Dialogue: 0,0:17:38.51,0:17:39.73,Default,FRIEREN,0000,0000,0000,,Tenha paciência...
+Dialogue: 0,0:17:40.41,0:17:45.29,Default,FRIEREN,0000,0000,0000,,Magos que só sabem lutar são tão brutos.
+Dialogue: 0,0:17:46.30,0:17:49.12,Default,FRIEREN,0000,0000,0000,,Não precisa deixar\Nsua marca na história.
+Dialogue: 0,0:17:51.46,0:17:53.76,Default,FRIEREN,0000,0000,0000,,A Serie se lembrará de você.
+Dialogue: 0,0:17:57.87,0:17:59.44,Flashback,FRIEREN,0000,0000,0000,,Mais uma coisa.
+Dialogue: 0,0:18:00.86,0:18:04.38,Flashback,FRIEREN,0000,0000,0000,,Este campo de flores foi feito com magia.
+Dialogue: 0,0:18:05.47,0:18:07.13,Flashback,SERIE,0000,0000,0000,,E daí?
+Dialogue: 0,0:18:07.84,0:18:10.19,Flashback,FRIEREN,0000,0000,0000,,Era a magia favorita de minha mestra.
+Dialogue: 0,0:18:10.98,0:18:13.90,Flashback,FRIEREN,0000,0000,0000,,Vai mesmo chamar de inútil?
+Dialogue: 0,0:18:17.56,0:18:20.78,Flashback,SERIE,0000,0000,0000,,Sendo sincera, a Flamme foi um fracasso.
+Dialogue: 0,0:18:21.90,0:18:26.99,Flashback,SERIE,0000,0000,0000,,Apesar de todo o seu talento, ela falhou\Nem atingir o patamar que eu esperava.
+Dialogue: 0,0:18:28.93,0:18:31.72,Flashback,SERIE,0000,0000,0000,,Eu ensinei muitos alunos depois dela.
+Dialogue: 0,0:18:32.55,0:18:36.77,Flashback,SERIE,0000,0000,0000,,A maioria morreu sem sequer\Nalcançar o meu nível.
+Dialogue: 0,0:18:37.72,0:18:39.79,Flashback,SERIE,0000,0000,0000,,Mas é estranho.
+Dialogue: 0,0:18:40.45,0:18:43.41,Flashback,SERIE,0000,0000,0000,,Eram alunos que escolhi por capricho,
+Dialogue: 0,0:18:43.41,0:18:48.29,Flashback,SERIE,0000,0000,0000,,mas consigo lembrar, claramente,\Nda personalidade e magia favorita de cada um.
+Dialogue: 0,0:18:50.50,0:18:56.65,Flashback,SERIE,0000,0000,0000,,Frieren, por algum motivo, eu nunca\Nme arrependi de aceitar qualquer aluno.
+Dialogue: 0,0:18:57.92,0:19:00.59,Flashback,SERIE,0000,0000,0000,,Mesmo eles nunca tendo\Ndeixado sua marca na história.
+Dialogue: 0,0:19:02.63,0:19:06.54,Default,FRIEREN,0000,0000,0000,,Ela sequer consegue dizer aos seus\Nalunos como se sente de verdade.
+Dialogue: 0,0:19:07.35,0:19:09.65,Default,FRIEREN,0000,0000,0000,,Ela é mesmo uma criança.
+Dialogue: 0,0:19:15.00,0:19:16.08,Default,FERN,0000,0000,0000,,Srta. Frieren.
+Dialogue: 0,0:19:17.50,0:19:19.76,Default,FERN,0000,0000,0000,,Recebi o meu privilégio.
+Dialogue: 0,0:19:19.76,0:19:21.09,Default,FRIEREN,0000,0000,0000,,Podemos ir?
+Dialogue: 0,0:19:21.59,0:19:25.09,Default,FERN,0000,0000,0000,,Srta. Frieren, como machucou o seu ombro?
+Dialogue: 0,0:19:25.47,0:19:28.20,Default,FRIEREN,0000,0000,0000,,É melhor eu curar isto na igreja.
+Dialogue: 0,0:19:28.20,0:19:29.60,Default,FRIEREN,0000,0000,0000,,Será que ainda estão abertos?
+Dialogue: 0,0:19:31.27,0:19:33.61,Default,LERNEN,0000,0000,0000,,É, somos mesmo uns brutos.
+Dialogue: 0,0:19:36.47,0:19:39.20,Default,LERNEN,0000,0000,0000,,Tanto você, quanto eu.
+Dialogue: 0,0:19:42.74,0:19:45.52,Default,BOY,0000,0000,0000,,Stark, hoje, iremos brincar do quê?
+Dialogue: 0,0:19:45.52,0:19:48.88,Default,STARK,0000,0000,0000,,Desculpa, mas não posso brincar hoje.
+Dialogue: 0,0:19:48.88,0:19:51.62,Default,TOWNSFOLK A,0000,0000,0000,,Stark, você comeu seu café da manhã hoje?
+Dialogue: 0,0:19:51.62,0:19:53.01,Default,STARK,0000,0000,0000,,Sim, já comi!
+Dialogue: 0,0:19:53.33,0:19:55.80,Default,TOWNSFOLK B,0000,0000,0000,,Stark, beba um pouco.
+Dialogue: 0,0:19:55.80,0:19:57.38,Default,STARK,0000,0000,0000,,Opa, obrigado!
+Dialogue: 0,0:19:58.01,0:20:01.51,Default,OLD MAN,0000,0000,0000,,O caminho do guerreiro\Né longo e traiçoeiro.
+Dialogue: 0,0:20:01.51,0:20:03.14,Default,OLD MAN,0000,0000,0000,,Se cuide.
+Dialogue: 0,0:20:03.99,0:20:04.88,Default,STARK,0000,0000,0000,,Pode deixar.
+Dialogue: 0,0:20:08.48,0:20:11.39,Default,FRIEREN,0000,0000,0000,,É hora de nos despedirmos de Äußerst.
+Dialogue: 0,0:20:12.10,0:20:15.55,Default,FERN,0000,0000,0000,,Não importa onde você vá,\Nas pessoas te adoram, Sr. Stark.
+Dialogue: 0,0:20:15.55,0:20:16.79,Default,STARK,0000,0000,0000,,É mesmo?
+Dialogue: 0,0:20:17.42,0:20:21.40,Default,FRIEREN,0000,0000,0000,,Aliás, Fern, qual feitiço\Nvocê pediu ontem?
+Dialogue: 0,0:20:28.09,0:20:29.39,Default,FERN,0000,0000,0000,,Não percebeu?
+Dialogue: 0,0:20:30.97,0:20:33.32,Default,FRIEREN,0000,0000,0000,,Suas roupas estão limpas.
+Dialogue: 0,0:20:35.18,0:20:38.07,Default,FREIREN,0000,0000,0000,,E tem um aroma bem floral.
+Dialogue: 0,0:20:38.86,0:20:40.42,Default,FRIEREN,0000,0000,0000,,Será que...
+Dialogue: 0,0:20:41.07,0:20:44.41,Default,FERN,0000,0000,0000,,É uma magia que deixa\Nas roupas limpinhas.
+Dialogue: 0,0:20:44.89,0:20:47.41,Default,FERN,0000,0000,0000,,Será muito mais fácil\Nlavar roupa agora.
+Dialogue: 0,0:20:47.41,0:20:50.43,Default,FRIEREN,0000,0000,0000,,É, a Serie, realmente, é um grimório vivo.
+Dialogue: 0,0:20:50.93,0:20:55.18,Default,FRIEREN,0000,0000,0000,,Esse é um feitiço de nível\Nlendário da era da mitologia.
+Dialogue: 0,0:20:56.58,0:20:58.04,Default,FRIEREN,0000,0000,0000,,Muito bem, Fern.
+Dialogue: 0,0:20:59.87,0:21:02.07,Default,FRIEREN,0000,0000,0000,,Essa é a minha aprendiz.
+Dialogue: 0,0:21:05.63,0:21:07.91,Default,FERN,0000,0000,0000,,É claro, Srta. Frieren.
+Dialogue: 0,0:21:08.66,0:21:12.91,Default,FERN,0000,0000,0000,,Mas a Srta. Serie não parecia\Nmuito feliz com isso.
+Dialogue: 0,0:21:12.91,0:21:14.83,Flashback,SERIE,0000,0000,0000,,Você surtou?
+Dialogue: 0,0:21:15.40,0:21:17.93,Default,FRIEREN,0000,0000,0000,,Imagino. Bem feito pra ela.
+Dialogue: 0,0:21:21.93,0:21:23.33,Default,KANNE,0000,0000,0000,,Elas chegaram.
+Dialogue: 0,0:21:24.39,0:21:27.93,Default,KANNE,0000,0000,0000,,Frieren, obrigada por tudo.
+Dialogue: 0,0:21:28.46,0:21:33.60,Default,LAWINE,0000,0000,0000,,Não passamos desta vez,\Nmas tentaremos de novo daqui três anos.
+Dialogue: 0,0:21:33.60,0:21:35.77,Default,FRIEREN,0000,0000,0000,,Entendi. Que bom ouvir isso.
+Dialogue: 0,0:21:36.27,0:21:37.74,Default,LAWINE,0000,0000,0000,,Foi divertido.
+Dialogue: 0,0:21:37.74,0:21:38.86,Default,KANNE,0000,0000,0000,,Se cuida.
+Dialogue: 0,0:21:39.13,0:21:40.50,Default,FRIEREN,0000,0000,0000,,Até a próxima.
+Dialogue: 0,0:21:40.50,0:21:42.04,Default,KANNE,0000,0000,0000,,Sim. Até a próxima!
+Dialogue: 0,0:21:53.95,0:21:58.50,Default,FERN,0000,0000,0000,,Foi uma despedida bem rápida,\Nigual à do Sr. Sein.
+Dialogue: 0,0:21:58.50,0:22:00.38,Default,STARK,0000,0000,0000,,E do Kraft.
+Dialogue: 0,0:22:10.67,0:22:15.22,Flashback,FRIEREN,0000,0000,0000,,Himmel, você sempre\Nfaz despedidas curtas.
+Dialogue: 0,0:22:15.70,0:22:16.89,Flashback,HIMMEL,0000,0000,0000,,Você acha estranho?
+Dialogue: 0,0:22:17.25,0:22:20.14,Flashback,EISEN,0000,0000,0000,,Não é muito a sua cara.
+Dialogue: 0,0:22:20.14,0:22:24.14,Flashback,EISEN,0000,0000,0000,,Foi apenas um trabalho paralelo,\Nmas passamos duas semanas viajando juntos.
+Dialogue: 0,0:22:24.54,0:22:29.34,Flashback,HEITER,0000,0000,0000,,E bebemos com ele quase todas as noites.
+Dialogue: 0,0:22:28.73,0:22:29.91,FlashbackTop,FRIEREN,0000,0000,0000,,Seu sacerdote degenerado.
+Dialogue: 0,0:22:30.80,0:22:31.99,Flashback,HIMMEL,0000,0000,0000,,É verdade.
+Dialogue: 0,0:22:31.74,0:22:34.29,Songs_ED,ED LYRICS,0000,0000,0000,,{\a6}E você está bem?
+Dialogue: 0,0:22:32.65,0:22:36.85,Flashback,HIMMEL,0000,0000,0000,,Mas tenho certeza de que nos encontraremos\Nnovamente se continuarmos viajando.
+Dialogue: 0,0:22:34.79,0:22:36.79,Songs_ED,ED LYRICS,0000,0000,0000,,{\a6}Pode me ouvir?
+Dialogue: 0,0:22:37.58,0:22:43.67,Songs_ED,ED LYRICS,0000,0000,0000,,{\a6}Seguindo por trilhos desertos
+Dialogue: 0,0:22:38.53,0:22:41.93,Flashback,HIMMEL,0000,0000,0000,,Despedidas cheias de lágrimas\Nnão são nosso estilo.
+Dialogue: 0,0:22:43.67,0:22:45.91,Songs_ED,ED LYRICS,0000,0000,0000,,{\a6}Chorando excessivamente
+Dialogue: 0,0:22:46.59,0:22:49.18,Songs_ED,ED LYRICS,0000,0000,0000,,{\a6}Querendo que você sorria
+Dialogue: 0,0:22:46.90,0:22:50.93,Flashback,HIMMEL,0000,0000,0000,,Afinal, seria constrangedor quando\Nnos encontrarmos novamente.
+Dialogue: 0,0:22:49.18,0:22:55.22,Songs_ED,ED LYRICS,0000,0000,0000,,{\a6}Me prendo às memórias\Nque quero manter frescas
+Dialogue: 0,0:22:55.22,0:22:58.94,Songs_ED,ED LYRICS,0000,0000,0000,,Tem uma coisa que gostaria de te dizer
+Dialogue: 0,0:22:58.94,0:23:01.69,Songs_ED,ED LYRICS,0000,0000,0000,,Com palavras mais preciosas que "adeus"
+Dialogue: 0,0:23:01.69,0:23:07.36,Songs_ED,ED LYRICS,0000,0000,0000,,Nada notável, mas especial
+Dialogue: 0,0:23:07.36,0:23:10.91,Songs_ED,ED LYRICS,0000,0000,0000,,Sabe, coisas que não poderiam ser vistas
+Dialogue: 0,0:23:10.91,0:23:13.95,Songs_ED,ED LYRICS,0000,0000,0000,,Se não fossem por estes olhos
+Dialogue: 0,0:23:13.95,0:23:18.71,Songs_ED,ED LYRICS,0000,0000,0000,,Por quê? E começam a transbordar
+Dialogue: 0,0:23:18.71,0:23:24.71,Songs_ED,ED LYRICS,0000,0000,0000,,Por isso, se eu nascesse novamente
+Dialogue: 0,0:23:24.71,0:23:30.63,Songs_ED,ED LYRICS,0000,0000,0000,,Eu, com certeza,\Nescolheria este lugar mais uma vez
+Dialogue: 0,0:23:30.63,0:23:36.64,Songs_ED,ED LYRICS,0000,0000,0000,,Então, se nos encontrássemos novamente
+Dialogue: 0,0:23:36.64,0:23:42.40,Songs_ED,ED LYRICS,0000,0000,0000,,Nunca te deixaria ir,\Neu escolheria o presente
+Dialogue: 0,0:23:42.40,0:23:45.36,Songs_ED,ED LYRICS,0000,0000,0000,,Mesmo se nenhuma promessa for feita
+Dialogue: 0,0:23:45.36,0:23:48.28,Songs_ED,ED LYRICS,0000,0000,0000,,Mesmo se eu me perder em dias de solidão
+Dialogue: 0,0:23:48.28,0:23:54.45,Songs_ED,ED LYRICS,0000,0000,0000,,Não há problema com estas lágrimas, \Npois o amanhecer certamente virá
+Dialogue: 0,0:23:54.45,0:23:57.12,Songs_ED,ED LYRICS,0000,0000,0000,,Estou sussurrando nossa canção de ninar
+Dialogue: 0,0:23:57.12,0:24:01.04,Songs_ED,ED LYRICS,0000,0000,0000,,Para você voltar para casa
+Dialogue: 0,0:24:05.85,0:24:08.60,Default,FRIEREN,0000,0000,0000,,É que seria constrangedor\Nquando nos encontrarmos novamente.
+Dialogue: 0,0:24:10.66,0:24:12.95,Default,FERN,0000,0000,0000,,O que quer dizer com isso?
+Dialogue: 0,0:24:17.06,0:24:20.06,Signs_EpTitle,EPTITLE,0000,0000,0000,,{\blur0.2\c&HFAFFF7&\pos(197,274)}Episódio 28: Seria constrangedor quando nos encontrarmos novamente
+Dialogue: 0,0:24:20.06,0:24:23.12,Signs_EpTitle,,0000,0000,0000,,{\pos(237,148)}A jornada para Ende continua

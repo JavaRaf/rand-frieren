@@ -1,0 +1,337 @@
+﻿[Script Info]
+Title: [Erai-raws] Español (América Latina)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Gen_Main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Gen_Main_Up,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00090909,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Gen_Italics_top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Cart_A_Tre,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tre,Trebuchet MS,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Tim,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_C_Tim,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_A_Verd,Verdana,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,110,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EpiTitle,Times New Roman,20,&H00FFFFFF,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,6,0020,0020,0020,1
+Style: Cart_Serieslogo,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,10,0,1,0,0,8,0005,0005,0000,1
+Style: Cart_C_Verd,Verdana,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_EndCards,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0020,1
+Style: Cart_NextTitle,Times New Roman,20,&H00000000,&H000000FF,&H32494949,&H00494949,0,0,0,0,100,100,0,0,1,0,0,5,0020,0020,0020,1
+Style: Cart_Opening,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00494949,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Cart_Ending,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.54,0:00:02.84,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Es como en los cuentos de hadas.
+Dialogue: 0,0:00:03.01,0:00:05.12,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Es la prueba de que ha llegado a su fin,
+Dialogue: 0,0:00:05.29,0:00:07.94,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}como un pasaje que se tomó
+Dialogue: 0,0:00:08.11,0:00:09.87,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}de un viaje que muchos años duró.
+Dialogue: 0,0:00:10.04,0:00:12.14,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Érase una vez un ente maligno
+Dialogue: 0,0:00:12.31,0:00:14.43,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}que proyectaba su sombra\Nsobre la tierra.
+Dialogue: 0,0:00:14.60,0:00:16.81,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Estos son recuerdos de ese corto viaje
+Dialogue: 0,0:00:17.01,0:00:19.47,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}al lado del héroe que derrotó al mal.
+Dialogue: 0,0:00:20.27,0:00:29.28,Cart_Serieslogo,CARTEL,0000,0000,0000,,{\fsp1\fad(0,550)\fsp4\pos(320,245)\c&HFFFFFF&\t(1000,4450,\c&HEEC36B&)\t(6300,7500,\c&HEAD347&)}Más allá\Ndel final del viaje
+Dialogue: 0,0:00:29.46,0:00:33.91,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}La historia termina,\Ny el héroe se sume en el sueño.
+Dialogue: 0,0:00:34.11,0:00:38.56,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Deja en esta tierra\Ndías de paz y tranquilidad.
+Dialogue: 0,0:00:38.76,0:00:40.92,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}El paso del tiempo no perdona.
+Dialogue: 0,0:00:41.12,0:00:43.31,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Hace a la gente olvidar.
+Dialogue: 0,0:00:43.51,0:00:47.73,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Incluso los rastros de su vida\Nen el reino ya se oxidan.
+Dialogue: 0,0:00:47.93,0:00:51.82,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Sea como sea,\Ntus palabras, deseos y valentía
+Dialogue: 0,0:00:52.11,0:00:57.36,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}están dentro de mí en verdad\Ny continúan con vida.
+Dialogue: 0,0:00:58.18,0:00:59.73,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Escogimos el mismo camino.
+Dialogue: 0,0:00:59.93,0:01:01.80,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Se suponía que eso iba a ser todo.
+Dialogue: 0,0:01:01.97,0:01:03.41,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Entonces, ¿de repente por qué
+Dialogue: 0,0:01:03.58,0:01:07.83,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}quise comprender la razón\Nde las lágrimas que surcan mis mejillas?
+Dialogue: 0,0:01:08.08,0:01:12.56,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}Sé que no es tarde. Si recorro\Nla senda que caminamos juntos,
+Dialogue: 0,0:01:12.76,0:01:15.88,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}aunque tú no estés ahí en verdad,
+Dialogue: 0,0:01:16.12,0:01:17.89,Cart_Opening,OP LYRICS,0000,0000,0000,,{\blur2}sé que te podré hallar.
+Dialogue: 0,0:01:31.85,0:01:33.48,Gen_Main,Lügner,0000,0000,0000,,Ahora lo entiendo.
+Dialogue: 0,0:01:35.16,0:01:36.71,Gen_Main,Lügner,0000,0000,0000,,Ya lo recordé.
+Dialogue: 0,0:01:37.90,0:01:39.50,Gen_Main,Lügner,0000,0000,0000,,Era Frieren.
+Dialogue: 0,0:01:41.16,0:01:45.78,Gen_Main,Lügner,0000,0000,0000,,Contribuyó en gran medida en el estudio\Nde Zoltraak de la humanidad
+Dialogue: 0,0:01:46.23,0:01:51.14,Gen_Main,Lügner,0000,0000,0000,,y es la hechicera que más demonios\Nha asesinado a lo largo de la historia.
+Dialogue: 0,0:01:53.96,0:01:56.01,Gen_Main,Lügner,0000,0000,0000,,Es Frieren, la Asesina,
+Dialogue: 0,0:01:58.45,0:02:01.01,Gen_Main,Lügner,0000,0000,0000,,uno de los genios que aborrezco.
+Dialogue: 0,0:02:01.01,0:02:04.01,Cart_A_Tim,CARTEL,0000,0000,0000,,{\an3\pos(562,285)\b0\fad(0,0)}Episodio 9\NAura, la Guillotina
+Dialogue: 0,0:02:12.63,0:02:14.96,Gen_Main,Sacerdote,0000,0000,0000,,Tiene que permanecer en reposo\Npor un tiempo.
+Dialogue: 0,0:02:15.16,0:02:16.72,Gen_Main,Granat,0000,0000,0000,,Gracias por todo.
+Dialogue: 0,0:02:24.18,0:02:25.70,Gen_Main,Stark,0000,0000,0000,,¡Oye!
+Dialogue: 0,0:02:26.54,0:02:28.04,Gen_Main,Stark,0000,0000,0000,,¿Te encuentras bien?
+Dialogue: 0,0:02:29.58,0:02:32.17,Gen_Main,Granat,0000,0000,0000,,Me salvé gracias a ustedes.
+Dialogue: 0,0:02:32.43,0:02:33.73,Gen_Main,Granat,0000,0000,0000,,Tienen mi gratitud.
+Dialogue: 0,0:02:38.86,0:02:41.80,Gen_Main,Granat,0000,0000,0000,,También perdono\Na su compañera, la hechicera.
+Dialogue: 0,0:02:42.17,0:02:44.73,Gen_Main,Granat,0000,0000,0000,,Ella tomó la decisión acertada.
+Dialogue: 0,0:02:46.13,0:02:48.88,Gen_Main,Stark,0000,0000,0000,,Entonces, Frieren podrá\Nregresar a la ciudad.
+Dialogue: 0,0:02:49.21,0:02:51.27,Gen_Main,Stark,0000,0000,0000,,Hay que pedirle que derrote a Lügner.
+Dialogue: 0,0:02:52.05,0:02:56.02,Gen_Main,Fern,0000,0000,0000,,Oiga, la señorita Frieren\Nno fue quien asesinó al carcelero.
+Dialogue: 0,0:02:56.61,0:03:00.03,Gen_Main,Granat,0000,0000,0000,,Lo sé. Los demonios son los culpables.
+Dialogue: 0,0:03:00.60,0:03:04.29,Gen_Main,Granat,0000,0000,0000,,Entonces,\N¿esa hechicera se llama Frieren?
+Dialogue: 0,0:03:04.49,0:03:05.53,Gen_Main,Fern,0000,0000,0000,,Así es.
+Dialogue: 0,0:03:06.11,0:03:09.86,Gen_Main,Granat,0000,0000,0000,,¿No dirán que es la elfa hechicera\Nque estaba en el grupo de héroes?
+Dialogue: 0,0:03:10.61,0:03:13.67,Gen_Main,Granat,0000,0000,0000,,Si ese es el caso,\Nme temo que fui muy insolente con ella.
+Dialogue: 0,0:03:14.54,0:03:17.80,Gen_Main,Granat,0000,0000,0000,,La casa Granat le debe un gran favor\Nal grupo de héroes.
+Dialogue: 0,0:03:18.07,0:03:23.23,Gen_Main,Granat,0000,0000,0000,,Cuando el ejército de demonios\Natacó la ciudad en época de mi abuelo,
+Dialogue: 0,0:03:23.43,0:03:25.61,Gen_Main,Granat,0000,0000,0000,,nos hicieron el favor de derrotarlos.
+Dialogue: 0,0:03:26.36,0:03:31.35,Gen_Main,Granat,0000,0000,0000,,El enemigo era Aura, la Guillotina,\Nde los Siete Sabios de la Destrucción.
+Dialogue: 0,0:03:33.65,0:03:36.19,Gen_Main,Frieren,0000,0000,0000,,Hace mucho que no nos veíamos, Aura.
+Dialogue: 0,0:03:36.54,0:03:41.20,Gen_Main,Aura,0000,0000,0000,,Tienes razón.\NHan pasado ochenta años, Frieren.
+Dialogue: 0,0:03:44.61,0:03:47.00,Gen_Main,Frieren,0000,0000,0000,,Tienes pensado\Natacar la próxima ciudad, ¿no?
+Dialogue: 0,0:03:48.02,0:03:50.76,Gen_Main,Frieren,0000,0000,0000,,Te agradecería mucho\Nque volvieras sobre tus pasos.
+Dialogue: 0,0:03:51.27,0:03:52.37,Gen_Main,Aura,0000,0000,0000,,No me apetece.
+Dialogue: 0,0:03:53.11,0:03:54.12,Gen_Main,Frieren,0000,0000,0000,,¿Por qué no?
+Dialogue: 0,0:04:14.65,0:04:18.15,Gen_Main,Aura,0000,0000,0000,,Porque yo poseo una ventaja mucho mayor.
+Dialogue: 0,0:04:18.97,0:04:20.25,Gen_Main,Frieren,0000,0000,0000,,Ah, ¿sí?
+Dialogue: 0,0:04:23.75,0:04:25.84,Gen_Main,Frieren,0000,0000,0000,,Es mucho más numeroso que antes.
+Dialogue: 0,0:04:26.41,0:04:31.22,Gen_Main,Frieren,0000,0000,0000,,La magia demoníaca es escalofriante.\NPuedes controlar a este gran número.
+Dialogue: 0,0:04:31.95,0:04:36.00,Gen_Main,Frieren,0000,0000,0000,,Tu nivel es tan alto que ni la ciencia\Nmágica humana puede imaginar.
+Dialogue: 0,0:04:37.73,0:04:41.80,Gen_Main,Frieren,0000,0000,0000,,Pero es una magia de muy mal gusto.\NMe das mucho asco.
+Dialogue: 0,0:04:42.54,0:04:47.26,Gen_Main,Aura,0000,0000,0000,,Qué grosera eres. Justo cuando\Nme esforcé tanto por reunirlos…
+Dialogue: 0,0:04:56.47,0:04:59.02,Gen_Main,Frieren,0000,0000,0000,,Veo muchas armaduras\Nque me parecen familiares.
+Dialogue: 0,0:05:00.31,0:05:04.32,Gen_Main,Frieren,0000,0000,0000,,Aura, cambié de opinión.\NTendré que matarte aquí y ahora.
+Dialogue: 0,0:05:08.63,0:05:10.70,Gen_Main,Granat,0000,0000,0000,,La Balanza de Obediencia
+Dialogue: 0,0:05:11.99,0:05:15.57,Gen_Main,Granat,0000,0000,0000,,es la razón por la que no hemos\Npodido vencer a Aura por muchos años.
+Dialogue: 0,0:05:16.83,0:05:22.54,Gen_Main,Granat,0000,0000,0000,,Ella usa esa magia que hace\Nque la obedezcan y hagan su voluntad.
+Dialogue: 0,0:05:23.64,0:05:28.26,Gen_Main,Granat,0000,0000,0000,,La magia de los Siete Sabios va más allá\Nde la razón y conocimiento humanos.
+Dialogue: 0,0:05:29.18,0:05:32.85,Gen_Main,Granat,0000,0000,0000,,Ella pone en la balanza\Nel espíritu del enemigo y el suyo propio
+Dialogue: 0,0:05:33.17,0:05:35.66,Gen_Main,Granat,0000,0000,0000,,para pesar la grandeza\Nde ambos poderes mágicos.
+Dialogue: 0,0:05:36.47,0:05:38.96,Gen_Main,Granat,0000,0000,0000,,El poder mágico que pese más
+Dialogue: 0,0:05:39.16,0:05:42.68,Gen_Main,Granat,0000,0000,0000,,puede hacer que el otro lo obedezca\Ny tratarlo como una marioneta
+Dialogue: 0,0:05:43.46,0:05:48.08,Gen_Main,Granat,0000,0000,0000,,para siempre\Nhasta que su cuerpo se haga polvo.
+Dialogue: 0,0:05:49.73,0:05:52.49,Gen_Main,Granat,0000,0000,0000,,El riesgo la vuelve\Nuna magia muy poderosa,
+Dialogue: 0,0:05:53.13,0:05:57.67,Gen_Main,Granat,0000,0000,0000,,pero eso la hace una magia invencible\Npara alguien tan fuerte como Aura.
+Dialogue: 0,0:05:58.54,0:06:00.92,Gen_Main,Fern,0000,0000,0000,,¿No hay manera de oponer resistencia?
+Dialogue: 0,0:06:02.98,0:06:06.80,Gen_Main,Granat,0000,0000,0000,,El peso del poder mágico de Aura\Nhace que se incline a su favor,
+Dialogue: 0,0:06:07.00,0:06:09.44,Gen_Main,Granat,0000,0000,0000,,pero, en principio,\Nes una balanza imparcial.
+Dialogue: 0,0:06:10.01,0:06:13.89,Gen_Main,Granat,0000,0000,0000,,Si un espíritu con un poder mágico\Nmayor al suyo se posara en la balanza,
+Dialogue: 0,0:06:14.36,0:06:16.56,Gen_Main,Granat,0000,0000,0000,,podría vencer a Aura sin problemas.
+Dialogue: 0,0:06:18.30,0:06:24.08,Gen_Main,Granat,0000,0000,0000,,Sin embargo, eso no ha ocurrido\Nni una sola vez en los 500 años que Aura
+Dialogue: 0,0:06:24.47,0:06:27.53,Gen_Main,Granat,0000,0000,0000,,ha formado parte\Nde los Siete Sabios de la Destrucción.
+Dialogue: 0,0:06:27.81,0:06:31.03,Gen_Main,Fern,0000,0000,0000,,Entonces, ¿no hay ninguna manera\Nde oponer resistencia?
+Dialogue: 0,0:06:35.50,0:06:37.92,Gen_Main,Granat,0000,0000,0000,,Sí, de hecho, sí había una.
+Dialogue: 0,0:06:38.71,0:06:43.54,Gen_Main,Granat,0000,0000,0000,,Los de una gran fuerza de voluntad eran\Ncapaces de resistirse por un momento.
+Dialogue: 0,0:06:46.10,0:06:50.55,Gen_Main,Granat,0000,0000,0000,,Los que poseían una fuerza de voluntad\Nférrea, afilada como el mejor acero.
+Dialogue: 0,0:06:51.34,0:06:53.68,Gen_Main,Stark,0000,0000,0000,,Pero solo temporalmente, ¿eh?
+Dialogue: 0,0:06:54.13,0:06:56.48,Gen_Main,Granat,0000,0000,0000,,Pero es una falla\Nque podría serle fatal.
+Dialogue: 0,0:06:56.68,0:07:00.06,Gen_Main,Granat,0000,0000,0000,,Esa voluntad\Nera un gran estorbo para ella.
+Dialogue: 0,0:07:00.50,0:07:01.75,Gen_Main,Granat,0000,0000,0000,,Por eso,
+Dialogue: 0,0:07:03.70,0:07:09.70,Gen_Main,Granat,0000,0000,0000,,Aura, la Guillotina, realiza una medida\Nmuy lógica en todos los que controla.
+Dialogue: 0,0:07:10.82,0:07:12.70,Gen_Main,Granat,0000,0000,0000,,Es un asunto macabro.
+Dialogue: 0,0:07:19.23,0:07:23.43,Gen_Main,Aura,0000,0000,0000,,¿Qué te parece? Mi ejército inmortal\Nes muy poderoso, ¿no lo crees?
+Dialogue: 0,0:07:37.96,0:07:39.31,Gen_Main,Aura,0000,0000,0000,,Qué sorpresa.
+Dialogue: 0,0:07:40.17,0:07:43.27,Gen_Main,Aura,0000,0000,0000,,Rompiste el hechizo que les lancé.
+Dialogue: 0,0:07:44.13,0:07:46.32,Gen_Main,Aura,0000,0000,0000,,Es la primera vez que me sucede esto.
+Dialogue: 0,0:07:47.06,0:07:49.68,Gen_Main,Aura,0000,0000,0000,,Una magia desencantadora de este nivel
+Dialogue: 0,0:07:50.11,0:07:53.17,Gen_Main,Aura,0000,0000,0000,,debe consumir\Nuna gran cantidad de poder mágico.
+Dialogue: 0,0:07:53.61,0:07:56.33,Gen_Main,Aura,0000,0000,0000,,¿Por qué llevas a cabo\Nuna acción tan rebuscada?
+Dialogue: 0,0:07:58.47,0:08:02.26,Gen_Main,Aura,0000,0000,0000,,Los mandabas a volar sin ningún tapujo\Ncuando luchamos la vez anterior.
+Dialogue: 0,0:08:04.82,0:08:07.32,Gen_Main,Frieren,0000,0000,0000,,Himmel se enojó conmigo\Ndespués de la batalla.
+Dialogue: 0,0:08:08.79,0:08:12.72,Gen_Main,Aura,0000,0000,0000,,Entonces, esa es otra razón\Npor la que no tienes que hacer eso.
+Dialogue: 0,0:08:13.81,0:08:15.14,Gen_Main,Frieren,0000,0000,0000,,¿A qué razón te refieres?
+Dialogue: 0,0:08:15.70,0:08:17.85,Gen_Main,Aura,0000,0000,0000,,Himmel ya está muerto, ¿no?
+Dialogue: 0,0:08:20.17,0:08:22.35,Gen_Main,Frieren,0000,0000,0000,,Ahora lo veo más claro. Qué bueno.
+Dialogue: 0,0:08:24.06,0:08:26.94,Gen_Main,Frieren,0000,0000,0000,,Ustedes, los demonios,\Nno dejarán de ser monstruos.
+Dialogue: 0,0:08:27.32,0:08:29.28,Gen_Main,Frieren,0000,0000,0000,,Puedo matarte sin misericordia.
+Dialogue: 0,0:08:30.07,0:08:31.36,Gen_Main,Stark,0000,0000,0000,,Muy bien.
+Dialogue: 0,0:08:31.74,0:08:34.21,Gen_Main,Stark,0000,0000,0000,,Ya me puedo mover mucho mejor.
+Dialogue: 0,0:08:35.50,0:08:38.61,Gen_Main,Stark,0000,0000,0000,,Sacerdote, aquí es seguro,\N¿no es cierto?
+Dialogue: 0,0:08:38.81,0:08:42.30,Gen_Main,Sacerdote,0000,0000,0000,,Sí, en la iglesia también existe\Nuna barrera protectora.
+Dialogue: 0,0:08:42.50,0:08:45.46,Gen_Main,Sacerdote,0000,0000,0000,,Aunque no es tan poderosa\Ncomo la del pueblo.
+Dialogue: 0,0:08:45.95,0:08:48.23,Gen_Main,Stark,0000,0000,0000,,Entonces, tú quédate aquí\Ny espera, graf.
+Dialogue: 0,0:08:49.14,0:08:52.71,Gen_Main,Granat,0000,0000,0000,,¿Qué piensas hacer, mocoso insolente?
+Dialogue: 0,0:08:52.98,0:08:56.89,Gen_Main,Stark,0000,0000,0000,,¿Los demonios se irán a sus casitas\Nsi nos quedamos aquí escondidos?
+Dialogue: 0,0:08:57.50,0:09:00.09,Gen_Main,Fern,0000,0000,0000,,Señor Stark, ¿está hablando en serio?
+Dialogue: 0,0:09:01.20,0:09:04.28,Gen_Main,Fern,0000,0000,0000,,El ataque sorpresa\Nfuncionó aquella vez por casualidad.
+Dialogue: 0,0:09:04.60,0:09:07.77,Gen_Main,Fern,0000,0000,0000,,No nos otorgaron una abertura\Npara poder rematarlos.
+Dialogue: 0,0:09:09.49,0:09:14.40,Gen_Main,Fern,0000,0000,0000,,Si hubiéramos seguido peleando,\Nnosotros habríamos muerto.
+Dialogue: 0,0:09:15.33,0:09:18.09,Gen_Main,Stark,0000,0000,0000,,Alguien tiene que hacerlo, ¿no crees?
+Dialogue: 0,0:09:23.05,0:09:26.58,Gen_Main,Fern,0000,0000,0000,,Es verdad. Esforcémonos juntos entonces.
+Dialogue: 0,0:09:28.63,0:09:31.96,Gen_Main,Stark,0000,0000,0000,,No, tú ve\Na la base de los guardias, Fern.
+Dialogue: 0,0:09:32.39,0:09:34.47,Gen_Main,Stark,0000,0000,0000,,Ayuda con la evacuación del pueblo.
+Dialogue: 0,0:09:35.22,0:09:36.84,Gen_Main,Fern,0000,0000,0000,,¿Y usted qué va a hacer?
+Dialogue: 0,0:09:39.34,0:09:40.35,Gen_Main,Stark,0000,0000,0000,,Ya lo sabes.
+Dialogue: 0,0:09:41.26,0:09:42.46,Gen_Main,Stark,0000,0000,0000,,Yo voy a
+Dialogue: 0,0:09:42.97,0:09:45.77,Gen_Main,Stark,0000,0000,0000,,pedirle a Frieren\Ncon todas mis fuerzas que regrese.
+Dialogue: 0,0:09:50.94,0:09:54.33,Gen_Main,Stark,0000,0000,0000,,¿Qué les pasa? ¡La única opción\Nes que los derrote por nosotros!
+Dialogue: 0,0:09:55.38,0:09:58.86,Gen_Main,Fern,0000,0000,0000,,Es cierto que eso sería lo más realista.
+Dialogue: 0,0:10:03.09,0:10:06.49,Gen_Main,Stark,0000,0000,0000,,Me dijo que los guardias\Nte harán caso si les muestras esto.
+Dialogue: 0,0:10:07.80,0:10:09.25,Gen_Main,Fern,0000,0000,0000,,Entendido.
+Dialogue: 0,0:10:10.50,0:10:12.28,Gen_Main,Stark,0000,0000,0000,,Saldré de la ciudad de inmediato.
+Dialogue: 0,0:10:14.11,0:10:15.38,Gen_Main,Stark,0000,0000,0000,,¿Qué sucede?
+Dialogue: 0,0:10:15.67,0:10:18.38,Gen_Main,Fern,0000,0000,0000,,Tiene el brazo en un estado deplorable.
+Dialogue: 0,0:10:19.06,0:10:21.84,Gen_Main,Fern,0000,0000,0000,,¿Podrá pasar la puerta del castillo\Nen ese estado?
+Dialogue: 0,0:10:22.99,0:10:26.56,Gen_Main,Stark,0000,0000,0000,,Estoy bien. Esto es normal\Npara un guerrero, ¿sabes?
+Dialogue: 0,0:10:26.76,0:10:28.23,Gen_Main,Stark,0000,0000,0000,,¿Hay algo extraño?
+Dialogue: 0,0:10:28.77,0:10:33.61,Gen_Main,Fern,0000,0000,0000,,Nunca he visto a un guerrero yendo por\Nla ciudad con los brazos ensangrentados.
+Dialogue: 0,0:10:33.99,0:10:37.61,Gen_Main,Stark,0000,0000,0000,,No puedes criticar a los demás.\NMírate a ti también nada más…
+Dialogue: 0,0:10:39.91,0:10:43.13,Gen_Main,Stark,0000,0000,0000,,¿De quién es esta sangre?\NNo es mía, ¿verdad?
+Dialogue: 0,0:10:46.51,0:10:49.16,Gen_Main,Stark,0000,0000,0000,,¡Oye, ¿qué rayos te pasa?!
+Dialogue: 0,0:10:52.97,0:10:55.34,Gen_Main,Fern,0000,0000,0000,,Señor Stark,\Nesta sangre emana poder mágico.
+Dialogue: 0,0:10:57.16,0:10:58.33,Gen_Main,Stark,0000,0000,0000,,¡Fern!
+Dialogue: 0,0:11:07.00,0:11:08.34,Gen_Italics,Stark,0000,0000,0000,,¡¿Una hacha?!
+Dialogue: 0,0:11:12.57,0:11:16.82,Gen_Main,Stark,0000,0000,0000,,No lo puedo creer. ¿Acaso estoy soñando?
+Dialogue: 0,0:11:17.67,0:11:20.32,Gen_Main,Stark,0000,0000,0000,,¡Esa fue una técnica de mi maestro!
+Dialogue: 0,0:11:23.40,0:11:27.24,Gen_Main,Lügner,0000,0000,0000,,No acerté a tus órganos vitales\Nporque te moviste en el último segundo.
+Dialogue: 0,0:11:28.11,0:11:30.93,Gen_Main,Lügner,0000,0000,0000,,No tenía intenciones\Nde hacerte sufrir, ¿sabes?
+Dialogue: 0,0:11:35.57,0:11:37.60,Gen_Main,Lügner,0000,0000,0000,,¿Por qué te muestras sorprendida?
+Dialogue: 0,0:11:38.14,0:11:42.13,Gen_Main,Lügner,0000,0000,0000,,¿Por el hecho de que yo esté aquí\Ndespués de recibir una herida mortal?
+Dialogue: 0,0:11:42.51,0:11:46.14,Gen_Main,Lügner,0000,0000,0000,,¿O porque no pudiste detectar\Nque nos acercábamos?
+Dialogue: 0,0:11:48.35,0:11:51.63,Gen_Main,Lügner,0000,0000,0000,,Ocultar nuestra presencia\Nlimitando nuestro poder mágico
+Dialogue: 0,0:11:51.83,0:11:54.59,Gen_Main,Lügner,0000,0000,0000,,no es un talento\Nque solo te pertenezca a ti, ¿sabes?
+Dialogue: 0,0:11:54.99,0:11:57.65,Gen_Main,Lügner,0000,0000,0000,,Cualquier demonio es capaz de hacerlo.
+Dialogue: 0,0:11:58.90,0:12:05.66,Gen_Main,Lügner,0000,0000,0000,,Aunque no me parece una acción muy\Nadecuada para un duelo entre hechiceros.
+Dialogue: 0,0:12:06.59,0:12:08.38,Gen_Main,Fern,0000,0000,0000,,Usted es muy parlanchín, ¿verdad?
+Dialogue: 0,0:12:08.73,0:12:10.41,Gen_Main,Fern,0000,0000,0000,,¿No piensa rematarme?
+Dialogue: 0,0:12:12.29,0:12:15.96,Gen_Main,Lügner,0000,0000,0000,,Aprovechando que no alcancé a matarte,\Nquiero hacerte unas preguntas.
+Dialogue: 0,0:12:18.54,0:12:20.71,Gen_Main,Lügner,0000,0000,0000,,¿O quieres perecer de una vez?
+Dialogue: 0,0:12:22.51,0:12:23.72,Gen_Main,Fern,0000,0000,0000,,Adelante.
+Dialogue: 0,0:12:26.53,0:12:28.97,Gen_Main,Lügner,0000,0000,0000,,Dime, ¿ese muchacho es poderoso?
+Dialogue: 0,0:12:29.64,0:12:32.28,Gen_Main,Fern,0000,0000,0000,,Es el discípulo número uno\Ndel guerrero Eisen.
+Dialogue: 0,0:12:32.78,0:12:35.73,Gen_Main,Lügner,0000,0000,0000,,Ya veo. Qué desafortunado es.
+Dialogue: 0,0:12:36.18,0:12:41.23,Gen_Main,Lügner,0000,0000,0000,,Lo compadezco. Sufrirá\Nuna muerte espantosa a manos de Linie.
+Dialogue: 0,0:12:43.45,0:12:44.99,Gen_Main,Lügner,0000,0000,0000,,Una más.
+Dialogue: 0,0:12:45.47,0:12:47.25,Gen_Main,Lügner,0000,0000,0000,,¿Dónde está Frieren?
+Dialogue: 0,0:12:50.10,0:12:52.00,Gen_Main,Fern,0000,0000,0000,,Escapó de la ciudad.
+Dialogue: 0,0:12:53.18,0:12:56.33,Gen_Main,Fern,0000,0000,0000,,Por culpa de que ustedes\Nasesinaron a su guardia.
+Dialogue: 0,0:12:56.85,0:12:59.43,Gen_Main,Lügner,0000,0000,0000,,El graf Granat\Ntambién mencionó algo similar.
+Dialogue: 0,0:12:59.63,0:13:02.26,Gen_Main,Lügner,0000,0000,0000,,Que matar a un guardia\Nconlleva una pena grave.
+Dialogue: 0,0:13:02.97,0:13:05.64,Gen_Main,Fern/Lügner,0000,0000,0000,,-La pena de muerte.\N-¿Pena de muerte?
+Dialogue: 0,0:13:06.29,0:13:09.64,Gen_Main,Lügner,0000,0000,0000,,Me pregunto si esa mujer\Nhuiría por algo tan minúsculo.
+Dialogue: 0,0:13:10.26,0:13:13.52,Gen_Main,Lügner,0000,0000,0000,,Ella le guarda un gran rencor\Na los demonios.
+Dialogue: 0,0:13:14.10,0:13:19.02,Gen_Main,Lügner,0000,0000,0000,,Al grado de enseñarle magia\Nmatademonios a su propia discípula.
+Dialogue: 0,0:13:20.22,0:13:22.65,Gen_Main,Lügner,0000,0000,0000,,Alguien así nunca pensaría en escapar.
+Dialogue: 0,0:13:23.38,0:13:25.51,Gen_Main,Lügner,0000,0000,0000,,Debe tener algún objetivo en mente.
+Dialogue: 0,0:13:28.14,0:13:29.57,Gen_Main,Lügner,0000,0000,0000,,¿Nuestra señora Aura?
+Dialogue: 0,0:13:33.72,0:13:35.46,Gen_Main,Fern,0000,0000,0000,,No se mueva, por favor.
+Dialogue: 0,0:13:36.49,0:13:40.41,Gen_Main,Fern,0000,0000,0000,,Entonces, tiene idea de hacia dónde\Nse dirigió la señorita Frieren, ¿eh?
+Dialogue: 0,0:13:40.99,0:13:42.96,Gen_Main,Lügner,0000,0000,0000,,Es inútil.
+Dialogue: 0,0:13:43.77,0:13:46.98,Gen_Main,Fern,0000,0000,0000,,Eso de que no alcanzó a matarme\Nes mentira, ¿no es cierto?
+Dialogue: 0,0:13:47.72,0:13:52.07,Gen_Main,Fern,0000,0000,0000,,Usted quería desquitarse\Npor el ataque sorpresa de hace rato.
+Dialogue: 0,0:13:53.19,0:13:55.60,Gen_Main,Fern,0000,0000,0000,,Posee un gran orgullo y es arrogante.
+Dialogue: 0,0:13:55.94,0:14:01.06,Gen_Main,Fern,0000,0000,0000,,Excepto por la señorita Frieren,\Nno nos considera una amenaza.
+Dialogue: 0,0:14:02.09,0:14:05.19,Gen_Main,Fern,0000,0000,0000,,Por eso se atrevió a darme\Nuna oportunidad para liberarme.
+Dialogue: 0,0:14:07.58,0:14:11.16,Gen_Main,Fern,0000,0000,0000,,A esta distancia,\Nsoy capaz de traspasarle el corazón.
+Dialogue: 0,0:14:12.61,0:14:13.90,Gen_Main,Lügner,0000,0000,0000,,A ver, inténtalo.
+Dialogue: 0,0:14:14.38,0:14:16.92,Gen_Main,Lügner,0000,0000,0000,,Tu cabeza rodará mucho antes.
+Dialogue: 0,0:14:25.05,0:14:26.44,Gen_Main,Fern,0000,0000,0000,,Señorita Frieren,
+Dialogue: 0,0:14:27.24,0:14:29.63,Gen_Main,Fern,0000,0000,0000,,¿Le estoy siendo de utilidad?
+Dialogue: 0,0:14:29.83,0:14:32.01,Gen_Main,Frieren,0000,0000,0000,,¿Por qué me preguntas eso?
+Dialogue: 0,0:14:33.49,0:14:37.58,Gen_Main,Fern,0000,0000,0000,,No puedo emplear la magia\Na la perfección como usted.
+Dialogue: 0,0:14:38.65,0:14:41.81,Gen_Main,Frieren,0000,0000,0000,,Solo es por la diferencia de tiempo\Nque llevamos con vida.
+Dialogue: 0,0:14:42.21,0:14:44.86,Gen_Main,Frieren,0000,0000,0000,,Nunca me alcanzarás, Fern.
+Dialogue: 0,0:14:46.91,0:14:48.29,Gen_Main,Fern,0000,0000,0000,,Ah, ¿sí?
+Dialogue: 0,0:14:49.00,0:14:52.90,Gen_Main,Frieren,0000,0000,0000,,Pero eso solo es cuestión\Nde poder mágico y técnica.
+Dialogue: 0,0:14:53.70,0:14:57.34,Gen_Main,Frieren,0000,0000,0000,,A menudo te dejo a ti\Nel combate contra los monstruos, ¿no?
+Dialogue: 0,0:14:57.54,0:15:00.09,Gen_Main,Fern,0000,0000,0000,,Sí, esta vez también me lo dejó todo.
+Dialogue: 0,0:15:00.29,0:15:01.71,Gen_Main,Frieren,0000,0000,0000,,Ya, perdón.
+Dialogue: 0,0:15:02.61,0:15:05.65,Gen_Main,Frieren,0000,0000,0000,,Pero todo termina más rápido\Nsi tú peleas.
+Dialogue: 0,0:15:06.15,0:15:09.17,Gen_Main,Frieren,0000,0000,0000,,Porque eres capaz de lanzar magia\Nmás rápido que yo.
+Dialogue: 0,0:15:11.30,0:15:12.72,Gen_Main,Lügner,0000,0000,0000,,Muchacha,
+Dialogue: 0,0:15:13.58,0:15:16.97,Gen_Main,Lügner,0000,0000,0000,,yo le he dedicado\Nla mayor parte de mi vida a la magia.
+Dialogue: 0,0:15:18.02,0:15:19.46,Gen_Main,Fern,0000,0000,0000,,Yo también.
+Dialogue: 0,0:15:33.81,0:15:36.45,Gen_Italics,Sacerdote,0000,0000,0000,,Su velocidad de reacción es muy rápida.
+Dialogue: 0,0:15:37.27,0:15:41.80,Gen_Italics,Sacerdote,0000,0000,0000,,Si no me hubiera cubierto por reflejo,\Nme habría traspasado el corazón.
+Dialogue: 0,0:15:42.11,0:15:46.21,Gen_Main,Fern,0000,0000,0000,,Se cubrió. Eso me indica\Nque el corazón sí es su punto débil.
+Dialogue: 0,0:15:47.34,0:15:48.71,Gen_Italics,Lügner,0000,0000,0000,,Maldita mocosa…
+Dialogue: 0,0:15:49.94,0:15:51.34,Gen_Main,Lügner,0000,0000,0000,,Comprendo.
+Dialogue: 0,0:15:51.82,0:15:55.49,Gen_Main,Lügner,0000,0000,0000,,No parece ser mentira\Nque le has dedicado tu vida a la magia.
+Dialogue: 0,0:15:56.39,0:15:59.60,Gen_Main,Lügner,0000,0000,0000,,Entonces, acabaré contigo\Ncon todas mis fuerzas.
+Dialogue: 0,0:16:00.04,0:16:01.44,Gen_Main,Lügner,0000,0000,0000,,Magia sanguínea, Balterie.
+Dialogue: 0,0:16:04.71,0:16:06.81,Gen_Main,Linie,0000,0000,0000,,Ya empezó la batalla allá también, ¿eh?
+Dialogue: 0,0:16:08.28,0:16:10.22,Gen_Main,Linie,0000,0000,0000,,Pero es una lástima.
+Dialogue: 0,0:16:10.74,0:16:12.87,Gen_Main,Linie,0000,0000,0000,,Aquí ya terminamos.
+Dialogue: 0,0:16:14.11,0:16:16.15,Gen_Main,Linie,0000,0000,0000,,Creo que iré a ver.
+Dialogue: 0,0:16:16.66,0:16:20.12,Gen_Main,Linie,0000,0000,0000,,Pero el señor Lügner\Nse enfada si le estorban, ¿verdad?
+Dialogue: 0,0:16:25.47,0:16:26.50,Gen_Main,Linie,0000,0000,0000,,¿Eh?
+Dialogue: 0,0:16:26.85,0:16:30.51,Gen_Main,Stark,0000,0000,0000,,Todavía no hemos terminado.
+Dialogue: 0,0:16:30.82,0:16:34.26,Gen_Main,Linie,0000,0000,0000,,Eres duro, ¿eh? Creo que me podré\Ndivertir un poco más contigo.
+Dialogue: 0,0:16:37.99,0:16:42.76,Gen_Italics,Lügner,0000,0000,0000,,Yo estoy muy por encima\Nen poder mágico, técnica y control.
+Dialogue: 0,0:17:03.75,0:17:08.49,Gen_Italics,Lügner,0000,0000,0000,,Entre la muchacha y yo hay\Nuna gran diferencia que no deja dudas.
+Dialogue: 0,0:17:09.09,0:17:11.50,Gen_Italics,Lügner,0000,0000,0000,,Sin embargo, es muy rápida.
+Dialogue: 0,0:17:12.84,0:17:16.01,Gen_Italics,Lügner,0000,0000,0000,,Me tiene contra las cuerdas\Npor una ventaja numérica.
+Dialogue: 0,0:17:22.63,0:17:27.40,Gen_Italics,Lügner,0000,0000,0000,,Maldita Frieren.\N¿Cómo rayos entrenaste a esta muchacha?
+Dialogue: 0,0:17:31.40,0:17:34.63,Gen_Italics,Lügner,0000,0000,0000,,¿Si trato de desgastarla\Npara que consuma todo su poder magia?
+Dialogue: 0,0:17:47.96,0:17:49.46,Gen_Italics,Lügner,0000,0000,0000,,No, eso no funcionará.
+Dialogue: 0,0:17:50.25,0:17:52.74,Gen_Italics,Lügner,0000,0000,0000,,El duelo terminaría mucho antes.
+Dialogue: 0,0:17:53.56,0:17:56.41,Gen_Italics,Lügner,0000,0000,0000,,Si tan solo pudiera obligarla\Na crear una apertura…
+Dialogue: 0,0:17:57.16,0:18:01.19,Gen_Main,Lügner,0000,0000,0000,,Linie, ¿en qué te estás entreteniendo?\NElimínalo de una vez.
+Dialogue: 0,0:18:07.94,0:18:10.14,Gen_Main,Linie,0000,0000,0000,,¿Qué quiere? Solo se desquita conmigo.
+Dialogue: 0,0:18:10.34,0:18:13.07,Gen_Main,Linie,0000,0000,0000,,Este es obstinado\Ny solo se la pasa defendiéndose.
+Dialogue: 0,0:18:31.81,0:18:34.99,Gen_Main,Stark,0000,0000,0000,,¿Cómo puede blandir el hacha así?
+Dialogue: 0,0:18:35.19,0:18:37.30,Gen_Main,Stark,0000,0000,0000,,Esas son técnicas de mi maestro.
+Dialogue: 0,0:18:38.04,0:18:40.88,Gen_Main,Linie,0000,0000,0000,,Yo soy muy buena\Ndetectando el poder mágico.
+Dialogue: 0,0:18:41.57,0:18:46.09,Gen_Main,Linie,0000,0000,0000,,Puedo ver y memorizar el flujo mágico\Nen el cuerpo de los demás.
+Dialogue: 0,0:18:46.29,0:18:50.17,Gen_Main,Linie,0000,0000,0000,,Y puedo copiar los movimientos\Nde esta manera.
+Dialogue: 0,0:19:13.93,0:19:17.72,Gen_Main,Linie,0000,0000,0000,,Lo comprobé cuando vi tus movimientos\Npor primera vez en la mansión.
+Dialogue: 0,0:19:18.39,0:19:23.09,Gen_Main,Linie,0000,0000,0000,,Te mueves igual que el más fuerte de los\Nguerreros que copié hace mucho tiempo.
+Dialogue: 0,0:19:26.94,0:19:30.56,Gen_Main,Linie,0000,0000,0000,,Qué casualidad, ¿no?\NEl destino puede ser muy interesante.
+Dialogue: 0,0:19:34.94,0:19:36.32,Gen_Main,Stark,0000,0000,0000,,Claro que no.
+Dialogue: 0,0:19:36.79,0:19:40.07,Gen_Main,Linie,0000,0000,0000,,Estoy copiando\Nlas técnicas del guerrero Eisen.
+Dialogue: 0,0:19:41.26,0:19:44.03,Gen_Italics,Linie,0000,0000,0000,,¿Qué diablos? Esto no tiene sentido.
+Dialogue: 0,0:19:47.16,0:19:49.40,Gen_Italics,Linie,0000,0000,0000,,¿Cómo la voy a vencer?
+Dialogue: 0,0:19:58.23,0:20:00.19,Gen_Main,Linie,0000,0000,0000,,Al fin has caído.
+Dialogue: 0,0:20:00.39,0:20:04.55,Gen_Main,Linie,0000,0000,0000,,Debo apresurarme\Nantes de que el señor Lügner me regañe.
+Dialogue: 0,0:20:07.43,0:20:09.12,Gen_Italics,Stark,0000,0000,0000,,¿He caído?
+Dialogue: 0,0:20:09.81,0:20:12.10,Gen_Italics,Stark,0000,0000,0000,,¿Acaso he caído?
+Dialogue: 0,0:20:16.05,0:20:17.72,Gen_Main,Eisen,0000,0000,0000,,Ponte de pie, Stark.
+Dialogue: 0,0:20:18.25,0:20:22.55,Gen_Main,Eisen,0000,0000,0000,,No importa lo apaleado que estés.\NCaer es lo único que tienes prohibido.
+Dialogue: 0,0:20:23.34,0:20:26.62,Gen_Main,Stark,0000,0000,0000,,Lo dices como si fuera muy fácil.
+Dialogue: 0,0:20:26.82,0:20:30.00,Gen_Main,Stark,0000,0000,0000,,¿Cómo te voy a poder ganar, maestro?
+Dialogue: 0,0:20:30.36,0:20:31.99,Gen_Main,Eisen,0000,0000,0000,,Pues claro que no.
+Dialogue: 0,0:20:32.58,0:20:34.70,Gen_Main,Eisen,0000,0000,0000,,Yo soy mucho más poderoso que tú.
+Dialogue: 0,0:20:35.25,0:20:36.51,Gen_Main,Stark,0000,0000,0000,,Entonces…
+Dialogue: 0,0:20:36.71,0:20:40.26,Gen_Main,Eisen,0000,0000,0000,,Pero tú todavía no has perdido.
+Dialogue: 0,0:20:40.91,0:20:42.94,Gen_Main,Eisen,0000,0000,0000,,Te has puesto de pie, ¿no es cierto?
+Dialogue: 0,0:20:43.14,0:20:45.10,Gen_Main,Stark,0000,0000,0000,,¿Qué rayos significa eso?
+Dialogue: 0,0:20:45.79,0:20:47.17,Gen_Main,Eisen,0000,0000,0000,,Stark,
+Dialogue: 0,0:20:47.64,0:20:50.77,Gen_Main,Eisen,0000,0000,0000,,te enseñaré el secreto\Npara vencer a un oponente más fuerte.
+Dialogue: 0,0:20:51.61,0:20:56.74,Gen_Main,Eisen,0000,0000,0000,,Es muy simple. Levántate las veces\Nque sean necesarias y sigue atacando.
+Dialogue: 0,0:20:56.94,0:21:01.85,Gen_Main,Eisen,0000,0000,0000,,El guerrero que permanece de pie\Nhasta el final es el vencedor.
+Dialogue: 0,0:21:05.89,0:21:08.66,Gen_Main,Stark,0000,0000,0000,,No puedo contra ese maldito maestro.
+Dialogue: 0,0:21:09.10,0:21:11.73,Gen_Main,Stark,0000,0000,0000,,Me inculcó\Nesa filosofía carente de lógica.
+Dialogue: 0,0:21:12.11,0:21:14.68,Gen_Main,Stark,0000,0000,0000,,Ha de tener el cerebro hecho de músculo.
+Dialogue: 0,0:21:16.84,0:21:19.45,Gen_Main,Linie,0000,0000,0000,,Te hubieras quedado\Na dormir plácidamente ahí.
+Dialogue: 0,0:21:19.65,0:21:21.42,Gen_Main,Linie,0000,0000,0000,,Ya te derroté, ¿sabes?
+Dialogue: 0,0:21:22.22,0:21:24.05,Gen_Main,Stark,0000,0000,0000,,Yo sigo de pie.
+Dialogue: 0,0:21:26.25,0:21:30.96,Gen_Main,Stark,0000,0000,0000,,Además, recordé que las técnicas\Nde mi maestro llevan más peso detrás.
+Dialogue: 0,0:21:32.59,0:21:35.30,Gen_Main,Stark,0000,0000,0000,,Tú lo que haces es una burda copia.
+Dialogue: 0,0:21:40.30,0:21:44.44,Gen_Main,Linie,0000,0000,0000,,Entonces, te mandaré al infierno\Ncon esa burda copia.
+Dialogue: 0,0:21:45.30,0:21:46.98,Gen_Main,Linie,0000,0000,0000,,¡Magia de imitación, Erfassen!
+Dialogue: 0,0:21:47.18,0:21:48.72,Gen_Main,Lügner,0000,0000,0000,,¡Balterie!
+Dialogue: 0,0:22:00.85,0:22:04.76,Gen_Italics,Linie,0000,0000,0000,,Blande un gran golpe abierto,\Ndesesperado y sin defensa.
+Dialogue: 0,0:22:12.69,0:22:16.18,Gen_Main,Stark,0000,0000,0000,,Me fue mal por asustarme\Ny prepararme a morir contigo.
+Dialogue: 0,0:22:16.38,0:22:19.40,Gen_Main,Stark,0000,0000,0000,,Lo sabía.\NTus golpes no tienen peso detrás.
+Dialogue: 0,0:22:21.09,0:22:22.82,Gen_Main,Stark,0000,0000,0000,,¡Golpe del Destello Divino!
+Dialogue: 0,0:22:34.89,0:22:35.95,Gen_Main,Lügner,0000,0000,0000,,¡¿Linie?!
+Dialogue: 0,0:22:36.57,0:22:38.62,Gen_Main,Lügner/Fern,0000,0000,0000,,-Rayos…\N-Zoltraak.
+Dialogue: 0,0:22:43.38,0:22:46.51,Gen_Italics,Lügner,0000,0000,0000,,La magia matademonios…
+Dialogue: 0,0:22:50.01,0:22:52.56,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}And you alright?
+Dialogue: 0,0:22:53.06,0:22:55.06,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Can you hear me?
+Dialogue: 0,0:22:55.85,0:23:01.74,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Voy caminando al lado de vías desiertas.
+Dialogue: 0,0:23:01.94,0:23:04.28,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Lloro en exceso
+Dialogue: 0,0:23:04.86,0:23:07.28,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}porque quiero que sonrías.
+Dialogue: 0,0:23:07.58,0:23:13.30,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Me aferro a recuerdos aún dolorosos.
+Dialogue: 0,0:23:13.59,0:23:19.59,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Hay algo que te quiero decir\Ncon palabras más valiosas que un adiós.
+Dialogue: 0,0:23:19.79,0:23:25.43,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Nada extraordinario, pero especial.
+Dialogue: 0,0:23:25.63,0:23:28.98,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Mira, hay cosas que no pudieron ser.
+Dialogue: 0,0:23:29.18,0:23:36.78,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Si no las hubiera visto con estos ojos,\N¿por qué comienzan a desbordarse?
+Dialogue: 0,0:23:36.98,0:23:48.71,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Por eso, no tengo que nacer de nuevo\Npara volver a escoger este lugar.
+Dialogue: 0,0:23:48.91,0:23:54.71,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Por eso, si volviera a verme contigo,
+Dialogue: 0,0:23:54.91,0:24:00.38,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}no te dejaría ir\Ny escogería el presente.
+Dialogue: 0,0:24:00.58,0:24:06.33,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}Aunque no haya promesas de por medio\Ny sean días que me pierda en la soledad,
+Dialogue: 0,0:24:06.53,0:24:12.52,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}está bien llorar,\Nde seguro el amanecer llegará.
+Dialogue: 0,0:24:12.72,0:24:19.30,Cart_Ending,ED LYRICS,0000,0000,0000,,{\blur2}I’m whispering our lullaby\Nfor you to come back home.
+Dialogue: 0,0:24:15.59,0:24:19.97,Cart_C_Tim,CARTEL,0000,0000,0000,,{\b0\fad(800,0)\bord1\blur0.6\fs18\pos(320,241)}Traducción: Antonio Valdez\NPautado: Thomas Benaissa\NEdición: Álvaro Jimeno\NControl de calidad: Nicolás Sepúlveda{\b1\b0}
+Dialogue: 0,0:24:20.27,0:24:23.42,Gen_Main,Heiter,0000,0000,0000,,Tiene como un quinto de mi poder mágico.
+Dialogue: 0,0:24:21.67,0:24:23.62,Gen_Main_Up,Lügner,0000,0000,0000,,Frieren caerá sin duda.
+Dialogue: 0,0:24:23.62,0:24:27.32,Gen_Main,Aura/Demonio,0000,0000,0000,,-No me llegas ni a los talones.\N-Masacren a todos los elfos.
+Dialogue: 0,0:24:23.82,0:24:25.94,Gen_Main_Up,Eisen,0000,0000,0000,,¿Qué opinas, Heiter?
+Dialogue: 0,0:24:27.52,0:24:29.98,Cart_A_Tim,CARTEL,0000,0000,0000,,{\fsp1\b0\fad(500,0)\pos(320,86)\bord0\c&H201B1C&\blur5\t(0,271,\blur0)\t(312,1188,\c&HFFFFFF&)\t(\fsp0)}Episodio 10\N{\fs30}Una hechicera poderosa
+Dialogue: 0,0:24:27.52,0:24:29.98,Gen_Main,Frieren,0000,0000,0000,,Soy una hechicera\Nmucho más poderosa que tú.
