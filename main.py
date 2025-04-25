@@ -74,8 +74,23 @@ def post_random_crop(post_id: str, frame_path: Path, configs: dict) -> Optional[
     return None
 
 
+# agrupa as funcoes de postagem
 def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
-    """Posta os dados do frame."""
+    """
+    Posta um frame com base em seus dados.
+
+    Args:
+        season (str): A temporada do anime em que o frame se encontra.
+        frame_data (dict or list): Um dicionário contendo as informações do frame que será postado.
+            Caso seja um dicionário, as chaves devem ser "episode", "path" e "timestamp".
+            Caso seja uma lista, é esperado que contenha dois dicionários com as mesmas chaves,
+            representando dois frames que serão postados lado a lado.
+        configs (dict): O dicionário de configurações.
+
+    Returns:
+        str: O ID do post criado, ou None se falhar.
+    """
+
 
     if isinstance(frame_data, list) and len(frame_data) == 2: # frame pode ser um uma lista ou um dicionário por isso essa checagem
         message: str = configs.get("msg_two_panels")
@@ -171,8 +186,8 @@ def aplie_filter(filter_func, Framedata: list[dict]) -> Optional[Path]:
 
 def process_frame(CONFIGS, filter_func) -> Optional[dict]:
     """
-    Processa um frame aleatório e aplica o filtro selecionado.
-    Retorna um dicionário com os dados do frame.
+    Process a random frame and apply the selected filter.
+    Returns a dictionary with frame data.
     """
 
     frame_number, episode_number = get_random_frame(CONFIGS)
@@ -209,8 +224,17 @@ def process_two_panels(CONFIGS, filter_func) -> list[dict]:
 
 def main():
     """
-    Main function to run the script
+    Main function of the program. It posts frames from anime to Facebook pages.
+    
+    The function reads the configuration file, selects a random frame from the episodes,
+    applies a random filter to the frame, and posts the frame to the specified Facebook
+    pages. The function also handles posting subtitles and random crops of the frame.
+
+    The function repeats the process indefinitely, with a configurable posting interval.
     """
+
+    print('\n' + '-' * 50 + '\n' + '-' * 50,  flush=True) # makes visualization better in CI/CD environments
+
     configs = load_configs()
     season = int(configs.get("season", 0))
     posting_interval = configs.get("posting", {}).get("posting_interval", 2)
@@ -235,7 +259,7 @@ def main():
 
             post_frame_data(season, single_frame_data, configs)
 
-        print('\n' + '-' * 50 + '\n' + '-' * 50,  flush=True) # deixa a vizualizacao melhor em ambientes de CI/CD
+        print('\n' + '-' * 50 + '\n' + '-' * 50,  flush=True) # makes visualization better in CI/CD environments
         sleep(posting_interval * 60) # 2 minutes
 
         
