@@ -169,18 +169,18 @@ posting:
 filters:
   none_filter:                        # No filter applied ( the name of the filter can be 'lambda' in terminal)
     enabled: true
-    percent: 0.5
+    percent: 0.8
 
   two_panels:
     enabled: true
-    percent: 0.4
+    percent: 0.1
 
   mirror:
-    enabled: true
+    enabled: false
     percent: 0.2
 
   negative:
-    enabled: true
+    enabled: false
     percent: 0.1
 
   # warp_in:
@@ -193,7 +193,7 @@ filters:
 
   brightness_contrast:
     enabled: true
-    percent: 0.5
+    percent: 0.1
 
 
 
