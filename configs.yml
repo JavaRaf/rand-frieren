@@ -169,19 +169,19 @@ posting:
 filters:
   none_filter:                        # No filter applied ( the name of the filter can be 'lambda' in terminal)
     enabled: true
-    percent: 0.5
+    percent: 0.8
 
   two_panels:
     enabled: false
     percent: 0.4
 
   mirror:
-    enabled: true
-    percent: 0.5
+    enabled: false
+    percent: 0.2
 
   negative:
-    enabled: true
-    percent: 0.2
+    enabled: false
+    percent: 0.1
 
   # warp_in:
   #   enabled: false
