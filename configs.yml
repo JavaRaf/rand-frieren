@@ -172,7 +172,7 @@ filters:
     percent: 0.5
 
   two_panels:
-    enabled: true
+    enabled: false
     percent: 0.4
 
   mirror:
@@ -192,7 +192,7 @@ filters:
   #   percent: 0.5
 
   brightness_contrast:
-    enabled: true
+    enabled: false
     percent: 0.5
 
 
