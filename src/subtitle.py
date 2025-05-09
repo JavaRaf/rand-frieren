@@ -81,9 +81,6 @@ def download_subtitles_if_needed(episode: int, configs: dict) -> None:
 
 
 
-
-
-
 LANGUAGE_CODES = {
     "en": "English",
     "pt": "Português",
@@ -160,7 +157,9 @@ def frame_to_timestamp(img_fps: int | float, current_frame: int) -> str:
         return None
 
 def language_detect(file_path: Path, dialogues: list[str]) -> str:
-    """Detects the language based on the dialogue content and renames the file."""
+    """Detects the language based on the dialogue content
+      and renames the file with the detected lang code if it's not already in the file name.
+    """
     if not file_path.exists():
         logger.error(f"Error: File not found: {file_path}", exc_info=True)
         return "Unknown"

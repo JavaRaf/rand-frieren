@@ -246,18 +246,43 @@ def main():
             print("✖ No filter selected or filter is not callable")
             continue
 
-        if filter_func.__name__ == 'two_panels':
-            framedata = process_two_panels(configs, filter_func)
-            framedata[0]['output_path'] = aplie_filter(filter_func, framedata)
+        try:
+            if filter_func.__name__ == 'two_panels':
+                framedata = process_two_panels(configs, filter_func)
+                if not framedata:
+                    print("✖ Error processing frames for two_panels")
+                    sleep(10)
+                    continue
+                
+                output_path = aplie_filter(filter_func, framedata)
+                if not output_path:
+                    print("✖ Error generating output_path for two_panels") 
+                    sleep(10)
+                    continue
 
-            post_frame_data(season, framedata, configs)
+                framedata[0]['output_path'] = output_path
+                post_frame_data(season, framedata, configs)
 
-        else:
-            data = process_frame(configs, filter_func)
-            single_frame_data = data if data else None
-            single_frame_data['output_path'] = aplie_filter(filter_func, [single_frame_data])
+            else:
+                data = process_frame(configs, filter_func)
+                if not data:
+                    print("✖ Error processing frame")
+                    sleep(10)
+                    continue
 
-            post_frame_data(season, single_frame_data, configs)
+                output_path = aplie_filter(filter_func, [data])
+                if not output_path:
+                    print("✖ Error generating output_path for single frame")
+                    sleep(10)
+                    continue
+                    
+                data['output_path'] = output_path
+                post_frame_data(season, [data], configs)
+
+        except (IndexError, KeyError, Exception) as e:
+            print(f"✖ Error during processing: {str(e)}")
+            sleep(10)
+            continue
 
         print('\n' + '-' * 50 + '\n' + '-' * 50,  flush=True) # makes visualization better in CI/CD environments
         sleep(posting_interval * 60) # 2 minutes
