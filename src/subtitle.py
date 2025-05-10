@@ -177,7 +177,7 @@ def language_detect(file_path: Path, dialogues: list[str]) -> str:
     language = LANGUAGE_CODES.get(lang_code, "Unknown")
 
     if language == "Unknown":
-        logger.error("Language detection failed. Keeping original filename.", exc_info=True)
+        logger.error(f"Language detection failed. Keeping original filename ({__name__}).", exc_info=True)
         return language
 
     # Generates a new file path with the detected lang code

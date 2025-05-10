@@ -249,20 +249,20 @@ def main():
     for _ in range(1, fph + 1):
         filter_func = select_filter(configs)
         if not filter_func:
-            print("✖ No filter selected or filter is not callable (main)")
+            print(f"✖ No filter selected or filter is not callable ({__name__})")
             continue
 
         try:
             if filter_func.__name__ == 'two_panels':
                 framedata = process_two_panels(configs, filter_func)
                 if not framedata:
-                    print("✖ Error processing frames for two_panels (main)")
+                    print(f"✖ Error processing frames for two_panels ({__name__})")
                     sleep(10)
                     continue
                 
                 output_path = aplie_filter(filter_func, framedata)
                 if not output_path:
-                    print("✖ Error generating output_path for two_panels (main)") 
+                    print(f"✖ Error generating output_path for two_panels ({__name__})") 
                     sleep(10)
                     continue
 
@@ -272,13 +272,13 @@ def main():
             else:
                 data = process_frame(configs, filter_func)
                 if not data:
-                    print("✖ Error processing frame")
+                    print(f"✖ Error processing frame ({__name__})")
                     sleep(10)
                     continue
 
                 output_path = aplie_filter(filter_func, [data])
                 if not output_path:
-                    print("✖ Error generating output_path for single frame (main)")
+                    print(f"✖ Error generating output_path for single frame ({__name__})")
                     sleep(10)
                     continue
                     
@@ -286,7 +286,7 @@ def main():
                 post_frame_data(season, data, configs)
 
         except (IndexError, KeyError, Exception) as e:
-            print(f"✖ Error processing frame (main): {str(e)}")
+            print(f"✖ Error processing frame ({__name__}): {str(e)}")
             sleep(10)
             continue
 

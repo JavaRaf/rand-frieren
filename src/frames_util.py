@@ -1,10 +1,11 @@
 from pathlib import Path
 import random
+import time
 from typing import Optional
 
 from PIL import Image
 import httpx
-from tenacity import retry, stop_after_attempt, wait_fixed
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
 from src.logger import get_logger
 from src.frame_history import FrameHistory
@@ -22,10 +23,16 @@ client = httpx.Client(
 # Initialize frame history
 frame_history = FrameHistory()
 
-@retry(stop=stop_after_attempt(3), wait=wait_fixed(2))
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=1, min=4, max=60),
+    retry=retry_if_exception_type((httpx.RequestError, httpx.HTTPStatusError))
+)
 def download_frame(configs: dict, frame_number: int, episode_number: int) -> Optional[Path]:
     """
     Download a frame from the specified episode and frame number.
+    Implements exponential backoff for rate limiting and network errors.
+    Returns None if all retry attempts fail.
 
     Args:
         configs (dict): Configuration dictionary containing episode data.
@@ -33,7 +40,7 @@ def download_frame(configs: dict, frame_number: int, episode_number: int) -> Opt
         episode_number (int): The episode number to download from.
 
     Returns:
-        Optional[Path]: The path to the downloaded frame, or None if an error occurs.
+        Optional[Path]: The path to the downloaded frame, or None if all retry attempts fail.
     """
     try:
         username = configs.get("github", {}).get("username")
@@ -46,8 +53,17 @@ def download_frame(configs: dict, frame_number: int, episode_number: int) -> Opt
             return None
 
         frame_url = f'https://raw.githubusercontent.com/{username}/{repo}/{branch}/{frames_dir:02d}/{frame_number:04d}.jpg'
+        
+        # Add a small delay before each request to avoid rate limiting
+        time.sleep(1)
+        
         response = client.get(frame_url)
         
+        if response.status_code == 429:
+            logger.warning(f"Rate limit exceeded. Waiting before retry...")
+            time.sleep(60)  # Wait for 1 minute if we hit rate limit
+            raise httpx.HTTPStatusError("Rate limit exceeded", response=response)
+            
         if not response.status_code == 200:
             logger.error(f"HTTP error while downloading frame {frame_number} from episode {episode_number}: "
                         f"{response.status_code} - {response.text}", exc_info=True)
@@ -62,11 +78,15 @@ def download_frame(configs: dict, frame_number: int, episode_number: int) -> Opt
         return frame_path
     except httpx.RequestError as e:
         logger.error(f"Request error while downloading frame {frame_number} from episode {episode_number}: {e}", exc_info=True)
-        return None
+        if not isinstance(e, httpx.HTTPStatusError) or e.response.status_code != 429:
+            return None
+        raise  # Re-raise only for rate limiting
     except httpx.HTTPStatusError as e:
         logger.error(f"HTTP error while downloading frame {frame_number} from episode {episode_number}: "
                      f"{e.response.status_code} - {e.response.text}", exc_info=True)
-        return None
+        if e.response.status_code != 429:
+            return None
+        raise  # Re-raise only for rate limiting
     except Exception as e:
         logger.error(f"Unexpected error: {e}", exc_info=True)
         return None
@@ -86,7 +106,7 @@ def get_random_frame(configs: dict) -> tuple[int, int] | None:
     """
     episodes: dict = configs.get("episodes", {})
     if not episodes:
-        logger.error("No episodes found in the configuration.")
+        logger.error(f"No episodes found in the configuration.")
         return None
 
     # Try to find an unused frame
@@ -111,7 +131,7 @@ def get_random_frame(configs: dict) -> tuple[int, int] | None:
             
         attempts += 1
 
-    logger.warning("Could not find an unused frame after maximum attempts.")
+    logger.warning(f"Could not find an unused frame after maximum attempts.")
     return None
 
    
@@ -126,11 +146,11 @@ def random_crop(frame_path: Path, configs: dict) -> tuple[Path, str] | None:
         tuple[Path, str]: Tuple containing the path to the cropped image and the crop coordinates.
     """
     if not isinstance(frame_path, Path):
-        logger.error("frame_path must be a Path object", exc_info=True)
+        logger.error(f"frame_path must be a Path object ", exc_info=True)
         return None, None
 
     if not frame_path.is_file():
-        logger.error("frame_path must be a file", exc_info=True)
+        logger.error(f"frame_path must be a file", exc_info=True)
         return None, None
 
     try:
@@ -144,7 +164,7 @@ def random_crop(frame_path: Path, configs: dict) -> tuple[Path, str] | None:
             image_width, image_height = img.size
 
             if image_width < crop_width or image_height < crop_height:
-                print(f"Image {frame_path} is too small for the crop size.")
+                logger.error(f"Image {frame_path} is too small for the crop size.", exc_info=True)
                 return None, None
 
             # Generate random crop coordinates

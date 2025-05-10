@@ -30,7 +30,7 @@ class FrameHistory:
                 with open(self.history_file, 'r') as f:
                     data = json.load(f)
                     # Convert the list of lists back to set of tuples
-                    self.used_frames = {(frame[0], frame[1]) for frame in data}
+                    self.used_frames = {(item[0], item[1]) for item in data}
             except json.JSONDecodeError:
                 self.used_frames = set()
         else:
@@ -40,11 +40,12 @@ class FrameHistory:
     def _save_history(self) -> None:
         """
         Save the current frame history to the JSON file.
+        Formats the output with indentation and line breaks for better readability.
         """
         # Convert set of tuples to list of lists for JSON serialization
-        data = [list(frame) for frame in self.used_frames]
+        data = [list(item) for item in self.used_frames]
         with open(self.history_file, 'w') as f:
-            json.dump(data, f)
+            json.dump(data, f, indent=4)
 
     def add_frame(self, frame_number: int, episode_number: int) -> None:
         """
@@ -55,7 +56,7 @@ class FrameHistory:
             frame_number (int): The frame number
             episode_number (int): The episode number
         """
-        self.used_frames.add((frame_number, episode_number))
+        self.used_frames.add((episode_number, frame_number))
         
         # Check if we need to clear the history
         if len(self.used_frames) >= self.MAX_FRAMES:
@@ -63,7 +64,7 @@ class FrameHistory:
         else:
             self._save_history()
 
-    def is_frame_used(self, frame_number: int, episode_number: int) -> bool:
+    def is_frame_used(self, episode_number: int, frame_number: int) -> bool:
         """
         Check if a frame has been used before.
         
@@ -74,7 +75,7 @@ class FrameHistory:
         Returns:
             bool: True if the frame has been used, False otherwise
         """
-        return (frame_number, episode_number) in self.used_frames
+        return (episode_number, frame_number) in self.used_frames
 
     def clear_history(self) -> None:
         """
