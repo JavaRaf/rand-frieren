@@ -12,6 +12,9 @@ class FrameHistory:
     def __init__(self, history_file: str = "frame_history.json"):
         self.history_file = Path.cwd() / "temp" / history_file
         self.used_frames: Set[Tuple[int, int]] = set()
+        
+        # Create temp directory if it doesn't exist
+        self.history_file.parent.mkdir(parents=True, exist_ok=True)
         self._load_history()
 
     def _load_history(self) -> None:
@@ -19,6 +22,7 @@ class FrameHistory:
         Load the frame history from the JSON file.
         Creates the file and directory if they don't exist.
         """
+        # Create the file if it doesn't exist
         self.history_file.touch(exist_ok=True)
         
         if self.history_file.exists():
