@@ -98,35 +98,11 @@ def negative(frame_path) -> Path:
         return None
 
 
-# def warp_in(frame_path) -> Path:
-#     with Image.open(frame_path) as img:
-#         output_img = img.convert("RGB")
-
-#     output_path = OUTPUT_DIR / "_warp_in.jpg"
-#     output_path.parent.mkdir(parents=True, exist_ok=True)
-#     output_img.save(output_path)
-
-#     return output_path
-
-
-# def warp_out(frame_path: Path) -> Path:
-#     with Image.open(frame_path) as img:
-#         output_img = img.convert("RGB")
-
-#     output_path = OUTPUT_DIR / "_warp_out.jpg"
-#     output_path.parent.mkdir(parents=True, exist_ok=True)
-#     output_img.save(output_path)
-
-#     return output_path
-
-
 filter_registry = {
     'none_filter': none_filter,
     'two_panels': two_panels,
     'mirror': mirror,
     'negative': negative,
-    # 'warp_in': warp_in,
-    # 'warp_out': warp_out,
     'brightness_contrast': brightness_contrast
 }
 

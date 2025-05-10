@@ -163,36 +163,28 @@ posting:
     min_x: 200                             # Minimum crop width (format: integer)
     min_y: 600                             # Minimum crop height (format: integer)
 
-  # Filters settings
-  # Filters que são aplicados as imagens antes de postar no facebook
-  # Se enabled for false, o filtro não será aplicado
+# Filters settings
+# Filters que são aplicados as imagens antes de postar no facebook
+# Se enabled for false, o filtro não será aplicado
 filters:
   none_filter:                        # No filter applied ( the name of the filter can be 'lambda' in terminal)
     enabled: true
     percent: 0.5
 
   two_panels:
-    enabled: true
+    enabled: false
     percent: 0.4
 
   mirror:
-    enabled: true
+    enabled: false
     percent: 0.5
 
   negative:
-    enabled: true
+    enabled: false
     percent: 0.2
 
-  # warp_in:
-  #   enabled: false
-  #   percent: 0.5
-  
-  # warp_out:
-  #   enabled: false
-  #   percent: 0.5
-
   brightness_contrast:
-    enabled: true
+    enabled: false
     percent: 0.5
 
 

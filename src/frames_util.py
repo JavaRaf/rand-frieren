@@ -7,6 +7,7 @@ import httpx
 from tenacity import retry, stop_after_attempt, wait_fixed
 
 from src.logger import get_logger
+from src.frame_history import FrameHistory
 
 logger = get_logger(__name__)
 
@@ -18,6 +19,8 @@ client = httpx.Client(
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
         'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36'})
 
+# Initialize frame history
+frame_history = FrameHistory()
 
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(2))
 def download_frame(configs: dict, frame_number: int, episode_number: int) -> Optional[Path]:
@@ -53,7 +56,7 @@ def download_frame(configs: dict, frame_number: int, episode_number: int) -> Opt
         images_dir = Path.cwd() / "images"
         images_dir.mkdir(parents=True, exist_ok=True)
 
-        frame_path = images_dir / f"frame_{frame_number}.jpg"
+        frame_path = images_dir / f"{frame_number:04d}.jpg"
         frame_path.write_bytes(response.content)
 
         return frame_path
@@ -72,28 +75,44 @@ def download_frame(configs: dict, frame_number: int, episode_number: int) -> Opt
 def get_random_frame(configs: dict) -> tuple[int, int] | None:
     """
     Select a random frame from the episodes configuration.
+    Avoids returning frames that have been used before.
 
-    args:
+    Args:
         configs (dict): Configuration dictionary containing episode data.
     
-    returns:
+    Returns:
         tuple[int, int] | None: A tuple containing the random frame number and episode number.
-        Returns None if no valid frame is found.
+        Returns None if no valid frame is found or if all frames have been used.
     """
     episodes: dict = configs.get("episodes", {})
     if not episodes:
-        print("No episodes found in the configuration.")
+        logger.error("No episodes found in the configuration.")
         return None
 
-    random_episode_key = random.choice(list(episodes.keys()))
-    episode_data: dict = episodes.get(random_episode_key, {})
-    number_of_frames = episode_data.get("number_of_frames", 0)
-
-    if number_of_frames <= 0:
-        logger.error(f"No frames available in episode {random_episode_key}.", exc_info=True)
-        return None
+    # Try to find an unused frame
+    max_attempts = 100  # Prevent infinite loops
+    attempts = 0
     
-    return random.randint(1, number_of_frames), int(random_episode_key)
+    while attempts < max_attempts:
+        random_episode_key = random.choice(list(episodes.keys()))
+        episode_data: dict = episodes.get(random_episode_key, {})
+        number_of_frames = episode_data.get("number_of_frames", 0)
+
+        if number_of_frames <= 0:
+            logger.error(f"No frames available in episode {random_episode_key}.", exc_info=True)
+            return None
+
+        frame_number = random.randint(1, number_of_frames)
+        episode_number = int(random_episode_key)
+        
+        if not frame_history.is_frame_used(frame_number, episode_number):
+            frame_history.add_frame(frame_number, episode_number)
+            return frame_number, episode_number
+            
+        attempts += 1
+
+    logger.warning("Could not find an unused frame after maximum attempts.")
+    return None
 
    
 def random_crop(frame_path: Path, configs: dict) -> tuple[Path, str] | None:
