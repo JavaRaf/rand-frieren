@@ -2,3 +2,4 @@ __pycache__
 images/*.jpg
 temp/*
 test.py
+.pytest_cache

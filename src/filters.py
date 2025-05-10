@@ -1,17 +1,17 @@
 from pathlib import Path
 import random
-
 from PIL import Image, ImageEnhance
-
-OUTPUT_DIR = Path.cwd() / "images"
-
 from src.logger import get_logger
 
+# Define output directory for processed images
+OUTPUT_DIR = Path.cwd() / "images"
+
+# Initialize logger
 logger = get_logger(__name__)
 
 
 def none_filter(frame_path: Path) -> Path:
-    """Retorna a imagem original sem aplicar nenhum filtro."""
+    """Returns the original frame without applying any filter."""
     return frame_path
 
 
@@ -34,7 +34,7 @@ def two_panels(frame_path1: Path, frame_path2: Path) -> Path:
 
 
 def mirror(frame_path) -> Path:
-    """Espelha aleatoriamente o lado esquerdo ou direito da imagem."""
+    """Mirrors the left or right side of the image randomly."""
     try:
         with Image.open(frame_path) as img:
             width, height = img.size
@@ -62,7 +62,7 @@ def mirror(frame_path) -> Path:
 
 
 def brightness_contrast(frame_path: Path, brightness: float = 0.8, contrast: float = 1.5) -> Path:
-    """Aplica um filtro de brilho e contraste a uma imagem."""
+    """Applies a brightness and contrast filter to an image."""
     input_path = Path(frame_path)
 
     if not input_path.exists():
@@ -83,7 +83,7 @@ def brightness_contrast(frame_path: Path, brightness: float = 0.8, contrast: flo
 
 
 def negative(frame_path) -> Path:
-    """Aplica um filtro negativo."""
+    """Applies a negative filter."""
     try:
         with Image.open(frame_path) as img:
             output_img = img.convert("RGB").point(lambda x: 255 - x)
