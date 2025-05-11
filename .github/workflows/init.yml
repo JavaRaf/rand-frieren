@@ -84,6 +84,6 @@ jobs:
         with:
           commit_message: "save changes"
           branch: main
-          file_pattern: "subtitles/* logs/*"
+          file_pattern: "subtitles/* logs/* temp/*.json"
           push_options: '--force'
           

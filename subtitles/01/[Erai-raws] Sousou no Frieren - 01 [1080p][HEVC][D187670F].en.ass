@@ -1,0 +1,352 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: DefaultItalicsTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: DefaultOverlap,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: FlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: FlashbackTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0018,0
+Style: FlashbackItalicsTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Narration,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Signs_WText,Times New Roman,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,0030,0030,0010,0
+Style: Signs_EpTitle,Times New Roman,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0030,0030,0010,0
+Style: Signs_NextEp,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Songs_OP,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00B7812E,&H00B7812E,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Songs_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A95974,&H00A95974,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.52,0:00:03.02,Songs_OP,OP LYRICS,0000,0000,0000,,Like a fairy tale
+Dialogue: 0,0:00:03.02,0:00:05.44,Songs_OP,OP LYRICS,0000,0000,0000,,It's a sign the story has reached its end
+Dialogue: 0,0:00:05.44,0:00:08.36,Songs_OP,OP LYRICS,0000,0000,0000,,Like a single passage taken from
+Dialogue: 0,0:00:08.36,0:00:09.98,Songs_OP,OP LYRICS,0000,0000,0000,,A journey that was too long
+Dialogue: 0,0:00:09.98,0:00:12.32,Songs_OP,OP LYRICS,0000,0000,0000,,Of the evil that once cast a shadow
+Dialogue: 0,0:00:12.32,0:00:14.66,Songs_OP,OP LYRICS,0000,0000,0000,,Across this land
+Dialogue: 0,0:00:14.66,0:00:16.99,Songs_OP,OP LYRICS,0000,0000,0000,,And the memories of the short journey
+Dialogue: 0,0:00:16.99,0:00:19.45,Songs_OP,OP LYRICS,0000,0000,0000,,With the hero who defeated it
+Dialogue: 0,0:00:20.24,0:00:29.21,Signs,SIGN,0000,0000,0000,,{\fad(1,473)\blur0.25\fs25\fnGeorgia\fsp3.9\pos(322,230)\c&HFFFCFE&\t(989,4326,\c&HEFC777&)\t(6411,6745,\c&HEAC732&)}Beyond Journey's End
+Dialogue: 0,0:00:29.46,0:00:31.76,Songs_OP,OP LYRICS,0000,0000,0000,,The story ends
+Dialogue: 0,0:00:31.76,0:00:34.26,Songs_OP,OP LYRICS,0000,0000,0000,,And the hero goes to sleep
+Dialogue: 0,0:00:34.26,0:00:37.09,Songs_OP,OP LYRICS,0000,0000,0000,,Leaving this land with
+Dialogue: 0,0:00:37.09,0:00:38.76,Songs_OP,OP LYRICS,0000,0000,0000,,Days of peace and quiet
+Dialogue: 0,0:00:38.76,0:00:41.27,Songs_OP,OP LYRICS,0000,0000,0000,,The passage of time heartlessly
+Dialogue: 0,0:00:41.27,0:00:43.43,Songs_OP,OP LYRICS,0000,0000,0000,,Makes people forget
+Dialogue: 0,0:00:43.43,0:00:46.23,Songs_OP,OP LYRICS,0000,0000,0000,,Even the tracks left behind by his life
+Dialogue: 0,0:00:46.23,0:00:48.02,Songs_OP,OP LYRICS,0000,0000,0000,,Begin to rust
+Dialogue: 0,0:00:48.02,0:00:49.86,Songs_OP,OP LYRICS,0000,0000,0000,,Just the same
+Dialogue: 0,0:00:49.86,0:00:52.15,Songs_OP,OP LYRICS,0000,0000,0000,,Your words and wishes and courage
+Dialogue: 0,0:00:52.15,0:00:55.49,Songs_OP,OP LYRICS,0000,0000,0000,,Are still inside of me
+Dialogue: 0,0:00:55.49,0:00:57.36,Songs_OP,OP LYRICS,0000,0000,0000,,And they live on
+Dialogue: 0,0:00:58.16,0:00:59.91,Songs_OP,OP LYRICS,0000,0000,0000,,We chose the same path
+Dialogue: 0,0:00:59.91,0:01:02.04,Songs_OP,OP LYRICS,0000,0000,0000,,That's all it was supposed to be
+Dialogue: 0,0:01:02.04,0:01:03.58,Songs_OP,OP LYRICS,0000,0000,0000,,Why is it that at some point
+Dialogue: 0,0:01:03.58,0:01:07.83,Songs_OP,OP LYRICS,0000,0000,0000,,I wanted to understand the reason for
+Dialogue: 0,0:01:07.83,0:01:09.21,Songs_OP,OP LYRICS,0000,0000,0000,,The tears that fall down my cheeks
+Dialogue: 0,0:01:09.21,0:01:10.29,Songs_OP,OP LYRICS,0000,0000,0000,,Even now
+Dialogue: 0,0:01:10.29,0:01:12.67,Songs_OP,OP LYRICS,0000,0000,0000,,If I retrace the journey we walked together
+Dialogue: 0,0:01:12.67,0:01:16.22,Songs_OP,OP LYRICS,0000,0000,0000,,Even though you're not there
+Dialogue: 0,0:01:16.22,0:01:17.89,Songs_OP,OP LYRICS,0000,0000,0000,,I know I'll be able to find it
+Dialogue: 0,0:01:29.98,0:01:39.74,Signs_WText,SIGN,0000,0000,0000,,{\blur0.2\pos(496,42)}At the northernmost end of the continent,\NI arrived at the place that\Nthe people of this world call heaven:\NAureole, the land where souls rest.
+Dialogue: 0,0:01:39.74,0:01:48.00,Signs_WText,SIGN,0000,0000,0000,,{\blur0.2\pos(520,42)\t(7203,8246,\c&H080808&)}Many souls gather there, and I spoke with\Nfriends who once fought alongside me.\N—Flamme the Legendary Mage
+Dialogue: 0,0:01:59.80,0:02:00.85,Default,HIMMEL,0000,0000,0000,,Frieren.
+Dialogue: 0,0:02:08.44,0:02:10.56,Default,FRIEREN,0000,0000,0000,,The royal capital's in sight.
+Dialogue: 0,0:02:10.56,0:02:13.44,Default,HEITER,0000,0000,0000,,The adventurers are making \Ntheir triumphant return.
+Dialogue: 0,0:02:13.44,0:02:15.23,Default,HEITER,0000,0000,0000,,They must be celebrating in the city.
+Dialogue: 0,0:02:17.74,0:02:20.32,Default,HIMMEL,0000,0000,0000,,We'll have to look for work once we're back.
+Dialogue: 0,0:02:20.82,0:02:22.99,Default,FRIEREN,0000,0000,0000,,You're already thinking about that?
+Dialogue: 0,0:02:23.41,0:02:24.99,Default,HIMMEL,0000,0000,0000,,It's important, after all.
+Dialogue: 0,0:02:24.99,0:02:28.08,Default,HIMMEL,0000,0000,0000,,We've defeated the Demon King, \Nbut it's not over.
+Dialogue: 0,0:02:28.91,0:02:31.17,Default,HIMMEL,0000,0000,0000,,We have the whole rest \Nof our lives ahead of us.
+Dialogue: 0,0:02:31.88,0:02:33.75,Default,EISEN,0000,0000,0000,,Work, huh?
+Dialogue: 0,0:02:33.75,0:02:35.92,Default,HEITER,0000,0000,0000,,I'd like something where \NI can drink on the job.
+Dialogue: 0,0:02:36.21,0:02:37.51,Default,HIMMEL,0000,0000,0000,,Aren't you a priest?
+Dialogue: 0,0:02:40.18,0:02:41.80,Default,FRIEREN,0000,0000,0000,,I suppose you're right.
+Dialogue: 0,0:02:43.93,0:02:51.44,Default,HIMMEL,0000,0000,0000,,Frieren, the life ahead of you will surely \Nbe much longer than we can imagine.
+Dialogue: 0,0:02:52.27,0:02:53.61,Default,FRIEREN,0000,0000,0000,,Perhaps.
+Dialogue: 0,0:03:01.99,0:03:07.95,Signs,SIGN,0000,0000,0000,,{\fnGeorgia\fad(946,1)\fsp3.2\pos(320,228)}Beyond Journey's End
+Dialogue: 0,0:03:30.77,0:03:32.48,Default,KING,0000,0000,0000,,Himmel the Hero,
+Dialogue: 0,0:03:32.85,0:03:35.98,Default,KING,0000,0000,0000,,Eisen the Warrior, Heiter the Priest,
+Dialogue: 0,0:03:36.48,0:03:38.73,Default,KING,0000,0000,0000,,and Frieren the Mage.
+Dialogue: 0,0:03:39.28,0:03:42.91,Default,KING,0000,0000,0000,,Thank you for defeating the Demon King.
+Dialogue: 0,0:03:43.32,0:03:47.99,Default,KING,0000,0000,0000,,Now our world will enter an age of peace.
+Dialogue: 0,0:04:02.97,0:04:06.93,Default,HIMMEL,0000,0000,0000,,The king's going to erect \Nstatues of us in the plaza.
+Dialogue: 0,0:04:07.35,0:04:14.31,Default,HIMMEL,0000,0000,0000,,I'm not sure they'll be able to faithfully \Nrecreate my handsome looks, though.
+Dialogue: 0,0:04:15.06,0:04:16.90,Default,FRIEREN,0000,0000,0000,,How self-serving of him.
+Dialogue: 0,0:04:16.90,0:04:20.48,Default,FRIEREN,0000,0000,0000,,He only gave us ten copper coins \Nwhen we left on our adventure.
+Dialogue: 0,0:04:22.11,0:04:26.78,Default,HEITER,0000,0000,0000,,Now, now, Frieren. \NTonight, we drink for free.
+Dialogue: 0,0:04:26.78,0:04:28.74,Default,HEITER,0000,0000,0000,,I'd say we're even, wouldn't you?
+Dialogue: 0,0:04:29.16,0:04:30.45,Default,FRIEREN,0000,0000,0000,,You corrupt priest.
+Dialogue: 0,0:04:38.42,0:04:40.21,Default,EISEN,0000,0000,0000,,It's over.
+Dialogue: 0,0:04:41.09,0:04:42.21,Default,HIMMEL,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:42.97,0:04:45.59,Default,HIMMEL,0000,0000,0000,,This is the end of our adventure.
+Dialogue: 0,0:04:46.43,0:04:47.93,Default,HEITER,0000,0000,0000,,It's been ten years, huh?
+Dialogue: 0,0:04:48.60,0:04:50.97,Default,HEITER,0000,0000,0000,,We've been through a lot.
+Dialogue: 0,0:04:52.02,0:04:53.39,Default,HEITER,0000,0000,0000,,The day we departed...
+Dialogue: 0,0:04:54.02,0:04:58.48,Default,HEITER,0000,0000,0000,,Himmel and Eisen were nearly executed \Nfor speaking rudely to the king.
+Dialogue: 0,0:04:54.73,0:04:55.81,FlashbackTop,KING,0000,0000,0000,,Kill them.
+Dialogue: 0,0:04:56.56,0:04:58.48,FlashbackTop,FRIEREN,0000,0000,0000,,We'll give them a talking to.
+Dialogue: 0,0:04:57.31,0:04:58.48,FlashbackTop,HEITER,0000,0000,0000,,Shall we lick your boots?
+Dialogue: 0,0:04:58.77,0:05:01.90,Default,FRIEREN,0000,0000,0000,,One misstep, and our adventure \Nwould've ended there.
+Dialogue: 0,0:05:02.82,0:05:06.53,Default,HIMMEL,0000,0000,0000,,Sometimes, Heiter was too \Nhungover to do anything.
+Dialogue: 0,0:05:10.83,0:05:14.50,Flashback,FRIEREN,0000,0000,0000,,You're as pallid as an undead. \NAre you all right?
+Dialogue: 0,0:05:14.50,0:05:15.46,Flashback,HEITER,0000,0000,0000,,No.
+Dialogue: 0,0:05:15.46,0:05:16.62,Flashback,HIMMEL,0000,0000,0000,,No, huh?
+Dialogue: 0,0:05:17.12,0:05:19.38,Default,EISEN,0000,0000,0000,,It was a weekly occurrence.
+Dialogue: 0,0:05:19.63,0:05:21.38,Default,FRIEREN,0000,0000,0000,,I, on the other hand, was exceptional.
+Dialogue: 0,0:05:21.63,0:05:25.22,Default,EISEN,0000,0000,0000,,We thought about leaving you behind \Nwhen that mimic tried to eat you.
+Dialogue: 0,0:05:25.22,0:05:28.39,Flashback,HIMMEL,0000,0000,0000,,Seriously? We told her it was a trap.
+Dialogue: 0,0:05:26.63,0:05:30.10,FlashbackTop,FRIEREN,0000,0000,0000,,It's dark and scary in here!
+Dialogue: 0,0:05:28.39,0:05:30.10,Flashback,EISEN,0000,0000,0000,,Why don't we leave the elf behind?
+Dialogue: 0,0:05:34.73,0:05:38.35,Default,HIMMEL,0000,0000,0000,,We have nothing but terrible memories.
+Dialogue: 0,0:05:39.69,0:05:41.36,Default,HIMMEL,0000,0000,0000,,But I had fun.
+Dialogue: 0,0:05:41.86,0:05:45.24,Default,HIMMEL,0000,0000,0000,,I'm glad I got to adventure with all of you.
+Dialogue: 0,0:05:46.03,0:05:47.24,Default,HEITER,0000,0000,0000,,Likewise.
+Dialogue: 0,0:05:47.74,0:05:49.99,Default,FRIEREN,0000,0000,0000,,It was a mere ten-year adventure.
+Dialogue: 0,0:05:50.24,0:05:51.70,Default,HIMMEL,0000,0000,0000,,"A mere ten-year adventure"?
+Dialogue: 0,0:05:51.70,0:05:54.12,Default,HIMMEL,0000,0000,0000,,But that's an entire decade \Nwe spent adventuring together.
+Dialogue: 0,0:05:54.45,0:05:58.08,Default,HIMMEL,0000,0000,0000,,Look at Heiter. He's turned into an old man.
+Dialogue: 0,0:05:58.08,0:05:59.63,Default,HEITER,0000,0000,0000,,That's rude.
+Dialogue: 0,0:05:59.63,0:06:01.17,Default,FRIEREN,0000,0000,0000,,He always looked like that.
+Dialogue: 0,0:06:01.17,0:06:02.46,Default,HEITER,0000,0000,0000,,That's rude.
+Dialogue: 0,0:06:09.72,0:06:11.22,Default,EISEN,0000,0000,0000,,It's nearly time.
+Dialogue: 0,0:06:19.27,0:06:21.69,Default,HEITER,0000,0000,0000,,The Era Meteor Shower, was it?
+Dialogue: 0,0:06:22.31,0:06:25.57,Default,HIMMEL,0000,0000,0000,,It happens once every fifty years.
+Dialogue: 0,0:06:26.61,0:06:29.49,Default,HIMMEL,0000,0000,0000,,Perfect for marking the \Nstart of an era of peace.
+Dialogue: 0,0:06:32.57,0:06:34.24,Default,HIMMEL,0000,0000,0000,,They're beautiful.
+Dialogue: 0,0:06:34.24,0:06:36.62,Default,FRIEREN,0000,0000,0000,,The view's not so good \Nfrom inside the city, though.
+Dialogue: 0,0:06:36.62,0:06:39.75,Default,HIMMEL,0000,0000,0000,,I'm having a moment over here. \NDon't spoil the mood.
+Dialogue: 0,0:06:41.83,0:06:43.25,Default,FRIEREN,0000,0000,0000,,Next time, then.
+Dialogue: 0,0:06:45.05,0:06:47.97,Default,FRIEREN,0000,0000,0000,,I know a place where you \Ncan see them more clearly.
+Dialogue: 0,0:06:47.97,0:06:49.51,Default,FRIEREN,0000,0000,0000,,I'll take you there in fifty years.
+Dialogue: 0,0:06:53.18,0:06:54.39,Default,FRIEREN,0000,0000,0000,,What?
+Dialogue: 0,0:06:54.39,0:06:56.72,Default,HIMMEL,0000,0000,0000,,It's nothing.
+Dialogue: 0,0:06:58.52,0:07:01.73,Default,HIMMEL,0000,0000,0000,,You're right. Let's go see them together.
+Dialogue: 0,0:07:24.29,0:07:26.00,Default,FRIEREN,0000,0000,0000,,Well, I should go.
+Dialogue: 0,0:07:26.55,0:07:28.26,Default,HIMMEL,0000,0000,0000,,What are you going to do now?
+Dialogue: 0,0:07:28.80,0:07:31.34,Default,FRIEREN,0000,0000,0000,,I'm going to continue collecting spells.
+Dialogue: 0,0:07:31.34,0:07:34.85,Default,FRIEREN,0000,0000,0000,,I plan to travel around the central lands \Nfor the next hundred years or so.
+Dialogue: 0,0:07:34.85,0:07:37.22,Default,FRIEREN,0000,0000,0000,,I'll stop by once in a while.
+Dialogue: 0,0:07:42.31,0:07:44.94,Default,HEITER,0000,0000,0000,,I can't understand what \Nbeing an elf must be like.
+Dialogue: 0,0:07:44.94,0:07:47.61,Default,HIMMEL,0000,0000,0000,,Seriously, how long has she been around?
+Dialogue: 0,0:07:48.36,0:07:53.61,Default,HEITER,0000,0000,0000,,To her, fifty or even a hundred years \Nmight be a trifling thing.
+Dialogue: 0,0:08:44.04,0:08:45.92,Default,SHOPKEEPER,0000,0000,0000,,Shadow dragon horns?
+Dialogue: 0,0:08:46.21,0:08:48.59,Default,SHOPKEEPER,0000,0000,0000,,We don't have those here.
+Dialogue: 0,0:08:49.00,0:08:52.92,Default,SHOPKEEPER,0000,0000,0000,,Haven't seen a shadow dragon \Nin twenty or thirty years.
+Dialogue: 0,0:08:52.92,0:08:56.93,Default,FRIEREN,0000,0000,0000,,I see. That's no good. \NI need one for summoning.
+Dialogue: 0,0:08:59.51,0:09:05.02,DefaultItalics,FRIEREN,0000,0000,0000,,Come to think of it, I think Himmel still has\Nthe horn we got at the Demon King's castle.
+Dialogue: 0,0:09:05.60,0:09:08.94,Flashback,HIMMEL,0000,0000,0000,,It's exuding some kind of evil aura.
+Dialogue: 0,0:09:08.94,0:09:10.90,Flashback,HIMMEL,0000,0000,0000,,It's not harmful to people, is it?
+Dialogue: 0,0:09:10.90,0:09:12.03,Flashback,FRIEREN,0000,0000,0000,,I don't know.
+Dialogue: 0,0:09:12.03,0:09:13.90,Flashback,HIMMEL,0000,0000,0000,,You don't know, huh?
+Dialogue: 0,0:09:14.61,0:09:17.32,DefaultItalics,FRIEREN,0000,0000,0000,,It's nearly time for the \NEra Meteor Shower again.
+Dialogue: 0,0:09:17.32,0:09:18.91,DefaultItalics,FRIEREN,0000,0000,0000,,I'll pick the horn up when I visit him.
+Dialogue: 0,0:09:24.91,0:09:28.33,DefaultItalics,FRIEREN,0000,0000,0000,,The city's changed quite a bit \Nsince I was last here.
+Dialogue: 0,0:09:42.72,0:09:44.89,Default,FRIEREN,0000,0000,0000,,It should be around here.
+Dialogue: 0,0:09:45.60,0:09:46.94,Default,HIMMEL,0000,0000,0000,,Frieren?
+Dialogue: 0,0:09:47.89,0:09:48.73,Default,FRIEREN,0000,0000,0000,,Himmel...
+Dialogue: 0,0:09:55.61,0:09:56.95,Default,FRIEREN,0000,0000,0000,,You're so old.
+Dialogue: 0,0:09:56.95,0:09:58.36,Default,HIMMEL,0000,0000,0000,,Do you have to put it so bluntly?
+Dialogue: 0,0:10:00.78,0:10:04.62,Default,HIMMEL,0000,0000,0000,,I'm still pretty handsome \Nat this age, though, aren't I?
+Dialogue: 0,0:10:06.04,0:10:10.88,Default,HIMMEL,0000,0000,0000,,It's been fifty years. \NYou look the same as you ever did.
+Dialogue: 0,0:10:11.75,0:10:15.09,Default,HIMMEL,0000,0000,0000,,I thought I'd never see you again.
+Dialogue: 0,0:10:17.47,0:10:19.38,Default,HIMMEL,0000,0000,0000,,The Era Meteor Shower, huh?
+Dialogue: 0,0:10:19.68,0:10:21.55,Default,HIMMEL,0000,0000,0000,,That brings back memories.
+Dialogue: 0,0:10:21.55,0:10:24.72,Default,FRIEREN,0000,0000,0000,,About that thing we looted from \Nthe Demon King's castle...
+Dialogue: 0,0:10:24.72,0:10:26.77,Default,HIMMEL,0000,0000,0000,,You mean the shadow dragon horn?
+Dialogue: 0,0:10:27.10,0:10:30.02,Default,HIMMEL,0000,0000,0000,,I've never forgotten about it.
+Dialogue: 0,0:10:30.48,0:10:34.02,Default,HIMMEL,0000,0000,0000,,My cabinet's been exuding \Nan evil aura all this time.
+Dialogue: 0,0:10:34.48,0:10:35.78,Default,FRIEREN,0000,0000,0000,,Sorry, I think.
+Dialogue: 0,0:10:36.36,0:10:40.24,Default,FRIEREN,0000,0000,0000,,You could've stashed it \Nin a shed or something.
+Dialogue: 0,0:10:41.99,0:10:43.91,Default,HIMMEL,0000,0000,0000,,I couldn't do that.
+Dialogue: 0,0:10:47.12,0:10:51.83,Default,HIMMEL,0000,0000,0000,,You may not have thought much \Nof leaving it with me,
+Dialogue: 0,0:10:51.83,0:10:57.42,Default,HIMMEL,0000,0000,0000,,but to me, it was a treasure \Nentrusted to me by a dear friend.
+Dialogue: 0,0:10:57.42,0:11:01.18,Default,HIMMEL,0000,0000,0000,,I had to return it to you someday.
+Dialogue: 0,0:11:09.77,0:11:12.73,Default,FRIEREN,0000,0000,0000,,It's not that big a deal.
+Dialogue: 0,0:11:32.58,0:11:33.88,Default,FRIEREN,0000,0000,0000,,Himmel, are you ready yet?
+Dialogue: 0,0:11:34.58,0:11:37.46,Default,FRIEREN,0000,0000,0000,,You're bald, anyway. There's no point \Nin fussing over your appearance.
+Dialogue: 0,0:11:38.34,0:11:40.88,Default,HIMMEL,0000,0000,0000,,There are things we bald men \Nare particular about.
+Dialogue: 0,0:11:47.93,0:11:51.52,Default,HIMMEL,0000,0000,0000,,Now, shall we go see the Era Meteor Shower?
+Dialogue: 0,0:11:59.69,0:12:02.49,Default,FRIEREN,0000,0000,0000,,You've become rather dignified, Heiter.
+Dialogue: 0,0:12:02.49,0:12:04.41,Default,HEITER,0000,0000,0000,,I'm a bishop of the holy city, after all.
+Dialogue: 0,0:12:04.70,0:12:07.83,Default,HEITER,0000,0000,0000,,You haven't changed at all.
+Dialogue: 0,0:12:07.83,0:12:09.66,Default,FRIEREN,0000,0000,0000,,Don't pat my head.
+Dialogue: 0,0:12:11.20,0:12:13.50,Default,FRIEREN,0000,0000,0000,,Eisen, you haven't changed much.
+Dialogue: 0,0:12:14.12,0:12:16.59,Default,EISEN,0000,0000,0000,,Is that how I seem to you?
+Dialogue: 0,0:12:16.59,0:12:18.00,Default,FRIEREN,0000,0000,0000,,I would expect as much from a dwarf.
+Dialogue: 0,0:12:18.38,0:12:21.47,Default,HIMMEL,0000,0000,0000,,So, where's this place where we can \Nsee the meteor shower clearly?
+Dialogue: 0,0:12:22.38,0:12:24.43,Default,HEITER,0000,0000,0000,,We're going there now?
+Dialogue: 0,0:12:24.43,0:12:28.43,Default,HEITER,0000,0000,0000,,It's a bit early to see the \NEra Meteor Shower, isn't it?
+Dialogue: 0,0:12:28.43,0:12:32.52,Default,FRIEREN,0000,0000,0000,,Yeah. It's about a week's walk from here.
+Dialogue: 0,0:12:32.77,0:12:35.02,Default,EISEN,0000,0000,0000,,It's that far away?
+Dialogue: 0,0:12:35.02,0:12:36.61,Default,HIMMEL,0000,0000,0000,,Unbelievable.
+Dialogue: 0,0:12:36.61,0:12:39.02,Default,HIMMEL,0000,0000,0000,,You should be kinder to the elderly.
+Dialogue: 0,0:12:42.32,0:12:43.86,Default,HIMMEL,0000,0000,0000,,This brings back memories.
+Dialogue: 0,0:12:44.24,0:12:48.03,Default,HIMMEL,0000,0000,0000,,Traveling together like this makes me \Nfeel like we've returned to those days.
+Dialogue: 0,0:12:52.45,0:12:55.04,Default,HIMMEL,0000,0000,0000,,We journeyed to all sorts of places.
+Dialogue: 0,0:12:56.00,0:13:01.05,Default,HIMMEL,0000,0000,0000,,Everything seemed so brilliant and new.
+Dialogue: 0,0:13:25.86,0:13:30.91,Default,HIMMEL,0000,0000,0000,,And you were always there \Nin those beautiful memories.
+Dialogue: 0,0:13:34.08,0:13:39.75,Default,HIMMEL,0000,0000,0000,,I'd been looking forward to the day \Nwhen we'd all be together again.
+Dialogue: 0,0:13:40.46,0:13:42.38,Default,HIMMEL,0000,0000,0000,,Thank you, Frieren.
+Dialogue: 0,0:13:43.30,0:13:48.68,Default,HIMMEL,0000,0000,0000,,Because of you, I had this delightful \Nadventure at the very end.
+Dialogue: 0,0:14:12.70,0:14:14.33,Default,HIMMEL,0000,0000,0000,,They're beautiful.
+Dialogue: 0,0:14:41.44,0:14:44.86,Default,HEITER,0000,0000,0000,,I think Himmel was happy.
+Dialogue: 0,0:14:46.32,0:14:47.82,Default,FRIEREN,0000,0000,0000,,You think so?
+Dialogue: 0,0:14:54.78,0:14:57.91,Default,ATTENDANT A,0000,0000,0000,,She was one of Mr. Himmel's companions?
+Dialogue: 0,0:14:58.25,0:15:00.42,Default,ATTENDANT A,0000,0000,0000,,I haven't seen her look sad once today.
+Dialogue: 0,0:15:00.67,0:15:02.63,Default,ATTENDANT B,0000,0000,0000,,How heartless.
+Dialogue: 0,0:15:03.63,0:15:07.30,Default,HEITER,0000,0000,0000,,Now, now! We're not wearing \Nsad expressions, either.
+Dialogue: 0,0:15:07.30,0:15:08.84,Default,ATTENDANT C,0000,0000,0000,,Show some respect, Bishop!
+Dialogue: 0,0:15:08.84,0:15:10.05,Default,ATTENDANT D,0000,0000,0000,,You're heartless!
+Dialogue: 0,0:15:11.68,0:15:13.09,Default,HEITER,0000,0000,0000,,You wound me.
+Dialogue: 0,0:15:37.04,0:15:41.37,Default,FRIEREN,0000,0000,0000,,It's not like I knew anything about him.
+Dialogue: 0,0:15:53.47,0:15:57.35,Default,FRIEREN,0000,0000,0000,,We only traveled together \Nfor a mere ten years.
+Dialogue: 0,0:16:04.44,0:16:08.82,Default,FRIEREN,0000,0000,0000,,I knew human lives were short, but...
+Dialogue: 0,0:16:10.07,0:16:14.86,Default,FRIEREN,0000,0000,0000,,Why didn't I try to get to know him better?
+Dialogue: 0,0:16:23.96,0:16:26.17,Default,FRIEREN,0000,0000,0000,,Don't pat my head.
+Dialogue: 0,0:16:34.80,0:16:37.97,Default,HEITER,0000,0000,0000,,I should return to the holy city.
+Dialogue: 0,0:16:41.06,0:16:43.73,Default,HEITER,0000,0000,0000,,Let me get a good look at your faces.
+Dialogue: 0,0:16:44.31,0:16:46.60,Default,HEITER,0000,0000,0000,,This will probably be \Nthe last time I see you.
+Dialogue: 0,0:16:47.02,0:16:48.36,Default,FRIEREN,0000,0000,0000,,Are you unwell?
+Dialogue: 0,0:16:48.73,0:16:51.11,Default,HEITER,0000,0000,0000,,My years of drinking have caught up to me.
+Dialogue: 0,0:16:51.44,0:16:52.86,Default,EISEN,0000,0000,0000,,It's divine punishment.
+Dialogue: 0,0:16:54.36,0:16:58.99,Default,HEITER,0000,0000,0000,,If you're ever in the holy city, \Noffer a drink at my grave.
+Dialogue: 0,0:17:00.87,0:17:03.54,Default,FRIEREN,0000,0000,0000,,Heiter, you're not afraid of dying?
+Dialogue: 0,0:17:05.67,0:17:09.46,Default,HEITER,0000,0000,0000,,We're the party of adventurers \Nthat saved the world.
+Dialogue: 0,0:17:09.46,0:17:13.21,Default,HEITER,0000,0000,0000,,We'll surely be living the good life \Nin Heaven after death.
+Dialogue: 0,0:17:13.84,0:17:17.93,Default,HEITER,0000,0000,0000,,That's the whole reason \NI fought alongside you.
+Dialogue: 0,0:17:17.93,0:17:19.51,Default,FRIEREN,0000,0000,0000,,You corrupt priest.
+Dialogue: 0,0:17:21.77,0:17:23.48,Default,HEITER,0000,0000,0000,,If you'll excuse me.
+Dialogue: 0,0:17:31.69,0:17:34.69,Default,FRIEREN,0000,0000,0000,,I should get going, too.
+Dialogue: 0,0:17:35.49,0:17:37.70,Default,EISEN,0000,0000,0000,,You're off to collect more spells?
+Dialogue: 0,0:17:37.70,0:17:39.53,Default,FRIEREN,0000,0000,0000,,There's that, too,
+Dialogue: 0,0:17:40.41,0:17:43.41,Default,FRIEREN,0000,0000,0000,,but I want to learn more about humans.
+Dialogue: 0,0:17:45.54,0:17:46.50,Default,EISEN,0000,0000,0000,,I see.
+Dialogue: 0,0:17:47.50,0:17:49.92,Default,FRIEREN,0000,0000,0000,,So I wanted to ask you something.
+Dialogue: 0,0:17:49.92,0:17:55.01,Default,FRIEREN,0000,0000,0000,,Seeing as how I'm a mage, having a powerful \Nwarrior to defend me would be a huge help.
+Dialogue: 0,0:17:55.01,0:17:56.72,Default,EISEN,0000,0000,0000,,Give me a break.
+Dialogue: 0,0:17:57.05,0:17:59.97,Default,EISEN,0000,0000,0000,,I'm too old to swing an axe now.
+Dialogue: 0,0:18:03.26,0:18:05.81,Default,EISEN,0000,0000,0000,,Don't make that face, Frieren.
+Dialogue: 0,0:18:06.18,0:18:11.11,Default,EISEN,0000,0000,0000,,Surprisingly, life slows down \Nonce you've lost your vigor.
+Dialogue: 0,0:18:12.94,0:18:13.86,Default,FRIEREN,0000,0000,0000,,I see.
+Dialogue: 0,0:18:14.65,0:18:16.86,Default,FRIEREN,0000,0000,0000,,I'll see you later, Eisen.
+Dialogue: 0,0:18:17.24,0:18:18.86,Default,EISEN,0000,0000,0000,,Yeah. See you later.
+Dialogue: 0,0:18:53.40,0:18:56.94,Signs_EpTitle,EPTITLE,0000,0000,0000,,{\blur0.2\fad(482,1)\c&HFAFFF7&\pos(397,269.5)}Episode 1: The Journey's End
+Dialogue: 0,0:19:00.41,0:19:02.41,Default,FRIEREN,0000,0000,0000,,That's the tree I saw earlier.
+Dialogue: 0,0:19:02.41,0:19:04.28,Default,FRIEREN,0000,0000,0000,,I always get lost in these woods.
+Dialogue: 0,0:19:05.08,0:19:06.58,Default,FRIEREN,0000,0000,0000,,Where am I?
+Dialogue: 0,0:19:05.83,0:19:10.29,Signs_WText,SIGN,0000,0000,0000,,{\blur0.2\fad(521,1)\pos(588.5,16)}20 years after the death of Himmel the Hero,\Non the outskirts of the holy city of Strahl in the central lands
+Dialogue: 0,0:19:10.96,0:19:13.04,Default,FERN,0000,0000,0000,,Are you looking for something?
+Dialogue: 0,0:19:18.34,0:19:20.05,Default,FERN,0000,0000,0000,,Is something the matter?
+Dialogue: 0,0:19:20.93,0:19:24.93,Default,FRIEREN,0000,0000,0000,,I'm looking for the home \Nof a man named Heiter.
+Dialogue: 0,0:19:24.93,0:19:27.60,Default,FERN,0000,0000,0000,,Then you're a visitor.
+Dialogue: 0,0:19:30.56,0:19:33.19,Default,FRIEREN,0000,0000,0000,,You're still alive, you corrupt priest?
+Dialogue: 0,0:19:34.61,0:19:38.23,Default,HEITER,0000,0000,0000,,Turns out it's harder than I thought \Nto make a stylish exit.
+Dialogue: 0,0:19:38.61,0:19:40.99,Default,FRIEREN,0000,0000,0000,,I brought some liquor to offer at your grave.
+Dialogue: 0,0:19:41.36,0:19:42.61,Default,FRIEREN,0000,0000,0000,,Would you like a drink?
+Dialogue: 0,0:19:42.61,0:19:44.95,Default,HEITER,0000,0000,0000,,I gave up drinking.
+Dialogue: 0,0:19:44.95,0:19:45.78,Default,FRIEREN,0000,0000,0000,,I see.
+Dialogue: 0,0:19:46.45,0:19:51.37,Default,FRIEREN,0000,0000,0000,,I doubt the Goddess will forgive you \Neven if you clean up your act now.
+Dialogue: 0,0:19:58.46,0:20:00.47,Default,HEITER,0000,0000,0000,,Thank you.
+Dialogue: 0,0:20:05.51,0:20:06.60,Default,FRIEREN,0000,0000,0000,,Who is she?
+Dialogue: 0,0:20:06.89,0:20:08.47,Default,HEITER,0000,0000,0000,,Her name is Fern.
+Dialogue: 0,0:20:08.47,0:20:11.81,Default,HEITER,0000,0000,0000,,She's a war orphan from the southern lands.
+Dialogue: 0,0:20:13.23,0:20:18.40,Default,FRIEREN,0000,0000,0000,,It's not like you to \Nvolunteer to help people.
+Dialogue: 0,0:20:18.40,0:20:20.07,Default,FRIEREN,0000,0000,0000,,You're not Himmel, after all.
+Dialogue: 0,0:20:22.82,0:20:25.91,Default,HEITER,0000,0000,0000,,Frieren, why did you come to visit me?
+Dialogue: 0,0:20:25.91,0:20:28.08,Default,FRIEREN,0000,0000,0000,,I was in the holy city \Npicking up some things.
+Dialogue: 0,0:20:28.58,0:20:32.41,Default,FRIEREN,0000,0000,0000,,I've been trying to get to know the people \NI meet on my travels as much as possible.
+Dialogue: 0,0:20:33.41,0:20:38.42,Default,FRIEREN,0000,0000,0000,,And I owe you a lot, so I came to \Nrepay my debts before you died.
+Dialogue: 0,0:20:41.92,0:20:44.18,Default,HEITER,0000,0000,0000,,In that case, I have a request.
+Dialogue: 0,0:20:45.30,0:20:47.26,Default,HEITER,0000,0000,0000,,Will you take on an apprentice?
+Dialogue: 0,0:20:49.10,0:20:53.02,Default,HEITER,0000,0000,0000,,Fern has potential as a mage.
+Dialogue: 0,0:20:53.02,0:20:56.15,Default,HEITER,0000,0000,0000,,Will you take her with you on your travels?
+Dialogue: 0,0:20:59.02,0:21:02.15,Default,FRIEREN,0000,0000,0000,,I'm sorry, Heiter. \NThat's the one thing I can't do.
+Dialogue: 0,0:21:02.44,0:21:04.11,Default,FRIEREN,0000,0000,0000,,She'd only get in my way.
+Dialogue: 0,0:21:05.41,0:21:09.28,Default,FRIEREN,0000,0000,0000,,You know how often \Napprentice mages die in battle.
+Dialogue: 0,0:21:09.99,0:21:13.66,Default,FRIEREN,0000,0000,0000,,I'm not sending a child my friend \Nasked me to look after to her death.
+Dialogue: 0,0:21:16.79,0:21:20.59,Default,HEITER,0000,0000,0000,,I see. Then I have another request.
+Dialogue: 0,0:21:26.18,0:21:29.64,Default,HEITER,0000,0000,0000,,This was unearthed from \Nthe tomb of Ewig the Sage.
+Dialogue: 0,0:21:30.26,0:21:37.44,Default,HEITER,0000,0000,0000,,This grimoire is said to contain lost \Nspells of resurrection and immortality.
+Dialogue: 0,0:21:37.77,0:21:41.07,Default,FRIEREN,0000,0000,0000,,I find it hard to believe \Nsuch magic really exists.
+Dialogue: 0,0:21:41.36,0:21:45.07,Default,HEITER,0000,0000,0000,,That's part of why I'd like you to decipher it.
+Dialogue: 0,0:21:45.32,0:21:46.57,Default,HEITER,0000,0000,0000,,Can you do that?
+Dialogue: 0,0:21:47.16,0:21:49.37,Default,FRIEREN,0000,0000,0000,,It's written in code using pictures.
+Dialogue: 0,0:21:49.37,0:21:52.16,Default,FRIEREN,0000,0000,0000,,The people of this era \Nreally liked this kind of thing.
+Dialogue: 0,0:21:52.58,0:21:54.95,Default,FRIEREN,0000,0000,0000,,I could do it, given five or six years.
+Dialogue: 0,0:21:55.62,0:21:57.17,Default,HEITER,0000,0000,0000,,I see.
+Dialogue: 0,0:21:57.71,0:22:00.75,Default,FRIEREN,0000,0000,0000,,But why do you want this deciphered?
+Dialogue: 0,0:22:00.75,0:22:03.42,Default,FRIEREN,0000,0000,0000,,I thought you weren't afraid of dying.
+Dialogue: 0,0:22:03.42,0:22:05.55,Default,HEITER,0000,0000,0000,,I have two reasons.
+Dialogue: 0,0:22:06.01,0:22:10.55,Default,HEITER,0000,0000,0000,,The first is that when I said that, \NI was just putting on a brave face for you.
+Dialogue: 0,0:22:10.80,0:22:14.93,Default,HEITER,0000,0000,0000,,The second is that I'm now more \Nafraid of dying than I was before.
+Dialogue: 0,0:22:15.81,0:22:24.11,Default,HEITER,0000,0000,0000,,Even if I can't achieve immortality, \NI'd like a bit more time.
+Dialogue: 0,0:22:28.15,0:22:32.37,Default,HEITER,0000,0000,0000,,Besides, the holy scriptures tell us \Nto live healthy lives.
+Dialogue: 0,0:22:32.37,0:22:35.58,Default,HEITER,0000,0000,0000,,A long life is the ultimate \Nexpression of that, Frieren.
+Dialogue: 0,0:22:35.58,0:22:37.25,Default,FRIEREN,0000,0000,0000,,You corrupt priest.
+Dialogue: 0,0:22:39.42,0:22:46.34,Default,HEITER,0000,0000,0000,,Also, in your spare time, \Nwill you teach Fern magic?
+Dialogue: 0,0:22:46.71,0:22:50.97,Default,HEITER,0000,0000,0000,,As a priest, I don't have that knowledge.
+Dialogue: 0,0:22:51.72,0:22:54.06,Default,FRIEREN,0000,0000,0000,,I could do that.
+Dialogue: 0,0:23:01.73,0:23:02.90,Default,FRIEREN,0000,0000,0000,,There you are.
+Dialogue: 0,0:23:04.32,0:23:06.65,Default,FRIEREN,0000,0000,0000,,I've been looking everywhere for you.
+Dialogue: 0,0:23:06.65,0:23:08.74,Default,FRIEREN,0000,0000,0000,,Do you always train in the woods?
+Dialogue: 0,0:23:09.11,0:23:13.32,Default,FERN,0000,0000,0000,,Was finding me difficult even for you?
+Dialogue: 0,0:23:13.91,0:23:18.12,Default,FERN,0000,0000,0000,,Mr. Heiter often tells me \NI'm practically invisible.
+Dialogue: 0,0:23:19.79,0:23:22.29,Default,FERN,0000,0000,0000,,It's a very good thing, isn't it?
+Dialogue: 0,0:23:23.63,0:23:25.00,Default,FRIEREN,0000,0000,0000,,It is.
+Dialogue: 0,0:23:27.84,0:23:32.01,DefaultItalics,FRIEREN,0000,0000,0000,,It's true. I can barely detect her mana.
+Dialogue: 0,0:23:32.47,0:23:34.97,DefaultItalics,FRIEREN,0000,0000,0000,,Her control over her mana is exceptional.
+Dialogue: 0,0:23:35.81,0:23:39.27,DefaultItalics,FRIEREN,0000,0000,0000,,How much has she studied at such a young age?
+Dialogue: 0,0:23:39.68,0:23:45.77,Default,FERN,0000,0000,0000,,Mr. Heiter said when I can blast a hole \Nin that rock, I'll be a proper mage.
+Dialogue: 0,0:23:46.19,0:23:49.69,Default,FRIEREN,0000,0000,0000,,Oh? Heiter knows what he's \Ntalking about. That's—
+Dialogue: 0,0:23:55.87,0:23:59.70,Default,FERN,0000,0000,0000,,As you just saw, my magic \Ndissipates and doesn't reach it.
+Dialogue: 0,0:24:00.46,0:24:01.71,Default,FRIEREN,0000,0000,0000,,I see.
+Dialogue: 0,0:24:02.37,0:24:05.25,Default,FERN,0000,0000,0000,,What should I do to train?
+Dialogue: 0,0:24:05.59,0:24:08.46,Default,FRIEREN,0000,0000,0000,,Can I ask you something first?
+Dialogue: 0,0:24:09.46,0:24:10.97,Default,FRIEREN,0000,0000,0000,,Do you like magic?
+Dialogue: 0,0:24:11.76,0:24:13.47,Default,FERN,0000,0000,0000,,Somewhat.
+Dialogue: 0,0:24:16.05,0:24:17.93,Default,FRIEREN,0000,0000,0000,,Just like me, then.
+Dialogue: 0,0:24:19.93,0:24:22.48,Songs_ED,ED LYRICS,0000,0000,0000,,And you alright
+Dialogue: 0,0:24:22.98,0:24:24.98,Songs_ED,ED LYRICS,0000,0000,0000,,Can you hear me
+Dialogue: 0,0:24:25.77,0:24:31.86,Songs_ED,ED LYRICS,0000,0000,0000,,Trailing along deserted train tracks
+Dialogue: 0,0:24:31.86,0:24:34.20,Songs_ED,ED LYRICS,0000,0000,0000,,Crying excessively
+Dialogue: 0,0:24:34.78,0:24:37.37,Songs_ED,ED LYRICS,0000,0000,0000,,Wanting you to smile
+Dialogue: 0,0:24:37.37,0:24:43.42,Songs_ED,ED LYRICS,0000,0000,0000,,I hold on to memories I'd like to keep fresh
+Dialogue: 0,0:24:43.42,0:24:47.13,Songs_ED,ED LYRICS,0000,0000,0000,,There's something I'd like to tell you
+Dialogue: 0,0:24:47.13,0:24:49.88,Songs_ED,ED LYRICS,0000,0000,0000,,With words more precious than a goodbye
+Dialogue: 0,0:24:49.88,0:24:55.55,Songs_ED,ED LYRICS,0000,0000,0000,,Unremarkable yet special
+Dialogue: 0,0:24:55.55,0:24:59.10,Songs_ED,ED LYRICS,0000,0000,0000,,See, things that couldn't have been
+Dialogue: 0,0:24:59.10,0:25:02.14,Songs_ED,ED LYRICS,0000,0000,0000,,Seen if it weren't for these eyes
+Dialogue: 0,0:25:02.14,0:25:06.90,Songs_ED,ED LYRICS,0000,0000,0000,,Why? They begin to overflow
+Dialogue: 0,0:25:06.90,0:25:12.99,Songs_ED,ED LYRICS,0000,0000,0000,,So, if I were to be born again
+Dialogue: 0,0:25:12.99,0:25:18.83,Songs_ED,ED LYRICS,0000,0000,0000,,I would surely choose this place once more
+Dialogue: 0,0:25:18.83,0:25:24.83,Songs_ED,ED LYRICS,0000,0000,0000,,So, if we were to meet again
+Dialogue: 0,0:25:24.83,0:25:30.59,Songs_ED,ED LYRICS,0000,0000,0000,,I'd never let you go, I'd choose the present
+Dialogue: 0,0:25:30.59,0:25:33.55,Songs_ED,ED LYRICS,0000,0000,0000,,Even if no promises were made
+Dialogue: 0,0:25:33.55,0:25:36.47,Songs_ED,ED LYRICS,0000,0000,0000,,Even if I'm lost in days of loneliness
+Dialogue: 0,0:25:36.47,0:25:42.64,Songs_ED,ED LYRICS,0000,0000,0000,,Those tears will be alright, \Ndawn will surely break
+Dialogue: 0,0:25:42.64,0:25:45.31,Songs_ED,ED LYRICS,0000,0000,0000,,I’m whispering our lullaby
+Dialogue: 0,0:25:45.31,0:25:49.23,Songs_ED,ED LYRICS,0000,0000,0000,,for you to come back home
+Dialogue: 0,0:25:50.23,0:25:53.19,Default,HEITER,0000,0000,0000,,Is Fern's training coming along smoothly?
+Dialogue: 0,0:25:50.23,0:25:53.19,DefaultTop,FRIEREN,0000,0000,0000,,Are you trying to put on \Na brave face again, Heiter?
+Dialogue: 0,0:25:51.27,0:25:53.19,DefaultOverlap,HERBALIST,0000,0000,0000,,It saddens me to see him treated like this.
+Dialogue: 0,0:25:53.19,0:25:55.15,Default,FRIEREN,0000,0000,0000,,But they're worth looking for.
+Dialogue: 0,0:25:53.19,0:25:55.15,DefaultTop,HERBALIST,0000,0000,0000,,Magic sure is amazing, isn't it?
+Dialogue: 0,0:25:53.19,0:25:55.15,DefaultOverlap,FERN,0000,0000,0000,,You keep collecting the strangest spells.
+Dialogue: 0,0:25:55.15,0:25:56.74,DefaultTop,HEITER,0000,0000,0000,,It'd be a waste for you to die.
+Dialogue: 0,0:25:55.15,0:25:57.78,Default,HIMMEL,0000,0000,0000,,Someday, I'd like to show them to you.
+Dialogue: 0,0:25:57.49,0:25:59.95,Signs_NextEp,SIGN,0000,0000,0000,,{\fad(229,1)\blur3\t(20,312,\blur0.2)\pos(320,113.5)\c&H000000&\t(312,646,\c&HF6F6F6&)\fsp1.6\t(\fsp1)}Episode 2\N\N\N\N\N\N\N\NIt Didn't Have to Be Magic...
+Dialogue: 0,0:25:57.78,0:25:59.95,Default,FERN,0000,0000,0000,,It didn't have to be magic...

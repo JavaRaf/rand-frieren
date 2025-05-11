@@ -1,0 +1,300 @@
+﻿[Script Info]
+Title: [Erai-raws] Português (Brasil)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,1
+Style: DefaultItalics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DefaultTop,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0015,0
+Style: DefaultOverlap,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Signs_EpTitle,Times New Roman,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0030,0030,0010,0
+Style: Signs_NextEp,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Songs_OP2,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A5B23B,&H00A5B23B,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Songs_ED2,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00291665,&H00291665,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Jikai,Times New Roman,20,&H001F221F,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0000,0000,0080,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.71,0:00:08.58,Default,WIRBEL,0000,0000,0000,,Agora entendo por que o Túmulo do Rei\NArruinado nunca foi conquistado.
+Dialogue: 0,0:00:10.55,0:00:14.60,Default,WIRBEL,0000,0000,0000,,Eu não esperava encontrar isso aqui.
+Dialogue: 0,0:00:23.40,0:00:26.88,Default,RICHTER,0000,0000,0000,,Denken, podemos lidar com aquilo também?
+Dialogue: 0,0:00:32.65,0:00:37.54,Default,DENKEN,0000,0000,0000,,A única coisa que posso dizer\Né que, se isso não fosse um teste,
+Dialogue: 0,0:00:37.54,0:00:40.45,Default,DENKEN,0000,0000,0000,,eu já teria quebrado\No meu frasco há muito tempo.
+Dialogue: 0,0:01:03.12,0:01:07.04,Songs_OP2,OP LYRICS,0000,0000,0000,,Você é como o vento
+Dialogue: 0,0:01:07.04,0:01:11.67,Songs_OP2,OP LYRICS,0000,0000,0000,,Fechando seus olhos durante o pôr do sol
+Dialogue: 0,0:01:11.67,0:01:17.30,Songs_OP2,OP LYRICS,0000,0000,0000,,Eu me pergunto no que você estará pensando
+Dialogue: 0,0:01:17.59,0:01:22.64,Signs,SIGN,0000,0000,0000,,{\fad(857,1)\blur0.25\fs30\fnGeorgia\fsp3.9\c&HFFFE65&\pos(328,254)\clip(109,253,547,294)\t(3943,4986,\clip(109,253,110,294))}e a Jornada para o Além
+Dialogue: 0,0:01:22.01,0:01:26.02,Songs_OP2,OP LYRICS,0000,0000,0000,,Com as pálpebras abertas
+Dialogue: 0,0:01:26.02,0:01:30.61,Songs_OP2,OP LYRICS,0000,0000,0000,,Seus olhos brilharam como vidro
+Dialogue: 0,0:01:30.61,0:01:37.36,Songs_OP2,OP LYRICS,0000,0000,0000,,O cheiro lembrava levemente o de um dia ensolarado
+Dialogue: 0,0:01:43.29,0:01:48.50,Songs_OP2,OP LYRICS,0000,0000,0000,,Que faça sol! Que as flores desabrochem!
+Dialogue: 0,0:01:48.50,0:01:52.71,Songs_OP2,OP LYRICS,0000,0000,0000,,Floresça e diga que foi culpa do sol
+Dialogue: 0,0:01:52.71,0:01:57.09,Songs_OP2,OP LYRICS,0000,0000,0000,,Se estiver chovendo, quando ela parar
+Dialogue: 0,0:01:57.09,0:02:02.10,Songs_OP2,OP LYRICS,0000,0000,0000,,Ela te fará brilhar ao sol
+Dialogue: 0,0:02:02.10,0:02:07.48,Songs_OP2,OP LYRICS,0000,0000,0000,,Acalme os sons agitados no meu coração
+Dialogue: 0,0:02:07.48,0:02:11.52,Songs_OP2,OP LYRICS,0000,0000,0000,,Nós somos uma brisa da primavera
+Dialogue: 0,0:02:11.52,0:02:15.94,Songs_OP2,OP LYRICS,0000,0000,0000,,Voaremos até aquela nuvem
+Dialogue: 0,0:02:15.94,0:02:20.78,Songs_OP2,OP LYRICS,0000,0000,0000,,E iremos cada vez mais longe
+Dialogue: 0,0:02:23.99,0:02:27.00,Signs_EpTitle,EPTITLE,0000,0000,0000,,{\blur0.2\c&HFAFFF7&\pos(393.5,269.5)}Episódio 24: Réplicas perfeitas
+Dialogue: 0,0:02:27.85,0:02:34.71,Default,GENAU,0000,0000,0000,,Chamamos o senhor daquela masmorra\Nde "Spiegel, a Entidade Espelho D'água".
+Dialogue: 0,0:02:36.24,0:02:41.57,Default,GENAU,0000,0000,0000,,É um monstro de uma era mítica que aparece\Nnos contos heroicos do Sábio Edwig.
+Dialogue: 0,0:02:43.61,0:02:48.75,Default,GENAU,0000,0000,0000,,Acreditamos que Spiegel lê as memórias\Ndaqueles que entram na masmorra
+Dialogue: 0,0:02:48.75,0:02:52.81,Default,GENAU,0000,0000,0000,,e cria réplicas perfeitas de seus alvos.
+Dialogue: 0,0:02:54.73,0:03:00.31,Default,GENAU,0000,0000,0000,,Existem monstros semelhantes\Nna era moderna, como o Einsam,
+Dialogue: 0,0:03:00.63,0:03:06.23,Default,GENAU,0000,0000,0000,,mas as réplicas perfeitas\Ndo Spiegel têm substância física
+Dialogue: 0,0:03:06.23,0:03:09.65,Default,GENAU,0000,0000,0000,,e copiam as técnicas, mana\Ne habilidades de seu alvo.
+Dialogue: 0,0:03:11.24,0:03:15.42,Default,GENAU,0000,0000,0000,,Esse é o motivo do Túmulo do Rei Arruinado\Nainda não ter sido conquistado.
+Dialogue: 0,0:03:15.42,0:03:19.29,Default,FALSCH,0000,0000,0000,,Por que a Sense escolheu\Nessa masmorra para o seu teste?
+Dialogue: 0,0:03:19.29,0:03:22.82,Default,GENAU,0000,0000,0000,,Uma pessoa está de igual\Npara igual para com a sua cópia.
+Dialogue: 0,0:03:22.82,0:03:25.57,Default,GENAU,0000,0000,0000,,Derrotá-las sem grandes perdas requer
+Dialogue: 0,0:03:25.57,0:03:29.14,Default,GENAU,0000,0000,0000,,uma autoanálise fria\Ne trabalho em equipe.
+Dialogue: 0,0:03:33.20,0:03:37.56,Default,GENAU,0000,0000,0000,,É exatamente o tipo de teste\Nque uma pacifista faria.
+Dialogue: 0,0:03:46.02,0:03:47.41,Default,DENKEN,0000,0000,0000,,Isso não é bom.
+Dialogue: 0,0:03:48.00,0:03:49.41,Default,DENKEN,0000,0000,0000,,É melhor recuarmos.
+Dialogue: 0,0:03:58.24,0:03:59.40,Default,RICHTER,0000,0000,0000,,Denken!
+Dialogue: 0,0:04:01.01,0:04:02.76,Default,DENKEN,0000,0000,0000,,Pois bem...
+Dialogue: 0,0:04:02.76,0:04:05.28,Default,DENKEN,0000,0000,0000,,O que faremos quanto a isso?
+Dialogue: 0,0:04:13.01,0:04:15.24,Default,ÜBEL,0000,0000,0000,,É um beco sem saída.
+Dialogue: 0,0:04:15.53,0:04:17.61,Default,ÜBEL,0000,0000,0000,,Estamos encurralados.
+Dialogue: 0,0:04:28.36,0:04:35.17,Default,ÜBEL,0000,0000,0000,,Poderia me dar a sua opinião como\Nespecialista em clones, Quatro-olhos?
+Dialogue: 0,0:04:35.82,0:04:39.74,Default,LAND,0000,0000,0000,,Eu já disse que o meu nome é Land.
+Dialogue: 0,0:04:39.74,0:04:42.42,Default,LAND,0000,0000,0000,,Mas deixa pra lá.
+Dialogue: 0,0:04:46.52,0:04:51.81,Default,ÜBEL,0000,0000,0000,,Quão perfeita você acha\Nque aquela cópia minha é?
+Dialogue: 0,0:04:52.38,0:04:58.42,Default,LAND,0000,0000,0000,,Übel, você fala bastante até mesmo\Ndurante as lutas, não é?
+Dialogue: 0,0:04:59.87,0:05:02.14,Default,LAND,0000,0000,0000,,É como se fosse morrer\Nse parasse de falar.
+Dialogue: 0,0:05:03.08,0:05:05.60,Default,ÜBEL,0000,0000,0000,,Você veio me observando muito bem.
+Dialogue: 0,0:05:06.35,0:05:09.00,Default,ÜBEL,0000,0000,0000,,Sim, é verdade.\NEu provavelmente morreria.
+Dialogue: 0,0:05:12.76,0:05:14.53,Default,ÜBEL,0000,0000,0000,,E, ainda assim, está tão quieto.
+Dialogue: 0,0:05:16.73,0:05:20.73,Default,ÜBEL,0000,0000,0000,,Isso significa que não copiaram\Nas minhas memórias ou personalidade?
+Dialogue: 0,0:05:21.30,0:05:24.97,Default,LAND,0000,0000,0000,,Não, talvez só seja incapaz de falar.
+Dialogue: 0,0:05:25.51,0:05:33.60,Default,LAND,0000,0000,0000,,Em seu primeiro ataque, aquela coisa\Nroubou o meu golem de fuga.
+Dialogue: 0,0:05:38.57,0:05:42.51,Default,ÜBEL,0000,0000,0000,,Entendo. De fato, é algo que eu faria.
+Dialogue: 0,0:05:42.95,0:05:45.45,Default,LAND,0000,0000,0000,,Ela também sabe sobre nós.
+Dialogue: 0,0:05:46.40,0:05:53.66,Default,LAND,0000,0000,0000,,Mesmo estando encurralados, ela não está\Natacando, pois sabe do seu Sorganeil.
+Dialogue: 0,0:05:55.17,0:05:59.25,Default,ÜBEL,0000,0000,0000,,Ou é isso, ou está se\Ndivertindo ao nos atormentar.
+Dialogue: 0,0:06:01.50,0:06:03.01,Default,LAND,0000,0000,0000,,Isso não tem graça.
+Dialogue: 0,0:06:05.71,0:06:07.56,Default,ÜBEL,0000,0000,0000,,Você está sangrando bastante.
+Dialogue: 0,0:06:09.58,0:06:12.97,Default,ÜBEL,0000,0000,0000,,Você não vai durar muito assim, sabia?
+Dialogue: 0,0:06:13.94,0:06:15.29,Default,LAND,0000,0000,0000,,É verdade.
+Dialogue: 0,0:06:16.30,0:06:18.70,Default,ÜBEL,0000,0000,0000,,Posso te perguntar uma última coisa?
+Dialogue: 0,0:06:20.44,0:06:23.20,Default,ÜBEL,0000,0000,0000,,Você é o verdadeiro?
+Dialogue: 0,0:06:25.06,0:06:28.20,Default,LAND,0000,0000,0000,,Vai saber.
+Dialogue: 0,0:06:28.90,0:06:30.52,Default,ÜBEL,0000,0000,0000,,Hum...
+Dialogue: 0,0:06:35.73,0:06:37.70,Default,ÜBEL,0000,0000,0000,,Use o meu frasco.
+Dialogue: 0,0:06:40.07,0:06:43.22,Default,LAND,0000,0000,0000,,Mas você precisa disso para sobreviver.
+Dialogue: 0,0:06:43.66,0:06:46.76,Default,ÜBEL,0000,0000,0000,,Ah, é mesmo?
+Dialogue: 0,0:06:47.83,0:06:51.03,Default,ÜBEL,0000,0000,0000,,Sendo assim, espere aqui, Quatro-olhos.
+Dialogue: 0,0:06:52.78,0:06:54.78,Default,ÜBEL,0000,0000,0000,,Irei recuperar o seu frasco.
+Dialogue: 0,0:06:55.44,0:06:57.15,Default,LAND,0000,0000,0000,,Ei, espera—
+Dialogue: 0,0:07:02.85,0:07:05.94,DefaultItalics,ÜBEL,0000,0000,0000,,É, está diminuindo a distância.
+Dialogue: 0,0:07:06.55,0:07:11.66,DefaultItalics,ÜBEL,0000,0000,0000,,Eu preciso ver o corpo inteiro\Npara lançar o Sorganeil.
+Dialogue: 0,0:07:14.82,0:07:18.35,DefaultItalics,ÜBEL,0000,0000,0000,,Quem calcular mal a distância\Nprimeiro perderá esta batalha.
+Dialogue: 0,0:07:23.61,0:07:27.45,DefaultItalics,ÜBEL,0000,0000,0000,,Se estivermos equilibradas,\Nvencerá quem tiver mais sorte.
+Dialogue: 0,0:07:28.06,0:07:33.98,DefaultItalics,ÜBEL,0000,0000,0000,,Eu sempre fui azarada,\Nentão não gosto de disputas na sorte.
+Dialogue: 0,0:07:37.34,0:07:41.01,DefaultItalics,ÜBEL,0000,0000,0000,,Por isso, não tenho\Ninteresse em me enfrentar.
+Dialogue: 0,0:07:41.78,0:07:45.56,Default,ÜBEL,0000,0000,0000,,Você deve estar muito a fim de morrer.
+Dialogue: 0,0:07:55.14,0:07:57.53,DefaultItalics,ÜBEL,0000,0000,0000,,A minha sorte é mesmo uma merda.
+Dialogue: 0,0:07:57.53,0:07:59.25,DefaultItalics,ÜBEL,0000,0000,0000,,Por isso eu não queria me enfrentar.
+Dialogue: 0,0:08:01.97,0:08:02.62,Default,ÜBEL,0000,0000,0000,,Mas...
+Dialogue: 0,0:08:03.85,0:08:07.37,Default,ÜBEL,0000,0000,0000,,Parece que a sua sorte é pior que a minha.
+Dialogue: 0,0:08:08.31,0:08:11.50,Default,ÜBEL,0000,0000,0000,,Você foi mais rápido do que eu\Nesperava, Quatro-olhos.
+Dialogue: 0,0:08:21.83,0:08:26.08,Default,ÜBEL,0000,0000,0000,,Puxa. Então, o frasco\Ntambém era de mentira.
+Dialogue: 0,0:08:35.11,0:08:40.00,Default,LAND,0000,0000,0000,,Übel, você sabia que era\No meu clone que estava morrendo.
+Dialogue: 0,0:08:40.41,0:08:42.82,Default,LAND,0000,0000,0000,,Por que correu para os braços da morte?
+Dialogue: 0,0:08:43.08,0:08:46.65,Default,ÜBEL,0000,0000,0000,,Porque eu sabia que você viria por mim.
+Dialogue: 0,0:08:47.73,0:08:50.71,Default,LAND,0000,0000,0000,,Eu pareço tão gentil assim para você?
+Dialogue: 0,0:08:51.07,0:08:56.13,Default,ÜBEL,0000,0000,0000,,Nem um pouco, na verdade.\NMas isso não importa.
+Dialogue: 0,0:08:57.37,0:09:02.27,Default,ÜBEL,0000,0000,0000,,Você não aceitou o meu frasco.
+Dialogue: 0,0:09:05.83,0:09:09.19,Default,ÜBEL,0000,0000,0000,,Você não quer que ninguém\Nmorra por sua causa, não é?
+Dialogue: 0,0:09:09.92,0:09:15.50,Default,ÜBEL,0000,0000,0000,,Então, criei uma situação onde\Na minha morte seria culpa sua.
+Dialogue: 0,0:09:17.81,0:09:20.32,Default,ÜBEL,0000,0000,0000,,Valeu, Quatro-olhos.
+Dialogue: 0,0:09:20.32,0:09:23.33,Default,ÜBEL,0000,0000,0000,,Acho que aprendi\Numa coisa nova sobre você.
+Dialogue: 0,0:09:23.93,0:09:26.74,Default,LAND,0000,0000,0000,,Entendi. Bom pra você.
+Dialogue: 0,0:09:26.97,0:09:29.18,Default,LAND,0000,0000,0000,,Você já consegue simpatizar por mim?
+Dialogue: 0,0:09:30.35,0:09:32.81,Default,ÜBEL,0000,0000,0000,,Levará mais um tempinho.
+Dialogue: 0,0:09:38.19,0:09:42.28,Default,FRIEREN,0000,0000,0000,,Acho que estamos bem próximas do fundo.
+Dialogue: 0,0:09:44.08,0:09:47.14,Default,FERN,0000,0000,0000,,Srta. Frieren, há escadas\Nnaquela direção.
+Dialogue: 0,0:09:50.26,0:09:53.53,Default,FRIEREN,0000,0000,0000,,Fern, deixe-me ver o mapa.
+Dialogue: 0,0:09:55.43,0:09:58.73,Default,FERN,0000,0000,0000,,Acho que já exploramos\Neste andar por completo.
+Dialogue: 0,0:10:10.45,0:10:13.49,Default,FRIEREN,0000,0000,0000,,Há uma sala escondida\Natrás desta parede.
+Dialogue: 0,0:10:14.45,0:10:16.22,Default,FRIEREN,0000,0000,0000,,Provavelmente, há um tesouro lá.
+Dialogue: 0,0:10:17.72,0:10:23.94,Default,FRIEREN,0000,0000,0000,,Tenho a sensação de que há\Num grimório raro escondido lá dentro.
+Dialogue: 0,0:10:24.40,0:10:28.98,Default,FERN,0000,0000,0000,,Mas não encontramos nada\Nque parecesse uma entrada.
+Dialogue: 0,0:10:29.75,0:10:31.24,Default,FRIEREN,0000,0000,0000,,Verdade.
+Dialogue: 0,0:10:34.50,0:10:39.43,Default,FRIEREN,0000,0000,0000,,Mas, com base na sua estrutura,\Ntenho certeza de que há uma sala aqui.
+Dialogue: 0,0:11:31.81,0:11:34.84,Default,FERN,0000,0000,0000,,Fantástico, Srta. Frieren.
+Dialogue: 0,0:11:42.56,0:11:46.23,Default,SENSE,0000,0000,0000,,Isso retrata as conquistas\Ndo rei enterrado aqui.
+Dialogue: 0,0:11:47.87,0:11:53.02,Default,SENSE,0000,0000,0000,,Nunca vi um mural tão bem preservado\Nda era da Dinastia Unificada.
+Dialogue: 0,0:11:54.24,0:11:55.77,Default,SENSE,0000,0000,0000,,É uma descoberta valiosa.
+Dialogue: 0,0:11:59.36,0:12:01.38,Default,FERN,0000,0000,0000,,É magnífico.
+Dialogue: 0,0:12:15.72,0:12:19.52,Default,FERN,0000,0000,0000,,Até que o nosso progresso\Nestá em um bom ritmo.
+Dialogue: 0,0:12:19.52,0:12:23.03,Default,FERN,0000,0000,0000,,Será que seremos aprovadas\Nsem nenhum problema?
+Dialogue: 0,0:12:23.59,0:12:25.31,Default,FRIEREN,0000,0000,0000,,Talvez.
+Dialogue: 0,0:12:30.68,0:12:33.62,Default,FRIEREN,0000,0000,0000,,O que vocês fazem aqui?
+Dialogue: 0,0:12:34.78,0:12:39.97,Default,DENKEN,0000,0000,0000,,Estruturalmente falando, chegaremos no fundo\Ndesta masmorra se passarmos desta sala.
+Dialogue: 0,0:12:40.52,0:12:41.73,Default,FRIEREN,0000,0000,0000,,E?
+Dialogue: 0,0:12:43.06,0:12:46.03,Default,DENKEN,0000,0000,0000,,Já se passou meio dia desde\Nque aquela coisa se posicionou ali.
+Dialogue: 0,0:12:53.38,0:12:56.50,Default,FRIEREN,0000,0000,0000,,Hm... As coisas ficaram interessantes.
+Dialogue: 0,0:12:56.99,0:12:59.89,Default,FRIEREN,0000,0000,0000,,É assim que a conquista\Nde uma masmorra deve ser.
+Dialogue: 0,0:13:04.50,0:13:07.13,Default,FRIEREN,0000,0000,0000,,Uma réplica perfeita, é?
+Dialogue: 0,0:13:08.01,0:13:12.51,Default,FRIEREN,0000,0000,0000,,A força daquela coisa\Nparece se igualar à minha.
+Dialogue: 0,0:13:12.96,0:13:18.11,Default,DENKEN,0000,0000,0000,,Não podemos chegar no fundo\Nsem darmos um jeito naquela réplica.
+Dialogue: 0,0:13:18.61,0:13:20.69,Default,DENKEN,0000,0000,0000,,Alguma sugestão?
+Dialogue: 0,0:13:21.22,0:13:28.02,Default,FRIEREN,0000,0000,0000,,Bem, se aquilo é uma cópia perfeita minha,\Nentão suas fraquezas
+Dialogue: 0,0:13:28.02,0:13:31.19,Default,FRIEREN,0000,0000,0000,,deveriam ser as mesmas\Nda versão de carne e osso.
+Dialogue: 0,0:13:31.62,0:13:34.64,Default,RICHTER,0000,0000,0000,,Tanto a magia de restrição\Nquanto a magia de hipnose
+Dialogue: 0,0:13:34.64,0:13:37.96,Default,RICHTER,0000,0000,0000,,são as melhores opções\Npara derrotar um mago mais forte.
+Dialogue: 0,0:13:38.43,0:13:41.08,Default,FRIEREN,0000,0000,0000,,Mas eu sou forte contra ambas.
+Dialogue: 0,0:13:41.45,0:13:44.79,Default,DENKEN,0000,0000,0000,,Mas isso pode abrir uma pequena brecha.
+Dialogue: 0,0:13:45.21,0:13:49.59,Default,DENKEN,0000,0000,0000,,Deve ser o suficiente\Npara você derrotá-la.
+Dialogue: 0,0:13:50.53,0:13:51.72,Default,DENKEN,0000,0000,0000,,Methode.
+Dialogue: 0,0:13:52.31,0:13:55.02,Default,DENKEN,0000,0000,0000,,Você é boa nesse tipo de coisa.
+Dialogue: 0,0:13:55.02,0:13:58.01,Default,METHODE,0000,0000,0000,,Dizer que sou boa é exagero, mas tudo bem.
+Dialogue: 0,0:14:00.35,0:14:02.13,Default,METHODE,0000,0000,0000,,Com licença.
+Dialogue: 0,0:14:09.11,0:14:11.50,Default,METHODE,0000,0000,0000,,Interessante.
+Dialogue: 0,0:14:11.85,0:14:14.43,Default,METHODE,0000,0000,0000,,Você é imune à magia de restrição.
+Dialogue: 0,0:14:14.43,0:14:15.56,Default,FRIEREN,0000,0000,0000,,Que cheiro bom...
+Dialogue: 0,0:14:15.56,0:14:19.49,Default,METHODE,0000,0000,0000,,Se não fosse pela grande diferença\Nde mana, isso funcionaria.
+Dialogue: 0,0:14:20.57,0:14:24.99,Default,METHODE,0000,0000,0000,,Agora, Srta. Frieren,\Npoderia olhar nos meus olhos?
+Dialogue: 0,0:14:28.97,0:14:31.93,Default,METHODE,0000,0000,0000,,Magia de hipnose também não funciona.
+Dialogue: 0,0:14:33.30,0:14:37.01,Default,METHODE,0000,0000,0000,,Não consigo penetrar as barreiras\Nmentais da Sra. Frieren.
+Dialogue: 0,0:14:37.65,0:14:38.91,Default,METHODE,0000,0000,0000,,Ora, ora.
+Dialogue: 0,0:14:39.25,0:14:42.64,Default,DENKEN,0000,0000,0000,,Você, realmente, é resistente a ambas.
+Dialogue: 0,0:14:43.12,0:14:47.74,Default,METHODE,0000,0000,0000,,No entanto, embora a construção de suas\Nbarreiras mentais seja complexa e resistente,
+Dialogue: 0,0:14:47.74,0:14:50.53,Default,METHODE,0000,0000,0000,,essa parece ser uma\Ntécnica bastante antiga.
+Dialogue: 0,0:14:50.88,0:14:55.83,Default,METHODE,0000,0000,0000,,Um especialista em magia de hipnose deve\Nser capaz de penetrar a sua vulnerabilidade.
+Dialogue: 0,0:14:55.83,0:14:58.56,Default,DENKEN,0000,0000,0000,,Você conhece alguém assim\Ndentre os examinandos?
+Dialogue: 0,0:15:02.94,0:15:06.13,Default,METHODE,0000,0000,0000,,A Edel, maga de nível dois,\Ndeve ser capaz disso.
+Dialogue: 0,0:15:06.13,0:15:10.73,Default,METHODE,0000,0000,0000,,Mas, ao contrário de mim,\Nela não tem habilidades de combate.
+Dialogue: 0,0:15:10.73,0:15:13.90,Default,METHODE,0000,0000,0000,,Sendo sincera, não sei se ela\Nconseguirá chegar tão longe.
+Dialogue: 0,0:15:16.10,0:15:22.21,Default,METHODE,0000,0000,0000,,Além disso, magia de hipnose\Nsó funciona em alvos com consciência.
+Dialogue: 0,0:15:22.56,0:15:27.21,Default,METHODE,0000,0000,0000,,Não sabemos\Nse as réplicas recriaram isso.
+Dialogue: 0,0:15:28.97,0:15:32.13,Default,DENKEN,0000,0000,0000,,Nos falta muita informação.
+Dialogue: 0,0:15:35.15,0:15:38.16,Default,BLEI,0000,0000,0000,,Edel, o que você acha que é aquilo?
+Dialogue: 0,0:15:43.63,0:15:45.34,Default,EDEL,0000,0000,0000,,Vai saber.
+Dialogue: 0,0:15:45.34,0:15:52.19,Default,EDEL,0000,0000,0000,,Mas não há dúvidas de que aquilo possui todas\Nas habilidades da Sense, a maga de nível um.
+Dialogue: 0,0:15:52.85,0:15:56.44,Default,BLEI,0000,0000,0000,,Esconder a nossa mana\Nnão nos levará além daqui.
+Dialogue: 0,0:15:56.44,0:15:58.05,Default,BLEI,0000,0000,0000,,Precisamos derrotá-la.
+Dialogue: 0,0:15:58.58,0:16:01.17,Default,EDEL,0000,0000,0000,,E acha que somos capazes disso, Blei?
+Dialogue: 0,0:16:01.17,0:16:06.85,Default,EDEL,0000,0000,0000,,Você e o Dünste não podem lutar direito\Nnesta masmorra. E eu também não.
+Dialogue: 0,0:16:07.66,0:16:12.11,Default,DÜNSTE,0000,0000,0000,,As magias modernas não servem\Npara combate em masmorras.
+Dialogue: 0,0:16:12.81,0:16:15.84,Default,EDEL,0000,0000,0000,,Um efeito colateral da maioria\Ndas masmorras terem sido conquistadas
+Dialogue: 0,0:16:15.84,0:16:18.19,Default,EDEL,0000,0000,0000,,durante a era que antecedeu\Na derrota do Rei Demônio.
+Dialogue: 0,0:16:20.27,0:16:24.07,Default,EDEL,0000,0000,0000,,Além disso, magias de defesa\Npoderosas requerem muitos recursos,
+Dialogue: 0,0:16:24.64,0:16:29.22,Default,EDEL,0000,0000,0000,,então a maioria das magias\Nde ataque usa objetos naturais.
+Dialogue: 0,0:16:29.98,0:16:36.51,Default,EDEL,0000,0000,0000,,Manipular e transformar\Nobjetos que já estão no local
+Dialogue: 0,0:16:36.51,0:16:41.05,Default,EDEL,0000,0000,0000,,consome menos mana\Ndo que criar objetos do zero.
+Dialogue: 0,0:16:41.39,0:16:45.81,Default,EDEL,0000,0000,0000,,Mas aquela coisa faz isso muito bem.
+Dialogue: 0,0:16:46.43,0:16:50.43,Default,EDEL,0000,0000,0000,,Existem camadas de magia\Nimbuídas em seu cabelo.
+Dialogue: 0,0:16:50.87,0:16:56.24,Default,EDEL,0000,0000,0000,,Aquela coisa, provavelmente, possui\Ninúmeras formas de lutar nesta masmorra.
+Dialogue: 0,0:17:00.24,0:17:02.96,Default,EDEL,0000,0000,0000,,Ao meu ver, não podemos derrotá-la.
+Dialogue: 0,0:17:03.56,0:17:06.01,Default,EDEL,0000,0000,0000,,A magia é um mundo de imaginação visual.
+Dialogue: 0,0:17:06.49,0:17:13.96,Default,EDEL,0000,0000,0000,,Ela deve possuir uma imaginação\Nsobre-humana para conseguir manipular
+Dialogue: 0,0:17:13.96,0:17:18.69,Default,EDEL,0000,0000,0000,,aquele número incontável de fios\Nque chamamos de cabelo.
+Dialogue: 0,0:17:18.69,0:17:22.43,Default,EDEL,0000,0000,0000,,Aquela coisa é uma maga muito\Nsuperior a qualquer um de nós.
+Dialogue: 0,0:17:23.31,0:17:27.35,Default,EDEL,0000,0000,0000,,Sendo sincera, é um milagre termos\Nconseguido nos esquivar até agora.
+Dialogue: 0,0:17:29.01,0:17:31.04,Default,EDEL,0000,0000,0000,,Demos o nosso melhor.
+Dialogue: 0,0:17:32.08,0:17:36.92,Default,EDEL,0000,0000,0000,,Mas não somos lutadores.\NÉ hora de desistirmos.
+Dialogue: 0,0:17:38.63,0:17:42.11,Default,EDEL,0000,0000,0000,,Não vou mentir, estou com medo\Ne quero ir para casa.
+Dialogue: 0,0:17:42.84,0:17:46.82,Default,BLEI,0000,0000,0000,,Edel, a sua voz\Nnão funciona contra aquilo?
+Dialogue: 0,0:17:47.22,0:17:51.46,Default,EDEL,0000,0000,0000,,A magia da hipnose está, de fato,\Nno sangue da minha família,
+Dialogue: 0,0:17:51.46,0:17:56.58,Default,EDEL,0000,0000,0000,,mas é impossível aquilo atingir as condições\Nnecessárias para receber comandos complexos.
+Dialogue: 0,0:17:57.28,0:18:02.34,Default,EDEL,0000,0000,0000,,No máximo, eu poderia criar uma abertura\Npara fazer com que se ajoelhe.
+Dialogue: 0,0:18:02.72,0:18:06.14,Default,EDEL,0000,0000,0000,,Ainda assim, eu teria que fazer\Ncontato visual e falar com aquilo.
+Dialogue: 0,0:18:06.90,0:18:09.09,Default,BLEI,0000,0000,0000,,Então, não é impossível.
+Dialogue: 0,0:18:09.63,0:18:12.35,Default,EDEL,0000,0000,0000,,{\i1}Se{\i0} aquilo tiver consciência.
+Dialogue: 0,0:18:12.68,0:18:14.97,Default,DÜNSTE,0000,0000,0000,,De quanto tempo você precisará?
+Dialogue: 0,0:18:15.33,0:18:19.86,Default,EDEL,0000,0000,0000,,Quinze segundos. Embora eu duvide\Nque a gente consiga mais que isso.
+Dialogue: 0,0:18:20.75,0:18:22.38,Default,BLEI,0000,0000,0000,,Como assim?
+Dialogue: 0,0:18:27.35,0:18:28.78,Default,EDEL,0000,0000,0000,,Você já vai descobrir.
+Dialogue: 0,0:18:42.51,0:18:44.90,Default,EDEL,0000,0000,0000,,Ative sua magia de defesa\Ncom cobertura total.
+Dialogue: 0,0:18:44.90,0:18:45.66,Default,BLEI,0000,0000,0000,,O quê?
+Dialogue: 0,0:18:46.79,0:18:51.78,Default,EDEL,0000,0000,0000,,Na magia moderna, há duas formas\Nde penetrar a magia de defesa:
+Dialogue: 0,0:18:51.78,0:18:56.98,Default,EDEL,0000,0000,0000,,acertá-la com a força necessária para isso,\Nou usar técnicas para passar por ela.
+Dialogue: 0,0:18:58.02,0:19:01.16,Default,EDEL,0000,0000,0000,,Pessoas que focam na quantidade\Nde ataques são o segundo caso.
+Dialogue: 0,0:19:03.60,0:19:04.65,Default,EDEL,0000,0000,0000,,Que surpresa.
+Dialogue: 0,0:19:05.22,0:19:07.42,Default,EDEL,0000,0000,0000,,Não esperava que fosse\Nfazer as duas coisas.
+Dialogue: 0,0:19:07.42,0:19:09.89,Default,EDEL,0000,0000,0000,,Parecem ser pesados como rochas.
+Dialogue: 0,0:19:12.06,0:19:16.93,Default,EDEL,0000,0000,0000,,Pensei que conseguiríamos manter nossas\Ndefesas com cobertura total por 15 segundos,
+Dialogue: 0,0:19:17.35,0:19:20.59,Default,EDEL,0000,0000,0000,,mas não achei que aquela\Ncoisa a quebraria antes disso.
+Dialogue: 0,0:19:22.58,0:19:24.48,Default,EDEL,0000,0000,0000,,Mas fizemos contato visual.
+Dialogue: 0,0:19:25.21,0:19:28.91,Default,EDEL,0000,0000,0000,,Quanto melhor o mago, mais\Natentamente ele observa o oponente.
+Dialogue: 0,0:19:29.84,0:19:31.22,Default,EDEL,0000,0000,0000,,Ajoelhe-se!
+Dialogue: 0,0:19:38.54,0:19:42.02,Default,EDEL,0000,0000,0000,,Entendi. Agora, faz sentido.
+Dialogue: 0,0:19:42.66,0:19:44.18,Default,EDEL,0000,0000,0000,,Não tem consciência.
+Dialogue: 0,0:19:45.03,0:19:49.30,Default,EDEL,0000,0000,0000,,Só está imitando, com precisão,\Nos movimentos de alguém.
+Dialogue: 0,0:19:50.10,0:19:53.42,Default,EDEL,0000,0000,0000,,Não podemos derrotá-la.
+Dialogue: 0,0:19:55.52,0:19:58.60,Default,EDEL,0000,0000,0000,,Vocês terão que recorrer a outra pessoa.
+Dialogue: 0,0:19:58.60,0:20:02.05,Default,EDEL,0000,0000,0000,,Fujam o mais rápido possível\Npara onde estão os outros lutadores.
+Dialogue: 0,0:20:02.05,0:20:05.06,Default,EDEL,0000,0000,0000,,Mas, como eu disse, chegou a minha\Nhora de desistir. Irei embora.
+Dialogue: 0,0:20:05.45,0:20:07.77,Default,EDEL,0000,0000,0000,,Não tenho interesse\Nem me machucar novamente.
+Dialogue: 0,0:20:12.79,0:20:16.95,Default,EDEL,0000,0000,0000,,Que conveniente. Até a minha\Nsegurança está garantida.
+Dialogue: 0,0:20:21.01,0:20:22.55,Default,BLEI,0000,0000,0000,,É melhor fugirmos também.
+Dialogue: 0,0:20:24.68,0:20:29.66,Default,DÜNSTE,0000,0000,0000,,Existe alguém que possa\Nchegar ao fundo com segurança?
+Dialogue: 0,0:20:29.66,0:20:31.06,Default,BLEI,0000,0000,0000,,Eu te disse.
+Dialogue: 0,0:20:31.66,0:20:35.51,Default,BLEI,0000,0000,0000,,Nunca esteve nos planos\Ndela aprovar alguém.
+Dialogue: 0,0:20:52.41,0:20:55.33,Default,FRIEREN,0000,0000,0000,,Nos faltam informações no momento.
+Dialogue: 0,0:20:55.72,0:20:58.82,Default,FRIEREN,0000,0000,0000,,É melhor presumirmos\Nque aquilo não tem consciência.
+Dialogue: 0,0:20:59.12,0:21:02.30,Default,FRIEREN,0000,0000,0000,,O que significa que, provavelmente,\Nteremos que usar força bruta.
+Dialogue: 0,0:21:03.45,0:21:05.09,Default,DENKEN,0000,0000,0000,,Você é capaz disso?
+Dialogue: 0,0:21:05.09,0:21:06.94,Default,FRIEREN,0000,0000,0000,,Não sei.
+Dialogue: 0,0:21:23.97,0:21:28.30,Default,WIRBEL,0000,0000,0000,,É impossível dizer no que\Nessas coisas estão pensando.
+Dialogue: 0,0:21:37.96,0:21:41.93,DefaultItalics,WIRBEL,0000,0000,0000,,Mas, como pensei,\Nnão é uma má combinação.
+Dialogue: 0,0:21:48.46,0:21:54.03,DefaultItalics,WIRBEL,0000,0000,0000,,A Ehre esmaga a mim ou ao Scharf\Nem um simples impacto de mana.
+Dialogue: 0,0:22:05.08,0:22:05.88,DefaultItalics,WIRBEL,0000,0000,0000,,Mas...
+Dialogue: 0,0:22:07.64,0:22:09.81,DefaultItalics,WIRBEL,0000,0000,0000,,eu sei como vencer.
+Dialogue: 0,0:22:18.62,0:22:24.17,Default,WIRBEL,0000,0000,0000,,Não importa o oponente ou a situação.
+Dialogue: 0,0:22:27.04,0:22:29.59,Default,DENKEN,0000,0000,0000,,Força bruta, é?
+Dialogue: 0,0:22:31.93,0:22:34.25,Default,FERN,0000,0000,0000,,Sendo assim,
+Dialogue: 0,0:22:35.24,0:22:40.04,Default,FERN,0000,0000,0000,,talvez eu consiga matar a Srta. Frieren.
+Dialogue: 0,0:22:41.85,0:22:42.77,Default,FRIEREN,0000,0000,0000,,Ah, é?
+Dialogue: 0,0:22:43.39,0:22:44.22,Default,FERN,0000,0000,0000,,Sim.
+Dialogue: 0,0:22:45.00,0:22:46.30,Default,FRIEREN,0000,0000,0000,,Sendo assim...
+Dialogue: 0,0:22:47.02,0:22:48.99,Default,FRIEREN,0000,0000,0000,,vamos pensar em uma estratégia.
+Dialogue: 0,0:22:50.05,0:22:53.18,Songs_ED2,ED LYRICS,0000,0000,0000,,E eu estou bem (Ficarei bem)
+Dialogue: 0,0:22:53.18,0:22:56.10,Songs_ED2,ED LYRICS,0000,0000,0000,,Sim, consigo te ouvir (Me importo com você)
+Dialogue: 0,0:22:56.10,0:23:01.69,Songs_ED2,ED LYRICS,0000,0000,0000,,O vento brinca com esse cabelo,\Nque está mais longo agora
+Dialogue: 0,0:23:01.69,0:23:04.11,Songs_ED2,ED LYRICS,0000,0000,0000,,Há sentido em tudo
+Dialogue: 0,0:23:04.61,0:23:07.11,Songs_ED2,ED LYRICS,0000,0000,0000,,Mesmo nos dias parados
+Dialogue: 0,0:23:07.70,0:23:13.74,Songs_ED2,ED LYRICS,0000,0000,0000,,Agora que finalmente entendo,\Neu alcancei você
+Dialogue: 0,0:23:13.74,0:23:17.54,Songs_ED2,ED LYRICS,0000,0000,0000,,Sabe, coisas que não poderiam ser vistas
+Dialogue: 0,0:23:17.54,0:23:20.42,Songs_ED2,ED LYRICS,0000,0000,0000,,Se não fossem por estes olhos
+Dialogue: 0,0:23:20.42,0:23:25.09,Songs_ED2,ED LYRICS,0000,0000,0000,,Por quê? E começam a transbordar
+Dialogue: 0,0:23:25.09,0:23:31.34,Songs_ED2,ED LYRICS,0000,0000,0000,,Não vou pedir para te ver,\Nentão, pelo menos
+Dialogue: 0,0:23:31.34,0:23:37.10,Songs_ED2,ED LYRICS,0000,0000,0000,,Deixe-me lembrar do passado, só por hoje
+Dialogue: 0,0:23:37.10,0:23:43.11,Songs_ED2,ED LYRICS,0000,0000,0000,,Então, se nos encontrássemos novamente
+Dialogue: 0,0:23:43.11,0:23:48.99,Songs_ED2,ED LYRICS,0000,0000,0000,,Não irei hesitar, eu escolho o presente
+Dialogue: 0,0:23:50.07,0:23:53.03,Songs_ED2,ED LYRICS,0000,0000,0000,,A qualquer hora, em qualquer lugar...\N(Onde quer que você esteja)
+Dialogue: 0,0:23:53.03,0:23:57.66,Songs_ED2,ED LYRICS,0000,0000,0000,,A qualquer hora, em qualquer lugar...\N(Sorria para mim)
+Dialogue: 0,0:23:57.66,0:24:00.66,Songs_ED2,ED LYRICS,0000,0000,0000,,Eu estarei aqui\N(Feche seus olhos, eu sempre estarei aqui)
+Dialogue: 0,0:24:00.66,0:24:03.42,Songs_ED2,ED LYRICS,0000,0000,0000,,Mesmo que não haja certeza de nada
+Dialogue: 0,0:24:03.42,0:24:06.46,Songs_ED2,ED LYRICS,0000,0000,0000,,Eu sempre estarei ciente\Nde seus sentimentos
+Dialogue: 0,0:24:06.46,0:24:12.51,Songs_ED2,ED LYRICS,0000,0000,0000,,Essas lágrimas ficarão em paz,\No amanhecer certamente virá
+Dialogue: 0,0:24:12.97,0:24:19.43,Songs_ED2,ED LYRICS,0000,0000,0000,,Estou sussurrando nossa canção\Nde ninar para você voltar para casa
+Dialogue: 0,0:24:20.22,0:24:21.90,Default,HIMMEL,0000,0000,0000,,Parece que temos um plano.
+Dialogue: 0,0:24:20.41,0:24:22.33,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)\pos(108.429,225.571)}{\pos(378,232)}Parece \Nque \Ntemos \Num \Nplano.
+Dialogue: 0,0:24:20.81,0:24:22.20,DefaultOverlap,FRIEREN,0000,0000,0000,,Vamos pensar em uma estratégia.
+Dialogue: 0,0:24:21.08,0:24:22.91,Jikai,SIGN,0000,0000,0000,,{\fscx80\fs19\bord2\fad(300,300)\3c&HCECECE&\pos(343,146)}Vamos pensar em uma estratégia.
+Dialogue: 0,0:24:21.85,0:24:23.90,DefaultTop,RICHTER,0000,0000,0000,,Então você possuía informações.
+Dialogue: 0,0:24:22.21,0:24:24.08,Jikai,SIGN,0000,0000,0000,,{\fs17\fad(300,300)\pos(539.857,136.857)}{\pos(572,141)}Então você\Npossuía\Ninformações.
+Dialogue: 0,0:24:22.70,0:24:24.38,Default,DUNSTE,0000,0000,0000,,Por que não trabalhamos juntos?
+Dialogue: 0,0:24:22.87,0:24:24.67,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)\pos(153.429,221)}{\pos(572,141)}Por\Nque\Nnão\Ntrabalhamos\Njuntos?
+Dialogue: 0,0:24:23.44,0:24:25.59,DefaultOverlap,KANNE,0000,0000,0000,,Não é melhor pedir desculpas?
+Dialogue: 0,0:24:23.67,0:24:26.33,Jikai,SIGN,0000,0000,0000,,{\fscx80\fs14\fad(300,300)\pos(406.286,168.143)}Não \Né \Nmelhor \Npedir\N desculpas?
+Dialogue: 0,0:24:24.25,0:24:25.94,DefaultTop,SERIE,0000,0000,0000,,Inclusive, acho-o desagradável.
+Dialogue: 0,0:24:24.58,0:24:26.84,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)\pos(578,204)}nclusive, \Nacho-o \Ndesagradável.
+Dialogue: 0,0:24:24.67,0:24:26.77,Default,LAWINE,0000,0000,0000,,Elas não possuem fraqueza.
+Dialogue: 0,0:24:25.00,0:24:27.25,Jikai,SIGN,0000,0000,0000,,{\fs29\fad(300,300)\pos(76,210)}Elas \Nnão \Npossuem \Nfraqueza.
+Dialogue: 0,0:24:25.87,0:24:27.73,DefaultOverlap,FERN,0000,0000,0000,,Você parece estar se divertindo.
+Dialogue: 0,0:24:26.33,0:24:27.96,Jikai,SIGN,0000,0000,0000,,{\fs18\fad(300,300)\pos(388,261)}Você\Nparece\Nestar se\Ndivertindo.
+Dialogue: 0,0:24:27.57,0:24:30.02,Signs_NextEp,SIGN,0000,0000,0000,,{\fad(229,1)\blur3\t(20,312,\blur0.2)\pos(320,113.5)\c&H000000&\t(312,646,\c&HF6F6F6&)\fsp1.6\t(\fsp1)}Episódio 25\N\N\N\N\N\N\N\NVulnerabilidade fatal
+Dialogue: 0,0:24:27.73,0:24:30.08,Default,DENKEN,0000,0000,0000,,É a vulnerabilidade fatal para a Frieren.

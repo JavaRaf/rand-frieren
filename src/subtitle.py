@@ -18,6 +18,7 @@ client = httpx.Client(
 
 
 # Download subtitles from GitHub if they don't exist locally
+# para bots que guardam os subs na pasta fb, do bot tipo (fearocanity / ebtrfio-template)
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(2))
 def download_subtitles_if_needed(episode: int, configs: dict) -> None:
     """
@@ -76,9 +77,6 @@ def download_subtitles_if_needed(episode: int, configs: dict) -> None:
             return None
 
     return None
-
-
-
 
 
 
@@ -159,7 +157,9 @@ def frame_to_timestamp(img_fps: int | float, current_frame: int) -> str:
         return None
 
 def language_detect(file_path: Path, dialogues: list[str]) -> str:
-    """Detects the language based on the dialogue content and renames the file."""
+    """Detects the language based on the dialogue content
+      and renames the file with the detected lang code if it's not already in the file name.
+    """
     if not file_path.exists():
         logger.error(f"Error: File not found: {file_path}", exc_info=True)
         return "Unknown"
@@ -169,11 +169,7 @@ def language_detect(file_path: Path, dialogues: list[str]) -> str:
     ext = file_path.suffix.lstrip(".")  # Remove the dot from the extension
 
     # If there is already a valid language code in the file name, use it
-    if (
-        len(name_parts) > 1
-        and name_parts[-1] in LANGUAGE_CODES
-        and not any(c.isdigit() for c in name_parts[-1])
-    ):
+    if len(name_parts) > 1 and name_parts[-1] in LANGUAGE_CODES:
         return LANGUAGE_CODES.get(name_parts[-1], "Unknown")
 
     # Detects the language of the extracted text
@@ -181,12 +177,12 @@ def language_detect(file_path: Path, dialogues: list[str]) -> str:
     language = LANGUAGE_CODES.get(lang_code, "Unknown")
 
     if language == "Unknown":
-        logger.error("Language detection failed. Keeping original filename.", exc_info=True)
+        logger.error(f"Language detection failed. Keeping original filename ({__name__}).", exc_info=True)
         return language
 
-    # Generates a new file path with the detected language
+    # Generates a new file path with the detected lang code
     new_file_path = file_path.with_name(
-        f"{file_path.stem.split('.')[0]}.{language}.{ext}"
+        f"{file_path.stem.split('.')[0]}.{lang_code}.{ext}"
     )
 
     try:

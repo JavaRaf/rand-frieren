@@ -1,0 +1,367 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: DefaultItalicsTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: DefaultOverlap,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultOverlapTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: FlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: FlashbackTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0018,0
+Style: FlashbackItalicsTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Narration,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Signs_WText,Times New Roman,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,0030,0030,0010,0
+Style: Signs_EpTitle,Times New Roman,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0030,0030,0010,0
+Style: Signs_NextEp,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Songs_OP2,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A5B23B,&H00A5B23B,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Songs_ED2,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00291665,&H00291665,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:17.38,0:00:19.54,DefaultItalics,WIRBEL,0000,0000,0000,,Now that's scary.
+Dialogue: 0,0:00:19.78,0:00:22.53,DefaultItalics,WIRBEL,0000,0000,0000,,She's probably using magic \Nthat cuts through physical objects.
+Dialogue: 0,0:00:24.09,0:00:28.48,DefaultItalics,WIRBEL,0000,0000,0000,,It's a simple type of magic, \Nbut I can't see its trajectory.
+Dialogue: 0,0:00:31.93,0:00:35.71,Default,WIRBEL,0000,0000,0000,,It's impossible to block all of them, but...
+Dialogue: 0,0:00:36.58,0:00:39.25,Default,WIRBEL,0000,0000,0000,,What's the matter? You're not \Ngoing to follow up on that?
+Dialogue: 0,0:00:39.59,0:00:42.13,Default,ÜBEL,0000,0000,0000,,I might've gone a bit too hard.
+Dialogue: 0,0:00:42.82,0:00:43.98,Default,WIRBEL,0000,0000,0000,,Maybe.
+Dialogue: 0,0:00:44.73,0:00:48.10,Default,WIRBEL,0000,0000,0000,,The range of your magic is \Nabout five meters, isn't it?
+Dialogue: 0,0:00:48.35,0:00:51.68,Default,ÜBEL,0000,0000,0000,,Correct. So, what do we do now?
+Dialogue: 0,0:00:51.68,0:00:54.41,Default,ÜBEL,0000,0000,0000,,Are we going to whale on each \Nother with basic spells again?
+Dialogue: 0,0:00:54.88,0:00:58.06,Default,WIRBEL,0000,0000,0000,,No, that won't be necessary.
+Dialogue: 0,0:00:58.06,0:01:01.49,FlashbackItalics,EHRE,0000,0000,0000,,His magic is devoid of character.
+Dialogue: 0,0:01:01.49,0:01:03.71,FlashbackItalics,EHRE,0000,0000,0000,,It's underhanded, \Nfor the sole purpose of winning.
+Dialogue: 0,0:01:03.71,0:01:08.01,FlashbackItalics,EHRE,0000,0000,0000,,The girl fighting Wirbel now \Nwill probably be killed.
+Dialogue: 0,0:01:10.31,0:01:11.13,Default,FERN,0000,0000,0000,,Now, then.
+Dialogue: 0,0:01:16.33,0:01:18.10,DefaultItalics,EHRE,0000,0000,0000,,A saturation attack?
+Dialogue: 0,0:01:21.53,0:01:24.95,DefaultItalics,EHRE,0000,0000,0000,,How can she control so many \Nattack spells at once?
+Dialogue: 0,0:01:27.33,0:01:30.37,Default,EHRE,0000,0000,0000,,This is an absurd feat of strength.
+Dialogue: 0,0:01:30.37,0:01:32.19,Default,EHRE,0000,0000,0000,,It doesn't have a shred of character.
+Dialogue: 0,0:01:34.38,0:01:37.68,Default,EHRE,0000,0000,0000,,I can't... handle them all.
+Dialogue: 0,0:01:53.09,0:01:57.01,Songs_OP2,OP LYRICS,0000,0000,0000,,You're there like the wind
+Dialogue: 0,0:01:57.01,0:02:01.63,Songs_OP2,OP LYRICS,0000,0000,0000,,Closing your eyes at sunset
+Dialogue: 0,0:02:01.63,0:02:07.28,Songs_OP2,OP LYRICS,0000,0000,0000,,I wonder what's on your mind
+Dialogue: 0,0:02:07.55,0:02:12.60,Signs,SIGN,0000,0000,0000,,{\fad(857,1)\blur0.25\fs35\fnGeorgia\fsp3.9\c&HFFFE65&\pos(328,254)\clip(109,253,547,294)\t(3943,4986,\clip(109,253,110,294))}Beyond Journey's End
+Dialogue: 0,0:02:12.00,0:02:15.98,Songs_OP2,OP LYRICS,0000,0000,0000,,With your eyelids open
+Dialogue: 0,0:02:15.98,0:02:20.56,Songs_OP2,OP LYRICS,0000,0000,0000,,Your eyes shone like glass
+Dialogue: 0,0:02:20.56,0:02:27.33,Songs_OP2,OP LYRICS,0000,0000,0000,,It faintly smelled like a sunny day
+Dialogue: 0,0:02:33.26,0:02:38.46,Songs_OP2,OP LYRICS,0000,0000,0000,,Clear up the sky, let flowers bloom
+Dialogue: 0,0:02:38.46,0:02:42.66,Songs_OP2,OP LYRICS,0000,0000,0000,,Bloom and blame it on the sunny sky
+Dialogue: 0,0:02:42.66,0:02:47.05,Songs_OP2,OP LYRICS,0000,0000,0000,,Even the rain, when it stops
+Dialogue: 0,0:02:47.05,0:02:52.05,Songs_OP2,OP LYRICS,0000,0000,0000,,Will make you shine in the sunlight
+Dialogue: 0,0:02:52.05,0:02:57.45,Songs_OP2,OP LYRICS,0000,0000,0000,,Calm the stirring sounds in my heart
+Dialogue: 0,0:02:57.45,0:03:01.49,Songs_OP2,OP LYRICS,0000,0000,0000,,We go like the sunny wind
+Dialogue: 0,0:03:01.49,0:03:05.90,Songs_OP2,OP LYRICS,0000,0000,0000,,Go on and fly over that cloud
+Dialogue: 0,0:03:05.90,0:03:10.73,Songs_OP2,OP LYRICS,0000,0000,0000,,Further and further away
+Dialogue: 0,0:03:13.96,0:03:16.96,Signs_EpTitle,EPTITLE,0000,0000,0000,,{\blur0.2\c&HFAFFF7&\pos(402,269.5)}Episode 20: Necessary Killing
+Dialogue: 0,0:03:18.44,0:03:19.98,Default,WIRBEL,0000,0000,0000,,Sorganeil.
+Dialogue: 0,0:03:29.64,0:03:31.80,Default,ÜBEL,0000,0000,0000,,I can't move.
+Dialogue: 0,0:03:32.35,0:03:34.72,DefaultItalics,ÜBEL,0000,0000,0000,,I can't control my mana, either.
+Dialogue: 0,0:03:35.29,0:03:38.02,DefaultItalics,ÜBEL,0000,0000,0000,,It's a powerful binding spell.
+Dialogue: 0,0:03:38.02,0:03:42.04,DefaultItalics,ÜBEL,0000,0000,0000,,If he has this, why didn't \Nhe catch a Stille himself?
+Dialogue: 0,0:03:42.97,0:03:47.32,DefaultItalics,ÜBEL,0000,0000,0000,,Though I suppose it's useless \Nif he can't find one.
+Dialogue: 0,0:03:47.70,0:03:52.25,Default,WIRBEL,0000,0000,0000,,My spell binds those I can see.
+Dialogue: 0,0:03:52.69,0:03:56.96,Default,WIRBEL,0000,0000,0000,,As long as I keep looking at you, \Nyou won't be able to move.
+Dialogue: 0,0:03:57.23,0:04:01.56,Default,WIRBEL,0000,0000,0000,,I could easily kill you in your current state.
+Dialogue: 0,0:04:01.56,0:04:04.96,DefaultItalics,ÜBEL,0000,0000,0000,,Not only that, but he was holding back.
+Dialogue: 0,0:04:05.42,0:04:07.60,DefaultItalics,ÜBEL,0000,0000,0000,,If he'd truly intended to kill me,
+Dialogue: 0,0:04:07.60,0:04:10.83,DefaultItalics,ÜBEL,0000,0000,0000,,he would've bound me during his initial ambush.
+Dialogue: 0,0:04:12.04,0:04:13.47,Default,WIRBEL,0000,0000,0000,,This is your last chance.
+Dialogue: 0,0:04:16.07,0:04:18.19,Default,WIRBEL,0000,0000,0000,,Leave the Stille and walk away.
+Dialogue: 0,0:04:19.49,0:04:21.82,DefaultItalics,ÜBEL,0000,0000,0000,,Aw, he's no fun.
+Dialogue: 0,0:04:21.82,0:04:24.52,DefaultItalics,ÜBEL,0000,0000,0000,,And I thought I'd finally \Nfound a fight to the death.
+Dialogue: 0,0:04:24.81,0:04:28.02,DefaultItalics,ÜBEL,0000,0000,0000,,So threatening me into handing over \Nour Stille was his goal after all.
+Dialogue: 0,0:04:30.18,0:04:31.68,Default,ÜBEL,0000,0000,0000,,Wait a minute.
+Dialogue: 0,0:04:31.68,0:04:34.74,Default,ÜBEL,0000,0000,0000,,Why do you need to order me to do that?
+Dialogue: 0,0:04:34.74,0:04:38.50,Default,ÜBEL,0000,0000,0000,,You could just take the Stille \Nfrom me while I couldn't move.
+Dialogue: 0,0:04:58.73,0:05:02.55,Default,ÜBEL,0000,0000,0000,,So you need to keep my entire body in view.
+Dialogue: 0,0:05:02.55,0:05:05.44,Default,ÜBEL,0000,0000,0000,,No wonder you don't use it \Nagainst multiple targets.
+Dialogue: 0,0:05:05.44,0:05:07.53,Default,WIRBEL,0000,0000,0000,,You were aiming for my eyes.
+Dialogue: 0,0:05:07.53,0:05:09.73,Default,ÜBEL,0000,0000,0000,,That's the logical choice, isn't it?
+Dialogue: 0,0:05:09.73,0:05:15.11,Default,WIRBEL,0000,0000,0000,,No. If I were you, I'd go for \Nthe kill and attack the neck.
+Dialogue: 0,0:05:15.11,0:05:17.41,Default,WIRBEL,0000,0000,0000,,That would end the fight.
+Dialogue: 0,0:05:17.97,0:05:20.26,Default,WIRBEL,0000,0000,0000,,You should've been able to do that.
+Dialogue: 0,0:05:21.21,0:05:24.49,Default,WIRBEL,0000,0000,0000,,There were people on the battlefield \Nwho did similar things.
+Dialogue: 0,0:05:25.21,0:05:29.76,Default,WIRBEL,0000,0000,0000,,They were all perverts who enjoyed killing.
+Dialogue: 0,0:05:32.22,0:05:35.26,Default,WIRBEL,0000,0000,0000,,I guess I should kill you now.
+Dialogue: 0,0:05:37.84,0:05:40.70,Default,ÜBEL,0000,0000,0000,,Have you ever killed women \Nand children before?
+Dialogue: 0,0:05:41.33,0:05:43.09,Default,WIRBEL,0000,0000,0000,,You think I haven't?
+Dialogue: 0,0:05:43.77,0:05:48.02,Default,ÜBEL,0000,0000,0000,,Huh. What hells have you seen?
+Dialogue: 0,0:05:48.45,0:05:50.21,Default,WIRBEL,0000,0000,0000,,Trying to buy time?
+Dialogue: 0,0:05:52.21,0:05:54.75,Default,WIRBEL,0000,0000,0000,,Fine. I'll play along.
+Dialogue: 0,0:05:57.30,0:06:02.00,Default,WIRBEL,0000,0000,0000,,The Northern Magic Corps are mercenaries \Nwho specialize in fighting demons,
+Dialogue: 0,0:06:02.67,0:06:05.89,Default,WIRBEL,0000,0000,0000,,but in times of need, we're mobilized \Nto fight in wars between nations.
+Dialogue: 0,0:06:09.59,0:06:13.53,Default,WIRBEL,0000,0000,0000,,People know exactly what makes \Nother people weak.
+Dialogue: 0,0:06:14.35,0:06:20.94,Default,WIRBEL,0000,0000,0000,,The fiendish act of sending women \Nand children to war wasn't uncommon.
+Dialogue: 0,0:06:21.44,0:06:23.20,Default,WIRBEL,0000,0000,0000,,It wasn't hell.
+Dialogue: 0,0:06:25.03,0:06:27.10,Default,WIRBEL,0000,0000,0000,,It's commonplace in the far north.
+Dialogue: 0,0:06:28.01,0:06:31.58,Default,ÜBEL,0000,0000,0000,,I see. I've heard enough.
+Dialogue: 0,0:06:44.42,0:06:45.89,Default,ÜBEL,0000,0000,0000,,You're not going to kill me?
+Dialogue: 0,0:06:48.46,0:06:56.48,Default,ÜBEL,0000,0000,0000,,I think the magic a person specializes in \Nis strongly related to their life and nature.
+Dialogue: 0,0:06:57.02,0:07:03.35,Default,ÜBEL,0000,0000,0000,,A spell that binds your opponent feels like \Na way to delay killing them.
+Dialogue: 0,0:07:05.10,0:07:09.33,Default,ÜBEL,0000,0000,0000,,I see. That's why you let me buy time, too.
+Dialogue: 0,0:07:09.96,0:07:11.51,Default,ÜBEL,0000,0000,0000,,I'm surprised.
+Dialogue: 0,0:07:11.51,0:07:17.00,Default,ÜBEL,0000,0000,0000,,Your hands are already drenched in blood,\Nand yet you still want to remain human.
+Dialogue: 0,0:07:20.13,0:07:24.46,Default,WIRBEL,0000,0000,0000,,That's right. I use this time \Nto prepare myself to kill.
+Dialogue: 0,0:07:25.27,0:07:26.73,Default,WIRBEL,0000,0000,0000,,But you know, miss...
+Dialogue: 0,0:07:29.12,0:07:34.86,Default,WIRBEL,0000,0000,0000,,Though I may hesitate, \NI've always killed everyone I had to.
+Dialogue: 0,0:07:38.13,0:07:40.06,Default,WIRBEL,0000,0000,0000,,Later, miss.
+Dialogue: 0,0:07:44.22,0:07:45.72,Default,FERN,0000,0000,0000,,Don't move.
+Dialogue: 0,0:07:51.60,0:07:53.24,Default,WIRBEL,0000,0000,0000,,You're kidding, right?
+Dialogue: 0,0:07:53.24,0:07:55.29,Default,WIRBEL,0000,0000,0000,,You beat Ehre?
+Dialogue: 0,0:07:55.29,0:07:57.57,DefaultItalics,WIRBEL,0000,0000,0000,,I didn't sense her at all.
+Dialogue: 0,0:07:58.25,0:08:01.87,Default,WIRBEL,0000,0000,0000,,I'm surprised. You can \Ncompletely conceal your mana?
+Dialogue: 0,0:08:02.92,0:08:05.54,Default,WIRBEL,0000,0000,0000,,You must be the one who captured the Stille.
+Dialogue: 0,0:08:05.54,0:08:07.64,Default,ÜBEL,0000,0000,0000,,We just got lucky.
+Dialogue: 0,0:08:07.64,0:08:10.43,Default,ÜBEL,0000,0000,0000,,We happened upon a Stille's roost,
+Dialogue: 0,0:08:10.43,0:08:14.41,Default,ÜBEL,0000,0000,0000,,and her master had taught her \Na spell that captures a bird.
+Dialogue: 0,0:08:14.41,0:08:19.56,Default,ÜBEL,0000,0000,0000,,And you've got a spell that binds anything,\N so I guess you just got really unlucky.
+Dialogue: 0,0:08:19.78,0:08:22.29,Default,WIRBEL,0000,0000,0000,,Seriously. I've got no luck.
+Dialogue: 0,0:08:22.82,0:08:25.06,Default,WIRBEL,0000,0000,0000,,You were fighting Ehre.
+Dialogue: 0,0:08:25.06,0:08:26.31,Default,WIRBEL,0000,0000,0000,,What happened to her?
+Dialogue: 0,0:08:26.59,0:08:27.80,Default,FERN,0000,0000,0000,,I killed her.
+Dialogue: 0,0:08:32.50,0:08:35.47,Default,WIRBEL,0000,0000,0000,,The conditions for passing the first test
+Dialogue: 0,0:08:35.47,0:08:41.99,Default,WIRBEL,0000,0000,0000,,are possessing a Stille by sunset tonight \Nand having all your party members present.
+Dialogue: 0,0:08:44.54,0:08:47.80,Default,WIRBEL,0000,0000,0000,,We lost. I'm getting out of here.
+Dialogue: 0,0:08:48.22,0:08:51.12,Default,ÜBEL,0000,0000,0000,,I thought you were going to kill me.
+Dialogue: 0,0:08:51.12,0:08:53.72,Default,WIRBEL,0000,0000,0000,,I've already failed the test.
+Dialogue: 0,0:08:53.72,0:08:55.88,Default,WIRBEL,0000,0000,0000,,Killing you would be unnecessary.
+Dialogue: 0,0:08:55.88,0:08:56.85,Default,WIRBEL,0000,0000,0000,,Later.
+Dialogue: 0,0:08:58.85,0:09:01.70,Default,WIRBEL,0000,0000,0000,,You can attack me from behind if you want.
+Dialogue: 0,0:09:02.45,0:09:06.47,Default,WIRBEL,0000,0000,0000,,You'll just be turning an unnecessary kill \Nback into a necessary one.
+Dialogue: 0,0:09:06.49,0:09:07.67,Default,FERN,0000,0000,0000,,Ms. Übel.
+Dialogue: 0,0:09:08.21,0:09:09.60,Default,ÜBEL,0000,0000,0000,,I know.
+Dialogue: 0,0:09:15.02,0:09:16.98,Default,ÜBEL,0000,0000,0000,,You're a good liar.
+Dialogue: 0,0:09:16.98,0:09:19.87,Default,FERN,0000,0000,0000,,We should go to assist \NMr. Land while we can.
+Dialogue: 0,0:09:20.35,0:09:25.42,Default,ÜBEL,0000,0000,0000,,That four-eyes will be fine. \NHe's quite the pretender.
+Dialogue: 0,0:09:39.64,0:09:41.26,Default,SCHARF,0000,0000,0000,,It's over.
+Dialogue: 0,0:09:42.71,0:09:44.54,Default,LAND,0000,0000,0000,,This is impressive.
+Dialogue: 0,0:09:47.05,0:09:51.02,Default,LAND,0000,0000,0000,,You turned countless petals into metal \Nand controlled them precisely
+Dialogue: 0,0:09:51.02,0:09:52.65,Default,LAND,0000,0000,0000,,to slip them through my defenses.
+Dialogue: 0,0:09:54.44,0:09:56.56,Default,LAND,0000,0000,0000,,But this is your own invention, isn't it?
+Dialogue: 0,0:09:56.56,0:10:01.28,Default,LAND,0000,0000,0000,,Spells like that often \Nneglect the fundamentals.
+Dialogue: 0,0:10:01.62,0:10:08.17,Default,LAND,0000,0000,0000,,I always watch and wait when \Nfighting an opponent I don't know.
+Dialogue: 0,0:10:08.49,0:10:11.39,Default,LAND,0000,0000,0000,,I know exactly what your weaknesses are.
+Dialogue: 0,0:10:11.39,0:10:13.55,Default,LAND,0000,0000,0000,,I'll probably win.
+Dialogue: 0,0:10:13.89,0:10:15.32,Default,SCHARF,0000,0000,0000,,Talkative, aren't you?
+Dialogue: 0,0:10:15.32,0:10:18.54,Default,SCHARF,0000,0000,0000,,How do you intend to win when \NI've ruined your dominant arm?
+Dialogue: 0,0:10:21.36,0:10:25.02,Default,SCHARF,0000,0000,0000,,If you won't surrender, \Nthen I'll take your head off.
+Dialogue: 0,0:10:25.29,0:10:29.28,Default,LAND,0000,0000,0000,,I told you, I'm still observing you \Nbefore the battle begins.
+Dialogue: 0,0:10:30.26,0:10:32.64,Default,LAND,0000,0000,0000,,You're not very good at \Ndetecting mana, are you?
+Dialogue: 0,0:10:41.83,0:10:43.41,Default,SCHARF,0000,0000,0000,,Illusion magic.
+Dialogue: 0,0:10:43.41,0:10:46.90,Default,LAND,0000,0000,0000,,It has substance, so strictly speaking,\N it's more like a clone.
+Dialogue: 0,0:10:48.87,0:10:50.02,Default,SCHARF,0000,0000,0000,,How long—
+Dialogue: 0,0:10:53.35,0:10:57.77,Default,LAND,0000,0000,0000,,Since the beginning, \Nwhen the first test started.
+Dialogue: 0,0:10:58.63,0:11:00.93,Default,LAND,0000,0000,0000,,I don't trust other people.
+Dialogue: 0,0:11:04.39,0:11:06.39,Default,WIRBEL,0000,0000,0000,,Killed her, my ass.
+Dialogue: 0,0:11:06.88,0:11:10.23,Default,WIRBEL,0000,0000,0000,,That bitch lied like it was nothing.
+Dialogue: 0,0:11:11.13,0:11:12.95,Default,WIRBEL,0000,0000,0000,,Wake up, Ehre.
+Dialogue: 0,0:11:15.51,0:11:18.37,Default,WIRBEL,0000,0000,0000,,Out of mana? Pathetic.
+Dialogue: 0,0:11:18.37,0:11:20.40,Default,WIRBEL,0000,0000,0000,,Didn't you graduate at the top of your class?
+Dialogue: 0,0:11:21.83,0:11:25.61,Default,EHRE,0000,0000,0000,,She overwhelmed me with \Nordinary offensive magic.
+Dialogue: 0,0:11:26.12,0:11:28.28,Default,EHRE,0000,0000,0000,,I couldn't block them all.
+Dialogue: 0,0:11:30.21,0:11:32.29,Default,EHRE,0000,0000,0000,,You don't believe me, do you?
+Dialogue: 0,0:11:33.29,0:11:34.66,Default,WIRBEL,0000,0000,0000,,No, I do.
+Dialogue: 0,0:11:39.80,0:11:43.29,Default,WIRBEL,0000,0000,0000,,Why'd you attack her head-on like an idiot?
+Dialogue: 0,0:11:43.29,0:11:46.43,Default,WIRBEL,0000,0000,0000,,It's not like you couldn't have won.
+Dialogue: 0,0:11:48.68,0:11:53.36,DefaultItalics,WIRBEL,0000,0000,0000,,But if she could pull off this stunt \Nwith ordinary offensive magic alone,
+Dialogue: 0,0:11:54.20,0:11:56.92,DefaultItalics,WIRBEL,0000,0000,0000,,she must be one nasty monster.
+Dialogue: 0,0:11:58.02,0:12:01.11,Default,WIRBEL,0000,0000,0000,,Let's go. We'll meet up with Scharf.
+Dialogue: 0,0:12:01.11,0:12:03.92,Default,EHRE,0000,0000,0000,,Wait. I can't walk.
+Dialogue: 0,0:12:04.74,0:12:06.64,Default,WIRBEL,0000,0000,0000,,Oh, fine.
+Dialogue: 0,0:12:11.38,0:12:14.67,Default,EHRE,0000,0000,0000,,Are you really going to float me \Nthere like an object?
+Dialogue: 0,0:12:14.67,0:12:15.87,Default,EHRE,0000,0000,0000,,Carry me on your back!
+Dialogue: 0,0:12:20.61,0:12:23.00,Default,WIRBEL,0000,0000,0000,,Why am I doing this?
+Dialogue: 0,0:12:23.00,0:12:25.28,Default,EHRE,0000,0000,0000,,Do you sense Scharf nearby?
+Dialogue: 0,0:12:25.28,0:12:27.56,Default,WIRBEL,0000,0000,0000,,He's on the other side of those bushes.
+Dialogue: 0,0:12:28.25,0:12:31.69,Default,WIRBEL,0000,0000,0000,,Hey, Scharf. Help me carry...
+Dialogue: 0,0:12:35.59,0:12:38.59,Default,SCHARF,0000,0000,0000,,Wirbel, carry me on your back.
+Dialogue: 0,0:12:38.59,0:12:40.65,Default,SCHARF,0000,0000,0000,,I feel numb and can't move.
+Dialogue: 0,0:12:45.09,0:12:46.32,Default,WIRBEL,0000,0000,0000,,Damn it.
+Dialogue: 0,0:12:46.32,0:12:48.40,Default,WIRBEL,0000,0000,0000,,Seriously, what the hell is going on?
+Dialogue: 0,0:12:51.62,0:12:53.91,Default,EHRE,0000,0000,0000,,What's this sound?
+Dialogue: 0,0:12:53.91,0:12:55.74,Default,WIRBEL,0000,0000,0000,,Probably the rain.
+Dialogue: 0,0:12:55.74,0:12:58.21,Default,WIRBEL,0000,0000,0000,,It's started raining outside the barrier.
+Dialogue: 0,0:12:58.97,0:13:01.63,Default,WIRBEL,0000,0000,0000,,It's like my current mental state.
+Dialogue: 0,0:13:01.63,0:13:04.46,Default,WIRBEL,0000,0000,0000,,The sun will set in two or three more hours.
+Dialogue: 0,0:13:04.46,0:13:06.61,Default,WIRBEL,0000,0000,0000,,The first test will end.
+Dialogue: 0,0:13:07.08,0:13:09.48,Default,WIRBEL,0000,0000,0000,,Two of us are out of the fight.
+Dialogue: 0,0:13:09.48,0:13:12.58,Default,WIRBEL,0000,0000,0000,,We can't steal anyone's Stille like this.
+Dialogue: 0,0:13:12.58,0:13:15.14,Default,WIRBEL,0000,0000,0000,,We're going to fail.
+Dialogue: 0,0:13:15.77,0:13:19.99,Default,EHRE,0000,0000,0000,,But you're helping us anyway. \NYou're a nice guy.
+Dialogue: 0,0:13:19.99,0:13:23.09,Default,WIRBEL,0000,0000,0000,,I don't mind ditching you \Ntwo here, you know.
+Dialogue: 0,0:13:23.09,0:13:24.45,Default,SCHARF,0000,0000,0000,,Please don't abandon us.
+Dialogue: 0,0:13:24.45,0:13:26.67,Default,WIRBEL,0000,0000,0000,,Don't cry. You're a man, aren't you?
+Dialogue: 0,0:13:28.22,0:13:33.08,Default,EHRE,0000,0000,0000,,Is that kindness the reason \Nyou fight demons?
+Dialogue: 0,0:13:38.02,0:13:41.14,Default,EHRE,0000,0000,0000,,You saved my village, too.
+Dialogue: 0,0:13:41.14,0:13:42.16,Default,WIRBEL,0000,0000,0000,,Are you stupid?
+Dialogue: 0,0:13:42.58,0:13:45.68,Default,WIRBEL,0000,0000,0000,,I couldn't risk my life for kindness.
+Dialogue: 0,0:13:45.68,0:13:48.60,Default,WIRBEL,0000,0000,0000,,People fight for their own desires.
+Dialogue: 0,0:13:49.88,0:13:51.81,Default,WIRBEL,0000,0000,0000,,In my case, I had ulterior motives.
+Dialogue: 0,0:13:52.29,0:13:54.73,Default,WIRBEL,0000,0000,0000,,I was in love with a girl from my hometown.
+Dialogue: 0,0:13:56.23,0:14:02.80,Default,WIRBEL,0000,0000,0000,,Exactly 29 years ago, the demon activity \Nin the northern lands increased.
+Dialogue: 0,0:14:02.80,0:14:05.99,Default,WIRBEL,0000,0000,0000,,She and her entire family \Nfled to the central lands.
+Dialogue: 0,0:14:06.57,0:14:08.61,Default,WIRBEL,0000,0000,0000,,I was a dumb kid.
+Dialogue: 0,0:14:08.61,0:14:10.57,Default,WIRBEL,0000,0000,0000,,I decided to show off for her.
+Dialogue: 0,0:14:10.86,0:14:15.05,Flashback,YOUNG WIRBEL,0000,0000,0000,,I'll kill all those shitty demons.
+Dialogue: 0,0:14:15.05,0:14:17.91,Flashback,YOUNG WIRBEL,0000,0000,0000,,When I do, come back to this village.
+Dialogue: 0,0:14:23.32,0:14:26.67,Default,WIRBEL,0000,0000,0000,,I was only four or five years old.
+Dialogue: 0,0:14:27.20,0:14:29.58,Default,WIRBEL,0000,0000,0000,,I don't even remember \Nher face or name anymore.
+Dialogue: 0,0:14:34.16,0:14:35.84,Default,EHRE,0000,0000,0000,,What an idiot.
+Dialogue: 0,0:14:35.84,0:14:37.79,Default,WIRBEL,0000,0000,0000,,Yeah. I'm an idiot.
+Dialogue: 0,0:14:44.67,0:14:49.16,Default,WIRBEL,0000,0000,0000,,Are we sailing back home again? \NI get seasick easily.
+Dialogue: 0,0:14:49.52,0:14:52.39,Default,EHRE,0000,0000,0000,,Want me to introduce you to my grandpa?
+Dialogue: 0,0:14:52.39,0:14:54.88,Default,EHRE,0000,0000,0000,,Since he's a first-class mage, \Nwe can travel by land to...
+Dialogue: 0,0:14:56.00,0:14:57.52,Default,EHRE,0000,0000,0000,,Hey, Wirbel.
+Dialogue: 0,0:14:58.01,0:14:58.97,Default,WIRBEL,0000,0000,0000,,What is it?
+Dialogue: 0,0:14:58.97,0:15:00.04,Default,EHRE,0000,0000,0000,,Look.
+Dialogue: 0,0:15:11.77,0:15:15.55,Default,WIRBEL,0000,0000,0000,,You can't be serious. \NWhat was all that effort for?
+Dialogue: 0,0:15:16.42,0:15:19.74,Default,WIRBEL,0000,0000,0000,,Took long enough for luck to go my way.
+Dialogue: 0,0:15:25.95,0:15:29.64,Default,KANNE,0000,0000,0000,,Frieren, she's not doing anything.
+Dialogue: 0,0:15:32.26,0:15:34.11,DefaultItalics,DENKEN,0000,0000,0000,,An elf, huh?
+Dialogue: 0,0:15:34.50,0:15:37.11,DefaultItalics,DENKEN,0000,0000,0000,,She's a skilled mage.
+Dialogue: 0,0:15:37.41,0:15:42.56,DefaultItalics,DENKEN,0000,0000,0000,,I doubt Laufen's magic would work a \Nsecond time now that she's seen it.
+Dialogue: 0,0:15:43.04,0:15:45.56,DefaultItalics,DENKEN,0000,0000,0000,,But just once was enough.
+Dialogue: 0,0:15:45.56,0:15:48.12,DefaultItalics,DENKEN,0000,0000,0000,,We're not trying to kill each other here.
+Dialogue: 0,0:15:50.52,0:15:51.89,Default,KANNE,0000,0000,0000,,She vanished?
+Dialogue: 0,0:15:52.22,0:15:54.09,Default,LAWINE,0000,0000,0000,,Frieren, the Stille...
+Dialogue: 0,0:15:55.68,0:15:57.14,Default,FRIEREN,0000,0000,0000,,She took it, huh?
+Dialogue: 0,0:16:03.22,0:16:04.96,Default,FRIEREN,0000,0000,0000,,That's an interesting spell.
+Dialogue: 0,0:16:17.24,0:16:20.36,Default,SENSE,0000,0000,0000,,It's comfortable inside the barrier \Neven when it's raining.
+Dialogue: 0,0:16:20.36,0:16:25.09,Default,GENUA,0000,0000,0000,,Come to think of it, aren't you the proctor \Nfor the second test, Sense?
+Dialogue: 0,0:16:26.04,0:16:31.20,Default,SENSE,0000,0000,0000,,Looks like you killed a few promising \Ntest-takers again, Genau.
+Dialogue: 0,0:16:32.49,0:16:33.96,Default,GENAU,0000,0000,0000,,Don't make me laugh.
+Dialogue: 0,0:16:35.77,0:16:38.95,Default,GENAU,0000,0000,0000,,No promising test-taker would die from this.
+Dialogue: 0,0:16:39.43,0:16:43.55,Default,GENAU,0000,0000,0000,,Besides, first-class mages \Nsimply have that much worth.
+Dialogue: 0,0:16:44.24,0:16:46.34,Default,GENAU,0000,0000,0000,,You should know that.
+Dialogue: 0,0:16:47.80,0:16:55.15,Default,SENSE,0000,0000,0000,,Either way, choosing a target immune to \Nmana detection for a mage test wasn't nice.
+Dialogue: 0,0:16:55.80,0:16:58.37,Default,SENSE,0000,0000,0000,,Whether or not they'll catch one \Ncomes down to luck.
+Dialogue: 0,0:16:59.06,0:17:02.61,Default,SENSE,0000,0000,0000,,This is a battle masquerading \Nas a competition.
+Dialogue: 0,0:17:02.62,0:17:04.92,Default,GENAU,0000,0000,0000,,Luck is a skill.
+Dialogue: 0,0:17:05.29,0:17:10.18,Default,GENAU,0000,0000,0000,,And some test-takers seem to have captured \Na Stille without relying on luck.
+Dialogue: 0,0:17:11.47,0:17:14.30,Default,GENAU,0000,0000,0000,,The sun will set in three hours.
+Dialogue: 0,0:17:14.30,0:17:17.56,Default,GENAU,0000,0000,0000,,The battle will grow more intense.
+Dialogue: 0,0:17:20.65,0:17:22.91,Default,SENSE,0000,0000,0000,,Who do you think will survive?
+Dialogue: 0,0:17:22.91,0:17:25.14,Default,GENAU,0000,0000,0000,,A third will remain.
+Dialogue: 0,0:17:25.41,0:17:28.57,Default,GENAU,0000,0000,0000,,Denken will be among them.
+Dialogue: 0,0:17:28.57,0:17:32.78,Default,GENAU,0000,0000,0000,,His skill is comparable \Nto a first-class mage's.
+Dialogue: 0,0:17:33.06,0:17:36.53,Default,SENSE,0000,0000,0000,,What's an old man only interested \Nin wealth and political power
+Dialogue: 0,0:17:36.53,0:17:38.87,Default,SENSE,0000,0000,0000,,doing getting certified now?
+Dialogue: 0,0:17:38.87,0:17:41.18,Default,SENSE,0000,0000,0000,,Is he doing it for the privilege after all?
+Dialogue: 0,0:17:41.18,0:17:42.54,Default,GENAU,0000,0000,0000,,Who knows?
+Dialogue: 0,0:17:42.87,0:17:45.35,Default,GENAU,0000,0000,0000,,He's getting up there in years.
+Dialogue: 0,0:17:45.35,0:17:47.70,Default,GENAU,0000,0000,0000,,I'm sure he's got something on his mind.
+Dialogue: 0,0:17:48.53,0:17:53.29,Default,FRIEREN,0000,0000,0000,,The spell that girl used \Nwas Jilwer, wasn't it?
+Dialogue: 0,0:17:53.78,0:17:57.68,Default,FRIEREN,0000,0000,0000,,That's a folk spell used by a mountain tribe \Nin the southern lands.
+Dialogue: 0,0:17:58.04,0:17:59.94,Default,DENKEN,0000,0000,0000,,That's right.
+Dialogue: 0,0:18:00.16,0:18:01.70,Default,KANNE,0000,0000,0000,,What's a Jilwer?
+Dialogue: 0,0:18:01.70,0:18:03.57,Default,LAWINE,0000,0000,0000,,A spell that allows you to move at high speed.
+Dialogue: 0,0:18:03.96,0:18:08.05,Default,FRIEREN,0000,0000,0000,,Then the two of you \Nshould've remained hidden.
+Dialogue: 0,0:18:08.63,0:18:11.56,Default,FRIEREN,0000,0000,0000,,She could've simply taken \Nthe Stille on her own.
+Dialogue: 0,0:18:11.79,0:18:17.34,Default,DENKEN,0000,0000,0000,,Laufen is still inexperienced. \NShe left too many traces of mana behind.
+Dialogue: 0,0:18:17.34,0:18:21.69,Default,DENKEN,0000,0000,0000,,You could have easily followed her, Frieren.
+Dialogue: 0,0:18:23.03,0:18:26.62,Default,DENKEN,0000,0000,0000,,You must really find \Nour presence troublesome.
+Dialogue: 0,0:18:26.87,0:18:30.37,Default,FRIEREN,0000,0000,0000,,Well, yes. You know who I am?
+Dialogue: 0,0:18:30.66,0:18:35.02,Default,DENKEN,0000,0000,0000,,There isn't a mage of our generation \Nwho doesn't know that name.
+Dialogue: 0,0:18:35.02,0:18:38.00,Default,DENKEN,0000,0000,0000,,It's my first time seeing \Nyou with my own eyes,
+Dialogue: 0,0:18:38.00,0:18:40.25,Default,DENKEN,0000,0000,0000,,but I knew who you were \Nas soon as I saw you.
+Dialogue: 0,0:18:40.64,0:18:45.26,Default,DENKEN,0000,0000,0000,,You are Frieren, the mage \Nfrom the party of heroes.
+Dialogue: 0,0:18:45.56,0:18:46.94,Default,KANNE,0000,0000,0000,,Is she famous?
+Dialogue: 0,0:18:46.94,0:18:51.68,Default,LAWINE,0000,0000,0000,,She's a legendary mage. \NI knew it might be possible, but...
+Dialogue: 0,0:18:51.68,0:18:54.28,Default,LAWINE,0000,0000,0000,,I guess elves really don't age.
+Dialogue: 0,0:18:54.28,0:18:57.44,Default,FRIEREN,0000,0000,0000,,You're challenging me rather openly.
+Dialogue: 0,0:18:57.44,0:19:00.40,Default,FRIEREN,0000,0000,0000,,You've been sniffing around us \Nthis whole time, haven't you?
+Dialogue: 0,0:19:00.79,0:19:03.66,Default,FRIEREN,0000,0000,0000,,I was expecting something underhanded.
+Dialogue: 0,0:19:03.66,0:19:06.15,Default,RICHTER,0000,0000,0000,,This is plenty underhanded.
+Dialogue: 0,0:19:06.75,0:19:13.03,Default,RICHTER,0000,0000,0000,,While Denken keeps you busy, \NI'll kill one of those two kids.
+Dialogue: 0,0:19:13.33,0:19:14.79,Default,FRIEREN,0000,0000,0000,,I see.
+Dialogue: 0,0:19:14.79,0:19:21.30,Default,FRIEREN,0000,0000,0000,,If we can't pass because we're lacking a \Nparty member, we'll be forced to back off.
+Dialogue: 0,0:19:21.30,0:19:23.89,Default,LAWINE,0000,0000,0000,,Interesting. Try me.
+Dialogue: 0,0:19:23.89,0:19:26.08,Default,KANNE,0000,0000,0000,,Lawine, he's strong.
+Dialogue: 0,0:19:26.08,0:19:27.43,Default,LAWINE,0000,0000,0000,,I know.
+Dialogue: 0,0:19:30.06,0:19:35.03,Default,DENKEN,0000,0000,0000,,Don't, Richter. All we need \Nto do is keep them busy.
+Dialogue: 0,0:19:35.03,0:19:36.18,Default,DENKEN,0000,0000,0000,,We can win this fight.
+Dialogue: 0,0:19:37.30,0:19:43.20,Default,RICHTER,0000,0000,0000,,Denken, I thought you were a \Nmore merciless and cold man.
+Dialogue: 0,0:19:43.44,0:19:45.70,Default,RICHTER,0000,0000,0000,,You're an imperial mage, aren't you?
+Dialogue: 0,0:19:45.70,0:19:49.27,Default,RICHTER,0000,0000,0000,,I'm sure you've killed political enemies \Nmore than a couple of times.
+Dialogue: 0,0:19:57.56,0:20:02.46,Default,DENKEN,0000,0000,0000,,I simply don't believe being a first-class mage \Nis worth killing someone.
+Dialogue: 0,0:20:02.77,0:20:05.09,Default,FRIEREN,0000,0000,0000,,I can agree with that.
+Dialogue: 0,0:20:05.09,0:20:08.11,Default,FRIEREN,0000,0000,0000,,"First-class mage" is just a title.
+Dialogue: 0,0:20:08.11,0:20:10.35,Default,FRIEREN,0000,0000,0000,,It's not that valuable.
+Dialogue: 0,0:20:12.02,0:20:14.15,Default,RICHTER,0000,0000,0000,,You can't be serious.
+Dialogue: 0,0:20:14.15,0:20:17.45,Default,RICHTER,0000,0000,0000,,You mean you took this test without \Nknowing the privilege that title grants?
+Dialogue: 0,0:20:17.45,0:20:18.35,Default,FRIEREN,0000,0000,0000,,Privilege?
+Dialogue: 0,0:20:20.62,0:20:25.34,Default,RICHTER,0000,0000,0000,,More than fifty years ago, \Nthe great mage and founder
+Dialogue: 0,0:20:25.34,0:20:31.02,Default,RICHTER,0000,0000,0000,,of the Continental Magic Association, \NSerie, suddenly appeared
+Dialogue: 0,0:20:31.02,0:20:33.42,Default,RICHTER,0000,0000,0000,,to reign over humanity's magic.
+Dialogue: 0,0:20:34.74,0:20:41.17,Default,RICHTER,0000,0000,0000,,She's still searching for mages refined \Nduring the long war against the Demon King.
+Dialogue: 0,0:20:42.26,0:20:46.47,Default,RICHTER,0000,0000,0000,,So she promised to grant a special \Nprivilege to anyone who achieved
+Dialogue: 0,0:20:46.47,0:20:49.06,Default,RICHTER,0000,0000,0000,,the rank of first-class mage.
+Dialogue: 0,0:20:50.06,0:20:53.80,Default,RICHTER,0000,0000,0000,,She will grant them any \None spell they desire.
+Dialogue: 0,0:20:54.85,0:21:00.76,Default,RICHTER,0000,0000,0000,,Serie is a living grimoire who knows nearly \Nevery spell in humanity's history.
+Dialogue: 0,0:21:00.76,0:21:05.45,Default,RICHTER,0000,0000,0000,,She's the closest mage in our world to the \Nall-knowing and all-powerful Goddess.
+Dialogue: 0,0:21:05.98,0:21:08.32,Default,RICHTER,0000,0000,0000,,You could acquire massive wealth,
+Dialogue: 0,0:21:08.32,0:21:13.38,Default,RICHTER,0000,0000,0000,,cure the gravest of diseases, \Nor gain overwhelming power.
+Dialogue: 0,0:21:14.64,0:21:20.86,Default,RICHTER,0000,0000,0000,,For mages, to gain whatever spell they want \Nis equivalent to having a wish granted.
+Dialogue: 0,0:21:21.38,0:21:23.39,Default,RICHTER,0000,0000,0000,,People are simple.
+Dialogue: 0,0:21:23.39,0:21:28.40,Default,RICHTER,0000,0000,0000,,So modern first-class mages are all\N monsters who barely seem human.
+Dialogue: 0,0:21:29.17,0:21:31.25,Default,RICHTER,0000,0000,0000,,It's that valuable a privilege.
+Dialogue: 0,0:21:31.81,0:21:32.70,Default,FRIEREN,0000,0000,0000,,I see.
+Dialogue: 0,0:21:33.39,0:21:34.78,Default,DENKEN,0000,0000,0000,,This is nonsense.
+Dialogue: 0,0:21:38.89,0:21:44.02,Default,RICHTER,0000,0000,0000,,Denken, people like you who don't care \Nabout the privilege are the minority.
+Dialogue: 0,0:21:45.53,0:21:47.04,Default,RICHTER,0000,0000,0000,,Let's begin.
+Dialogue: 0,0:21:47.04,0:21:49.90,Default,RICHTER,0000,0000,0000,,Denken, keep her busy for one minute.
+Dialogue: 0,0:21:49.90,0:21:52.37,Default,RICHTER,0000,0000,0000,,That's enough time for me \Nto kill the two of them.
+Dialogue: 0,0:21:52.37,0:21:54.80,Default,DENKEN,0000,0000,0000,,Don't make me say it again, Richter.
+Dialogue: 0,0:21:55.10,0:21:57.18,Default,DENKEN,0000,0000,0000,,They're just kids.
+Dialogue: 0,0:21:57.18,0:22:00.03,Default,DENKEN,0000,0000,0000,,We're simply going to put them \Nto sleep for three hours.
+Dialogue: 0,0:22:00.03,0:22:02.34,Default,DENKEN,0000,0000,0000,,You can handle looking after \Nsome children, can't you?
+Dialogue: 0,0:22:02.34,0:22:03.30,Default,RICHTER,0000,0000,0000,,Denken.
+Dialogue: 0,0:22:07.62,0:22:10.15,Default,DENKEN,0000,0000,0000,,I'll crush her.
+Dialogue: 0,0:22:10.54,0:22:12.25,Default,DENKEN,0000,0000,0000,,That should be enough.
+Dialogue: 0,0:22:12.63,0:22:14.26,Default,RICHTER,0000,0000,0000,,You old fart.
+Dialogue: 0,0:22:15.41,0:22:16.76,Default,RICHTER,0000,0000,0000,,Bargland.
+Dialogue: 0,0:22:35.36,0:22:38.95,Default,DENKEN,0000,0000,0000,,The young are too hot-blooded.
+Dialogue: 0,0:22:49.88,0:22:53.02,Songs_ED2,ED LYRICS,0000,0000,0000,,And I'm alright (I'll be alright)
+Dialogue: 0,0:22:53.02,0:22:55.94,Songs_ED2,ED LYRICS,0000,0000,0000,,Yeah, I hear you (I care about you)
+Dialogue: 0,0:22:55.94,0:23:01.52,Songs_ED2,ED LYRICS,0000,0000,0000,,The wind teases this hair that's longer now
+Dialogue: 0,0:23:01.52,0:23:03.96,Songs_ED2,ED LYRICS,0000,0000,0000,,There's meaning in everything
+Dialogue: 0,0:23:04.46,0:23:06.94,Songs_ED2,ED LYRICS,0000,0000,0000,,Even the days that came to a halt
+Dialogue: 0,0:23:07.54,0:23:13.58,Songs_ED2,ED LYRICS,0000,0000,0000,,Now that I finally understand,\NI've caught up to you
+Dialogue: 0,0:23:13.58,0:23:17.37,Songs_ED2,ED LYRICS,0000,0000,0000,,See, things that couldn't have been
+Dialogue: 0,0:23:17.37,0:23:20.27,Songs_ED2,ED LYRICS,0000,0000,0000,,Seen if it weren't for these eyes
+Dialogue: 0,0:23:20.27,0:23:24.94,Songs_ED2,ED LYRICS,0000,0000,0000,,Why? They begin to overflow
+Dialogue: 0,0:23:24.94,0:23:31.17,Songs_ED2,ED LYRICS,0000,0000,0000,,I won't ask to see you, so at least
+Dialogue: 0,0:23:31.17,0:23:36.96,Songs_ED2,ED LYRICS,0000,0000,0000,,Let me remember the past, just for today
+Dialogue: 0,0:23:36.96,0:23:42.97,Songs_ED2,ED LYRICS,0000,0000,0000,,So, if we were to meet again
+Dialogue: 0,0:23:42.97,0:23:48.85,Songs_ED2,ED LYRICS,0000,0000,0000,,No more hesitations, I'd choose the present
+Dialogue: 0,0:23:49.91,0:23:52.87,Songs_ED2,ED LYRICS,0000,0000,0000,,Anytime, anywhere, yah (wherever you are)
+Dialogue: 0,0:23:52.87,0:23:57.52,Songs_ED2,ED LYRICS,0000,0000,0000,,Anytime, anywhere (smile for me)
+Dialogue: 0,0:23:57.52,0:24:00.50,Songs_ED2,ED LYRICS,0000,0000,0000,,I'll be there (close your eyes,\Nand I'll always be there)
+Dialogue: 0,0:24:00.50,0:24:03.25,Songs_ED2,ED LYRICS,0000,0000,0000,,Even if there are no absolutes
+Dialogue: 0,0:24:03.25,0:24:06.32,Songs_ED2,ED LYRICS,0000,0000,0000,,I'm always aware of your thoughts
+Dialogue: 0,0:24:06.32,0:24:12.35,Songs_ED2,ED LYRICS,0000,0000,0000,,Those tears will be alright,\Ndawn will surely break
+Dialogue: 0,0:24:12.80,0:24:19.26,Songs_ED2,ED LYRICS,0000,0000,0000,,I'm whispering our lullaby\Nfor you to come back home
+Dialogue: 0,0:24:20.14,0:24:22.10,Default,DENKEN,0000,0000,0000,,You inexperienced fool.
+Dialogue: 0,0:24:20.59,0:24:22.10,DefaultOverlap,FRIEREN,0000,0000,0000,,A spell that I desire?
+Dialogue: 0,0:24:21.34,0:24:23.26,DefaultTop,LAWINE,0000,0000,0000,,The difference between our mana is too great.
+Dialogue: 0,0:24:21.35,0:24:23.27,DefaultOverlapTop,LAUFEN,0000,0000,0000,,But she underestimates us.
+Dialogue: 0,0:24:22.10,0:24:23.62,Default,RICHTER,0000,0000,0000,,Give me a break.
+Dialogue: 0,0:24:23.62,0:24:25.98,DefaultTop,GENAU,0000,0000,0000,,That old man fights rather spectacularly.
+Dialogue: 0,0:24:23.82,0:24:24.58,DefaultOverlapTop,KANNE,0000,0000,0000,,I know!
+Dialogue: 0,0:24:24.58,0:24:25.67,DefaultOverlapTop,FLAMME,0000,0000,0000,,This is Frieren.
+Dialogue: 0,0:24:25.67,0:24:29.90,Default,SERIE,0000,0000,0000,,In the world of magic, sometimes \Nthe world is turned upside down.
+Dialogue: 0,0:24:27.40,0:24:29.85,Signs_NextEp,SIGN,0000,0000,0000,,{\fad(229,1)\blur3\t(20,312,\blur0.2)\pos(320,113.5)\c&H000000&\t(312,646,\c&HF6F6F6&)\fsp1.6\t(\fsp1)}Episode 21\N\N\N\N\N\N\N\NThe World of Magic

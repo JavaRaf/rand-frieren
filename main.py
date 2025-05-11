@@ -1,15 +1,21 @@
+# Standard library imports
 from pathlib import Path
 from time import sleep
 from typing import Optional
 
-from src.facebook import FacebookAPI
+# Local imports
 from src.filters import select_filter
-from src.frames_util import download_frame, get_random_frame, random_crop
+from src.facebook import FacebookAPI
+from src.frames_util import (
+    download_frame,
+    get_random_frame,
+    random_crop
+)
 from src.load_configs import load_configs
 from src.subtitle import (
     download_subtitles_if_needed,
     frame_to_timestamp,
-    get_subtitle_message,
+    get_subtitle_message
 )
 
 fb = FacebookAPI()
@@ -23,7 +29,7 @@ def post_frame(message: str, frame_path: Path) -> Optional[str]:
             print("├── Frame has been posted", flush=True)
             sleep(2)
         else:
-            print("✖ Failed to post frame")
+            print("✖ Failed to post frame (main, post_frame)")
         return post_id
     except Exception as e:
         print(f"✖ Error posting frame: {e}")
@@ -46,7 +52,7 @@ def post_subtitles(post_id: str, frame_number: int, episode: int, subtitle: str,
             print("└── Subtitle has been posted", flush=True)
             sleep(2)
         else:
-            print("✖ Failed to post subtitle")
+            print("✖ Failed to post subtitle (main, post_subtitles)")
         return subtitle_post_id
     except Exception as e:
         print(f"✖ Error posting subtitle: {e}")
@@ -66,7 +72,7 @@ def post_random_crop(post_id: str, frame_path: Path, configs: dict) -> Optional[
                 print("└── Random Crop has been posted", flush=True)
                 sleep(2)
             else:
-                print("✖ Failed to post random crop")
+                print("✖ Failed to post random crop (main, post_random_crop)")
             return crop_post_id
     except Exception as e:
         print(f"✖ Error posting random crop: {e}")
@@ -116,7 +122,7 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
 
         post_id = post_frame(message, frame_data[0]['output_path'])
         if not post_id:
-            print("✖ Failed to post frame data")
+            print("✖ Failed to post frame data (main)")
             return None
         
         post_subtitles(post_id, frame_data[0]['frame'], frame_data[0]['episode'], frame_data[0]['subtitle'], configs)
@@ -243,21 +249,46 @@ def main():
     for _ in range(1, fph + 1):
         filter_func = select_filter(configs)
         if not filter_func:
-            print("✖ No filter selected or filter is not callable")
+            print(f"✖ No filter selected or filter is not callable ({__name__})")
             continue
 
-        if filter_func.__name__ == 'two_panels':
-            framedata = process_two_panels(configs, filter_func)
-            framedata[0]['output_path'] = aplie_filter(filter_func, framedata)
+        try:
+            if filter_func.__name__ == 'two_panels':
+                framedata = process_two_panels(configs, filter_func)
+                if not framedata:
+                    print(f"✖ Error processing frames for two_panels ({__name__})")
+                    sleep(10)
+                    continue
+                
+                output_path = aplie_filter(filter_func, framedata)
+                if not output_path:
+                    print(f"✖ Error generating output_path for two_panels ({__name__})") 
+                    sleep(10)
+                    continue
 
-            post_frame_data(season, framedata, configs)
+                framedata[0]['output_path'] = output_path
+                post_frame_data(season, framedata, configs)
 
-        else:
-            data = process_frame(configs, filter_func)
-            single_frame_data = data if data else None
-            single_frame_data['output_path'] = aplie_filter(filter_func, [single_frame_data])
+            else:
+                data = process_frame(configs, filter_func)
+                if not data:
+                    print(f"✖ Error processing frame ({__name__})")
+                    sleep(10)
+                    continue
 
-            post_frame_data(season, single_frame_data, configs)
+                output_path = aplie_filter(filter_func, [data])
+                if not output_path:
+                    print(f"✖ Error generating output_path for single frame ({__name__})")
+                    sleep(10)
+                    continue
+                    
+                data['output_path'] = output_path
+                post_frame_data(season, data, configs)
+
+        except (IndexError, KeyError, Exception) as e:
+            print(f"✖ Error processing frame ({__name__}): {str(e)}")
+            sleep(10)
+            continue
 
         print('\n' + '-' * 50 + '\n' + '-' * 50,  flush=True) # makes visualization better in CI/CD environments
         sleep(posting_interval * 60) # 2 minutes

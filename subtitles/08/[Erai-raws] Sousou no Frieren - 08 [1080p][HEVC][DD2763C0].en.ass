@@ -1,0 +1,340 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: DefaultItalicsTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: DefaultOverlap,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultOverlapTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: FlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: FlashbackTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0018,0
+Style: FlashbackItalicsTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Narration,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Signs_WText,Times New Roman,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,0030,0030,0010,0
+Style: Signs_EpTitle,Times New Roman,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0030,0030,0010,0
+Style: Signs_NextEp,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Songs_OP,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00B7812E,&H00B7812E,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Songs_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A95974,&H00A95974,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.44,0:00:12.04,Default,FRIEREN,0000,0000,0000,,Who are you? Visiting hours are over.
+Dialogue: 0,0:00:13.95,0:00:19.17,Default,DRAHT,0000,0000,0000,,I am Draht, one of Aura the \NGuillotine's executioners.
+Dialogue: 0,0:00:19.70,0:00:21.60,Default,DRAHT,0000,0000,0000,,I am here to kill you.
+Dialogue: 0,0:00:22.42,0:00:26.16,Default,FRIEREN,0000,0000,0000,,I see. Done pretending to negotiate?
+Dialogue: 0,0:00:26.66,0:00:28.04,Default,DRAHT,0000,0000,0000,,We're just getting started.
+Dialogue: 0,0:00:28.48,0:00:29.74,Default,FRIEREN,0000,0000,0000,,Uh-huh.
+Dialogue: 0,0:00:32.09,0:00:34.56,Default,FRIEREN,0000,0000,0000,,Just so you know, I'm strong.
+Dialogue: 0,0:00:35.98,0:00:37.37,Default,DRAHT,0000,0000,0000,,Stronger than me?
+Dialogue: 0,0:00:38.60,0:00:40.97,Default,FRIEREN,0000,0000,0000,,Stronger than Aura the Guillotine.
+Dialogue: 0,0:00:43.65,0:00:45.35,Default,DRAHT,0000,0000,0000,,Doesn't seem like it to me.
+Dialogue: 0,0:00:45.80,0:00:46.86,Default,FRIEREN,0000,0000,0000,,Why not?
+Dialogue: 0,0:00:49.37,0:00:51.87,Default,DRAHT,0000,0000,0000,,This fight is already over.
+Dialogue: 0,0:00:56.21,0:00:59.95,Default,FRIEREN,0000,0000,0000,,Magical wire, huh? \NIt's an interesting spell.
+Dialogue: 0,0:01:00.29,0:01:04.09,Default,DRAHT,0000,0000,0000,,So you saved yourself from decapitation \Nby concentrating mana around your neck.
+Dialogue: 0,0:01:04.55,0:01:05.93,Default,DRAHT,0000,0000,0000,,You're level-headed.
+Dialogue: 0,0:01:06.49,0:01:10.84,Default,DRAHT,0000,0000,0000,,A common mage would've lost her head \Nwithout even realizing what had happened.
+Dialogue: 0,0:01:11.30,0:01:15.26,Default,DRAHT,0000,0000,0000,,But this wire is among the \Nstrongest of demonkind's spells.
+Dialogue: 0,0:01:15.69,0:01:18.71,Default,DRAHT,0000,0000,0000,,Humanity's magic doesn't \Nstand a chance against it.
+Dialogue: 0,0:01:20.87,0:01:24.59,Default,DRAHT,0000,0000,0000,,I'll cut through both \Nyour neck and your mana.
+Dialogue: 0,0:01:25.51,0:01:29.60,Default,FRIEREN,0000,0000,0000,,You're right. I doubt I can \Ndo anything about this wire.
+Dialogue: 0,0:01:31.47,0:01:34.49,Default,FRIEREN,0000,0000,0000,,That's enough to convince you you've won?
+Dialogue: 0,0:01:34.49,0:01:36.57,Default,FRIEREN,0000,0000,0000,,Demons these days are hopeless.
+Dialogue: 0,0:01:36.57,0:01:38.69,Default,FRIEREN,0000,0000,0000,,They lack actual battle experience.
+Dialogue: 0,0:01:44.67,0:01:45.83,DefaultItalics,DRAHT,0000,0000,0000,,This mage...
+Dialogue: 0,0:01:46.40,0:01:48.03,DefaultItalics,DRAHT,0000,0000,0000,,She took my arm!
+Dialogue: 0,0:01:49.12,0:01:50.46,Default,DRAHT,0000,0000,0000,,You bitch—
+Dialogue: 0,0:01:55.75,0:01:57.24,Default,DRAHT,0000,0000,0000,,Wait! Let's talk this—
+Dialogue: 0,0:02:07.14,0:02:09.05,Default,FRIEREN,0000,0000,0000,,That's one down.
+Dialogue: 0,0:02:12.52,0:02:20.03,DefaultItalics,FRIEREN,0000,0000,0000,,If I report this attack to the graf and kill \Nthe other two, surely he'll pardon me.
+Dialogue: 0,0:02:29.65,0:02:31.86,Default,FRIEREN,0000,0000,0000,,The guard is dead.
+Dialogue: 0,0:02:33.54,0:02:36.05,Songs_OP,OP LYRICS,0000,0000,0000,,Like a fairy tale
+Dialogue: 0,0:02:36.05,0:02:38.47,Songs_OP,OP LYRICS,0000,0000,0000,,It's a sign the story has reached its end
+Dialogue: 0,0:02:38.47,0:02:41.39,Songs_OP,OP LYRICS,0000,0000,0000,,Like a single passage taken from
+Dialogue: 0,0:02:41.39,0:02:43.01,Songs_OP,OP LYRICS,0000,0000,0000,,A journey that was too long
+Dialogue: 0,0:02:43.01,0:02:45.35,Songs_OP,OP LYRICS,0000,0000,0000,,Of the evil that once cast a shadow
+Dialogue: 0,0:02:45.35,0:02:47.68,Songs_OP,OP LYRICS,0000,0000,0000,,Across this land
+Dialogue: 0,0:02:47.68,0:02:50.02,Songs_OP,OP LYRICS,0000,0000,0000,,And the memories of the short journey
+Dialogue: 0,0:02:50.02,0:02:52.48,Songs_OP,OP LYRICS,0000,0000,0000,,With the hero who defeated it
+Dialogue: 0,0:02:53.27,0:03:02.24,Signs,SIGN,0000,0000,0000,,{\fad(1,473)\blur0.25\fs25\fnGeorgia\fsp3.9\pos(322,230)\c&HFFFCFE&\t(989,4326,\c&HEFC777&)\t(6411,6745,\c&HEAC732&)}Beyond Journey's End
+Dialogue: 0,0:03:02.49,0:03:04.78,Songs_OP,OP LYRICS,0000,0000,0000,,The story ends
+Dialogue: 0,0:03:04.78,0:03:07.29,Songs_OP,OP LYRICS,0000,0000,0000,,And the hero goes to sleep
+Dialogue: 0,0:03:07.29,0:03:10.12,Songs_OP,OP LYRICS,0000,0000,0000,,Leaving this land with
+Dialogue: 0,0:03:10.12,0:03:11.79,Songs_OP,OP LYRICS,0000,0000,0000,,Days of peace and quiet
+Dialogue: 0,0:03:11.79,0:03:14.29,Songs_OP,OP LYRICS,0000,0000,0000,,The passage of time heartlessly
+Dialogue: 0,0:03:14.29,0:03:16.46,Songs_OP,OP LYRICS,0000,0000,0000,,Makes people forget
+Dialogue: 0,0:03:16.46,0:03:19.26,Songs_OP,OP LYRICS,0000,0000,0000,,Even the tracks left behind by his life
+Dialogue: 0,0:03:19.26,0:03:21.05,Songs_OP,OP LYRICS,0000,0000,0000,,Begin to rust
+Dialogue: 0,0:03:21.05,0:03:22.89,Songs_OP,OP LYRICS,0000,0000,0000,,Just the same
+Dialogue: 0,0:03:22.89,0:03:25.18,Songs_OP,OP LYRICS,0000,0000,0000,,Your words and wishes and courage
+Dialogue: 0,0:03:25.18,0:03:28.52,Songs_OP,OP LYRICS,0000,0000,0000,,Are still inside of me
+Dialogue: 0,0:03:28.52,0:03:30.39,Songs_OP,OP LYRICS,0000,0000,0000,,And they live on
+Dialogue: 0,0:03:31.19,0:03:32.94,Songs_OP,OP LYRICS,0000,0000,0000,,We chose the same path
+Dialogue: 0,0:03:32.94,0:03:35.06,Songs_OP,OP LYRICS,0000,0000,0000,,That's all it was supposed to be
+Dialogue: 0,0:03:35.06,0:03:36.61,Songs_OP,OP LYRICS,0000,0000,0000,,Why is it that at some point
+Dialogue: 0,0:03:36.61,0:03:41.11,Songs_OP,OP LYRICS,0000,0000,0000,,I wanted to understand the reason for
+Dialogue: 0,0:03:41.11,0:03:42.24,Songs_OP,OP LYRICS,0000,0000,0000,,The tears that fall down my cheeks
+Dialogue: 0,0:03:42.24,0:03:43.32,Songs_OP,OP LYRICS,0000,0000,0000,,Even now
+Dialogue: 0,0:03:43.32,0:03:45.70,Songs_OP,OP LYRICS,0000,0000,0000,,If I retrace the journey we walked together
+Dialogue: 0,0:03:45.70,0:03:49.24,Songs_OP,OP LYRICS,0000,0000,0000,,Even though you're not there
+Dialogue: 0,0:03:49.24,0:03:50.91,Songs_OP,OP LYRICS,0000,0000,0000,,I know I'll be able to find it
+Dialogue: 0,0:04:10.23,0:04:12.01,Default,FERN,0000,0000,0000,,This is delicious.
+Dialogue: 0,0:04:15.00,0:04:20.13,Default,STARK,0000,0000,0000,,My master said any town that serves \Ntasty food is a good, peaceful town.
+Dialogue: 0,0:04:19.20,0:04:20.64,DefaultTop,CHILD,0000,0000,0000,,Wait!
+Dialogue: 0,0:04:21.06,0:04:23.33,Default,STARK,0000,0000,0000,,That must be true of this town, too.
+Dialogue: 0,0:04:29.93,0:04:31.17,Default,FERN,0000,0000,0000,,Mr. Stark.
+Dialogue: 0,0:04:31.17,0:04:32.58,Default,STARK,0000,0000,0000,,You can't have any.
+Dialogue: 0,0:04:33.41,0:04:37.95,Default,FERN,0000,0000,0000,,Let's directly petition Graf Granat \Nto release Ms. Frieren.
+Dialogue: 0,0:04:40.46,0:04:44.60,Default,FERN,0000,0000,0000,,I think it's only a matter of time \Nuntil harm comes to this town.
+Dialogue: 0,0:04:45.13,0:04:49.32,Default,FERN,0000,0000,0000,,We should release Ms. Frieren from the \Ndungeon and have her defeat the demons.
+Dialogue: 0,0:04:51.95,0:04:54.10,Default,STARK,0000,0000,0000,,That's our only option after all, huh?
+Dialogue: 0,0:04:54.50,0:04:57.05,Default,STARK,0000,0000,0000,,We wouldn't stand a chance against them.
+Dialogue: 0,0:04:57.74,0:05:01.49,Default,STARK,0000,0000,0000,,Especially not that Lügner guy. \NHe's unbelievably strong.
+Dialogue: 0,0:05:02.54,0:05:04.43,Default,STARK,0000,0000,0000,,He was only looking at Frieren.
+Dialogue: 0,0:05:05.41,0:05:08.24,Default,STARK,0000,0000,0000,,Even though we were standing there \Nnext to him with the guards,
+Dialogue: 0,0:05:09.73,0:05:11.93,Default,STARK,0000,0000,0000,,he was only looking at Frieren.
+Dialogue: 0,0:05:14.77,0:05:17.67,Default,STARK,0000,0000,0000,,It's because he thinks he \Ncan kill us at any time.
+Dialogue: 0,0:05:18.94,0:05:21.19,Default,STARK,0000,0000,0000,,My hands still haven't stopped shaking.
+Dialogue: 0,0:05:27.13,0:05:30.46,Default,STARK,0000,0000,0000,,See? I even spilled my drink \Nso it looks like I wet myself.
+Dialogue: 0,0:05:31.05,0:05:32.89,Default,STARK,0000,0000,0000,,That's just how strong he is.
+Dialogue: 0,0:05:34.04,0:05:37.05,Default,FERN,0000,0000,0000,,You should wipe that up. Let's go.
+Dialogue: 0,0:05:38.82,0:05:41.74,Default,STARK,0000,0000,0000,,Lügner and his guys are with the graf.
+Dialogue: 0,0:05:42.46,0:05:44.49,Default,STARK,0000,0000,0000,,Worst case, a fight will break out.
+Dialogue: 0,0:05:44.75,0:05:47.51,Default,FERN,0000,0000,0000,,That wouldn't stop the party \Nof heroes from going.
+Dialogue: 0,0:05:52.26,0:05:53.49,Default,STARK,0000,0000,0000,,You're right.
+Dialogue: 0,0:05:53.79,0:05:58.13,Default,STARK,0000,0000,0000,,If I lost my nerve here, I'd never \Nbe able to face my master again.
+Dialogue: 0,0:05:59.24,0:06:00.32,Default,STARK,0000,0000,0000,,Let's go.
+Dialogue: 0,0:06:01.13,0:06:03.00,Default,FERN,0000,0000,0000,,You can keep the handkerchief.
+Dialogue: 0,0:06:03.55,0:06:04.41,Default,STARK,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:09.37,0:06:10.76,Default,FERN,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:06:11.20,0:06:13.14,Default,STARK,0000,0000,0000,,I'm paralyzed with fear.
+Dialogue: 0,0:06:18.07,0:06:20.73,Default,LINIE,0000,0000,0000,,I'm no longer detecting Draht's magic.
+Dialogue: 0,0:06:23.44,0:06:24.70,Default,LÜGNER,0000,0000,0000,,He must be dead.
+Dialogue: 0,0:06:25.50,0:06:28.73,Default,LINIE,0000,0000,0000,,What an idiot. He underestimated her.
+Dialogue: 0,0:06:30.04,0:06:31.10,Default,LÜGNER,0000,0000,0000,,Underestimated her?
+Dialogue: 0,0:06:32.44,0:06:37.37,Default,LÜGNER,0000,0000,0000,,We are the right-hand men of \NLady Aura. Her executioners.
+Dialogue: 0,0:06:37.89,0:06:40.49,Default,LÜGNER,0000,0000,0000,,You think we'd die from merely \Nunderestimating someone?
+Dialogue: 0,0:06:42.51,0:06:45.00,Default,LINIE,0000,0000,0000,,Who is that mage?
+Dialogue: 0,0:06:51.02,0:06:53.25,Default,GRANAT,0000,0000,0000,,Sorry I kept you waiting.
+Dialogue: 0,0:06:55.43,0:06:58.32,Default,GRANAT,0000,0000,0000,,The mage I captured has escaped.
+Dialogue: 0,0:06:58.83,0:07:01.15,Default,GRANAT,0000,0000,0000,,The soldier guarding her cell was beheaded.
+Dialogue: 0,0:07:01.15,0:07:03.31,Default,LÜGNER,0000,0000,0000,,That can't be good.
+Dialogue: 0,0:07:03.31,0:07:05.57,Default,LÜGNER,0000,0000,0000,,We'll help you look for her.
+Dialogue: 0,0:07:05.57,0:07:07.53,Default,LÜGNER,0000,0000,0000,,Linie is skilled at locating magic—
+Dialogue: 0,0:07:07.53,0:07:08.85,Default,GRANAT,0000,0000,0000,,No, that's all right.
+Dialogue: 0,0:07:11.82,0:07:16.09,Default,GRANAT,0000,0000,0000,,By the way, one of your men \Nseems to be missing.
+Dialogue: 0,0:07:16.97,0:07:19.90,Default,LÜGNER,0000,0000,0000,,He's in the privy. He'll be back soon.
+Dialogue: 0,0:07:19.90,0:07:22.24,Default,GRANAT,0000,0000,0000,,Without asking a servant for directions?
+Dialogue: 0,0:07:25.21,0:07:29.14,Default,GRANAT,0000,0000,0000,,Even I can tell she's a skilled mage.
+Dialogue: 0,0:07:30.23,0:07:33.22,Default,GRANAT,0000,0000,0000,,But she allowed my guards \Nto seize her without a fight.
+Dialogue: 0,0:07:34.19,0:07:37.99,Default,GRANAT,0000,0000,0000,,She understands the seriousness \Nof killing a guard.
+Dialogue: 0,0:07:39.20,0:07:42.51,Default,GRANAT,0000,0000,0000,,Lord Lügner, I'll ask you one last time.
+Dialogue: 0,0:07:47.38,0:07:49.37,Default,GRANAT,0000,0000,0000,,Where is your man?
+Dialogue: 0,0:07:59.41,0:08:01.03,Default,LÜGNER,0000,0000,0000,,Honestly.
+Dialogue: 0,0:08:07.78,0:08:09.90,Default,LÜGNER,0000,0000,0000,,That idiot Draht.
+Dialogue: 0,0:08:19.15,0:08:20.94,Default,LÜGNER,0000,0000,0000,,He ruined everything.
+Dialogue: 0,0:08:36.44,0:08:38.63,Default,LÜGNER,0000,0000,0000,,It's strange, though.
+Dialogue: 0,0:08:39.66,0:08:48.00,Default,LÜGNER,0000,0000,0000,,Now that violence has become the only way \Nto resolve this mess, I'm overjoyed.
+Dialogue: 0,0:08:49.73,0:08:53.08,Default,LÜGNER,0000,0000,0000,,Graf Granat, what are words?
+Dialogue: 0,0:08:53.44,0:08:56.08,Default,LÜGNER,0000,0000,0000,,How do they differ from swords?
+Dialogue: 0,0:08:56.94,0:09:00.63,Default,LÜGNER,0000,0000,0000,,No matter what we use, the weak die.
+Dialogue: 0,0:09:03.29,0:09:05.85,Default,LÜGNER,0000,0000,0000,,Just like this sword's former owner.
+Dialogue: 0,0:09:06.83,0:09:08.97,Default,GRANAT,0000,0000,0000,,Lügner!
+Dialogue: 0,0:09:18.23,0:09:21.41,Default,LÜGNER,0000,0000,0000,,In the end, we are wild beasts.
+Dialogue: 0,0:09:22.45,0:09:25.17,Default,LÜGNER,0000,0000,0000,,Don't worry. I won't kill you.
+Dialogue: 0,0:09:27.28,0:09:32.09,Default,LÜGNER,0000,0000,0000,,You're going to help us remove \Nthis town's defensive barrier.
+Dialogue: 0,0:09:37.26,0:09:39.37,Default,STARK,0000,0000,0000,,We should be arriving at \Nthe graf's mansion soon.
+Dialogue: 0,0:09:43.76,0:09:45.16,Default,FERN,0000,0000,0000,,Ms. Frieren?
+Dialogue: 0,0:09:49.02,0:09:50.73,Default,FERN,0000,0000,0000,,You're Ms. Frieren, aren't you?
+Dialogue: 0,0:09:58.72,0:10:00.99,Default,STARK,0000,0000,0000,,What are you doing here?
+Dialogue: 0,0:10:01.35,0:10:03.51,Default,FERN,0000,0000,0000,,Don't tell me you broke out of the dungeon.
+Dialogue: 0,0:10:04.48,0:10:06.56,Default,FRIEREN,0000,0000,0000,,I didn't have a choice.
+Dialogue: 0,0:10:07.29,0:10:11.42,Default,FRIEREN,0000,0000,0000,,Some demon named Draht \Nattacked me while I was in there.
+Dialogue: 0,0:10:11.42,0:10:13.51,Default,FRIEREN,0000,0000,0000,,I defeated him,
+Dialogue: 0,0:10:14.12,0:10:17.82,Default,FRIEREN,0000,0000,0000,,but when demons die, they turn into \Nmana particles and disappear.
+Dialogue: 0,0:10:18.51,0:10:20.49,Default,FERN,0000,0000,0000,,What do you mean by that?
+Dialogue: 0,0:10:20.88,0:10:24.26,Default,FRIEREN,0000,0000,0000,,He'd already killed the dungeon guard.
+Dialogue: 0,0:10:25.32,0:10:27.53,Default,FRIEREN,0000,0000,0000,,The only ones down there were a guard
+Dialogue: 0,0:10:27.53,0:10:32.52,Default,FRIEREN,0000,0000,0000,,who had been beheaded using \Nmagical wire and me, a mage.
+Dialogue: 0,0:10:33.31,0:10:35.16,Default,FRIEREN,0000,0000,0000,,How would you read that situation?
+Dialogue: 0,0:10:36.92,0:10:39.50,Default,FERN,0000,0000,0000,,That you're a guard-killer \Nwho should be executed.
+Dialogue: 0,0:10:39.50,0:10:43.58,Default,FRIEREN,0000,0000,0000,,Right? This is becoming a pain. \NI'm leaving town.
+Dialogue: 0,0:10:43.58,0:10:44.98,Default,FERN,0000,0000,0000,,Wait.
+Dialogue: 0,0:10:45.45,0:10:47.84,Default,FERN,0000,0000,0000,,If you leave, the remaining \Ndemons will run wild.
+Dialogue: 0,0:10:48.73,0:10:51.00,Default,FERN,0000,0000,0000,,Are you really going to abandon this town?
+Dialogue: 0,0:10:52.55,0:10:54.62,Default,FRIEREN,0000,0000,0000,,Why don't you two defeat them?
+Dialogue: 0,0:10:54.92,0:10:57.25,Default,FERN,0000,0000,0000,,You make it sound so easy.
+Dialogue: 0,0:10:57.73,0:11:00.76,Default,STARK,0000,0000,0000,,We don't stand a chance against them.
+Dialogue: 0,0:11:01.16,0:11:03.88,Default,FRIEREN,0000,0000,0000,,You're not going to fight them \Njust because they're strong?
+Dialogue: 0,0:11:07.08,0:11:12.48,Default,FRIEREN,0000,0000,0000,,Besides, I don't think you're \Nweaker than them at all.
+Dialogue: 0,0:11:16.72,0:11:18.11,Default,STARK,0000,0000,0000,,Wait!
+Dialogue: 0,0:11:18.11,0:11:21.87,Default,STARK,0000,0000,0000,,We'll fight, okay? At least help us!
+Dialogue: 0,0:11:21.87,0:11:23.12,Default,STARK,0000,0000,0000,,I'm begging you!
+Dialogue: 0,0:11:25.80,0:11:26.61,Default,STARK,0000,0000,0000,,Peek.
+Dialogue: 0,0:11:27.60,0:11:29.63,Default,STARK,0000,0000,0000,,Hey, wait!
+Dialogue: 0,0:11:29.63,0:11:31.62,Default,STARK,0000,0000,0000,,Please, Frieren!
+Dialogue: 0,0:11:31.62,0:11:35.26,Default,FERN,0000,0000,0000,,You don't know when to give up, \Ndo you? Let's steel ourselves.
+Dialogue: 0,0:11:35.26,0:11:39.14,Default,STARK,0000,0000,0000,,But... it's impossible...
+Dialogue: 0,0:11:39.14,0:11:40.78,Default,FERN,0000,0000,0000,,Don't be childish.
+Dialogue: 0,0:11:50.50,0:11:53.80,DefaultItalics,FRIEREN,0000,0000,0000,,About ten kilometers from town...
+Dialogue: 0,0:11:53.80,0:11:55.85,DefaultItalics,FRIEREN,0000,0000,0000,,I sense a great deal of mana.
+Dialogue: 0,0:11:55.85,0:11:58.30,DefaultItalics,FRIEREN,0000,0000,0000,,We're being observed.
+Dialogue: 0,0:12:16.21,0:12:19.91,Default,FRIEREN,0000,0000,0000,,Aura the Guillotine, one of the \NSeven Sages of Destruction.
+Dialogue: 0,0:12:21.68,0:12:25.52,Default,FRIEREN,0000,0000,0000,,I hate fighting powerful opponents, too.
+Dialogue: 0,0:12:28.77,0:12:31.98,Default,FRIEREN,0000,0000,0000,,All the more reason to finish this quickly.
+Dialogue: 0,0:13:23.01,0:13:26.88,Default,STARK,0000,0000,0000,,Should we be sneaking \Ninto the mansion like this?
+Dialogue: 0,0:13:27.76,0:13:32.39,Default,FERN,0000,0000,0000,,Would you rather tell the gate guards \Nthat we're here to kill the peace envoys?
+Dialogue: 0,0:13:49.21,0:13:50.89,Default,STARK,0000,0000,0000,,It's oddly quiet.
+Dialogue: 0,0:14:00.13,0:14:03.00,Default,LÜGNER,0000,0000,0000,,I love magic.
+Dialogue: 0,0:14:04.63,0:14:07.37,Default,LÜGNER,0000,0000,0000,,Just as Qual, the Elder Sage of Corruption,
+Dialogue: 0,0:14:08.37,0:14:14.23,Default,LÜGNER,0000,0000,0000,,spent most of his life \Ndeveloping a killing spell...
+Dialogue: 0,0:14:17.44,0:14:24.76,Default,LÜGNER,0000,0000,0000,,demons dedicate the entirety of our long \Nlives to researching a single kind of magic.
+Dialogue: 0,0:14:25.45,0:14:29.32,Default,LÜGNER,0000,0000,0000,,We develop our research \Ndaily over years and years.
+Dialogue: 0,0:14:30.07,0:14:34.76,Default,LÜGNER,0000,0000,0000,,Ten years from now, our \Nmagics will be even greater,
+Dialogue: 0,0:14:34.76,0:14:37.93,Default,LÜGNER,0000,0000,0000,,and we will become even stronger.
+Dialogue: 0,0:14:41.32,0:14:46.29,Default,LÜGNER,0000,0000,0000,,But magic is a strange thing.
+Dialogue: 0,0:14:46.75,0:14:52.35,Default,LÜGNER,0000,0000,0000,,Flamme the Legendary Mage's \Ndefensive barrier has prevented demons
+Dialogue: 0,0:14:52.35,0:14:54.70,Default,LÜGNER,0000,0000,0000,,from invading and protected this town.
+Dialogue: 0,0:15:18.96,0:15:25.77,Default,LÜGNER,0000,0000,0000,,Sometimes a spell cast by a genius a thousand\Nyears ago outmatches spells of the present.
+Dialogue: 0,0:15:28.75,0:15:30.91,Default,LÜGNER,0000,0000,0000,,I despise geniuses.
+Dialogue: 0,0:15:31.36,0:15:34.28,Default,LÜGNER,0000,0000,0000,,They lack the beauty of accumulated effort.
+Dialogue: 0,0:15:36.10,0:15:41.17,Default,LÜGNER,0000,0000,0000,,The Granat family has been entrusted with \Nmaintaining the barrier for generations.
+Dialogue: 0,0:15:42.03,0:15:49.80,Default,LÜGNER,0000,0000,0000,,If you could allow us into this town, \Nthen there must be a way to control it.
+Dialogue: 0,0:15:50.69,0:15:52.29,Default,LÜGNER,0000,0000,0000,,Teach it to me.
+Dialogue: 0,0:15:57.81,0:16:00.02,Default,LÜGNER,0000,0000,0000,,I'll give you some time.
+Dialogue: 0,0:16:02.42,0:16:04.35,Default,LÜGNER,0000,0000,0000,,Consider it carefully.
+Dialogue: 0,0:16:05.27,0:16:10.33,Default,LÜGNER,0000,0000,0000,,Making someone wait is an effective \Ndiplomatic strategy for humans as well.
+Dialogue: 0,0:16:11.44,0:16:15.63,Default,LÜGNER,0000,0000,0000,,If you won't talk, then all that \Nawaits you is further torture.
+Dialogue: 0,0:16:25.14,0:16:28.90,Default,LÜGNER,0000,0000,0000,,There must be a grimoire \Nrelated to the barrier somewhere.
+Dialogue: 0,0:16:28.90,0:16:32.17,Default,LÜGNER,0000,0000,0000,,Search the bedroom. I'll search the study.
+Dialogue: 0,0:16:45.86,0:16:49.50,Default,GRANAT,0000,0000,0000,,You're just that adventurer kid \Nfrom this afternoon.
+Dialogue: 0,0:16:49.50,0:16:52.72,Default,GRANAT,0000,0000,0000,,I thought my son had come for me.
+Dialogue: 0,0:16:52.72,0:16:56.13,Default,STARK,0000,0000,0000,,You look awful. \NThose demons did this to you?
+Dialogue: 0,0:16:58.06,0:16:59.64,Default,STARK,0000,0000,0000,,I'll release you.
+Dialogue: 0,0:17:05.31,0:17:06.76,Default,GRANAT,0000,0000,0000,,You're trembling.
+Dialogue: 0,0:17:06.76,0:17:08.30,Default,STARK,0000,0000,0000,,Is that a problem?
+Dialogue: 0,0:17:08.30,0:17:10.34,Default,GRANAT,0000,0000,0000,,No. It's valiant.
+Dialogue: 0,0:17:11.41,0:17:14.62,Default,GRANAT,0000,0000,0000,,My dead son was trembling \Nbefore he headed off to battle, too.
+Dialogue: 0,0:17:20.90,0:17:22.94,Default,STARK,0000,0000,0000,,Damn it. I can't cut the rope.
+Dialogue: 0,0:17:22.94,0:17:24.15,Default,STARK,0000,0000,0000,,Is it magical?
+Dialogue: 0,0:17:24.55,0:17:28.34,Default,GRANAT,0000,0000,0000,,Don't worry about me. \NI'm done for either way.
+Dialogue: 0,0:17:29.05,0:17:31.89,Default,GRANAT,0000,0000,0000,,Evacuating the townsfolk is more important.
+Dialogue: 0,0:17:31.89,0:17:36.40,Default,STARK,0000,0000,0000,,They're not gonna listen without you.
+Dialogue: 0,0:17:36.40,0:17:40.42,Default,GRANAT,0000,0000,0000,,The Granat family crest hangs from my neck.
+Dialogue: 0,0:17:41.89,0:17:45.58,Default,GRANAT,0000,0000,0000,,Show this to the guards, \Nand they'll do whatever you say.
+Dialogue: 0,0:17:46.88,0:17:52.81,Default,GRANAT,0000,0000,0000,,And speaking so casually to me \Nis a serious crime in this town, brat.
+Dialogue: 0,0:17:59.74,0:18:02.84,Default,GRANAT,0000,0000,0000,,I know. Given the circumstances, \NI'll overlook this offense.
+Dialogue: 0,0:18:03.60,0:18:05.31,Default,GRANAT,0000,0000,0000,,Now go.
+Dialogue: 0,0:18:05.31,0:18:06.62,Default,STARK,0000,0000,0000,,I see.
+Dialogue: 0,0:18:07.19,0:18:08.89,Default,STARK,0000,0000,0000,,Sorry, old man.
+Dialogue: 0,0:18:10.27,0:18:12.63,Default,STARK,0000,0000,0000,,I'm gonna break this \Nexpensive-looking chair.
+Dialogue: 0,0:18:14.72,0:18:16.98,Default,STARK,0000,0000,0000,,I can't afford to replace it.
+Dialogue: 0,0:18:18.27,0:18:20.54,Default,LINIE,0000,0000,0000,,Lord Lügner, a rat.
+Dialogue: 0,0:18:23.52,0:18:26.17,Default,LÜGNER,0000,0000,0000,,Graf Granat, do you know him?
+Dialogue: 0,0:18:26.17,0:18:29.67,Default,GRANAT,0000,0000,0000,,No. He's one of the adventurers \Nfrom this afternoon.
+Dialogue: 0,0:18:30.04,0:18:33.36,Default,GRANAT,0000,0000,0000,,He must've come to petition me directly
+Dialogue: 0,0:18:33.36,0:18:36.05,Default,GRANAT,0000,0000,0000,,without realizing the mage \Nhe was with escaped.
+Dialogue: 0,0:18:37.15,0:18:38.80,Default,GRANAT,0000,0000,0000,,What a stupid kid.
+Dialogue: 0,0:18:39.39,0:18:40.52,Default,LÜGNER,0000,0000,0000,,I see.
+Dialogue: 0,0:18:41.65,0:18:42.81,DefaultItalics,STARK,0000,0000,0000,,Again.
+Dialogue: 0,0:18:43.27,0:18:45.32,Default,LÜGNER,0000,0000,0000,,You can leave, boy.
+Dialogue: 0,0:18:45.60,0:18:47.28,Default,LÜGNER,0000,0000,0000,,I'll let you live.
+Dialogue: 0,0:18:47.28,0:18:48.36,DefaultItalics,STARK,0000,0000,0000,,He's doing it again.
+Dialogue: 0,0:18:50.42,0:18:53.15,DefaultItalics,STARK,0000,0000,0000,,He's not even looking at me.
+Dialogue: 0,0:18:54.17,0:18:56.59,Default,LÜGNER,0000,0000,0000,,What's the matter? Move.
+Dialogue: 0,0:18:56.86,0:18:59.12,Default,LÜGNER,0000,0000,0000,,If you get in my way, I'll kill you.
+Dialogue: 0,0:19:03.03,0:19:04.58,Default,STARK,0000,0000,0000,,Go ahead and try!
+Dialogue: 0,0:19:08.85,0:19:09.63,DefaultItalics,LÜGNER,0000,0000,0000,,He's fast.
+Dialogue: 0,0:19:11.36,0:19:14.20,Default,LÜGNER,0000,0000,0000,,But you're only human.
+Dialogue: 0,0:19:25.28,0:19:29.57,Default,LÜGNER,0000,0000,0000,,You protected your vitals. \NYour reflexes aren't bad.
+Dialogue: 0,0:19:29.57,0:19:33.49,Default,LÜGNER,0000,0000,0000,,That said, the young are rash, \Nwhether they're humans or demons—
+Dialogue: 0,0:19:33.49,0:19:35.21,Default,LÜGNER,0000,0000,0000,,thoughtless and reckless.
+Dialogue: 0,0:19:37.50,0:19:41.62,Default,LÜGNER,0000,0000,0000,,But you challenged me alone. \NI commend your valor.
+Dialogue: 0,0:19:42.23,0:19:43.61,Default,STARK,0000,0000,0000,,Alone?
+Dialogue: 0,0:19:43.91,0:19:48.03,Default,STARK,0000,0000,0000,,I see. You can't detect her after all.
+Dialogue: 0,0:19:48.03,0:19:49.11,Default,LÜGNER,0000,0000,0000,,What?
+Dialogue: 0,0:19:49.44,0:19:52.95,Default,STARK,0000,0000,0000,,Fern, I created the opening you asked for.
+Dialogue: 0,0:19:53.72,0:19:56.36,Default,LINIE,0000,0000,0000,,Lord Lügner, I'm sensing a mage!
+Dialogue: 0,0:20:11.56,0:20:12.91,DefaultItalics,LÜGNER,0000,0000,0000,,Impossible.
+Dialogue: 0,0:20:12.91,0:20:18.35,DefaultItalics,LÜGNER,0000,0000,0000,,A mere human mage evaded Linie's detection?
+Dialogue: 0,0:20:19.73,0:20:22.41,DefaultItalics,LÜGNER,0000,0000,0000,,And this spell...
+Dialogue: 0,0:20:25.16,0:20:27.82,Default,LINIE,0000,0000,0000,,Lord Lügner, let me handle this.
+Dialogue: 0,0:20:27.82,0:20:28.71,Default,LÜGNER,0000,0000,0000,,Don't.
+Dialogue: 0,0:20:29.60,0:20:32.60,Default,LÜGNER,0000,0000,0000,,Girl, what is that spell?
+Dialogue: 0,0:20:33.16,0:20:35.08,Default,FERN,0000,0000,0000,,Ordinary offensive magic.
+Dialogue: 0,0:20:35.59,0:20:40.51,Default,FERN,0000,0000,0000,,I believe it's known as Zoltraak \Nin your magic system.
+Dialogue: 0,0:20:40.51,0:20:42.89,Default,LÜGNER,0000,0000,0000,,This is Zoltraak?
+Dialogue: 0,0:20:43.38,0:20:45.15,Default,LÜGNER,0000,0000,0000,,Don't be absurd.
+Dialogue: 0,0:20:45.15,0:20:50.06,Default,LÜGNER,0000,0000,0000,,Demonkind overcame Zoltraak \Nhalf a century ago.
+Dialogue: 0,0:20:51.13,0:20:53.37,Default,LÜGNER,0000,0000,0000,,Who taught you this spell?
+Dialogue: 0,0:20:54.51,0:20:56.59,Default,FERN,0000,0000,0000,,You're trying to buy time, aren't you?
+Dialogue: 0,0:20:57.23,0:20:58.40,Default,FERN,0000,0000,0000,,I should finish you now.
+Dialogue: 0,0:20:59.42,0:21:00.62,Default,LINIE,0000,0000,0000,,I won't allow it.
+Dialogue: 0,0:21:02.95,0:21:03.88,Default,STARK,0000,0000,0000,,Fern!
+Dialogue: 0,0:21:04.73,0:21:06.90,Default,STARK,0000,0000,0000,,The graf is gravely injured.
+Dialogue: 0,0:21:06.90,0:21:08.55,Default,STARK,0000,0000,0000,,We don't have time to fight.
+Dialogue: 0,0:21:08.55,0:21:09.47,Default,STARK,0000,0000,0000,,Let's retreat!
+Dialogue: 0,0:21:10.67,0:21:11.52,Default,FERN,0000,0000,0000,,Very well.
+Dialogue: 0,0:21:21.63,0:21:24.20,Default,LÜGNER,0000,0000,0000,,We'll go after them once \NI've stopped my bleeding.
+Dialogue: 0,0:21:24.20,0:21:26.26,Default,LÜGNER,0000,0000,0000,,You kill the warrior.
+Dialogue: 0,0:21:28.85,0:21:32.26,Default,LÜGNER,0000,0000,0000,,My blood is on those two.
+Dialogue: 0,0:21:32.55,0:21:34.36,Default,LÜGNER,0000,0000,0000,,We won't lose them.
+Dialogue: 0,0:21:34.76,0:21:38.16,Default,LINIE,0000,0000,0000,,You needn't fight them yourself, Lord Lügner.
+Dialogue: 0,0:21:38.39,0:21:40.46,Default,LINIE,0000,0000,0000,,I can handle the mage as well.
+Dialogue: 0,0:21:40.46,0:21:44.14,Default,LÜGNER,0000,0000,0000,,If you'd been struck by that spell, \Nit would've killed you.
+Dialogue: 0,0:21:46.46,0:21:52.15,Default,LÜGNER,0000,0000,0000,,That spell has been modified \Nto specialize in killing demons.
+Dialogue: 0,0:21:52.73,0:21:56.92,Default,LÜGNER,0000,0000,0000,,It can hardly be called Zoltraak anymore.
+Dialogue: 0,0:21:58.75,0:22:01.36,Default,LÜGNER,0000,0000,0000,,It's a demon-killing spell.
+Dialogue: 0,0:22:02.32,0:22:05.56,Default,LÜGNER,0000,0000,0000,,The way that girl moved \Nreminds me of another mage.
+Dialogue: 0,0:22:06.50,0:22:10.36,Default,LÜGNER,0000,0000,0000,,And I've been struck by \Nthat same magic once before.
+Dialogue: 0,0:22:20.80,0:22:22.39,Default,LÜGNER,0000,0000,0000,,I see.
+Dialogue: 0,0:22:24.11,0:22:25.60,Default,LÜGNER,0000,0000,0000,,I remember now.
+Dialogue: 0,0:22:26.79,0:22:28.27,Default,LÜGNER,0000,0000,0000,,It was Frieren.
+Dialogue: 0,0:22:30.07,0:22:35.19,Default,LÜGNER,0000,0000,0000,,The mage who contributed significantly \Nto humanity's analysis of Zoltraak
+Dialogue: 0,0:22:35.19,0:22:39.96,Default,LÜGNER,0000,0000,0000,,and slew more demons \Nthan anyone else in history.
+Dialogue: 0,0:22:42.29,0:22:44.48,Default,LÜGNER,0000,0000,0000,,Frieren the Slayer.
+Dialogue: 0,0:22:45.92,0:22:49.93,Signs_EpTitle,EPTITLE,0000,0000,0000,,{\an8\blur0.2\c&HFAFFF7&\pos(320,117)}Episode 8\N\N\N\N\N\N\N\N\N\N{\fs32}Frieren the Slayer
+Dialogue: 0,0:22:46.86,0:22:49.55,Default,LÜGNER,0000,0000,0000,,One of the geniuses I despise.
+Dialogue: 0,0:22:49.93,0:22:52.47,Songs_ED,ED LYRICS,0000,0000,0000,,And you alright
+Dialogue: 0,0:22:52.97,0:22:54.97,Songs_ED,ED LYRICS,0000,0000,0000,,Can you hear me
+Dialogue: 0,0:22:55.77,0:23:01.86,Songs_ED,ED LYRICS,0000,0000,0000,,Trailing along deserted train tracks
+Dialogue: 0,0:23:01.86,0:23:04.19,Songs_ED,ED LYRICS,0000,0000,0000,,Crying excessively
+Dialogue: 0,0:23:04.78,0:23:07.36,Songs_ED,ED LYRICS,0000,0000,0000,,Wanting you to smile
+Dialogue: 0,0:23:07.36,0:23:13.41,Songs_ED,ED LYRICS,0000,0000,0000,,I hold on to memories I'd like to keep fresh
+Dialogue: 0,0:23:13.41,0:23:17.12,Songs_ED,ED LYRICS,0000,0000,0000,,There's something I'd like to tell you
+Dialogue: 0,0:23:17.12,0:23:19.87,Songs_ED,ED LYRICS,0000,0000,0000,,With words more precious than a goodbye
+Dialogue: 0,0:23:19.87,0:23:25.55,Songs_ED,ED LYRICS,0000,0000,0000,,Unremarkable yet special
+Dialogue: 0,0:23:25.55,0:23:29.09,Songs_ED,ED LYRICS,0000,0000,0000,,See, things that couldn't have been
+Dialogue: 0,0:23:29.09,0:23:32.14,Songs_ED,ED LYRICS,0000,0000,0000,,Seen if it weren't for these eyes
+Dialogue: 0,0:23:32.14,0:23:36.89,Songs_ED,ED LYRICS,0000,0000,0000,,Why? They begin to overflow
+Dialogue: 0,0:23:36.89,0:23:42.98,Songs_ED,ED LYRICS,0000,0000,0000,,So, if I were to be born again
+Dialogue: 0,0:23:42.98,0:23:48.82,Songs_ED,ED LYRICS,0000,0000,0000,,I would surely choose this place once more
+Dialogue: 0,0:23:48.82,0:23:54.83,Songs_ED,ED LYRICS,0000,0000,0000,,So, if we were to meet again
+Dialogue: 0,0:23:54.83,0:24:00.58,Songs_ED,ED LYRICS,0000,0000,0000,,I'd never let you go, I'd choose the present
+Dialogue: 0,0:24:00.58,0:24:03.54,Songs_ED,ED LYRICS,0000,0000,0000,,Even if no promises were made
+Dialogue: 0,0:24:03.54,0:24:06.46,Songs_ED,ED LYRICS,0000,0000,0000,,Even if I'm lost in days of loneliness
+Dialogue: 0,0:24:06.46,0:24:12.63,Songs_ED,ED LYRICS,0000,0000,0000,,Those tears will be alright, \Ndawn will surely break
+Dialogue: 0,0:24:12.63,0:24:15.30,Songs_ED,ED LYRICS,0000,0000,0000,,I'm whispering our lullaby
+Dialogue: 0,0:24:15.30,0:24:19.22,Songs_ED,ED LYRICS,0000,0000,0000,,for you to come back home
+Dialogue: 0,0:24:20.06,0:24:22.14,DefaultTop,LINIE,0000,0000,0000,,Lord Lügner will be upset with me again.
+Dialogue: 0,0:24:20.66,0:24:23.56,DefaultOverlapTop,STARK,0000,0000,0000,,Seriously? This is crazy.
+Dialogue: 0,0:24:20.95,0:24:23.12,Default,PRIEST,0000,0000,0000,,You'll have to rest for a while.
+Dialogue: 0,0:24:22.14,0:24:24.93,DefaultOverlap,FRIEREN,0000,0000,0000,,You demons are monsters after all.
+Dialogue: 0,0:24:23.11,0:24:25.73,Default,LÜGNER,0000,0000,0000,,Any demon can do it.
+Dialogue: 0,0:24:23.56,0:24:26.96,DefaultTop,AURA,0000,0000,0000,,Because I have an overwhelming advantage.
+Dialogue: 0,0:24:23.96,0:24:26.58,DefaultOverlapTop,FRIEREN,0000,0000,0000,,I can kill you without mercy.
+Dialogue: 0,0:24:26.58,0:24:29.94,Default,GRANAT,0000,0000,0000,,It was Aura, one of the \NSeven Sages of Destruction.
+Dialogue: 0,0:24:27.44,0:24:29.89,Signs_NextEp,SIGN,0000,0000,0000,,{\fad(229,1)\blur3\t(20,312,\blur0.2)\pos(320,113.5)\c&H000000&\t(312,646,\c&HF6F6F6&)\fsp1.6\t(\fsp1)}Episode 9\N\N\N\N\N\N\N\NAura the Guillotine

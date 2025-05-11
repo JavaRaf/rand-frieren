@@ -1,0 +1,350 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: DefaultItalicsTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: DefaultOverlap,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: DefaultOverlapTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: FlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: FlashbackTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0018,0
+Style: FlashbackItalicsTop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Narration,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Signs_WText,Times New Roman,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,0030,0030,0010,0
+Style: Signs_EpTitle,Times New Roman,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0030,0030,0010,0
+Style: Signs_NextEp,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Songs_OP,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00B7812E,&H00B7812E,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Songs_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A95974,&H00A95974,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.28,0:00:05.22,Flashback,HEITER,0000,0000,0000,,A grimoire by Flamme the Legendary Mage?
+Dialogue: 0,0:00:05.78,0:00:09.22,Flashback,FREIREN,0000,0000,0000,,They say books attributed \Nto Flamme are never real.
+Dialogue: 0,0:00:09.67,0:00:13.15,Flashback,FREIREN,0000,0000,0000,,Only forgeries have been found until now.
+Dialogue: 0,0:00:13.86,0:00:17.58,Flashback,FRIEREN,0000,0000,0000,,This is probably the best imitation \NI've seen so far, though.
+Dialogue: 0,0:00:18.04,0:00:21.30,Flashback,FRIEREN,0000,0000,0000,,Not bad as a reward for defeating monsters.
+Dialogue: 0,0:00:21.30,0:00:23.64,Flashback,HIMMEL,0000,0000,0000,,I really don't understand the appeal.
+Dialogue: 0,0:00:24.30,0:00:27.21,Flashback,HEITER,0000,0000,0000,,That said, when all you see are fakes,
+Dialogue: 0,0:00:27.21,0:00:31.10,Flashback,HEITER,0000,0000,0000,,you start to doubt whether the \Ngenuine article ever existed at all.
+Dialogue: 0,0:00:31.48,0:00:37.55,Flashback,EISEN,0000,0000,0000,,Flamme, the founder of humanity's magic, \Nis like a fairy tale herself.
+Dialogue: 0,0:00:38.03,0:00:39.82,Flashback,FRIEREN,0000,0000,0000,,A fairy tale, huh?
+Dialogue: 0,0:00:41.91,0:00:45.74,Flashback,FRIEREN,0000,0000,0000,,I suppose. It's been long enough since then.
+Dialogue: 0,0:00:46.86,0:00:51.62,Flashback,FRIEREN,0000,0000,0000,,I'm probably the only one \Nwho remembers her face.
+Dialogue: 0,0:01:00.93,0:01:02.12,Default,FREIREN,0000,0000,0000,,It's morning.
+Dialogue: 0,0:01:06.79,0:01:09.44,Default,FERN,0000,0000,0000,,Ms. Frieren woke up early!
+Dialogue: 0,0:01:09.44,0:01:11.85,Default,STARK,0000,0000,0000,,Is that so impressive?
+Dialogue: 0,0:01:11.85,0:01:13.12,Default,FERN,0000,0000,0000,,Of course it is.
+Dialogue: 0,0:01:14.06,0:01:16.97,Default,FERN,0000,0000,0000,,We must be sure to praise her.
+Dialogue: 0,0:01:24.60,0:01:25.74,DefaultItalics,STARK,0000,0000,0000,,What are we doing?
+Dialogue: 0,0:01:26.52,0:01:29.02,Songs_OP,OP LYRICS,0000,0000,0000,,Like a fairy tale
+Dialogue: 0,0:01:29.02,0:01:31.44,Songs_OP,OP LYRICS,0000,0000,0000,,It's a sign the story has reached its end
+Dialogue: 0,0:01:31.44,0:01:34.36,Songs_OP,OP LYRICS,0000,0000,0000,,Like a single passage taken from
+Dialogue: 0,0:01:34.36,0:01:35.99,Songs_OP,OP LYRICS,0000,0000,0000,,A journey that was too long
+Dialogue: 0,0:01:35.99,0:01:38.32,Songs_OP,OP LYRICS,0000,0000,0000,,Of the evil that once cast a shadow
+Dialogue: 0,0:01:38.32,0:01:40.66,Songs_OP,OP LYRICS,0000,0000,0000,,Across this land
+Dialogue: 0,0:01:40.66,0:01:42.99,Songs_OP,OP LYRICS,0000,0000,0000,,And the memories of the short journey
+Dialogue: 0,0:01:42.99,0:01:45.45,Songs_OP,OP LYRICS,0000,0000,0000,,With the hero who defeated it
+Dialogue: 0,0:01:46.25,0:01:55.21,Signs,SIGN,0000,0000,0000,,{\fad(1,473)\blur0.25\fs25\fnGeorgia\fsp3.9\pos(322,230)\c&HFFFCFE&\t(989,4326,\c&HEFC777&)\t(6411,6745,\c&HEAC732&)}Beyond Journey's End
+Dialogue: 0,0:01:55.46,0:01:57.76,Songs_OP,OP LYRICS,0000,0000,0000,,The story ends
+Dialogue: 0,0:01:57.76,0:02:00.26,Songs_OP,OP LYRICS,0000,0000,0000,,And the hero goes to sleep
+Dialogue: 0,0:02:00.26,0:02:03.10,Songs_OP,OP LYRICS,0000,0000,0000,,Leaving this land with
+Dialogue: 0,0:02:03.10,0:02:04.77,Songs_OP,OP LYRICS,0000,0000,0000,,Days of peace and quiet
+Dialogue: 0,0:02:04.77,0:02:07.27,Songs_OP,OP LYRICS,0000,0000,0000,,The passage of time heartlessly
+Dialogue: 0,0:02:07.27,0:02:09.44,Songs_OP,OP LYRICS,0000,0000,0000,,Makes people forget
+Dialogue: 0,0:02:09.44,0:02:12.23,Songs_OP,OP LYRICS,0000,0000,0000,,Even the tracks left behind by his life
+Dialogue: 0,0:02:12.23,0:02:14.02,Songs_OP,OP LYRICS,0000,0000,0000,,Begin to rust
+Dialogue: 0,0:02:14.02,0:02:15.86,Songs_OP,OP LYRICS,0000,0000,0000,,Just the same
+Dialogue: 0,0:02:15.86,0:02:18.15,Songs_OP,OP LYRICS,0000,0000,0000,,Your words and wishes and courage
+Dialogue: 0,0:02:18.15,0:02:21.49,Songs_OP,OP LYRICS,0000,0000,0000,,Are still inside of me
+Dialogue: 0,0:02:21.49,0:02:23.37,Songs_OP,OP LYRICS,0000,0000,0000,,And they live on
+Dialogue: 0,0:02:24.16,0:02:25.91,Songs_OP,OP LYRICS,0000,0000,0000,,We chose the same path
+Dialogue: 0,0:02:25.91,0:02:28.04,Songs_OP,OP LYRICS,0000,0000,0000,,That's all it was supposed to be
+Dialogue: 0,0:02:28.04,0:02:29.58,Songs_OP,OP LYRICS,0000,0000,0000,,Why is it that at some point
+Dialogue: 0,0:02:29.58,0:02:34.09,Songs_OP,OP LYRICS,0000,0000,0000,,I wanted to understand the reason for
+Dialogue: 0,0:02:34.09,0:02:35.21,Songs_OP,OP LYRICS,0000,0000,0000,,The tears that fall down my cheeks
+Dialogue: 0,0:02:35.21,0:02:36.30,Songs_OP,OP LYRICS,0000,0000,0000,,Even now
+Dialogue: 0,0:02:36.30,0:02:38.67,Songs_OP,OP LYRICS,0000,0000,0000,,If I retrace the journey we walked together
+Dialogue: 0,0:02:38.67,0:02:42.22,Songs_OP,OP LYRICS,0000,0000,0000,,Even though you're not there
+Dialogue: 0,0:02:42.22,0:02:43.89,Songs_OP,OP LYRICS,0000,0000,0000,,I know I'll be able to find it
+Dialogue: 0,0:02:56.03,0:02:59.03,Signs_EpTitle,EPTITLE,0000,0000,0000,,{\blur0.2\c&HFAFFF7&\pos(373,269.5)}Episode 7: Like a Fairy Tale
+Dialogue: 0,0:03:04.33,0:03:10.75,Signs_WText,SIGN,0000,0000,0000,,{\fad(771,1)\blur0.2\pos(588.5,16)}28 years after the death of Himmel the Hero,\Non Eng Road, located in the northern lands
+Dialogue: 0,0:03:11.41,0:03:13.19,Default,TRAVELER,0000,0000,0000,,Thank you.
+Dialogue: 0,0:03:13.19,0:03:17.45,Default,TRAVELER,0000,0000,0000,,With the road blocked, \NI didn't know what I was going to do.
+Dialogue: 0,0:03:24.30,0:03:27.68,Default,STARK,0000,0000,0000,,Hey, is this really necessary?
+Dialogue: 0,0:03:28.05,0:03:31.19,Default,FRIEREN,0000,0000,0000,,You're not happy about it? \NThe reward isn't bad.
+Dialogue: 0,0:03:31.19,0:03:36.32,Default,STARK,0000,0000,0000,,No, I mean, couldn't you just use magic \Nto carry the cart to the other side?
+Dialogue: 0,0:03:36.70,0:03:39.31,Default,FREIREN,0000,0000,0000,,That wouldn't help the \Npeople who come after us.
+Dialogue: 0,0:03:39.86,0:03:41.57,Default,FRIEREN,0000,0000,0000,,That's what Fern said, anyway.
+Dialogue: 0,0:03:42.95,0:03:45.35,Default,FRIEREN,0000,0000,0000,,You're rather selfish, Stark.
+Dialogue: 0,0:03:45.35,0:03:47.36,Default,STARK,0000,0000,0000,,That's rich, coming from you.
+Dialogue: 0,0:03:51.17,0:03:52.96,Default,TRAVELER,0000,0000,0000,,Thank you.
+Dialogue: 0,0:03:52.96,0:03:55.00,Default,STARK,0000,0000,0000,,Hey, thanks.
+Dialogue: 0,0:04:01.69,0:04:05.96,Default,STARK,0000,0000,0000,,By the way, why was there \Na landslide in just this area?
+Dialogue: 0,0:04:06.39,0:04:12.52,Default,VILLAGER,0000,0000,0000,,The northern lands have been \Nfighting demons here and there, too.
+Dialogue: 0,0:04:12.80,0:04:15.56,Default,VILLAGER,0000,0000,0000,,This landslide was probably \Ncaused by one such skirmish.
+Dialogue: 0,0:04:16.17,0:04:18.67,Default,STARK,0000,0000,0000,,The scars of battle, huh?
+Dialogue: 0,0:04:23.24,0:04:28.95,Default,FERN,0000,0000,0000,,Mr. Stark, could you take a break \Nfrom that to help me over here?
+Dialogue: 0,0:04:31.56,0:04:32.45,Default,FERN,0000,0000,0000,,Mr. Stark?
+Dialogue: 0,0:04:33.85,0:04:37.57,Default,STARK,0000,0000,0000,,Hey, could you stop calling me Mr. Stark?
+Dialogue: 0,0:04:38.84,0:04:42.59,Default,STARK,0000,0000,0000,,It weirds me out. \NWe're not that different in age.
+Dialogue: 0,0:04:44.84,0:04:47.81,Default,FERN,0000,0000,0000,,I see. Very well.
+Dialogue: 0,0:04:49.11,0:04:52.23,Default,FERN,0000,0000,0000,,Stark, quit wasting time \Nand help me already. Hurry up.
+Dialogue: 0,0:04:52.23,0:04:53.22,Default,STARK,0000,0000,0000,,So rude!
+Dialogue: 0,0:04:54.50,0:05:00.55,Default,STARK,0000,0000,0000,,I meant more like, can't you speak to me \Nin a more casual or familiar way?
+Dialogue: 0,0:05:00.55,0:05:01.23,Default,FERN,0000,0000,0000,,I see.
+Dialogue: 0,0:05:01.49,0:05:06.49,Default,STARK,0000,0000,0000,,And can't you be friendlier, too? \NI'm sensitive, okay?
+Dialogue: 0,0:05:06.49,0:05:07.96,Default,FERN,0000,0000,0000,,What a pain in the rear.
+Dialogue: 0,0:05:07.96,0:05:09.50,Default,STARK,0000,0000,0000,,What'd you call me?!
+Dialogue: 0,0:05:09.82,0:05:11.99,Default,FRIEREN,0000,0000,0000,,Are you making progress over there?
+Dialogue: 0,0:05:12.41,0:05:14.79,Default,FERN,0000,0000,0000,,Let's hurry, Mr. Stark.
+Dialogue: 0,0:05:16.34,0:05:17.22,Default,STARK,0000,0000,0000,,Okay.
+Dialogue: 0,0:05:19.79,0:05:22.00,Default,TRAVELER,0000,0000,0000,,Thank you so much.
+Dialogue: 0,0:05:22.00,0:05:25.19,Default,TRAVELER,0000,0000,0000,,If you'd like, I can show you \Nthe way to the town.
+Dialogue: 0,0:05:26.14,0:05:28.71,Default,TRAVELER,0000,0000,0000,,An elf, huh?
+Dialogue: 0,0:05:29.13,0:05:33.47,Default,TRAVELER,0000,0000,0000,,I've lived many years, but this \Nis my first time seeing one.
+Dialogue: 0,0:05:33.47,0:05:35.60,Default,FRIEREN,0000,0000,0000,,I suppose we're something of a rarity.
+Dialogue: 0,0:05:35.92,0:05:40.98,Default,FERN,0000,0000,0000,,Come to think of it, I've never \Nseen an elf besides you.
+Dialogue: 0,0:05:40.98,0:05:43.23,Default,FRIEREN,0000,0000,0000,,There aren't very many of us.
+Dialogue: 0,0:05:43.77,0:05:47.59,Default,FRIEREN,0000,0000,0000,,I've only seen my own kind a handful of times.
+Dialogue: 0,0:05:48.32,0:05:51.30,Default,FRIEREN,0000,0000,0000,,Elves may live a long time,
+Dialogue: 0,0:05:51.30,0:05:56.18,Default,FRIEREN,0000,0000,0000,,but across the board, we lack romantic \Nfeelings and reproductive instincts.
+Dialogue: 0,0:05:57.26,0:06:00.25,Default,FRIEREN,0000,0000,0000,,We're quietly going extinct.
+Dialogue: 0,0:06:00.25,0:06:04.18,Default,FRIEREN,0000,0000,0000,,The last time I met a fellow elf \Nwas more than 400 years ago.
+Dialogue: 0,0:06:05.07,0:06:07.67,Default,FRIEREN,0000,0000,0000,,Perhaps we're closer \Nto the end than I thought.
+Dialogue: 0,0:06:16.01,0:06:18.15,Default,FERN,0000,0000,0000,,We can see the town now.
+Dialogue: 0,0:06:19.73,0:06:21.48,Default,FERN,0000,0000,0000,,There's a line of wagons.
+Dialogue: 0,0:06:21.76,0:06:23.95,Default,STARK,0000,0000,0000,,Those look like merchants.
+Dialogue: 0,0:06:23.95,0:06:26.28,Default,TRAVELER,0000,0000,0000,,The Liberation Festival is tonight.
+Dialogue: 0,0:06:27.02,0:06:30.03,Default,TRAVELER,0000,0000,0000,,Today's the day Himmel \Nand his party of heroes
+Dialogue: 0,0:06:30.41,0:06:34.99,Default,TRAVELER,0000,0000,0000,,once defeated the demons who ruled this land.
+Dialogue: 0,0:06:36.19,0:06:38.61,Default,FRIEREN,0000,0000,0000,,Is that right?
+Dialogue: 0,0:06:39.68,0:06:43.04,Default,TRAVELER,0000,0000,0000,,That's what the Liberation \NFestival commemorates.
+Dialogue: 0,0:06:43.61,0:06:48.28,Default,TRAVELER,0000,0000,0000,,The statues of Mr. Himmel and his companions \Nin the central plaza are decorated,
+Dialogue: 0,0:06:48.28,0:06:51.49,Default,TRAVELER,0000,0000,0000,,and the entire town \Nthrows a grand celebration.
+Dialogue: 0,0:06:52.09,0:06:54.32,Default,FRIEREN,0000,0000,0000,,Humans love to make a fuss.
+Dialogue: 0,0:06:54.32,0:06:57.05,Default,FRIEREN,0000,0000,0000,,They hold festivals for everything.
+Dialogue: 0,0:06:57.05,0:07:02.19,Default,TRAVELER,0000,0000,0000,,It's been more than eighty years \Nsince the demons were defeated.
+Dialogue: 0,0:07:03.01,0:07:08.67,Default,TRAVELER,0000,0000,0000,,That's more than enough time for something \Nto pass from human memory.
+Dialogue: 0,0:07:10.18,0:07:17.01,Default,TRAVELER,0000,0000,0000,,But on this day, everyone \Nremembers the party of heroes.
+Dialogue: 0,0:07:21.46,0:07:22.87,Flashback,HIMMEL,0000,0000,0000,,Nice work.
+Dialogue: 0,0:07:24.44,0:07:26.39,Flashback,EISEN,0000,0000,0000,,Five retakes, huh?
+Dialogue: 0,0:07:26.39,0:07:29.04,Flashback,HEITER,0000,0000,0000,,We finished sooner than usual this time.
+Dialogue: 0,0:07:29.41,0:07:33.04,Flashback,FRIEREN,0000,0000,0000,,You're always getting statues made, Himmel.
+Dialogue: 0,0:07:33.57,0:07:36.46,Flashback,HIMMEL,0000,0000,0000,,Because I want everyone to remember us.
+Dialogue: 0,0:07:37.27,0:07:41.27,Flashback,HIMMEL,0000,0000,0000,,Unlike you, we don't live that long.
+Dialogue: 0,0:07:42.38,0:07:46.73,Flashback,HIMMEL,0000,0000,0000,,I need future generations to \Nremember how handsome I was.
+Dialogue: 0,0:07:46.73,0:07:48.39,Flashback,FRIEREN,0000,0000,0000,,I'm heading back to the inn.
+Dialogue: 0,0:07:49.59,0:07:52.91,Flashback,HIMMEL,0000,0000,0000,,But I guess the biggest reason
+Dialogue: 0,0:07:53.80,0:07:58.16,Flashback,HIMMEL,0000,0000,0000,,is so you won't be alone in the future.
+Dialogue: 0,0:08:00.27,0:08:01.30,Flashback,FRIEREN,0000,0000,0000,,What does that mean?
+Dialogue: 0,0:08:02.45,0:08:04.17,Flashback,HIMMEL,0000,0000,0000,,We're not fairy tales.
+Dialogue: 0,0:08:04.92,0:08:08.41,Flashback,HIMMEL,0000,0000,0000,,We really existed.
+Dialogue: 0,0:08:13.43,0:08:19.81,Default,TRAVELER,0000,0000,0000,,Every year, we celebrate the great deeds \Naccomplished by the party of heroes.
+Dialogue: 0,0:08:21.04,0:08:24.80,Default,TRAVELER,0000,0000,0000,,Come to think of it, you look a lot
+Dialogue: 0,0:08:24.80,0:08:27.81,Default,TRAVELER,0000,0000,0000,,like the statue of Ms. Frieren \Nfrom that very party.
+Dialogue: 0,0:08:29.94,0:08:33.19,Default,FRIEREN,0000,0000,0000,,Will they still be doing this \Na hundred years from now?
+Dialogue: 0,0:08:33.66,0:08:36.28,Default,TRAVELER,0000,0000,0000,,Yes, as long as this town still stands.
+Dialogue: 0,0:08:36.74,0:08:37.95,Default,FRIEREN,0000,0000,0000,,How about a thousand?
+Dialogue: 0,0:08:39.04,0:08:42.35,Default,TRAVELER,0000,0000,0000,,Well, I don't know.
+Dialogue: 0,0:08:48.64,0:08:50.50,Default,FRIEREN,0000,0000,0000,,Shall we go?
+Dialogue: 0,0:08:51.37,0:08:53.57,Default,FRIEREN,0000,0000,0000,,We're heading far to the north.
+Dialogue: 0,0:08:54.30,0:08:58.85,Default,STARK,0000,0000,0000,,Come to think of it, you haven't \Ntold me your destination yet.
+Dialogue: 0,0:08:59.24,0:09:00.46,Default,STARK,0000,0000,0000,,Where are we going?
+Dialogue: 0,0:09:03.36,0:09:04.49,Default,FRIEREN,0000,0000,0000,,Heaven.
+Dialogue: 0,0:09:05.06,0:09:07.05,Default,STARK,0000,0000,0000,,Now that sounds fun.
+Dialogue: 0,0:09:08.06,0:09:14.07,Signs_WText,SIGN,0000,0000,0000,,{\blur0.2\pos(588.5,16)}28 years after the death of Himmel the Hero,\Nin Graf Granat's domain, located in the northern lands
+Dialogue: 0,0:09:24.84,0:09:26.67,Default,FERN,0000,0000,0000,,There are a lot of guards here.
+Dialogue: 0,0:09:27.18,0:09:28.83,Default,FERN,0000,0000,0000,,Do you suppose something happened?
+Dialogue: 0,0:09:30.26,0:09:32.86,Default,STARK,0000,0000,0000,,Let's decide who's going shopping.
+Dialogue: 0,0:09:40.38,0:09:42.74,Default,FERN,0000,0000,0000,,Ms. Frieren, we're in a town.
+Dialogue: 0,0:09:42.74,0:09:43.89,Default,FRIEREN,0000,0000,0000,,I sense demons.
+Dialogue: 0,0:09:43.89,0:09:44.70,Default,FERN,0000,0000,0000,,What?
+Dialogue: 0,0:09:55.52,0:09:57.98,Default,GUARD A,0000,0000,0000,,Hey, you! What are you doing?!
+Dialogue: 0,0:10:05.31,0:10:09.52,Default,LÜGNER,0000,0000,0000,,Graf Granat, did you put her up to this?
+Dialogue: 0,0:10:10.17,0:10:15.71,Default,GRANAT,0000,0000,0000,,Lord Lügner, while it's true \NI despise you and wish you dead,
+Dialogue: 0,0:10:16.14,0:10:21.97,Default,GRANAT,0000,0000,0000,,I'm not foolish enough to openly attack \Npeace envoys in the middle of town.
+Dialogue: 0,0:10:22.38,0:10:23.95,Default,FERN,0000,0000,0000,,Peace envoys?
+Dialogue: 0,0:10:24.85,0:10:28.90,Default,GRANAT,0000,0000,0000,,They're probably adventurers \Nwho don't know what's going on.
+Dialogue: 0,0:10:29.63,0:10:31.95,Default,LÜGNER,0000,0000,0000,,If you say so.
+Dialogue: 0,0:10:34.53,0:10:38.53,Default,LÜGNER,0000,0000,0000,,There's bloodlust in those calm, cold eyes.
+Dialogue: 0,0:10:40.62,0:10:46.37,Default,LÜGNER,0000,0000,0000,,Even the townsfolk who hate us \Nlook upon me as a person,
+Dialogue: 0,0:10:46.37,0:10:49.75,Default,LÜGNER,0000,0000,0000,,even as they tremble in fear.
+Dialogue: 0,0:10:50.35,0:10:56.19,Default,LÜGNER,0000,0000,0000,,But you look at me as \Nthough I'm a wild beast.
+Dialogue: 0,0:10:56.66,0:10:58.79,Default,FRIEREN,0000,0000,0000,,Aren't you?
+Dialogue: 0,0:10:58.79,0:11:01.88,Default,FREIREN,0000,0000,0000,,You demons are wild beasts who \Nimitate human speech
+Dialogue: 0,0:11:02.35,0:11:04.78,Default,FREIREN,0000,0000,0000,,but can't be communicated with.
+Dialogue: 0,0:11:06.34,0:11:08.65,Default,GRANAT,0000,0000,0000,,Throw her in the dungeon \Nbeneath the mansion.
+Dialogue: 0,0:11:08.65,0:11:09.40,Default,GUARD,0000,0000,0000,,Yes, milord.
+Dialogue: 0,0:11:12.37,0:11:13.28,Default,STARK,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:16.84,0:11:17.77,Default,STARK,0000,0000,0000,,Hey!
+Dialogue: 0,0:11:32.46,0:11:34.28,Default,FRIEREN,0000,0000,0000,,I'm bored.
+Dialogue: 0,0:11:38.59,0:11:39.88,Default,FERN,0000,0000,0000,,Ms. Frieren.
+Dialogue: 0,0:11:40.74,0:11:43.46,Default,STARK,0000,0000,0000,,They said to reflect on your \Nactions for two or three years.
+Dialogue: 0,0:11:43.46,0:11:45.84,Default,FRIEREN,0000,0000,0000,,That's shorter than I expected.
+Dialogue: 0,0:11:45.84,0:11:48.35,Default,FRIEREN,0000,0000,0000,,Could you bring me some grimoires later?
+Dialogue: 0,0:11:49.74,0:11:54.12,Default,FERN,0000,0000,0000,,You really do love to waste time.
+Dialogue: 0,0:11:54.12,0:11:57.31,Default,FRIEREN,0000,0000,0000,,I'm not here because I want to be.
+Dialogue: 0,0:11:57.95,0:12:02.08,Default,FRIEREN,0000,0000,0000,,So, what did he mean when he referred \Nto those demons as peace envoys?
+Dialogue: 0,0:12:02.50,0:12:04.95,Default,FERN,0000,0000,0000,,I looked into it while shopping.
+Dialogue: 0,0:12:05.48,0:12:08.20,Default,FERN,0000,0000,0000,,You know of Aura the Guillotine, don't you?
+Dialogue: 0,0:12:08.50,0:12:12.77,Default,FRIEREN,0000,0000,0000,,She's one of the Seven Sages of Destruction \Nwho served the Demon King.
+Dialogue: 0,0:12:13.49,0:12:17.11,Default,FRIEREN,0000,0000,0000,,She lost most of her followers \Nfighting against us.
+Dialogue: 0,0:12:17.11,0:12:19.20,Default,FRIEREN,0000,0000,0000,,Last I heard, her whereabouts were unknown.
+Dialogue: 0,0:12:19.60,0:12:21.17,Default,FRIEREN,0000,0000,0000,,Did something happen recently?
+Dialogue: 0,0:12:21.61,0:12:25.93,Default,FERN,0000,0000,0000,,Aura regained her power 28 years ago.
+Dialogue: 0,0:12:26.30,0:12:31.19,Default,FERN,0000,0000,0000,,Her forces have been embroiled in battle \Nwith this town for a long time,
+Dialogue: 0,0:12:31.61,0:12:34.42,Default,FERN,0000,0000,0000,,but they've become exhausted \Nby the fruitless fighting,
+Dialogue: 0,0:12:34.42,0:12:36.78,Default,FERN,0000,0000,0000,,so they're suing for peace.
+Dialogue: 0,0:12:37.89,0:12:40.70,Default,FRIEREN,0000,0000,0000,,So that's why they were allowed in as envoys.
+Dialogue: 0,0:12:40.70,0:12:42.19,Default,FRIEREN,0000,0000,0000,,That was a bad move.
+Dialogue: 0,0:12:42.58,0:12:45.48,Default,FRIEREN,0000,0000,0000,,Trying to talk to demons is pointless.
+Dialogue: 0,0:12:46.13,0:12:48.24,Default,STARK,0000,0000,0000,,It can't be pointless.
+Dialogue: 0,0:12:48.24,0:12:49.85,Default,STARK,0000,0000,0000,,They're capable of speech.
+Dialogue: 0,0:12:49.85,0:12:53.46,Default,STARK,0000,0000,0000,,Surely the best option would be \Nto resolve things by talking them out?
+Dialogue: 0,0:12:53.90,0:12:56.56,Default,FRIEREN,0000,0000,0000,,They can't resolve things that way. \NThat's why it's pointless.
+Dialogue: 0,0:12:58.22,0:13:00.85,Default,FRIEREN,0000,0000,0000,,Demons are man-eating monsters.
+Dialogue: 0,0:13:01.30,0:13:05.90,Default,FRIEREN,0000,0000,0000,,Have you ever wondered why they \Nspeak the same language as humans?
+Dialogue: 0,0:13:10.25,0:13:12.97,Flashback,VILLAGERS,0000,0000,0000,,Hero, you must slay the fiend!
+Dialogue: 0,0:13:18.06,0:13:19.79,Flashback,HIMMEL,0000,0000,0000,,It's only a child.
+Dialogue: 0,0:13:19.79,0:13:25.49,Flashback,MOTHER,0000,0000,0000,,So what? That thing ate our daughter!
+Dialogue: 0,0:13:31.39,0:13:32.57,Flashback,DEMON CHILD,0000,0000,0000,,It hurts...
+Dialogue: 0,0:13:35.14,0:13:39.43,Flashback,DEMON CHILD,0000,0000,0000,,It hurts, Mom...
+Dialogue: 0,0:13:46.02,0:13:48.67,Flashback,FRIEREN,0000,0000,0000,,Enough. I'll do it.
+Dialogue: 0,0:13:49.12,0:13:52.70,Flashback,VILLAGE CHIEF,0000,0000,0000,,Then we'd be no different from the demons.
+Dialogue: 0,0:13:54.55,0:13:59.38,Flashback,VILLAGE CHIEF,0000,0000,0000,,It's not as though they have to \Neat humans to survive, right?
+Dialogue: 0,0:13:59.83,0:14:03.23,Flashback,VILLAGE CHIEF,0000,0000,0000,,Why don't we give her \Nthe opportunity to atone?
+Dialogue: 0,0:14:03.80,0:14:05.19,Flashback,FATHER,0000,0000,0000,,Chief...
+Dialogue: 0,0:14:05.19,0:14:06.65,Flashback,MOTHER,0000,0000,0000,,You can't be serious!
+Dialogue: 0,0:14:07.11,0:14:10.64,Flashback,MOTHER,0000,0000,0000,,Give us back our daughter!
+Dialogue: 0,0:14:15.65,0:14:17.50,Flashback,VILLAGE CHIEF,0000,0000,0000,,I'll tend your wounds at my home.
+Dialogue: 0,0:14:18.52,0:14:22.82,Flashback,VILLAGE CHIEF,0000,0000,0000,,I've been looking for someone \Nto help on the farm.
+Dialogue: 0,0:14:24.86,0:14:29.84,Flashback,FRIEREN,0000,0000,0000,,Himmel, you'll regret not \Nkilling it now. It's a—
+Dialogue: 0,0:14:30.40,0:14:33.84,Flashback,HIMMEL,0000,0000,0000,,Frieren, we're capable of speech \Nwith each other.
+Dialogue: 0,0:14:34.30,0:14:36.53,Flashback,HIMMEL,0000,0000,0000,,We'll be staying in this village anyway.
+Dialogue: 0,0:14:36.95,0:14:38.58,Flashback,HIMMEL,0000,0000,0000,,Why don't we see how it goes?
+Dialogue: 0,0:14:41.24,0:14:42.17,Flashback,FRIEREN,0000,0000,0000,,Fine.
+Dialogue: 0,0:15:16.10,0:15:18.28,Flashback,HIMMEL,0000,0000,0000,,Why did you kill the village chief?
+Dialogue: 0,0:15:23.98,0:15:28.03,Flashback,MOTHER,0000,0000,0000,,We should've killed it back then.
+Dialogue: 0,0:15:28.85,0:15:30.28,Flashback,DEMON CHILD,0000,0000,0000,,There it is again.
+Dialogue: 0,0:15:32.85,0:15:36.78,Flashback,DEMON CHILD,0000,0000,0000,,Every day I felt your desire to kill me.
+Dialogue: 0,0:15:37.58,0:15:40.18,Flashback,DEMON CHILD,0000,0000,0000,,I just want to live in peace.
+Dialogue: 0,0:15:41.09,0:15:47.95,Flashback,DEMON CHILD,0000,0000,0000,,So I brought you a replacement \Nfor the daughter I ate.
+Dialogue: 0,0:15:50.24,0:15:52.71,Flashback,HIMMEL,0000,0000,0000,,That's the village chief's daughter.
+Dialogue: 0,0:15:53.46,0:15:55.96,Flashback,DEMON CHILD,0000,0000,0000,,But the village chief is gone now.
+Dialogue: 0,0:16:02.54,0:16:07.63,Flashback,DEMON CHILD,0000,0000,0000,,It seems I've made a mistake somehow.
+Dialogue: 0,0:16:07.63,0:16:11.03,Flashback,DEMON CHILD,0000,0000,0000,,Then I have no choice. \NI'm taking this child hostage.
+Dialogue: 0,0:16:18.49,0:16:20.24,Flashback,FRIEREN,0000,0000,0000,,You won't stop me again, will you?
+Dialogue: 0,0:16:21.34,0:16:22.11,Flashback,HIMMEL,0000,0000,0000,,No.
+Dialogue: 0,0:16:23.00,0:16:24.50,Flashback,DEMON CHILD,0000,0000,0000,,Mom...
+Dialogue: 0,0:16:31.15,0:16:33.20,Flashback,FRIEREN,0000,0000,0000,,"Mom" again?
+Dialogue: 0,0:16:33.93,0:16:37.88,Flashback,FRIEREN,0000,0000,0000,,Like monsters, demons don't raise their young.
+Dialogue: 0,0:16:37.88,0:16:41.93,Flashback,FRIEREN,0000,0000,0000,,They spend most of their time \Nafter birth living in solitude.
+Dialogue: 0,0:16:43.31,0:16:49.54,Flashback,FRIEREN,0000,0000,0000,,You're solitary creatures by nature. \NYou have no concept of family.
+Dialogue: 0,0:16:50.38,0:16:54.45,Flashback,FRIEREN,0000,0000,0000,,So why do you use the word "mom"?
+Dialogue: 0,0:16:55.98,0:16:59.82,Flashback,DEMON CHILD,0000,0000,0000,,Because it stops you from killing us.
+Dialogue: 0,0:17:00.50,0:17:04.75,Flashback,DEMON CHILD,0000,0000,0000,,A wonderful, magical word...
+Dialogue: 0,0:17:08.02,0:17:12.35,Default,FRIEREN,0000,0000,0000,,For them, words are a means \Nof deceiving humans.
+Dialogue: 0,0:17:13.10,0:17:18.29,Default,FRIEREN,0000,0000,0000,,Flamme the Legendary Mage defined \Nmonsters capable of speech as demons.
+Dialogue: 0,0:17:18.79,0:17:22.21,Default,FRIEREN,0000,0000,0000,,They're descended from \Nmonsters who cried "help"
+Dialogue: 0,0:17:22.61,0:17:26.21,Default,FRIEREN,0000,0000,0000,,from the shadows to lure humans to them.
+Dialogue: 0,0:17:32.33,0:17:34.20,Default,FRIEREN,0000,0000,0000,,Don't forget to bring me grimoires.
+Dialogue: 0,0:17:39.05,0:17:41.94,Default,DRAHT,0000,0000,0000,,Graf Granat is late.
+Dialogue: 0,0:17:41.94,0:17:44.47,Default,LÜGNER,0000,0000,0000,,A human diplomatic tactic.
+Dialogue: 0,0:17:45.34,0:17:49.20,Default,LÜGNER,0000,0000,0000,,In any case, I'm curious about that mage.
+Dialogue: 0,0:17:50.04,0:17:52.01,Default,LÜGNER,0000,0000,0000,,I know her face from somewhere.
+Dialogue: 0,0:17:54.66,0:17:57.59,Default,LÜGNER,0000,0000,0000,,Wild beasts who can't be \Ncommunicated with, huh?
+Dialogue: 0,0:17:58.27,0:18:00.79,Default,LÜGNER,0000,0000,0000,,That's an accurate description.
+Dialogue: 0,0:18:01.27,0:18:06.36,Default,LÜGNER,0000,0000,0000,,She's the only one in this town who \Nunderstands the true nature of us demons.
+Dialogue: 0,0:18:07.37,0:18:09.63,Default,LÜGNER,0000,0000,0000,,There's only one reason that predators
+Dialogue: 0,0:18:09.63,0:18:13.10,Default,LÜGNER,0000,0000,0000,,who prey on humans would \Nspeak the human language.
+Dialogue: 0,0:18:13.61,0:18:18.60,Default,FRIEREN,0000,0000,0000,,They speak not to understand us \Nbut to deceive us.
+Dialogue: 0,0:18:19.68,0:18:22.14,Default,FRIEREN,0000,0000,0000,,This town won't be around much longer.
+Dialogue: 0,0:18:22.65,0:18:25.45,Default,FRIEREN,0000,0000,0000,,I should take advantage of \Nthe confusion to escape.
+Dialogue: 0,0:18:33.03,0:18:33.99,Default,LÜGNER,0000,0000,0000,,What is this?
+Dialogue: 0,0:18:35.58,0:18:37.39,Default,GRANAT,0000,0000,0000,,My son's room.
+Dialogue: 0,0:18:41.29,0:18:43.71,Default,GRANAT,0000,0000,0000,,He was a good boy.
+Dialogue: 0,0:18:43.71,0:18:49.94,Default,GRANAT,0000,0000,0000,,He'd often boast about how he'd take over \Nthe family soon so I could take it easy.
+Dialogue: 0,0:18:57.21,0:19:01.07,Default,GRANAT,0000,0000,0000,,His Majesty gave him this sword \Nwhen he fought in his presence.
+Dialogue: 0,0:19:01.59,0:19:03.88,Default,LÜGNER,0000,0000,0000,,Where is your son now?
+Dialogue: 0,0:19:07.77,0:19:11.35,Default,GRANAT,0000,0000,0000,,He died in battle against \NAura ten years ago.
+Dialogue: 0,0:19:19.30,0:19:21.84,Default,GRANAT,0000,0000,0000,,All that came home to me was his sword.
+Dialogue: 0,0:19:22.31,0:19:23.51,Default,GRANAT,0000,0000,0000,,Lügner!
+Dialogue: 0,0:19:25.99,0:19:30.36,Default,GRANAT,0000,0000,0000,,I only invited you here to avenge my son.
+Dialogue: 0,0:19:30.36,0:19:32.97,Default,GRANAT,0000,0000,0000,,I'm going to kill all of you \Nenvoys here and now.
+Dialogue: 0,0:19:33.34,0:19:35.61,Default,GRANAT,0000,0000,0000,,Your peace means nothing to me!
+Dialogue: 0,0:19:46.47,0:19:49.61,Default,LÜGNER,0000,0000,0000,,This room is quite clean.
+Dialogue: 0,0:19:50.27,0:19:53.54,Default,LÜGNER,0000,0000,0000,,I'm sure you've been keeping it \Njust as it was ten years ago.
+Dialogue: 0,0:19:54.80,0:19:56.59,Default,GRANAT,0000,0000,0000,,So what if I have?
+Dialogue: 0,0:19:57.12,0:20:02.58,Default,LÜGNER,0000,0000,0000,,I've kept my father's room the same \Nsince you killed him, too.
+Dialogue: 0,0:20:04.89,0:20:07.85,Default,LÜGNER,0000,0000,0000,,Why don't we put an end \Nto this, Graf Granat?
+Dialogue: 0,0:20:08.59,0:20:14.14,Default,LÜGNER,0000,0000,0000,,Or shall we continue to shed each other's \Nblood and cause even more grief?
+Dialogue: 0,0:20:17.22,0:20:19.81,Default,LÜGNER,0000,0000,0000,,We're capable of speech with each other.
+Dialogue: 0,0:20:19.81,0:20:22.61,Default,LÜGNER,0000,0000,0000,,Please grant us the opportunity \Nto settle this with discussion.
+Dialogue: 0,0:20:33.82,0:20:36.18,Default,GRANAT,0000,0000,0000,,Show them to the guestroom.
+Dialogue: 0,0:20:41.86,0:20:43.53,Default,GRANAT,0000,0000,0000,,I'll consider it.
+Dialogue: 0,0:20:52.65,0:20:53.89,Default,LINIE,0000,0000,0000,,Lord Lügner,
+Dialogue: 0,0:20:53.89,0:20:55.97,Default,LINIE,0000,0000,0000,,what is a "father"?
+Dialogue: 0,0:20:56.97,0:20:58.40,Default,LÜGNER,0000,0000,0000,,Who knows?
+Dialogue: 0,0:21:07.43,0:21:13.99,Default,LÜGNER,0000,0000,0000,,Graf Granat resents us, but he \Nseems to be an empathetic man.
+Dialogue: 0,0:21:15.32,0:21:18.92,Default,LÜGNER,0000,0000,0000,,If we win him over, we may \Nbe able to convince him
+Dialogue: 0,0:21:18.92,0:21:21.87,Default,LÜGNER,0000,0000,0000,,to lower this town's defensive \Nbarrier in the name of peace.
+Dialogue: 0,0:21:22.43,0:21:26.89,Default,LÜGNER,0000,0000,0000,,Then Lady Aura's forces will raze this town.
+Dialogue: 0,0:21:30.55,0:21:35.22,Default,LÜGNER,0000,0000,0000,,By the way, Linie, I don't see Draht.
+Dialogue: 0,0:21:35.78,0:21:38.41,Default,LINIE,0000,0000,0000,,He said he was off to eliminate an obstacle.
+Dialogue: 0,0:21:39.20,0:21:41.22,Default,LÜGNER,0000,0000,0000,,He's acting rashly.
+Dialogue: 0,0:21:41.22,0:21:44.10,Default,LÜGNER,0000,0000,0000,,What am I to do with that \Nhot-blooded youngster?
+Dialogue: 0,0:21:47.77,0:21:52.42,Default,GUARD B,0000,0000,0000,,Lord Draht, you should not be here.
+Dialogue: 0,0:21:52.77,0:21:54.00,Default,GUARD B,0000,0000,0000,,Please return to the guest—
+Dialogue: 0,0:22:05.72,0:22:09.30,Default,FRIEREN,0000,0000,0000,,Who are you? Visiting hours are over.
+Dialogue: 0,0:22:11.28,0:22:16.43,Default,DRAHT,0000,0000,0000,,I am Draht, one of Aura the \NGuillotine's executioners.
+Dialogue: 0,0:22:16.87,0:22:18.78,Default,DRAHT,0000,0000,0000,,I am here to kill you.
+Dialogue: 0,0:22:19.69,0:22:23.43,Default,FRIEREN,0000,0000,0000,,I see. Done pretending to negotiate?
+Dialogue: 0,0:22:23.94,0:22:25.07,Default,DRAHT,0000,0000,0000,,We're just getting started.
+Dialogue: 0,0:22:25.76,0:22:27.27,Default,FRIEREN,0000,0000,0000,,Uh-huh.
+Dialogue: 0,0:22:27.27,0:22:32.51,DefaultItalics,DRAHT,0000,0000,0000,,According to Lord Lügner, \Nthis girl is the only obstacle in our way.
+Dialogue: 0,0:22:32.51,0:22:39.21,DefaultItalics,DRAHT,0000,0000,0000,,If I kill her, and we win over Graf Granat, \Nthis town will fall easily.
+Dialogue: 0,0:22:40.36,0:22:42.79,Default,FRIEREN,0000,0000,0000,,Just so you know, I'm strong.
+Dialogue: 0,0:22:44.29,0:22:45.91,Default,DRAHT,0000,0000,0000,,Stronger than me?
+Dialogue: 0,0:22:46.79,0:22:49.27,Default,FRIEREN,0000,0000,0000,,Stronger than Aura the Guillotine.
+Dialogue: 0,0:22:50.09,0:22:52.64,Songs_ED,ED LYRICS,0000,0000,0000,,And you alright
+Dialogue: 0,0:22:53.14,0:22:55.14,Songs_ED,ED LYRICS,0000,0000,0000,,Can you hear me
+Dialogue: 0,0:22:55.93,0:23:02.02,Songs_ED,ED LYRICS,0000,0000,0000,,Trailing along deserted train tracks
+Dialogue: 0,0:23:02.02,0:23:04.36,Songs_ED,ED LYRICS,0000,0000,0000,,Crying excessively
+Dialogue: 0,0:23:04.94,0:23:07.53,Songs_ED,ED LYRICS,0000,0000,0000,,Wanting you to smile
+Dialogue: 0,0:23:07.53,0:23:13.58,Songs_ED,ED LYRICS,0000,0000,0000,,I hold on to memories I'd like to keep fresh
+Dialogue: 0,0:23:13.58,0:23:17.29,Songs_ED,ED LYRICS,0000,0000,0000,,There's something I'd like to tell you
+Dialogue: 0,0:23:17.29,0:23:20.04,Songs_ED,ED LYRICS,0000,0000,0000,,With words more precious than a goodbye
+Dialogue: 0,0:23:20.04,0:23:25.71,Songs_ED,ED LYRICS,0000,0000,0000,,Unremarkable yet special
+Dialogue: 0,0:23:25.71,0:23:29.26,Songs_ED,ED LYRICS,0000,0000,0000,,See, things that couldn't have been
+Dialogue: 0,0:23:29.26,0:23:32.30,Songs_ED,ED LYRICS,0000,0000,0000,,Seen if it weren't for these eyes
+Dialogue: 0,0:23:32.30,0:23:37.06,Songs_ED,ED LYRICS,0000,0000,0000,,Why? They begin to overflow
+Dialogue: 0,0:23:37.06,0:23:43.15,Songs_ED,ED LYRICS,0000,0000,0000,,So, if I were to be born again
+Dialogue: 0,0:23:43.15,0:23:48.99,Songs_ED,ED LYRICS,0000,0000,0000,,I would surely choose this place once more
+Dialogue: 0,0:23:48.99,0:23:54.99,Songs_ED,ED LYRICS,0000,0000,0000,,So, if we were to meet again
+Dialogue: 0,0:23:54.99,0:24:00.75,Songs_ED,ED LYRICS,0000,0000,0000,,I'd never let you go, I'd choose the present
+Dialogue: 0,0:24:00.75,0:24:03.71,Songs_ED,ED LYRICS,0000,0000,0000,,Even if no promises were made
+Dialogue: 0,0:24:03.71,0:24:06.63,Songs_ED,ED LYRICS,0000,0000,0000,,Even if I'm lost in days of loneliness
+Dialogue: 0,0:24:06.63,0:24:12.80,Songs_ED,ED LYRICS,0000,0000,0000,,Those tears will be alright, \Ndawn will surely break
+Dialogue: 0,0:24:12.80,0:24:15.47,Songs_ED,ED LYRICS,0000,0000,0000,,I'm whispering our lullaby
+Dialogue: 0,0:24:15.47,0:24:19.39,Songs_ED,ED LYRICS,0000,0000,0000,,for you to come back home
+Dialogue: 0,0:24:20.35,0:24:22.89,DefaultTop,LINIE,0000,0000,0000,,Who is that mage?
+Dialogue: 0,0:24:20.81,0:24:24.20,Default,GRANAT,0000,0000,0000,,Speaking so casually to me \Nis a serious crime in this town...
+Dialogue: 0,0:24:21.35,0:24:23.61,DefaultOverlapTop,STARK,0000,0000,0000,,We don't stand a chance against them.
+Dialogue: 0,0:24:22.89,0:24:24.88,DefaultTop,FERN,0000,0000,0000,,You're a guard-killer who should be executed.
+Dialogue: 0,0:24:23.60,0:24:27.77,DefaultOverlapTop,FRIEREN,0000,0000,0000,,I hate fighting powerful opponents, too.
+Dialogue: 0,0:24:24.88,0:24:26.41,DefaultTop,DRAHT,0000,0000,0000,,This fight is already over.
+Dialogue: 0,0:24:25.18,0:24:29.91,Default,LÜGNER,0000,0000,0000,,She slew more demons \Nthan anyone else in history.
+Dialogue: 0,0:24:27.61,0:24:30.06,Signs_NextEp,SIGN,0000,0000,0000,,{\fad(229,1)\blur3\t(20,312,\blur0.2)\pos(320,113.5)\c&H000000&\t(312,646,\c&HF6F6F6&)\fsp1.6\t(\fsp1)}Episode 8\N\N\N\N\N\N\N\NFrieren the Slayer

@@ -1,0 +1,370 @@
+﻿[Script Info]
+Title: [Erai-raws] Português (Brasil)
+ScaledBorderAndShadow: yes
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,1
+Style: DefaultItalics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DefaultTop,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0015,0
+Style: DefaultOverlap,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DefaultOverlapTop,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00666666,&H00666666,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0015,0
+Style: Flashback,Trebuchet MS,22,&H00FBFBFE,&H000000FF,&H005C0718,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,0
+Style: FlashbackItalics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,1
+Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Signs_EpTitle,Times New Roman,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0030,0030,0010,0
+Style: Signs_NextEp,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0010,0
+Style: Songs_OP,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00B7812E,&H00B7812E,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Songs_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A95974,&H00A95974,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Jikai,Times New Roman,20,&H001F221F,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0000,0000,0080,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:17.49,0:00:18.58,Flashback,FRIEREN,0000,0000,0000,,Flamme.
+Dialogue: 0,0:00:18.58,0:00:19.91,Flashback,FLAMME,0000,0000,0000,,É "Mestra".
+Dialogue: 0,0:00:22.08,0:00:22.87,Flashback,FLAMME,0000,0000,0000,,O que foi?
+Dialogue: 0,0:00:23.58,0:00:26.83,Flashback,FRIEREN,0000,0000,0000,,Mestra, acha mesmo que é injusto?
+Dialogue: 0,0:00:28.59,0:00:32.72,Flashback,FLAMME,0000,0000,0000,,Frieren, você se lembra\Ndas últimas palavras de Basalt?
+Dialogue: 0,0:00:34.38,0:00:35.63,Flashback,FRIEREN,0000,0000,0000,,Não.
+Dialogue: 0,0:00:36.22,0:00:39.43,Flashback,FRIEREN,0000,0000,0000,,Eles usam palavras\Npara enganar os humanos.
+Dialogue: 0,0:00:39.93,0:00:41.18,Flashback,FLAMME,0000,0000,0000,,Isso mesmo.
+Dialogue: 0,0:00:41.18,0:00:44.48,Flashback,FLAMME,0000,0000,0000,,Eles não passam de monstros capazes de falar.
+Dialogue: 0,0:00:44.85,0:00:48.81,Flashback,FLAMME,0000,0000,0000,,Essa é a verdadeira natureza\Ndas criaturas que chamo de demônios.
+Dialogue: 0,0:00:50.52,0:00:55.95,Flashback,FLAMME,0000,0000,0000,,Eles não são justos. Por isso,\Ndevemos ser ainda mais injustos.
+Dialogue: 0,0:00:56.86,0:01:03.00,Flashback,FLAMME,0000,0000,0000,,Se isso me permitir exterminar os demônios,\Nentão aceitarei, com prazer, essa desonra.
+Dialogue: 0,0:01:07.50,0:01:10.00,Songs_OP,OP LYRICS,0000,0000,0000,,Como um conto de fadas
+Dialogue: 0,0:01:10.00,0:01:12.42,Songs_OP,OP LYRICS,0000,0000,0000,,É um sinal de que o conto chegou ao fim
+Dialogue: 0,0:01:12.42,0:01:15.34,Songs_OP,OP LYRICS,0000,0000,0000,,Como uma única passagem tirada
+Dialogue: 0,0:01:15.34,0:01:16.97,Songs_OP,OP LYRICS,0000,0000,0000,,De uma viagem muito longa
+Dialogue: 0,0:01:16.97,0:01:19.30,Songs_OP,OP LYRICS,0000,0000,0000,,Do ser maligno que lança trevas
+Dialogue: 0,0:01:19.30,0:01:21.64,Songs_OP,OP LYRICS,0000,0000,0000,,Por esta terra
+Dialogue: 0,0:01:21.64,0:01:23.97,Songs_OP,OP LYRICS,0000,0000,0000,,E as memórias da curta jornada
+Dialogue: 0,0:01:23.97,0:01:26.44,Songs_OP,OP LYRICS,0000,0000,0000,,Do herói que o derrotou
+Dialogue: 0,0:01:27.23,0:01:36.20,Signs,SIGN,0000,0000,0000,,{\fad(1,473)\blur0.25\fs25\fnGeorgia\fsp3.9\pos(322,230)\c&HFFFCFE&\t(989,4326,\c&HEFC777&)\t(6411,6745,\c&HEAC732&)}e a Jornada para o Além
+Dialogue: 0,0:01:36.45,0:01:38.74,Songs_OP,OP LYRICS,0000,0000,0000,,A história termina
+Dialogue: 0,0:01:38.74,0:01:41.24,Songs_OP,OP LYRICS,0000,0000,0000,,E o herói vai descansar
+Dialogue: 0,0:01:41.24,0:01:44.08,Songs_OP,OP LYRICS,0000,0000,0000,,Deixando esta terra
+Dialogue: 0,0:01:44.08,0:01:45.75,Songs_OP,OP LYRICS,0000,0000,0000,,Com dias de paz e tranquilidade
+Dialogue: 0,0:01:45.75,0:01:48.25,Songs_OP,OP LYRICS,0000,0000,0000,,A passagem do tempo é impiedosa
+Dialogue: 0,0:01:48.25,0:01:50.42,Songs_OP,OP LYRICS,0000,0000,0000,,Fazendo as pessoas se esquecerem
+Dialogue: 0,0:01:50.42,0:01:53.21,Songs_OP,OP LYRICS,0000,0000,0000,,Até dos rastros deixados por suas vidas
+Dialogue: 0,0:01:53.21,0:01:55.01,Songs_OP,OP LYRICS,0000,0000,0000,,E começa a enferrujar
+Dialogue: 0,0:01:55.01,0:01:56.84,Songs_OP,OP LYRICS,0000,0000,0000,,Assim como
+Dialogue: 0,0:01:56.84,0:01:59.14,Songs_OP,OP LYRICS,0000,0000,0000,,Suas palavras, desejos e coragem
+Dialogue: 0,0:01:59.14,0:02:02.47,Songs_OP,OP LYRICS,0000,0000,0000,,Tudo ainda reside dentro de mim
+Dialogue: 0,0:02:02.47,0:02:04.35,Songs_OP,OP LYRICS,0000,0000,0000,,E seguem vivos
+Dialogue: 0,0:02:05.14,0:02:06.89,Songs_OP,OP LYRICS,0000,0000,0000,,Escolhemos o mesmo caminho
+Dialogue: 0,0:02:06.89,0:02:09.02,Songs_OP,OP LYRICS,0000,0000,0000,,É assim que deve ser
+Dialogue: 0,0:02:09.02,0:02:10.56,Songs_OP,OP LYRICS,0000,0000,0000,,É por isso que, em algum momento
+Dialogue: 0,0:02:10.56,0:02:14.82,Songs_OP,OP LYRICS,0000,0000,0000,,Quis entender o motivo das lágrimas
+Dialogue: 0,0:02:14.82,0:02:16.19,Songs_OP,OP LYRICS,0000,0000,0000,,Que desciam pelo meu rosto
+Dialogue: 0,0:02:16.19,0:02:17.28,Songs_OP,OP LYRICS,0000,0000,0000,,Mesmo agora
+Dialogue: 0,0:02:17.28,0:02:19.66,Songs_OP,OP LYRICS,0000,0000,0000,,Se eu refizer a jornada que seguimos juntos
+Dialogue: 0,0:02:19.66,0:02:23.20,Songs_OP,OP LYRICS,0000,0000,0000,,Mesmo se você não estiver aqui
+Dialogue: 0,0:02:23.20,0:02:24.87,Songs_OP,OP LYRICS,0000,0000,0000,,Sei que serei capaz de encontrar
+Dialogue: 0,0:02:37.01,0:02:40.01,Signs_EpTitle,EPTITLE,0000,0000,0000,,{\blur0.2\c&HFAFFF7&\pos(389,269.5)}Episódio 10: Uma maga poderosa
+Dialogue: 0,0:02:44.64,0:02:46.77,DefaultItalics,LÜGNER,0000,0000,0000,,O sangramento não para.
+Dialogue: 0,0:02:47.39,0:02:48.89,DefaultItalics,LÜGNER,0000,0000,0000,,É o meu fim.
+Dialogue: 0,0:02:49.31,0:02:52.10,Default,FERN,0000,0000,0000,,O seu plano fracassou.
+Dialogue: 0,0:02:53.48,0:02:55.07,Default,LÜGNER,0000,0000,0000,,De fato.
+Dialogue: 0,0:02:55.07,0:02:57.86,Default,LÜGNER,0000,0000,0000,,Mas a Frieren não sairá ilesa.
+Dialogue: 0,0:02:58.28,0:03:02.24,Default,LÜGNER,0000,0000,0000,,Ela deve estar lutando contra\Na Lady Aura neste exato momento.
+Dialogue: 0,0:03:02.95,0:03:07.12,Default,LÜGNER,0000,0000,0000,,Na outra vez, o grupo de heróis nos fez recuar.
+Dialogue: 0,0:03:07.12,0:03:10.96,Default,LÜGNER,0000,0000,0000,,Mas, desta vez, os heróis\Nnão estão aqui para protegê-la.
+Dialogue: 0,0:03:12.21,0:03:15.21,Default,LÜGNER,0000,0000,0000,,É verdade que Frieren\Né uma ameaça para nós,
+Dialogue: 0,0:03:15.21,0:03:18.88,Default,LÜGNER,0000,0000,0000,,mas ela tem muito menos\Nmana que a Lady Aura.
+Dialogue: 0,0:03:19.47,0:03:23.72,Default,LÜGNER,0000,0000,0000,,Se elas baterem de frente,\Na Frieren perderá.
+Dialogue: 0,0:03:23.72,0:03:26.72,Default,FERN,0000,0000,0000,,Então, a Srta. Frieren irá vencer.
+Dialogue: 0,0:03:27.93,0:03:32.39,Default,FERN,0000,0000,0000,,Ela nunca bate de frente com um demônio.
+Dialogue: 0,0:03:32.69,0:03:35.06,Default,FERN,0000,0000,0000,,Sei que ela enganará a Aura e a matará.
+Dialogue: 0,0:03:36.69,0:03:38.07,DefaultItalics,LÜGNER,0000,0000,0000,,Quanta baboseira.
+Dialogue: 0,0:03:38.07,0:03:43.91,DefaultItalics,LÜGNER,0000,0000,0000,,Frieren, a Mensageira do Além,\Nsempre bateu de frente conosco.
+Dialogue: 0,0:03:45.49,0:03:48.29,DefaultItalics,LÜGNER,0000,0000,0000,,Por que sinto que tem algo de errado?
+Dialogue: 0,0:03:49.58,0:03:51.96,DefaultItalics,LÜGNER,0000,0000,0000,,A mana dessa garota é fraca,
+Dialogue: 0,0:03:52.46,0:03:56.84,DefaultItalics,LÜGNER,0000,0000,0000,,e, ainda assim, fui oprimido pela grande\Nquantidade de ataques rápidos dela.
+Dialogue: 0,0:03:58.05,0:04:02.55,DefaultItalics,LÜGNER,0000,0000,0000,,Como ela foi capaz disso\Nsem cansar a sua mana?
+Dialogue: 0,0:04:04.13,0:04:08.06,Default,LÜGNER,0000,0000,0000,,Entendi. Como isso é possível?
+Dialogue: 0,0:04:09.31,0:04:11.31,Default,LÜGNER,0000,0000,0000,,Então, a Frieren faz o mesmo.
+Dialogue: 0,0:04:12.23,0:04:13.81,Default,LÜGNER,0000,0000,0000,,Suas covardes.
+Dialogue: 0,0:04:14.94,0:04:18.65,Default,LÜGNER,0000,0000,0000,,Vocês são uma vergonha para todos os magos.
+Dialogue: 0,0:04:18.65,0:04:22.28,Default,FERN,0000,0000,0000,,A Srta. Frieren sabe disso\Nmelhor do que ninguém.
+Dialogue: 0,0:04:32.04,0:04:34.25,Flashback,FLAMME,0000,0000,0000,,Que visão terrível.
+Dialogue: 0,0:04:35.71,0:04:37.42,Flashback,FLAMME,0000,0000,0000,,Parece ser um vilarejo de elfos.
+Dialogue: 0,0:04:49.51,0:04:51.52,Flashback,FLAMME,0000,0000,0000,,Basalt, o Trono,
+Dialogue: 0,0:04:51.52,0:04:53.81,Flashback,FLAMME,0000,0000,0000,,um general do exército do Rei Demônio.
+Dialogue: 0,0:04:54.44,0:04:58.19,Flashback,FLAMME,0000,0000,0000,,Ele deve ter trazido suas tropas aqui\Npara destruir este vilarejo.
+Dialogue: 0,0:05:00.48,0:05:04.32,Flashback,FLAMME,0000,0000,0000,,Foi você quem o matou?\NParece estar quase morta.
+Dialogue: 0,0:05:10.91,0:05:13.00,Flashback,FLAMME,0000,0000,0000,,Quanta mana.
+Dialogue: 0,0:05:13.00,0:05:14.46,Flashback,FLAMME,0000,0000,0000,,Você deve ser poderosa.
+Dialogue: 0,0:05:14.75,0:05:17.37,Flashback,FLAMME,0000,0000,0000,,Enfrentou os demônios de frente?
+Dialogue: 0,0:05:19.88,0:05:22.96,Flashback,FLAMME,0000,0000,0000,,Como você é tola.
+Dialogue: 0,0:05:23.46,0:05:26.55,Flashback,FLAMME,0000,0000,0000,,Por que as pessoas tentam\Nenfrentar os inimigos de frente?
+Dialogue: 0,0:05:26.55,0:05:29.09,Flashback,FLAMME,0000,0000,0000,,Correr, se esconder,\Npegar os inimigos de surpresa...
+Dialogue: 0,0:05:29.09,0:05:31.72,Flashback,FLAMME,0000,0000,0000,,Há muitas opções melhores.
+Dialogue: 0,0:05:32.22,0:05:35.31,Flashback,FLAMME,0000,0000,0000,,Nunca entenderei os magos poderosos.
+Dialogue: 0,0:05:36.06,0:05:37.48,Flashback,FRIEREN,0000,0000,0000,,Mas você entende.
+Dialogue: 0,0:05:38.31,0:05:39.23,Flashback,FLAMME,0000,0000,0000,,O quê?
+Dialogue: 0,0:05:39.73,0:05:42.86,Flashback,FRIEREN,0000,0000,0000,,Você deve entender como eu me sinto...
+Dialogue: 0,0:05:45.03,0:05:49.95,Flashback,FRIEREN,0000,0000,0000,,porque você é uma maga\Nmuito mais poderosa.
+Dialogue: 0,0:06:00.25,0:06:02.25,Flashback,FLAMME,0000,0000,0000,,Por que diz isso?
+Dialogue: 0,0:06:03.71,0:06:05.26,Flashback,FRIEREN,0000,0000,0000,,É uma impressão minha.
+Dialogue: 0,0:06:07.13,0:06:09.39,Flashback,FLAMME,0000,0000,0000,,Como você se chama?
+Dialogue: 0,0:06:13.56,0:06:15.85,Flashback,FRIEREN,0000,0000,0000,,O que aconteceu com o vilarejo?
+Dialogue: 0,0:06:15.85,0:06:19.69,Flashback,FLAMME,0000,0000,0000,,Estão todos mortos.\NInclusive as mulheres e crianças.
+Dialogue: 0,0:06:20.85,0:06:25.23,Flashback,FRIEREN,0000,0000,0000,,Eu era a mais forte,\Nmas não fui capaz de protegê-los.
+Dialogue: 0,0:06:25.73,0:06:27.90,Flashback,FLAMME,0000,0000,0000,,Você é mesmo tola.
+Dialogue: 0,0:06:27.90,0:06:31.28,Flashback,FLAMME,0000,0000,0000,,Em seu lugar, eu não teria pensado\Nduas vezes antes de fugir.
+Dialogue: 0,0:06:32.53,0:06:33.83,Flashback,FRIEREN,0000,0000,0000,,Ponha-me no chão.
+Dialogue: 0,0:06:33.83,0:06:38.83,Flashback,FLAMME,0000,0000,0000,,Não. Você tem potencial.\NSerá a minha aprendiz.
+Dialogue: 0,0:06:39.92,0:06:45.71,Flashback,FLAMME,0000,0000,0000,,E você sabe que não teria sobrevivido\Nse eu não tivesse te encontrado.
+Dialogue: 0,0:06:45.71,0:06:50.05,Flashback,FLAMME,0000,0000,0000,,Além de não ter conseguido proteger\No vilarejo, você quase morreu.
+Dialogue: 0,0:06:50.55,0:06:52.64,Flashback,FLAMME,0000,0000,0000,,A sua morte teria sido em vão.
+Dialogue: 0,0:06:55.43,0:06:56.64,Flashback,FLAMME,0000,0000,0000,,Estamos sendo perseguidas.
+Dialogue: 0,0:06:57.68,0:07:00.52,Flashback,FLAMME,0000,0000,0000,,Eles são mais fracos\Nque o general que você matou.
+Dialogue: 0,0:07:07.69,0:07:09.95,Flashback,FLAMME,0000,0000,0000,,Criaturas interessantes, não acha?
+Dialogue: 0,0:07:10.24,0:07:12.99,Flashback,FLAMME,0000,0000,0000,,Eles tinham a intenção\Nde nos pegar desprevenidas,
+Dialogue: 0,0:07:12.99,0:07:15.45,Flashback,FLAMME,0000,0000,0000,,escondendo sua mana\Npara realizarem uma emboscada,
+Dialogue: 0,0:07:15.74,0:07:20.83,Flashback,FLAMME,0000,0000,0000,,mas, assim que perceberam que somos\Nmagas, eles se revelaram diante de nós.
+Dialogue: 0,0:07:21.92,0:07:24.59,Flashback,FLAMME,0000,0000,0000,,Eles são covardes astutos,
+Dialogue: 0,0:07:24.59,0:07:29.30,Flashback,FLAMME,0000,0000,0000,,mas cada um deles possui um orgulho\Nridículo quando se trata de magia.
+Dialogue: 0,0:07:30.13,0:07:34.89,Flashback,DEMON A,0000,0000,0000,,Maga humana, deixe a elfa e vá embora.
+Dialogue: 0,0:07:35.35,0:07:38.02,Flashback,FLAMME,0000,0000,0000,,Vocês me deixarão ir se eu fizer isso?
+Dialogue: 0,0:07:38.02,0:07:40.68,Flashback,DEMON A,0000,0000,0000,,"Matem todos os elfos".
+Dialogue: 0,0:07:40.68,0:07:43.02,Flashback,DEMON A,0000,0000,0000,,Essa foi a ordem do Rei Demônio.
+Dialogue: 0,0:07:43.02,0:07:45.94,Flashback,DEMON A,0000,0000,0000,,Sua vida não importa para mim.
+Dialogue: 0,0:07:46.48,0:07:47.73,Flashback,FLAMME,0000,0000,0000,,Entendo.
+Dialogue: 0,0:07:51.90,0:07:58.16,Flashback,FLAMME,0000,0000,0000,,Frieren, é verdade que entendo\Na dor de ser uma maga poderosa.
+Dialogue: 0,0:07:58.91,0:08:02.29,Flashback,FLAMME,0000,0000,0000,,Também entendo, exatamente,\Ncomo essas criaturas se sentem.
+Dialogue: 0,0:08:02.79,0:08:08.17,Flashback,FLAMME,0000,0000,0000,,Sei o quanto elas confiam\Nna magia que estudaram.
+Dialogue: 0,0:08:08.88,0:08:12.67,Flashback,FLAMME,0000,0000,0000,,Ou seja, elas são ridiculamente\Norgulhosas e confiantes demais.
+Dialogue: 0,0:08:26.90,0:08:32.49,Flashback,FLAMME,0000,0000,0000,,Frieren, ao contrário de você,\Neles julgaram que eu fosse fraca.
+Dialogue: 0,0:08:33.36,0:08:40.16,Flashback,FLAMME,0000,0000,0000,,Apesar de serem magos excepcionais,\Nseu excesso de confiança lhes custou a vida.
+Dialogue: 0,0:08:40.16,0:08:45.21,Flashback,FRIEREN,0000,0000,0000,,Você escondeu a sua força ao controlar\Na quantidade de mana que libera.
+Dialogue: 0,0:08:46.63,0:08:47.54,Flashback,FLAMME,0000,0000,0000,,Isso mesmo.
+Dialogue: 0,0:08:48.09,0:08:52.34,Flashback,FLAMME,0000,0000,0000,,Engane e mate seus inimigos fazendo\Ncom que eles calculem mal a sua força.
+Dialogue: 0,0:08:53.05,0:08:58.47,Flashback,FLAMME,0000,0000,0000,,É uma forma covarde e injusta\Nde lutar que ridiculariza a magia.
+Dialogue: 0,0:09:14.32,0:09:16.61,Flashback,FLAMME,0000,0000,0000,,Seus ferimentos parecem\Nter melhorado bastante.
+Dialogue: 0,0:09:19.12,0:09:21.74,Flashback,FLAMME,0000,0000,0000,,Vamos começar o seu treinamento?
+Dialogue: 0,0:09:23.25,0:09:24.50,Flashback,FRIEREN,0000,0000,0000,,Flamme.
+Dialogue: 0,0:09:24.50,0:09:26.00,Flashback,FLAMME,0000,0000,0000,,É "Mestra".
+Dialogue: 0,0:09:30.25,0:09:33.46,Flashback,FRIEREN,0000,0000,0000,,Os demônios tiraram tudo de mim.
+Dialogue: 0,0:09:33.46,0:09:34.67,Flashback,FLAMME,0000,0000,0000,,De mim, também.
+Dialogue: 0,0:09:35.34,0:09:38.76,Flashback,FRIEREN,0000,0000,0000,,Eu os odeio tanto que queria poder\Nexterminar até o último deles.
+Dialogue: 0,0:09:38.76,0:09:40.01,Flashback,FLAMME,0000,0000,0000,,Eu também.
+Dialogue: 0,0:09:41.31,0:09:43.89,Flashback,FRIEREN,0000,0000,0000,,Mas eu amo magia.
+Dialogue: 0,0:09:43.89,0:09:45.14,Flashback,FLAMME,0000,0000,0000,,Eu também amo.
+Dialogue: 0,0:09:47.60,0:09:52.90,Flashback,FLAMME,0000,0000,0000,,E é por isso que só você e eu devemos nos tornar\Nas covardes que ridicularizam a magia.
+Dialogue: 0,0:09:55.11,0:09:57.99,Flashback,FRIEREN,0000,0000,0000,,O que eu deveria treinar?
+Dialogue: 0,0:09:57.99,0:10:02.53,Flashback,FLAMME,0000,0000,0000,,Tente limitar a mana que você libera\Na um décimo do volume normal.
+Dialogue: 0,0:10:04.66,0:10:07.79,Flashback,FLAMME,0000,0000,0000,,Impressionante. Seu controle está muito bom.
+Dialogue: 0,0:10:08.83,0:10:11.96,Flashback,FRIEREN,0000,0000,0000,,Qualquer elfo é capaz disso.
+Dialogue: 0,0:10:11.96,0:10:17.09,Flashback,FLAMME,0000,0000,0000,,Agora, faremos alguns treinos fundamentais\Npara aumentar a base do seu nível de mana.
+Dialogue: 0,0:10:17.47,0:10:19.13,Flashback,FRIEREN,0000,0000,0000,,É só isso?
+Dialogue: 0,0:10:19.13,0:10:20.39,Flashback,FLAMME,0000,0000,0000,,Simples, não acha?
+Dialogue: 0,0:10:22.10,0:10:26.52,Flashback,FRIEREN,0000,0000,0000,,A propósito, por quanto tempo devo\Ncontinuar suprimindo minha mana?
+Dialogue: 0,0:10:26.52,0:10:29.19,Flashback,FRIEREN,0000,0000,0000,,Fazer isso por muito tempo\Nme deixa cansada.
+Dialogue: 0,0:10:29.19,0:10:31.02,Flashback,FLAMME,0000,0000,0000,,O mesmo que eu.
+Dialogue: 0,0:10:31.94,0:10:33.44,Flashback,FLAMME,0000,0000,0000,,Pela vida toda.
+Dialogue: 0,0:10:33.82,0:10:37.32,Flashback,FLAMME,0000,0000,0000,,Você passará toda a sua vida\Nenganando demônios.
+Dialogue: 0,0:10:42.62,0:10:44.62,Default,AURA,0000,0000,0000,,Lügner está morto.
+Dialogue: 0,0:10:45.16,0:10:48.12,Default,FRIEREN,0000,0000,0000,,Agora, todos os seus algozes\Nforam eliminados.
+Dialogue: 0,0:10:48.12,0:10:50.25,Default,FRIEREN,0000,0000,0000,,Você fracassou, Aura.
+Dialogue: 0,0:10:50.87,0:10:53.21,Default,AURA,0000,0000,0000,,É mesmo. Que pena.
+Dialogue: 0,0:10:53.63,0:10:57.88,Default,AURA,0000,0000,0000,,Mas, se eu te derrotar aqui,\Nnão terá sido em vão.
+Dialogue: 0,0:10:59.51,0:11:05.97,Default,AURA,0000,0000,0000,,Nesta batalha, você libertou vários\Nsoldados imortais do meu controle.
+Dialogue: 0,0:11:06.72,0:11:11.98,Default,AURA,0000,0000,0000,,Será que foi uma boa ideia\Ndesperdiçar tanta mana contra mim?
+Dialogue: 0,0:11:14.44,0:11:16.19,DefaultItalics,FRIEREN,0000,0000,0000,,A Balança da Resignação.
+Dialogue: 0,0:11:16.65,0:11:19.32,DefaultItalics,FRIEREN,0000,0000,0000,,Quando duas almas\Nsão colocadas na balança,
+Dialogue: 0,0:11:19.32,0:11:22.74,DefaultItalics,FRIEREN,0000,0000,0000,,quem tiver mais mana\Nforça a outra a se submeter.
+Dialogue: 0,0:11:23.57,0:11:29.04,DefaultItalics,FRIEREN,0000,0000,0000,,Aura só é capaz de usar uma magia tão arriscada\Ngraças à quantidade absurda de mana que possui.
+Dialogue: 0,0:11:29.58,0:11:31.33,DefaultItalics,FRIEREN,0000,0000,0000,,De um modo geral,
+Dialogue: 0,0:11:31.33,0:11:34.50,DefaultItalics,FRIEREN,0000,0000,0000,,a mana da pessoa aumenta proporcionalmente\Nao tempo gasto treinando.
+Dialogue: 0,0:11:36.38,0:11:39.34,DefaultItalics,FRIEREN,0000,0000,0000,,Eu posso sentir isso na mana saindo da Aura.
+Dialogue: 0,0:11:39.84,0:11:43.51,DefaultItalics,FRIEREN,0000,0000,0000,,Ela é um Grande Demônio que viveu\Npor mais de 500 anos,
+Dialogue: 0,0:11:43.51,0:11:47.01,DefaultItalics,FRIEREN,0000,0000,0000,,e passou a maior parte da vida treinando.
+Dialogue: 0,0:11:48.35,0:11:49.85,DefaultItalics,FRIEREN,0000,0000,0000,,500 anos...
+Dialogue: 0,0:11:50.35,0:11:53.15,DefaultItalics,FRIEREN,0000,0000,0000,,Ela viveu bastante, para um demônio.
+Dialogue: 0,0:11:53.15,0:11:55.64,DefaultItalics,FRIEREN,0000,0000,0000,,Será que ela teve um adversário\Nà altura até hoje?
+Dialogue: 0,0:11:56.36,0:12:00.53,DefaultItalics,FRIEREN,0000,0000,0000,,Dá pra saber muitas coisas\Nsó com a mana que flui dela.
+Dialogue: 0,0:12:01.03,0:12:05.91,DefaultItalics,FRIEREN,0000,0000,0000,,Independentemente disso, os demônios\Nnão escondem sua mana. Nem conseguem.
+Dialogue: 0,0:12:06.95,0:12:08.12,Default,FRIEREN,0000,0000,0000,,É uma pena.
+Dialogue: 0,0:12:12.00,0:12:13.54,Default,AURA,0000,0000,0000,,Auserlese.
+Dialogue: 0,0:12:17.46,0:12:18.55,Flashback,FRIEREN,0000,0000,0000,,Mestra.
+Dialogue: 0,0:12:19.92,0:12:22.55,Flashback,FRIEREN,0000,0000,0000,,Os demônios são astutos, não são?
+Dialogue: 0,0:12:22.55,0:12:26.68,Flashback,FRIEREN,0000,0000,0000,,Por que eles não suprimem\Nsua mana, como você faz?
+Dialogue: 0,0:12:28.10,0:12:29.43,Flashback,FLAMME,0000,0000,0000,,Eles não podem.
+Dialogue: 0,0:12:30.43,0:12:33.44,Flashback,FLAMME,0000,0000,0000,,Os demônios são individualistas,
+Dialogue: 0,0:12:33.44,0:12:37.94,Flashback,FLAMME,0000,0000,0000,,mas formam as conexões mais básicas\Nnecessárias para lutar contra a humanidade.
+Dialogue: 0,0:12:39.44,0:12:41.82,Flashback,FLAMME,0000,0000,0000,,Do que acha que uma organização\Nprecisa para funcionar?
+Dialogue: 0,0:12:42.94,0:12:44.53,Flashback,FRIEREN,0000,0000,0000,,Ordem?
+Dialogue: 0,0:12:44.53,0:12:45.45,Flashback,FLAMME,0000,0000,0000,,Isso mesmo.
+Dialogue: 0,0:12:45.70,0:12:49.95,Flashback,FLAMME,0000,0000,0000,,É preciso um alguém importante\Npara liderar uma organização.
+Dialogue: 0,0:12:50.62,0:12:52.41,Flashback,FLAMME,0000,0000,0000,,No caso dos humanos,
+Dialogue: 0,0:12:52.41,0:12:57.46,Flashback,FLAMME,0000,0000,0000,,a importância é determinada pelo status\Ne pela riqueza, como acontece neste país.
+Dialogue: 0,0:12:58.17,0:13:02.21,Flashback,FLAMME,0000,0000,0000,,Aquele homem bem vestido\Nsaindo do palácio é importante.
+Dialogue: 0,0:13:03.13,0:13:05.34,Flashback,FLAMME,0000,0000,0000,,É difícil saber quais humanos são importantes,
+Dialogue: 0,0:13:05.34,0:13:09.43,Flashback,FLAMME,0000,0000,0000,,então eles se vestem\Npara deixar isso aparente.
+Dialogue: 0,0:13:09.85,0:13:11.60,Flashback,FRIEREN,0000,0000,0000,,Os demônios são diferentes?
+Dialogue: 0,0:13:12.02,0:13:16.52,Flashback,FLAMME,0000,0000,0000,,Eles não mudaram nada,\Njá que são monstros.
+Dialogue: 0,0:13:16.52,0:13:18.52,Flashback,FLAMME,0000,0000,0000,,Os fortes são importantes.
+Dialogue: 0,0:13:18.52,0:13:20.73,Flashback,FLAMME,0000,0000,0000,,É mais fácil de entender que os humanos.
+Dialogue: 0,0:13:21.19,0:13:23.24,Flashback,FLAMME,0000,0000,0000,,Dá pra reconhecer\Nos mais fortes só de vê-los.
+Dialogue: 0,0:13:23.69,0:13:24.99,Flashback,FREIREN,0000,0000,0000,,Através da mana.
+Dialogue: 0,0:13:25.32,0:13:30.03,Flashback,FLAMME,0000,0000,0000,,Para eles, a mana equivale ao status\Ne riqueza para os humanos.
+Dialogue: 0,0:13:30.03,0:13:32.49,Flashback,FLAMME,0000,0000,0000,,Diria que é a dignidade deles.
+Dialogue: 0,0:13:32.99,0:13:38.17,Flashback,FLAMME,0000,0000,0000,,Eles podem suprimir temporariamente\Nsua mana por discrição,
+Dialogue: 0,0:13:38.17,0:13:42.63,Flashback,FLAMME,0000,0000,0000,,mas nenhum deles é tolo o bastante\Npara suprimir a mana o tempo todo.
+Dialogue: 0,0:13:42.63,0:13:47.05,Flashback,FLAMME,0000,0000,0000,,É a diferença entre um nobre\Nque circula disfarçado pela cidade,
+Dialogue: 0,0:13:47.05,0:13:51.39,Flashback,FLAMME,0000,0000,0000,,e o mesmo nobre que se rebaixa abandonando\Nseu status e riqueza por completo.
+Dialogue: 0,0:13:52.43,0:13:55.18,Flashback,FLAMME,0000,0000,0000,,E o mundo dos demônios é cruel.
+Dialogue: 0,0:13:55.18,0:13:59.31,Flashback,FLAMME,0000,0000,0000,,Eles nunca darão dignidade\Nàqueles com pouca mana.
+Dialogue: 0,0:13:59.90,0:14:04.65,Flashback,FLAMME,0000,0000,0000,,Por isso, quanto mais fortes,\Nmais terão vontade de exibir sua mana.
+Dialogue: 0,0:14:04.99,0:14:10.16,Flashback,FLAMME,0000,0000,0000,,Para eles, não há benefícios\Nem suprimir a mana constantemente.
+Dialogue: 0,0:14:10.16,0:14:12.91,Flashback,FLAMME,0000,0000,0000,,Eles sequer cogitam isso.
+Dialogue: 0,0:14:13.49,0:14:15.12,Flashback,FLAMME,0000,0000,0000,,É uma pena, não?
+Dialogue: 0,0:14:15.12,0:14:20.67,Flashback,FLAMME,0000,0000,0000,,Assim como os humanos são ligados pelo status\Ne riquezas, os demônios são pela mana.
+Dialogue: 0,0:14:20.67,0:14:25.46,Flashback,FLAMME,0000,0000,0000,,Apesar de seu orgulho e amor\Nincomparável pela magia,
+Dialogue: 0,0:14:25.46,0:14:28.30,Flashback,FLAMME,0000,0000,0000,,eles não podem controlar a própria mana.
+Dialogue: 0,0:14:29.38,0:14:32.89,Flashback,FLAMME,0000,0000,0000,,Frieren, você tem sorte\Nde não ser um demônio.
+Dialogue: 0,0:14:32.89,0:14:36.18,Flashback,FRIEREN,0000,0000,0000,,É verdade. Eu não seria capaz\Nde enganá-los se fosse.
+Dialogue: 0,0:14:40.60,0:14:44.07,Flashback,FLAMME,0000,0000,0000,,Passaram-se três anos desde\Nque começou a suprimir sua mana.
+Dialogue: 0,0:14:44.36,0:14:47.44,Flashback,FLAMME,0000,0000,0000,,Parece que eu estava certa sobre você.
+Dialogue: 0,0:14:52.24,0:14:54.58,Flashback,FLAMME,0000,0000,0000,,Você ficou muito melhor nisso.
+Dialogue: 0,0:14:56.91,0:15:00.00,Flashback,FLAMME,0000,0000,0000,,Frieren, você ainda ama magia?
+Dialogue: 0,0:15:01.33,0:15:03.54,Flashback,FRIEREN,0000,0000,0000,,Por que a pergunta repentina, Mestra?
+Dialogue: 0,0:15:04.79,0:15:06.21,Flashback,FRIEREN,0000,0000,0000,,É meio-termo, eu acho.
+Dialogue: 0,0:15:07.09,0:15:11.89,Flashback,FLAMME,0000,0000,0000,,Há muito tempo, você, certa vez,\Nrespondeu com segurança que amava a magia.
+Dialogue: 0,0:15:12.34,0:15:14.39,Flashback,FRIEREN,0000,0000,0000,,Isso foi há apenas 50 anos.
+Dialogue: 0,0:15:15.60,0:15:17.14,Flashback,FLAMME,0000,0000,0000,,É verdade.
+Dialogue: 0,0:15:18.89,0:15:24.15,Flashback,FLAMME,0000,0000,0000,,No fim, só consegui te ensinar a lutar.
+Dialogue: 0,0:15:24.15,0:15:26.40,Flashback,FLAMME,0000,0000,0000,,A usar a magia para a vingança.
+Dialogue: 0,0:15:27.48,0:15:29.11,Flashback,FRIEREN,0000,0000,0000,,Você se arrepende?
+Dialogue: 0,0:15:29.69,0:15:34.99,Flashback,FLAMME,0000,0000,0000,,Não. Estou feliz por ter\Nensinado minha magia a você.
+Dialogue: 0,0:15:35.74,0:15:37.95,Flashback,FLAMME,0000,0000,0000,,Dado quanto tempo você viverá,
+Dialogue: 0,0:15:37.95,0:15:42.04,Flashback,FLAMME,0000,0000,0000,,talvez se torne forte o suficiente\Npara derrotar o Rei Demônio um dia.
+Dialogue: 0,0:15:44.58,0:15:47.34,Flashback,FLAMME,0000,0000,0000,,Frieren, eu tenho um pedido.
+Dialogue: 0,0:15:48.00,0:15:48.88,Flashback,FRIEREN,0000,0000,0000,,Qual seria?
+Dialogue: 0,0:15:49.30,0:15:53.30,Flashback,FLAMME,0000,0000,0000,,Plante flores ao redor do meu túmulo.
+Dialogue: 0,0:15:53.30,0:15:55.01,Flashback,FREIREN,0000,0000,0000,,Não é a sua cara.
+Dialogue: 0,0:15:55.01,0:15:56.18,Flashback,FLAMME,0000,0000,0000,,Eu sei.
+Dialogue: 0,0:15:57.76,0:16:05.02,Flashback,FLAMME,0000,0000,0000,,Frieren, meu feitiço favorito\Ncria um campo de lindas flores.
+Dialogue: 0,0:16:06.36,0:16:09.44,Flashback,FLAMME,0000,0000,0000,,Meus pais me ensinaram\Nquando eu era criança.
+Dialogue: 0,0:16:09.44,0:16:12.11,Flashback,FLAMME,0000,0000,0000,,Foi o que me fez amar magia.
+Dialogue: 0,0:16:12.65,0:16:13.91,Flashback,FRIEREN,0000,0000,0000,,Hm...
+Dialogue: 0,0:16:16.03,0:16:18.16,Flashback,FRIEREN,0000,0000,0000,,Me ensine esse feitiço.
+Dialogue: 0,0:16:26.29,0:16:27.88,Flashback,FLAMME,0000,0000,0000,,Escute-me, Frieren.
+Dialogue: 0,0:16:28.34,0:16:31.42,Flashback,FLAMME,0000,0000,0000,,Você nunca deve tentar\Ndeixar seu nome na história.
+Dialogue: 0,0:16:31.97,0:16:33.80,Flashback,FLAMME,0000,0000,0000,,Viva sem se destacar.
+Dialogue: 0,0:16:34.80,0:16:39.76,Flashback,FLAMME,0000,0000,0000,,Você não deixará o seu nome\Nna história até derrotar o Rei Demônio.
+Dialogue: 0,0:17:39.49,0:17:43.70,Flashback,HIMMEL,0000,0000,0000,,Ouvi dizer que tinha uma maga que viveu\Nnesta floresta por muito tempo.
+Dialogue: 0,0:17:44.25,0:17:45.58,Flashback,HIMMEL,0000,0000,0000,,É você?
+Dialogue: 0,0:17:46.54,0:17:50.59,Flashback,FRIEREN,0000,0000,0000,,Eu vivi bastante, mas não fiz\Nmuita coisa na minha vida.
+Dialogue: 0,0:17:51.80,0:17:53.71,Flashback,FRIEREN,0000,0000,0000,,Não sou excepcional.
+Dialogue: 0,0:17:53.71,0:17:57.22,Flashback,EISEN,0000,0000,0000,,O que acha, Heiter?
+Dialogue: 0,0:17:58.89,0:18:01.85,Flashback,HEITER,0000,0000,0000,,Ela parece ter um quinto da minha mana.
+Dialogue: 0,0:18:02.22,0:18:04.22,Flashback,HEITER,0000,0000,0000,,Nada mau.
+Dialogue: 0,0:18:04.22,0:18:06.10,Flashback,FRIEREN,0000,0000,0000,,Quem é esse cara irritante?
+Dialogue: 0,0:18:06.68,0:18:10.56,Flashback,FRIEREN,0000,0000,0000,,Vão embora. Vocês não têm assuntos\Na tratar com uma maga mediana.
+Dialogue: 0,0:18:10.98,0:18:15.24,Flashback,HIMMEL,0000,0000,0000,,Não, você é mais forte\Nque qualquer mago que já conheci.
+Dialogue: 0,0:18:16.49,0:18:18.24,Flashback,FRIEREN,0000,0000,0000,,Por que diz isso?
+Dialogue: 0,0:18:19.70,0:18:20.91,Flashback,HIMMEL,0000,0000,0000,,É só um palpite.
+Dialogue: 0,0:18:26.33,0:18:27.46,Default,AURA,0000,0000,0000,,Auserlese.
+Dialogue: 0,0:18:46.85,0:18:48.85,Default,FRIEREN,0000,0000,0000,,Você parece feliz, Aura.
+Dialogue: 0,0:18:48.85,0:18:51.10,Default,FRIEREN,0000,0000,0000,,Tem certeza de que vai vencer?
+Dialogue: 0,0:18:52.48,0:18:54.11,Default,AURA,0000,0000,0000,,Você verá agora.
+Dialogue: 0,0:18:55.15,0:18:56.86,DefaultItalics,AURA,0000,0000,0000,,Frieren, a Mensageira do Além.
+Dialogue: 0,0:18:57.74,0:19:01.82,DefaultItalics,AURA,0000,0000,0000,,Sua primeira grande\Naparição foi 80 anos atrás.
+Dialogue: 0,0:19:02.37,0:19:05.62,DefaultItalics,AURA,0000,0000,0000,,Ao lado do grupo de heróis,\Nvocê derrotou o Rei Demônio.
+Dialogue: 0,0:19:05.62,0:19:09.33,DefaultItalics,AURA,0000,0000,0000,,Uma misteriosa maga élfica\Ncuja idade é desconhecida.
+Dialogue: 0,0:19:09.96,0:19:15.46,DefaultItalics,AURA,0000,0000,0000,,Mas não importa se é\Numa maga que viveu bastante.
+Dialogue: 0,0:19:15.46,0:19:18.34,DefaultItalics,AURA,0000,0000,0000,,A sua mana me diz tudo o que preciso dizer.
+Dialogue: 0,0:19:19.42,0:19:21.80,DefaultItalics,AURA,0000,0000,0000,,Está bem claro.
+Dialogue: 0,0:19:21.80,0:19:27.43,DefaultItalics,AURA,0000,0000,0000,,Você é uma maga excepcional,\Nmas sua mana em si não impressiona.
+Dialogue: 0,0:19:27.77,0:19:32.15,DefaultItalics,AURA,0000,0000,0000,,Você deve ter o equivalente\Na um século de treinamento.
+Dialogue: 0,0:19:32.15,0:19:35.57,DefaultItalics,AURA,0000,0000,0000,,Além disso, não mudou\Nquase nada desde 80 anos atrás.
+Dialogue: 0,0:19:36.07,0:19:39.28,DefaultItalics,AURA,0000,0000,0000,,Estava aprimorando outras habilidades\Nem vez de trabalhar em sua mana?
+Dialogue: 0,0:19:39.28,0:19:42.07,DefaultItalics,AURA,0000,0000,0000,,Ou simplesmente desperdiçou sua vida?
+Dialogue: 0,0:19:42.70,0:19:47.58,DefaultItalics,AURA,0000,0000,0000,,De qualquer forma, você não é páreo para mim.
+Dialogue: 0,0:19:57.13,0:19:58.84,Default,AURA,0000,0000,0000,,A vitória é minha.
+Dialogue: 0,0:20:01.84,0:20:06.35,Default,AURA,0000,0000,0000,,Só me resta te decapitar agora.
+Dialogue: 0,0:20:10.64,0:20:14.69,DefaultItalics,AURA,0000,0000,0000,,Eu nem precisei cansar a mana da Frieren.
+Dialogue: 0,0:20:15.10,0:20:17.36,DefaultItalics,AURA,0000,0000,0000,,Não precisava tomar tanto cuidado.
+Dialogue: 0,0:20:18.27,0:20:20.99,DefaultItalics,AURA,0000,0000,0000,,Ela também derrotou muitos\Ndos meus soldados imortais.
+Dialogue: 0,0:20:20.99,0:20:22.74,DefaultItalics,AURA,0000,0000,0000,,Preciso repor mais tarde.
+Dialogue: 0,0:20:26.28,0:20:27.24,DefaultItalics,AURA,0000,0000,0000,,O que é isto?
+Dialogue: 0,0:20:28.37,0:20:31.41,DefaultItalics,AURA,0000,0000,0000,,A balança está começando\Na pender em direção à Frieren.
+Dialogue: 0,0:20:32.00,0:20:35.63,Default,FRIEREN,0000,0000,0000,,Você colocou a minha alma na balança, Aura.
+Dialogue: 0,0:20:36.92,0:20:41.46,Default,FRIEREN,0000,0000,0000,,Sendo sincera, teria sido perigoso se você\Ncontinuasse a me pressionar com o seu exército.
+Dialogue: 0,0:20:41.92,0:20:45.39,Default,FRIEREN,0000,0000,0000,,Que bom que tem tanta confiança na sua alma.
+Dialogue: 0,0:20:46.09,0:20:48.10,Default,FRIEREN,0000,0000,0000,,Agora, finalmente posso te derrotar.
+Dialogue: 0,0:20:49.10,0:20:50.52,Default,AURA,0000,0000,0000,,O que quer dizer com isso?
+Dialogue: 0,0:20:50.97,0:20:53.02,Default,FRIEREN,0000,0000,0000,,Você já deveria ter percebido.
+Dialogue: 0,0:20:53.48,0:20:56.02,Default,FRIEREN,0000,0000,0000,,Eu estive suprimindo minha mana.
+Dialogue: 0,0:20:56.56,0:20:59.52,Default,FRIEREN,0000,0000,0000,,Você confundiu a situação, Aura.
+Dialogue: 0,0:21:01.23,0:21:06.16,Default,AURA,0000,0000,0000,,É impossível. Eu não teria deixado\Nde perceber uma coisa dessas.
+Dialogue: 0,0:21:06.66,0:21:12.29,Default,AURA,0000,0000,0000,,Não há sinal de instabilidade ou variação\Nna produção de mana que vem com a supressão.
+Dialogue: 0,0:21:12.79,0:21:17.96,Default,FRIEREN,0000,0000,0000,,Que surpresa. Os demônios são capazes\Nde enxergar a mana com tanta precisão?
+Dialogue: 0,0:21:18.63,0:21:21.55,Default,FRIEREN,0000,0000,0000,,Parece que os métodos\Nda minha mestra estavam certos.
+Dialogue: 0,0:21:22.38,0:21:27.18,Default,FRIEREN,0000,0000,0000,,Eu passei a maior parte da minha\Nvida suprimindo a minha mana.
+Dialogue: 0,0:21:27.18,0:21:29.39,Default,FRIEREN,0000,0000,0000,,Esse estado já se tornou natural para mim.
+Dialogue: 0,0:21:30.93,0:21:35.06,Default,AURA,0000,0000,0000,,Você é idiota? Por que fazer\Nalgo tão sem sentido?
+Dialogue: 0,0:21:35.27,0:21:37.94,Default,FRIEREN,0000,0000,0000,,É verdade. É idiotice.
+Dialogue: 0,0:21:38.65,0:21:40.69,Default,FRIEREN,0000,0000,0000,,Mas me permite acabar com a sua raça.
+Dialogue: 0,0:21:44.44,0:21:45.95,Default,AURA,0000,0000,0000,,Que absurdo.
+Dialogue: 0,0:21:46.36,0:21:49.20,Default,AURA,0000,0000,0000,,Sou um Grande Demônio\Nque viveu por mais de 500 anos.
+Dialogue: 0,0:21:51.16,0:21:54.37,Default,FRIEREN,0000,0000,0000,,Aura, a pessoa diante de você...
+Dialogue: 0,0:21:57.50,0:22:00.63,Default,FRIEREN,0000,0000,0000,,é uma maga que viveu por mais de mil anos.
+Dialogue: 0,0:22:14.31,0:22:15.52,FlashbackItalics,FLAMME,0000,0000,0000,,Frieren.
+Dialogue: 0,0:22:16.18,0:22:19.27,FlashbackItalics,FLAMME,0000,0000,0000,,Assim como demônios enganam\Nos humanos com palavras,
+Dialogue: 0,0:22:19.98,0:22:23.02,FlashbackItalics,FLAMME,0000,0000,0000,,você deve usar a sua mana\Npara enganar demônios.
+Dialogue: 0,0:22:24.48,0:22:25.03,Default,FRIEREN,0000,0000,0000,,Aura,
+Dialogue: 0,0:22:26.07,0:22:27.28,Default,FRIEREN,0000,0000,0000,,se mate.
+Dialogue: 0,0:22:36.16,0:22:37.75,Default,AURA,0000,0000,0000,,Impossível.
+Dialogue: 0,0:22:39.54,0:22:41.38,Default,AURA,0000,0000,0000,,Como eu...?
+Dialogue: 0,0:22:50.05,0:22:52.60,Songs_ED,ED LYRICS,0000,0000,0000,,E você está bem?
+Dialogue: 0,0:22:53.10,0:22:55.10,Songs_ED,ED LYRICS,0000,0000,0000,,Pode me ouvir?
+Dialogue: 0,0:22:55.89,0:23:01.98,Songs_ED,ED LYRICS,0000,0000,0000,,Seguindo por trilhos desertos
+Dialogue: 0,0:23:01.98,0:23:04.32,Songs_ED,ED LYRICS,0000,0000,0000,,Chorando excessivamente
+Dialogue: 0,0:23:04.90,0:23:07.49,Songs_ED,ED LYRICS,0000,0000,0000,,Querendo que você sorria
+Dialogue: 0,0:23:07.49,0:23:13.53,Songs_ED,ED LYRICS,0000,0000,0000,,Me prendo às memórias\Nque quero manter frescas
+Dialogue: 0,0:23:13.53,0:23:17.25,Songs_ED,ED LYRICS,0000,0000,0000,,Tem uma coisa que gostaria de te dizer
+Dialogue: 0,0:23:17.25,0:23:20.00,Songs_ED,ED LYRICS,0000,0000,0000,,Com palavras mais preciosas que "adeus"
+Dialogue: 0,0:23:20.00,0:23:25.67,Songs_ED,ED LYRICS,0000,0000,0000,,Nada notável, mas especial
+Dialogue: 0,0:23:25.67,0:23:29.22,Songs_ED,ED LYRICS,0000,0000,0000,,Sabe, coisas que não poderiam ser vistas
+Dialogue: 0,0:23:29.22,0:23:32.26,Songs_ED,ED LYRICS,0000,0000,0000,,Se não fossem por estes olhos
+Dialogue: 0,0:23:32.26,0:23:37.01,Songs_ED,ED LYRICS,0000,0000,0000,,Por quê? E começam a transbordar
+Dialogue: 0,0:23:37.01,0:23:43.10,Songs_ED,ED LYRICS,0000,0000,0000,,Por isso, se eu nascesse novamente
+Dialogue: 0,0:23:43.10,0:23:48.94,Songs_ED,ED LYRICS,0000,0000,0000,,Eu, com certeza,\Nescolheria este lugar mais uma vez
+Dialogue: 0,0:23:48.94,0:23:54.95,Songs_ED,ED LYRICS,0000,0000,0000,,Então, se nos encontrássemos novamente
+Dialogue: 0,0:23:54.95,0:24:00.71,Songs_ED,ED LYRICS,0000,0000,0000,,Nunca te deixaria ir,\Neu escolheria o presente
+Dialogue: 0,0:24:00.71,0:24:03.67,Songs_ED,ED LYRICS,0000,0000,0000,,Mesmo se nenhuma promessa for feita
+Dialogue: 0,0:24:03.67,0:24:06.59,Songs_ED,ED LYRICS,0000,0000,0000,,Mesmo se eu me perder em dias de solidão
+Dialogue: 0,0:24:06.59,0:24:12.76,Songs_ED,ED LYRICS,0000,0000,0000,,Não há problema com estas lágrimas,\Npois o amanhecer certamente virá
+Dialogue: 0,0:24:12.76,0:24:15.43,Songs_ED,ED LYRICS,0000,0000,0000,,Estou sussurrando nossa canção de ninar
+Dialogue: 0,0:24:15.43,0:24:19.35,Songs_ED,ED LYRICS,0000,0000,0000,,Para você voltar para casa
+Dialogue: 0,0:24:20.22,0:24:22.89,Default,HEITER,0000,0000,0000,,Você tem alguém para te elogiar?
+Dialogue: 0,0:24:20.62,0:24:24.25,Jikai,SIGN,0000,0000,0000,,{\fad(300,300)\pos(99,160)}{\pos(572,141)} Você tem\Nalguém\Npara te\Nelogiar?
+Dialogue: 0,0:24:20.73,0:24:22.89,DefaultOverlap,KRAFT,0000,0000,0000,,Está viajando para o Céu?
+Dialogue: 0,0:24:20.79,0:24:23.00,Jikai,SIGN,0000,0000,0000,,{\fs15\fad(300,300)\pos(459,205)}{\pos(378,232)}Está\Nviajando\Npara\No Céu?
+Dialogue: 0,0:24:21.14,0:24:23.06,DefaultTop,FERN,0000,0000,0000,,Não sei se entendi...
+Dialogue: 0,0:24:21.37,0:24:23.54,Jikai,SIGN,0000,0000,0000,,{\fs15\fad(300,300)\pos(341,258)}Não\Nsei se\Nentendi...
+Dialogue: 0,0:24:22.16,0:24:25.04,Jikai,SIGN,0000,0000,0000,,{\fscy90\fs16\fad(300,300)\pos(334,189)}{\pos(572,141)} Äußerst,\Na maior \Ncidade\Nmágica
+Dialogue: 0,0:24:22.64,0:24:24.69,DefaultOverlapTop,STARK,0000,0000,0000,,Você tem um belo corpo, velhote.
+Dialogue: 0,0:24:22.71,0:24:25.33,Jikai,SIGN,0000,0000,0000,,{\fscx70\fs19\fad(300,300)\pos(588,233)}Você\Ntem um\Nbelo\Ncorpo,\Nvelhote.
+Dialogue: 0,0:24:23.02,0:24:26.19,Default,GRANAT,0000,0000,0000,,Äußerst, a maior cidade mágica das Terras do Norte.
+Dialogue: 0,0:24:23.87,0:24:26.38,Jikai,SIGN,0000,0000,0000,,{\fs18\fad(300,300)\pos(388,263)} O que é um mago de primeira classe?
+Dialogue: 0,0:24:24.40,0:24:26.02,DefaultTop,FRIEREN,0000,0000,0000,,O que é um mago de primeira classe?
+Dialogue: 0,0:24:25.06,0:24:27.15,DefaultOverlapTop,FERN,0000,0000,0000,,O que é essa bugiganga?
+Dialogue: 0,0:24:25.08,0:24:26.76,Jikai,SIGN,0000,0000,0000,,{\fscx70\fad(300,300)\pos(308,201)} das Terras do Norte.
+Dialogue: 0,0:24:25.33,0:24:27.84,Jikai,SIGN,0000,0000,0000,,{\fscx70\fs18\fad(300,300)\pos(177,266)} O que\Né\Nessa\Nbugiganga?
+Dialogue: 0,0:24:26.02,0:24:27.90,DefaultTop,KRAFT,0000,0000,0000,,Significa que somos elfos.
+Dialogue: 0,0:24:26.13,0:24:27.88,Jikai,SIGN,0000,0000,0000,,{\fs18\fad(300,300)\pos(540,178)} Significa\Nque\Nsomos\Nelfos.
+Dialogue: 0,0:24:27.57,0:24:30.03,Signs_NextEp,SIGN,0000,0000,0000,,{\fad(229,1)\blur3\t(20,312,\blur0.2)\pos(320,113.5)\c&H000000&\t(312,646,\c&HF6F6F6&)\fsp1.6\t(\fsp1)}Episódio 11\N\N\N\N\N\N\N\NInverno nas Terras do Norte
+Dialogue: 0,0:24:27.90,0:24:30.07,Default,FRIEREN,0000,0000,0000,,São os invernos das Terras do Norte.
