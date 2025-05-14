@@ -44,7 +44,10 @@ def post_subtitles(post_id: str, frame_number: int, episode: int, subtitle: str,
     if not subtitle:
         return None
 
-    message = f"Episode {episode} Frame {frame_number}\n\n{subtitle}"
+    if configs.get("filters", {}).get("two_panels", {}).get("enabled", False):
+        message = f"Episode {episode} Frame {frame_number}\n\n{subtitle}"
+    else:
+        message = subtitle
 
     try:
         subtitle_post_id = fb.post(message, None, post_id)
