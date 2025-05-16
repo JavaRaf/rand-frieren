@@ -6,6 +6,7 @@ from typing import Optional
 # Local imports
 from src.filters import select_filter
 from src.facebook import FacebookAPI
+from src.logger import get_logger
 from src.frames_util import (
     download_frame,
     get_random_frame,
@@ -19,6 +20,7 @@ from src.subtitle import (
 )
 
 fb = FacebookAPI()
+logger = get_logger(__name__)
 
 
 def post_frame(message: str, frame_path: Path) -> Optional[str]:
@@ -103,16 +105,32 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
 
     if isinstance(frame_data, list) and len(frame_data) == 2: # frame pode ser um uma lista ou um dicionário por isso essa checagem
         message: str = configs.get("msg_two_panels")
-        message = message.format(
-            season=season,
-            episode1=frame_data[0]["episode"],
-            episode2=frame_data[1]["episode"],
-
-            timestamp1=frame_data[0]["timestamp"],
-            timestamp2=frame_data[1]["timestamp"],
-
-            filter_func=frame_data[0]["filter_func"]
-        )
+        if not message:
+            logger.error("✖ Failed to get message template from configs")
+            return None
+            
+        try:
+            # Create a dictionary with all possible values
+            format_dict = {
+                "season": season,
+                "episode1": frame_data[0].get("episode"),
+                "episode2": frame_data[1].get("episode"),
+                "timestamp1": frame_data[0].get("timestamp"),
+                "timestamp2": frame_data[1].get("timestamp"),
+                "filter_func": frame_data[0].get("filter_func")
+            }
+            
+            # Get only the keys that exist in the message template
+            required_keys = [key for key in format_dict.keys() if "{" + key + "}" in message]
+            present_keys = {k: format_dict[k] for k in required_keys}
+            
+            message = message.format(**present_keys)
+        except KeyError as e:
+            logger.error(f"✖ Missing required field in frame_data: {e}")
+            return None
+        except Exception as e:
+            logger.error(f"✖ Error formatting message: {e}")
+            return None
 
         print(
             "\n\n"
@@ -125,7 +143,7 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
 
         post_id = post_frame(message, frame_data[0]['output_path'])
         if not post_id:
-            print("✖ Failed to post frame data (main)")
+            logger.error("✖ Failed to post frame data (main)")
             return None
         
         post_subtitles(post_id, frame_data[0]['frame'], frame_data[0]['episode'], frame_data[0]['subtitle'], configs)
@@ -135,13 +153,31 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
 
     else:
         message: str = configs.get("msg_single_frame")
-        message = message.format(
-            season=season,
-            episode=frame_data["episode"],
-            frame=frame_data["frame"],
-            timestamp=frame_data["timestamp"],           
-            filter_func=frame_data["filter_func"]
-        )
+        if not message:
+            logger.error("✖ Failed to get message template from configs")
+            return None
+            
+        try:
+            # Create a dictionary with all possible values
+            format_dict = {
+                "season": season,
+                "episode": frame_data.get("episode"),
+                "frame": frame_data.get("frame"),
+                "timestamp": frame_data.get("timestamp"),
+                "filter_func": frame_data.get("filter_func")
+            }
+            
+            # Get only the keys that exist in the message template
+            required_keys = [key for key in format_dict.keys() if "{" + key + "}" in message]
+            present_keys = {k: format_dict[k] for k in required_keys}
+            
+            message = message.format(**present_keys)
+        except KeyError as e:
+            logger.error(f"✖ Missing required field in frame_data: {e}")
+            return None
+        except Exception as e:
+            logger.error(f"✖ Error formatting message: {e}")
+            return None
 
         print(
             "\n\n"
@@ -154,7 +190,7 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
 
         post_id = post_frame(message, frame_data['output_path'])
         if not post_id:
-            print("✖ Failed to post frame data")
+            logger.error("✖ Failed to post frame data")
             return None
         
         post_subtitles(post_id, frame_data['frame'], frame_data['episode'], frame_data['subtitle'], configs)
