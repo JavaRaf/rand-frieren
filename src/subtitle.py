@@ -250,14 +250,14 @@ def get_subtitle_message(current_frame: int, current_episode: int, configs: dict
     """
     
     if not isinstance(current_frame, int) or not isinstance(current_episode, int):
-        logger.error("Error, current_frame and current_episode must be integers", exc_info=True)
+        print(f"Error, current_frame and current_episode must be integers. ({__name__})", exc_info=True)
         return None
 
     subtitles_dir = Path.cwd() / "subtitles"
     subtitle_dir = subtitles_dir / f"{current_episode:02d}"
 
     if not subtitle_dir.exists():
-        subtitle_dir.mkdir(parents=True, exist_ok=True)
+        print(f"Subtitles active, but not found in directory {subtitle_dir}. ({__name__})", exc_info=True)
         return None
 
     files = [f for f in subtitle_dir.iterdir() if f.is_file() and f.suffix == ".ass"]
@@ -265,7 +265,7 @@ def get_subtitle_message(current_frame: int, current_episode: int, configs: dict
         files = [files[0]]
 
     if not files:
-        logger.error(f"Subtitles active, but not found in directory {subtitle_dir}", exc_info=True)
+        print(f"Subtitles active, but not found in directory {subtitle_dir}. ({__name__})", exc_info=True)
         return None
 
     message = ""

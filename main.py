@@ -31,10 +31,10 @@ def post_frame(message: str, frame_path: Path) -> Optional[str]:
             print("├── Frame has been posted", flush=True)
             sleep(2)
         else:
-            print("✖ Failed to post frame (main, post_frame)")
+            logger.error("✖ Failed to post frame (main, post_frame)")
         return post_id
     except Exception as e:
-        print(f"✖ Error posting frame: {e}")
+        logger.error(f"✖ Error posting frame: {e}")
         return None
 
 
@@ -57,10 +57,10 @@ def post_subtitles(post_id: str, frame_number: int, episode: int, subtitle: str,
             print("└── Subtitle has been posted", flush=True)
             sleep(2)
         else:
-            print("✖ Failed to post subtitle (main, post_subtitles)")
+            logger.error("✖ Failed to post subtitle (main, post_subtitles)")
         return subtitle_post_id
     except Exception as e:
-        print(f"✖ Error posting subtitle: {e}")
+        logger.error(f"✖ Error posting subtitle: {e}")
         return None
 
 
@@ -77,10 +77,10 @@ def post_random_crop(post_id: str, frame_path: Path, configs: dict) -> Optional[
                 print("└── Random Crop has been posted", flush=True)
                 sleep(2)
             else:
-                print("✖ Failed to post random crop (main, post_random_crop)")
+                logger.error("✖ Failed to post random crop (main, post_random_crop)")
             return crop_post_id
     except Exception as e:
-        print(f"✖ Error posting random crop: {e}")
+        logger.error(f"✖ Error posting random crop: {e}")
 
     return None
 
@@ -135,20 +135,20 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
         print(
             "\n\n"
             "├── Posting two panels, Episodes:",
-            f'( {frame_data[0]["episode"]}, {frame_data[1]["episode"]} )',
+            f'( {frame_data[0].get("episode")}, {frame_data[1].get("episode")} )',
             "Frames:",
-            f'( {frame_data[0]["frame"]}, {frame_data[1]["frame"]} )',
+            f'( {frame_data[0].get("frame")}, {frame_data[1].get("frame")} )',
             flush=True
         )
 
-        post_id = post_frame(message, frame_data[0]['output_path'])
+        post_id = post_frame(message, frame_data[0].get('output_path'))
         if not post_id:
             logger.error("✖ Failed to post frame data (main)")
             return None
         
-        post_subtitles(post_id, frame_data[0]['frame'], frame_data[0]['episode'], frame_data[0]['subtitle'], configs)
-        post_subtitles(post_id, frame_data[1]['frame'], frame_data[1]['episode'], frame_data[1]['subtitle'], configs)
-        post_random_crop(post_id, frame_data[0]['output_path'], configs)
+        post_subtitles(post_id, frame_data[0].get('frame'), frame_data[0].get('episode'), frame_data[0].get('subtitle'), configs)
+        post_subtitles(post_id, frame_data[1].get('frame'), frame_data[1].get('episode'), frame_data[1].get('subtitle'), configs)
+        post_random_crop(post_id, frame_data[0].get('output_path'), configs)
         return post_id
 
     else:
@@ -181,27 +181,27 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
 
         print(
             "\n\n"
-            f"├── Posting {frame_data['filter_func']}, Episode:",
-            f'{frame_data["episode"]}',
+            f"├── Posting {frame_data.get('filter_func')}, Episode:",
+            f'{frame_data.get("episode")}',
             "Frame:",
-            f'{frame_data["frame"]}',
+            f'{frame_data.get("frame")}',
             flush=True
         )
 
-        post_id = post_frame(message, frame_data['output_path'])
+        post_id = post_frame(message, frame_data.get('output_path'))
         if not post_id:
             logger.error("✖ Failed to post frame data")
             return None
         
-        post_subtitles(post_id, frame_data['frame'], frame_data['episode'], frame_data['subtitle'], configs)
-        post_random_crop(post_id, frame_data['output_path'], configs)
+        post_subtitles(post_id, frame_data.get('frame'), frame_data.get('episode'), frame_data.get('subtitle'), configs)
+        post_random_crop(post_id, frame_data.get('output_path'), configs)
         return post_id
 
 def aplie_filter(filter_func, Framedata: list[dict]) -> Optional[Path]:
     """Aplica um filtro ao frame e retorna o caminho do frame filtrado."""
 
     if not isinstance(Framedata, list) or not all(isinstance(item, dict) for item in Framedata):
-        print("✖ Invalid Framedata format")
+        logger.error("✖ Invalid Framedata format")
         return None
 
     if len(Framedata) == 2 and all('frame_path' in item for item in Framedata):
@@ -210,9 +210,9 @@ def aplie_filter(filter_func, Framedata: list[dict]) -> Optional[Path]:
             if output_path:
                 return output_path
             else:
-                print("✖ Failed to apply filter")
+                logger.error("✖ Failed to apply filter")
         except Exception as e:
-            print(f"✖ Error applying filter: {e}")
+            logger.error(f"✖ Error applying filter: {e}")
             return None
 
     if len(Framedata) == 1 and 'frame_path' in Framedata[0]:
@@ -221,12 +221,12 @@ def aplie_filter(filter_func, Framedata: list[dict]) -> Optional[Path]:
             if output_path:
                 return output_path
             else:
-                print("✖ Failed to apply filter")
+                logger.error("✖ Failed to apply filter")
         except Exception as e:
-            print(f"✖ Error applying filter: {e}")
+            logger.error(f"✖ Error applying filter: {e}")
             return None
 
-    print("✖ Invalid Framedata structure or missing keys")
+    logger.error("✖ Invalid Framedata structure or missing keys")
     return None
 
 def process_frame(CONFIGS, filter_func) -> Optional[dict]:
@@ -237,12 +237,12 @@ def process_frame(CONFIGS, filter_func) -> Optional[dict]:
 
     frame_number, episode_number = get_random_frame(CONFIGS)
     if not episode_number or not frame_number:
-        print("Error: No valid frame found.")
+        logger.error("Error: No valid frame found.")
         return None
 
     frame_path = download_frame(CONFIGS, frame_number, episode_number)
     if not frame_path:
-        print(f"Error: Frame {frame_number} from episode {episode_number} not found.")
+        logger.error(f"Error: Frame {frame_number} from episode {episode_number} not found.")
         return None
 
     download_subtitles_if_needed(episode_number, CONFIGS)
@@ -288,20 +288,20 @@ def main():
     for _ in range(1, fph + 1):
         filter_func = select_filter(configs)
         if not filter_func:
-            print(f"✖ No filter selected or filter is not callable ({__name__})")
+            logger.error(f"✖ No filter selected or filter is not callable ({__name__})")
             continue
 
         try:
             if filter_func.__name__ == 'two_panels':
                 framedata = process_two_panels(configs, filter_func)
                 if not framedata:
-                    print(f"✖ Error processing frames for two_panels ({__name__})")
+                    logger.error(f"✖ Error processing frames for two_panels ({__name__})")
                     sleep(10)
                     continue
                 
                 output_path = aplie_filter(filter_func, framedata)
                 if not output_path:
-                    print(f"✖ Error generating output_path for two_panels ({__name__})") 
+                    logger.error(f"✖ Error generating output_path for two_panels ({__name__})") 
                     sleep(10)
                     continue
 
@@ -311,13 +311,13 @@ def main():
             else:
                 data = process_frame(configs, filter_func)
                 if not data:
-                    print(f"✖ Error processing frame ({__name__})")
+                    logger.error(f"✖ Error processing frame ({__name__})")
                     sleep(10)
                     continue
 
                 output_path = aplie_filter(filter_func, [data])
                 if not output_path:
-                    print(f"✖ Error generating output_path for single frame ({__name__})")
+                    logger.error(f"✖ Error generating output_path for single frame ({__name__})")
                     sleep(10)
                     continue
                     
@@ -325,7 +325,7 @@ def main():
                 post_frame_data(season, data, configs)
 
         except (IndexError, KeyError, Exception) as e:
-            print(f"✖ Error processing frame ({__name__}): {str(e)}")
+            logger.error(f"✖ Error processing frame ({__name__}): {str(e)}")
             sleep(10)
             continue
 
