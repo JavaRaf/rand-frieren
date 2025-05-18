@@ -22,3 +22,9 @@ Traceback (most recent call last):
     raise httpx.HTTPStatusError("Rate limit exceeded", response=response)
           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: HTTPStatusError.__init__() missing 1 required keyword-only argument: 'request'
+2025-05-18 15:44:56,220 - src.frames_util - ERROR - Unexpected error: HTTPStatusError.__init__() missing 1 required keyword-only argument: 'request'
+Traceback (most recent call last):
+  File "/home/runner/work/rand-frieren/rand-frieren/src/frames_util.py", line 65, in download_frame
+    raise httpx.HTTPStatusError("Rate limit exceeded", response=response)
+          ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: HTTPStatusError.__init__() missing 1 required keyword-only argument: 'request'
