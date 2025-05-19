@@ -178,7 +178,7 @@ def random_crop(frame_path: Path, configs: dict) -> tuple[Path, str] | None:
 
             # Save the cropped image
             cropped_path = (
-                Path(__file__).parent.parent
+                Path.cwd()
                 / "temp"
                 / f"cropped_frame{frame_path.suffix}"
             )
