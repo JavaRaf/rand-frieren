@@ -111,7 +111,7 @@ def get_random_frame(configs: dict) -> tuple[int, int] | None:
         return None
 
     # Try to find an unused frame
-    max_attempts = 100  # Prevent infinite loops
+    max_attempts = 500  # Prevent infinite loops
     attempts = 0
     
     while attempts < max_attempts:

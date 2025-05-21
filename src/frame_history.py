@@ -7,7 +7,7 @@ class FrameHistory:
     Manages the history of used frames, persisting it between executions.
     Automatically clears history when reaching 1000 frames.
     """
-    MAX_FRAMES = 1000
+    MAX_FRAMES = 5000
 
     def __init__(self, history_file: str = "frame_history.json"):
         self.history_file = Path.cwd() / "temp" / history_file
