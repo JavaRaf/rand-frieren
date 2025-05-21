@@ -117,6 +117,8 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
                 "total_frames_in_this_episode1": configs.get("episodes").get(frame_data[0].get("episode")).get("number_of_frames"),
                 "episode2": frame_data[1].get("episode"),
                 "total_frames_in_this_episode2": configs.get("episodes").get(frame_data[1].get("episode")).get("number_of_frames"),
+                "frame1": frame_data[0].get("frame"),
+                "frame2": frame_data[1].get("frame"),
                 "timestamp1": frame_data[0].get("timestamp"),
                 "timestamp2": frame_data[1].get("timestamp"),
                 "filter_func": frame_data[0].get("filter_func")
@@ -140,6 +142,8 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
             f'( {frame_data[0].get("episode")}, {frame_data[1].get("episode")} )',
             "Frames:",
             f'( {frame_data[0].get("frame")}, {frame_data[1].get("frame")} )',
+            "out of",
+            f'( {configs.get("episodes").get(frame_data[0].get("episode")).get("number_of_frames")}, {configs.get("episodes").get(frame_data[1].get("episode")).get("number_of_frames")} )',
             flush=True
         )
 
@@ -188,6 +192,8 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
             f'{frame_data.get("episode")}',
             "Frame:",
             f'{frame_data.get("frame")}',
+            "out of",
+            f'{configs.get("episodes").get(frame_data.get("episode")).get("number_of_frames")}',
             flush=True
         )
 
