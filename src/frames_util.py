@@ -58,15 +58,16 @@ def download_frame(configs: dict, frame_number: int, episode_number: int) -> Opt
         time.sleep(1)
         
         response = client.get(frame_url)
-        
+   
         if response.status_code == 429:
-            logger.warning(f"Rate limit exceeded. Waiting before retry...")
-            time.sleep(60)  # Wait for 1 minute if we hit rate limit
-            raise httpx.HTTPStatusError("Rate limit exceeded", response=response)
-            
+            proxy_url = f'https://images.weserv.nl/?url={frame_url}'
+            response = client.get(proxy_url)
+
         if not response.status_code == 200:
-            logger.error(f"HTTP error while downloading frame {frame_number} from episode {episode_number}: "
-                        f"{response.status_code} - {response.text}", exc_info=True)
+            logger.error(
+                f"HTTP error while downloading frame {frame_number} from episode {episode_number}: "
+                f"{response.status_code} - {response.text}", exc_info=True
+                )
             return None
 
         images_dir = Path.cwd() / "images"
@@ -110,7 +111,7 @@ def get_random_frame(configs: dict) -> tuple[int, int] | None:
         return None
 
     # Try to find an unused frame
-    max_attempts = 100  # Prevent infinite loops
+    max_attempts = 500  # Prevent infinite loops
     attempts = 0
     
     while attempts < max_attempts:
@@ -178,7 +179,7 @@ def random_crop(frame_path: Path, configs: dict) -> tuple[Path, str] | None:
 
             # Save the cropped image
             cropped_path = (
-                Path(__file__).parent.parent
+                Path.cwd()
                 / "temp"
                 / f"cropped_frame{frame_path.suffix}"
             )

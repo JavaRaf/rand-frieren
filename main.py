@@ -114,7 +114,9 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
             format_dict = {
                 "season": season,
                 "episode1": frame_data[0].get("episode"),
+                "total_frames_in_this_episode1": configs.get("episodes").get(frame_data[0].get("episode")).get("number_of_frames"),
                 "episode2": frame_data[1].get("episode"),
+                "total_frames_in_this_episode2": configs.get("episodes").get(frame_data[1].get("episode")).get("number_of_frames"),
                 "timestamp1": frame_data[0].get("timestamp"),
                 "timestamp2": frame_data[1].get("timestamp"),
                 "filter_func": frame_data[0].get("filter_func")
@@ -162,6 +164,7 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
             format_dict = {
                 "season": season,
                 "episode": frame_data.get("episode"),
+                "total_frames_in_this_episode": configs.get("episodes").get(frame_data.get("episode")).get("number_of_frames"),
                 "frame": frame_data.get("frame"),
                 "timestamp": frame_data.get("timestamp"),
                 "filter_func": frame_data.get("filter_func")

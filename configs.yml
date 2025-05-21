@@ -169,7 +169,7 @@ posting:
 filters:
   none_filter:                        # No filter applied ( the name of the filter can be 'lambda' in terminal)
     enabled: true
-    percent: 0.5
+    percent: 0.8
 
   two_panels:
     enabled: false
@@ -191,7 +191,7 @@ filters:
 
 # title message for two panels
 # supported variables:
-# {season}, {episode1}, {episode2}, {timestamp1}, {timestamp2}, {filter_func}
+# {season}, {episode1}, {episode2}, {timestamp1}, {timestamp2}, {filter_func}, {total_frames_in_this_episode1}, {total_frames_in_this_episode2}
 msg_two_panels: |
   [Random] Frames
    
@@ -205,14 +205,9 @@ msg_two_panels: |
   
 # title message for single frame
 # supported variables:
-# {season}, {episode}, {frame}, {timestamp}, {filter_func}
+# {season}, {episode}, {frame}, {timestamp}, {filter_func}, {total_frames_in_this_episode}
 msg_single_frame: |
   [Random] Frame
   
   Season: {season}, Episode: {episode}, Frame: {frame}
   Timestamp: {timestamp}
-
-  .
-  .
-
-  Filter: {filter_func}
