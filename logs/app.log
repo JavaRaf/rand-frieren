@@ -106,3 +106,7 @@ Traceback (most recent call last):
     raise httpx.HTTPStatusError("Rate limit exceeded", response=response)
           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: HTTPStatusError.__init__() missing 1 required keyword-only argument: 'request'
+2025-05-27 04:09:16,198 - src.frames_util - ERROR - HTTP error while downloading frame 5144 from episode 16: 404 - 404: Not Found
+NoneType: None
+2025-05-27 04:09:16,199 - __main__ - ERROR - Error: Frame 5144 from episode 16 not found.
+2025-05-27 04:09:16,199 - __main__ - ERROR - ✖ Error processing frame (__main__)
