@@ -191,11 +191,12 @@ filters:
 
 # title message for two panels
 # supported variables:
-# {season}, {episode1}, {episode2}, {timestamp1}, {timestamp2}, {filter_func}, {total_frames_in_this_episode1}, {total_frames_in_this_episode2}
+# {season}, {episode1}, {episode2}, {frame1}, {frame2}, {timestamp1}, {timestamp2}, {filter_func}, {total_frames_in_this_episode1}, {total_frames_in_this_episode2}
 msg_two_panels: |
   [Random] Frames
    
   Season: {season}, Episodes: ( {episode1}, {episode2} )
+  Frames: ( {frame1}, {frame2} )
   Timestamp: ( {timestamp1}, {timestamp2} )
 
   .
