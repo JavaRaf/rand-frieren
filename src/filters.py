@@ -1,6 +1,14 @@
+"""
+Filters module contains functions for applying filters to frames.
+"""
+
+# Standard library imports
 from pathlib import Path
 import random
 from PIL import Image, ImageEnhance
+from typing import Optional
+
+# Third party imports
 from src.logger import get_logger
 
 # Define output directory for processed images
@@ -106,6 +114,38 @@ filter_registry = {
     'brightness_contrast': brightness_contrast
 }
 
+
+def apply_filter(filter_func, Framedata: list[dict]) -> Optional[Path]:
+    """Apply a filter to the frame and return the path of the filtered frame."""
+
+    if not isinstance(Framedata, list) or not all(isinstance(item, dict) for item in Framedata):
+        logger.error("✖ Invalid Framedata format")
+        return None
+
+    if len(Framedata) == 2 and all('frame_path' in item for item in Framedata):
+        try:
+            output_path = filter_func(Framedata[0]['frame_path'], Framedata[1]['frame_path'])
+            if output_path:
+                return output_path
+            else:
+                logger.error("✖ Failed to apply filter")
+        except Exception as e:
+            logger.error(f"✖ Error applying filter: {e}")
+            return None
+
+    if len(Framedata) == 1 and 'frame_path' in Framedata[0]:
+        try:
+            output_path = filter_func(Framedata[0]['frame_path'])
+            if output_path:
+                return output_path
+            else:
+                logger.error("✖ Failed to apply filter")
+        except Exception as e:
+            logger.error(f"✖ Error applying filter: {e}")
+            return None
+
+    logger.error("✖ Invalid Framedata structure or missing keys")
+    return None
 
 def select_filter(configs: dict) -> callable:
     """

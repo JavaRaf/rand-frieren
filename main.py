@@ -4,15 +4,15 @@ from time import sleep
 from typing import Optional
 
 # Local imports
-from src.filters import select_filter
+from src.filters import select_filter, apply_filter
 from src.facebook import FacebookAPI
 from src.logger import get_logger
 from src.frames_util import (
     download_frame,
-    get_random_frame,
-    random_crop
+    get_random_frame
 )
 from src.load_configs import load_configs
+from src.orchestrators import post_frame, post_random_crop, post_subtitles
 from src.subtitle import (
     download_subtitles_if_needed,
     frame_to_timestamp,
@@ -23,66 +23,6 @@ fb = FacebookAPI()
 logger = get_logger(__name__)
 
 
-def post_frame(message: str, frame_path: Path) -> Optional[str]:
-    """Posta um frame e retorna o ID do post."""
-    try:
-        post_id = fb.post(message, frame_path)
-        if post_id:
-            print("├── Frame has been posted", flush=True)
-            sleep(2)
-        else:
-            logger.error("✖ Failed to post frame (main, post_frame)")
-        return post_id
-    except Exception as e:
-        logger.error(f"✖ Error posting frame: {e}")
-        return None
-
-
-def post_subtitles(post_id: str, frame_number: int, episode: int, subtitle: str, configs: dict) -> Optional[str]:
-    """Posta as legendas associadas ao frame."""
-    if not configs.get("posting", {}).get("posting_subtitles", False):
-        return None
-
-    if not subtitle:
-        return None
-
-    if configs.get("filters", {}).get("two_panels", {}).get("enabled", False):
-        message = f"Episode {episode} Frame {frame_number}\n\n{subtitle}"
-    else:
-        message = subtitle
-
-    try:
-        subtitle_post_id = fb.post(message, None, post_id)
-        if subtitle_post_id:
-            print("└── Subtitle has been posted", flush=True)
-            sleep(2)
-        else:
-            logger.error("✖ Failed to post subtitle (main, post_subtitles)")
-        return subtitle_post_id
-    except Exception as e:
-        logger.error(f"✖ Error posting subtitle: {e}")
-        return None
-
-
-def post_random_crop(post_id: str, frame_path: Path, configs: dict) -> Optional[str]:
-    """Posta uma versão recortada do frame aleatório."""
-    if not configs.get("posting", {}).get("random_crop", {}).get("enabled", False):
-        return None
-
-    try:
-        crop_path, crop_message = random_crop(frame_path, configs)
-        if crop_path and crop_message:
-            crop_post_id = fb.post(crop_message, crop_path, post_id)
-            if crop_post_id:
-                print("└── Random Crop has been posted", flush=True)
-                sleep(2)
-            else:
-                logger.error("✖ Failed to post random crop (main, post_random_crop)")
-            return crop_post_id
-    except Exception as e:
-        logger.error(f"✖ Error posting random crop: {e}")
-
-    return None
 
 
 # agrupa as funcoes de postagem
@@ -206,38 +146,6 @@ def post_frame_data(season, frame_data: dict, configs: dict) -> Optional[str]:
         post_random_crop(post_id, frame_data.get('output_path'), configs)
         return post_id
 
-def aplie_filter(filter_func, Framedata: list[dict]) -> Optional[Path]:
-    """Aplica um filtro ao frame e retorna o caminho do frame filtrado."""
-
-    if not isinstance(Framedata, list) or not all(isinstance(item, dict) for item in Framedata):
-        logger.error("✖ Invalid Framedata format")
-        return None
-
-    if len(Framedata) == 2 and all('frame_path' in item for item in Framedata):
-        try:
-            output_path = filter_func(Framedata[0]['frame_path'], Framedata[1]['frame_path'])
-            if output_path:
-                return output_path
-            else:
-                logger.error("✖ Failed to apply filter")
-        except Exception as e:
-            logger.error(f"✖ Error applying filter: {e}")
-            return None
-
-    if len(Framedata) == 1 and 'frame_path' in Framedata[0]:
-        try:
-            output_path = filter_func(Framedata[0]['frame_path'])
-            if output_path:
-                return output_path
-            else:
-                logger.error("✖ Failed to apply filter")
-        except Exception as e:
-            logger.error(f"✖ Error applying filter: {e}")
-            return None
-
-    logger.error("✖ Invalid Framedata structure or missing keys")
-    return None
-
 def process_frame(CONFIGS, filter_func) -> Optional[dict]:
     """
     Process a random frame and apply the selected filter.
@@ -297,7 +205,7 @@ def main():
     for _ in range(1, fph + 1):
         filter_func = select_filter(configs)
         if not filter_func:
-            logger.error(f"✖ No filter selected or filter is not callable ({__name__})")
+            logger.error(f"✖ No filter selected or filter is not callable")
             continue
 
         try:
@@ -308,7 +216,7 @@ def main():
                     sleep(10)
                     continue
                 
-                output_path = aplie_filter(filter_func, framedata)
+                output_path = apply_filter(filter_func, framedata)
                 if not output_path:
                     logger.error(f"✖ Error generating output_path for two_panels ({__name__})") 
                     sleep(10)
@@ -320,13 +228,13 @@ def main():
             else:
                 data = process_frame(configs, filter_func)
                 if not data:
-                    logger.error(f"✖ Error processing frame ({__name__})")
+                    logger.error(f"✖ Error processing frame")
                     sleep(10)
                     continue
 
-                output_path = aplie_filter(filter_func, [data])
+                output_path = apply_filter(filter_func, [data])
                 if not output_path:
-                    logger.error(f"✖ Error generating output_path for single frame ({__name__})")
+                    logger.error(f"✖ Error generating output_path for single frame")
                     sleep(10)
                     continue
                     
@@ -334,7 +242,7 @@ def main():
                 post_frame_data(season, data, configs)
 
         except (IndexError, KeyError, Exception) as e:
-            logger.error(f"✖ Error processing frame ({__name__}): {str(e)}")
+            logger.error(f"✖ Error processing frame: {str(e)}")
             sleep(10)
             continue
 
