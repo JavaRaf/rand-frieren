@@ -28,7 +28,7 @@ def load_recommendations() -> Dict:
         logger.warning(f"Recommendations file not found at {RECOMMENDATIONS_PATH}")
         return DEFAULT_STRUCTURE.copy()
     except json.JSONDecodeError:
-        logger.error(f"Invalid JSON in recommendations file at {RECOMMENDATIONS_PATH}")
+        logger.error(f"Invalid JSON in recommendations file at (empty file in first run) {RECOMMENDATIONS_PATH}")
         return DEFAULT_STRUCTURE.copy()
 
 def save_recommendations(data: Dict) -> None:
