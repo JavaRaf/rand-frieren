@@ -12,12 +12,13 @@ from src.frames_util import (
     get_random_frame
 )
 from src.load_configs import load_configs
-from src.orchestrators import post_frame, post_random_crop, post_subtitles
+from src.poster import post_frame, post_random_crop, post_subtitles
 from src.subtitle import (
     download_subtitles_if_needed,
     frame_to_timestamp,
     get_subtitle_message
 )
+from src.request_by import main_request_by_process
 
 fb = FacebookAPI()
 logger = get_logger(__name__)
@@ -195,6 +196,8 @@ def main():
     The function repeats the process indefinitely, with a configurable posting interval.
     """
 
+    main_request_by_process() # request by process (post frames by recommendations of users)
+
     print('\n' + '-' * 50 + '\n' + '-' * 50,  flush=True) # makes visualization better in CI/CD environments
 
     configs = load_configs()
@@ -241,10 +244,14 @@ def main():
                 data['output_path'] = output_path
                 post_frame_data(season, data, configs)
 
+        
+
         except (IndexError, KeyError, Exception) as e:
             logger.error(f"✖ Error processing frame: {str(e)}")
             sleep(10)
             continue
+        
+        
 
         print('\n' + '-' * 50 + '\n' + '-' * 50,  flush=True) # makes visualization better in CI/CD environments
         sleep(posting_interval * 60) # 2 minutes

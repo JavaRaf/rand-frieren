@@ -212,3 +212,12 @@ msg_single_frame: |
   
   Season: {season}, Episode: {episode}, Frame: {frame}
   Timestamp: {timestamp}
+
+
+msg_recommendation: |
+  [Requested Frame] by: {user_name}
+
+  Season: {season}, Episode: {episode}, Frame: {frame}
+  Timestamp: {timestamp}
+
+  

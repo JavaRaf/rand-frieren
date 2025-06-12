@@ -1,5 +1,5 @@
 """
-Orchestrators module handles the coordination of posting operations to Facebook.
+poster module handles the coordination of posting operations to Facebook.
 
 This module contains functions for posting frames, subtitles and random crops
 to Facebook pages in an organized way.
@@ -78,4 +78,6 @@ def post_random_crop(post_id: str, frame_path: Path, configs: dict) -> Optional[
     except Exception as e:
         logger.error(f"✖ Error posting random crop: {e}")
 
-    return None
+    return None 
+
+
