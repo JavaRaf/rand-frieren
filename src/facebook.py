@@ -5,6 +5,7 @@ from typing import List
 
 import httpx
 from src.frames_util import timestamp_to_frame
+from src.load_configs import load_configs
 from tenacity import retry
 from tenacity import (
     RetryError,
@@ -21,7 +22,7 @@ logger = get_logger(__name__)
 # O parâmetro override=False garante que as variáveis de ambiente não sejam sobrescritas
 #  se já estiverem definidas no ambiente do sistema operacional
 
-
+CONFIGS = load_configs()
 
 # Define a classe FacebookAPI para interagir com a API do Facebook
 # A classe é inicializada com a versão da API e o token de acesso
@@ -184,6 +185,18 @@ class FacebookAPI:
                     frame = timestamp_to_frame(re.search(r'\d{1,2}:\d{2}:\d{2}\.\d{2}', value).group(0))
                 else:
                     frame = int(re.search(r'\d+', value).group(0))
+
+
+
+                # check if episode_num is in configs
+                if episode_num not in CONFIGS.get('episodes', {}):
+                    logger.warning(f"Episode {episode_num} not found in configs")
+                    continue
+
+                # check if frame is in range of episode
+                if frame < 1 or frame > CONFIGS.get('episodes', {}).get(episode_num, {}).get('number_of_frames', 0):
+                    logger.warning(f"Frame {frame} is out of range for episode {episode_num}")
+                    continue
 
                 frames.append({
                     "episode": episode_num,
