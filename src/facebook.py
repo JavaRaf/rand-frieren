@@ -157,23 +157,43 @@ class FacebookAPI:
         frames = []
         for comment in comments:
             try:
-                parts = [part.strip() for part in comment.split(",")]
-                if len(parts) != 3:
+                if not comment.startswith('!'):
+                    continue
+
+                parts = comment.split(",")
+                if len(parts) < 2:
+                    logger.warning(f"Comment has insufficient parts: {comment}")
+                    continue
+                episode = parts[0]
+                value = parts[1]
+
+                if len(parts) > 2:
+                    user_name = parts[2]
+                    if len(user_name) > 150:
+                        user_name = user_name[:150].strip()
+                else:
+                    user_name = 'unknown'
+
+                if not episode or not value:
                     logger.warning(f"Invalid comment format: {comment}")
                     continue
-                # 1, 10:18:54.57, user_name
-                if re.match(r'^\d{1}:\d{2}:\d{2}\.\d{2}$', comment):
-                    episode, timestamp, user_name = comment.split(",")
-                    frame = timestamp_to_frame(timestamp)
-                    frames.append({"episode": episode, "frame": frame, "user_name": user_name, "seen": False})
 
-                # 1, 1, user_name
-                if re.match(r'^\d{1}, \d{1}$', comment):
-                    episode, frame, user_name = comment.split(",")
-                    frames.append({"episode": episode, "frame": frame, "user_name": user_name, "seen": False})
+                episode_num = int(re.search(r'\d+', episode).group(0))
+
+                if re.search(r'\d{1,2}:\d{2}:\d{2}\.\d{2}', value):
+                    frame = timestamp_to_frame(re.search(r'\d{1,2}:\d{2}:\d{2}\.\d{2}', value).group(0))
+                else:
+                    frame = int(re.search(r'\d+', value).group(0))
+
+                frames.append({
+                    "episode": episode_num,
+                    "frame": frame,
+                    "user_name": user_name,
+                    "seen": False
+                })
 
             except Exception as e:
-                logger.error(f"Error parsing comment: {comment}", exc_info=True)
+                logger.error(f"Error parsing comment: {e}", exc_info=True)
                 continue
 
         return frames

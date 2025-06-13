@@ -13,6 +13,10 @@ DEFAULT_STRUCTURE = {
     "recommendations": []    # Lista de recomendações
 }
 
+if not RECOMMENDATIONS_PATH.exists():
+    with open(RECOMMENDATIONS_PATH, 'w', encoding='utf-8') as file:
+        json.dump(DEFAULT_STRUCTURE, file, indent=2, ensure_ascii=False)
+
 def load_recommendations() -> Dict:
     """
     Load recommendations from JSON file.
@@ -28,7 +32,7 @@ def load_recommendations() -> Dict:
         logger.warning(f"Recommendations file not found at {RECOMMENDATIONS_PATH}")
         return DEFAULT_STRUCTURE.copy()
     except json.JSONDecodeError:
-        logger.error(f"Invalid JSON in recommendations file at (empty file in first run) {RECOMMENDATIONS_PATH}")
+        logger.error(f"Invalid JSON in recommendations file at{RECOMMENDATIONS_PATH}")
         return DEFAULT_STRUCTURE.copy()
 
 def save_recommendations(data: Dict) -> None:
@@ -56,8 +60,14 @@ def add_recommendations(new_recommendations: List[Dict]) -> None:
     
     data = load_recommendations()
     for new_recommendation in new_recommendations:
-        if new_recommendation not in data["recommendations"]:
+        is_duplicate = any(
+            rec["episode"] == new_recommendation["episode"] and 
+            rec["frame"] == new_recommendation["frame"] 
+            for rec in data["recommendations"]
+        )
+        if not is_duplicate:
             data["recommendations"].append(new_recommendation)
+
     save_recommendations(data)
 
 def clear_recommendations(max_recommendations: int = 100) -> None:
@@ -83,7 +93,7 @@ def set_execute_state(value: bool) -> None:
 
 def get_unseen_recommendations() -> List[Dict]:
     """
-    Get all unseen recommendations.
+    Get all unseen recommendations from the saved recommendations file.
     
     Returns:
         List[Dict]: List of unseen recommendations

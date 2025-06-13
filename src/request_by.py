@@ -34,18 +34,8 @@ def process_new_recommendations():
         
         # Adiciona as novas recomendações ao JSON
         add_recommendations(new_recommendations)
-        
     except Exception as e:
         logger.error(f"Error processing recommendations: {e}")
-
-def get_next_recommendation() -> list[dict]:
-    """
-    Get the next unseen recommendation.
-    
-    Returns:
-        list[dict]: List of unseen recommendations
-    """
-    return get_unseen_recommendations()
 
 
 def process_recommendation(recommendation: dict):
@@ -129,7 +119,7 @@ def post_frame_by_recommendation(season: int, frame_data: dict, configs: dict) -
 
 def main_request_by_process():
     process_new_recommendations()
-    unseen_recommendations = get_next_recommendation()
+    unseen_recommendations = get_unseen_recommendations()
 
     if not unseen_recommendations:
         logger.info("No unseen recommendations found")
@@ -142,15 +132,15 @@ def main_request_by_process():
         return
     
 
-    for recommendation in unseen_recommendations:
+    for unseen_recommendation in unseen_recommendations:
         season = int(CONFIGS.get("season", 0))
-        frame_data = process_recommendation(recommendation)
+        frame_data = process_recommendation(unseen_recommendation)
         post_id = post_frame_by_recommendation(season, frame_data, CONFIGS)
         if not post_id:
             logger.error("Failed to post frame by recommendation")
             continue
         
-        mark_recommendation_as_seen(recommendation.get("episode"), recommendation.get("frame"))
+        mark_recommendation_as_seen(unseen_recommendation.get("episode"), unseen_recommendation.get("frame"))
 
     
 
