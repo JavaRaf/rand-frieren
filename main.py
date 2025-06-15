@@ -297,20 +297,20 @@ def main():
     for _ in range(1, fph + 1):
         filter_func = select_filter(configs)
         if not filter_func:
-            logger.error(f"✖ No filter selected or filter is not callable ({__name__})")
+            logger.error(f"✖ No filter selected or filter is not callable")
             continue
 
         try:
             if filter_func.__name__ == 'two_panels':
                 framedata = process_two_panels(configs, filter_func)
                 if not framedata:
-                    logger.error(f"✖ Error processing frames for two_panels ({__name__})")
+                    logger.error(f"✖ Error processing frames for two_panels")
                     sleep(10)
                     continue
                 
                 output_path = aplie_filter(filter_func, framedata)
                 if not output_path:
-                    logger.error(f"✖ Error generating output_path for two_panels ({__name__})") 
+                    logger.error(f"✖ Error generating output_path for two_panels") 
                     sleep(10)
                     continue
 
@@ -320,13 +320,13 @@ def main():
             else:
                 data = process_frame(configs, filter_func)
                 if not data:
-                    logger.error(f"✖ Error processing frame ({__name__})")
+                    logger.error(f"✖ Error processing frame")
                     sleep(10)
                     continue
 
                 output_path = aplie_filter(filter_func, [data])
                 if not output_path:
-                    logger.error(f"✖ Error generating output_path for single frame ({__name__})")
+                    logger.error(f"✖ Error generating output_path for single frame")
                     sleep(10)
                     continue
                     
@@ -334,7 +334,7 @@ def main():
                 post_frame_data(season, data, configs)
 
         except (IndexError, KeyError, Exception) as e:
-            logger.error(f"✖ Error processing frame ({__name__}): {str(e)}")
+            logger.error(f"✖ Error processing frame: {str(e)}")
             sleep(10)
             continue
 
