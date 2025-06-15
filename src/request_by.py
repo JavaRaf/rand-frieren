@@ -77,8 +77,8 @@ def post_frame_by_recommendation(season: int, frame_data: dict, configs: dict) -
             "episode": frame_data.get("episode"),
             "frame": frame_data.get("frame"),
             "timestamp": frame_data.get("timestamp"),
-            "filter_func": frame_data.get("filter_func"),
-            "user_name": frame_data.get("user_name")
+            "user_name": frame_data.get("user_name"),
+            "total_frames_in_this_episode": frame_data.get("total_frames_in_this_episode")
         }
         required_keys = [key for key in format_dict.keys() if "{" + key + "}" in message]
         present_keys = {k: format_dict[k] for k in required_keys}
