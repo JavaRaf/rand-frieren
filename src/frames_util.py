@@ -1,3 +1,4 @@
+from datetime import datetime, timedelta
 from pathlib import Path
 import random
 import time
@@ -195,3 +196,61 @@ def random_crop(frame_path: Path, configs: dict) -> tuple[Path, str] | None:
     except Exception as e:
         logger.error(f"Failed to crop image: {str(e)}", exc_info=True)
         return None, None
+
+
+def timestamp_to_frame(timestamp: str, fps: int = 3.5) -> int:
+    """
+    Convert a timestamp to a frame number.
+    """
+    hours, minutes, seconds = timestamp.split(":")
+    seconds, milliseconds = seconds.split(".")
+
+    total_seconds = int(hours) * 3600 + int(minutes) * 60 + int(seconds)
+    total_frames = total_seconds * fps
+    return round(total_frames)
+    
+def timestamp_to_seconds(time_str: str) -> float:
+    """Convert H:MM:SS.MS format to seconds"""
+    try:
+        h, m, s = time_str.split(":")
+        s, ms = s.split(".")
+        # Converte para float
+        return int(h) * 3600 + int(m) * 60 + int(s) + int(ms) / 100
+    except ValueError:
+        raise ValueError("Invalid time format. Expected HH:MM:SS.mmm.")
+
+def frame_to_timestamp(img_fps: int | float, current_frame: int) -> str:
+    """Convert frame number to timestamp.
+    
+    Args:
+        img_fps (int | float): Frames per second of the video.
+        current_frame (int): Current frame number.
+
+    Returns:
+        str | None: Timestamp in the format "HH:MM:SS.ms" or None if an error occurs.   
+    """
+    # Verifica se os tipos dos parâmetros são válidos
+    if not isinstance(img_fps, (int, float)) or not isinstance(current_frame, int):
+        logger.error("Error, img_fps or frame_number must be a number", exc_info=True)
+        return None
+    
+    if img_fps <= 0 or current_frame < 0:
+        return None  # FPS zero ou frame negativo não são válidos
+
+    try:
+        # Converte o número do frame para o timestamp
+        frame_timestamp = datetime(1900, 1, 1) + timedelta(seconds=current_frame / img_fps)
+        hr, min, sec, ms = (
+            frame_timestamp.hour,
+            frame_timestamp.minute,
+            frame_timestamp.second,
+            frame_timestamp.microsecond // 10000,
+        )
+        return f"{hr}:{min:02d}:{sec:02d}.{ms:02d}"
+    except Exception as e:
+        logger.error(f"Error calculating timestamp: {e}", exc_info=True)
+        return None
+    
+    
+    
+

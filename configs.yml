@@ -192,10 +192,12 @@ filters:
 # title message for two panels
 # supported variables:
 # {season}, {episode1}, {episode2}, {timestamp1}, {timestamp2}, {filter_func}, {total_frames_in_this_episode1}, {total_frames_in_this_episode2}
+# {season}, {episode1}, {episode2}, {frame1}, {frame2}, {timestamp1}, {timestamp2}, {filter_func}, {total_frames_in_this_episode1}, {total_frames_in_this_episode2}
 msg_two_panels: |
   [Random] Frames
    
   Season: {season}, Episodes: ( {episode1}, {episode2} )
+  Frames: ( {frame1}, {frame2} )
   Timestamp: ( {timestamp1}, {timestamp2} )
 
   .
@@ -205,9 +207,18 @@ msg_two_panels: |
   
 # title message for single frame
 # supported variables:
-# {season}, {episode}, {frame}, {timestamp}, {filter_func}, {total_frames_in_this_episode}
+# {season}, {episode}, {frame}, {timestamp}, {filter_func}, {total_frames_in_this_episode}, {total_frames_in_this_episode}
 msg_single_frame: |
   [Random] Frame
   
   Season: {season}, Episode: {episode}, Frame: {frame}
   Timestamp: {timestamp}
+
+
+msg_recommendation: |
+  [Requested Frame] by: {user_name}
+
+  Season: {season}, Episode: {episode}, Frame: {frame}
+  Timestamp: {timestamp}
+
+  
