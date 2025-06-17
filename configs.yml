@@ -153,7 +153,7 @@ episodes:
   
 
 posting:
-  fph: 15                                 # Frames posted per cicle (format: integer)                            
+  fph: 10                                 # Frames posted per cicle (format: integer)                            
   posting_interval: 2                     # Interval between posts in minutes (recomended: 2 or more)(format: integer)
   posting_subtitles: true                 # true or false (format: boolean)
   multi_language_subtitles: true          # true or false (format: boolean)
