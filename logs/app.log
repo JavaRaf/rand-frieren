@@ -110,3 +110,7 @@ TypeError: HTTPStatusError.__init__() missing 1 required keyword-only argument: 
 NoneType: None
 2025-05-27 04:09:16,199 - __main__ - ERROR - Error: Frame 5144 from episode 16 not found.
 2025-05-27 04:09:16,199 - __main__ - ERROR - ✖ Error processing frame (__main__)
+2025-06-22 09:26:30,029 - src.frames_util - ERROR - HTTP error while downloading frame 5081 from episode 16: 404 - 404: Not Found
+NoneType: None
+2025-06-22 09:26:30,030 - __main__ - ERROR - Error: Frame 5081 from episode 16 not found.
+2025-06-22 09:26:30,030 - __main__ - ERROR - ✖ Error processing frame
