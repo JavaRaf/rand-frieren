@@ -114,3 +114,7 @@ NoneType: None
 NoneType: None
 2025-06-22 09:26:30,030 - __main__ - ERROR - Error: Frame 5081 from episode 16 not found.
 2025-06-22 09:26:30,030 - __main__ - ERROR - ✖ Error processing frame
+2025-06-24 06:36:12,071 - src.frames_util - ERROR - HTTP error while downloading frame 5098 from episode 16: 404 - 404: Not Found
+NoneType: None
+2025-06-24 06:36:12,072 - __main__ - ERROR - Error: Frame 5098 from episode 16 not found.
+2025-06-24 06:36:12,072 - __main__ - ERROR - ✖ Error processing frame
