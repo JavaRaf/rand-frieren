@@ -214,6 +214,8 @@ msg_single_frame: |
   Season: {season}, Episode: {episode}, Frame: {frame}
   Timestamp: {timestamp}
 
+  Download: https://javaraf.github.io/frame-view/?season={season}&episode={episode}&frame={frame}
+
 # title message for recommendation
 # supported variables:
 # {season}, {episode}, {frame}, {timestamp}, {total_frames_in_this_episode}, {total_frames_in_this_episode}
