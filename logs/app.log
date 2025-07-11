@@ -118,3 +118,5 @@ NoneType: None
 NoneType: None
 2025-06-24 06:36:12,072 - __main__ - ERROR - Error: Frame 5098 from episode 16 not found.
 2025-06-24 06:36:12,072 - __main__ - ERROR - ✖ Error processing frame
+2025-07-11 18:34:31,969 - src.poster - ERROR - ✖ Error posting frame: [Errno 101] Network is unreachable
+2025-07-11 18:34:31,970 - __main__ - ERROR - ✖ Failed to post frame data
