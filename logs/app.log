@@ -120,3 +120,7 @@ NoneType: None
 2025-06-24 06:36:12,072 - __main__ - ERROR - ✖ Error processing frame
 2025-07-11 18:34:31,969 - src.poster - ERROR - ✖ Error posting frame: [Errno 101] Network is unreachable
 2025-07-11 18:34:31,970 - __main__ - ERROR - ✖ Failed to post frame data
+2025-07-15 01:54:27,289 - src.frames_util - ERROR - HTTP error while downloading frame 5136 from episode 16: 404 - 404: Not Found
+NoneType: None
+2025-07-15 01:54:27,289 - __main__ - ERROR - Error: Frame 5136 from episode 16 not found.
+2025-07-15 01:54:27,289 - __main__ - ERROR - ✖ Error processing frame
