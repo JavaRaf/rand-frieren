@@ -136,3 +136,7 @@ NoneType: None
 NoneType: None
 2025-08-05 04:28:59,706 - __main__ - ERROR - Error: Frame 5067 from episode 16 not found.
 2025-08-05 04:28:59,706 - __main__ - ERROR - ✖ Error processing frame
+2025-08-15 09:29:49,017 - src.poster - ERROR - ✖ Error posting random crop: Server error '500 Internal Server Error' for url 'https://graph.facebook.com/v21.0//122274691112068249/comments?access_token=EAAMplsD3FFQBO9dn0XRGPN7Cx41kiuvXbA8fyZB9u9jvNPVrOksZAZBIKfftiLnReqc8AXVG3HpIfeHacIXOR9VaeJWF5oIZC9AKpXLj76PwkVMchfoCmOtUwkWzuvWKsidGi1osFocBi0xlponZC8jJzqwcnbcsp155zjaj4cTaZC4RudGec1ZCC9qJlZAAmHcZD&message=Random+Crop.+%5B419x419+~+X%3A+313%2C+Y%3A+144%5D'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-08-15 09:32:12,685 - src.poster - ERROR - ✖ Error posting random crop: Server error '500 Internal Server Error' for url 'https://graph.facebook.com/v21.0//122274691742068249/comments?access_token=EAAMplsD3FFQBO9dn0XRGPN7Cx41kiuvXbA8fyZB9u9jvNPVrOksZAZBIKfftiLnReqc8AXVG3HpIfeHacIXOR9VaeJWF5oIZC9AKpXLj76PwkVMchfoCmOtUwkWzuvWKsidGi1osFocBi0xlponZC8jJzqwcnbcsp155zjaj4cTaZC4RudGec1ZCC9qJlZAAmHcZD&message=Random+Crop.+%5B536x536+~+X%3A+326%2C+Y%3A+457%5D'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
