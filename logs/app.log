@@ -140,3 +140,7 @@ NoneType: None
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
 2025-08-15 09:32:12,685 - src.poster - ERROR - ✖ Error posting random crop: Server error '500 Internal Server Error' for url 'https://graph.facebook.com/v21.0//122274691742068249/comments?access_token=EAAMplsD3FFQBO9dn0XRGPN7Cx41kiuvXbA8fyZB9u9jvNPVrOksZAZBIKfftiLnReqc8AXVG3HpIfeHacIXOR9VaeJWF5oIZC9AKpXLj76PwkVMchfoCmOtUwkWzuvWKsidGi1osFocBi0xlponZC8jJzqwcnbcsp155zjaj4cTaZC4RudGec1ZCC9qJlZAAmHcZD&message=Random+Crop.+%5B536x536+~+X%3A+326%2C+Y%3A+457%5D'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-08-20 21:37:19,547 - src.frames_util - ERROR - HTTP error while downloading frame 5076 from episode 16: 404 - 404: Not Found
+NoneType: None
+2025-08-20 21:37:19,547 - __main__ - ERROR - Error: Frame 5076 from episode 16 not found.
+2025-08-20 21:37:19,547 - __main__ - ERROR - ✖ Error processing frame
