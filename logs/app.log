@@ -294,3 +294,7 @@ Traceback (most recent call last):
 httpx.ConnectError: [Errno 104] Connection reset by peer
 2025-08-25 12:46:30,133 - __main__ - ERROR - Error: Frame 3338 from episode 14 not found.
 2025-08-25 12:46:30,133 - __main__ - ERROR - ✖ Error processing frame
+2025-08-25 18:46:04,790 - src.frames_util - ERROR - HTTP error while downloading frame 5074 from episode 16: 404 - 404: Not Found
+NoneType: None
+2025-08-25 18:46:04,790 - __main__ - ERROR - Error: Frame 5074 from episode 16 not found.
+2025-08-25 18:46:04,790 - __main__ - ERROR - ✖ Error processing frame
