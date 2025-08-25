@@ -148,3 +148,149 @@ NoneType: None
 2025-08-23 03:35:40,046 - __main__ - ERROR - ✖ Failed to post frame data
 2025-08-23 03:40:34,334 - src.poster - ERROR - ✖ Error posting frame: [Errno 101] Network is unreachable
 2025-08-23 03:40:34,335 - __main__ - ERROR - ✖ Failed to post frame data
+2025-08-25 12:41:30,847 - src.frames_util - ERROR - Request error while downloading frame 148 from episode 22: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_sync/connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_backends/sync.py", line 154, in start_tls
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/rand-frieren/rand-frieren/src/frames_util.py", line 61, in download_frame
+    response = client.get(frame_url)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_client.py", line 1053, in get
+    return self.request(
+           ~~~~~~~~~~~~^
+        "GET",
+        ^^^^^^
+    ...<7 lines>...
+        extensions=extensions,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 104] Connection reset by peer
+2025-08-25 12:41:30,859 - __main__ - ERROR - Error: Frame 148 from episode 22 not found.
+2025-08-25 12:41:30,859 - __main__ - ERROR - ✖ Error processing frame
+2025-08-25 12:46:30,131 - src.frames_util - ERROR - Request error while downloading frame 3338 from episode 14: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_sync/connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_backends/sync.py", line 154, in start_tls
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/rand-frieren/rand-frieren/src/frames_util.py", line 61, in download_frame
+    response = client.get(frame_url)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_client.py", line 1053, in get
+    return self.request(
+           ~~~~~~~~~~~~^
+        "GET",
+        ^^^^^^
+    ...<7 lines>...
+        extensions=extensions,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 104] Connection reset by peer
+2025-08-25 12:46:30,133 - __main__ - ERROR - Error: Frame 3338 from episode 14 not found.
+2025-08-25 12:46:30,133 - __main__ - ERROR - ✖ Error processing frame
