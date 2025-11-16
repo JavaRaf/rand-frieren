@@ -1341,3 +1341,7 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2025-10-27 04:10:26,971 - src.poster - ERROR - ✖ Error posting frame: Client error '400 Bad Request' for url 'https://graph.facebook.com/v21.0//me/photos?access_token=EAAMplsD3FFQBO9dn0XRGPN7Cx41kiuvXbA8fyZB9u9jvNPVrOksZAZBIKfftiLnReqc8AXVG3HpIfeHacIXOR9VaeJWF5oIZC9AKpXLj76PwkVMchfoCmOtUwkWzuvWKsidGi1osFocBi0xlponZC8jJzqwcnbcsp155zjaj4cTaZC4RudGec1ZCC9qJlZAAmHcZD&message=%5BRandom%5D+Frame%0A%0ASeason%3A+1%2C+Episode%3A+13%2C+Frame%3A+4168%0ATimestamp%3A+0%3A19%3A50.85%0A%0ADownload%3A+https%3A%2F%2Fjavaraf.github.io%2Fframe-view%2F%3Fseason%3D1%26episode%3D13%26frame%3D4168%0A'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
 2025-10-27 04:10:26,971 - __main__ - ERROR - ✖ Failed to post frame data
+2025-11-16 21:31:08,508 - src.frames_util - ERROR - HTTP error while downloading frame 5120 from episode 16: 404 - 404: Not Found
+NoneType: None
+2025-11-16 21:31:08,508 - __main__ - ERROR - Error: Frame 5120 from episode 16 not found.
+2025-11-16 21:31:08,508 - __main__ - ERROR - ✖ Error processing frame
