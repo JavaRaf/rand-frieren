@@ -1345,3 +1345,7 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 NoneType: None
 2025-11-16 21:31:08,508 - __main__ - ERROR - Error: Frame 5120 from episode 16 not found.
 2025-11-16 21:31:08,508 - __main__ - ERROR - ✖ Error processing frame
+2025-11-22 01:27:28,240 - src.frames_util - ERROR - HTTP error while downloading frame 5088 from episode 16: 404 - 404: Not Found
+NoneType: None
+2025-11-22 01:27:28,240 - __main__ - ERROR - Error: Frame 5088 from episode 16 not found.
+2025-11-22 01:27:28,240 - __main__ - ERROR - ✖ Error processing frame
