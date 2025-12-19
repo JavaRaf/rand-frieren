@@ -1353,3 +1353,7 @@ NoneType: None
 NoneType: None
 2025-12-15 18:45:22,590 - __main__ - ERROR - Error: Frame 5113 from episode 16 not found.
 2025-12-15 18:45:22,591 - __main__ - ERROR - ✖ Error processing frame
+2025-12-19 15:23:39,614 - src.frames_util - ERROR - HTTP error while downloading frame 5097 from episode 16: 404 - 404: Not Found
+NoneType: None
+2025-12-19 15:23:39,614 - __main__ - ERROR - Error: Frame 5097 from episode 16 not found.
+2025-12-19 15:23:39,615 - __main__ - ERROR - ✖ Error processing frame
