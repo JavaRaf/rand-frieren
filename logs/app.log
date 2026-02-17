@@ -1442,3 +1442,7 @@ httpx.ReadTimeout: The read operation timed out
 NoneType: None
 2026-01-17 03:59:47,340 - __main__ - ERROR - Error: Frame 5136 from episode 16 not found.
 2026-01-17 03:59:47,340 - __main__ - ERROR - ✖ Error processing frame
+2026-02-17 19:20:24,568 - src.frames_util - ERROR - HTTP error while downloading frame 5063 from episode 16: 404 - 404: Not Found
+NoneType: None
+2026-02-17 19:20:24,568 - __main__ - ERROR - Error: Frame 5063 from episode 16 not found.
+2026-02-17 19:20:24,568 - __main__ - ERROR - ✖ Error processing frame
