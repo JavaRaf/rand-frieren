@@ -1446,3 +1446,7 @@ NoneType: None
 NoneType: None
 2026-02-17 19:20:24,568 - __main__ - ERROR - Error: Frame 5063 from episode 16 not found.
 2026-02-17 19:20:24,568 - __main__ - ERROR - ✖ Error processing frame
+2026-03-20 18:54:35,913 - src.frames_util - ERROR - HTTP error while downloading frame 5124 from episode 16: 404 - 404: Not Found
+NoneType: None
+2026-03-20 18:54:35,913 - __main__ - ERROR - Error: Frame 5124 from episode 16 not found.
+2026-03-20 18:54:35,913 - __main__ - ERROR - ✖ Error processing frame
