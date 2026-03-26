@@ -1450,3 +1450,11 @@ NoneType: None
 NoneType: None
 2026-03-20 18:54:35,913 - __main__ - ERROR - Error: Frame 5124 from episode 16 not found.
 2026-03-20 18:54:35,913 - __main__ - ERROR - ✖ Error processing frame
+2026-03-26 13:18:32,294 - src.frames_util - ERROR - HTTP error while downloading frame 4030 from episode 7: 404 - {"status":"error","code":404,"message":"The hostname of the origin is unresolvable (DNS)"}
+NoneType: None
+2026-03-26 13:18:32,294 - __main__ - ERROR - Error: Frame 4030 from episode 7 not found.
+2026-03-26 13:18:32,294 - __main__ - ERROR - ✖ Error processing frame
+2026-03-26 13:18:49,589 - src.frames_util - ERROR - HTTP error while downloading frame 3707 from episode 2: 404 - {"status":"error","code":404,"message":"The requested URL returned error: 429"}
+NoneType: None
+2026-03-26 13:18:49,589 - __main__ - ERROR - Error: Frame 3707 from episode 2 not found.
+2026-03-26 13:18:49,589 - __main__ - ERROR - ✖ Error processing frame
